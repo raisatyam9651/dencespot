@@ -1,0 +1,93 @@
+/* About Doctor Section */
+.about-doctor-section {
+    padding: 80px 0;
+    background: #F9F9F9;
+}
+
+.doctor-bio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.doctor-bio-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-bio-image img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.doctor-bio-image:hover img {
+    transform: scale(1.02);
+}
+
+.doctor-bio-text h2 {
+    font-size: 2.5rem;
+    color: #1A2E44;
+    margin-bottom: 25px;
+}
+
+.doctor-bio-text h4 {
+    color: #1E73BE;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.doctor-bio-text p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.doctor-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.bio-pill {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1px solid #E3F2FD;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.bio-pill i {
+    color: #1E73BE;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+    .doctor-bio-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .doctor-bio-text h2 {
+        font-size: 2.2rem;
+    }
+
+    .doctor-highlights {
+        justify-content: center;
+    }
+}
