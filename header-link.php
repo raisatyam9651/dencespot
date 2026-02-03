@@ -3,6 +3,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <!-- SEO Meta Tags -->
+<meta name="google-site-verification" content="lY4q2j4iJeavvMLFbV79PMyxrUoZwh-sV1bhIt4CNSU" />
+
+
 <title>
     <?php echo isset($pageTitle) ? $pageTitle : 'Best Hair Transplant Clinic in Gurugram | DenceSpot'; ?>
 </title>
