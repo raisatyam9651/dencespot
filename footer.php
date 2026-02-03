@@ -16,13 +16,13 @@
       <div class="footer-col">
         <h3>Hair Services</h3>
         <ul class="footer-links">
-          <li><a href="hair-transplant-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Hair Transplant</a></li>
-          <li><a href="beard-transplant-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Beard Transplant</a></li>
-          <li><a href="hair-prp-treatment-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Hair PRP</a></li>
-          <li><a href="hair-microneedling-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Microneedling</a></li>
-          <li><a href="dandruff-treatment-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Dandruff Treatment</a>
+          <li><a href="hair-transplant-in-gurgaon"><i class="fas fa-chevron-right"></i> Hair Transplant</a></li>
+          <li><a href="beard-transplant-in-gurgaon"><i class="fas fa-chevron-right"></i> Beard Transplant</a></li>
+          <li><a href="hair-prp-treatment-in-gurgaon"><i class="fas fa-chevron-right"></i> Hair PRP</a></li>
+          <li><a href="hair-microneedling-in-gurgaon"><i class="fas fa-chevron-right"></i> Microneedling</a></li>
+          <li><a href="dandruff-treatment-in-gurgaon"><i class="fas fa-chevron-right"></i> Dandruff Treatment</a>
           </li>
-          <li><a href="laser-hair-removal-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Laser Hair Removal</a>
+          <li><a href="laser-hair-removal-in-gurgaon"><i class="fas fa-chevron-right"></i> Laser Hair Removal</a>
           </li>
         </ul>
       </div>
@@ -31,12 +31,12 @@
       <div class="footer-col">
         <h3>Skin Services</h3>
         <ul class="footer-links">
-          <li><a href="hydrafacial-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Hydrafacial</a></li>
-          <li><a href="botox-treatment-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Botox</a></li>
-          <li><a href="lip-blush-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Lip Blush</a></li>
-          <li><a href="face-prp-treatment-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Vampire Facial</a></li>
-          <li><a href="tattoo-removal-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Tattoo Removal</a></li>
-          <li><a href="mole-wart-removal-in-gurgaon.php"><i class="fas fa-chevron-right"></i> Mole Removal</a></li>
+          <li><a href="hydrafacial-in-gurgaon"><i class="fas fa-chevron-right"></i> Hydrafacial</a></li>
+          <li><a href="botox-treatment-in-gurgaon"><i class="fas fa-chevron-right"></i> Botox</a></li>
+          <li><a href="lip-blush-in-gurgaon"><i class="fas fa-chevron-right"></i> Lip Blush</a></li>
+          <li><a href="face-prp-treatment-in-gurgaon"><i class="fas fa-chevron-right"></i> Vampire Facial</a></li>
+          <li><a href="tattoo-removal-in-gurgaon"><i class="fas fa-chevron-right"></i> Tattoo Removal</a></li>
+          <li><a href="mole-wart-removal-in-gurgaon"><i class="fas fa-chevron-right"></i> Mole Removal</a></li>
         </ul>
       </div>
 
