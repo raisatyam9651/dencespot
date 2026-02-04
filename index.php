@@ -270,17 +270,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Doctor 3 (Featured Style) -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-prachi-new.png" alt="Dr. Prachi">
-                    </div>
-                    <h3>Dr. Prachi</h3>
-                    <p class="specialty">Consultant Dermatologist</p>
-                    <a href="#" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
