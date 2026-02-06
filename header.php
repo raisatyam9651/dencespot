@@ -50,7 +50,9 @@
                 </div>
 
                 <a href="./#doctors">Our Doctors</a>
-                <a href="./#contact" class="btn btn-secondary">Contact Us</a>
+                <a href="contact.php"
+                    class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?> btn btn-secondary"
+                    style="margin-left: 20px;">Contact Us</a>
             </nav>
         </div>
     </header>
