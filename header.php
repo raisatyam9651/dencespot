@@ -10,7 +10,7 @@
     <header>
         <div class="container navbar">
             <a href="./" class="logo">
-                <span style="color: var(--primary-color);">Dence</span>Spot
+                <img src="images/logo.png" alt="DenceSpot Skin Clinic">
             </a>
 
             <div class="hamburger" onclick="toggleMenu()">
