@@ -148,7 +148,7 @@ header {
 }
 
 .logo img {
-  max-width: 180px;
+  max-width: 50px;
   height: auto;
   display: block;
 }
@@ -565,6 +565,7 @@ header {
   }
 
   .logo img {
+    max-width: 50px;
     max-width: 50px;
   }
 
