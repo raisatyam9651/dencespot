@@ -28,10 +28,10 @@ include 'header.php';
         </div>
 
         <div class="hero-buttons">
-            <a href="#contact" class="btn-hero-primary">
+            <a href="contact.php" class="btn-hero-primary">
                 <i class="fas fa-plane-departure"></i> Plan Your Journey
             </a>
-            <a href="#contact" class="btn-hero-outline">
+            <a href="contact.php" class="btn-hero-outline">
                 <i class="fas fa-stethoscope"></i> Free Consultation
             </a>
         </div>
