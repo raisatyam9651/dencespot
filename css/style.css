@@ -148,8 +148,8 @@ header {
 }
 
 .logo img {
-  max-height: 90px;
-  width: auto;
+  max-width: 15%;
+  height: auto;
 }
 
 .nav-links {
@@ -563,9 +563,7 @@ header {
     display: block;
   }
 
-  .logo img {
-    max-height: 60px;
-  }
+
 }
 
 /* Services Section */
