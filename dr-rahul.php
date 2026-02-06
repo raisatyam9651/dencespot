@@ -68,7 +68,7 @@ include 'header.php';
                 </div>
 
                 <div style="margin-top: 30px;">
-                    <a href="./#contact" class="btn btn-secondary">Book Appointment with Dr. Rahul</a>
+                    <a href="index.php#contact" class="btn btn-secondary">Book Appointment with Dr. Rahul</a>
                 </div>
             </div>
         </div>

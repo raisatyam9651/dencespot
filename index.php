@@ -356,7 +356,7 @@ include 'header.php';
 </section>
 
 <!-- New Appointment & Testimonial Split Section (Reference Based) -->
-<section class="app-split-container">
+<section id="contact" class="app-split-container">
     <!-- Left: Appointment Form -->
     <div class="app-left-form">
         <h2>Book an<br>Appointment</h2>
