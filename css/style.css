@@ -150,6 +150,7 @@ header {
 .logo img {
   max-width: 15%;
   height: auto;
+  display: block;
 }
 
 .nav-links {
