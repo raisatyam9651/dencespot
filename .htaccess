@@ -19,3 +19,5 @@ Redirect 301 '/beard-transplant/' 'https://dencespot.com/beard-transplant-in-gur
 Redirect 301 '/laser-hair-removal/' 'https://dencespot.com/laser-hair-removal-in-gurgaon'
 Redirect 301 '/contact-us/' 'https://dencespot.com/contact'
 Redirect 301 '/face-and-skin-treatment/' 'https://dencespot.com/skin-treatment-in-gurgaon'
+Redirect 301 '/about-us/' 'https://dencespot.com/about-us'
+Redirect 301 '/privacy-policy/' 'https://dencespot.com/'
