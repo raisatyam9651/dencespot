@@ -206,7 +206,7 @@ include 'header.php';
                     </div>
                     <h3>Dr. Rahul</h3>
                     <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="#" class="view-profile-btn">View Profile</a>
+                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
                 </div>
             </div>
 
@@ -218,7 +218,7 @@ include 'header.php';
                     </div>
                     <h3>Dr. Nyra</h3>
                     <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="#" class="view-profile-btn">View Profile</a>
+                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
                 </div>
             </div>
 
