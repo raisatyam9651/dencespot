@@ -12,7 +12,7 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L,NE]
 
-Redirect 301 'hair-transplant/' 'https://dencespot.com/hair-transplant-in-gurgaon'
+Redirect 301 '/hair-transplant/' 'https://dencespot.com/hair-transplant-in-gurgaon'
 Redirect 301 '/best-hair-transplant/' 'https://dencespot.com/hair-transplant-in-gurgaon'
 Redirect 301 '/hair-transplant-2/' 'https://dencespot.com/hair-transplant-in-gurgaon'
 Redirect 301 '/beard-transplant/' 'https://dencespot.com/beard-transplant-in-gurgaon'
