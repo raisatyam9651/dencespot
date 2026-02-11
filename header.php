@@ -494,7 +494,7 @@
                 formData.append('action', 'whatsapp_lead');
 
                 // Send data to PHP handler
-                fetch('whatsapp_handler.php', {
+                fetch('whatsapp_handler', {
                     method: 'POST',
                     body: formData
                 })
