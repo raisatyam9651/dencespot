@@ -40,7 +40,7 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
 }
 
 // Email configuration
-$to_email = 'satyamrai374@gmail.com, contact@retrofusion.in, ';
+$to_email = 'satyamrai374@gmail.com';
 $subject = 'New WhatsApp Lead from Website';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
 
