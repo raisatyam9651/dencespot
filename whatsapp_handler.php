@@ -5,11 +5,11 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Check if request is POST
-if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    http_response_code(405);
-    echo json_encode(['success' => false, 'message' => 'Method not allowed']);
-    exit;
-}
+// if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+//     http_response_code(405);
+//     echo json_encode(['success' => false, 'message' => 'Method not allowed']);
+//     exit;
+// }
 
 // Check if action is whatsapp_lead
 if (!isset($_POST['action']) || $_POST['action'] !== 'whatsapp_lead') {
