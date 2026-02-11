@@ -509,7 +509,7 @@
 
                             // Redirect to WhatsApp
                             const message = `Hi, I'm ${name}. My phone number is ${phone}. I'm interested in your services.`;
-                            const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B919359553046&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
+                            const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B918178330800&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
                             window.open(whatsappUrl, '_blank');
 
                             // Reset form
