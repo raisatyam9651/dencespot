@@ -25,3 +25,4 @@
 <link rel="stylesheet" href="css/doctor-grid.css">
 <link rel="stylesheet" href="css/hero-modern.css">
 <link rel="stylesheet" href="css/rotate.css">
+<link rel="stylesheet" href="css/treatment-separate.css">

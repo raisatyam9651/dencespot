@@ -1,6 +1,7 @@
-/* Minimal Doctor Grid Styling */
 .doctors-grid-section {
     background: #FFFFFF;
+    padding: 30px 0;
+    /* Override section-padding */
 }
 
 .doctors-grid-container {
@@ -8,7 +9,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     max-width: 900px;
-    margin: 60px auto 0;
+    margin: 20px auto 0;
     /* Add top margin for overlapping circle */
 }
 

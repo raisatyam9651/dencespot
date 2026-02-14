@@ -85,25 +85,47 @@ include 'header.php';
 <!-- 2. Services Section -->
 <section id="services" class="section-padding services">
     <div class="container">
-        <div class="modern-service-grid">
-            <!-- Item 1: Text Intro -->
-            <div class="service-text-block">
-                <span class="service-label">Explore Us</span>
-                <h2>Skin & Hair Treatments for Every Concern</h2>
-                <p>At DenceSpot Clinic, we offer the most effective skin and hair care solutions using FDA-approved,
-                    result-oriented technologies. Whether you're battling acne, hair fall, wrinkles, or pigmentation,
-                    our customized approach makes us the top-rated clinic in Gurugram.</p>
-            </div>
+        <!-- Intro Text Block (Full Width) -->
+        <div class="service-text-block full-width-intro">
+            <span class="service-label">Explore Us</span>
+            <h2>Skin & Hair Treatments for Every Concern</h2>
+            <p>At DenceSpot Clinic, we offer the most effective skin and hair care solutions using FDA-approved,
+                result-oriented technologies. Whether you're battling acne, hair fall, wrinkles, or pigmentation,
+                our customized approach makes us the top-rated clinic in Gurugram.</p>
+        </div>
 
-            <!-- Item 2: Hair Transplant -->
+        <!-- Hair Treatments Section -->
+        <h3 class="treatment-category-title">Hair Treatments</h3>
+        <div class="modern-service-grid">
+            <!-- Item 1: Hair Transplant -->
             <a href="hair-transplant-in-gurgaon.php" class="modern-service-card">
-                <img src="images/Hair-transplant.jpg" alt="Hair Transplant" class="img-rotate-90">
+                <img src="images/hair-transplant-original.jpg" alt="Hair Transplant">
                 <div class="modern-service-overlay">
                     <h3>Hair Transplant</h3>
                 </div>
             </a>
 
-            <!-- Item 3: HydraFacial -->
+            <!-- Item 2: Beard Transplant -->
+            <a href="beard-transplant-in-gurgaon.php" class="modern-service-card">
+                <img src="images/service-beard.png" alt="Beard Transplant">
+                <div class="modern-service-overlay">
+                    <h3>Beard Transplant</h3>
+                </div>
+            </a>
+
+            <!-- Item 3: Hair Loss / PRP -->
+            <a href="hair-prp-treatment-in-gurgaon.php" class="modern-service-card">
+                <img src="images/service-hair.png" alt="Hair Loss Solutions">
+                <div class="modern-service-overlay">
+                    <h3>Hair Loss Solutions</h3>
+                </div>
+            </a>
+        </div>
+
+        <!-- Skin Treatments Section -->
+        <h3 class="treatment-category-title">Skin Treatments</h3>
+        <div class="modern-service-grid">
+            <!-- Item 1: HydraFacial -->
             <a href="hydrafacial-in-gurgaon.php" class="modern-service-card">
                 <img src="images/hydrafacial.jpg" alt="Hydrafacial">
                 <div class="modern-service-overlay">
@@ -111,7 +133,7 @@ include 'header.php';
                 </div>
             </a>
 
-            <!-- Item 4: Laser Hair Removal -->
+            <!-- Item 2: Laser Hair Removal -->
             <a href="laser-hair-removal-in-gurgaon.php" class="modern-service-card">
                 <img src="images/laser-hair-removel-gurgaon.jpg" alt="Laser Hair Removal">
                 <div class="modern-service-overlay">
@@ -119,7 +141,7 @@ include 'header.php';
                 </div>
             </a>
 
-            <!-- Item 5: Botox -->
+            <!-- Item 3: Botox -->
             <a href="botox-treatment-in-gurgaon.php" class="modern-service-card">
                 <img src="images/botox.jpg" alt="Botox">
                 <div class="modern-service-overlay">
@@ -127,11 +149,26 @@ include 'header.php';
                 </div>
             </a>
 
-            <!-- Item 6: Fillers/Lip Blush -->
+            <!-- Item 4: Lip Blush & Fillers -->
             <a href="lip-blush-in-gurgaon.php" class="modern-service-card">
                 <img src="images/lip-nlush.jpg" alt="Lip Blush & Fillers">
                 <div class="modern-service-overlay">
                     <h3>Lip Blush & Fillers</h3>
+                </div>
+            </a>
+
+            <!-- Item 5: Carbon Facial (Added to fill grid if needed, or leave 4) -->
+            <a href="carbon-facial-in-gurgaon.php" class="modern-service-card">
+                <img src="images/service-anti-ageing.png" alt="Carbon Facial">
+                <div class="modern-service-overlay">
+                    <h3>Carbon Facial</h3>
+                </div>
+            </a>
+            <!-- Item 6: Chemical Peel -->
+            <a href="chemical-peel-treatment-in-gurgaon.php" class="modern-service-card">
+                <img src="images/service-skin.png" alt="Chemical Peel">
+                <div class="modern-service-overlay">
+                    <h3>Chemical Peel</h3>
                 </div>
             </a>
         </div>
