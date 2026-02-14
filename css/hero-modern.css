@@ -1,0 +1,203 @@
+/* Layout Styles for Modern Hero */
+.hero-slider-modern {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/about-new.jpg');
+    /* Use user's image as background */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+    /* Adjust height as per design needs */
+    min-height: 600px;
+    display: flex;
+    /* Center content vertically */
+    align-items: center;
+}
+
+.hero-slides-modern {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.hero-slide-modern {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    /* Center the content wrapper */
+}
+
+.hero-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Left: Text Content */
+.hero-text-side {
+    max-width: 50%;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.hero-text-side h1 {
+    font-family: 'Outfit', sans-serif;
+    /* Use serif for this specific heading to match reference */
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    /* White */
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    /* Bold */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    /* Shadow */
+}
+
+.hero-text-side h1 span {
+    display: block;
+}
+
+.hero-text-side p {
+    font-family: 'Outfit', sans-serif;
+    color: #FAFAFA;
+    /* Off-white */
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    /* Semi-Bold */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    /* Shadow */
+}
+
+/* CTA Button */
+.btn-hero-modern {
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    color: #444;
+    /* Dark gray text */
+    padding: 10px 10px 10px 30px;
+    /* More padding left for text */
+    border-radius: 50px;
+    /* Pill shape */
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    gap: 15px;
+}
+
+.btn-icon-box {
+    background: #556080;
+    /* Muted blue/purple from image */
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-hero-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-hero-modern:hover .btn-icon-box {
+    background: #1A2E44;
+}
+
+/* Right: Image Side */
+.hero-image-side {
+    max-width: 60%;
+    /* Allow image to be large */
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* Align image to bottom */
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.hero-image-side img {
+    height: 95%;
+    /* Make model fill height */
+    width: auto;
+    object-fit: contain;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 992px) {
+    .hero-text-side h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-slider-modern {
+        height: 60vh;
+        /* Reduced height for mobile banner feel */
+        min-height: 400px;
+        align-items: flex-end;
+        /* Align text to bottom */
+        padding-top: 0;
+        padding-bottom: 20px;
+        /* 20px spacing from bottom */
+    }
+
+    .hero-content-wrapper {
+        flex-direction: column;
+        justify-content: flex-end;
+        /* Push content to bottom */
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-text-side {
+        max-width: 100%;
+        text-align: center;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        /* Space just above the very bottom padding */
+        z-index: 5;
+    }
+
+    .hero-text-side h1 {
+        font-size: 2rem;
+        /* Smaller for mobile to fit */
+        color: #FFFFFF;
+        /* High contrast white */
+        margin-bottom: 15px;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        /* Dark shadow for readability */
+    }
+
+    .hero-text-side p {
+        font-size: 1.05rem;
+        margin-bottom: 20px;
+        color: #FAFAFA;
+        /* Off-white */
+        font-weight: 500;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-image-side {
+        display: none;
+        /* Hide separate image, rely on background */
+    }
+
+
+}

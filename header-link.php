@@ -15,9 +15,12 @@
 
 <!-- Google Fonts -->
 <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
     rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=2">
 
 <!-- FontAwesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="css/form-section.css">
+<link rel="stylesheet" href="css/doctor-grid.css">
+<link rel="stylesheet" href="css/hero-modern.css">
