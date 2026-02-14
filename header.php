@@ -10,7 +10,7 @@
     <header>
         <div class="container navbar">
             <a href="./" class="logo">
-                <img src="images/logo.png" alt="DenceSpot Skin Clinic">
+                <img src="images/logo.png" alt="DenceSpot Skin Clinic" style="width: 90px;">
             </a>
 
             <div class="hamburger" onclick="toggleMenu()">

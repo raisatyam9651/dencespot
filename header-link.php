@@ -15,7 +15,7 @@
 
 <!-- Google Fonts -->
 <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Open+Sans:wght@400;600&family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
     rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=2">
 
