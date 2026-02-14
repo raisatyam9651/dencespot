@@ -1,0 +1,12 @@
+/* Rotation Classes */
+.img-rotate-90 {
+    transform: rotate(90deg) scale(1.6);
+    /* Use scale to ensure coverage if aspect ratio is off */
+    /* Adjust origin if needed, usually center is fine */
+}
+
+/* Ensure hover effect preservers rotation */
+.modern-service-card:hover .img-rotate-90 {
+    transform: rotate(90deg) scale(1.7);
+    /* Scale slightly larger on hover */
+}

@@ -97,7 +97,7 @@ include 'header.php';
 
             <!-- Item 2: Hair Transplant -->
             <a href="hair-transplant-in-gurgaon.php" class="modern-service-card">
-                <img src="images/hair-transplant-india.webp" alt="Hair Transplant">
+                <img src="images/Hair-transplant.jpg" alt="Hair Transplant" class="img-rotate-90">
                 <div class="modern-service-overlay">
                     <h3>Hair Transplant</h3>
                 </div>
@@ -105,7 +105,7 @@ include 'header.php';
 
             <!-- Item 3: HydraFacial -->
             <a href="hydrafacial-in-gurgaon.php" class="modern-service-card">
-                <img src="images/pigmentation-india.webp" alt="Hydrafacial">
+                <img src="images/hydrafacial.jpg" alt="Hydrafacial">
                 <div class="modern-service-overlay">
                     <h3>Hydrafacial</h3>
                 </div>
@@ -113,7 +113,7 @@ include 'header.php';
 
             <!-- Item 4: Laser Hair Removal -->
             <a href="laser-hair-removal-in-gurgaon.php" class="modern-service-card">
-                <img src="images/laser-hair-india.png" alt="Laser Hair Removal">
+                <img src="images/laser-hair-removel-gurgaon.jpg" alt="Laser Hair Removal">
                 <div class="modern-service-overlay">
                     <h3>Laser Hair Removal</h3>
                 </div>
@@ -121,7 +121,7 @@ include 'header.php';
 
             <!-- Item 5: Botox -->
             <a href="botox-treatment-in-gurgaon.php" class="modern-service-card">
-                <img src="images/botox-india.webp" alt="Botox">
+                <img src="images/botox.jpg" alt="Botox">
                 <div class="modern-service-overlay">
                     <h3>Botox</h3>
                 </div>
@@ -129,7 +129,7 @@ include 'header.php';
 
             <!-- Item 6: Fillers/Lip Blush -->
             <a href="lip-blush-in-gurgaon.php" class="modern-service-card">
-                <img src="images/pigmentation-india.webp" alt="Lip Blush & Fillers">
+                <img src="images/lip-nlush.jpg" alt="Lip Blush & Fillers">
                 <div class="modern-service-overlay">
                     <h3>Lip Blush & Fillers</h3>
                 </div>
@@ -177,7 +177,7 @@ include 'header.php';
             <!-- Card 1: Acne & Scars -->
             <div class="condition-card">
                 <div class="condition-img">
-                    <img src="images/acne-scar-india.png" alt="Acne & Scars">
+                    <img src="images/acne.jpg" alt="Acne & Scars">
                 </div>
                 <div class="condition-content">
                     <h3>Acne & Scars</h3>
@@ -190,7 +190,7 @@ include 'header.php';
             <!-- Card 2: Hair Loss -->
             <div class="condition-card">
                 <div class="condition-img">
-                    <img src="images/hair-transplant-india.webp" alt="Hair Loss">
+                    <img src="images/hair-loss.jpg" alt="Hair Loss">
                 </div>
                 <div class="condition-content">
                     <h3>Hair Loss</h3>
@@ -229,7 +229,7 @@ include 'header.php';
             <!-- Card 5: Unwanted Hair -->
             <div class="condition-card">
                 <div class="condition-img">
-                    <img src="images/laser-hair-india.png" alt="Unwanted Hair">
+                    <img src="images/unwanted-hair.jpg" alt="Unwanted Hair">
                 </div>
                 <div class="condition-content">
                     <h3>Unwanted Hair</h3>
@@ -242,7 +242,7 @@ include 'header.php';
             <!-- Card 6: Dull Skin -->
             <div class="condition-card">
                 <div class="condition-img">
-                    <img src="images/pigmentation-india.webp" alt="Dull Skin">
+                    <img src="images/dull.jpg" alt="Dull Skin">
                 </div>
                 <div class="condition-content">
                     <h3>Dull Skin</h3>
@@ -352,7 +352,7 @@ include 'header.php';
 </section>
 
 <!-- 6. Form Section -->
-<section class="bg-form-section" style="background-image: url('images/clinic-india.webp');">
+<section class="bg-form-section" style="background-image: none; background-color: #f4f4f4;">
     <div class="bg-overlay"></div>
     <div class="container centered-form-container">
         <div class="form-wrapper-glass">
