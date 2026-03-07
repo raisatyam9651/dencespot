@@ -451,7 +451,7 @@ include 'header.php';
 
     /* New Hero Section */
     .new-hero-section {
-        background-color: #EFEFEF;
+        background-color: #FAFCFF;
         padding: 50px 0 100px;
         position: relative;
         overflow: hidden;
@@ -475,7 +475,7 @@ include 'header.php';
     .hero-content h1 {
         font-size: 4.5rem;
         font-weight: 700;
-        color: #1b2f33;
+        color: #1A2E44;
         line-height: 1.1;
         margin-bottom: 25px;
         font-family: 'Outfit', sans-serif;
@@ -487,48 +487,25 @@ include 'header.php';
         margin-bottom: 40px;
         max-width: 90%;
     }
-    .hero-floating-box {
-        background: #fff;
-        border-radius: 50px;
-        display: flex;
+    .hero-cta-btn {
+        display: inline-flex;
         align-items: center;
-        padding: 8px 8px 8px 30px;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-        max-width: 450px;
-        position: relative;
-        z-index: 2;
-    }
-    .hero-input-area {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-    .hero-input-area label {
-        font-size: 0.75rem;
-        color: #aaa;
-        margin-bottom: 2px;
-    }
-    .hero-input-area input {
-        border: none;
-        outline: none;
-        font-size: 1.05rem;
-        color: #333;
-        font-weight: 600;
-        width: 100%;
-    }
-    .hero-btn {
-        background-color: #315c58;
-        color: #fff;
-        border: none;
+        background-color: #8A1038;
+        color: #fff !important;
+        text-decoration: none !important;
         border-radius: 40px;
-        padding: 16px 32px;
-        font-size: 1.05rem;
+        padding: 16px 36px;
+        font-size: 1.1rem;
         font-weight: 600;
         cursor: pointer;
         transition: 0.3s;
+        box-shadow: 0 10px 25px rgba(138, 16, 56, 0.2);
+        position: relative;
+        z-index: 2;
     }
-    .hero-btn:hover {
-        background-color: #234542;
+    .hero-cta-btn:hover {
+        background-color: #6a0b2a;
+        transform: translateY(-2px);
     }
     .dots-pattern {
         position: absolute;
@@ -604,7 +581,7 @@ include 'header.php';
             padding-right: 0;
             margin-bottom: 50px;
         }
-        .hero-floating-box {
+        .hero-cta-btn {
             margin: 0 auto;
         }
         .dots-pattern {
@@ -614,7 +591,7 @@ include 'header.php';
 
     /* New About Section */
     .new-about-section {
-        background-color: #FAFCFF;
+        background-color: #ffffff;
         padding: 100px 0;
         font-family: 'Inter', sans-serif;
     }
@@ -642,7 +619,7 @@ include 'header.php';
     }
     .about-text-content h2 {
         font-size: 3rem;
-        color: #0c2b4a;
+        color: #1A2E44;
         font-family: 'Outfit', sans-serif;
         font-weight: 600;
         line-height: 1.2;
@@ -679,7 +656,7 @@ include 'header.php';
         margin-bottom: 25px;
     }
     .discover-btn {
-        background-color: #0c395e; 
+        background-color: #8A1038; 
         color: #fff;
         border: none;
         border-radius: 30px;
@@ -694,7 +671,7 @@ include 'header.php';
         transition: 0.3s;
     }
     .discover-btn:hover {
-        background-color: #082945;
+        background-color: #6a0b2a;
     }
     .mid-col {
         flex: 0 0 30%;
@@ -724,7 +701,7 @@ include 'header.php';
     }
     .stat-item h3 {
         font-size: 3.5rem;
-        color: #0c2b4a;
+        color: #1A2E44;
         font-family: 'Outfit', sans-serif;
         font-weight: 700;
         margin-bottom: 5px;
@@ -767,7 +744,377 @@ include 'header.php';
         }
     }
 
+
+    /* New Treatment Procedure Section */
+    .new-procedure-section {
+        background-color: #FAFCFF;
+        padding: 100px 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .procedure-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .procedure-header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .procedure-header h2 {
+        font-size: 3rem;
+        color: #1A2E44;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .procedure-header p {
+        color: #555;
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+    .procedure-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+    .procedure-card {
+        background: #ffffff;
+        border-radius: 24px;
+        padding: 40px 30px;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.03);
+        transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        border: 1px solid #f1f1f1;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .procedure-card:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 20px 50px rgba(138, 16, 56, 0.08);
+        border-color: rgba(138, 16, 56, 0.2);
+    }
+    .procedure-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(138,16,56,0.03) 100%);
+        z-index: -1;
+        opacity: 0;
+        transition: 0.4s ease;
+    }
+    .procedure-card:hover::before {
+        opacity: 1;
+    }
+    .procedure-icon-wrapper {
+        width: 85px;
+        height: 85px;
+        background: #fff;
+        border: 2px solid rgba(138, 16, 56, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        color: #8A1038;
+        font-size: 2.2rem;
+        transition: 0.4s ease;
+        box-shadow: 0 8px 20px rgba(138, 16, 56, 0.05);
+    }
+    .procedure-card:hover .procedure-icon-wrapper {
+        background: #8A1038;
+        color: #ffffff;
+        transform: scale(1.1);
+        border-color: #8A1038;
+        box-shadow: 0 12px 25px rgba(138, 16, 56, 0.2);
+    }
+    .procedure-card h3 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.5rem;
+        color: #1A2E44;
+        font-weight: 600;
+        margin-bottom: 15px;
+        transition: 0.3s ease;
+    }
+    .procedure-card:hover h3 {
+        color: #8A1038;
+    }
+    .procedure-card p {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.7;
+        margin: 0;
+    }
+    .step-number {
+        position: absolute;
+        top: -15px;
+        right: -10px;
+        font-size: 7rem;
+        font-weight: 800;
+        color: rgba(138, 16, 56, 0.02);
+        font-family: 'Outfit', sans-serif;
+        line-height: 1;
+        transition: 0.4s ease;
+        z-index: -1;
+    }
+    .procedure-card:hover .step-number {
+        color: rgba(138, 16, 56, 0.05);
+        transform: scale(1.05) translate(-5px, 5px);
+    }
+    @media (max-width: 1200px) {
+        .procedure-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+    }
+    @media (max-width: 576px) {
+        .procedure-grid {
+            grid-template-columns: 1fr;
+        }
+        .procedure-header h2 {
+            font-size: 2.5rem;
+        }
+    }
+
+    /* Premium Results Section */
+    .premium-results-section {
+        background-color: #FAFCFF;
+        padding: 100px 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .results-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 60px;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .results-head-text h2 {
+        font-size: 3rem;
+        color: #1A2E44;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+    .results-head-text p {
+        color: #555;
+        font-size: 1.1rem;
+        max-width: 600px;
+    }
+    .premium-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .premium-result-card {
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.04);
+        transition: 0.3s ease;
+        position: relative;
+    }
+    .premium-result-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 25px 45px rgba(138, 16, 56, 0.08);
+    }
+    .premium-img-wrap {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    .premium-img-wrap img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        transition: 0.5s ease;
+    }
+    .premium-result-card:hover .premium-img-wrap img {
+        transform: scale(1.05);
+    }
+    .before-after-badge {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(26, 46, 68, 0.85);
+        color: #fff;
+        padding: 6px 18px;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        backdrop-filter: blur(5px);
+    }
+
+    /* Bento Grid Why Choose Us */
+    .bento-why-section {
+        background-color: #ffffff;
+        padding: 100px 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .bento-header {
+        text-align: center;
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+    .bento-header h2 {
+        font-size: 3rem;
+        color: #1A2E44;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .bento-header p {
+        color: #666;
+        font-size: 1.1rem;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .bento-grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 25px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .bento-box {
+        border-radius: 30px;
+        padding: 40px;
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bento-box:hover {
+        transform: translateY(-5px);
+    }
+    .bento-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    .bento-box h3 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+    .bento-box p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+    }
+    
+    /* Specific Bento Box Styles */
+    .bento-large {
+        grid-column: span 2;
+        background-color: #f4f8fc;
+        background-image: radial-gradient(circle at 90% 90%, rgba(138,16,56,0.05) 0%, transparent 40%);
+    }
+    .bento-large .bento-icon {
+        background-color: #ffffff;
+        color: #8A1038;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+    .bento-large h3, .bento-large p { color: #1A2E44; }
+
+    .bento-maroon {
+        background-color: #8A1038;
+        color: #ffffff;
+    }
+    .bento-maroon .bento-icon {
+        background-color: rgba(255,255,255,0.1);
+        color: #ffffff;
+    }
+    .bento-maroon h3, .bento-maroon p { color: #ffffff; }
+
+    .bento-navy {
+        background-color: #1A2E44;
+        color: #ffffff;
+        grid-column: span 2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bento-navy .bento-icon {
+        background-color: rgba(255,255,255,0.1);
+        color: #8A1038;
+        margin-bottom: 0;
+        margin-right: 30px;
+        flex-shrink: 0;
+    }
+    .bento-navy h3, .bento-navy p { color: #ffffff; }
+
+    .bento-light {
+        background-color: #fbf0f3;
+    }
+    .bento-light .bento-icon {
+        background-color: #ffffff;
+        color: #8A1038;
+        box-shadow: 0 10px 20px rgba(138,16,56,0.05);
+    }
+    .bento-light h3 { color: #1A2E44; }
+    .bento-light p { color: #555; }
+
+    @media (max-width: 992px) {
+        .results-head {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .btn-view-all {
+            margin-top: 20px;
+        }
+        .premium-gallery {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .bento-grid-wrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .bento-navy {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .bento-navy .bento-icon {
+            margin-bottom: 25px;
+        }
+    }
+    @media (max-width: 768px) {
+        .premium-gallery {
+            grid-template-columns: 1fr;
+        }
+        .bento-grid-wrapper {
+            grid-template-columns: 1fr;
+        }
+        .bento-large, .bento-navy {
+            grid-column: span 1;
+        }
+    }
+
 </style>
+
 
 
 <section class="new-hero-section">
@@ -778,13 +1125,7 @@ include 'header.php';
                 transplant specialists, and focus on patient satisfaction have earned us a reputation as the leading
                 Beard Hair Transplant Clinic in Gurgaon.</p>
             
-            <div class="hero-floating-box">
-                <div class="hero-input-area">
-                    <label>Your email address</label>
-                    <input type="text" placeholder="samantha@email.com">
-                </div>
-                <button class="hero-btn">Get Started</button>
-            </div>
+            <a href="contact.php" class="hero-cta-btn">Book an Appointment <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
             <div class="dots-pattern"></div>
         </div>
         <div class="hero-image-wrapper">
@@ -855,173 +1196,133 @@ include 'header.php';
 
 
 <!-- Beard Transplant Procedure Section -->
-<section class="benefits-section" style="background-color: #FAFAFA;">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2
-                style="color: #1A2E44; font-family: 'Outfit', 'Inter', sans-serif; font-size: 2.6rem; font-weight: 700;">
-                Our Treatment Procedure</h2>
-            <p
-                style="color: #666; max-width: 700px; margin: 0 auto; font-family: 'Inter', sans-serif; font-size: 1.05rem;">
-                Our advanced beard restoration process follows a systematic, minimally invasive approach to ensure
-                dense, natural-looking results.</p>
+
+<section class="new-procedure-section">
+    <div class="procedure-container">
+        <div class="procedure-header">
+            <h2>Our Treatment Procedure</h2>
+            <p>Our advanced beard restoration process follows a systematic, minimally invasive approach to ensure dense, natural-looking results.</p>
         </div>
 
-        <div class="benefits-grid">
+        <div class="procedure-grid">
             <!-- Step 1 -->
-            <div class="benefit-card" style="background: #ffffff;">
-                <div class="benefit-icon-box" style="background-color: rgba(138, 16, 56, 0.1); color: #8A1038;"><i
-                        class="fas fa-user-md"></i></div>
-                <h3 style="font-family: 'Outfit', 'Inter', sans-serif; font-weight: 600;">Consultation & Design</h3>
-                <p style="font-family: 'Inter', sans-serif; color: #555;">Detailed evaluation of your facial structure
-                    and donor area. The surgeon precisely designs your ideal beard line for a natural look.</p>
+            <div class="procedure-card">
+                <div class="step-number">01</div>
+                <div class="procedure-icon-wrapper">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h3>Consultation & Design</h3>
+                <p>Detailed evaluation of your facial structure and donor area. The surgeon precisely designs your ideal beard line for a natural look.</p>
             </div>
 
             <!-- Step 2 -->
-            <div class="benefit-card" style="background: #ffffff;">
-                <div class="benefit-icon-box" style="background-color: rgba(138, 16, 56, 0.1); color: #8A1038;"><i
-                        class="fas fa-microscope"></i></div>
-                <h3 style="font-family: 'Outfit', 'Inter', sans-serif; font-weight: 600;">Follicle Extraction</h3>
-                <p style="font-family: 'Inter', sans-serif; color: #555;">Using the advanced FUE technique, healthy hair
-                    follicles are individually extracted from the back of the scalp without creating any linear scar.
-                </p>
+            <div class="procedure-card">
+                <div class="step-number">02</div>
+                <div class="procedure-icon-wrapper">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3>Follicle Extraction</h3>
+                <p>Using the advanced FUE technique, healthy hair follicles are individually extracted from the back of the scalp without creating any linear scar.</p>
             </div>
 
             <!-- Step 3 -->
-            <div class="benefit-card" style="background: #ffffff;">
-                <div class="benefit-icon-box" style="background-color: rgba(138, 16, 56, 0.1); color: #8A1038;"><i
-                        class="fas fa-vial"></i></div>
-                <h3 style="font-family: 'Outfit', 'Inter', sans-serif; font-weight: 600;">Graft Preparation</h3>
-                <p style="font-family: 'Inter', sans-serif; color: #555;">Extracted hair follicles are thoroughly
-                    cleaned and sorted under high magnification to preserve maximum viability for facial
-                    transplantation.</p>
+            <div class="procedure-card">
+                <div class="step-number">03</div>
+                <div class="procedure-icon-wrapper">
+                    <i class="fas fa-vial"></i>
+                </div>
+                <h3>Graft Preparation</h3>
+                <p>Extracted hair follicles are thoroughly cleaned and sorted under high magnification to preserve maximum viability for facial transplantation.</p>
             </div>
 
             <!-- Step 4 -->
-            <div class="benefit-card" style="background: #ffffff;">
-                <div class="benefit-icon-box" style="background-color: rgba(138, 16, 56, 0.1); color: #8A1038;"><i
-                        class="fas fa-shield-alt"></i></div>
-                <h3 style="font-family: 'Outfit', 'Inter', sans-serif; font-weight: 600;">Precise Implantation</h3>
-                <p style="font-family: 'Inter', sans-serif; color: #555;">Grafts are strategically implanted into the
-                    beard region, aligning strictly with the natural angle and growth direction of your facial hair.</p>
+            <div class="procedure-card">
+                <div class="step-number">04</div>
+                <div class="procedure-icon-wrapper">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Precise Implantation</h3>
+                <p>Grafts are strategically implanted into the beard region, aligning strictly with the natural angle and growth direction of your facial hair.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="results-section" style="background-color: #ffffff;">
-    <div class="container">
 
-        <div class="results-header-row">
-            <div class="results-title-container">
-                <h2>Before and After Results</h2>
-            </div>
-            <a href="#" class="btn-view-all">View All Results</a>
+
+
+
+<section class="premium-results-section">
+    <div class="results-head">
+        <div class="results-head-text">
+            <h2>Before and After Results</h2>
+            <p>Real results from our patients. Witness the transformative power of our precise, high-density beard transplant techniques.</p>
         </div>
-
-        <div class="results-body">
-
-            <div class="results-gallery">
-                <!-- Result 1 -->
-                <div class="result-card">
-                    <div class="result-image-wrapper">
-                        <!-- Standard placeholder size for horizontal comparison images -->
-                        <img src="images/about-new.jpg" alt="Beard Transplant Before After 1">
-                    </div>
-                    <div class="result-labels">
-                        <span>Before</span>
-                        <span>After</span>
-                    </div>
-                </div>
-
-                <!-- Result 2 -->
-                <div class="result-card">
-                    <div class="result-image-wrapper">
-                        <img src="images/about-new.jpg" alt="Beard Transplant Before After 2">
-                    </div>
-                    <div class="result-labels">
-                        <span>Before</span>
-                        <span>After</span>
-                    </div>
-                </div>
-
-                <!-- Result 3 -->
-                <div class="result-card">
-                    <div class="result-image-wrapper">
-                        <img src="images/about-new.jpg" alt="Beard Transplant Before After 3">
-                    </div>
-                    <div class="result-labels">
-                        <span>Before</span>
-                        <span>After</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sticky Right-Hand Column CTA Buttons -->
-            <div class="results-sidebar-cta">
-                <a href="contact.php" class="sidebar-btn outline-light">
-                    <!-- Standard FontAwesome icons replacing the broken font-box from the screenshot -->
-                    <i class="far fa-calendar-check"></i>
-                    <span>BOOK AN<br>APPOINTMENT</span>
-                </a>
-            </div>
-
-        </div>
-
+        <a href="#" class="hero-cta-btn">View All Results</a>
     </div>
-</section>
 
-<!-- Advanced Techniques / Why Choose -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Why DenceSpot for Beard?</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">Beard transparency requires higher artistic skill
-                than scalp hair transplant.</p>
+    <div class="premium-gallery">
+        <div class="premium-result-card">
+            <div class="premium-img-wrap">
+                <img src="images/about-new.jpg" alt="Beard Transplant Result 1">
+                <div class="before-after-badge">Before & After</div>
+            </div>
         </div>
-
-        <div class="treatment-grid">
-            <!-- Feature 1 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <h4>Artistic Design</h4>
-                <p>We don't just fill gaps; we sculpt a beard style (Goatee, Full Beard, Stubble) that enhances your
-                    masculine features.</p>
+        <div class="premium-result-card">
+            <div class="premium-img-wrap">
+                <img src="images/about-new.jpg" alt="Beard Transplant Result 2">
+                <div class="before-after-badge">Before & After</div>
             </div>
-
-            <!-- Feature 2 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-microscope"></i>
-                </div>
-                <h4>Magnified Precision</h4>
-                <p>Performed under high magnification to ensure no visible scarring on the face or the donor area.</p>
-            </div>
-
-            <!-- Feature 3 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-sync-alt"></i>
-                </div>
-                <h4>Lifetime Results</h4>
-                <p>The transplanted hair is permanent and can be shaved, trimmed, and styled just like your natural
-                    beard.</p>
-            </div>
-
-            <!-- Feature 4 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <h4>Safe & Painless</h4>
-                <p>Done under local anesthesia, the procedure is virtually painless with quick recovery so you can
-                    return to work faster.</p>
+        </div>
+        <div class="premium-result-card">
+            <div class="premium-img-wrap">
+                <img src="images/about-new.jpg" alt="Beard Transplant Result 3">
+                <div class="before-after-badge">Before & After</div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Bento Grid Why Choose Us Section -->
+<section class="bento-why-section">
+    <div class="bento-header">
+        <h2>Why DenceSpot for Beard?</h2>
+        <p>Beard restoration requires exceptional artistic skill and precision, far more complex than a standard scalp hair transplant.</p>
+    </div>
+
+    <div class="bento-grid-wrapper">
+        <!-- Card 1 (Large Span) -->
+        <div class="bento-box bento-large">
+            <div class="bento-icon"><i class="fas fa-palette"></i></div>
+            <h3>Artistic Design & Sculpting</h3>
+            <p>We don't just fill gaps; we expertly sculpt a beard style—whether it's a Goatee, Full Beard, or Designer Stubble—that structurally enhances and complements your masculine facial features.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bento-box bento-maroon">
+            <div class="bento-icon"><i class="fas fa-microscope"></i></div>
+            <h3>Magnified Precision</h3>
+            <p>Performed under high magnification to ensure absolutely no visible scarring on the face or the donor area.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bento-box bento-light">
+            <div class="bento-icon"><i class="fas fa-sync-alt"></i></div>
+            <h3>Lifetime Results</h3>
+            <p>The transplanted hair is permanent and can be safely shaved, trimmed, and styled exactly like your natural beard.</p>
+        </div>
+
+        <!-- Card 4 (Navy Span) -->
+        <div class="bento-box bento-navy">
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                <div class="bento-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3 style="margin-bottom: 0;">Safe, Fast & Painless</h3>
+            </div>
+            <p style="max-width: 500px;">Executed completely under local anesthesia, the procedure is virtually painless with exceptionally quick recovery times, allowing you to return to your work and social life faster.</p>
+        </div>
+    </div>
+</section>
+
 
 <!-- Doctors Section -->
 <section id="doctors" class="section-padding doctors">
