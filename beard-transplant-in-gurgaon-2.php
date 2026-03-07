@@ -448,47 +448,411 @@ include 'header.php';
             font-size: 2.2rem;
         }
     }
+
+    /* New Hero Section */
+    .new-hero-section {
+        background-color: #EFEFEF;
+        padding: 50px 0 100px;
+        position: relative;
+        overflow: hidden;
+        font-family: 'Inter', sans-serif;
+    }
+    .hero-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        position: relative;
+        z-index: 2;
+    }
+    .hero-content {
+        flex: 0 0 50%;
+        position: relative;
+        padding-right: 40px;
+    }
+    .hero-content h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: #1b2f33;
+        line-height: 1.1;
+        margin-bottom: 25px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .hero-content p {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 40px;
+        max-width: 90%;
+    }
+    .hero-floating-box {
+        background: #fff;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        padding: 8px 8px 8px 30px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        max-width: 450px;
+        position: relative;
+        z-index: 2;
+    }
+    .hero-input-area {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-input-area label {
+        font-size: 0.75rem;
+        color: #aaa;
+        margin-bottom: 2px;
+    }
+    .hero-input-area input {
+        border: none;
+        outline: none;
+        font-size: 1.05rem;
+        color: #333;
+        font-weight: 600;
+        width: 100%;
+    }
+    .hero-btn {
+        background-color: #315c58;
+        color: #fff;
+        border: none;
+        border-radius: 40px;
+        padding: 16px 32px;
+        font-size: 1.05rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .hero-btn:hover {
+        background-color: #234542;
+    }
+    .dots-pattern {
+        position: absolute;
+        bottom: -40px;
+        left: -40px;
+        width: 100px;
+        height: 100px;
+        background-image: radial-gradient(#d5d5d5 2px, transparent 2px);
+        background-size: 15px 15px;
+        z-index: 1;
+    }
+    .hero-image-wrapper {
+        flex: 0 0 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+    }
+    .main-hero-img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+    }
+    .wavy-lines {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 120%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400"><path d="M 0 100 Q 150 0 300 100 T 600 100 T 900 100 T 1200 100" fill="none" stroke="%23A0ADB5" stroke-width="2"/><path d="M 0 150 Q 150 50 300 150 T 600 150 T 900 150 T 1200 150" fill="none" stroke="%23A0ADB5" stroke-width="2"/><path d="M 0 200 Q 150 100 300 200 T 600 200 T 900 200 T 1200 200" fill="none" stroke="%23A0ADB5" stroke-width="2"/><path d="M 0 250 Q 150 150 300 250 T 600 250 T 900 250 T 1200 250" fill="none" stroke="%23A0ADB5" stroke-width="2"/></svg>') no-repeat center center;
+        background-size: cover;
+        z-index: 1;
+        opacity: 0.6;
+    }
+    .floating-circle {
+        position: absolute;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        border: 5px solid #fff;
+        z-index: 3;
+    }
+    .circle-1 {
+        width: 100px;
+        height: 100px;
+        top: 15%;
+        left: 5%;
+    }
+    .circle-2 {
+        width: 80px;
+        height: 80px;
+        bottom: 15%;
+        left: -5%;
+    }
+    .circle-3 {
+        width: 110px;
+        height: 110px;
+        right: 0%;
+        top: 45%;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .hero-container {
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero-content {
+            padding-right: 0;
+            margin-bottom: 50px;
+        }
+        .hero-floating-box {
+            margin: 0 auto;
+        }
+        .dots-pattern {
+            display: none;
+        }
+    }
+
+    /* New About Section */
+    .new-about-section {
+        background-color: #FAFCFF;
+        padding: 100px 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .about-top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 70px;
+    }
+    .about-label {
+        flex: 0 0 20%;
+    }
+    .about-label span {
+        font-size: 1.1rem;
+        color: #666;
+        font-weight: 500;
+    }
+    .about-text-content {
+        flex: 0 0 75%;
+    }
+    .about-text-content h2 {
+        font-size: 3rem;
+        color: #0c2b4a;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+    .about-text-content p {
+        font-size: 1.05rem;
+        color: #555;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+    .about-images-grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 90px;
+    }
+    .img-col {
+        display: flex;
+        flex-direction: column;
+        border-radius: 24px;
+        overflow: hidden;
+    }
+    .left-col {
+        flex: 0 0 35%;
+        background: transparent;
+    }
+    .img-large {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        border-radius: 24px;
+        margin-bottom: 25px;
+    }
+    .discover-btn {
+        background-color: #0c395e; 
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        padding: 16px 32px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: 0.3s;
+    }
+    .discover-btn:hover {
+        background-color: #082945;
+    }
+    .mid-col {
+        flex: 0 0 30%;
+        margin-top: 100px;
+    }
+    .right-col {
+        flex: 0 0 30%;
+        margin-top: 50px;
+    }
+    .img-medium {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+
+    .about-stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #e1e8ed;
+        padding-top: 50px;
+    }
+    .stat-item {
+        text-align: center;
+        flex: 1;
+    }
+    .stat-item h3 {
+        font-size: 3.5rem;
+        color: #0c2b4a;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .stat-item p {
+        font-size: 1rem;
+        color: #777;
+        font-weight: 500;
+    }
+    .stat-divider {
+        width: 1px;
+        height: 70px;
+        background-color: #e1e8ed;
+    }
+    
+    @media (max-width: 992px) {
+        .about-top-row {
+            flex-direction: column;
+        }
+        .about-label {
+            margin-bottom: 20px;
+        }
+        .about-images-grid {
+            flex-direction: column;
+            gap: 30px;
+        }
+        .img-col {
+            width: 100%;
+            margin-top: 0 !important;
+        }
+        .about-stats-row {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .stat-divider {
+            display: none;
+        }
+        .stat-item {
+            flex: 0 0 45%;
+        }
+    }
+
 </style>
 
-<section class="slant-hero">
-    <div class="slant-hero-mobile-img"></div>
-    <div class="slant-hero-wrapper">
-        <div class="slant-hero-content">
-            <div class="slant-text-area">
-                <h1>Beard Hair Transplant<br>in Gurugram</h1>
-                <p>Looking for Beard Hair Reconstruction in Gurugram? Our commitment to excellence, experienced beard
-                    transplant specialists, and focus on patient satisfaction have earned us a reputation as the leading
-                    Beard Hair Transplant Clinic in Gurgaon.</p>
+
+<section class="new-hero-section">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Beard Hair Transplant<br>in Gurugram</h1>
+            <p>Looking for Beard Hair Reconstruction in Gurugram? Our commitment to excellence, experienced beard
+                transplant specialists, and focus on patient satisfaction have earned us a reputation as the leading
+                Beard Hair Transplant Clinic in Gurgaon.</p>
+            
+            <div class="hero-floating-box">
+                <div class="hero-input-area">
+                    <label>Your email address</label>
+                    <input type="text" placeholder="samantha@email.com">
+                </div>
+                <button class="hero-btn">Get Started</button>
             </div>
+            <div class="dots-pattern"></div>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="wavy-lines"></div>
+            <img src="images/beard_hero_image.png" alt="Beard Hero" class="main-hero-img">
+            <img src="images/about-new.jpg" class="floating-circle circle-1" alt="">
+            <img src="images/dr-nyra-new.jpg" class="floating-circle circle-2" alt="">
+            <img src="images/dr-rahul-bio.jpg" class="floating-circle circle-3" alt="">
         </div>
     </div>
 </section>
 
 
-<section class="intro-section">
-    <div class="intro-container">
-        <div class="intro-content">
-            <h2>Beard Transplant in Gurgaon</h2>
-            <p>At puberty in males hormones start taking their effect and beard & moustache hairs become thicker and
-                transform into their final forms within a few years following puberty. The genetics plays an important
-                role in the texture and quality of the beard, and moustache. There could be various problems causing the
-                loss of beard and moustache. Autoimmune disorders related to hormone level changes or skin diseases
-                could show their course leading to loss of facial hair in Men. Often skin diseases called Alopecia
-                Areata also cause hair loss in the facial region. Steroids may help reverse the condition but in many
-                cases, <span class="red-highlight">hair transplantation</span> remains the only solution.</p>
 
-            <p>Hair transplantation technique based on the transfer of healthy hair follicles (grafts) from the
-                hair-bearing area to the beardless area. DenceSpot Clinic offers the best <strong>beard transplant in
-                    Gurgaon</strong>. The clinic offers you the most chosen and latest transplant technique in the world
-                performed by Dr. Rahul (MD, Dermatology) and his team.</p>
+
+<section class="new-about-section">
+    <div class="about-container">
+        <!-- Top Text Row -->
+        <div class="about-top-row">
+            <div class="about-label">
+                <span>About Us</span>
+            </div>
+            <div class="about-text-content">
+                <h2>Beard Transplant in Gurgaon</h2>
+                <p>At puberty in males hormones start taking their effect and beard & moustache hairs become thicker and transform into their final forms within a few years following puberty. The genetics plays an important role in the texture and quality of the beard, and moustache. There could be various problems causing the loss of beard and moustache. Autoimmune disorders related to hormone level changes or skin diseases could show their course leading to loss of facial hair in Men. Often skin diseases called Alopecia Areata also cause hair loss in the facial region. Steroids may help reverse the condition but in many cases, <span class="red-highlight">hair transplantation</span> remains the only solution.</p>
+                <p>Hair transplantation technique based on the transfer of healthy hair follicles (grafts) from the hair-bearing area to the beardless area. DenceSpot Clinic offers the best <strong>beard transplant in Gurgaon</strong>. The clinic offers you the most chosen and latest transplant technique in the world performed by Dr. Rahul (MD, Dermatology) and his team.</p>
+            </div>
         </div>
-        <div class="intro-image-wrapper">
-            <div class="intro-image-inner">
-                <img src="images/about-new.jpg" alt="Man with a beard looking in the mirror">
+
+        <!-- Middle Images Grid -->
+        <div class="about-images-grid">
+            <div class="img-col left-col">
+                <img src="images/about-new.jpg" class="img-large" alt="About Image 1">
+                <button class="discover-btn">Discover Our Story <i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="img-col mid-col">
+                <img src="images/service-beard.png" class="img-medium" alt="About Image 2">
+            </div>
+            <div class="img-col right-col">
+                <img src="images/results-beard.jpg" onerror="this.src='images/about-new.jpg'" class="img-medium" alt="About Image 3">
+            </div>
+        </div>
+
+        <!-- Bottom Stats Row -->
+        <div class="about-stats-row">
+            <div class="stat-item">
+                <h3>12+</h3>
+                <p>Year Serving NY</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3>47+</h3>
+                <p>Consumers Helped</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Success Rate</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Record Verdicts</p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Beard Transplant Procedure Section -->
 <section class="benefits-section" style="background-color: #FAFAFA;">
