@@ -449,6 +449,12 @@ include 'header.php';
         }
     }
 
+    /* Prevent Theme Overrides for Icons */
+    .fas, .far, .fab, .fa-solid, .fa {
+        font-family: "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome" !important;
+        font-weight: 900 !important;
+    }
+
     /* New Hero Section */
     .new-hero-section {
         background-color: #FAFCFF;
@@ -1125,7 +1131,7 @@ include 'header.php';
                 transplant specialists, and focus on patient satisfaction have earned us a reputation as the leading
                 Beard Hair Transplant Clinic in Gurgaon.</p>
             
-            <a href="contact.php" class="hero-cta-btn">Book an Appointment <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+            <a href="contact.php" class="hero-cta-btn">Book an Appointment <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
             <div class="dots-pattern"></div>
         </div>
         <div class="hero-image-wrapper">
@@ -1159,7 +1165,7 @@ include 'header.php';
         <div class="about-images-grid">
             <div class="img-col left-col">
                 <img src="images/about-new.jpg" class="img-large" alt="About Image 1">
-                <button class="discover-btn">Discover Our Story <i class="fas fa-chevron-right"></i></button>
+                <button class="discover-btn">Discover Our Story <i class="fa-solid fa-chevron-right"></i></button>
             </div>
             <div class="img-col mid-col">
                 <img src="images/service-beard.png" class="img-medium" alt="About Image 2">
@@ -1209,7 +1215,7 @@ include 'header.php';
             <div class="procedure-card">
                 <div class="step-number">01</div>
                 <div class="procedure-icon-wrapper">
-                    <i class="fas fa-user-md"></i>
+                    <i class="fa-solid fa-user-doctor"></i>
                 </div>
                 <h3>Consultation & Design</h3>
                 <p>Detailed evaluation of your facial structure and donor area. The surgeon precisely designs your ideal beard line for a natural look.</p>
@@ -1219,7 +1225,7 @@ include 'header.php';
             <div class="procedure-card">
                 <div class="step-number">02</div>
                 <div class="procedure-icon-wrapper">
-                    <i class="fas fa-microscope"></i>
+                    <i class="fa-solid fa-microscope"></i>
                 </div>
                 <h3>Follicle Extraction</h3>
                 <p>Using the advanced FUE technique, healthy hair follicles are individually extracted from the back of the scalp without creating any linear scar.</p>
@@ -1229,7 +1235,7 @@ include 'header.php';
             <div class="procedure-card">
                 <div class="step-number">03</div>
                 <div class="procedure-icon-wrapper">
-                    <i class="fas fa-vial"></i>
+                    <i class="fa-solid fa-vial"></i>
                 </div>
                 <h3>Graft Preparation</h3>
                 <p>Extracted hair follicles are thoroughly cleaned and sorted under high magnification to preserve maximum viability for facial transplantation.</p>
@@ -1239,7 +1245,7 @@ include 'header.php';
             <div class="procedure-card">
                 <div class="step-number">04</div>
                 <div class="procedure-icon-wrapper">
-                    <i class="fas fa-bullseye"></i>
+                    <i class="fa-solid fa-bullseye"></i>
                 </div>
                 <h3>Precise Implantation</h3>
                 <p>Grafts are strategically implanted into the beard region, aligning strictly with the natural angle and growth direction of your facial hair.</p>
@@ -1293,21 +1299,21 @@ include 'header.php';
     <div class="bento-grid-wrapper">
         <!-- Card 1 (Large Span) -->
         <div class="bento-box bento-large">
-            <div class="bento-icon"><i class="fas fa-palette"></i></div>
+            <div class="bento-icon"><i class="fa-solid fa-palette"></i></div>
             <h3>Artistic Design & Sculpting</h3>
             <p>We don't just fill gaps; we expertly sculpt a beard style—whether it's a Goatee, Full Beard, or Designer Stubble—that structurally enhances and complements your masculine facial features.</p>
         </div>
 
         <!-- Card 2 -->
         <div class="bento-box bento-maroon">
-            <div class="bento-icon"><i class="fas fa-microscope"></i></div>
+            <div class="bento-icon"><i class="fa-solid fa-microscope"></i></div>
             <h3>Magnified Precision</h3>
             <p>Performed under high magnification to ensure absolutely no visible scarring on the face or the donor area.</p>
         </div>
 
         <!-- Card 3 -->
         <div class="bento-box bento-light">
-            <div class="bento-icon"><i class="fas fa-sync-alt"></i></div>
+            <div class="bento-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
             <h3>Lifetime Results</h3>
             <p>The transplanted hair is permanent and can be safely shaved, trimmed, and styled exactly like your natural beard.</p>
         </div>
@@ -1315,7 +1321,7 @@ include 'header.php';
         <!-- Card 4 (Navy Span) -->
         <div class="bento-box bento-navy">
             <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                <div class="bento-icon"><i class="fas fa-shield-alt"></i></div>
+                <div class="bento-icon"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3 style="margin-bottom: 0;">Safe, Fast & Painless</h3>
             </div>
             <p style="max-width: 500px;">Executed completely under local anesthesia, the procedure is virtually painless with exceptionally quick recovery times, allowing you to return to your work and social life faster.</p>
