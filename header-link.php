@@ -1,3 +1,6 @@
+<?php if (isset($base_path)) {
+    echo "<base href=\"$base_path\">\n";
+} ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +14,11 @@
 </title>
 <meta name="description"
     content="<?php echo isset($pageDesc) ? $pageDesc : 'DenceSpot Clinic is a trusted hair transplant & skin care clinic in Gurugram offering advanced aesthetic treatments by expert doctors.'; ?>">
+<meta name="keywords"
+    content="<?php echo isset($pageKeywords) ? $pageKeywords : 'hair transplant gurgaon, skin clinic gurugram, dermatologist gurgaon, hair prp gurgaon, hydrafacial gurgaon'; ?>">
+<meta name="robots" content="<?php echo isset($pageRobots) ? $pageRobots : 'index, follow'; ?>">
+<meta name="author" content="<?php echo isset($pageAuthor) ? $pageAuthor : 'DenceSpot Clinic'; ?>">
+<link rel="publisher" href="<?php echo isset($pagePublisher) ? $pagePublisher : 'https://dencespot.com/'; ?>">
 <link rel="canonical" href="<?php echo isset($pageCanonical) ? $pageCanonical : 'https://dencespot.com/'; ?>">
 
 <!-- Google Fonts -->

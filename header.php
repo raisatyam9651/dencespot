@@ -49,6 +49,7 @@
                     </div>
                 </div>
 
+                <a href="blog/" class="<?php echo ($currentPage == 'blog') ? 'active' : ''; ?>">Blog</a>
                 <a href="./#doctors">Our Doctors</a>
                 <a href="contact.php"
                     class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?> btn btn-secondary"

@@ -37,6 +37,7 @@
           <li><a href="face-prp-treatment-in-gurgaon"><i class="fas fa-chevron-right"></i> Vampire Facial</a></li>
           <li><a href="tattoo-removal-in-gurgaon"><i class="fas fa-chevron-right"></i> Tattoo Removal</a></li>
           <li><a href="mole-wart-removal-in-gurgaon"><i class="fas fa-chevron-right"></i> Mole Removal</a></li>
+          <li><a href="blog/"><i class="fas fa-chevron-right"></i> Our Blog</a></li>
         </ul>
       </div>
 
