@@ -190,6 +190,121 @@ include 'header.php';
     </div>
 </section>
 
+<!-- Happy Indian Patients Section -->
+<section class="indian-patients-section" style="padding: 80px 0; background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h5 style="color: #27AE60; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">Real Patients, Real Results</h5>
+            <h2 style="color: #1A2E44; font-size: 2.5rem; margin-bottom: 15px;">Our Happy Indian Patients</h2>
+            <p style="color: #666; max-width: 650px; margin: 0 auto;">Thousands of satisfied patients across India have transformed their lives with our expert hair restoration procedures at DenceSpot Clinic, Gurgaon.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 900px; margin: 0 auto;">
+            <!-- Patient 1 -->
+            <div style="background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.10); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.10)';">
+                <div style="position: relative; overflow: hidden; height: 300px;">
+                    <img src="images/indian-patient-1.png" alt="Happy Indian Hair Transplant Patient - Gurgaon" style="width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s ease;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(26,46,68,0.85)); padding: 25px 20px 20px;">
+                        <div style="display: flex; align-items: center; gap: 5px; margin-bottom: 4px;">
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                        </div>
+                        <p style="color: #fff; font-size: 0.85rem; margin: 0;">"Natural hairline restored in just 12 months!"</p>
+                    </div>
+                </div>
+                <div style="padding: 20px;">
+                    <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Arjun S., 34</h4>
+                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Sector 29, Gurgaon</p>
+                    <p style="color: #666; font-size: 0.88rem; margin: 0;">FUE Hair Transplant — 2,500 Grafts</p>
+                </div>
+            </div>
+
+            <!-- Patient 2 -->
+            <div style="background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.10); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.10)';">
+                <div style="position: relative; overflow: hidden; height: 300px;">
+                    <img src="images/indian-patient-2.png" alt="Satisfied Indian Patient After Hair Transplant - DenceSpot Clinic" style="width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s ease;">
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(26,46,68,0.85)); padding: 25px 20px 20px;">
+                        <div style="display: flex; align-items: center; gap: 5px; margin-bottom: 4px;">
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
+                        </div>
+                        <p style="color: #fff; font-size: 0.85rem; margin: 0;">"Confidence fully restored. Best decision ever!"</p>
+                    </div>
+                </div>
+                <div style="padding: 20px;">
+                    <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Rajesh M., 42</h4>
+                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> DLF Phase 2, Gurgaon</p>
+                    <p style="color: #666; font-size: 0.88rem; margin: 0;">DHI + PRP Hair Transplant — 3,200 Grafts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Before & After Results Section -->
+<section class="before-after-section" style="padding: 80px 0; background: #fff;">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h5 style="color: #27AE60; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">Transformations</h5>
+            <h2 style="color: #1A2E44; font-size: 2.5rem; margin-bottom: 15px;">Before & After Results</h2>
+            <p style="color: #666; max-width: 650px; margin: 0 auto;">See the remarkable transformations our Indian patients have experienced. These are real results from real procedures performed at DenceSpot Clinic, Gurgaon.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+
+            <!-- Case 1 -->
+            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
+                <img src="images/before-after-1.png" alt="Hair Transplant Before and After - Indian Male Patient Case 1" style="width: 100%; display: block;">
+                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 1: Male Patient, 35</h4>
+                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">FUE — 2,800 Grafts Transplanted</p>
+                    </div>
+                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">12 Months</div>
+                </div>
+            </div>
+
+            <!-- Case 2 -->
+            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
+                <img src="images/before-after-2.png" alt="Hair Transplant Before and After - Indian Male Patient Case 2" style="width: 100%; display: block;">
+                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 2: Male Patient, 44</h4>
+                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">DHI — 3,500 Grafts Transplanted</p>
+                    </div>
+                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">14 Months</div>
+                </div>
+            </div>
+
+            <!-- Case 3 -->
+            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
+                <img src="images/before-after-3.png" alt="Hair Transplant Before and After - Indian Female Patient Case 3" style="width: 100%; display: block;">
+                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 3: Female Patient, 32</h4>
+                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">FUE + PRP — 1,500 Grafts</p>
+                    </div>
+                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">10 Months</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA under results -->
+        <div style="text-align: center; margin-top: 50px;">
+            <p style="color: #666; margin-bottom: 20px; font-size: 1rem;">Want to see more results? Book a free consultation at our Gurgaon clinic.</p>
+            <a href="#booking" style="display: inline-block; background: linear-gradient(135deg, #27AE60, #1A8A4A); color: #fff; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 6px 20px rgba(39,174,96,0.35); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(39,174,96,0.45)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 6px 20px rgba(39,174,96,0.35)';">
+                <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Your Free Consultation
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- Doctors Section -->
 <section id="doctors" class="section-padding doctors">
     <div class="container">
