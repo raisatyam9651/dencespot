@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hydrafacial in Gurgaon | Best Skin Rejuvenation at DenceSpot';
+$pageTitle = 'Hydrafacial in Gurgaon | DenceSpot';
 $pageDesc = 'Get the best Hydrafacial in Gurgaon at DenceSpot. Deep cleanse, exfoliate, and hydrate your skin for an instant glow. Suitable for all skin types.';
 $pageCanonical = 'https://dencespot.com/hydrafacial-in-gurgaon.php';
 $currentPage = 'hydrafacial';

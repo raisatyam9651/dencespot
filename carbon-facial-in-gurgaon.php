@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Carbon Facial in Gurgaon | Best Carbon Peel Treatment at DenceSpot';
+$pageTitle = 'Carbon Facial in Gurgaon | DenceSpot';
 $pageDesc = 'Get the famous Hollywood Peel (Carbon Facial) in Gurgaon at DenceSpot. Laser skin resurfacing for instant glow, acne control, and pore reduction. Book now.';
 $pageCanonical = 'https://dencespot.com/carbon-facial-in-gurgaon.php';
 $currentPage = 'carbon-facial';

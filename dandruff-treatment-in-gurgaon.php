@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Dandruff Treatment in Gurgaon | Best Anti-Dandruff Solution at DenceSpot';
+$pageTitle = 'Dandruff Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Get rid of stubborn dandruff with the best medical dandruff treatment in Gurgaon at DenceSpot. Expert dermatologists for dry, oily & fungal dandruff. Book a consultation.';
 $pageCanonical = 'https://dencespot.com/dandruff-treatment-in-gurgaon.php';
 $currentPage = 'dandruff-treatment';

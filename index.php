@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Best Hair Transplant Clinic in Gurugram | DenceSpot';
+$pageTitle = 'Best Hair & Skin Clinic in Gurgaon | DenceSpot';
 $pageDesc = 'DenceSpot Clinic is a trusted hair transplant & skin care clinic in Gurugram offering advanced aesthetic treatments by expert doctors.';
 $pageCanonical = 'https://dencespot.com/';
 $currentPage = 'home';

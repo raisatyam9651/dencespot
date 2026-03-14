@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Basai | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Basai | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Basai at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-basai.php';
 $currentPage = 'hair-fall-treatment';

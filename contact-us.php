@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Contact Us | DenceSpot Skin & Hair Clinic Gurugram';
+$pageTitle = 'Contact Us | DenceSpot';
 $pageDesc = 'Book an appointment at DenceSpot Clinic. Call +91 8178330800 or visit us at C Block, Sector 39, Gurugram for expert hair and skin treatments.';
 $pageCanonical = 'https://dencespot.com/contact-us';
 $currentPage = 'contact';

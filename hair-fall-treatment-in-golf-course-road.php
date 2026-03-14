@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Golf Course Road | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Golf Course Road | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Golf Course Road at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-golf-course-road.php';
 $currentPage = 'hair-fall-treatment';

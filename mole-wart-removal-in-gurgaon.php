@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Mole & Wart Removal in Gurgaon | Safe Radiofrequency Treatment';
+$pageTitle = 'Mole & Wart Removal in Gurgaon | DenceSpot';
 $pageDesc = 'Get safe and scar-less Mole, Wart, and Skin Tag removal in Gurgaon at DenceSpot. Advanced Radiofrequency (RF) Cautery for instant results.';
 $pageCanonical = 'https://dencespot.com/mole-wart-removal-in-gurgaon.php';
 $currentPage = 'mole-removal';

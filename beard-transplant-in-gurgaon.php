@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Beard Transplant in Gurgaon | Best Facial Hair Restoration at DenceSpot';
+$pageTitle = 'Beard Transplant in Gurgaon | DenceSpot';
 $pageDesc = 'Achieve a fuller, denser beard with expert beard transplant in Gurgaon. DenceSpot Clinic offers advanced FUE beard restoration for natural-looking results. Book a consultation.';
 $pageCanonical = 'https://dencespot.com/beard-transplant-in-gurgaon.php';
 $currentPage = 'skin-treatments';

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Botox Treatment in Gurgaon | Anti-Wrinkle Injections at DenceSpot';
+$pageTitle = 'Botox Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Look younger with the best Botox treatment in Gurgaon at DenceSpot. Safe anti-aging injections for wrinkles, fine lines, and face slimming by expert doctors.';
 $pageCanonical = 'https://dencespot.com/botox-treatment-in-gurgaon.php';
 $currentPage = 'botox-treatment';

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Chemical Peeling in Gurgaon | Best Skin Peels at DenceSpot';
+$pageTitle = 'Chemical Peel Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Rejuvenate your skin with medical Chemical Peeling treatment in Gurgaon at DenceSpot. Treat acne, pigmentation, and scars with customized Glycolic & Salicylic peels.';
 $pageCanonical = 'https://dencespot.com/chemical-peel-treatment-in-gurgaon.php';
 $currentPage = 'chemical-peel';

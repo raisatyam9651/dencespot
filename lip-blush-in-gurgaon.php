@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Lip Blush in Gurgaon | Permanent Lip Makeup at DenceSpot';
+$pageTitle = 'Lip Blush in Gurgaon | DenceSpot';
 $pageDesc = 'Get the perfect pout with Lip Blush treatment in Gurgaon at DenceSpot. Semi-permanent lip tinting for defined, naturally colored lips. Book your consultation.';
 $pageCanonical = 'https://dencespot.com/lip-blush-in-gurgaon.php';
 $currentPage = 'lip-blush';

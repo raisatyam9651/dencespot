@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Wazirabad | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Wazirabad | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Wazirabad at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-wazirabad.php';
 $currentPage = 'hair-fall-treatment';

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Sector 112 | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Sector 112 | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Sector 112 at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-sector-112.php';
 $currentPage = 'hair-fall-treatment';

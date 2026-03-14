@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'About Us | DenceSpot Skin & Hair Clinic Gurugram';
+$pageTitle = 'About Us | DenceSpot';
 $pageDesc = 'Learn about DenceSpot Clinic - a leading hair transplant and skin care clinic in Gurugram with 10+ years of aesthetic excellence and expert dermatologists.';
 $pageCanonical = 'https://dencespot.com/about-us';
 $currentPage = 'about';

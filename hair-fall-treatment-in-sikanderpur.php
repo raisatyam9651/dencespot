@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Sikanderpur | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Sikanderpur | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Sikanderpur at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-sikanderpur.php';
 $currentPage = 'hair-fall-treatment';

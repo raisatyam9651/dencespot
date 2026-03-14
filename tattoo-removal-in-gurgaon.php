@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Laser Tattoo Removal in Gurgaon | Painless & Scar-Free at DenceSpot';
+$pageTitle = 'Laser Tattoo Removal in Gurgaon | DenceSpot';
 $pageDesc = 'Remove unwanted tattoos safely with advanced Laser Tattoo Removal in Gurgaon at DenceSpot. Effective for all ink colors, painless, and scar-free results.';
 $pageCanonical = 'https://dencespot.com/tattoo-removal-in-gurgaon.php';
 $currentPage = 'tattoo-removal';

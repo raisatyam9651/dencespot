@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Face PRP / Vampire Facial in Gurgaon | Skin Rejuvenation';
+$pageTitle = 'Face PRP Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Rejuvenate your skin with the famous Vampire Facial (Face PRP) in Gurgaon at DenceSpot. Natural anti-aging treatment for glowing, youthful skin. Book now.';
 $pageCanonical = 'https://dencespot.com/face-prp-treatment-in-gurgaon.php';
 $currentPage = 'face-prp';

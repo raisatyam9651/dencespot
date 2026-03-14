@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Skin Treatment in Gurgaon | Best Dermatologist in Gurgaon - DenceSpot';
+$pageTitle = 'Skin Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Get the best skin treatment in Gurgaon at DenceSpot. Our expert dermatologists offer advanced solutions for acne, anti-aging, pigmentation, and scars. Book your consultation today.';
 $pageCanonical = 'https://dencespot.com/skin-treatment-in-gurgaon.php';
 $currentPage = 'skin-treatments';

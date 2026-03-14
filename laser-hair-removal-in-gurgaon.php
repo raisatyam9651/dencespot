@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Laser Hair Removal in Gurgaon | Best Skin Treatment at DenceSpot';
+$pageTitle = 'Laser Hair Removal in Gurgaon | DenceSpot';
 $pageDesc = 'Experience pain-free and permanent laser hair removal in Gurgaon at DenceSpot. Our advanced diode laser technology ensures safe and effective results for all skin types. Book a consultation today.';
 $pageCanonical = 'https://dencespot.com/laser-hair-removal-in-gurgaon.php';
 $currentPage = 'skin-treatments';

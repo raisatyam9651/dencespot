@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair LED Therapy in Gurgaon | Low Level Laser Therapy (LLLT)';
+$pageTitle = 'Hair LED Therapy in Gurgaon | DenceSpot';
 $pageDesc = 'Restore hair density with advanced Hair LED Therapy (LLLT) in Gurgaon at DenceSpot. Painless, non-invasive light therapy to stop hair fall and stimulate growth.';
 $pageCanonical = 'https://dencespot.com/hair-led-therapy-in-gurgaon.php';
 $currentPage = 'hair-led-therapy';

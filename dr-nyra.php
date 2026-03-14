@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Dr. Nyra | Aesthetic & Hair Transplant Surgeon in Gurugram';
+$pageTitle = 'Dr. Nyra - Hair & Skin Specialist | DenceSpot';
 $pageDesc = 'Meet Dr. Nyra, the owner of DenceSpot Clinic. An MBBS graduate from D.Y. Patil Medical College with extensive international experience in Germany.';
 $pageCanonical = 'https://dencespot.com/dr-nyra.php';
 $currentPage = 'doctors';

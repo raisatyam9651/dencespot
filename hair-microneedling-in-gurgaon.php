@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Microneedling in Gurgaon | Dermapen Treatment for Hair Growth';
+$pageTitle = 'Hair Microneedling in Gurgaon | DenceSpot';
 $pageDesc = 'Boost hair growth naturally with Hair Microneedling treatment in Gurgaon at DenceSpot. Advanced collagen induction therapy to activate dormant follicles.';
 $pageCanonical = 'https://dencespot.com/hair-microneedling-in-gurgaon.php';
 $currentPage = 'hair-microneedling';

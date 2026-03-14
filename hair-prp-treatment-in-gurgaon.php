@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair PRP Treatment in Gurgaon | Best PRP Therapy for Hair Loss';
+$pageTitle = 'Hair PRP Treatment in Gurgaon | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair PRP treatment in Gurgaon at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-prp-treatment-in-gurgaon.php';
 $currentPage = 'hair-prp';

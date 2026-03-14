@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in South City 1 | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in South City 1 | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in South City 1 at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-south-city-1.php';
 $currentPage = 'hair-fall-treatment';

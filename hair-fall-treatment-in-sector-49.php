@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Sector 49 | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Sector 49 | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Sector 49 at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-sector-49.php';
 $currentPage = 'hair-fall-treatment';

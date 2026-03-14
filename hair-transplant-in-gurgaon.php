@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Transplant in Gurgaon | Best Hair Loss Treatment at DenceSpot';
+$pageTitle = 'Hair Transplant in Gurgaon | DenceSpot';
 $pageDesc = 'Looking for the best hair transplant in Gurgaon? DenceSpot Clinic offers advanced FUE & FUT hair restoration with natural results. Book a free consultation today.';
 $pageCanonical = 'https://dencespot.com/hair-transplant-in-gurgaon.php';
 $currentPage = 'hair-transplant';
@@ -12,14 +12,14 @@ include 'header.php';
         <div class="service-hero-grid">
             <!-- Mobile Top Badge -->
             <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-shield-alt"></i> Advanced Hair Restoration
+                <i class="fas fa-shield"></i> Advanced Hair Restoration
             </div>
 
             <!-- Left: Text Content -->
             <div class="service-hero-content">
                 <!-- Pill Badge -->
                 <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-shield-alt"></i> Advanced Hair Restoration
+                    <i class="fas fa-shield"></i> Advanced Hair Restoration
                 </div>
 
                 <!-- Heading -->
@@ -36,7 +36,7 @@ include 'header.php';
                         <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Free Consultation
                     </a>
                     <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Call Now
+                        <i class="fas fa-phone" style="margin-right: 8px;"></i> Call Now
                     </a>
                 </div>
             </div>
@@ -104,7 +104,7 @@ include 'header.php';
         <div class="benefits-grid">
             <!-- Step 1 -->
             <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-user-md"></i></div>
+                <div class="benefit-icon-box"><i class="fas fa-user-doctor"></i></div>
                 <h3>Consultation & Assessment</h3>
                 <p>Comprehensive evaluation of your hair loss pattern, scalp health, and donor area to create a
                     personalized treatment plan tailored to your needs.</p>
@@ -160,7 +160,7 @@ include 'header.php';
             <!-- Treatment 2: FUT Technique -->
             <div class="treatment-card">
                 <div class="treatment-icon">
-                    <i class="fas fa-cut"></i>
+                    <i class="fas fa-scissors"></i>
                 </div>
                 <h4>FUT (Follicular Unit Transplantation)</h4>
                 <p>A strip of scalp is removed from the donor area, dissected into individual grafts, and
@@ -217,7 +217,7 @@ include 'header.php';
                 </div>
                 <div style="padding: 20px;">
                     <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Arjun S., 34</h4>
-                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Sector 29, Gurgaon</p>
+                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-location-dot" style="margin-right: 5px;"></i> Sector 29, Gurgaon</p>
                     <p style="color: #666; font-size: 0.88rem; margin: 0;">FUE Hair Transplant — 2,500 Grafts</p>
                 </div>
             </div>
@@ -239,7 +239,7 @@ include 'header.php';
                 </div>
                 <div style="padding: 20px;">
                     <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Rajesh M., 42</h4>
-                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> DLF Phase 2, Gurgaon</p>
+                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-location-dot" style="margin-right: 5px;"></i> DLF Phase 2, Gurgaon</p>
                     <p style="color: #666; font-size: 0.88rem; margin: 0;">DHI + PRP Hair Transplant — 3,200 Grafts</p>
                 </div>
             </div>

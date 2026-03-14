@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Dr. Rahul | Hair Transplant Specialist in Gurugram';
+$pageTitle = 'Dr. Rahul - Hair Transplant Surgeon | DenceSpot';
 $pageDesc = 'Meet Dr. Rahul, an expert MBBS + Trichologist at DenceSpot Clinic with over 7 years of experience in hair restoration and dermatology.';
 $pageCanonical = 'https://dencespot.com/dr-rahul.php';
 $currentPage = 'doctors';

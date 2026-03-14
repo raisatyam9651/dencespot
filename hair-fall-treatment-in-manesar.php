@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in Manesar | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in Manesar | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in Manesar at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-manesar.php';
 $currentPage = 'hair-fall-treatment';

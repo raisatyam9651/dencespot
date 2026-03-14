@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Hair Fall Treatment in DLF Phase 1 | Best Therapy for Hair Loss';
+$pageTitle = 'Hair Fall Treatment in DLF Phase 1 | DenceSpot';
 $pageDesc = 'Rejuvenate your hair with the best Hair Fall Treatment in DLF Phase 1 at DenceSpot. Natural hair restoration therapy to stop hair fall and stimulate growth. Book expert consultation.';
 $pageCanonical = 'https://dencespot.com/hair-fall-treatment-in-dlf-phase-1.php';
 $currentPage = 'hair-fall-treatment';
