@@ -219,19 +219,19 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/indian-beard-result-2.svg" alt="Indian Beard Transplant Before After Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Beard Follicle Support</h4>
-                        <p class="text-xs text-gray-400 mt-2">Boosting beard graft survival with growth factor therapy.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Patchy Beard Correction</h4>
+                        <p class="text-xs text-gray-400 mt-2">Full dense beard achieved from sparse patchy growth — 1800 grafts, FUE.</p>
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/ht-success-2.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/indian-beard-result-3.svg" alt="Indian Beard Transplant Full Beard Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Facial Hair Enhancement</h4>
-                        <p class="text-xs text-gray-400 mt-2">Strategic grafting for patchy beard correction.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Full Beard &amp; Sideburn Restoration</h4>
+                        <p class="text-xs text-gray-400 mt-2">Stylish full beard with sideburn coverage — 2200 grafts, FUE technique.</p>
                     </div>
                 </div></div>
         </div>

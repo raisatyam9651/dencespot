@@ -50,7 +50,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/prp_hair_man_1_1773672857000_1773672521172.png" alt="Hair PRP Result Gurgaon" class="w-full">
+                        <img src="assets/images/indian-prp-hero-result.svg" alt="Hair PRP Treatment Before After Result India" class="w-full">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Clinical Result
                         </div>

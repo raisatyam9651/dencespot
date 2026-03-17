@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f4f4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c68642;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0522d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="beard_dense" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d1a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="divider2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg2)" rx="0"/>
+
+  <!-- BEFORE label -->
+  <rect x="0" y="0" width="295" height="400" fill="#f8f8f8" rx="0"/>
+  <rect x="305" y="0" width="295" height="400" fill="#ffffff" rx="0"/>
+
+  <!-- Divider -->
+  <rect x="291" y="0" width="18" height="400" fill="url(#divider2)"/>
+  <text x="300" y="210" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90,300,210)">BEFORE / AFTER</text>
+
+  <!-- ===== BEFORE SIDE (Left) ===== -->
+  <!-- Before label badge -->
+  <rect x="15" y="12" width="70" height="24" rx="12" fill="#e5e7eb"/>
+  <text x="50" y="28" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="middle">BEFORE</text>
+
+  <!-- Head shape (Indian male - before) -->
+  <ellipse cx="148" cy="140" rx="68" ry="78" fill="url(#skin2)"/>
+  <!-- Forehead highlight -->
+  <ellipse cx="148" cy="105" rx="35" ry="20" fill="#d4915e" opacity="0.4"/>
+  <!-- Eyes -->
+  <ellipse cx="127" cy="128" rx="10" ry="7" fill="#1a0f00"/>
+  <ellipse cx="169" cy="128" rx="10" ry="7" fill="#1a0f00"/>
+  <ellipse cx="127" cy="127" rx="4" ry="4" fill="#0a0500"/>
+  <ellipse cx="169" cy="127" rx="4" ry="4" fill="#0a0500"/>
+  <!-- Eye whites -->
+  <ellipse cx="125" cy="127" rx="2" ry="2" fill="white" opacity="0.8"/>
+  <ellipse cx="167" cy="127" rx="2" ry="2" fill="white" opacity="0.8"/>
+  <!-- Eyebrows (thick, Indian) -->
+  <path d="M115 116 Q127 110 140 113" stroke="#1a0a00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M157 113 Q170 110 182 116" stroke="#1a0a00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <ellipse cx="148" cy="148" rx="10" ry="13" fill="#b5722a" opacity="0.5"/>
+  <path d="M138 155 Q148 162 158 155" stroke="#8b4513" stroke-width="2" fill="none"/>
+  <ellipse cx="141" cy="156" rx="5" ry="3" fill="#8b4513" opacity="0.4"/>
+  <ellipse cx="155" cy="156" rx="5" ry="3" fill="#8b4513" opacity="0.4"/>
+  <!-- Mouth -->
+  <path d="M135 172 Q148 180 161 172" stroke="#7a3b1e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Lips -->
+  <path d="M138 172 Q148 169 158 172 Q148 177 138 172Z" fill="#8b3a2a" opacity="0.7"/>
+
+  <!-- BEFORE: Patchy sparse beard (dots/sparse) -->
+  <!-- Chin sparse -->
+  <circle cx="143" cy="195" r="2.5" fill="#1a0a00" opacity="0.5"/>
+  <circle cx="152" cy="197" r="2" fill="#1a0a00" opacity="0.4"/>
+  <circle cx="136" cy="192" r="1.8" fill="#1a0a00" opacity="0.3"/>
+  <circle cx="160" cy="193" r="2" fill="#1a0a00" opacity="0.4"/>
+  <circle cx="148" cy="200" r="2.5" fill="#1a0a00" opacity="0.5"/>
+  <circle cx="133" cy="198" r="1.5" fill="#1a0a00" opacity="0.3"/>
+  <circle cx="163" cy="199" r="1.5" fill="#1a0a00" opacity="0.3"/>
+  <!-- Jaw left sparse -->
+  <circle cx="108" cy="180" r="2" fill="#1a0a00" opacity="0.35"/>
+  <circle cx="114" cy="188" r="1.5" fill="#1a0a00" opacity="0.3"/>
+  <circle cx="121" cy="175" r="1.8" fill="#1a0a00" opacity="0.3"/>
+  <!-- Jaw right sparse -->
+  <circle cx="188" cy="180" r="2" fill="#1a0a00" opacity="0.35"/>
+  <circle cx="182" cy="188" r="1.5" fill="#1a0a00" opacity="0.3"/>
+  <circle cx="175" cy="175" r="1.8" fill="#1a0a00" opacity="0.3"/>
+  <!-- Upper lip sparse moustache -->
+  <circle cx="140" cy="167" r="1.5" fill="#1a0a00" opacity="0.4"/>
+  <circle cx="148" cy="166" r="1.5" fill="#1a0a00" opacity="0.4"/>
+  <circle cx="156" cy="167" r="1.5" fill="#1a0a00" opacity="0.4"/>
+
+  <!-- Hair on head (before) -->
+  <ellipse cx="148" cy="75" rx="68" ry="30" fill="#1a0a00"/>
+  <path d="M80 80 Q85 50 148 48 Q211 50 216 80" fill="#1a0a00"/>
+
+  <!-- Neck -->
+  <rect x="127" y="210" width="42" height="35" rx="8" fill="url(#skin2)"/>
+  <!-- Shirt -->
+  <path d="M90 245 Q100 235 148 232 Q196 235 206 245 L215 280 L81 280 Z" fill="#1e3a5f"/>
+
+  <!-- BALD PATCH indicator -->
+  <path d="M112 175 Q118 165 128 170" stroke="#ff6b6b" stroke-width="1.5" fill="none" stroke-dasharray="3,2" opacity="0.7"/>
+  <circle cx="115" cy="180" r="12" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.5"/>
+  <text x="55" y="175" font-family="Arial,sans-serif" font-size="9" fill="#ef4444" font-weight="bold">Patchy</text>
+  <text x="55" y="185" font-family="Arial,sans-serif" font-size="9" fill="#ef4444" font-weight="bold">Area</text>
+
+  <!-- Before bottom label -->
+  <text x="148" y="305" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#374151" text-anchor="middle">Sparse / Patchy Beard</text>
+  <text x="148" y="320" font-family="Arial,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">Pre-Procedure</text>
+
+  <!-- ===== AFTER SIDE (Right) ===== -->
+  <!-- After label badge -->
+  <rect x="515" y="12" width="68" height="24" rx="12" fill="#0d9488"/>
+  <text x="549" y="28" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">AFTER</text>
+
+  <!-- Head shape (Indian male - after) -->
+  <ellipse cx="452" cy="140" rx="68" ry="78" fill="url(#skin2)"/>
+  <!-- Forehead highlight -->
+  <ellipse cx="452" cy="105" rx="35" ry="20" fill="#d4915e" opacity="0.4"/>
+  <!-- Eyes -->
+  <ellipse cx="431" cy="128" rx="10" ry="7" fill="#1a0f00"/>
+  <ellipse cx="473" cy="128" rx="10" ry="7" fill="#1a0f00"/>
+  <ellipse cx="431" cy="127" rx="4" ry="4" fill="#0a0500"/>
+  <ellipse cx="473" cy="127" rx="4" ry="4" fill="#0a0500"/>
+  <ellipse cx="429" cy="127" rx="2" ry="2" fill="white" opacity="0.8"/>
+  <ellipse cx="471" cy="127" rx="2" ry="2" fill="white" opacity="0.8"/>
+  <!-- Eyebrows -->
+  <path d="M419 116 Q431 110 444 113" stroke="#1a0a00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M461 113 Q474 110 486 116" stroke="#1a0a00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <ellipse cx="452" cy="148" rx="10" ry="13" fill="#b5722a" opacity="0.5"/>
+  <path d="M442 155 Q452 162 462 155" stroke="#8b4513" stroke-width="2" fill="none"/>
+  <ellipse cx="445" cy="156" rx="5" ry="3" fill="#8b4513" opacity="0.4"/>
+  <ellipse cx="459" cy="156" rx="5" ry="3" fill="#8b4513" opacity="0.4"/>
+  <!-- Mouth -->
+  <path d="M439 172 Q452 180 465 172" stroke="#7a3b1e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Lips -->
+  <path d="M442 172 Q452 169 462 172 Q452 177 442 172Z" fill="#8b3a2a" opacity="0.7"/>
+
+  <!-- AFTER: Full dense beard (Indian style - full jawline beard) -->
+  <!-- Full beard shape -->
+  <path d="M384 175 Q388 170 400 168 Q415 165 425 164 Q452 162 479 164 Q489 165 504 168 Q516 170 520 175 Q525 190 520 208 Q510 225 505 232 Q495 242 479 248 Q465 253 452 254 Q439 253 425 248 Q409 242 399 232 Q394 225 384 208 Q379 190 384 175Z" fill="url(#beard_dense)"/>
+  <!-- Beard texture lines -->
+  <path d="M420 170 L418 205" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <path d="M432 167 L430 210" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <path d="M444 165 L443 215" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <path d="M456 165 L456 215" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <path d="M468 167 L470 210" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <path d="M480 170 L484 205" stroke="#333" stroke-width="0.8" opacity="0.3"/>
+  <!-- Moustache - thick -->
+  <path d="M433 165 Q452 158 471 165 Q465 172 452 170 Q439 172 433 165Z" fill="#1a0a00"/>
+  <!-- Beard highlight/sheen -->
+  <path d="M430 180 Q445 175 452 177 Q459 175 470 180" stroke="#3a2a1a" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Chin hair detail -->
+  <path d="M445 240 Q452 248 459 240" stroke="#111" stroke-width="2" fill="none"/>
+
+  <!-- Hair on head (after - same) -->
+  <ellipse cx="452" cy="75" rx="68" ry="30" fill="#1a0a00"/>
+  <path d="M384 80 Q389 50 452 48 Q515 50 520 80" fill="#1a0a00"/>
+
+  <!-- Neck -->
+  <rect x="431" y="248" width="42" height="20" rx="8" fill="url(#skin2)"/>
+  <!-- Shirt -->
+  <path d="M394 265 Q404 255 452 252 Q500 255 510 265 L519 300 L385 300 Z" fill="#1e3a5f"/>
+
+  <!-- After smile indicator -->
+  <path d="M439 172 Q452 182 465 172" stroke="#c8a882" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- After bottom label -->
+  <text x="452" y="305" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0d9488" text-anchor="middle">Full Dense Beard</text>
+  <text x="452" y="320" font-family="Arial,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">9 Months Post-Procedure</text>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="335" width="600" height="65" fill="#0d9488"/>
+  <text x="300" y="357" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">DENCESPOT CLINIC — Beard Transplant Result</text>
+  <text x="300" y="373" font-family="Arial,sans-serif" font-size="10" fill="#99f6e4" text-anchor="middle">Indian Male | Age 28 | 1800 Grafts | FUE Technique</text>
+  <!-- Stars -->
+  <text x="230" y="393" font-family="Arial,sans-serif" font-size="13" fill="#fbbf24">★★★★★</text>
+  <text x="300" y="393" font-family="Arial,sans-serif" font-size="9" fill="#99f6e4" text-anchor="middle">Verified Patient</text>
+</svg>

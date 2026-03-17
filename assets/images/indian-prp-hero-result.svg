@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" width="700" height="480">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fafa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f8f5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skinPRP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c87941;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9a5b25;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0a00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairThin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1500;stop-opacity:0.55" />
+      <stop offset="100%" style="stop-color:#0d0500;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="dividerPRP" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="prpGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b45309;stop-opacity:1" />
+    </linearGradient>
+    <!-- PRP tube gradient -->
+    <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fde68a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="480" fill="url(#heroBg)" rx="20"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="700" height="52" fill="#0d9488" rx="20"/>
+  <rect x="0" y="32" width="700" height="20" fill="#0d9488"/>
+  <text x="350" y="32" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Hair PRP Treatment — Patient Transformation</text>
+
+  <!-- Main content area -->
+  <rect x="10" y="52" width="330" height="360" fill="#f7f7f7" rx="0"/>
+  <rect x="360" y="52" width="330" height="360" fill="#ffffff" rx="0"/>
+
+  <!-- Center divider -->
+  <rect x="331" y="52" width="38" height="360" fill="url(#dividerPRP)"/>
+  <text x="350" y="245" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90,350,245)">BEFORE  ●  AFTER</text>
+
+  <!-- ===== BEFORE SIDE ===== -->
+  <rect x="20" y="60" width="80" height="26" rx="13" fill="#e5e7eb"/>
+  <text x="60" y="77" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#6b7280" text-anchor="middle">BEFORE</text>
+
+  <!-- Head before -->
+  <ellipse cx="175" cy="190" rx="80" ry="92" fill="url(#skinPRP)"/>
+  <!-- Forehead highlight -->
+  <ellipse cx="175" cy="140" rx="42" ry="28" fill="#d4915e" opacity="0.35"/>
+
+  <!-- Thinning/receding hair line (before) -->
+  <!-- Very thin, patchy hair on crown -->
+  <path d="M105 155 Q115 115 175 108 Q235 115 245 155" fill="url(#hairThin)"/>
+  <!-- Thinning sides -->
+  <path d="M105 155 Q100 145 103 132 Q108 118 118 115 Q125 140 105 155Z" fill="url(#hairThin)"/>
+  <path d="M245 155 Q250 145 247 132 Q242 118 232 115 Q225 140 245 155Z" fill="url(#hairThin)"/>
+  <!-- Visible scalp through thin hair (bald patches) -->
+  <ellipse cx="175" cy="130" rx="35" ry="20" fill="url(#skinPRP)" opacity="0.6"/>
+  <ellipse cx="155" cy="120" rx="15" ry="10" fill="url(#skinPRP)" opacity="0.5"/>
+  <ellipse cx="195" cy="120" rx="15" ry="10" fill="url(#skinPRP)" opacity="0.5"/>
+  <!-- Some remaining hair strands -->
+  <path d="M135 155 Q140 125 155 115" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M145 155 Q150 118 165 110" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M165 152 Q168 112 175 108" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M185 152 Q182 112 175 108" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M205 155 Q200 118 185 110" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M215 155 Q210 125 195 115" stroke="#1a0a00" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Eyes before -->
+  <ellipse cx="152" cy="178" rx="12" ry="8" fill="#1a0f00"/>
+  <ellipse cx="198" cy="178" rx="12" ry="8" fill="#1a0f00"/>
+  <ellipse cx="152" cy="177" rx="5" ry="5" fill="#050200"/>
+  <ellipse cx="198" cy="177" rx="5" ry="5" fill="#050200"/>
+  <ellipse cx="150" cy="176" rx="2.5" ry="2.5" fill="white" opacity="0.8"/>
+  <ellipse cx="196" cy="176" rx="2.5" ry="2.5" fill="white" opacity="0.8"/>
+  <!-- Eyebrows before (slightly worried) -->
+  <path d="M138 165 Q152 157 167 161" stroke="#0d0500" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M184 161 Q199 157 212 165" stroke="#0d0500" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Worry lines -->
+  <path d="M160 158 Q163 153 166 158" stroke="#8b5e3c" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M185 158 Q188 153 191 158" stroke="#8b5e3c" stroke-width="1" fill="none" opacity="0.4"/>
+
+  <!-- Nose before -->
+  <path d="M168 200 Q175 212 182 200" stroke="#7a3c12" stroke-width="2" fill="none"/>
+  <ellipse cx="168" cy="206" rx="6" ry="4" fill="#7a3c12" opacity="0.35"/>
+  <ellipse cx="182" cy="206" rx="6" ry="4" fill="#7a3c12" opacity="0.35"/>
+
+  <!-- Mouth before (neutral/sad) -->
+  <path d="M160 228 Q175 224 190 228" stroke="#6b2f10" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Neck before -->
+  <rect x="152" y="272" width="46" height="42" rx="10" fill="url(#skinPRP)"/>
+  <!-- Shirt before -->
+  <path d="M100 314 Q115 302 175 298 Q235 302 250 314 L262 360 L88 360 Z" fill="#374151"/>
+
+  <!-- Receding hairline annotation -->
+  <path d="M145 120 Q130 110 118 105" stroke="#ef4444" stroke-width="1.5" opacity="0.8"/>
+  <rect x="52" y="92" width="66" height="28" rx="8" fill="#fee2e2"/>
+  <text x="85" y="103" font-family="Arial,sans-serif" font-size="9" fill="#dc2626" text-anchor="middle" font-weight="bold">Thinning &amp;</text>
+  <text x="85" y="114" font-family="Arial,sans-serif" font-size="9" fill="#dc2626" text-anchor="middle" font-weight="bold">Receding Hair</text>
+
+  <!-- Scalp visible annotation -->
+  <path d="M175 128 Q175 100 170 90" stroke="#ef4444" stroke-width="1.5" opacity="0.7"/>
+  <rect x="140" y="75" width="70" height="20" rx="8" fill="#fee2e2"/>
+  <text x="175" y="88" font-family="Arial,sans-serif" font-size="9" fill="#dc2626" text-anchor="middle" font-weight="bold">Visible Scalp</text>
+
+  <!-- Before label at bottom -->
+  <text x="175" y="385" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#374151" text-anchor="middle">Thinning / Hair Loss</text>
+  <text x="175" y="400" font-family="Arial,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">Before PRP Therapy</text>
+
+  <!-- ===== AFTER SIDE ===== -->
+  <rect x="598" y="60" width="80" height="26" rx="13" fill="#0d9488"/>
+  <text x="638" y="77" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">AFTER</text>
+
+  <!-- Head after -->
+  <ellipse cx="525" cy="190" rx="80" ry="92" fill="url(#skinPRP)"/>
+  <!-- Forehead highlight -->
+  <ellipse cx="525" cy="145" rx="42" ry="25" fill="#d4915e" opacity="0.35"/>
+
+  <!-- FULL dense hair after PRP -->
+  <path d="M445 162 Q450 118 525 108 Q600 118 605 162" fill="url(#hairDark)"/>
+  <!-- Hair density -->
+  <path d="M445 162 Q440 148 443 130 Q449 112 460 110 Q465 138 445 162Z" fill="url(#hairDark)"/>
+  <path d="M605 162 Q610 148 607 130 Q601 112 590 110 Q585 138 605 162Z" fill="url(#hairDark)"/>
+  <!-- Hair top coverage -->
+  <path d="M456 115 Q490 95 525 92 Q560 95 594 115" fill="url(#hairDark)"/>
+  <!-- Hair texture strands -->
+  <path d="M475 162 Q480 125 497 112" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M492 162 Q494 118 510 108" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M510 161 Q512 112 525 108" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M528 161 Q528 112 525 108" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M544 162 Q540 118 525 108" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M560 162 Q556 122 540 110" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M575 162 Q568 126 552 112" stroke="#1a0a00" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <!-- Hair shine highlights -->
+  <path d="M490 130 Q510 118 530 120" stroke="#2a1a0a" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M500 145 Q520 133 540 138" stroke="#2a1a0a" stroke-width="1.5" fill="none" opacity="0.25"/>
+
+  <!-- Eyes after (confident) -->
+  <ellipse cx="502" cy="178" rx="12" ry="8" fill="#1a0f00"/>
+  <ellipse cx="548" cy="178" rx="12" ry="8" fill="#1a0f00"/>
+  <ellipse cx="502" cy="177" rx="5" ry="5" fill="#050200"/>
+  <ellipse cx="548" cy="177" rx="5" ry="5" fill="#050200"/>
+  <ellipse cx="500" cy="176" rx="2.5" ry="2.5" fill="white" opacity="0.8"/>
+  <ellipse cx="546" cy="176" rx="2.5" ry="2.5" fill="white" opacity="0.8"/>
+
+  <!-- Eyebrows after (relaxed, confident) -->
+  <path d="M488 164 Q502 158 517 161" stroke="#0d0500" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M534 161 Q549 158 562 164" stroke="#0d0500" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose after -->
+  <path d="M518 200 Q525 212 532 200" stroke="#7a3c12" stroke-width="2" fill="none"/>
+  <ellipse cx="518" cy="206" rx="6" ry="4" fill="#7a3c12" opacity="0.35"/>
+  <ellipse cx="532" cy="206" rx="6" ry="4" fill="#7a3c12" opacity="0.35"/>
+
+  <!-- Mouth after (smile) -->
+  <path d="M508 226 Q525 238 542 226" stroke="#6b2f10" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M511 226 Q525 222 539 226 Q525 232 511 226Z" fill="#7a3a22" opacity="0.5"/>
+
+  <!-- Small beard/stubble after -->
+  <path d="M495 238 Q510 244 525 246 Q540 244 555 238 Q548 255 525 260 Q502 255 495 238Z" fill="#0d0500" opacity="0.4"/>
+
+  <!-- Neck after -->
+  <rect x="502" y="272" width="46" height="42" rx="10" fill="url(#skinPRP)"/>
+  <!-- Shirt after -->
+  <path d="M450 314 Q465 302 525 298 Q585 302 600 314 L612 360 L438 360 Z" fill="#1e3a5f"/>
+
+  <!-- New growth annotation -->
+  <path d="M450 130 Q430 115 420 100" stroke="#0d9488" stroke-width="1.5" opacity="0.8"/>
+  <rect x="365" y="86" width="56" height="28" rx="8" fill="#d1fae5"/>
+  <text x="393" y="97" font-family="Arial,sans-serif" font-size="9" fill="#065f46" text-anchor="middle" font-weight="bold">New Dense</text>
+  <text x="393" y="108" font-family="Arial,sans-serif" font-size="9" fill="#065f46" text-anchor="middle" font-weight="bold">Hair Growth</text>
+
+  <!-- After label at bottom -->
+  <text x="525" y="385" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#0d9488" text-anchor="middle">Restored Density</text>
+  <text x="525" y="400" font-family="Arial,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">6 Sessions PRP Therapy</text>
+
+  <!-- PRP TUBE decoration (right side flair) -->
+  <rect x="628" y="200" width="22" height="80" rx="6" fill="url(#tubeGold)" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="628" y="200" width="22" height="80" rx="6" fill="url(#tubeGrad)" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="631" y="198" width="16" height="10" rx="3" fill="#6b7280"/>
+  <ellipse cx="639" cy="280" rx="8" ry="5" fill="#fbbf24"/>
+  <!-- PRP label -->
+  <text x="639" y="248" font-family="Arial,sans-serif" font-size="7" fill="#92400e" text-anchor="middle" font-weight="bold">PRP</text>
+
+  <!-- Bottom info strip -->
+  <rect x="10" y="418" width="680" height="50" fill="#0d9488" rx="10"/>
+  <text x="350" y="438" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">DENCESPOT CLINIC — Hair PRP Treatment Result</text>
+  <text x="350" y="454" font-family="Arial,sans-serif" font-size="10" fill="#99f6e4" text-anchor="middle">Indian Male | Age 35 | 6 PRP Sessions | Visible Density Restored in 4 Months</text>
+  <!-- Stars -->
+  <text x="270" y="466" font-family="Arial,sans-serif" font-size="0" fill="#fbbf24">★★★★★</text>
+</svg>
