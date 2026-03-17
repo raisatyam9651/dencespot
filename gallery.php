@@ -154,7 +154,29 @@
                     </div>
                 </div>
 
-                <!-- Face PRP -->
+                <!-- Beard Sideburns -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="beard">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/indian-beard-result-1.png" alt="Beard Result - Sideburns" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Beard Result - Verified</span>
+                        <h3 class="text-xl font-bold mb-2">Sideburn Restoration</h3>
+                        <p class="text-gray-400 text-sm">Restoring the vital sideburn and jawline connection for a sharp look.</p>
+                    </div>
+                </div>
+
+                <!-- Face PRP 2 -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Skin Rejuvenation - Result" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Regeneration - Verified</span>
+                        <h3 class="text-xl font-bold mb-2">PRP Skin Rejuvenation</h3>
+                        <p class="text-gray-400 text-sm">Improving texture and natural glow using refined plasma therapy.</p>
+                    </div>
+                </div>
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
                     <div class="overflow-hidden">
                         <img src="assets/images/face_prp_real.png" alt="Aditya K. - Vampire Facial PRP" class="w-full h-64 object-cover">
