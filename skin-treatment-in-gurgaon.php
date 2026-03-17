@@ -1,349 +1,339 @@
-<?php
-$pageTitle = 'Skin Treatment in Gurgaon | DenceSpot';
-$pageDesc = 'Get the best skin treatment in Gurgaon at DenceSpot. Our expert dermatologists offer advanced solutions for acne, anti-aging, pigmentation, and scars. Book your consultation today.';
-$pageCanonical = 'https://dencespot.com/skin-treatment-in-gurgaon.php';
-$currentPage = 'skin-treatments';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Skin Clinic in Gurgaon | Top Dermatologist | Dencespot</title>
+    <meta name="description" content="Looking for the best skin treatment in Gurgaon? Dencespot Clinic offers advanced dermatology, anti-aging, acne scar solutions, and clinical facials by expert doctors.">
+    <meta name="keywords" content="Best Skin Clinic Gurgaon, Top Dermatologist Gurgaon, Skin Treatment Near Me, Acne Treatment Gurgaon, Anti-Aging Clinic">
+    
+    <title>Best Skin Clinic in Gurgaon | Top Dermatologist | Dencespot</title>
+    <meta name="description" content="Looking for the best skin treatment in Gurgaon? Dencespot Clinic offers advanced dermatology, anti-aging, acne scar solutions, and clinical facials by expert doctors.">
+    <meta name="keywords" content="Best Skin Clinic Gurgaon, Top Dermatologist Gurgaon, Skin Treatment Near Me, Acne Treatment Gurgaon, Anti-Aging Clinic">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- New Service Hero Section -->
-<section class="service-hero-section">
-    <div class="container">
-        <div class="service-hero-grid">
-            <!-- Mobile Top Badge -->
-            <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-spa"></i> Advanced Clinical Dermatology
-            </div>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-            <!-- Left: Text Content -->
-            <div class="service-hero-content">
-                <!-- Pill Badge -->
-                <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-spa"></i> Advanced Clinical Dermatology
-                </div>
-
-                <!-- Heading -->
-                <h1>Skin Treatment <span>in Gurgaon</span></h1>
-
-                <!-- Description -->
-                <p>Reveal your skin's natural radiance with our scientifically proven treatments. From acne control to
-                    anti-aging solutions, our expert dermatologists customize every procedure for your unique skin
-                    needs.</p>
-
-                <!-- Buttons -->
-                <div class="service-hero-buttons">
-                    <a href="#booking" class="btn-service-primary">
-                        <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Consultation
-                    </a>
-                    <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Call Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right: Image with Overlay -->
-            <div class="service-hero-image">
-                <img src="images/service-skin.png" alt="Flawless Skin Treatment"
-                    onerror="this.onerror=null; this.src='images/hair-transplant-hero.png'">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Statistics Section -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <!-- Stat 1: Happy Patients -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-smile"></i>
-                </div>
-                <div class="stat-number">15,000+</div>
-                <div class="stat-label">Glowing Faces</div>
-            </div>
-
-            <!-- Stat 2: Treatments/Year -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-clipboard-check"></i>
-                </div>
-                <div class="stat-number">50+</div>
-                <div class="stat-label">Advanced Treatments</div>
-            </div>
-
-            <!-- Stat 3: Safety -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Safe & USDA Approved</div>
-            </div>
-
-            <!-- Stat 4: Google Rating -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number">4.9</div>
-                <div class="stat-label">Google Rating</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Skin Treatment Options -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Comprehensive Skin Solutions</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">We address a wide range of skin concerns using the
-                latest medical technology and dermacosmetics.</p>
-        </div>
-
-        <div class="treatment-grid">
-            <!-- Treatment 1: Acne -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-band-aid"></i>
-                </div>
-                <h4>Acne & Scar Treatment</h4>
-                <p>Advanced chemical peels, laser resurfacing, and microneedling to clear active acne and smooth out
-                    deep pitted scars.</p>
-            </div>
-
-            <!-- Treatment 2: Anti-Ageing -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-syringe"></i>
-                </div>
-                <h4>Anti-Ageing & Fillers</h4>
-                <p>Restore youthful volume and reduce wrinkles with FDA-approved Botox, dermal fillers, and thread
-                    lifts.</p>
-            </div>
-
-            <!-- Treatment 3: Pigmentation -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-sun"></i>
-                </div>
-                <h4>Pigmentation Removal</h4>
-                <p>Targeted laser toning and Q-Switch lasers to treat melasma, sunspots, and uneven skin tone
-                    effectively.</p>
-            </div>
-
-            <!-- Treatment 4: Medifacials -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-magic"></i>
-                </div>
-                <h4>Luxury Medifacials</h4>
-                <p>Deep cleansing and hydration therapies like HydraFacial and Carbon Laser Peel for an instant party
-                    glow.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Process Section -->
-<section class="benefits-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Our Treatment Protocol</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">We follow a strict medical protocol to ensure
-                safety and visible results for every client.</p>
-        </div>
-
-        <div class="benefits-grid">
-            <!-- Step 1 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-user-md"></i></div>
-                <h3>In-Depth Analysis</h3>
-                <p>Our dermatologists use digital skin analyzers to understand your skin health, hydration levels, and
-                    underlying issues.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-file-medical"></i></div>
-                <h3>Customized Plan</h3>
-                <p>We create a tailored treatment roadmap combining procedures and home-care products for your specific
-                    skin type.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-heart"></i></div>
-                <h3>Gentle Care</h3>
-                <p>All procedures are performed with utmost care to minimize discomfort, using numbing creams and
-                    cooling techniques where needed.</p>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-check-circle"></i></div>
-                <h3>Visible Results</h3>
-                <p>Regular follow-ups ensure your skin is responding well to the treatment, with adjustments made to
-                    maximize the glow.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Doctors Section -->
-<section id="doctors" class="section-padding doctors">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our
-                Team</h5>
-            <h2 style="font-size: 3rem; color: #1A2E44;">Our Experts</h2>
-        </div>
-
-        <div class="doctors-grid">
-            <!-- Doctor 1 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul">
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Comprehensive Dermatology</span>
                     </div>
-                    <h3>Dr. Rahul</h3>
-                    <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra">
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+                        Advanced Skin Treatments <br> 
+                        <span class="text-medicalTeal">in Gurgaon</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Your destination for flawless skin. From clearing active acne to advanced anti-aging laser therapies, experience personalized dermatological care at Dencespot Clinic.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
+                        <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Board Certified Docs</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-flask text-medicalTeal"></i> US FDA Technology</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-face-smile text-medicalTeal"></i> Holistic Skin Plans</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-star text-medicalTeal"></i> 5-Star Rated Clinic</div>
                     </div>
-                    <h3>Dr. Nyra</h3>
-                    <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Free Consultation
+                        </a>
+                        <a href="gallery.php" class="border-2 border-medicalTeal text-medicalTeal px-8 py-4 rounded-full font-bold text-lg hover:bg-medicalTeal hover:text-white transition-all text-center">
+                            See Results
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- Why Choose Us / FAQs -->
-<section class="why-choose-new">
-    <div class="container">
-        <div class="why-choose-grid">
-            <div class="why-blob-container">
-                <div class="why-blob-image">
-                    <img src="images/why-choose.png" alt="Clinical Excellence">
-                </div>
-            </div>
-
-            <div class="why-text-content">
-                <h4>DENCESPOT CLINIC</h4>
-                <h2>Why Choose DenceSpot<br>Skin Clinic?</h2>
-
-                <div class="why-list">
-                    <!-- FAQ Item 1 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How do I know which treatment fits me?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We start every journey with a comprehensive consultation. Our doctors assess your skin
-                                concerns and lifestyle to recommend the most effective treatment for you.</p>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Skin Treatment in Gurgaon Result" class="w-full">
+                        <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
+                            Dencespot Patient
                         </div>
                     </div>
-
-                    <!-- FAQ Item 2 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Are chemical peels safe for sensitive skin?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Yes, we have a variety of peels ranging from very mild superficial peels to deeper ones.
-                                We choose the right strength based on your skin sensitivity.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 3 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How long do Botox/Fillers last?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Botox typically lasts 3-4 months, while dermal fillers can last anywhere from 6 to 18
-                                months depending on the product used and the treated area.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 4 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Is there downtime after acne scar laser?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Mild redness and scabbing may occur for 3-5 days. However, you can usually return to your
-                                daily activities immediately with proper sun protection.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 5 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Do you treat hormonal acne?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Absolutely. We take a holistic approach, often combining topical treatments, oral
-                                medication if necessary, and procedures to manage hormonal breakouts effectively.</p>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[240px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-100">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold leading-tight">Flawless Glow</p>
+                                <p class="text-[10px] text-gray-400 mt-1 italic leading-tight">Transform your skin texture and tone</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Booking / CTA Section -->
-<section id="booking" class="app-split-container" style="margin-top: 50px;">
-    <!-- Left: Appointment Form -->
-    <div class="app-left-form">
-        <h2>Book an<br>Appointment</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="YOUR NAME*" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required>
-            </div>
-            <div class="form-group icon-group" style="position: relative;">
-                <input type="email" class="form-control" placeholder="EMAIL ID">
-                <i class="fas fa-envelope" style="position: absolute; right: 15px; top: 15px; color: #27AE60;"></i>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Concern"></textarea>
-            </div>
-            <button type="submit" class="btn-submit-app">BOOK AN APPOINTMENT</button>
-        </form>
-    </div>
-
-    <!-- Right: Video Testimonials -->
-    <div class="app-right-video">
-        <h2>Our Happy Faces</h2>
-        <span>Video Testimonials</span>
-
-        <div class="app-video-thumb">
-            <img src="images/video-testimonial-thumb.png" alt="Patient Success Story">
-            <div class="app-play-btn">
-                <i class="fas fa-play"></i>
+    <!-- INTRODUCTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Redefining Aesthetics: <span class="text-medicalTeal">Best Skin Clinic in Gurgaon</span></h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+<p>Your skin is your body's largest organ and the most visible indicator of your overall health and age. In the harsh environment of Gurgaon—battling pollution, intense UV rays, and stressful lifestyles—maintaining a flawless complexion requires more than just over-the-counter creams. At Dencespot Clinic, we provide world-class, medical-grade <strong>skin treatments in Gurgaon</strong> designed to resolve complex dermatological issues and elevate your natural beauty. As pioneers of <strong>Skin Treatment in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+<p>We are not a standard salon answering every problem with a generic facial. Dencespot is a premiere clinical dermatology center. Whether you are struggling with cystic adolescent acne, stubborn post-pregnancy melasma, deep atrophic acne scars, or the inevitable signs of aging like fine lines and sagging skin, we offer a scientifically proven, results-driven solution.</p>
+<p>Our philosophy combines ethical dermatology with cutting-edge aesthetic technology. Every patient journey begins with an in-depth clinical consultation. Our board-certified dermatologists analyze your skin type, medical history, and aesthetic goals before curating a customized protocol. We utilize only US FDA-approved lasers, premium imported injectables, and standardized clinical peels to ensure unparalleled safety and striking results.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- PROCEDURE DETAILS -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Best Skin Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8 italic">Our Comprehensive <span class="text-medicalTeal">Skin Solutions</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+<p>Skin problems are rarely superficial; they are rooted in cellular dysfunction. Our clinical therapies target the specific layers of the skin requiring repair. For hyperpigmentation and dullness, our Q-Switched lasers and Chemical Peels exfoliate the epidermis while shattering dark melanin deposits.</p>
+<p>For textural issues like acne scars, enlarged pores, and wrinkles, we utilize therapies that trigger neocollagenesis. Treatments such as Fractional CO2 Lasers, Face PRP (Vampire Facial), and Microneedling plunge deep into the dermis, forcing the skin to produce massive amounts of new collagen to rebuild a smooth, tight matrix.</p>
+<p>For dynamic wrinkles and volume loss, we offer precise, artistry-driven injectable treatments. Botox gracefully relaxes hyperactive muscles smoothing out expression lines, while Hyaluronic Acid Fillers instantly restore lost volume, contouring the cheeks, lips, and jawline for a youthful, sculpted profile.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Why Dencespot <span class="text-medicalTeal">Stands Out</span></h2>
+                <p class="text-gray-500">Trusted experts providing the most reliable <strong>Skin Treatment in Gurgaon</strong> for visible, long-lasting results</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-user-doctor"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Medical Expertise First</h3>
+                    <p class="text-gray-500 text-sm italic">Every procedure, from a mild chemical peel to advanced laser resurfacing, is prescribed and supervised by a qualified physician.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-gears"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Elite Technology</h3>
+                    <p class="text-gray-500 text-sm italic">We house the industry's gold standard machines, including Triple Wavelength Diode Lasers, Q-switched Nd:YAG, and medical Dermapens.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-flask"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Bespoke Protocols</h3>
+                    <p class="text-gray-500 text-sm italic">No cookie-cutter treatments. We combine modalities (e.g., PRP + Lasers) uniquely tailored to your specific skin tone and condition.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-shield"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Safety on Indian Skin</h3>
+                    <p class="text-gray-500 text-sm italic">All laser parameters are carefully calibrated to be highly effective yet completely safe against the hyperpigmentation risks inherent in brown skin.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-heart"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Transparent Counseling</h3>
+                    <p class="text-gray-500 text-sm italic">We set realistic expectations. You will understand exactly what a treatment can do, how long it takes, and what it cannot fix.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-spa"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Luxury Experience</h3>
+                    <p class="text-gray-500 text-sm italic">Experience the rigorous hygiene and results of a medical hospital, wrapped in the comfort, privacy, and luxury of an elite aesthetic clinic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCEDURE SECTION -->
+    <section class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6">Your <span class="text-medicalTeal">Advanced Skin Treatments Journey</span></h2>
+                <p class="text-gray-400">Step-by-step experience of Advanced Skin Treatments at Dencespot Gurgaon.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">01</div>
+                    <h4 class="text-xl font-bold mb-3">Clinical Diagnosis</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">A thorough visual and digital analysis of your skin to identify the root cause of your concern (e.g., assessing true acne vs. rosacea).</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">02</div>
+                    <h4 class="text-xl font-bold mb-3">Treatment Design</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Formulating a step-by-step clinical roadmap combining in-clinic procedures with a prescribed daily medical skincare routine.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">03</div>
+                    <h4 class="text-xl font-bold mb-3">Expert Execution</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Performing the advanced laser, peel, or injectable procedures focusing intensely on your safety and comfort.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">04</div>
+                    <h4 class="text-xl font-bold mb-3">Follow-up & Maintenance</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Regular scheduled reviews to monitor your skin's transformation and adjust treatments as your skin improves.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COST SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Consultation & Cost</span> in Gurgaon</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">Invest in expert care. Transparent pricing across our entire range of skin procedures.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
+                    <ul class="space-y-4 text-gray-500">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Detailed Consultation:</strong> Your journey starts with a comprehensive doctor consultation to accurately diagnose your skin condition.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Procedure Complexity:</strong> A basic medical facial or superficial peel is highly affordable, whereas advanced lasers or premium Botox units are priced accordingly.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Holistic Packages:</strong> For chronic issues like deep scarring or severe pigmentation, comprehensive multi-session protocol packages offer the best value.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
+                    <p class="text-gray-400 mb-6 italic text-sm">"Get a custom treatment plan and exact cost estimate during your free consultation."</p>
+                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Results Section -->
+    
+    <!-- Results Section (Grid) -->
+    
+    <!-- Patient Transformations (3-Grid) -->
+    <section id="results" class="py-[66px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-[30px] gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-4">Patient Transformations</h2>
+                    <p class="text-gray-500">Documented results showcasing medical excellence.</p>
+                </div>
+                <a href="gallery.php" class="bg-darkSlate text-white px-8 py-3 rounded-full font-bold hover:bg-medicalTeal transition-all shadow-xl flex items-center gap-3 group">
+                    View Full Gallery <i class="fas fa-images group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
+                        <p class="text-xs text-gray-400 mt-2">Visible improvement in hair thickness and health.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Follicle Stimulation</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reactivating dormant follicles with medical microneedling.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Scalp Rejuvenation</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reducing inflammation and boosting growth with LED therapy.</p>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <!-- What Our Customers Say -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-medicalTeal">Customers Say</span></h2>
+        </div>
+        <!-- Elfsight Google Reviews Widget -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-display font-bold mb-[30px] text-center italic">Dermatology Clinic <span class="text-medicalTeal">FAQs</span></h2>
+            <div class="space-y-4">
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm" open>
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">What is the difference between a salon facial and a clinical skin treatment?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Salon facials rely on manual massage and topical creams that only affect the dead outer layer of skin temporarily. Clinical skin treatments (like HydraFacial, Peels, or Lasers) use medical devices and prescription-grade acids to physically alter cell turnover, stimulate deeper collagen, and treat severe issues like scars and deep pigmentation permanently.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">When should I see a dermatologist for acne?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Do not wait until you have scars. If over-the-counter face washes with salicylic acid haven't worked after 4 weeks, or if you have deep, painful cystic bumps, you need clinical intervention immediately to prevent permanent dermal scarring.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Are laser treatments safe for the face?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes. When performed by trained medical professionals using FDA-approved technology calibrated for your specific skin type, dermatological lasers are incredibly safe. The risk of burns or damage only arises in the hands of untrained technicians at unregulated parlors.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Do you offer treatments for aging skin?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes, we are experts in anti-aging aesthetics. We offer a full spectrum of treatments from preventative Botox and fillers, to collagen-inducing therapies like Face PRP and Laser Resurfacing, helping you age gracefully and naturally.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>

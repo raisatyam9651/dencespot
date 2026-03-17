@@ -1,346 +1,339 @@
-<?php
-$pageTitle = 'Face PRP Treatment in Gurgaon | DenceSpot';
-$pageDesc = 'Rejuvenate your skin with the famous Vampire Facial (Face PRP) in Gurgaon at DenceSpot. Natural anti-aging treatment for glowing, youthful skin. Book now.';
-$pageCanonical = 'https://dencespot.com/face-prp-treatment-in-gurgaon.php';
-$currentPage = 'face-prp';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face PRP Treatment in Gurgaon | Vampire Facial Clinic | Dencespot</title>
+    <meta name="description" content="Best Face PRP in Gurgaon (Vampire Facial). Harness your body's natural growth factors to heal acne scars, smooth wrinkles, and achieve a radiant glow.">
+    <meta name="keywords" content="Face PRP Gurgaon, Vampire Facial Cost, PRP Skin Rejuvenation, Acne Scar Treatment Gurgaon, Anti-Aging PRP">
+    
+    <title>Face PRP Treatment in Gurgaon | Vampire Facial Clinic | Dencespot</title>
+    <meta name="description" content="Best Face PRP in Gurgaon (Vampire Facial). Harness your body's natural growth factors to heal acne scars, smooth wrinkles, and achieve a radiant glow.">
+    <meta name="keywords" content="Face PRP Gurgaon, Vampire Facial Cost, PRP Skin Rejuvenation, Acne Scar Treatment Gurgaon, Anti-Aging PRP">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- New Service Hero Section (Matching Reference) -->
-<section class="service-hero-section">
-    <div class="container">
-        <div class="service-hero-grid">
-            <!-- Mobile Top Badge -->
-            <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-tint"></i> Vampire Facial
-            </div>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-            <!-- Left: Text Content -->
-            <div class="service-hero-content">
-                <!-- Pill Badge -->
-                <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-tint"></i> Vampire Facial
-                </div>
-
-                <!-- Heading -->
-                <h1>Face PRP Treatment <span>in Gurgaon</span></h1>
-
-                <!-- Description -->
-                <p>Unlock the fountain of youth deeply within you. The "Vampire Facial" uses your own blood's healing
-                    platelets to boost collagen, erase fine lines, and give you an undeniable glow.</p>
-
-                <!-- Buttons -->
-                <div class="service-hero-buttons">
-                    <a href="#booking" class="btn-service-primary">
-                        <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Free Consultation
-                    </a>
-                    <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Call Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right: Image with Overlay -->
-            <div class="service-hero-image">
-                <img src="images/hair-transplant-hero.png" alt="Radiant Skin after Face PRP">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Statistics Section -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <!-- Stat 1: Happy Patients -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-smile"></i>
-                </div>
-                <div class="stat-number">3,000+</div>
-                <div class="stat-label">Happy Patients</div>
-            </div>
-
-            <!-- Stat 2: Years of Expertise -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-hospital"></i>
-                </div>
-                <div class="stat-number">15+</div>
-                <div class="stat-label">Years of Expertise</div>
-            </div>
-
-            <!-- Stat 3: Natural -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-leaf"></i>
-                </div>
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Natural & Organic</div>
-            </div>
-
-            <!-- Stat 4: Google Rating -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number">4.9</div>
-                <div class="stat-label">Google Rating</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- How It Works Section -->
-<section class="benefits-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">The Vampire Facial Process</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">A purely biological treatment that combines
-                microneedling with PRP for maximum absorption.</p>
-        </div>
-
-        <div class="benefits-grid">
-            <!-- Step 1 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-vial"></i></div>
-                <h3>Blood Draw</h3>
-                <p>We draw a small amount of blood from your arm, similar to a standard blood test.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-dna"></i></div>
-                <h3>Separation</h3>
-                <p>The blood is spun in a centrifuge to separate the golden, platelet-rich plasma (PRP) which is packed
-                    with growth factors.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-syringe"></i></div>
-                <h3>Microneedling / Injection</h3>
-                <p>We use a Dermapen to create micro-channels in the skin and massage the PRP deep into the dermis, or
-                    inject it into specific problem areas.</p>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-magic"></i></div>
-                <h3>Regeneration</h3>
-                <p>The growth factors stimulate stem cells to produce fresh collagen and elastin, tightening and
-                    brightening the skin over the next few weeks.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Benefits Section -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Benefits of Face PRP</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">Harness your body's own healing power for total
-                skin rejuvenation.</p>
-        </div>
-
-        <div class="treatment-grid">
-            <!-- Benefit 1 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-bullseye"></i>
-                </div>
-                <h3>Acne Scars & Pores</h3>
-                <p>Significantly reduces the appearance of acne scars and shrinks large open pores for a smoother
-                    texture.</p>
-            </div>
-
-            <!-- Benefit 2 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="far fa-star"></i>
-                </div>
-                <h3>Anti-Aging</h3>
-                <p>Boosts collagen production to firm up sagging skin and smooth out fine lines and wrinkles naturally.
-                </p>
-            </div>
-
-            <!-- Benefit 3 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-sun"></i>
-                </div>
-                <h3>Radiant Glow</h3>
-                <p>Improves blood circulation and skin tone, creating a "lit-from-within" glow and erasing dullness.</p>
-            </div>
-
-            <!-- Benefit 4 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-ban"></i>
-                </div>
-                <h3>Hypoallergenic</h3>
-                <p>Since it uses your own blood, there is zero risk of allergic reactions or rejection. It is the safest
-                    anti-aging treatment.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Doctors Section -->
-<section id="doctors" class="section-padding doctors">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our Team
-            </h5>
-            <h2 style="font-size: 3rem; color: #1A2E44;">Our Experts</h2>
-        </div>
-
-        <div class="doctors-grid">
-            <!-- Doctor 1 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul">
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Natural Skin Regeneration</span>
                     </div>
-                    <h3>Dr. Rahul</h3>
-                    <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra">
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+                        Face PRP Treatment <br> 
+                        <span class="text-medicalTeal">in Gurgaon</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Also known as the Vampire Facial, harness the healing power of your own blood to completely rejuvenate, tighten, and brighten your facial skin naturally.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
+                        <div class="flex items-center gap-3"><i class="fas fa-vial text-medicalTeal"></i> 100% Natural Therapy</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-dna text-medicalTeal"></i> Rich in Growth Factors</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-face-smile text-medicalTeal"></i> Boosts Collagen</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Dermatologist Led</div>
                     </div>
-                    <h3>Dr. Nyra</h3>
-                    <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Free Consultation
+                        </a>
+                        <a href="gallery.php" class="border-2 border-medicalTeal text-medicalTeal px-8 py-4 rounded-full font-bold text-lg hover:bg-medicalTeal hover:text-white transition-all text-center">
+                            See Results
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Section -->
-<section class="why-choose-new">
-    <div class="container">
-        <div class="why-choose-grid">
-            <div class="why-blob-container">
-                <div class="why-blob-image">
-                    <img src="images/why-choose.png" alt="Clinical Excellence">
-                </div>
-            </div>
-
-            <div class="why-text-content">
-                <h4>DENCESPOT CLINIC</h4>
-                <h2>Frequently Asked<br>Questions</h2>
-
-                <div class="why-list">
-                    <!-- FAQ Item 1 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Does the Vampire Facial hurt?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We use a strong numbing cream before the procedure, so pain is minimal. You may feel a
-                                slight vibration from the microneedling device.</p>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Face PRP Treatment in Gurgaon Result" class="w-full">
+                        <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
+                            Dencespot Patient
                         </div>
                     </div>
-
-                    <!-- FAQ Item 2 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How is it different from fillers?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Fillers add volume instantly using synthetic gel, while PRP stimulates your body's own
-                                collagen production for natural, long-term skin improvement.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 3 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>What is the downtime?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Your face will look red (like a mild sunburn) for 1-2 days. You can usually return to
-                                work the next day, and full healing takes about 4-5 days.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 4 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How many sessions do I need?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>For best results, especially for acne scars, we recommend a series of 3-4 sessions spaced
-                                4 weeks apart.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 5 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>When will I see results?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>You may see a "glow" within a week, but the collagen building process takes time. The
-                                most significant improvements in texture and tightness appear after 4-6 weeks.</p>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[240px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-100">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold leading-tight">Ageless Glow</p>
+                                <p class="text-[10px] text-gray-400 mt-1 italic leading-tight">Fades scars and tightens skin naturally</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Booking / CTA Section -->
-<section id="booking" class="app-split-container" style="margin-top: 50px;">
-    <!-- Left: Appointment Form -->
-    <div class="app-left-form">
-        <h2>Book an<br>Appointment</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="YOUR NAME*" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required>
-            </div>
-            <div class="form-group icon-group" style="position: relative;">
-                <input type="email" class="form-control" placeholder="EMAIL ID">
-                <i class="fas fa-envelope" style="position: absolute; right: 15px; top: 15px; color: #27AE60;"></i>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Concern"></textarea>
-            </div>
-            <button type="submit" class="btn-submit-app">BOOK AN APPOINTMENT</button>
-        </form>
-    </div>
-
-    <!-- Right: Video Testimonials -->
-    <div class="app-right-video">
-        <h2>Our Happy Faces</h2>
-        <span>Video Testimonials</span>
-
-        <div class="app-video-thumb">
-            <img src="images/video-testimonial-thumb.png" alt="Patient Success Story">
-            <div class="app-play-btn">
-                <i class="fas fa-play"></i>
+    <!-- INTRODUCTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">The Ultimate Bio-Rejuvenation: <span class="text-medicalTeal">Face PRP in Gurgaon</span></h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+<p>If you are seeking a highly effective, natural anti-aging treatment without synthetic fillers or toxins, Platelet-Rich Plasma (PRP) therapy is the gold standard. Popularized as the 'Vampire Facial', <strong>Face PRP Treatment in Gurgaon</strong> at Dencespot Clinic utilizes the miraculous healing properties hidden within your own blood to reverse the signs of aging, heal acne scars, and restore a brilliant, youthful glow. As pioneers of <strong>Face PRP Treatment in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+<p>Your blood contains platelets packed with powerful growth factors and specialized proteins that orchestrate tissue repair. By drawing a small sample of your blood, spinning it in a specialized centrifuge, and isolating this 'liquid gold' plasma, we create a highly concentrated super-serum. This FDA-approved process is 100% natural and poses zero risk of allergic reaction since the material comes from your own body.</p>
+<p>Our <strong>skin clinic in Gurgaon</strong> combines Face PRP with clinical Microneedling (Dermapen). The microneedling device creates thousands of invisible micro-channels in the skin. When the PRP is applied over these channels, it penetrates deeply into the dermis. This dual-action trauma and repair mechanism forces the skin into 'overdrive', producing massive amounts of fresh collagen and elastin.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<?php include 'footer.php'; ?>
+    <!-- PROCEDURE DETAILS -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Best Face PRP Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8 italic">The Science of <span class="text-medicalTeal">Platelet-Rich Plasma</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+<p>When you get a cut on your skin, platelets rush to the area to stop the bleeding and release growth factors that trigger skin regeneration. Face PRP isolates and concentrates these exact platelets up to 5 times their normal concentration, delivering a massive dose of healing signals directly to aging or scarred skin.</p>
+<p>Key growth factors released include PDGF (Platelet-Derived Growth Factor) which stimulates blood vessel growth, and TGF-beta (Transforming Growth Factor) which promotes the matrix formation of collagen. These proteins command your aging dermal cells to behave like young cells again.</p>
+<p>The initial tightening and plumping effect is visible within 3 to 4 weeks. However, because new collagen takes time to synthesize, the maximum benefits of improved skin texture, reduced acne scarring, and faded fine lines emerge after 2 to 3 months—and the results last for up to 18 months.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Why Dencespot <span class="text-medicalTeal">Stands Out</span></h2>
+                <p class="text-gray-500">Trusted experts providing the most reliable <strong>Face PRP Treatment in Gurgaon</strong> for visible, long-lasting results</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-dna"></i></div>
+                    <h3 class="text-xl font-bold mb-4">100% Natural</h3>
+                    <p class="text-gray-500 text-sm italic">Because it uses your own blood plasma, there is absolute zero risk of allergic reaction, rejection, or synthetic buildup.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-eraser"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Heals Acne Scars</h3>
+                    <p class="text-gray-500 text-sm italic">The potent mix of microneedling and growth factors actively reconstructs the depressed tissue of stubborn acne scars.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-eye"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Fades Dark Circles</h3>
+                    <p class="text-gray-500 text-sm italic">When injected delicately under the eyes, PRP thickens the skin, reducing hollows and minimizing dark pigmentation.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-compress"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Shrinks Pores</h3>
+                    <p class="text-gray-500 text-sm italic">The massive collagen boost tightens the skin's structural matrix, causing enlarged pores to shrink significantly.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-sun"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Improves Skin Tone</h3>
+                    <p class="text-gray-500 text-sm italic">Clears up dull, grayish skin tones, leaving behind a rosy, highly oxygenated, and radiant complexion.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-clock"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Long-Lasting Results</h3>
+                    <p class="text-gray-500 text-sm italic">Unlike temporary facials, the new collagen matrix built by PRP is permanent and lasts 12 to 18 months before natural aging resumes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCEDURE SECTION -->
+    <section class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6">Your <span class="text-medicalTeal">Face PRP Treatment Journey</span></h2>
+                <p class="text-gray-400">Step-by-step experience of Face PRP Treatment at Dencespot Gurgaon.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">01</div>
+                    <h4 class="text-xl font-bold mb-3">Blood Draw & Prep</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">A small vial of blood (10-20ml) is drawn from your arm, just like a standard lab test, and numbing cream is applied to your face.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">02</div>
+                    <h4 class="text-xl font-bold mb-3">Centrifugation</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">The blood is spun in a specialized FDA-approved machine to completely separate the golden PRP from the red blood cells.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">03</div>
+                    <h4 class="text-xl font-bold mb-3">Microneedling</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">A medical-grade Dermapen is glided over the skin, creating micro-channels and gently pressing the PRP deep into the dermis.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">04</div>
+                    <h4 class="text-xl font-bold mb-3">Targeted Injections</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Optional: Extra PRP can be injected directly into deep wrinkles, acne scars, or under-eye hollows for enhanced volume.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COST SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Face PRP Cost</span> in Gurgaon</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">Invest in your body's natural regenerative powers for long-lasting youth.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
+                    <ul class="space-y-4 text-gray-500">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Application Method:</strong> Microneedling with topical PRP costs vary from targeted deep-dermal PRP injections.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Add-On Therapies:</strong> Combining PRP with subcision (for deep acne scars) or specific chemical peels will alter the total cost.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Package Of Sessions:</strong> For deep scars or severe aging, a package of 3-4 sessions spaced a month apart is required and discounted.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
+                    <p class="text-gray-400 mb-6 italic text-sm">"Get a custom treatment plan and exact cost estimate during your free consultation."</p>
+                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Results Section -->
+    
+    <!-- Results Section (Grid) -->
+    
+    <!-- Patient Transformations (3-Grid) -->
+    <section id="results" class="py-[66px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-[30px] gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-4">Patient Transformations</h2>
+                    <p class="text-gray-500">Documented results showcasing medical excellence.</p>
+                </div>
+                <a href="gallery.php" class="bg-darkSlate text-white px-8 py-3 rounded-full font-bold hover:bg-medicalTeal transition-all shadow-xl flex items-center gap-3 group">
+                    View Full Gallery <i class="fas fa-images group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
+                        <p class="text-xs text-gray-400 mt-2">Visible improvement in hair thickness and health.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Follicle Stimulation</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reactivating dormant follicles with medical microneedling.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Scalp Rejuvenation</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reducing inflammation and boosting growth with LED therapy.</p>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <!-- What Our Customers Say -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-medicalTeal">Customers Say</span></h2>
+        </div>
+        <!-- Elfsight Google Reviews Widget -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-display font-bold mb-[30px] text-center italic">Face PRP <span class="text-medicalTeal">FAQs</span></h2>
+            <div class="space-y-4">
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm" open>
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Does the Vampire Facial hurt?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">We apply a highly effective prescription-strength numbing cream 45 minutes prior to the procedure. While you may feel slight pressure and vibration from the microneedling pen, it is generally very tolerable and not painful.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Will my face look bloody afterward?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Despite its nickname, your face will not be covered in blood. You will appear as though you have a moderate sunburn. The redness typically subsides within 24 to 48 hours.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">How many sessions do I need?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">For general skin glowing and anti-aging, 3 sessions spaced 4 weeks apart are recommended. For treating deep acne scars, you may need 4 to 6 sessions combined with other modalities like subcision.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">When will I see the results?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">You will notice an initial glow within 3-4 days once the redness subsides. However, true collagen production takes time. The most dramatic improvements in skin tightening and scar reduction become visible after 2 to 3 months.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>

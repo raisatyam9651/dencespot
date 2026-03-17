@@ -1,122 +1,151 @@
-<?php
-$pageTitle = 'Contact Us | DenceSpot';
-$pageDesc = 'Book an appointment at DenceSpot Clinic. Call +91 8178330800 or visit us at C Block, Sector 39, Gurugram for expert hair and skin treatments.';
-$pageCanonical = 'https://dencespot.com/contact.php';
-$currentPage = 'contact';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dencespot Clinic Gurgaon - Book Consultation</title>
+    <meta name="description" content="Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.">
+    
+    <title>Contact Us | Dencespot Clinic Gurgaon - Book Consultation</title>
+    <meta name="description" content="Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.">
+    
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate">
 
-<!-- Page Header -->
-<section class="page-header" style="background: var(--peach-bg); padding: 50px 0; text-align: center;">
-    <div class="container">
-        <h1 style="color: var(--secondary-color); margin-bottom: 10px;">Contact Us</h1>
-        <p style="color: #666;">We are here to help you on your journey to confidence</p>
-    </div>
-</section>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-<!-- Contact Form & Info Section -->
-<section class="section-padding" style="background: var(--white);">
-    <div class="container">
-        <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;">
+    <!-- Page Title -->
+    <section class="pt-40 pb-20 bg-darkSlate text-white relative overflow-hidden">
+        <div class="absolute inset-0 skin-pattern opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-5xl md:text-6xl font-display font-bold mb-6">Connect With <span class="text-medicalTeal">Our Experts</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">Have questions about your transformation? Visit our Gurgaon clinic or reach out online for a personalized clinical assessment.</p>
+        </div>
+    </section>
 
-            <!-- Contact Information -->
-            <div class="contact-info">
-                <h2 style="color: #1A2E44; margin-bottom: 2rem; font-size: 2.5rem;">Get In Touch</h2>
-                <p style="color: #555; margin-bottom: 2rem; font-size: 1.1rem;">Have questions about our treatments or
-                    want to book a consultation? Reach out to us directly or fill out the form.</p>
-
-                <div class="contact-details">
-                    <div style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
-                        <div
-                            style="width: 50px; height: 50px; background: #E3F2FD; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; flex-shrink: 0;">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <h4 style="color: #333; margin-bottom: 5px;">Visit Us</h4>
-                            <p style="color: #666;">C Block, Sector 39, Gurugram,<br>Haryana 122003</p>
-                        </div>
+    <!-- Contact Info Cards -->
+    <section class="py-[20px] -mt-10 relative z-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-50 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-medicalTeal/10 rounded-2xl flex items-center justify-center text-medicalTeal text-2xl mb-6">
+                        <i class="fas fa-phone-alt"></i>
                     </div>
-
-                    <div style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
-                        <div
-                            style="width: 50px; height: 50px; background: #E3F2FD; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; flex-shrink: 0;">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div>
-                            <h4 style="color: #333; margin-bottom: 5px;">Call Us</h4>
-                            <p style="color: #666;">+91 8178330800</p>
-                        </div>
+                    <h3 class="text-xl font-bold mb-4">Direct Call</h3>
+                    <p class="text-gray-400 text-sm mb-4">Speak directly with our clinical coordinator</p>
+                    <a href="tel:+918178330800" class="text-medicalTeal font-bold text-lg">+91 8178330800</a>
+                </div>
+                
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-50 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-medicalTeal/10 rounded-2xl flex items-center justify-center text-medicalTeal text-2xl mb-6">
+                        <i class="fas fa-location-dot"></i>
                     </div>
-
-                    <div style="display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start;">
-                        <div
-                            style="width: 50px; height: 50px; background: #E3F2FD; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color); font-size: 1.2rem; flex-shrink: 0;">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h4 style="color: #333; margin-bottom: 5px;">Email Us</h4>
-                            <p style="color: #666;">dencespot@gmail.com</p>
-                        </div>
-                    </div>
+                    <h3 class="text-xl font-bold mb-4">Our Location</h3>
+                    <p class="text-gray-400 text-sm mb-4">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                    <a href="https://maps.google.com" target="_blank" class="text-medicalTeal font-bold text-sm uppercase tracking-widest border-b border-medicalTeal pb-1">Open in Maps</a>
                 </div>
 
-                <!-- Google Map Embed -->
-                <div
-                    style="margin-top: 30px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20clinic!5e0!3m2!1sen!2sin!4v1768232457326!5m2!1sen!2sin"
-                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-50 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-medicalTeal/10 rounded-2xl flex items-center justify-center text-medicalTeal text-2xl mb-6">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">WhatsApp Us</h3>
+                    <p class="text-gray-400 text-sm mb-4">Fastest way to get your queries answered</p>
+                    <a href="https://wa.me/918178330800" class="bg-[#25D366] text-white px-6 py-2 rounded-full font-bold text-sm hover:opacity-90 transition-all">Chat Now</a>
                 </div>
-            </div>
-
-            <!-- Appointment Form (Reusing App container styles roughly) -->
-            <div class="contact-form-container"
-                style="background: #1A2E44; padding: 40px; border-radius: 20px; color: white;">
-                <h2 style="color: white; margin-bottom: 2rem;">Book an Appointment</h2>
-                <form>
-                    <div class="form-group" style="margin-bottom: 20px;">
-                        <input type="text" class="form-control" placeholder="YOUR NAME*" required
-                            style="width: 100%; padding: 15px; border-radius: 5px; border: none; outline: none;">
-                    </div>
-                    <div class="form-group" style="margin-bottom: 20px;">
-                        <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required
-                            style="width: 100%; padding: 15px; border-radius: 5px; border: none; outline: none;">
-                    </div>
-                    <div class="form-group" style="margin-bottom: 20px; position: relative;">
-                        <input type="email" class="form-control" placeholder="EMAIL ID"
-                            style="width: 100%; padding: 15px; border-radius: 5px; border: none; outline: none;">
-                    </div>
-                    <div class="form-group" style="margin-bottom: 20px;">
-                        <select class="form-control"
-                            style="width: 100%; padding: 15px; border-radius: 5px; border: none; outline: none; color: #777;">
-                            <option value="" disabled selected>Select Service</option>
-                            <option value="Hair Transplant">Hair Transplant</option>
-                            <option value="Skin Treatment">Skin Treatment</option>
-                            <option value="Consultation">Consultation</option>
-                        </select>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 20px;">
-                        <textarea class="form-control" rows="4" placeholder="Your Concern"
-                            style="width: 100%; padding: 15px; border-radius: 5px; border: none; outline: none; font-family: inherit;"></textarea>
-                    </div>
-                    <button type="submit"
-                        style="width: 100%; padding: 15px; background: #27AE60; color: white; border: none; border-radius: 5px; font-weight: 700; font-size: 1rem; cursor: pointer; transition: 0.3s;">BOOK
-                        AN APPOINTMENT</button>
-                </form>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Mobile Responsive Styles for this page -->
-<style>
-    @media (max-width: 900px) {
-        .contact-grid {
-            grid-template-columns: 1fr !important;
-            gap: 3rem !important;
-        }
-    }
-</style>
+    <!-- Main Contact Form & Map -->
+    <section class="py-[20px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8">Visit the <span class="text-medicalTeal">Clinic</span></h2>
+                    <p class="text-gray-500 mb-12 leading-relaxed">Located in the heart of Gurgaon, Dencespot Clinic offers a world-class sterile environment for all your hair and skin restoration needs. Our facility is equipped with the latest FUE and laser technologies.</p>
+                    
+                    <!-- Map Placeholder -->
+                    <div class="aspect-video bg-bgLight rounded-[3rem] overflow-hidden shadow-inner flex items-center justify-center relative border border-gray-100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div class="mt-12 grid grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-bold text-xs uppercase tracking-widest text-medicalTeal mb-4">Consultation Hours</h4>
+                            <p class="text-sm font-medium">Mon - Sat: 10:00 AM - 8:00 PM</p>
+                            <p class="text-sm text-gray-400 mt-1 italic font-light text-xs">Closed on Sundays (Emergency Only)</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xs uppercase tracking-widest text-medicalTeal mb-4">Average Waiting</h4>
+                            <p class="text-sm font-medium">15-20 Minutes</p>
+                            <p class="text-sm text-gray-400 mt-1 italic font-light text-xs">Appointment prioritized</p>
+                        </div>
+                    </div>
+                </div>
 
-<?php include 'footer.php'; ?>
+                <div class="bg-bgLight p-12 rounded-[4rem] border border-gray-50 shadow-sm">
+                    <!-- Transformation Trust Section -->
+                    <div class="mb-12 p-6 bg-white rounded-3xl border border-teal-50 shadow-sm">
+                        <p class="text-[10px] uppercase tracking-[0.2em] font-bold text-medicalTeal mb-4 text-center">Proven Results</p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="rounded-2xl overflow-hidden aspect-square border border-gray-50">
+                                <img src="assets/images/ht-success-1.png" alt="Hair Transplant Result" class="w-full h-full object-cover">
+                            </div>
+                            <div class="rounded-2xl overflow-hidden aspect-square border border-gray-50">
+                                <img src="assets/images/beard_success_1.png" alt="Beard Transplant Result" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-400 mt-4 text-center italic">Over 5,000+ satisfied patients in Gurgaon</p>
+                    </div>
+
+                    <div class="mb-10 text-center">
+                        <h3 class="text-3xl font-display font-bold mb-2">Book Your Appointment</h3>
+                        <p class="text-gray-400 text-sm italic">Get a professional assessment within 24 hours.</p>
+                    </div>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <input type="text" placeholder="Your Name" class="w-full bg-white p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-gray-100">
+                            <input type="tel" placeholder="Phone Number" class="w-full bg-white p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-gray-100">
+                        </div>
+
+                        <textarea placeholder="Tell us about your requirements..." rows="4" class="w-full bg-white p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-gray-100"></textarea>
+                        
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-xl hover:bg-teal-700 transition-all shadow-xl shadow-teal-100 mt-4">
+                            Send Request
+                        </button>
+                    </form>
+                    <p class="mt-8 text-center text-xs text-gray-300 font-medium">By submitting this form, you agree to our privacy policy and terms of service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <section class="py-[20px] bg-darkSlate text-white text-center rounded-t-[5rem]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-display font-bold mb-8 italic">Ready to Change Your Look?</h2>
+            <p class="text-gray-400 max-w-xl mx-auto mb-12">Join over 5,000 successful patients who chose Dencespot Clinic for their hair and skin restoration.</p>
+            <div class="mt-20 max-w-md mx-auto rounded-2xl overflow-hidden h-32 border border-gray-800 shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 mb-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-center text-gray-500 text-[10px] font-bold tracking-[0.2em] uppercase">&copy; 2026 Dencespot Clinic Gurgaon. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('mainHeader');
+            if (window.scrollY > 20) {
+                header.classList.add('shadow-md', 'py-2');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.remove('shadow-md', 'py-2');
+                header.classList.add('py-4');
+            }
+        });
+    </script>
+</body>
+</html>

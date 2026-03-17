@@ -1,21 +1,4 @@
-# robots.txt for DenceSpot Clinic - https://dencespot.com/
-# Updated: 2026-03-14
-
 User-agent: *
 Allow: /
 
-# Block private/system files
-Disallow: /whatsapp_handler.php
-Disallow: /whatsapp_leads.log
-Disallow: /router.php
-Disallow: /.git/
-Disallow: /htmlbackup/
-Disallow: /.htaccess
-
-# Allow all crawlers to access CSS, JS and images
-Allow: /css/
-Allow: /images/
-Allow: /blog/
-
-# Sitemap location
 Sitemap: https://dencespot.com/sitemap.xml

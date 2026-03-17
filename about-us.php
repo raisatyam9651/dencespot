@@ -1,350 +1,145 @@
-<?php
-$pageTitle = 'About Us | DenceSpot';
-$pageDesc = 'Learn about DenceSpot Clinic - a leading hair transplant and skin care clinic in Gurugram with 10+ years of aesthetic excellence and expert dermatologists.';
-$pageCanonical = 'https://dencespot.com/about-us';
-$currentPage = 'about';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dencespot Clinic | Dencespot Clinic Gurgaon</title>
+    <meta name="description" content="Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.">
+    <meta name="keywords" content="About Dencespot, Best Hair Clinic Gurgaon, Dencespot Clinic Story">
+    
+    <title>About Dencespot Clinic | Dencespot Clinic Gurgaon</title>
+    <meta name="description" content="Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.">
+    <meta name="keywords" content="About Dencespot, Best Hair Clinic Gurgaon, Dencespot Clinic Story">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- Page Header -->
-<section class="page-header"
-    style="background: linear-gradient(135deg, #1A2E44 0%, #2C5F7C 100%); padding: 80px 0; text-align: center; color: white;">
-    <div class="container">
-        <h1 style="color: white; margin-bottom: 15px; font-size: 3rem;">About DenceSpot Clinic</h1>
-        <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem;">Your Trusted Partner in Aesthetic Excellence</p>
-        <div style="width: 80px; height: 4px; background: #27AE60; margin: 20px auto;"></div>
-    </div>
-</section>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-<!-- About Story Section -->
-<section class="section-padding" style="background: var(--white);">
-    <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
-            <div>
-                <h4
-                    style="color: #27AE60; font-weight: 600; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">
-                    Our Story</h4>
-                <h2 style="color: #1A2E44; font-size: 2.5rem; margin-bottom: 1.5rem;">Celebrating 10+ Years of Aesthetic
-                    Excellence</h2>
-                <p style="color: #555; line-height: 1.8; margin-bottom: 1.5rem;">
-                    DenceSpot Clinic has been at the forefront of advanced dermatological care and hair restoration in
-                    Gurugram for over a decade. What started as a vision to provide world-class aesthetic treatments has
-                    grown into a trusted healthcare destination for thousands of satisfied patients.
-                </p>
-                <p style="color: #555; line-height: 1.8; margin-bottom: 1.5rem;">
-                    Located in the heart of Sector 39, Gurugram, our state-of-the-art facility combines cutting-edge
-                    technology with compassionate care. We believe that everyone deserves to feel confident in their own
-                    skin, and our mission is to help you achieve that confidence through safe, effective, and
-                    personalized treatments.
-                </p>
-                <p style="color: #555; line-height: 1.8;">
-                    Our team of certified dermatologists and skilled technicians are dedicated to delivering exceptional
-                    results while maintaining the highest standards of safety and hygiene. Every treatment is tailored
-                    to your unique needs, ensuring optimal outcomes and patient satisfaction.
-                </p>
-            </div>
-            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                <img src="images/about-collage.png" alt="DenceSpot Clinic"
-                    style="width: 100%; height: auto; display: block;">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Mission & Vision Section -->
-<section class="section-padding" style="background: #F8F9FA;">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h2 style="font-size: 2.5rem; color: #1A2E44;">Our Mission & Vision</h2>
-            <div style="width: 60px; height: 3px; background: #27AE60; margin: 15px auto;"></div>
-        </div>
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
-            <!-- Mission -->
-            <div
-                style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.05);">
-                <div
-                    style="width: 70px; height: 70px; background: #E3F2FD; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
-                    <i class="fas fa-bullseye" style="font-size: 2rem; color: #1E73BE;"></i>
-                </div>
-                <h3 style="color: #1A2E44; margin-bottom: 15px; font-size: 1.8rem;">Our Mission</h3>
-                <p style="color: #666; line-height: 1.8;">
-                    To provide world-class dermatological and aesthetic treatments that enhance natural beauty and
-                    restore confidence. We are committed to using the latest technology, maintaining the highest safety
-                    standards, and delivering personalized care that exceeds patient expectations.
-                </p>
-            </div>
-
-            <!-- Vision -->
-            <div
-                style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.05);">
-                <div
-                    style="width: 70px; height: 70px; background: #E8F5E9; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
-                    <i class="fas fa-eye" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <h3 style="color: #1A2E44; margin-bottom: 15px; font-size: 1.8rem;">Our Vision</h3>
-                <p style="color: #666; line-height: 1.8;">
-                    To be recognized as the leading aesthetic and dermatological clinic in North India, known for our
-                    clinical excellence, patient-centric approach, and innovative treatments. We envision a future where
-                    everyone has access to safe, effective, and affordable aesthetic care.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Core Values Section -->
-<section class="section-padding" style="background: var(--white);">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h2 style="font-size: 2.5rem; color: #1A2E44;">Our Core Values</h2>
-            <p style="color: #666; max-width: 700px; margin: 15px auto;">The principles that guide everything we do</p>
-            <div style="width: 60px; height: 3px; background: #27AE60; margin: 15px auto;"></div>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
-            <!-- Value 1 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #1E73BE 0%, #2196F3 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-shield-alt" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Safety First</h4>
-                <p style="color: #666; line-height: 1.7;">US-FDA approved treatments in a sterile environment with the
-                    highest safety protocols.</p>
-            </div>
-
-            <!-- Value 2 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #27AE60 0%, #4CAF50 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-user-md" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Expert Care</h4>
-                <p style="color: #666; line-height: 1.7;">Certified dermatologists with years of experience in advanced
-                    aesthetic procedures.</p>
-            </div>
-
-            <!-- Value 3 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #E91E63 0%, #F06292 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-heart" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Patient-Centric</h4>
-                <p style="color: #666; line-height: 1.7;">Personalized treatment plans tailored to your unique needs and
-                    aesthetic goals.</p>
-            </div>
-
-            <!-- Value 4 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #FF9800 0%, #FFB74D 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-microscope" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Innovation</h4>
-                <p style="color: #666; line-height: 1.7;">State-of-the-art technology and the latest treatment
-                    techniques for optimal results.</p>
-            </div>
-
-            <!-- Value 5 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #9C27B0 0%, #BA68C8 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-handshake" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Transparency</h4>
-                <p style="color: #666; line-height: 1.7;">Clear communication about procedures, costs, and expected
-                    outcomes with no hidden charges.</p>
-            </div>
-
-            <!-- Value 6 -->
-            <div style="text-align: center; padding: 30px;">
-                <div
-                    style="width: 80px; height: 80px; background: linear-gradient(135deg, #00BCD4 0%, #4DD0E1 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                    <i class="fas fa-award" style="font-size: 2.2rem; color: white;"></i>
-                </div>
-                <h4 style="color: #1A2E44; margin-bottom: 10px; font-size: 1.3rem;">Excellence</h4>
-                <p style="color: #666; line-height: 1.7;">Commitment to delivering exceptional results with a 98%
-                    patient satisfaction rate.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Our Team Section -->
-<section class="section-padding" style="background: #F8F9FA;">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our Team
-            </h5>
-            <h2 style="font-size: 2.5rem; color: #1A2E44;">Our Expert Doctors</h2>
-            <div style="width: 60px; height: 3px; background: #27AE60; margin: 15px auto;"></div>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 3rem; max-width: 800px; margin: 0 auto;">
-            <!-- Doctor 1 -->
-            <div
-                style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center; transition: transform 0.3s;">
-                <div style="padding: 30px;">
-                    <div
-                        style="width: 150px; height: 150px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #E3F2FD;">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul"
-                            style="width: 100%; height: 100%; object-fit: cover;">
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[60vh] flex items-center pt-24 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Our Legacy</span>
                     </div>
-                    <h3 style="color: #1A2E44; margin-bottom: 5px;">Dr. Rahul</h3>
-                    <p style="color: #27AE60; font-weight: 600; margin-bottom: 15px;">Hair Transplant Specialist</p>
-                    <p style="color: #666; line-height: 1.7; margin-bottom: 20px;">Expert in FUE & FUT techniques with
-                        over 1000+ successful hair transplant procedures.</p>
-                    <a href="dr-rahul.php"
-                        style="display: inline-block; padding: 12px 30px; background: #1E73BE; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: 0.3s;">View
-                        Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div
-                style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center; transition: transform 0.3s;">
-                <div style="padding: 30px;">
-                    <div
-                        style="width: 150px; height: 150px; margin: 0 auto 20px; border-radius: 50%; overflow: hidden; border: 5px solid #E8F5E9;">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra"
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <h3 style="color: #1A2E44; margin-bottom: 5px;">Dr. Nyra</h3>
-                    <p style="color: #27AE60; font-weight: 600; margin-bottom: 15px;">Cosmetic & Aesthetic Specialist
+                    <h1 class="text-4xl lg:text-6xl font-display font-bold leading-tight mb-6">
+                        About Dencespot <br> 
+                        <span class="text-medicalTeal">Clinic</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Where medical science meets artistic precision. We are Gurgaon's premier center for hair and skin excellence.
                     </p>
-                    <p style="color: #666; line-height: 1.7; margin-bottom: 20px;">Specialized in advanced skin
-                        treatments, anti-aging procedures, and aesthetic enhancements.</p>
-                    <a href="dr-nyra.php"
-                        style="display: inline-block; padding: 12px 30px; background: #1E73BE; color: white; text-decoration: none; border-radius: 5px; font-weight: 600; transition: 0.3s;">View
-                        Profile</a>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Consultation
+                        </a>
+                    </div>
+                </div>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/Dr-nayra.jpg" alt="About Dencespot Clinic" class="w-full h-[400px] object-cover">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Why Choose Us Section -->
-<section class="section-padding" style="background: var(--white);">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h2 style="font-size: 2.5rem; color: #1A2E44;">Why Choose DenceSpot Clinic?</h2>
-            <p style="color: #666; max-width: 700px; margin: 15px auto;">What sets us apart from other clinics</p>
-            <div style="width: 60px; height: 3px; background: #27AE60; margin: 15px auto;"></div>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">10+ Years of Experience</h4>
-                    <p style="color: #666; line-height: 1.7;">Over a decade of excellence in dermatological and
-                        aesthetic care.</p>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">Advanced Technology</h4>
-                    <p style="color: #666; line-height: 1.7;">State-of-the-art LASER and aesthetic equipment for optimal
-                        results.</p>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">Certified Professionals</h4>
-                    <p style="color: #666; line-height: 1.7;">Expert dermatologists and trained technicians with proven
-                        track records.</p>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">98% Success Rate</h4>
-                    <p style="color: #666; line-height: 1.7;">Exceptional results with high patient satisfaction and
-                        success rates.</p>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">Flexible Payment Options</h4>
-                    <p style="color: #666; line-height: 1.7;">Convenient EMI options available for major procedures.</p>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 20px; padding: 25px; background: #F8F9FA; border-radius: 10px;">
-                <div style="flex-shrink: 0;">
-                    <i class="fas fa-check-circle" style="font-size: 2rem; color: #27AE60;"></i>
-                </div>
-                <div>
-                    <h4 style="color: #1A2E44; margin-bottom: 8px;">Prime Location</h4>
-                    <p style="color: #666; line-height: 1.7;">Conveniently located in Sector 39, Gurugram with easy
-                        accessibility.</p>
+    <!-- CONTENT SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">A Vision for Confidence</h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+                    <p>Dencespot Clinic was founded with a single mission: to provide world-class aesthetic solutions with a medical-first approach. We believe that everyone deserves to feel confident in their own skin and hair.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- CTA Section -->
-<section class="section-padding"
-    style="background: linear-gradient(135deg, #1A2E44 0%, #2C5F7C 100%); color: white; text-align: center;">
-    <div class="container">
-        <h2 style="color: white; font-size: 2.5rem; margin-bottom: 15px;">Ready to Transform Your Look?</h2>
-        <p
-            style="color: rgba(255,255,255,0.9); font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
-            Book a free consultation with our expert dermatologists and start your journey to confidence today.
-        </p>
-        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-            <a href="contact.php"
-                style="display: inline-block; padding: 15px 40px; background: #27AE60; color: white; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 1.1rem; transition: 0.3s;">
-                <i class="fas fa-calendar-check"></i> Book Appointment
-            </a>
-            <a href="contact.php"
-                style="display: inline-block; padding: 15px 40px; background: transparent; color: white; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 1.1rem; border: 2px solid white; transition: 0.3s;">
-                <i class="fas fa-phone"></i> Call Us Now
-            </a>
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Key <span class="text-medicalTeal">Benefits</span></h2>
+                <p class="text-gray-500">Why choose Dencespot for your About Dencespot Clinic.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-white border border-gray-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-bgLight rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mx-auto mb-6">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 italic">Medical Safety</h3>
+                    <p class="text-gray-500 text-sm">Performed in a 100% sterile clinical environment with expert supervision.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-white border border-gray-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-bgLight rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mx-auto mb-6">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 italic">Instant Results</h3>
+                    <p class="text-gray-500 text-sm">Experience visible improvements and a refreshed appearance right after the session.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-white border border-gray-100 shadow-sm text-center">
+                    <div class="w-14 h-14 bg-bgLight rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mx-auto mb-6">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 italic">Personalized Care</h3>
+                    <p class="text-gray-500 text-sm">Treatments tailored precisely to your skin/hair type and desired outcome.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Mobile Responsive Styles -->
-<style>
-    @media (max-width: 768px) {
-        .container>div[style*="grid-template-columns"] {
-            grid-template-columns: 1fr !important;
-            gap: 2rem !important;
-        }
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
 
-        h1 {
-            font-size: 2rem !important;
-        }
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
 
-        h2 {
-            font-size: 1.8rem !important;
-        }
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        .section-padding {
-            padding: 40px 20px !important;
-        }
-    }
-</style>
+    <!-- Footer -->
 
-<?php include 'footer.php'; ?>
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>

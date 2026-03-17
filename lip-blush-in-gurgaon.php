@@ -1,347 +1,340 @@
-<?php
-$pageTitle = 'Lip Blush in Gurgaon | DenceSpot';
-$pageDesc = 'Get the perfect pout with Lip Blush treatment in Gurgaon at DenceSpot. Semi-permanent lip tinting for defined, naturally colored lips. Book your consultation.';
-$pageCanonical = 'https://dencespot.com/lip-blush-in-gurgaon.php';
-$currentPage = 'lip-blush';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lip Blush Treatment in Gurgaon | Semi-Permanent Lip Tinting | Dencespot</title>
+    <meta name="description" content="Enhance your lips naturally with Lip Blush treatment in Gurgaon at Dencespot. Semi-permanent lip tinting for dark, pigmented, or pale lips. Safe and painless.">
+    <meta name="keywords" content="Lip Blush in Gurgaon, Permanent Makeup Lip Tint, Dark Lips Treatment, Semi-Permanent Lip Color, Lip Neutralization">
+    
+    <title>Lip Blush Treatment in Gurgaon | Semi-Permanent Lip Tinting | Dencespot</title>
+    <meta name="description" content="Enhance your lips naturally with Lip Blush treatment in Gurgaon at Dencespot. Semi-permanent lip tinting for dark, pigmented, or pale lips. Safe and painless.">
+    <meta name="keywords" content="Lip Blush in Gurgaon, Permanent Makeup Lip Tint, Dark Lips Treatment, Semi-Permanent Lip Color, Lip Neutralization">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- New Service Hero Section (Matching Reference) -->
-<section class="service-hero-section">
-    <div class="container">
-        <div class="service-hero-grid">
-            <!-- Mobile Top Badge -->
-            <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-kiss-wink-heart"></i> Perfect Pout
-            </div>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-            <!-- Left: Text Content -->
-            <div class="service-hero-content">
-                <!-- Pill Badge -->
-                <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-kiss-wink-heart"></i> Perfect Pout
-                </div>
-
-                <!-- Heading -->
-                <h1>Lip Blush <span>in Gurgaon</span></h1>
-
-                <!-- Description -->
-                <p>Wake up with makeup! Lip Blush is a revolutionary semi-permanent makeup treatment that enhances the
-                    natural shape of your lips, giving them symmetry, definition, and a healthy flush of color.</p>
-
-                <!-- Buttons -->
-                <div class="service-hero-buttons">
-                    <a href="#booking" class="btn-service-primary">
-                        <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Free Consultation
-                    </a>
-                    <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Call Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right: Image with Overlay -->
-            <div class="service-hero-image">
-                <img src="images/hair-transplant-hero.png" alt="Beautiful Lip Blush Results">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Statistics Section -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <!-- Stat 1: Happy Patients -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-smile"></i>
-                </div>
-                <div class="stat-number">1,500+</div>
-                <div class="stat-label">Happy Clients</div>
-            </div>
-
-            <!-- Stat 2: Years of Expertise -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-paint-brush"></i>
-                </div>
-                <div class="stat-number">10+</div>
-                <div class="stat-label">Years of Artistry</div>
-            </div>
-
-            <!-- Stat 3: Lasting Results -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-calendar-alt"></i>
-                </div>
-                <div class="stat-number">2-3 Years</div>
-                <div class="stat-label">Long Lasting</div>
-            </div>
-
-            <!-- Stat 4: Google Rating -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number">4.9</div>
-                <div class="stat-label">Google Rating</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Process Section -->
-<section class="benefits-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">The Lip Blush Process</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">It's a form of tattoo, but much gentler and
-                natural-looking than traditional methods.</p>
-        </div>
-
-        <div class="benefits-grid">
-            <!-- Step 1 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-comment-dots"></i></div>
-                <h3>Consultation & Choice</h3>
-                <p>We discuss your desired look and select a pigment shade that complements your skin tone and natural
-                    lip color.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-pen-nib"></i></div>
-                <h3>Mapping & Numbing</h3>
-                <p>We precision-map the lip shape to correct asymmetry and apply a strong numbing cream for your
-                    comfort.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-magic"></i></div>
-                <h3>Pigmentation</h3>
-                <p>Using a digital pen, we deposit pigment into the lips in layers to build a soft, pixelated "blush"
-                    effect.</p>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-heart"></i></div>
-                <h3>Healing</h3>
-                <p>Lips will look darker initially but heal to a soft, natural tint within 5-7 days. A touch-up is done
-                    after 6 weeks.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Benefits Section -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Why You'll Love Lip Blush</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">It’s the ultimate low-maintenance beauty hack.</p>
-        </div>
-
-        <div class="treatment-grid">
-            <!-- Benefit 1 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-vector-square"></i>
-                </div>
-                <h3>Defines Shape</h3>
-                <p>Restores the natural border of the lips which often fades with age, making lips look fuller and more
-                    defined.</p>
-            </div>
-
-            <!-- Benefit 2 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <h3>Corrects Color</h3>
-                <p>Great for neutralizing dark or cool-toned lips (melanin-rich lips) and giving pale lips a healthy
-                    boost of color.</p>
-            </div>
-
-            <!-- Benefit 3 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-tint-slash"></i>
-                </div>
-                <h3>Smudge-Proof</h3>
-                <p>Eat, drink, swim, and kiss without worrying about your lipstick fading or smearing. It's always
-                    there!</p>
-            </div>
-
-            <!-- Benefit 4 -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <h3>Natural Look</h3>
-                <p>Unlike the harsh lip liners of the past, Lip Blush creates a soft, diffused wash of color that looks
-                    like your own lips, but better.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Doctors Section -->
-<section id="doctors" class="section-padding doctors">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our Team
-            </h5>
-            <h2 style="font-size: 3rem; color: #1A2E44;">Our Experts</h2>
-        </div>
-
-        <div class="doctors-grid">
-            <!-- Doctor 1 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul">
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Perfect Pout Everyday</span>
                     </div>
-                    <h3>Dr. Rahul</h3>
-                    <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra">
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+                        Lip Blush Treatment <br> 
+                        <span class="text-medicalTeal">in Gurgaon</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Wake up to perfectly tinted, naturally flushed lips every day. Premium semi-permanent lip blush and dark lip neutralization customized for Indian skin tones.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
+                        <div class="flex items-center gap-3"><i class="fas fa-certificate text-medicalTeal"></i> Organic FDA Pigments</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-droplet text-medicalTeal"></i> Lasts 2-3 Years</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-lips text-medicalTeal"></i> Dark Lip Neutralization</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Certified PMU Artists</div>
                     </div>
-                    <h3>Dr. Nyra</h3>
-                    <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Free Consultation
+                        </a>
+                        <a href="gallery.php" class="border-2 border-medicalTeal text-medicalTeal px-8 py-4 rounded-full font-bold text-lg hover:bg-medicalTeal hover:text-white transition-all text-center">
+                            See Results
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Section -->
-<section class="why-choose-new">
-    <div class="container">
-        <div class="why-choose-grid">
-            <div class="why-blob-container">
-                <div class="why-blob-image">
-                    <img src="images/why-choose.png" alt="Clinical Excellence">
-                </div>
-            </div>
-
-            <div class="why-text-content">
-                <h4>DENCESPOT CLINIC</h4>
-                <h2>Frequently Asked<br>Questions</h2>
-
-                <div class="why-list">
-                    <!-- FAQ Item 1 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Is Lip Blush painful?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We use a highly effective topical anesthetic, so most clients report minimal discomfort
-                                (often rated 2/10). Some even fall asleep!</p>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Best Hair and Skin Clinic in Gurgaon Result" class="w-full">
+                        <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
+                            Dencespot Patient
                         </div>
                     </div>
-
-                    <!-- FAQ Item 2 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How long does it last?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Lip blush is semi-permanent and typically lasts between 2 to 3 years, depending on your
-                                lifestyle, skin type, and sun exposure.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 3 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Are there side effects?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>You can expect swelling and brightness immediately after the procedure, which subsides in
-                                24-48 hours. Peeling occurs during the first week of healing.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 4 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Can I still wear lipstick?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Absolutely! Lip blush just enhances your natural lips. You can still apply any lipstick
-                                color you want over it for a dramatic look.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 5 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How do I choose a color?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We recommend bringing your favorite everyday lipstick! We will mix custom pigments to
-                                match that shade or find a tone that enhances your natural lip color best.</p>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[240px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-100">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold leading-tight">Kiss-Proof Color</p>
+                                <p class="text-[10px] text-gray-400 mt-1 italic leading-tight">Smudge-free tint that lasts years</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Booking / CTA Section -->
-<section id="booking" class="app-split-container" style="margin-top: 50px;">
-    <!-- Left: Appointment Form -->
-    <div class="app-left-form">
-        <h2>Book an<br>Appointment</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="YOUR NAME*" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required>
-            </div>
-            <div class="form-group icon-group" style="position: relative;">
-                <input type="email" class="form-control" placeholder="EMAIL ID">
-                <i class="fas fa-envelope" style="position: absolute; right: 15px; top: 15px; color: #27AE60;"></i>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Concern"></textarea>
-            </div>
-            <button type="submit" class="btn-submit-app">BOOK AN APPOINTMENT</button>
-        </form>
-    </div>
-
-    <!-- Right: Video Testimonials -->
-    <div class="app-right-video">
-        <h2>Our Happy Faces</h2>
-        <span>Video Testimonials</span>
-
-        <div class="app-video-thumb">
-            <img src="images/video-testimonial-thumb.png" alt="Patient Success Story">
-            <div class="app-play-btn">
-                <i class="fas fa-play"></i>
+    <!-- INTRODUCTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Wake Up Flawless: <span class="text-medicalTeal">Lip Blush in Gurgaon</span></h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+<p>Tired of applying and reapplying lipstick throughout the day? Frustrated by dark, heavily pigmented, or uneven lips that make you look tired or unwell? Welcome to the magic of permanent makeup. <strong>Lip Blush treatment in Gurgaon</strong> at Dencespot Clinic is a revolutionary semi-permanent tattoo technique that infuses high-quality organic pigments into your lips, giving them a soft, natural, and highly flattering everyday tint. As pioneers of <strong>Best Hair and Skin Clinic in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+<p>Unlike harsh, solid block lip tattoos from the 90s, the modern Lip Blush technique focuses on the 'watercolor' or 'aquarelle' effect. Using an ultrafine nano-needle, our certified Permanent Makeup (PMU) artists deposit pigment very softly into the uppermost layers of the dermis. The result heals 30-50% lighter than the applied color, leaving you with a subtle lip stain effect that restores youthfulness, defines the lip border, and provides the illusion of fullness without dermal fillers.</p>
+<p>A key specialty at our clinic is <strong>Dark Lip Neutralization</strong>, highly requested for Indian skin tones. Heavy melanin, sun exposure, genetics, or smoking often leads to purplish or dark brown lips. Before applying your desired pink or peach tint, we use specialized warm orange/yellow correctors to neutralize the intense dark tones, lifting the overall shade of your lips. At Dencespot, we deliver safe, symmetrical, and incredibly natural results.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<?php include 'footer.php'; ?>
+    <!-- PROCEDURE DETAILS -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Best Best Hair and Skin Clinic in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8 italic">The Art of <span class="text-medicalTeal">Lip Pigmentation</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+<p>Lip blushing is essentially a cosmetic tattoo, but with crucial differences from standard body art. We use specialized cosmetic pigments—not body inks—which are specifically formulated to be organic, breathable, and designed to gently fade over time rather than blurring into harsh, unnatural colors.</p>
+<p>Because the lips are highly vascular and sensitive, the process must be meticulously gentle. We employ top-tier digital PMU devices operating at high speeds but shallow depths. This ensures maximum pigment retention with minimal trauma, swelling, or crusting.</p>
+<p>The treatment usually requires two sessions. The initial application lays the foundation and structure. However, because lips naturally exfoliate and expel some pigment as they heal, a mandatory touch-up session after 6-8 weeks is performed to fill in any faded spots, adjust the color, and seal in a flawless finish that lasts 2 to 3 years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Why Dencespot <span class="text-medicalTeal">Stands Out</span></h2>
+                <p class="text-gray-500">Trusted experts providing the most reliable <strong>Best Hair and Skin Clinic in Gurgaon</strong> for visible, long-lasting results</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-droplet"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Fixes Dark Lips</h3>
+                    <p class="text-gray-500 text-sm italic">Dark Lip Neutralization effectively cancels out deep brown, purple, and blue tones, creating an even, warm canvas.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-palette"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Customize Your Shade</h3>
+                    <p class="text-gray-500 text-sm italic">Choose your dream everyday color—from soft dusty rose and peachy corals to deeper berry lip stains.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-maximize"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Illusion of Fullness</h3>
+                    <p class="text-gray-500 text-sm italic">By sharply defining the natural lip border (vermillion border) and adding uniform color, lips appear plumper naturally.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-ban"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Smudge-Proof</h3>
+                    <p class="text-gray-500 text-sm italic">Enjoy coffee, meals, swimming, and workouts. Your lip tint stays perfectly intact with zero smudging or transferring on masks.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-user-nurse"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Comfortable Procedure</h3>
+                    <p class="text-gray-500 text-sm italic">We use specialized dual-numbing protocols (pre-numb and secondary numb during procedure) making it highly comfortable.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-clock"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Lasts for Years</h3>
+                    <p class="text-gray-500 text-sm italic">The stunning, low-maintenance color lasts 2 to 3 years depending on your lifestyle and skin type.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCEDURE SECTION -->
+    <section class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6">Your <span class="text-medicalTeal">Lip Blush Treatment Journey</span></h2>
+                <p class="text-gray-400">Step-by-step experience of Lip Blush Treatment at Dencespot Gurgaon.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">01</div>
+                    <h4 class="text-xl font-bold mb-3">Consult & Color Map</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">We discuss your goals, select the perfect custom pigment blend, and pre-draw your lip shape precisely with a pencil.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">02</div>
+                    <h4 class="text-xl font-bold mb-3">Numbing Phase</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">A strong prescription-strength topical anesthetic cream is applied for 30 minutes to ensure a painless experience.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">03</div>
+                    <h4 class="text-xl font-bold mb-3">Nano-Pigmentation</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Using an ultrafine digital needle, the pigment is softly shaded into the lips using a gentle sweeping motion.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">04</div>
+                    <h4 class="text-xl font-bold mb-3">Heal & Touch-Up</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Lips will look bold for 3 days before peeling to reveal a soft stain. A touch-up at 6 weeks perfects the final result.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COST SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Lip Blush Cost</span> in Gurgaon</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">A two-year investment into daily perfection and massive time savings.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
+                    <ul class="space-y-4 text-gray-500">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Standard Lip Blush:</strong> Pricing for standard lip tinting on non-pigmented, even-toned lips.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Dark Lip Neutralization:</strong> Carries a premium as it requires specialized color-correcting sessions and deep pigment knowledge.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Touch-up Included:</strong> Our comprehensive pricing usually accounts for the mandatory 6-week perfecting touch-up session.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
+                    <p class="text-gray-400 mb-6 italic text-sm">"Get a custom treatment plan and exact cost estimate during your free consultation."</p>
+                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+    
+    <!-- Results Section -->
+    
+    <!-- Results Section (Grid) -->
+    
+    <!-- Patient Transformations (3-Grid) -->
+    <section id="results" class="py-[66px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-[30px] gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-4">Patient Transformations</h2>
+                    <p class="text-gray-500">Documented results showcasing medical excellence.</p>
+                </div>
+                <a href="gallery.php" class="bg-darkSlate text-white px-8 py-3 rounded-full font-bold hover:bg-medicalTeal transition-all shadow-xl flex items-center gap-3 group">
+                    View Full Gallery <i class="fas fa-images group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/lip_blush_ba_1773724099422.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Lip Neutralization</h4>
+                        <p class="text-xs text-gray-400 mt-2">Correcting dark lip tones for a natural pink finish.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Natural Pigmenting</h4>
+                        <p class="text-xs text-gray-400 mt-2">Defined lip border and beautiful long-lasting color.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/skin-success-1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Full Lip Enhancement</h4>
+                        <p class="text-xs text-gray-400 mt-2">Achieving a semi-permanent soft matte lip look.</p>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+    
+
+
+    
+    <!-- What Our Customers Say -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-medicalTeal">Customers Say</span></h2>
+        </div>
+        <!-- Elfsight Google Reviews Widget -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-display font-bold mb-[30px] text-center italic">Lip Blush <span class="text-medicalTeal">FAQs</span></h2>
+            <div class="space-y-4">
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm" open>
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Does the Lip Blush procedure hurt?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Lips are sensitive, but we prioritize your comfort. We apply a strong primary numbing cream before we start, and a secondary numbing gel continuously throughout the shading process. Most patients rate the discomfort as a minimal 2 out of 10.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Will my lips swell up?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes, moderate swelling is completely normal immediately after the procedure. You may look like you've had heavy lip filler for about 24-48 hours. Using a clean ice pack will significantly reduce the swelling by the next morning.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">What does the healing process look like?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Days 1-2: Lips are swollen and color looks 50% darker/brighter than you wanted. Days 3-5: Lips will become dry and start peeling in flakes. DO NOT PICK THEM. Days 6-10: Color will look like it vanished. Days 14-30: The soft, final watercolor tint 'blooms' back to the surface.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">I have very dark lips. Can I get a light pink blush?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Not immediately. For highly melanin-rich dark lips, we cannot simply implant pink over dark purple. We must first do 'Neutralization' using warm orange/yellow pigments to cancel the darkness. Once healed to a neutral tone, we can add the target pink/peach tint in a second or third session.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>

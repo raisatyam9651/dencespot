@@ -1,350 +1,339 @@
-<?php
-$pageTitle = 'Dandruff Treatment in Gurgaon | DenceSpot';
-$pageDesc = 'Get rid of stubborn dandruff with the best medical dandruff treatment in Gurgaon at DenceSpot. Expert dermatologists for dry, oily & fungal dandruff. Book a consultation.';
-$pageCanonical = 'https://dencespot.com/dandruff-treatment-in-gurgaon.php';
-$currentPage = 'dandruff-treatment';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dandruff Treatment in Gurgaon | Flake-Free Healthy Scalp</title>
+    <meta name="description" content="Get rid of stubborn dandruff and itchy scalp with advanced clinical dandruff treatments in Gurgaon at Dencespot. Safe, effective solutions for all hair types.">
+    <meta name="keywords" content="Dandruff Treatment in Gurgaon, Itchy Scalp Treatment, Scalp Peels, Best Trichologist Gurgaon">
+    
+    <title>Dandruff Treatment in Gurgaon | Flake-Free Healthy Scalp</title>
+    <meta name="description" content="Get rid of stubborn dandruff and itchy scalp with advanced clinical dandruff treatments in Gurgaon at Dencespot. Safe, effective solutions for all hair types.">
+    <meta name="keywords" content="Dandruff Treatment in Gurgaon, Itchy Scalp Treatment, Scalp Peels, Best Trichologist Gurgaon">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- New Service Hero Section (Matching Reference) -->
-<section class="service-hero-section">
-    <div class="container">
-        <div class="service-hero-grid">
-            <!-- Mobile Top Badge -->
-            <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-snowflake"></i> Clear & Healthy Scalp
-            </div>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-            <!-- Left: Text Content -->
-            <div class="service-hero-content">
-                <!-- Pill Badge -->
-                <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-snowflake"></i> Clear & Healthy Scalp
-                </div>
-
-                <!-- Heading -->
-                <h1>Dandruff Treatment <span>in Gurgaon</span></h1>
-
-                <!-- Description -->
-                <p>Don't let itching and flaking ruin your confidence. Our advanced medical anti-dandruff treatments
-                    target the root cause—be it fungal infection, dryness, or excess oil—to give you a clean, flake-free
-                    scalp.</p>
-
-                <!-- Buttons -->
-                <div class="service-hero-buttons">
-                    <a href="#booking" class="btn-service-primary">
-                        <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Free Consultation
-                    </a>
-                    <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i> Call Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right: Image with Overlay -->
-            <div class="service-hero-image">
-                <img src="images/hair-transplant-hero.png" alt="Happy Patient with Healthy Hair">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Statistics Section -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <!-- Stat 1: Happy Patients -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-smile"></i>
-                </div>
-                <div class="stat-number">8,000+</div>
-                <div class="stat-label">Happy Patients</div>
-            </div>
-
-            <!-- Stat 2: Years of Expertise -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-hospital"></i>
-                </div>
-                <div class="stat-number">15+</div>
-                <div class="stat-label">Years of Expertise</div>
-            </div>
-
-            <!-- Stat 3: Success Rate -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="stat-number">99%</div>
-                <div class="stat-label">Efficacy</div>
-            </div>
-
-            <!-- Stat 4: Google Rating -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number">4.9</div>
-                <div class="stat-label">Google Rating</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Why Dandruff Occurs Section -->
-<section class="benefits-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Understanding Dandruff</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">Dandruff isn't just "dry skin." It's often caused
-                by a combination of factors that need specific medical attention.</p>
-        </div>
-
-        <div class="benefits-grid">
-            <!-- Cause 1 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-bacteria"></i></div>
-                <h3>Fungal Infection</h3>
-                <p>An overgrowth of Malassezia, a yeast-like fungus, causes rapid shedding of scalp skin cells, leading
-                    to visible flakes.</p>
-            </div>
-
-            <!-- Cause 2 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-tint"></i></div>
-                <h3>Selections Sebum</h3>
-                <p>Excess oil production (Seborrheic Dermatitis) creates a breeding ground for fungus, resulting in
-                    sticky, yellowish dandruff.</p>
-            </div>
-
-            <!-- Cause 3 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-wind"></i></div>
-                <h3>Dry Scalp</h3>
-                <p>Lack of moisture, often aggravated by harsh shampoos or weather, leads to small, white, dry flakes
-                    and itching.</p>
-            </div>
-
-            <!-- Cause 4 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-allergies"></i></div>
-                <h3>Product Sensitivity</h3>
-                <p>Allergies or sensitivities to certain hair care products (Contact Dermatitis) can cause a red, itchy,
-                    and flaky scalp.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Treatment Options -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Our Advanced Treatment Solutions</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">We go beyond over-the-counter shampoos to provide
-                medical-grade solutions for lasting relief.</p>
-        </div>
-
-        <div class="treatment-grid">
-            <!-- Treatment 1: Medical Peels -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-broom"></i>
-                </div>
-                <h3>Scalp Peels</h3>
-                <p>Chemical peels designed for the scalp to deeply exfoliate, remove product buildup, and clear blocked
-                    follicles.</p>
-            </div>
-
-            <!-- Treatment 2: Laser Therapy -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-bullseye"></i>
-                </div>
-                <h3>Low-Level Laser Therapy</h3>
-                <p>Reduces inflammation and regulates oil production, helping to calm an irritated scalp and prevent
-                    recurrence.</p>
-            </div>
-
-            <!-- Treatment 3: Medicated Wash -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-prescription-bottle-alt"></i>
-                </div>
-                <h3>Medicated Washes</h3>
-                <p>Prescription-strength antifungal and anti-inflammatory washes tailored to your specific type of
-                    dandruff.</p>
-            </div>
-
-            <!-- Treatment 4: Deep Conditioning -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-spa"></i>
-                </div>
-                <h3>Hydration Therapy</h3>
-                <p>Intense moisturizing treatments for dry dandruff to restore the scalp's natural barrier and moisture
-                    balance.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Doctors Section -->
-<section id="doctors" class="section-padding doctors">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our Team
-            </h5>
-            <h2 style="font-size: 3rem; color: #1A2E44;">Our Experts</h2>
-        </div>
-
-        <div class="doctors-grid">
-            <!-- Doctor 1 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul">
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Clear & Healthy Scalp</span>
                     </div>
-                    <h3>Dr. Rahul</h3>
-                    <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra">
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+                        Dandruff Treatment <br> 
+                        <span class="text-medicalTeal">in Gurgaon</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Stop the embarrassment of white flakes and intense itching. Our medicated scalp peels and advanced therapies target the root cause of chronic dandruff.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
+                        <div class="flex items-center gap-3"><i class="fas fa-microscope text-medicalTeal"></i> Advanced Trichoscopy</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-leaf text-medicalTeal"></i> Medicated Scalp Peels</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-shield text-medicalTeal"></i> Relief from Itching</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Certified Trichologists</div>
                     </div>
-                    <h3>Dr. Nyra</h3>
-                    <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Free Consultation
+                        </a>
+                        <a href="gallery.php" class="border-2 border-medicalTeal text-medicalTeal px-8 py-4 rounded-full font-bold text-lg hover:bg-medicalTeal hover:text-white transition-all text-center">
+                            See Results
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Section -->
-<section class="why-choose-new">
-    <div class="container">
-        <div class="why-choose-grid">
-            <div class="why-blob-container">
-                <div class="why-blob-image">
-                    <img src="images/why-choose.png" alt="Clinical Excellence">
-                </div>
-            </div>
-
-            <div class="why-text-content">
-                <h4>DENCESPOT CLINIC</h4>
-                <h2>Frequently Asked<br>Questions</h2>
-
-                <div class="why-list">
-                    <!-- FAQ Item 1 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Why does my dandruff keep coming back?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Dandruff is often a chronic condition. While it can be controlled effectively with the
-                                right treatment, it may reoccur if maintenance (like using a specific shampoo) isn't
-                                followed.</p>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Dandruff Treatment in Gurgaon Result" class="w-full">
+                        <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
+                            Dencespot Patient
                         </div>
                     </div>
-
-                    <!-- FAQ Item 2 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Is dandruff contagious?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>No, dandruff is not contagious. It is caused by natural factors like your skin's oil
-                                production and naturally occurring yeast on your scalp.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 3 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Can dandruff cause hair loss?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Dandruff itself doesn't cause hair loss, but the severe itching and scratching can damage
-                                hair follicles, leading to temporary hair thinning.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 4 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How long does the treatment take?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>You can see improvement after just one session of a medical scalp peel. A complete course
-                                usually spans 2-4 weeks depending on severity.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 5 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Is oiling good for dandruff?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>No. If your dandruff is caused by a fungal infection (which feeds on oil), adding more
-                                oil can worsen the condition. It's best to consult a dermatologist first.</p>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[240px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-100">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold leading-tight">Flake-Free Hair</p>
+                                <p class="text-[10px] text-gray-400 mt-1 italic leading-tight">Permanent relief from severe scalp scaling</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Booking / CTA Section -->
-<section id="booking" class="app-split-container" style="margin-top: 50px;">
-    <!-- Left: Appointment Form -->
-    <div class="app-left-form">
-        <h2>Book an<br>Appointment</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="YOUR NAME*" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required>
-            </div>
-            <div class="form-group icon-group" style="position: relative;">
-                <input type="email" class="form-control" placeholder="EMAIL ID">
-                <i class="fas fa-envelope" style="position: absolute; right: 15px; top: 15px; color: #27AE60;"></i>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Concern"></textarea>
-            </div>
-            <button type="submit" class="btn-submit-app">BOOK AN APPOINTMENT</button>
-        </form>
-    </div>
-
-    <!-- Right: Video Testimonials -->
-    <div class="app-right-video">
-        <h2>Our Happy Faces</h2>
-        <span>Video Testimonials</span>
-
-        <div class="app-video-thumb">
-            <img src="images/video-testimonial-thumb.png" alt="Patient Success Story">
-            <div class="app-play-btn">
-                <i class="fas fa-play"></i>
+    <!-- INTRODUCTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Reclaim Your Confidence: <span class="text-medicalTeal">Dandruff Treatment in Gurgaon</span></h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+<p>Are you tired of constantly brushing white flakes off your shoulders? Does intense scalp itching leave you embarrassed in public? Over-the-counter anti-dandruff shampoos only provide temporary relief because they merely wash away the flakes without addressing the underlying fungal or inflammatory condition. At Dencespot Clinic, we offer medical-grade <strong>dandruff treatment in Gurgaon</strong> designed to permanently resolve stubborn scalp issues. As pioneers of <strong>Dandruff Treatment in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+<p>Dandruff, known medically as Seborrheic Dermatitis, is often triggered by an overgrowth of a yeast-like fungus called Malassezia. However, a flaky scalp can also be the result of severe scalp psoriasis, contact dermatitis, or extreme dry skin. Our trichologists utilize advanced digital trichoscopy—magnifying the scalp up to 200x—to precisely diagnose the root cause of your scaling before prescribing any treatment.</p>
+<p>Our <strong>scalp clinic in Gurgaon</strong> specializes in customized Medicated Scalp Peels and intense hydration therapies. These clinical procedures safely dissolve the stubborn buildup of dead skin cells and sebum, deeply cleanse the hair follicles, and restore the natural pH balance of your scalp, ensuring your hair roots have a healthy environment to thrive.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<?php include 'footer.php'; ?>
+    <!-- PROCEDURE DETAILS -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Best Dandruff Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8 italic">The Science of <span class="text-medicalTeal">Scalp Peels & Therapy</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+<p>A clinical scalp peel works similarly to a facial chemical peel but is specifically formulated for the thicker skin and hair follicles of the scalp. We use calibrated blends of Salicylic Acid, Glycolic Acid, and antifungal agents to break down the crusty buildup blocking your hair roots.</p>
+<p>Salicylic acid is lipophilic, meaning it penetrates deep into the oil glands of the scalp to dissolve hardened sebum and kill the overactive Malassezia fungus. This immediately relieves the intense itching and reduces the rapid shedding of skin cells.</p>
+<p>Post-exfoliation, we utilize restorative serums and High-Frequency therapy. High-frequency electrical currents generate ozone gas close to the scalp, which acts as a powerful antibacterial and antifungal agent while stimulating blood circulation to the starved hair follicles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Why Dencespot <span class="text-medicalTeal">Stands Out</span></h2>
+                <p class="text-gray-500">Trusted experts providing the most reliable <strong>Dandruff Treatment in Gurgaon</strong> for visible, long-lasting results</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-ban"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Instant Itch Relief</h3>
+                    <p class="text-gray-500 text-sm italic">Medicated formulas instantly soothe inflammation, ending the embarrassing and damaging cycle of scalp scratching.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-droplet"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Removes Buildup</h3>
+                    <p class="text-gray-500 text-sm italic">Dissolves years of hardened sebum, dead skin cells, and product buildup that standard shampoos cannot wash away.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-microbe"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Kills Fungus</h3>
+                    <p class="text-gray-500 text-sm italic">Targeted antifungal treatments effectively control the overgrowth of Malassezia yeast, the primary culprit of dandruff.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-leaf"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Balances Sebum</h3>
+                    <p class="text-gray-500 text-sm italic">Regulates overactive oil glands to prevent the scalp from becoming too greasy or too dry between washes.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-seedling"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Reduces Hair Fall</h3>
+                    <p class="text-gray-500 text-sm italic">By unblocking suffocated hair follicles and curing scalp inflammation, secondary hair fall is significantly reduced.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6"><i class="fas fa-user-nurse"></i></div>
+                    <h3 class="text-xl font-bold mb-4">Comfortable & Relaxing</h3>
+                    <p class="text-gray-500 text-sm italic">The treatment feels like a luxurious, cooling, and deeply cleansing spa facial for your scalp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCEDURE SECTION -->
+    <section class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6">Your <span class="text-medicalTeal">Dandruff Treatment Journey</span></h2>
+                <p class="text-gray-400">Step-by-step experience of Dandruff Treatment at Dencespot Gurgaon.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">01</div>
+                    <h4 class="text-xl font-bold mb-3">Scalp Analysis</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Digital trichoscopy is performed to analyze the type and severity of scales (dry vs. oily dandruff).</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">02</div>
+                    <h4 class="text-xl font-bold mb-3">Deep Cleansing</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">A medicated exfoliating peel is applied to gently loosen and dissolve the thick crusts of dead skin.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">03</div>
+                    <h4 class="text-xl font-bold mb-3">Ozone Therapy</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">High-frequency combs emit ozone to sterilize the scalp and boost blood circulation.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">04</div>
+                    <h4 class="text-xl font-bold mb-3">Hydration & Nutrition</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Cooling, anti-inflammatory serums and stem cell solutions are infused into the clean scalp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COST SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Treatment Cost</span> in Gurgaon</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">Affordable medical solutions for chronic scalp conditions.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
+                    <ul class="space-y-4 text-gray-500">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Severity of Condition:</strong> Mild dry dandruff requires fewer sessions compared to severe, crusty Seborrheic Dermatitis.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Type of Therapy:</strong> Costs vary depending on whether we use chemical scalp peels, ozone therapy, or microdermabrasion.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Session Packages:</strong> Usually, 3 to 5 sessions spaced two weeks apart are needed for complete clearance.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
+                    <p class="text-gray-400 mb-6 italic text-sm">"Get a custom treatment plan and exact cost estimate during your free consultation."</p>
+                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Results Section -->
+    
+    <!-- Results Section (Grid) -->
+    
+    <!-- Patient Transformations (3-Grid) -->
+    <section id="results" class="py-[66px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-[30px] gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-4">Patient Transformations</h2>
+                    <p class="text-gray-500">Documented results showcasing medical excellence.</p>
+                </div>
+                <a href="gallery.php" class="bg-darkSlate text-white px-8 py-3 rounded-full font-bold hover:bg-medicalTeal transition-all shadow-xl flex items-center gap-3 group">
+                    View Full Gallery <i class="fas fa-images group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Scalp Detox</h4>
+                        <p class="text-xs text-gray-400 mt-2">Complete removal of stubborn dandruff flakes.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/dandruff_success_1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Healthy Scalp</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reducing itchiness and fungal growth significantly.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Scalp Immunity</h4>
+                        <p class="text-xs text-gray-400 mt-2">Strengthening the scalp barrier with clinical therapies.</p>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <!-- What Our Customers Say -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-medicalTeal">Customers Say</span></h2>
+        </div>
+        <!-- Elfsight Google Reviews Widget -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-display font-bold mb-[30px] text-center italic">Dandruff Treatment <span class="text-medicalTeal">FAQs</span></h2>
+            <div class="space-y-4">
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm" open>
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Can dandruff cause hair fall?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes, absolutely. Severe dandruff causes intense itching. Scratching damages the hair follicles, and the fungal inflammation weakens the hair roots, leading to significant secondary hair fall. Curing dandruff often stops the shedding.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Are scalp peels safe?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes, when performed by a certified dermatologist. The concentrations of acids used (like salicylic) are strictly medical-grade and calibrated to safely exfoliate without burning the scalp or damaging the hair shaft.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">How many sessions will I need?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Most patients see a 70% reduction in flaking after just one session. A complete cure usually takes 3 to 5 clinical sessions combined with a prescribed home-care medical shampoo routine.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">Will the dandruff come back?<span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span></summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Dandruff is a chronic condition related to your body's oil production and climate. While clinical treatments provide long-term clearance (months to years), you must maintain the results using the specific shampoos prescribed by our doctors.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>

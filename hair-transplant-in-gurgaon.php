@@ -1,467 +1,360 @@
-<?php
-$pageTitle = 'Hair Transplant in Gurgaon | DenceSpot';
-$pageDesc = 'Looking for the best hair transplant in Gurgaon? DenceSpot Clinic offers advanced FUE & FUT hair restoration with natural results. Book a free consultation today.';
-$pageCanonical = 'https://dencespot.com/hair-transplant-in-gurgaon.php';
-$currentPage = 'hair-transplant';
-include 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Transplant in Gurgaon | Best FUE Hair Restoration | Dencespot</title>
+    <meta name="description" content="Get the best hair transplant in Gurgaon at Dencespot Clinic. Advanced FUE hair restoration for natural density and permanent results. Expert doctors, affordable cost.">
+    <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon">
+    
+    <title>Hair Transplant in Gurgaon | Best FUE Hair Restoration | Dencespot</title>
+    <meta name="description" content="Get the best hair transplant in Gurgaon at Dencespot Clinic. Advanced FUE hair restoration for natural density and permanent results. Expert doctors, affordable cost.">
+    <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon">
+    <?php include "includes/head_links.php"; ?>
+</head>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- New Service Hero Section (Matching Reference) -->
-<section class="service-hero-section">
-    <div class="container">
-        <div class="service-hero-grid">
-            <!-- Mobile Top Badge -->
-            <div class="service-hero-badge mobile-hero-badge">
-                <i class="fas fa-shield"></i> Advanced Hair Restoration
-            </div>
+    <!-- Header -->
+        <?php include "includes/header.php"; ?>
 
-            <!-- Left: Text Content -->
-            <div class="service-hero-content">
-                <!-- Pill Badge -->
-                <div class="service-hero-badge desktop-hero-badge">
-                    <i class="fas fa-shield"></i> Advanced Hair Restoration
-                </div>
-
-                <!-- Heading -->
-                <h1>Hair Transplant <span>in Gurgaon</span></h1>
-
-                <!-- Description -->
-                <p>Find lasting relief from hair loss with comprehensive hair restoration in Gurgaon. Our expert
-                    surgeons specialize in minimally invasive FUE/FUT techniques to treat baldness, helping you
-                    regain your confidence and youth.</p>
-
-                <!-- Buttons -->
-                <div class="service-hero-buttons">
-                    <a href="#booking" class="btn-service-primary">
-                        <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Free Consultation
-                    </a>
-                    <a href="tel:+918178330800" class="btn-service-outline">
-                        <i class="fas fa-phone" style="margin-right: 8px;"></i> Call Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right: Image with Overlay -->
-            <div class="service-hero-image">
-                <img src="images/hair-transplant-hero.png" alt="Happy Hair Transplant Patient">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Statistics Section -->
-<section class="stats-section">
-    <div class="container">
-        <div class="stats-grid">
-            <!-- Stat 1: Happy Patients -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-smile"></i>
-                </div>
-                <div class="stat-number">20,000+</div>
-                <div class="stat-label">Happy Patients</div>
-            </div>
-
-            <!-- Stat 2: Years of Expertise -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-hospital"></i>
-                </div>
-                <div class="stat-number">20+</div>
-                <div class="stat-label">Years of Expertise</div>
-            </div>
-
-            <!-- Stat 3: Grafts Transplanted -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-notes-medical"></i>
-                </div>
-                <div class="stat-number">3,000,000+</div>
-                <div class="stat-label">Grafts Transplanted</div>
-            </div>
-
-            <!-- Stat 4: Google Rating -->
-            <div class="stat-item">
-                <div class="stat-icon">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div class="stat-number">4.9</div>
-                <div class="stat-label">Google Rating</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Hair Transplant Procedure Section -->
-<section class="benefits-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Hair Transplant Procedure</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">Our advanced hair restoration process
-                follows a systematic approach to ensure natural-looking results and optimal hair growth.</p>
-        </div>
-
-        <div class="benefits-grid">
-            <!-- Step 1 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-user-doctor"></i></div>
-                <h3>Consultation & Assessment</h3>
-                <p>Comprehensive evaluation of your hair loss pattern, scalp health, and donor area to create a
-                    personalized treatment plan tailored to your needs.</p>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-syringe"></i></div>
-                <h3>Follicle Extraction</h3>
-                <p>Using advanced FUE or FUT techniques, healthy hair follicles are carefully extracted from the
-                    donor area with minimal discomfort and scarring.</p>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-microscope"></i></div>
-                <h3>Graft Preparation</h3>
-                <p>Extracted follicles are meticulously prepared and sorted under magnification to ensure
-                    optimal viability for transplantation.</p>
-            </div>
-
-            <!-- Step 4 -->
-            <div class="benefit-card">
-                <div class="benefit-icon-box"><i class="fas fa-seedling"></i></div>
-                <h3>Implantation & Growth</h3>
-                <p>Grafts are strategically implanted to create a natural hairline and density. New hair growth
-                    begins within 3-4 months with full results in 12-18 months.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Advanced Hair Restoration Treatment Options -->
-<section class="treatment-section">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h2 style="color: #1A2E44;">Advanced Hair Restoration Treatment Options</h2>
-            <p style="color: #666; max-width: 700px; margin: 0 auto;">We offer a full spectrum of treatments,
-                from conservative care to minimally invasive procedures.</p>
-        </div>
-
-        <div class="treatment-grid">
-            <!-- Treatment 1: FUE Technique -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-microscope"></i>
-                </div>
-                <h4>FUE (Follicular Unit Extraction)</h4>
-                <p>Individual hair follicles are extracted from the donor area and transplanted to balding areas
-                    with minimal scarring and faster recovery.</p>
-            </div>
-
-            <!-- Treatment 2: FUT Technique -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-scissors"></i>
-                </div>
-                <h4>FUT (Follicular Unit Transplantation)</h4>
-                <p>A strip of scalp is removed from the donor area, dissected into individual grafts, and
-                    transplanted for maximum graft yield.</p>
-            </div>
-
-            <!-- Treatment 3: PRP Therapy -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-syringe"></i>
-                </div>
-                <h4>PRP (Platelet-Rich Plasma) Therapy</h4>
-                <p>Your own blood platelets are injected into the scalp to stimulate hair growth and improve
-                    hair thickness naturally.</p>
-            </div>
-
-            <!-- Treatment 4: DHI Technique -->
-            <div class="treatment-card">
-                <div class="treatment-icon">
-                    <i class="fas fa-pen"></i>
-                </div>
-                <h4>DHI (Direct Hair Implantation)</h4>
-                <p>Advanced technique using a Choi pen to implant hair follicles directly without creating
-                    recipient sites beforehand.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Happy Indian Patients Section -->
-<section class="indian-patients-section" style="padding: 80px 0; background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h5 style="color: #27AE60; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">Real Patients, Real Results</h5>
-            <h2 style="color: #1A2E44; font-size: 2.5rem; margin-bottom: 15px;">Our Happy Indian Patients</h2>
-            <p style="color: #666; max-width: 650px; margin: 0 auto;">Thousands of satisfied patients across India have transformed their lives with our expert hair restoration procedures at DenceSpot Clinic, Gurgaon.</p>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 900px; margin: 0 auto;">
-            <!-- Patient 1 -->
-            <div style="background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.10); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.10)';">
-                <div style="position: relative; overflow: hidden; height: 300px;">
-                    <img src="images/indian-patient-1.png" alt="Happy Indian Hair Transplant Patient - Gurgaon" style="width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s ease;">
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(26,46,68,0.85)); padding: 25px 20px 20px;">
-                        <div style="display: flex; align-items: center; gap: 5px; margin-bottom: 4px;">
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                        </div>
-                        <p style="color: #fff; font-size: 0.85rem; margin: 0;">"Natural hairline restored in just 12 months!"</p>
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
+        <div class="absolute inset-0 skin-pattern opacity-30"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="animate__animated animate__fadeInLeft">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
+                        <span class="text-xs font-semibold uppercase tracking-widest text-medicalTeal">Advanced Scalp Restoration</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
+                        Hair Transplant <br> 
+                        <span class="text-medicalTeal">in Gurgaon</span>
+                    </h1>
+                    <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
+                        Restore your hairline and confidence with Gurgaon's most advanced FUE hair restoration technology. Natural density, permanent growth, and expert care.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
+                        <div class="flex items-center gap-3"><i class="fas fa-certificate text-medicalTeal"></i> 10+ Years Excellence</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-check-circle text-medicalTeal"></i> 5000+ Scalp Restorations</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-microscope text-medicalTeal"></i> Elite FUE/DHT Tech</div>
+                        <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Delhi-NCR Best Surgeons</div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
+                        <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
+                            Book Free Assessment
+                        </a>
+                        <a href="gallery.php" class="border-2 border-medicalTeal text-medicalTeal px-8 py-4 rounded-full font-bold text-lg hover:bg-medicalTeal hover:text-white transition-all text-center">
+                            See Transformations
+                        </a>
                     </div>
                 </div>
-                <div style="padding: 20px;">
-                    <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Arjun S., 34</h4>
-                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-location-dot" style="margin-right: 5px;"></i> Sector 29, Gurgaon</p>
-                    <p style="color: #666; font-size: 0.88rem; margin: 0;">FUE Hair Transplant — 2,500 Grafts</p>
-                </div>
-            </div>
-
-            <!-- Patient 2 -->
-            <div style="background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.10); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.10)';">
-                <div style="position: relative; overflow: hidden; height: 300px;">
-                    <img src="images/indian-patient-2.png" alt="Satisfied Indian Patient After Hair Transplant - DenceSpot Clinic" style="width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s ease;">
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(26,46,68,0.85)); padding: 25px 20px 20px;">
-                        <div style="display: flex; align-items: center; gap: 5px; margin-bottom: 4px;">
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                            <i class="fas fa-star" style="color: #FFD700; font-size: 12px;"></i>
-                        </div>
-                        <p style="color: #fff; font-size: 0.85rem; margin: 0;">"Confidence fully restored. Best decision ever!"</p>
-                    </div>
-                </div>
-                <div style="padding: 20px;">
-                    <h4 style="color: #1A2E44; margin: 0 0 5px; font-size: 1.1rem;">Rajesh M., 42</h4>
-                    <p style="color: #27AE60; font-size: 0.85rem; margin: 0 0 8px; font-weight: 600;"><i class="fas fa-location-dot" style="margin-right: 5px;"></i> DLF Phase 2, Gurgaon</p>
-                    <p style="color: #666; font-size: 0.88rem; margin: 0;">DHI + PRP Hair Transplant — 3,200 Grafts</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Before & After Results Section -->
-<section class="before-after-section" style="padding: 80px 0; background: #fff;">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h5 style="color: #27AE60; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">Transformations</h5>
-            <h2 style="color: #1A2E44; font-size: 2.5rem; margin-bottom: 15px;">Before & After Results</h2>
-            <p style="color: #666; max-width: 650px; margin: 0 auto;">See the remarkable transformations our Indian patients have experienced. These are real results from real procedures performed at DenceSpot Clinic, Gurgaon.</p>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-
-            <!-- Case 1 -->
-            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
-                <img src="images/before-after-1.png" alt="Hair Transplant Before and After - Indian Male Patient Case 1" style="width: 100%; display: block;">
-                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 1: Male Patient, 35</h4>
-                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">FUE — 2,800 Grafts Transplanted</p>
-                    </div>
-                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">12 Months</div>
-                </div>
-            </div>
-
-            <!-- Case 2 -->
-            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
-                <img src="images/before-after-2.png" alt="Hair Transplant Before and After - Indian Male Patient Case 2" style="width: 100%; display: block;">
-                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 2: Male Patient, 44</h4>
-                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">DHI — 3,500 Grafts Transplanted</p>
-                    </div>
-                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">14 Months</div>
-                </div>
-            </div>
-
-            <!-- Case 3 -->
-            <div style="border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 20px 50px rgba(0,0,0,0.20)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 40px rgba(0,0,0,0.12)';">
-                <img src="images/before-after-3.png" alt="Hair Transplant Before and After - Indian Female Patient Case 3" style="width: 100%; display: block;">
-                <div style="background: #1A2E44; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <h4 style="color: #fff; margin: 0 0 4px; font-size: 1rem;">Case 3: Female Patient, 32</h4>
-                        <p style="color: #27AE60; margin: 0; font-size: 0.85rem;">FUE + PRP — 1,500 Grafts</p>
-                    </div>
-                    <div style="background: #27AE60; border-radius: 50px; padding: 6px 14px; font-size: 0.8rem; color: #fff; white-space: nowrap;">10 Months</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- CTA under results -->
-        <div style="text-align: center; margin-top: 50px;">
-            <p style="color: #666; margin-bottom: 20px; font-size: 1rem;">Want to see more results? Book a free consultation at our Gurgaon clinic.</p>
-            <a href="#booking" style="display: inline-block; background: linear-gradient(135deg, #27AE60, #1A8A4A); color: #fff; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 6px 20px rgba(39,174,96,0.35); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(39,174,96,0.45)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 6px 20px rgba(39,174,96,0.35)';">
-                <i class="far fa-calendar-check" style="margin-right: 8px;"></i> Book Your Free Consultation
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- Doctors Section -->
-<section id="doctors" class="section-padding doctors">
-    <div class="container">
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <h5 style="color: #999; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem;">Meet Our
-                Team</h5>
-            <h2 style="font-size: 3rem; color: #1A2E44;">Our Experts</h2>
-        </div>
-
-        <div class="doctors-grid">
-            <!-- Doctor 1 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-rahul-bio.jpg" alt="Dr. Rahul">
-                    </div>
-                    <h3>Dr. Rahul</h3>
-                    <p class="specialty">Hair Transplant Specialist</p>
-                    <a href="dr-rahul.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-            <!-- Doctor 2 -->
-            <div class="doctor-card">
-                <div class="doctor-card-inner">
-                    <div class="doctor-img-wrapper">
-                        <img src="images/dr-nyra-new.jpg" alt="Dr. Nyra">
-                    </div>
-                    <h3>Dr. Nyra</h3>
-                    <p class="specialty">Cosmetic & Aesthetic</p>
-                    <a href="dr-nyra.php" class="view-profile-btn">View Profile</a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
-
-<!-- Why Choose Us Section -->
-<section class="why-choose-new">
-    <div class="container">
-        <div class="why-choose-grid">
-            <div class="why-blob-container">
-                <div class="why-blob-image">
-                    <img src="images/why-choose.png" alt="Clinical Excellence">
-                </div>
-            </div>
-
-            <div class="why-text-content">
-                <h4>DENCESPOT CLINIC</h4>
-                <h2>Why Choose DenceSpot<br>Skin Clinic?</h2>
-
-                <div class="why-list">
-                    <!-- FAQ Item 1 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>What makes DenceSpot's hair transplant different?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We combine advanced FUE, FUT, and DHI techniques with personalized treatment
-                                plans, ensuring natural-looking results with a 98% success rate performed by
-                                certified specialists.</p>
+                <div class="relative animate__animated animate__fadeInRight">
+                    <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <img src="assets/images/indian-ht-result-1.png" alt="Hair Transplant Result Gurgaon" class="w-full">
+                        <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
+                            Dencespot Patient
                         </div>
                     </div>
-
-                    <!-- FAQ Item 2 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>How long does the hair transplant procedure take?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Depending on the number of grafts, the procedure typically takes 4-8 hours. We
-                                ensure your comfort throughout with local anesthesia and breaks as needed.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 3 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Is the hair transplant procedure painful?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>The procedure is performed under local anesthesia, so you won't feel pain during
-                                the surgery. Post-procedure discomfort is minimal and manageable with prescribed
-                                medication.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 4 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>When will I see results after hair transplant?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>New hair growth begins within 3-4 months. Significant improvement is visible by
-                                6-9 months, with full results achieved in 12-18 months as transplanted hair
-                                matures.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ Item 5 -->
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span>Do you offer financing options for hair transplant?</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Yes, we offer flexible EMI options and payment plans to make hair restoration
-                                accessible. Contact us for a personalized quote and financing details.</p>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[240px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-100">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold leading-tight">Elite Density</p>
+                                <p class="text-[10px] text-gray-400 mt-1 italic leading-tight">Maximum grafts per sq.cm for natural look</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Booking / CTA Section -->
-<section id="booking" class="app-split-container" style="margin-top: 50px;">
-    <!-- Left: Appointment Form -->
-    <div class="app-left-form">
-        <h2>Book an<br>Appointment</h2>
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="YOUR NAME*" required>
-            </div>
-            <div class="form-group">
-                <input type="tel" class="form-control" placeholder="PHONE NUMBER*" required>
-            </div>
-            <div class="form-group icon-group" style="position: relative;">
-                <input type="email" class="form-control" placeholder="EMAIL ID">
-                <i class="fas fa-envelope" style="position: absolute; right: 15px; top: 15px; color: #27AE60;"></i>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Your Concern"></textarea>
-            </div>
-            <button type="submit" class="btn-submit-app">BOOK AN APPOINTMENT</button>
-        </form>
-    </div>
-
-    <!-- Right: Video Testimonials -->
-    <div class="app-right-video">
-        <h2>Our Happy Faces</h2>
-        <span>Video Testimonials</span>
-
-        <div class="app-video-thumb">
-            <img src="images/video-testimonial-thumb.png" alt="Patient Success Story">
-            <div class="app-play-btn">
-                <i class="fas fa-play"></i>
+    <!-- INTRODUCTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Expert Solutions for Baldness: <span class="text-medicalTeal">Hair Transplant in Gurgaon</span></h2>
+                <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
+                <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
+                    <p>Hair loss can affect more than just your appearance; it impacts your self-esteem and professional image. If you're searching for a permanent, medical-grade solution, our <strong>hair transplant in Gurgaon</strong> provides the gold standard in hair restoration. We don't just 'fill gaps'; we strategically redesign your hairline to match your age, facial features, and future aging pattern. As pioneers of <strong>Hair Transplant in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+                    <p>At Dencespot Clinic, we utilize the most refined FUE (Follicular Unit Extraction) techniques. This means individual follicles are extracted one by one from the donor area and implanted with microscopic precision. Our procedure is designed to be minimally invasive, ensuring zero linear scarring and a much faster recovery period compared to traditional methods.</p>
+                    <p>What sets our hair restoration apart is our commitment to <em>Follicular Survival Rates</em>. Every graft is handled with extreme care and kept in specialized solutions to ensure maximum growth once implanted. Whether you are dealing with a receding hairline, crown thinning, or total vertex baldness, our clinical experts in Gurgaon are here to guide you toward a lifetime of natural hair.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<?php include 'footer.php'; ?>
+    <!-- WHAT IS FUE HAIR TRANSPLANT -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <img src="assets/images/indian-ht-result-2.png" alt="What is Hair Transplant" class="rounded-[3rem] shadow-2xl">
+                    <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-8 italic">The Science of <span class="text-medicalTeal">FUE Restoration</span></h2>
+                    <div class="space-y-6 text-gray-600 leading-relaxed">
+                        <p>Follicular Unit Extraction (FUE) is the modern benchmark for hair transplantation. During the procedure, healthy hair follicles are harvested from the 'safe donor zone'—the area at the back of the head that is resistant to Male Pattern Baldness (MPB).</p>
+                        <p>Unlike old 'plug' techniques, FUE allows for the transplantation of individual units of 1-4 hairs. These are placed into tiny recipient sites made in the balding area. The magic lies in the <strong>angle and direction</strong>: we place each graft following the natural exit angle of your original hair, making the result virtually indistinguishable from a natural head of hair.</p>
+                        <p>At Dencespot, we also incorporate <strong>PRP (Platelet Rich Plasma)</strong> therapy during and after the procedure to stimulate the newly implanted grafts and accelerate scalp healing. This combination ensures a higher success rate and faster visible density.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-4">Why Dencespot <span class="text-medicalTeal">Stands Out</span></h2>
+                <p class="text-gray-500">Trusted experts providing the most reliable <strong>Hair Transplant in Gurgaon</strong> for visible, long-lasting results</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Doctor-Led Surgery</h3>
+                    <p class="text-gray-500 text-sm italic">Every key step of extraction and site making is performed directly by our senior medical specialists.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Perfect Hairline Design</h3>
+                    <p class="text-gray-500 text-sm italic">We use artistic planning to create a 'soft' natural hairline that looks great today and as you age.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Maximum Graft Safety</h3>
+                    <p class="text-gray-500 text-sm italic">Our 'Out-of-Body' time is minimized to ensure almost 100% of transplanted follicles survive and grow.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">No Linear Scars</h3>
+                    <p class="text-gray-500 text-sm italic">FUE technique leaves only tiny dot scars that are invisible even with short hair at the back.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Painless Experience</h3>
+                    <p class="text-gray-500 text-sm italic">Advanced local anesthesia protocols mean you can watch movies or chat during your surgery comfortably.</p>
+                </div>
+                <div class="feature-card p-10 rounded-3xl bg-bgLight border border-gray-100 shadow-sm">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-2xl shadow-sm mb-6">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">High Density Results</h3>
+                    <p class="text-gray-500 text-sm italic">We prioritize maximum density to avoid the 'see-through' look common in low-cost clinics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCEDURE SECTION -->
+    <section class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6">The <span class="text-medicalTeal">Scale of Recovery</span></h2>
+                <p class="text-gray-400">Step-by-step journey of your hair transplant in Gurgaon.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">01</div>
+                    <h4 class="text-xl font-bold mb-3">Donor Harvest</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Gentle extraction of DHT-resistant follicles from the back of the scalp.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">02</div>
+                    <h4 class="text-xl font-bold mb-3">Site Design</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">The doctor manually creates microscopic sites to define the new hairline.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">03</div>
+                    <h4 class="text-xl font-bold mb-3">Implantation</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Placement of grafts using precision implants for depth and angle control.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-900 border border-teal-700 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold text-medicalTeal">04</div>
+                    <h4 class="text-xl font-bold mb-3">Post-Care</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed italic">Follow-up clinical washes and growth booster therapies for 12 months.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Results Section -->
+    
+    <!-- Results Section (Grid) -->
+    <section id="results" class="py-[66px] bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-[30px] gap-6">
+                <div>
+                    <h2 class="text-4xl font-display font-bold mb-4">Patient Transformations</h2>
+                    <p class="text-gray-500">Documented results showcasing medical excellence.</p>
+                </div>
+                <a href="gallery.php" class="bg-darkSlate text-white px-8 py-3 rounded-full font-bold hover:bg-medicalTeal transition-all shadow-xl flex items-center gap-3 group">
+                    View Full Gallery <i class="fas fa-images group-hover:scale-110 transition-transform"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/indian-ht-result-1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Frontal Hairline Restoration</h4>
+                        <p class="text-xs text-gray-400 mt-2">Natural hairline design achieved with FUE transplantation.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/indian-ht-result-2.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Crown Density Correction</h4>
+                        <p class="text-xs text-gray-400 mt-2">Successful crown area filling with high-density grafting.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/ht-success-1.png" alt="Dencespot Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Complete Transformation</h4>
+                        <p class="text-xs text-gray-400 mt-2">Full head of hair restoration after 12 months of procedure.</p>
+                    </div>
+                </div></div>
+        </div>
+    </section>
+
+
+
+    <!-- COST SECTION -->
+    <section class="py-[35px] bg-bgLight">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-[30px]">
+                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Hair Transplant Cost</span> in Gurgaon</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">Honest pricing for world-class hair restoration. We believe in providing the best medical value without hidden charges or overheads.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
+                    <ul class="space-y-4 text-gray-500">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Graft Count:</strong> More coverage requires more follicles and clinical time.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Donor Quality:</strong> Higher complexity cases (body hair) may affect pricing.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Technology:</strong> Choice between advanced FUE or ultra-precise DHT.</span></li>
+                    </ul>
+                </div>
+                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
+                    <p class="text-gray-400 mb-6 italic text-sm">"Get a transparent cost breakdown based on an AI-assisted scalp evaluation during your consult."</p>
+                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- What Our Customers Say -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-medicalTeal">Customers Say</span></h2>
+        </div>
+        <!-- Elfsight Google Reviews Widget -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+    <!-- FAQ SECTION -->
+    <section class="py-[35px] bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-display font-bold mb-[30px] text-center italic">Scalp Restoration <span class="text-medicalTeal">FAQs</span></h2>
+            <div class="space-y-4">
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm" open>
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        How many grafts will I need?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Graft requirements vary from 1,500 (hairline fix) to 4,500+ (major baldness). Our specialists provide a precise estimate after studying your donor area density and balding stage.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Do I have to shave my head?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">While shaving provides the best clinical results, we do offer 'Non-Shaven' or 'Partial Shaven' FUE for patients who need more discretion. Consult us for suitability.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        When will I see the full result?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Hair growth is a steady process. Growth starts by Month 4, substantial looks appear by Month 7, and final density/texture is achieved around Month 10-12.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Can transplanted hair ever fall out?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">No. We harvest hair from the DHT-resistant donor zone. These follicles are genetically programmed to grow for a lifetime, regardless of hormonal changes.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-[35px] bg-darkSlate text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20">
+                <div class="animate__animated animate__fadeInUp">
+                    <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
+                    <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
+                    
+                    <div class="space-y-8 mb-[30px]">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot mt-1 text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram, Haryana 122003</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm font-bold">+91 8178330800</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-medicalTeal text-xl"></i>
+                            <p class="text-gray-400 text-sm">dencespot@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 rounded-[2rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-1000 h-64 border border-gray-800 shadow-2xl">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.31789847168!2d77.0437477!3d28.439831899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic%20-%20Best%20Dermatologist%20%26%20Hair%20Transplant%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1773680346959!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
+                    
+                    <form class="space-y-6">
+                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                            Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+
+    <?php include "includes/footer.php"; ?>
+<?php include "includes/scripts.php"; ?>
