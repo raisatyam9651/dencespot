@@ -50,7 +50,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Best Hair and Skin Clinic in Gurgaon Result" class="w-full">
+                        <img src="images/lip-nlush.jpg" alt="Best Hair and Skin Clinic in Gurgaon Result" class="w-full">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +91,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Best Best Hair and Skin Clinic in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/skin-success-1.png" alt="Best Best Hair and Skin Clinic in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>

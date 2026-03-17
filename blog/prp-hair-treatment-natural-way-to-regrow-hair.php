@@ -3,187 +3,103 @@ $pageTitle = 'PRP Hair Treatment: The Natural Way to Regrow Your Hair | DenceSpo
 $pageDesc = 'Learn everything about Platelet-Rich Plasma (PRP) for hair loss. Discover how this revolutionary natural treatment uses your own blood to stimulate hair growth and thickening.';
 $pageKeywords = 'PRP hair treatment, platelet rich plasma, natural hair regrowth, hair thinning solution, PRP for hair loss, growth factors hair';
 $pageCanonical = 'https://dencespot.com/blog/prp-hair-treatment-natural-way-to-regrow-hair.php';
-$pageRobots = 'index, follow';
-$pageAuthor = 'DenceSpot Clinic';
-$pagePublisher = 'https://dencespot.com/';
-$base_path = '../';
 $currentPage = 'blog';
-include '../header.php';
+include '../includes/head_links.php';
 ?>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<link rel="stylesheet" href="css/blog-post.css">
+    <!-- Header -->
+    <?php include "../includes/header.php"; ?>
 
-<article>
-    <div class="blog-post-header">
-        <div class="container text-center">
-            <span class="blog-post-badge">HAIR CARE</span>
-            <h1 class="blog-post-title">PRP Hair Treatment: The Natural Way to Regrow Your Hair</h1>
-            <div class="blog-post-meta">
-                <i class="far fa-calendar-alt"></i> JANUARY 21, 2026 &bull; ADMIN
+    <!-- Blog Post Header -->
+    <section class="relative pt-40 pb-24 bg-darkSlate text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30 tracking-[0.2em]">Hair Care</span>
+            <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">PRP Treatment: <span class="text-medicalTeal italic">Natural Hair Regrowth</span></h1>
+            <div class="flex items-center justify-center gap-6 text-sm text-gray-400 font-medium tracking-wide">
+                <span>By Admin</span>
+                <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
+                <span>January 21, 2026</span>
+                <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
+                <span>10 Min Read</span>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="blog-post-container">
-        <img src="images/service-hair.png" alt="PRP Hair Treatment Explained" class="blog-post-featured-img">
-
-        <div class="blog-post-content">
-            <p>For individuals noticing the first signs of thinning or a widening partition, the search for a safe and
-                effective solution can be overwhelming. While there are countless shampoos and "miracle" oils on the
-                market, very few provide clinical results. Among the most researched and successful non-surgical
-                treatments is Platelet-Rich Plasma therapy. If you are looking for <a
-                    href="hair-prp-treatment-in-gurgaon.php">professional PRP hair treatment in Gurgaon</a>, you are
-                likely interested in a solution that works with your body's natural biology. In this article, we explain
-                the science of PRP, why it has become a cornerstone of hair restoration, and how it can help you
-                maintain a full head of hair without invasive surgery.</p>
-
-            <p>The beauty of PRP lies in its simplicity and safety. Because the treatment uses the patient's own blood,
-                the risk of allergic reactions or adverse effects is virtually zero. This "autologous" approach has been
-                used for decades in sports medicine to heal joints and in dental surgery to accelerate tissue recovery.
-                Now, it is transforming the lives of those suffering from androgenetic alopecia (pattern baldness) and
-                other forms of hair thinning. While surgery is sometimes necessary for advanced cases, as we discussed
-                in our guide on <a href="understanding-hair-transplant-myths-vs-facts.php">hair transplant myths vs
-                    facts</a>, PRP is often the ideal first line of defense for those in the earlier stages of hair
-                loss.</p>
-
-            <h2>What is Platelet-Rich Plasma (PRP)?</h2>
-            <p>Your blood is primarily composed of four components: red blood cells, white blood cells, plasma, and
-                platelets. Platelets are famous for their role in clotting blood, but they are also biological
-                powerhouses packed with "growth factors." These growth factors are responsible for signaling the body to
-                repair tissues, stimulate cell production, and increase blood flow to injured areas.</p>
-
-            <p>By concentrating these platelets into a small amount of plasma, we create "Platelet-Rich Plasma." When
-                this concentrated elixir is injected into the scalp, it provides an massive boost to miniaturized hair
-                follicles. Think of it as high-performance fertilizer for your hair. It wakes up dormant follicles,
-                extends the "Anagen" (growth phase) of existing hair, and increases the thickness of each individual
-                hair shaft. For those who prioritize a holistic approach to beauty, this natural method is often paired
-                with a <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">rejuvenating Hydrafacial</a> to
-                ensure both the scalp and facial skin are in peak condition.</p>
-
-            <h2>The PRP Procedure: Step-by-Step</h2>
-            <p>Many patients are nervous about "injections," but the PRP process is relatively quick and involves
-                minimal discomfort. The entire procedure typically takes about 45 to 60 minutes.</p>
-
-            <p><strong>Step 1: Blood Collection</strong><br>
-                The process begins just like a standard blood test. A small amount of blood (usually about 20ml to 30ml)
-                is drawn from your arm. This is a routine procedure that most people tolerate very well.</p>
-
-            <p><strong>Step 2: Centrifugation</strong><br>
-                The collected blood is placed into a specialized machine called a centrifuge. This machine spins the
-                blood at very high speeds, which creates a centrifugal force that separates the different components
-                based on their density. After about 10 minutes of spinning, the platelet-rich plasma is separated from
-                the red and white blood cells.</p>
-
-            <p><strong>Step 3: Activation and Injection</strong><br>
-                The concentrated PRP is then drawn into a syringe. Depending on the clinic's protocol, it may be
-                "activated" with a small amount of calcium to immediately release the growth factors. The scalp is
-                thoroughly cleaned and often numbed with a topical cream or a cooling device. The surgeon then performs
-                a series of micro-injections into the thinning areas of the scalp at the precise depth where the hair
-                follicle roots reside.</p>
-
-            <h2>Who is the Ideal Candidate for PRP?</h2>
-            <p>While PRP is a fantastic tool, it is not a "cure-all" for total baldness. The treatment works best when
-                there are still active, but thinning, hair follicles present. The goal is to catch hair loss early—at
-                the first sign of thinning or when you notice more hair than usual in your shower drain.</p>
-
-            <p>Ideal candidates include:</p>
-            <ul>
-                <li>Men and women with early-stage androgenetic alopecia (thinning on top or crown).</li>
-                <li>Women suffering from diffuse thinning due to hormonal changes or stress.</li>
-                <li>Patients who have recently undergone a <a href="hair-transplant-in-gurgaon.php">surgical hair
-                        transplant</a> and want to boost the survival rate and growth speed of the new grafts.</li>
-                <li>Individuals who prefer natural, drug-free treatments over long-term medication use.</li>
-            </ul>
-
-            <p>For those with very advanced baldness where the skin is completely smooth, a transplant may be the only
-                viable option. However, even in those cases, PRP is often used post-operatively to "jumpstart" the
-                healing process. In some cases, combining PRP with <a
-                    href="hair-microneedling-in-gurgaon.php">microneedling for hair</a> can enhance the absorption and
-                efficacy of the treatment even further.</p>
-
-            <h2>Why PRP is Better Than "Magic" Products</h2>
-            <p>The hair loss industry is worth billions, and much of it is built on products that have zero scientific
-                backing. Unlike topical creams that struggle to penetrate the skin's barrier or supplements that may
-                have low bioavailability, PRP delivers the active ingredients directly to the source. By injecting the
-                growth factors right next to the follicle, we bypass the barriers that make other treatments fail.</p>
-
-            <p>Scientific studies have shown that PRP can significantly increase hair count and hair thickness. Patients
-                typically report that their hair feels "fuller" and that the "shedding" phase significantly slows down
-                after just 2-3 sessions. It’s a biological solution to a biological problem.</p>
-
-            <h2>Expected Results and Timeline</h2>
-            <p>Like any natural process, hair regrowth takes time. You should not expect to see a full transformation
-                the morning after your first session. Typically, a standard course involves 3 to 4 sessions spaced about
-                a month apart.</p>
-
-            <ul>
-                <li><strong>After Session 1-2:</strong> You may notice a significant decrease in hair fallout. Many
-                    patients note that their "hair feels stronger" or easier to style.</li>
-                <li><strong>After Session 3-4:</strong> This is when visible thickness usually begins to improve. The
-                    hair partition may look tighter, and the crown may appear less visible under bright lights.</li>
-                <li><strong>Maintenance:</strong> After the initial course, most patients return for a single
-                    maintenance session every 6 to 12 months to keep the follicles in the active growth phase.</li>
-            </ul>
-
-            <h2>Safety, Risks, and Aftercare</h2>
-            <p>Since PRP uses your own blood, there is no risk of communicable disease or allergic reaction. The most
-                common side effects are very minor: slight swelling or redness at the injection site, or a mild
-                "tightness" in the scalp that resolves within 24 hours. There is no downtime; you can drive yourself
-                home and go back to work immediately after the procedure.</p>
-
-            <p>Aftercare is simple. You should avoid washing your hair for 24 hours to allow the scalp to fully absorb
-                the plasma. Avoiding strenuous exercise and direct sunlight on the scalp for the first day is also
-                recommended. Essentially, just let your body do the work!</p>
-
-            <div class="blog-cta-box">
-                <h3>Take Control of Your Hair Loss Today</h3>
-                <p>Don't wait until it's too late. The earlier you start your PRP journey, the more hair you can save
-                    and thicken. Experience the power of your body's own healing potential at DenceSpot. Let us help you
-                    rediscover your confidence with natural, effective hair restoration.</p>
-                <a href="contact.php" class="blog-cta-btn">Book Your PRP Consultation Now</a>
+    <!-- Blog Content Content -->
+    <article class="relative -mt-16 pb-24 z-20">
+        <div class="container mx-auto px-6 max-w-4xl">
+            
+            <!-- Featured Image -->
+            <div class="relative mb-16 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                <img src="../images/service-hair.png" alt="PRP Hair Treatment" class="w-full">
             </div>
 
-            <div class="blog-faq-section">
-                <h2 class="blog-faq-title">Frequently Asked Questions (FAQs)</h2>
+            <!-- Content -->
+            <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-xl border border-gray-100 prose prose-lg prose-teal max-w-none">
+                <style>
+                    .prose h2 { font-family: 'Poppins', sans-serif; font-weight: 700; color: #1E293B; margin-top: 2em; margin-bottom: 1em; }
+                    .prose h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: #1E293B; }
+                    .prose p { line-height: 1.8; color: #475569; margin-bottom: 1.5em; }
+                    .prose strong { color: #1E293B; }
+                    .prose a { color: #0EA5A4; text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; transition: all 0.3s; }
+                    .prose a:hover { border-bottom-color: #0EA5A4; }
+                </style>
+                
+                <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">
+                    Looking for <a href="../hair-prp-treatment-in-gurgaon.php">professional PRP hair treatment in Gurgaon</a>? Platelet-Rich Plasma therapy works with your body's natural biology to restore thinning hair.
+                </p>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">How many PRP sessions will I need?</div>
-                    <p class="blog-faq-answer">Most patients require an initial series of 3 to 4 sessions, spaced one
-                        month apart, to see significant results. After that, a maintenance session every 6 to 12 months
-                        is recommended.</p>
+                <p>Because the treatment uses your own blood, the risk is virtually zero. While surgery is sometimes necessary for advanced cases (see our <a href="understanding-hair-transplant-myths-vs-facts.php">hair transplant guide</a>), PRP is the ideal first line of defense for earlier stages.</p>
+
+                <h2>What Is PRP?</h2>
+                <p>Platelets are packed with "growth factors" responsible for signaling tissue repair and stimulating cell production. Concentrated PRP provides a massive boost to miniaturized follicles—acting as fertilizer. Pairs well with a <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">Hydrafacial</a> for peak scalp and skin health.</p>
+
+                <h2>The Step-by-Step Procedure</h2>
+                <ul>
+                    <li><strong>Step 1: Collection:</strong> Small amount of blood is drawn from your arm.</li>
+                    <li><strong>Step 2: Centrifugation:</strong> Blood is spun to separate platelet-rich plasma from red cells.</li>
+                    <li><strong>Step 3: Injection:</strong> Concentrated elixir is micro-injected into thinning areas.</li>
+                </ul>
+
+                <h2>Who Is the Ideal Candidate?</h2>
+                <p>PRP works best when follicles are still active but thinning. Men and women with early pattern baldness, or those recovering from a <a href="../hair-transplant-in-gurgaon.php">hair transplant</a>, are perfect candidates. Can be combined with <a href="../hair-microneedling-in-gurgaon.php">microneedling for hair</a> for enhanced efficacy.</p>
+
+                <h2>Results and Timeline</h2>
+                <p>Regrowth take time. A standard course is 3-4 sessions spaced a month apart. Visible thickening usually begins after the 3rd or 4th session, with maintenance every 6-12 months.</p>
+
+                <!-- CTA Box -->
+                <div class="my-16 bg-bgLight rounded-[2rem] p-10 border border-medicalTeal/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700"></div>
+                    <h3 class="text-2xl font-display font-bold mb-4 relative z-10 text-darkSlate">Take Control of Your Hair Loss</h3>
+                    <p class="text-gray-500 mb-8 relative z-10 leading-relaxed">The earlier you start your PRP journey, the more hair you can save. Discover the power of your body's own healing potential today.</p>
+                    <a href="../contact.php" class="inline-block bg-medicalTeal text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-teal-200 hover:bg-darkSlate transition-all relative z-10">Book PRP Consultation</a>
                 </div>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Is PRP hair treatment painful?</div>
-                    <p class="blog-faq-answer">The injections are done with very fine needles. Most patients describe it
-                        as a minor pinching sensation. We also use cooling devices to ensure the process is as
-                        comfortable as possible.</p>
+                <!-- FAQ Section -->
+                <div class="mt-20 border-t border-gray-100 pt-16">
+                    <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
+                    <div class="space-y-8">
+                        <div class="p-8 bg-bgLight rounded-3xl">
+                            <h4 class="font-bold text-lg mb-4">How many sessions are needed?</h4>
+                            <p class="text-gray-600 leading-relaxed">Typically 3-4 initial sessions, followed by maintenance every 6-12 months to keep follicles active.</p>
+                        </div>
+                        <div class="p-8 bg-bgLight rounded-3xl">
+                            <h4 class="font-bold text-lg mb-4">Is there any downtime?</h4>
+                            <p class="text-gray-600 leading-relaxed">Zero downtime. You can resume normal activities immediately, just wait 24 hours before washing hair.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Will I see immediate results?</div>
-                    <p class="blog-faq-answer">No. It takes time for the follicles to react to the growth factors. You
-                        will typically notice less shedding within a month, but visible thickening usually takes 3 to 4
-                        months of consistent treatment.</p>
-                </div>
-
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Can I use Minoxidil or other medications with PRP?</div>
-                    <p class="blog-faq-answer">Yes, PRP can safely be combined with Minoxidil, Finasteride, or laser
-                        caps. In fact, combination therapy often yields the best results as they target different
-                        pathways of hair loss.</p>
-                </div>
-
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Is there any downtime after the treatment?</div>
-                    <p class="blog-faq-answer">There is zero downtime. You can resume all normal activities immediately.
-                        We only suggest that you wait 24 hours before washing your hair or engaging in heavy, sweaty
-                        exercise.</p>
-                </div>
             </div>
-
         </div>
-    </div>
-</article>
+    </article>
 
-<?php include '../footer.php'; ?>
+    <!-- Footer -->
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
+</body>
+</html>

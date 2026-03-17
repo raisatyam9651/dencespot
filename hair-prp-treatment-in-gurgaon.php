@@ -10,7 +10,51 @@
     <title>Best Hair PRP Treatment in Gurgaon | Platelet Rich Plasma Therapy | Dencespot</title>
     <meta name="description" content="Restore hair density with the best PRP treatment in Gurgaon at Dencespot Clinic. Clinical-grade Platelet Rich Plasma therapy for hair growth and scalp health. Expert doctors, painless procedure.">
     <meta name="keywords" content="Hair PRP Treatment in Gurgaon, Best PRP Clinic Gurgaon, PRP Cost in Gurgaon, Platelet Rich Plasma Therapy Gurgaon, Hair Loss Treatment Gurgaon, Non-surgical Hair Restoration">
+    <link rel="canonical" href="https://www.dencespot.in/hair-prp-treatment-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Hair PRP Treatment in Gurgaon",
+      "description": "Restore hair density with clinical-grade Platelet Rich Plasma therapy in Gurgaon. 100% natural and effective for hair growth.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How many sessions of PRP do I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typically 4 sessions, spaced 4 weeks apart, followed by maintenance every 4-6 months."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is PRP painful?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We use ultra-fine needles and cooling sprays, so most patients only feel a slight pricking sensation."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/indian-prp-hero-result.svg" alt="Hair PRP Treatment Before After Result India" class="w-full">
+                        <img src="assets/images/indian-prp-hero-result.svg" alt="Hair PRP Treatment Before After Result India" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Clinical Result
                         </div>

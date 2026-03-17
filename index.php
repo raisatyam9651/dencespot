@@ -9,7 +9,73 @@
     <title>Best Hair Transplant & Skin Clinic in Gurgaon | Expert Dermatology</title>
     <meta name="description" content="Leading hair transplant and skin clinic in Gurgaon. Advanced FUE, PRP, HydraFacial and dermatology treatments by board-certified doctors.">
     
+    <link rel="canonical" href="https://www.dencespot.in/" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Dencespot Clinic - Best Dermatologist & Hair Transplant in Gurgaon",
+      "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C Block, Sector 39",
+        "addressLocality": "Gurgaon",
+        "addressRegion": "Haryana",
+        "postalCode": "122003",
+        "addressCountry": "IN"
+      },
+      "url": "https://www.dencespot.in",
+      "telephone": "+91-8178330800",
+      "priceRange": "₹₹",
+      "medicalSpecialty": ["Dermatology", "Hair Restoration"],
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "20:00"
+      }],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "500"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How long does a hair transplant procedure take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most procedures take 6-8 hours. Our Gurgaon clinic is equipped with premium entertainment suites, so you can relax during the process."
+        }
+      }, {
+        "@type": "Question",
+        "name": "When will I see the final results of my transplant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Initial hair growth starts in 3-4 months, with 100% density and final texture appearing around the 10-12 month mark."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is HydraFacial better than a regular facial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Unlike spa facials, our Medical HydraFacial uses patented vortex technology for deep extraction and nutrient infusion, providing instant, lasting medical-grade results."
+        }]
+    }
+    </script>
+
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -63,8 +129,8 @@
                         </div>
                         <div class="w-px h-10 bg-gray-100"></div>
                         <div class="flex -space-x-3">
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-ht-result-1.png" class="w-full h-full object-cover"></div>
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-beard-result-1.png" class="w-full h-full object-cover"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-ht-result-1.png" alt="Hair Transplant Result Avatar" class="w-full h-full object-cover" loading="lazy"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-beard-result-1.png" alt="Beard Transplant Result Avatar" class="w-full h-full object-cover" loading="lazy"></div>
                             <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden flex items-center justify-center bg-medicalTeal text-white text-[10px] font-bold">+</div>
                         </div>
                     </div>
@@ -76,7 +142,7 @@
                         <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-medicalTeal/10 rounded-full blur-3xl"></div>
                         
                         <div class="relative rounded-[3rem] overflow-hidden border-[12px] border-white shadow-[0_50px_100px_-15px_rgba(0,0,0,0.1)]">
-                            <img src="assets/images/Dr-nayra.jpg" alt="Dr. Nayra - Expert Specialist" class="w-full transform hover:scale-105 transition-transform duration-[2s]">
+                            <img src="assets/images/Dr-nayra.jpg" alt="Dr. Nayra - Expert Specialist" class="w-full transform hover:scale-105 transition-transform duration-[2s]" loading="lazy">
                         </div>
                         
                         <!-- Floating Achievement -->
@@ -320,7 +386,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="assets/images/hydrafacial.png" alt="Treatment Care" class="rounded-[3rem] shadow-2xl opacity-80">
+                    <img src="assets/images/patient.png" alt="Treatment Care" class="rounded-[3rem] shadow-2xl opacity-80">
                     <div class="absolute inset-0 bg-gradient-to-t from-darkSlate via-transparent to-transparent rounded-[3rem]"></div>
                 </div>
             </div>
@@ -346,7 +412,7 @@
                     <!-- HT Result 1 -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/man_success_1.png" alt="Dencespot Hair Restoration Result" class="w-full">
+                            <img src="assets/images/man_success_1.png" alt="Dencespot Hair Restoration Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Crown Area Restoration</h4>
@@ -357,7 +423,7 @@
                     <!-- Beard Transplant -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/beard_success_1.png" alt="Dencespot Beard Transplant Result" class="w-full">
+                            <img src="assets/images/beard_success_1.png" alt="Dencespot Beard Transplant Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Beard Reconstruction</h4>
@@ -368,7 +434,7 @@
                     <!-- Hair PRP -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/prp_success_1.png" alt="Dencespot PRP Hair Result" class="w-full">
+                            <img src="assets/images/prp_success_1.png" alt="Dencespot PRP Hair Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
@@ -548,7 +614,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <article class="group">
                     <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/hydrafacial.png" alt="Blog 1" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
+                        <img src="assets/images/man_success_1.png" alt="Blog 1" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
                         <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Hair Loss</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">Understanding FUE vs DHT Techniques</h3>
@@ -557,7 +623,7 @@
                 </article>
                 <article class="group">
                     <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/hydrafacial.png" alt="Blog 2" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700 opacity-80">
+                        <img src="assets/images/hydra_success_1.png" alt="Blog 2" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700 opacity-80">
                         <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Skin Care</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">The Benefits of medical HydraFacial</h3>
@@ -566,7 +632,7 @@
                 </article>
                 <article class="group">
                     <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/hydrafacial.png" alt="Blog 3" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
+                        <img src="assets/images/man_success_3.png" alt="Blog 3" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
                         <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Lifestyle</span>
                     </div>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">Maintaining Results After Transplant</h3>

@@ -10,7 +10,51 @@
     <title>Carbon Laser Facial in Gurgaon | Hollywood Peel Treatment</title>
     <meta name="description" content="Experience the famous Carbon Laser Facial (Hollywood Peel) in Gurgaon. Instantly reduce oily skin, shrink pores, and achieve a matte flawless glow. Book now.">
     <meta name="keywords" content="Carbon Facial Gurgaon, Hollywood Peel Treatment, Best Laser Facial, Oily Skin Treatment, Shrink Pores Laser">
+    <link rel="canonical" href="https://www.dencespot.in/carbon-facial-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Carbon Laser Facial in Gurgaon",
+      "description": "The Hollywood Peel in Gurgaon. Q-Switched Carbon Laser facial for oily skin, pore minimization, and instant glow.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Does the carbon laser hurt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. You'll feel a mild warming and tingling sensation, but it's entirely painless with zero downtime."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is it suitable for dry skin?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's designed for oily skin and large pores. For dry skin, the HydraFacial is a better choice."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Carbon Facial in Gurgaon Result" class="w-full">
+                        <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Carbon Facial in Gurgaon Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>

@@ -1,4 +1,5 @@
 <footer class="bg-white pt-[20px] pb-12">
+    <?php $basePath = (isset($currentPage) && $currentPage == 'blog') ? '../' : ''; ?>
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-12 mb-20 border-b border-gray-100 pb-20">
                 <div class="col-span-1">
@@ -16,12 +17,12 @@
                     <h5 class="font-bold mb-8 uppercase text-xs tracking-widest text-medicalTeal">Hair Treatments</h5>
                     <ul class="space-y-4 text-sm text-gray-500 font-medium">
 
-                        <li><a href="hair-transplant-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair Transplant</a></li>
-                        <li><a href="hair-prp-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair PRP Treatment</a></li>
-                        <li><a href="beard-transplant-gurgaon.php" class="hover:text-medicalTeal transition-all">Beard Transplant</a></li>
-                        <li><a href="hair-microneedling-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair Microneedling</a></li>
-                        <li><a href="hair-led-therapy-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair LED Therapy</a></li>
-                        <li><a href="dandruff-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Dandruff Treatment</a></li>
+                        <li><a href="<?php echo $basePath; ?>hair-transplant-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair Transplant</a></li>
+                        <li><a href="<?php echo $basePath; ?>hair-prp-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair PRP Treatment</a></li>
+                        <li><a href="<?php echo $basePath; ?>beard-transplant-gurgaon.php" class="hover:text-medicalTeal transition-all">Beard Transplant</a></li>
+                        <li><a href="<?php echo $basePath; ?>hair-microneedling-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair Microneedling</a></li>
+                        <li><a href="<?php echo $basePath; ?>hair-led-therapy-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Hair LED Therapy</a></li>
+                        <li><a href="<?php echo $basePath; ?>dandruff-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Dandruff Treatment</a></li>
 
                     </ul>
                 </div>
@@ -30,14 +31,14 @@
                     <h5 class="font-bold mb-8 uppercase text-xs tracking-widest text-medicalTeal">Skin Treatments</h5>
                     <ul class="space-y-4 text-sm text-gray-500 font-medium">
 
-                        <li><a href="hydrafacial-in-gurgaon.php" class="hover:text-medicalTeal transition-all">HydraFacial</a></li>
-                        <li><a href="carbon-facial-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Carbon Facial</a></li>
-                        <li><a href="botox-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Botox Treatment</a></li>
-                        <li><a href="laser-hair-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Laser Hair Removal</a></li>
-                        <li><a href="tattoo-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Tattoo Removal</a></li>
-                        <li><a href="chemical-peel-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Chemical Peels</a></li>
-                        <li><a href="face-prp-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Face PRP</a></li>
-                        <li><a href="mole-wart-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Mole & Wart Removal</a></li>
+                        <li><a href="<?php echo $basePath; ?>hydrafacial-in-gurgaon.php" class="hover:text-medicalTeal transition-all">HydraFacial</a></li>
+                        <li><a href="<?php echo $basePath; ?>carbon-facial-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Carbon Facial</a></li>
+                        <li><a href="<?php echo $basePath; ?>botox-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Botox Treatment</a></li>
+                        <li><a href="<?php echo $basePath; ?>laser-hair-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Laser Hair Removal</a></li>
+                        <li><a href="<?php echo $basePath; ?>tattoo-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Tattoo Removal</a></li>
+                        <li><a href="<?php echo $basePath; ?>chemical-peel-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Chemical Peels</a></li>
+                        <li><a href="<?php echo $basePath; ?>face-prp-treatment-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Face PRP</a></li>
+                        <li><a href="<?php echo $basePath; ?>mole-wart-removal-in-gurgaon.php" class="hover:text-medicalTeal transition-all">Mole & Wart Removal</a></li>
 
                     </ul>
                 </div>
@@ -45,8 +46,9 @@
                 <div>
                     <h5 class="font-bold mb-8 uppercase text-xs tracking-widest text-medicalTeal">Support & Hours</h5>
                     <ul class="space-y-4 text-sm text-gray-500 font-medium mb-6">
-                        <li><a href="gallery.php" class="hover:text-medicalTeal transition-all">Before & After Gallery</a></li>
-                        <li><a href="contact.php" class="hover:text-medicalTeal transition-all">Book Appointment</a></li>
+                        <li><a href="<?php echo $basePath; ?>gallery.php" class="hover:text-medicalTeal transition-all">Before & After Gallery</a></li>
+                        <li><a href="<?php echo $basePath; ?>blog/" class="hover:text-medicalTeal transition-all">Health Blog</a></li>
+                        <li><a href="<?php echo $basePath; ?>contact.php" class="hover:text-medicalTeal transition-all">Book Appointment</a></li>
                     </ul>
                     <div class="bg-bgLight p-4 rounded-2xl mb-6">
                         <div class="flex justify-between text-[10px] font-bold mb-2"><span>Mon - Sat</span> <span class="text-medicalTeal">10:00 - 20:00</span></div>
@@ -60,3 +62,4 @@
             <p class="text-center text-gray-300 text-[10px] font-bold tracking-[0.2em] uppercase mt-12">&copy; 2026 Dencespot Clinic. All Rights Reserved.</p>
         </div>
     </footer>
+    <?php include dirname(__FILE__) . "/whatsapp_popup.php"; ?>

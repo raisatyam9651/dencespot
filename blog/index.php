@@ -1,324 +1,258 @@
 <?php
-$pageTitle = 'Blog | DenceSpot';
-$pageDesc = 'Read the latest blog posts on hair and skin treatments from DenceSpot Clinic.';
-$pageKeywords = 'hair care blog, skin care articles, hair transplant tips, dermatology blog, aesthetic treatments guide';
+$pageTitle = 'Expert Hair & Skin Blog | DenceSpot Clinic Gurgaon';
+$pageDesc = 'Explore expert insights, clinical tips, and the latest updates on hair restoration and dermatology from DenceSpot Clinic.';
+$pageKeywords = 'hair care blog, skin care articles, hair transplant tips, dermatology blog, gurgaon hair clinic blog';
 $pageCanonical = 'https://dencespot.com/blog/';
-$pageRobots = 'index, follow';
-$pageAuthor = 'DenceSpot Clinic';
-$pagePublisher = 'https://dencespot.com/';
-$base_path = '../';
 $currentPage = 'blog';
-include '../header.php';
+include '../includes/head_links.php';
 ?>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<!-- Include specific blog CSS -->
-<!-- Note: because we set base href="../", this loads /css/blog.css relative to document root -->
-<link rel="stylesheet" href="css/blog.css">
+    <!-- Header -->
+    <?php include "../includes/header.php"; ?>
 
-<!-- Blog Header -->
-<section class="blog-header-section">
-    <div class="container text-center">
-        <h1 class="blog-main-title">Our Latest Articles</h1>
-        <p class="blog-subtitle">Insights, tips, and updates on skincare and hair treatments.</p>
-    </div>
-</section>
+    <!-- Blog Hero Section -->
+    <section class="relative pt-32 pb-20 bg-darkSlate text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Medical Insights</span>
+            <h1 class="text-5xl lg:text-7xl font-display font-bold mb-8">Clinical <span class="text-medicalTeal uppercase italic">Knowledge</span></h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed">
+                Stay updated with the latest advancements in hair restoration techniques and clinical skincare protocols.
+            </p>
+        </div>
+    </section>
 
-<!-- Blog Grid Section -->
-<section class="blog-archive-section section-padding">
-    <div class="container blog-archive-container">
-        <!-- Card New 1 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR CARE</span>
-                <img src="images/blog/hair-fall-prevention-featured.png" alt="Hair Fall Prevention"
-                    class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/hair-fall-and-hair-loss-prevention.php">Hair Fall & Hair Loss Prevention: The Ultimate
-                        Guide</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Discover the most effective hair fall prevention strategies. Learn about causes, treatments, and
-                    daily habits to stop hair loss and maintain thick, healthy hair naturally.
-                </p>
-                <a href="blog/hair-fall-and-hair-loss-prevention.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+    <!-- Blog Grid -->
+    <section class="py-20 bg-bgLight">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                
+                <!-- Blog Card: PRP -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/service-hair.png" alt="PRP treatment" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Hair Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="prp-hair-treatment-natural-way-to-regrow-hair.php">PRP Treatment: Natural Hair Regrowth</a>
+                        </h2>
+                        <a href="prp-hair-treatment-natural-way-to-regrow-hair.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card New 2 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR GROWTH</span>
-                <img src="images/blog/hair-growth-tips-featured.png" alt="Hair Growth Tips" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/hair-growth-tips-and-methods.php">Hair Growth Tips & Methods: How to Grow Hair
-                        Faster</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Discover the best hair growth tips and methods to accelerate hair growth naturally. Learn about
-                    scalp health, diet, and clinical treatments for longer, thicker hair.
-                </p>
-                <a href="blog/hair-growth-tips-and-methods.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Blog Card: Hydrafacial -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/hydrafacial.jpg" alt="Hydrafacial" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Skin Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">Benefits of Hydrafacial: Transform Your Skin</a>
+                        </h2>
+                        <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card New 3 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR VOLUME</span>
-                <img src="images/blog/hair-thickness-density-featured.png" alt="Hair Thickness Improvement"
-                    class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/hair-thickness-and-hair-density-improvement.php">Hair Thickness & Hair Density
-                        Improvement: The Complete Guide</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Learn how to increase hair thickness and improve hair density naturally. Discover the best tips,
-                    treatments, and products for voluminous, healthy hair.
-                </p>
-                <a href="blog/hair-thickness-and-hair-density-improvement.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Blog Card: Botox -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/botox.jpg" alt="Botox" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Anti-Ageing</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="everything-you-need-to-know-about-botox-and-fillers.php">Injectables Guide: Botox & Fillers</a>
+                        </h2>
+                        <a href="everything-you-need-to-know-about-botox-and-fillers.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card New 4 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR CARE</span>
-                <img src="images/blog/best-hair-oils-featured.png" alt="Best Hair Oils" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/best-hair-oils-for-growth-benefits.php">Best Oils for Hair Growth: A Comprehensive
-                        Guide to Natural Hair Oils</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Explore the best oils for hair growth and learn how to use them effectively. From Rosemary to Castor
-                    oil, discover the natural secrets to thicker, longer hair.
-                </p>
-                <a href="blog/best-hair-oils-for-growth-benefits.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Blog Card: Laser -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/laser-hair-removel-gurgaon.jpg" alt="Laser hair removal" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Laser</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="is-laser-hair-removal-permanent-expert-perspective.php">Is Laser Permanent? Expert Perspective</a>
+                        </h2>
+                        <a href="is-laser-hair-removal-permanent-expert-perspective.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card New 5 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">NUTRITION</span>
-                <img src="images/blog/vitamins-for-hair-featured.png" alt="Vitamins for Hair" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/vitamins-nutrition-healthy-hair.php">Vitamins & Nutrition for Healthy Hair: The
-                        Ultimate Hair Growth Diet</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Learn which vitamins and nutrients are essential for healthy hair. Discover the best foods and
-                    supplements to stop hair loss and improve hair thickness from the inside out.
-                </p>
-                <a href="blog/vitamins-nutrition-healthy-hair.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Blog Card: Chemical Peels -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/service-skin.png" alt="Chemical peels" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Skin Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="chemical-peels-finding-the-right-depth-for-your-skin-type.php">Chemical Peels: The Depth Guide</a>
+                        </h2>
+                        <a href="chemical-peels-finding-the-right-depth-for-your-skin-type.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card New 6 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">SCALP HEALTH</span>
-                <img src="images/blog/dandruff-scalp-problems-featured.png" alt="Dandruff Treatment"
-                    class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">MARCH 11, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/dandruff-scalp-problems-treatment.php">Dandruff & Scalp Problems: Causes and Effective
-                        Treatments</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Struggling with flakes or an itchy scalp? Learn about the causes of dandruff and discover the most
-                    effective clinical and natural treatments for a healthy scalp.
-                </p>
-                <a href="blog/dandruff-scalp-problems-treatment.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Blog Card: Transplant Myths -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/hair-transplant-original.jpg" alt="Hair transplant myths" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Hair Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="understanding-hair-transplant-myths-vs-facts.php">Transplant Myths: Separating Facts</a>
+                        </h2>
+                        <a href="understanding-hair-transplant-myths-vs-facts.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 1 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR CARE</span>
-                <img src="images/hair-transplant-original.jpg" alt="Hair Transplant Results" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">FEBRUARY 25, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/understanding-hair-transplant-myths-vs-facts.php">Understanding Hair Transplant: Myths
-                        vs Facts | DenceSpot</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Hair transplant is one of the most effective solutions for hair loss, but there are many myths
-                    surrounding it. Here is a definitive guide to what you should actually expect before and after the
-                    procedure.
-                </p>
-                <a href="blog/understanding-hair-transplant-myths-vs-facts.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Existing Blog Cards -->
+                <!-- Hair Fall -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/hair-fall-prevention-featured.png" alt="Hair Fall Prevention" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Hair Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="hair-fall-and-hair-loss-prevention.php">Hair Fall & Hair Loss Prevention</a>
+                        </h2>
+                        <a href="hair-fall-and-hair-loss-prevention.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 2 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">SKIN CARE</span>
-                <img src="images/hydrafacial.jpg" alt="Skin Care Treatments" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">FEBRUARY 18, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/benefits-of-hydrafacial-how-it-transforms-your-skin.php">Benefits of Hydrafacial: How
-                        It Transforms Your Skin</a>
-                </h2>
-                <p class="blog-excerpt">
-                    The Hydrafacial has taken the skincare world by storm. It works to deep-clean, exfoliate, and
-                    hydrate your skin. Discover the immediate benefits you can experience after your first session.
-                </p>
-                <a href="blog/benefits-of-hydrafacial-how-it-transforms-your-skin.php" class="blog-read-more">READ MORE
-                    <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Hair Growth -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/hair-growth-tips-featured.png" alt="Hair Growth Tips" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Growth</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="hair-growth-tips-and-methods.php">Methods to Grow Hair Faster</a>
+                        </h2>
+                        <a href="hair-growth-tips-and-methods.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 3 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">ANTI-AGEING</span>
-                <img src="images/botox.jpg" alt="Botox Treatments" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">FEBRUARY 12, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/everything-you-need-to-know-about-botox-and-fillers.php">Everything You Need to Know
-                        About Botox and Fillers</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Are you considering anti-ageing treatments but not sure where to start? We break down the
-                    differences between Botox and dermal fillers, helping you decide exactly what’s right for your
-                    aesthetic goals.
-                </p>
-                <a href="blog/everything-you-need-to-know-about-botox-and-fillers.php" class="blog-read-more">READ MORE
-                    <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Hair Thickness -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/hair-thickness-density-featured.png" alt="Hair Thickness" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Volume</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="hair-thickness-and-hair-density-improvement.php">Density Improvement Guide</a>
+                        </h2>
+                        <a href="hair-thickness-and-hair-density-improvement.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 4 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">LASER</span>
-                <img src="images/laser-hair-removel-gurgaon.jpg" alt="Laser Hair Removal" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">FEBRUARY 5, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/is-laser-hair-removal-permanent-expert-perspective.php">Is Laser Hair Removal
-                        Permanent? Expert Perspective</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Laser hair removal is a popular and effective method for reducing unwanted body hair. While you may
-                    achieve long-lasting results, here is what you need to know about maintenance and sessions required.
-                </p>
-                <a href="blog/is-laser-hair-removal-permanent-expert-perspective.php" class="blog-read-more">READ MORE
-                    <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Hair Oils -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/best-hair-oils-featured.png" alt="Best Hair Oils" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Nourishment</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="best-hair-oils-for-growth-benefits.php">Best Oils for Hair Growth</a>
+                        </h2>
+                        <a href="best-hair-oils-for-growth-benefits.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 5 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">HAIR CARE</span>
-                <img src="images/service-hair.png" alt="PRP Therapy" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">JANUARY 21, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/prp-hair-treatment-natural-way-to-regrow-hair.php">PRP Hair Treatment: The Natural Way
-                        to Regrow Your Hair</a>
-                </h2>
-                <p class="blog-excerpt">
-                    Platelet-Rich Plasma (PRP) therapy is changing the landscape of hair restoration. By utilizing your
-                    body's own growth factors, PRP encourages natural hair growth without invasive surgery.
-                </p>
-                <a href="blog/prp-hair-treatment-natural-way-to-regrow-hair.php" class="blog-read-more">READ MORE <i
-                        class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
+                <!-- Vitamins -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/vitamins-for-hair-featured.png" alt="Vitamins for Hair" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Nutrition</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="vitamins-nutrition-healthy-hair.php">Vitamins for Healthy Hair</a>
+                        </h2>
+                        <a href="vitamins-nutrition-healthy-hair.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-        <!-- Card 6 -->
-        <article class="blog-card">
-            <div class="blog-card-image-wrapper">
-                <span class="blog-badge">SKIN CARE</span>
-                <img src="images/service-skin.png" alt="Chemical Peels" class="blog-card-image">
-            </div>
-            <div class="blog-card-content">
-                <div class="blog-meta">
-                    <i class="far fa-calendar-alt"></i> <span class="blog-date">JANUARY 8, 2026</span> &bull; <span
-                        class="blog-author">ADMIN</span>
-                </div>
-                <h2 class="blog-title">
-                    <a href="blog/chemical-peels-finding-the-right-depth-for-your-skin-type.php">Chemical Peels: Finding
-                        the Right Depth for Your Skin Type</a>
-                </h2>
-                <p class="blog-excerpt">
-                    From light lactic acid peels to deeper TCA treatments, chemical peels can resolve scarring,
-                    pigmentation, and fine lines. Here is how our dermatologists select the best approach for you.
-                </p>
-                <a href="blog/chemical-peels-finding-the-right-depth-for-your-skin-type.php" class="blog-read-more">READ
-                    MORE <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </article>
-    </div>
-</section>
+                <!-- Dandruff -->
+                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="../images/blog/dandruff-scalp-problems-featured.png" alt="Dandruff Treatment" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Scalp Care</span>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <h2 class="text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
+                            <a href="dandruff-scalp-problems-treatment.php">Dandruff & Scalp Treatments</a>
+                        </h2>
+                        <a href="dandruff-scalp-problems-treatment.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
+                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </article>
 
-<?php include '../footer.php'; ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
+</body>
+</html>

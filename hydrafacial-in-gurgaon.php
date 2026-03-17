@@ -10,7 +10,51 @@
     <title>HydraFacial Treatment in Gurgaon | Glowing Skin | Dencespot</title>
     <meta name="description" content="Experience the authentic 3-step HydraFacial MD in Gurgaon. Deep clean pores, extract blackheads, and intensely hydrate your skin for an instant, red-carpet glow.">
     <meta name="keywords" content="HydraFacial Gurgaon, Hydra Facial Cost, Best Facial in Gurgaon, Skin Hydration Treatment, Red Carpet Facial">
+    <link rel="canonical" href="https://www.dencespot.in/hydrafacial-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "HydraFacial Treatment in Gurgaon",
+      "description": "Authentic HydraFacial MD treatment in Gurgaon for deep cleansing, extraction, and intense hydration.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Is there any downtime after a HydraFacial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "None! You can walk out and go straight to an event with a radiant glow."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Does the extraction hurt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The vortex suction technology is painless and feels like a gentle wet vacuum on the skin."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/hydrafacial_indian_ba_1773725133193.png" alt="HydraFacial in Gurgaon Result" class="w-full">
+                        <img src="assets/images/hydrafacial_indian_ba_1773725133193.png" alt="HydraFacial in Gurgaon Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/hydrafacial_indian_ba_1773725133193.png" alt="Best HydraFacial in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/skin-success-1.png" alt="Best HydraFacial in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -232,7 +276,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hydrafacial_indian_ba_1773725133193.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Vortex Extraction</h4>
@@ -240,10 +284,10 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/skin-success-1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/chemical_peel_ba_1773724133778.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Hydrated Complexion</h4>
+                        <h4 class="text-xl font-bold text-darkSlate">Glow Effect</h4>
                         <p class="text-xs text-gray-400 mt-2">Plumped and moisturized skin post-treatment.</p>
                     </div>
                 </div></div>

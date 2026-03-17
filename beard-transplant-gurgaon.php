@@ -10,7 +10,51 @@
     <title>Beard Transplant in Gurgaon | Natural Beard Hair Restoration | Dencespot</title>
     <meta name="description" content="Best beard transplant in Gurgaon at Dencespot Clinic. Advanced FUE beard hair restoration for patchy beards. Affordable cost, natural results by expert doctors.">
     <meta name="keywords" content="Beard Transplant in Gurgaon, Beard Hair Transplant Gurgaon, Beard Transplant Cost in Gurgaon, FUE Beard Transplant Gurgaon, Beard Hair Restoration Gurgaon, Patchy Beard Treatment Gurgaon">
+    <link rel="canonical" href="https://www.dencespot.in/beard-transplant-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Beard Transplant in Gurgaon",
+      "description": "Premium FUE beard hair restoration in Gurgaon for a fuller, natural-looking beard.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Is beard transplant permanent?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We use DHT-resistant scalp hair which continues to grow for a lifetime once transplanted to the beard area."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How long does recovery take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most patients return to work within 3 days. Redness and crusting typically clear up within 4-7 days."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/indian-beard-result-1.png" alt="Beard Transplant Transformation Result" class="w-full">
+                        <img src="assets/images/indian-beard-result-1.png" alt="Beard Transplant Transformation Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Patient Result
                         </div>

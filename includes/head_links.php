@@ -1,6 +1,10 @@
-<!-- Fonts -->
+    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://elfsightcdn.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
     <!-- Icons & Animations -->
@@ -85,34 +89,9 @@
         .dropdown-item:hover { background: #F8FAFC; color: #0EA5A4; padding-left: 1.25rem; }
     </style>
 
-    <!-- Schema Markup -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalBusiness",
-      "name": "Dencespot Clinic - Best Dermatologist & Hair Transplant in Gurgaon",
-      "image": "https://yourdomain.com/assets/images/teal-doctor.png",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "C Block, Sector 39",
-        "addressLocality": "Gurgaon",
-        "addressRegion": "Haryana",
-        "postalCode": "122003",
-        "addressCountry": "IN"
-      },
-      "url": "https://www.dencespot.in",
-      "telephone": "+91-8178330800",
-      "priceRange": "$$",
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "10:00",
-          "closes": "20:00"
-        }
-      ]
-    }
-    </script>
+    <!-- Robots Tag -->
+    <meta name="robots" content="index, follow">
+
 
     <!-- Swiper.js CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

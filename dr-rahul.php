@@ -10,7 +10,28 @@
     <title>Dr. Rahul | Hair Restoration Expert | Dencespot | Dencespot Clinic Gurgaon</title>
     <meta name="description" content="Expert hair transplant surgeon at Dencespot Clinic Gurgaon. Specializing in FUE and DHT techniques.">
     <meta name="keywords" content="Dr. Rahul Hair Transplant, Best Hair Surgeon Gurgaon, Dencespot Team">
+    <link rel="canonical" href="https://www.dencespot.in/dr-rahul" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dr. Rahul",
+      "jobTitle": "Hair Restoration Specialist",
+      "worksFor": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "image": "https://www.dencespot.in/assets/images/hero_doctor_indian_man_1773672521000_1773672325798.png",
+      "description": "Dr. Rahul is a Hair Restoration Specialist at Dencespot Clinic, specializing in FUE and DHT hair transplant techniques."
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

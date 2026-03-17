@@ -9,7 +9,34 @@
     <title>Contact Us | Dencespot Clinic Gurgaon - Book Consultation</title>
     <meta name="description" content="Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.">
     
+    <link rel="canonical" href="https://www.dencespot.in/contact" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      }
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate">
 

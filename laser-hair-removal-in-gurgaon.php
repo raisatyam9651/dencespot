@@ -10,7 +10,51 @@
     <title>Laser Hair Removal in Gurgaon | Painless Full Body LHR | Dencespot</title>
     <meta name="description" content="Best Laser Hair Removal in Gurgaon. Permanent, painless hair reduction with advanced Triple Wavelength Diode Laser for full body, face, and bikini. Expert care.">
     <meta name="keywords" content="Laser Hair Removal Gurgaon, Best LHR Clinic, Full Body Laser Hair Removal Cost, Painless Hair Removal, Diode Laser Gurgaon">
+    <link rel="canonical" href="https://www.dencespot.in/laser-hair-removal-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Laser Hair Removal in Gurgaon",
+      "description": "Permanent and painless laser hair reduction using Triple Wavelength Diode Laser technology in Gurgaon.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Is laser hair removal truly permanent?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LHR is clinically defined as permanent hair reduction. It destroys up to 90% of targeted follicles completely."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Does it hurt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Thanks to our ICE cooling technology, the procedure is virtually painless and feels like a warm massage."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/laser_hair_indian_ba_1773724218927.png" alt="Laser Hair Removal in Gurgaon Result" class="w-full">
+                        <img src="images/laser-hair-india.png" alt="Laser Hair Removal in Gurgaon Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/laser_hair_indian_ba_1773724218927.png" alt="Best Laser Hair Removal in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="images/laser-hair-removel-gurgaon.jpg" alt="Best Laser Hair Removal in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>

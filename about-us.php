@@ -10,7 +10,33 @@
     <title>About Dencespot Clinic | Dencespot Clinic Gurgaon</title>
     <meta name="description" content="Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.">
     <meta name="keywords" content="About Dencespot, Best Hair Clinic Gurgaon, Dencespot Clinic Story">
+    <link rel="canonical" href="https://www.dencespot.in/about-us" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      }
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

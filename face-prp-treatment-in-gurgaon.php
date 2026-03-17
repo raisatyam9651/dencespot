@@ -91,7 +91,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Best Face PRP Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/chemical_peel_indian_ba_1773724203537.png" alt="Best Face PRP Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -224,27 +224,27 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
-                        <p class="text-xs text-gray-400 mt-2">Visible improvement in hair thickness and health.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Vampire Facial</h4>
+                        <p class="text-xs text-gray-400 mt-2">Visible improvement in skin texture and radiance.</p>
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Follicle Stimulation</h4>
-                        <p class="text-xs text-gray-400 mt-2">Reactivating dormant follicles with medical microneedling.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Collagen Boost</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reactivating skin cells with natural growth factors.</p>
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Scalp Rejuvenation</h4>
-                        <p class="text-xs text-gray-400 mt-2">Reducing inflammation and boosting growth with LED therapy.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Skin Tightening</h4>
+                        <p class="text-xs text-gray-400 mt-2">Reducing fine lines and boosting elasticity naturally.</p>
                     </div>
                 </div></div>
         </div>

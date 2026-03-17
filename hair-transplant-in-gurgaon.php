@@ -10,7 +10,51 @@
     <title>Hair Transplant in Gurgaon | Best FUE Hair Restoration | Dencespot</title>
     <meta name="description" content="Get the best hair transplant in Gurgaon at Dencespot Clinic. Advanced FUE hair restoration for natural density and permanent results. Expert doctors, affordable cost.">
     <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon">
+    <link rel="canonical" href="https://www.dencespot.in/hair-transplant-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Hair Transplant in Gurgaon",
+      "description": "Premium FUE and DHT hair transplant in Gurgaon for natural and permanent hair restoration.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How many grafts will I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Graft requirements vary from 1,500 to 4,500+ depending on the baldness stage. We provide a precise estimate after clinical evaluation."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is hair transplant permanent?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we use DHT-resistant follicles from the back of the scalp which are genetically programmed to grow for a lifetime."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/indian-ht-result-1.png" alt="Hair Transplant Result Gurgaon" class="w-full">
+                        <img src="assets/images/indian-ht-result-1.png" alt="Hair Transplant Result Gurgaon" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -210,7 +254,7 @@
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/indian-ht-result-1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/man_success_1.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Frontal Hairline Restoration</h4>
@@ -218,7 +262,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/indian-ht-result-2.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/man_success_2.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Crown Density Correction</h4>

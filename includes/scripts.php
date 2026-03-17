@@ -84,5 +84,19 @@
                 viewAllBtn.innerHTML = `View All Treatments <i class="fas fa-chevron-down transition-transform"></i>`;
             }
         });
+        
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('-translate-y-full');
+        });
+
+        closeMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('-translate-y-full');
+        });
     </script>
+
 </body>

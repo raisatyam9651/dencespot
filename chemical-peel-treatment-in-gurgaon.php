@@ -10,7 +10,51 @@
     <title>Chemical Peel Treatment in Gurgaon | Acne & Pigmentation Control</title>
     <meta name="description" content="Best chemical peel in Gurgaon for acne scars, pigmentation, and skin rejuvenation. Customized AHA/BHA and TCA peels by top dermatologists at Dencespot.">
     <meta name="keywords" content="Chemical Peel in Gurgaon, Acne Peel Treatment, Pigmentation Peel Gurgaon, Skin Brightening Peel, Salicylic Acid Peel">
+    <link rel="canonical" href="https://www.dencespot.in/chemical-peel-treatment-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Chemical Peel Treatment in Gurgaon",
+      "description": "Best chemical peels in Gurgaon for acne, pigmentation, and skin rejuvenation. Customized AHA/BHA peels by expert dermatologists.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Will my skin peel off in sheets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only with deep or medium-depth TCA peels. Superficial maintenance peels only give a glow without visible peeling."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Does a chemical peel hurt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most patients feel a warm, tingling sensation for 3-10 minutes. It vanishes once the peel is neutralized."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Chemical Peel Treatment in Gurgaon Result" class="w-full">
+                        <img src="assets/images/chemical_peel_indian_ba_1773724203537.png" alt="Chemical Peel Treatment in Gurgaon Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Best Chemical Peel Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="images/acne-scar-india.png" alt="Best Chemical Peel Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -234,7 +278,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/chemical_peel_indian_ba_1773724203537.png" alt="Dencespot Result" class="w-full">
+                    <img src="images/indian-patient-1.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Acne Scar Treatment</h4>

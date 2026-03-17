@@ -1,186 +1,105 @@
+<?php
 $pageTitle = 'Everything You Need to Know About Botox and Fillers | DenceSpot';
-$pageDesc = 'Discover the complete guide to anti-ageing injectables. We break down the differences between Botox and
-dermal fillers to help you choose the best treatment for your aesthetic goals.';
-$pageKeywords = 'botox vs fillers, anti-ageing treatments, lip fillers gurgaon, botox for wrinkles, dermal fillers
-guide, aesthetic injectables';
+$pageDesc = 'Discover the complete guide to anti-ageing injectables. We break down the differences between Botox and dermal fillers to help you choose the best treatment for your aesthetic goals.';
+$pageKeywords = 'botox vs fillers, anti-ageing treatments, lip fillers gurgaon, botox for wrinkles, dermal fillers guide, aesthetic injectables';
 $pageCanonical = 'https://dencespot.com/blog/everything-you-need-to-know-about-botox-and-fillers.php';
-$pageRobots = 'index, follow';
-$pageAuthor = 'DenceSpot Clinic';
-$pagePublisher = 'https://dencespot.com/';
-$base_path = '../';
 $currentPage = 'blog';
-include '../header.php';
+include '../includes/head_links.php';
 ?>
+<body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-<link rel="stylesheet" href="css/blog-post.css">
+    <!-- Header -->
+    <?php include "../includes/header.php"; ?>
 
-<article>
-    <div class="blog-post-header">
-        <div class="container text-center">
-            <span class="blog-post-badge">ANTI-AGEING</span>
-            <h1 class="blog-post-title">Everything You Need to Know About Botox and Fillers</h1>
-            <div class="blog-post-meta">
-                <i class="far fa-calendar-alt"></i> FEBRUARY 12, 2026 &bull; ADMIN
+    <!-- Blog Post Header -->
+    <section class="relative pt-40 pb-24 bg-darkSlate text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30 tracking-[0.2em]">Anti-Ageing</span>
+            <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">Injectables Guide: <span class="text-medicalTeal italic">Botox & Fillers</span></h1>
+            <div class="flex items-center justify-center gap-6 text-sm text-gray-400 font-medium tracking-wide">
+                <span>By Admin</span>
+                <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
+                <span>February 12, 2026</span>
+                <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
+                <span>15 Min Read</span>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="blog-post-container">
-        <img src="images/botox.jpg" alt="Botox and Fillers Complete Guide" class="blog-post-featured-img">
-
-        <div class="blog-post-content">
-            <p>The quest for a youthful, vibrant appearance is older than modern civilization itself. However, unlike
-                our ancestors who relied on mythical fountains or harsh biological mixtures, today's cosmetic
-                dermatology provides us with incredibly safe, FDA-approved, and highly effective tools. Specifically,
-                injectables have revolutionized anti-ageing. People often use the terms "Botox" and "fillers"
-                interchangeably, but they serve completely different purposes in the realm of facial rejuvenation. If
-                you are exploring the <a href="botox-treatment-in-gurgaon.php">best Botox treatment in Gurgaon</a>, this
-                comprehensive guide will demystify these two powerhouses of aesthetic medicine.</p>
-
-            <p>Understanding exactly how your face ages is the first step in deciding which treatment is right for you.
-                As we grow older, our skin continuously loses collagen, elastin, and subcutaneous fat. Concurrently,
-                decades of repetitive facial expressions—like smiling, frowning, and squinting—begin to leave permanent
-                creases in our skin. Botox targets the muscle movements responsible for these dynamic wrinkles, while
-                dermal fillers restore the lost volume associated with static wrinkles. Often, determining your ideal
-                treatment involves <a href="face-prp-treatment-in-gurgaon.php">exploring complete facial rejuvenation
-                    with face PRP treatments</a> or combining injectables to achieve a harmonious, youthful result.</p>
-
-            <h2>What is Botox and How Does It Work?</h2>
-            <p>Botox, the most famous brand name for botulinum toxin type A, acts as a neuromodulator. When injected in
-                microscopic, purified doses into specific facial muscles, it temporarily blocks the nerve signals that
-                cause those muscles to contract. Because the targeted muscle can no longer forcefully contract, the
-                overlying skin relaxes and smooths out. This mechanism makes Botox exceptionally effective for dynamic
-                wrinkles—the lines that form when you make an expression.</p>
-
-            <p>Common areas treated with Botox include the horizontal lines across the forehead, the vertical "11" lines
-                between the eyebrows (glabellar lines), and the crow's feet around the eyes. A skilled injector
-                understands facial anatomy deeply and will inject just enough Botox to soften the wrinkles without
-                completely freezing your face, allowing you to maintain natural expressions. The procedure is extremely
-                quick, often taking less than 15 minutes, with results becoming apparent within 3 to 7 days.</p>
-
-            <h2>What Are Dermal Fillers?</h2>
-            <p>Dermal fillers operate on a completely different principle. Instead of paralyzing muscles, they are
-                designed to add physical volume beneath the skin. Most modern, high-quality fillers are composed of
-                hyaluronic acid (HA), a naturally occurring substance in your body that helps keep your skin plump and
-                hydrated. Over time, as our natural HA depletes and facial fat pads shrink and shift downwards, our face
-                begins to look hollow or sunken, creating deep static folds.</p>
-
-            <p>By injecting a gel-like substance directly into these areas, a dermatologist can immediately restore
-                volume. Fillers are commonly used to plump thin lips, enhance shallow contours, soften facial creases
-                like the nasolabial folds (smile lines) and marionette lines around the mouth, and improve the
-                appearance of recessed scars. If your skin needs deep hydration but not necessarily physical volume,
-                exploring the <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">hydrating benefits of a
-                    Hydrafacial</a> can be an excellent complementary or alternative approach.</p>
-
-            <h2>Botox vs. Fillers: Which Do You Need?</h2>
-            <p>Deciding between Botox and dermal fillers depends entirely on the type of aesthetic concern you are
-                trying to address. The simplest way to remember their primary uses is: Botox is for lines of expression
-                (dynamic wrinkles), and fillers are for lines of rest (static wrinkles) and lost volume.</p>
-
-            <p><strong>Choose Botox if:</strong></p>
-            <ul>
-                <li>You want to eliminate or soften forehead creases and worry lines.</li>
-                <li>You are concerned about crow's feet when you smile or squint.</li>
-                <li>You have neck bands or a "gummy smile" that you wish to correct.</li>
-                <li>You are experiencing excessive sweating (hyperhidrosis) or migraines (medical uses of Botox).</li>
-            </ul>
-
-            <p><strong>Choose Dermal Fillers if:</strong></p>
-            <ul>
-                <li>You want to restore volume to sunken cheeks or temples.</li>
-                <li>You want to plump up thin lips and smooth out vertical lip lines.</li>
-                <li>You have deep nasolabial folds running from your nose to your mouth.</li>
-                <li>You want to sculpt your jawline or enhance a weak chin without surgery.</li>
-            </ul>
-
-            <p>Often, the best approach is a combination of both. Using Botox to relax the muscles in the upper face
-                while using fillers to restore volume in the mid and lower face is widely known as a "liquid facelift."
-                This dual approach addresses all facets of facial aging simultaneously, delivering a comprehensive
-                rejuvenation without the need for invasive surgical procedures or general anesthesia.</p>
-
-            <h2>How Long Do the Results Last?</h2>
-            <p>Because these are temporary, non-surgical treatments, maintenance is required to sustain your youthful
-                appearance. The longevity of your results depends heavily on your unique metabolism, the specific
-                product used, and the area treated.</p>
-
-            <p>Botox typically lasts between 3 to 4 months. As the neuromodulator gradually wears off over time, the
-                muscle action will return to normal, and the wrinkles will slowly begin to reappear. However, with
-                consistent treatments over several years, many patients find that their muscles become "trained" to
-                relax, meaning they can go longer between their Botox appointments.</p>
-
-            <p>Dermal fillers generally offer more long-lasting results. Depending on the thickness of the hyaluronic
-                acid gel and where it is injected, fillers can last anywhere from 6 months to 18 months. Highly mobile
-                areas, like the lips, tend to metabolize filler faster than static areas like the cheeks or tear
-                troughs. A significant advantage of HA fillers is that they are completely reversible; if you are
-                unhappy with the result or experience a rare complication, your doctor can inject an enzyme called
-                hyaluronidase to dissolve the filler immediately.</p>
-
-            <h2>Understanding the Risks and Recovery</h2>
-            <p>Both Botox and dermal fillers are celebrated for their "lunchtime procedure" status, meaning they require
-                virtually zero downtime. Most patients leave the clinic and return to their normal daily activities
-                immediately. However, it is important to be aware of the minor side effects. You may experience slight
-                redness, pinpoint bleeding, or minimal bruising at the injection sites. These issues typically resolve
-                within a few days and can easily be concealed with makeup.</p>
-
-            <p>To ensure optimal results and minimize the risk of complications, it is crucial to seek out a
-                board-certified dermatologist or an experienced aesthetic physician. In the wrong hands, incorrect
-                placement of Botox can lead to a heavy brow or asymmetrical smile, while poor filler injection technique
-                can result in unnatural lumps or, in extremely rare cases, vascular occlusion. Choosing a reputed clinic
-                guarantees that you are receiving genuine, FDA-approved products administered securely.</p>
-
-            <div class="blog-cta-box">
-                <h3>Transform Your Appearance With Expert Care</h3>
-                <p>Are you ready to smooth away wrinkles, restore lost volume, and reclaim your youthful glow? At
-                    DenceSpot, our experienced physicians carefully assess your unique facial anatomy to create a
-                    tailored, natural-looking injectable plan. Don't trust your face to just anyone.</p>
-                <a href="contact.php" class="blog-cta-btn">Schedule Your Anti-Ageing Consultation Today</a>
+    <!-- Blog Content Content -->
+    <article class="relative -mt-16 pb-24 z-20">
+        <div class="container mx-auto px-6 max-w-4xl">
+            
+            <!-- Featured Image -->
+            <div class="relative mb-16 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                <img src="../images/botox.jpg" alt="Botox and Fillers" class="w-full">
             </div>
 
-            <div class="blog-faq-section">
-                <h2 class="blog-faq-title">Frequently Asked Questions (FAQs)</h2>
+            <!-- Content -->
+            <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-xl border border-gray-100 prose prose-lg prose-teal max-w-none">
+                <style>
+                    .prose h2 { font-family: 'Poppins', sans-serif; font-weight: 700; color: #1E293B; margin-top: 2em; margin-bottom: 1em; }
+                    .prose h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: #1E293B; }
+                    .prose p { line-height: 1.8; color: #475569; margin-bottom: 1.5em; }
+                    .prose strong { color: #1E293B; }
+                    .prose a { color: #0EA5A4; text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; transition: all 0.3s; }
+                    .prose a:hover { border-bottom-color: #0EA5A4; }
+                </style>
+                
+                <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">
+                    Botox and fillers are often used interchangeably, but they serve completely different purposes. If you are exploring <a href="../botox-treatment-in-gurgaon.php">best Botox in Gurgaon</a>, this guide is for you.
+                </p>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Will Botox make my face look completely frozen?</div>
-                    <p class="blog-faq-answer">No. When administered by an experienced professional, Botox relaxes only
-                        the specific muscles causing wrinkles, allowing you to maintain your natural facial expressions
-                        and a healthy, animated appearance.</p>
+                <p>As we age, skin loses collagen and repetitive facial expressions leave creases. Botox targets dynamic wrinkles (movement), while fillers restore lost volume (static folds). Often, combining them with <a href="../face-prp-treatment-in-gurgaon.php">face PRP treatments</a> achieves the most harmonious results.</p>
+
+                <h2>What Is Botox?</h2>
+                <p>Botox acts as a neuromodulator. It temporarily blocks nerve signals causes muscles to contract. Overlying skin relaxes and smooths out. Common areas include forehead lines and crow's feet. Results appear within 3-7 days.</p>
+
+                <h2>What Are Dermal Fillers?</h2>
+                <p>Fillers add physical volume. High-quality fillers use Hyaluronic Acid, a natural substance that keeps skin plump. Often used for lips, cheeks, and nasolabial folds. Pairs well with <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">Hydrafacial benefits</a> for deep hydration.</p>
+
+                <h2>Which One Do You Need?</h2>
+                <ul>
+                    <li><strong>Choose Botox if:</strong> You want to eliminate forehead creases or crow's feet.</li>
+                    <li><strong>Choose Fillers if:</strong> You want to restore volume to sunken cheeks or plump thin lips.</li>
+                </ul>
+                <p>A "liquid facelift" combines both for complete upper and lower face rejuvenation without surgery.</p>
+
+                <h2>Longevity and Results</h2>
+                <p>Botox typically lasts 3 to 4 months. Dermal fillers last longer, anywhere from 6 to 18 months depending on the product and area. HA fillers are completely reversible using hyaluronidase.</p>
+
+                <!-- CTA Box -->
+                <div class="my-16 bg-bgLight rounded-[2rem] p-10 border border-medicalTeal/10 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700"></div>
+                    <h3 class="text-2xl font-display font-bold mb-4 relative z-10 text-darkSlate">Transform Your Appearance</h3>
+                    <p class="text-gray-500 mb-8 relative z-10 leading-relaxed">Ready to reclaim your youthful glow? Our experienced physicians create a tailored, natural-looking plan just for you.</p>
+                    <a href="../contact.php" class="inline-block bg-medicalTeal text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-teal-200 hover:bg-darkSlate transition-all relative z-10">Schedule Consultation</a>
                 </div>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Are these injectable treatments painful?</div>
-                    <p class="blog-faq-answer">The discomfort is minimal. The needles used are incredibly fine.
-                        Additionally, many dermal fillers contain lidocaine (a numbing agent) within the formula, and
-                        your doctor will apply a topical numbing cream prior to injection to ensure a comfortable
-                        experience.</p>
+                <!-- FAQ Section -->
+                <div class="mt-20 border-t border-gray-100 pt-16">
+                    <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
+                    <div class="space-y-8">
+                        <div class="p-8 bg-bgLight rounded-3xl">
+                            <h4 class="font-bold text-lg mb-4">Will my face look frozen?</h4>
+                            <p class="text-gray-600 leading-relaxed">No. When administered by professionals, Botox relaxes only specific muscles, maintaining natural expression.</p>
+                        </div>
+                        <div class="p-8 bg-bgLight rounded-3xl">
+                            <h4 class="font-bold text-lg mb-4">Are these treatments painful?</h4>
+                            <p class="text-gray-600 leading-relaxed">Discomfort is minimal. We use fine needles and topical numbing agents for a comfortable experience.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">At what age should I start getting Botox?</div>
-                    <p class="blog-faq-answer">There is no universal "right" age. Many people in their late 20s and
-                        early 30s now use "baby Botox" preventatively to stop wrinkles from forming in the first place.
-                        You should consider Botox when you notice lines remaining on your face even when your expression
-                        is neutral.</p>
-                </div>
-
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">Are dermal fillers the same as silicone injections?</div>
-                    <p class="blog-faq-answer">Absolutely not. Reputable clinics use FDA-approved hyaluronic acid
-                        fillers, which naturally degrade and are safely absorbed by your body over time. Permanent
-                        liquid silicone is highly dangerous, illegal for cosmetic use in many areas, and should never be
-                        injected.</p>
-                </div>
-
-                <div class="blog-faq-item">
-                    <div class="blog-faq-question">What should I avoid before and after my appointment?</div>
-                    <p class="blog-faq-answer">Before your appointment, you should avoid blood thinners like aspirin,
-                        ibuprofen, fish oil, and alcohol for 24-48 hours to minimize bruising. After treatment, avoid
-                        laying down immediately, engaging in strenuous workouts, or massaging the treated area to
-                        prevent the product from migrating.</p>
-                </div>
             </div>
-
         </div>
-    </div>
-</article>
+    </article>
 
-<?php include '../footer.php'; ?>
+    <!-- Footer -->
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
+</body>
+</html>

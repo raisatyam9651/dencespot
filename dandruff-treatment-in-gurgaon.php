@@ -91,7 +91,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Best Dandruff Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/tech-procedure.png" alt="Best Dandruff Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -224,7 +224,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/dandruff_success_1.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Scalp Detox</h4>
@@ -232,18 +232,18 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/dandruff_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Healthy Scalp</h4>
+                        <h4 class="text-xl font-bold text-darkSlate">Fungal Control</h4>
                         <p class="text-xs text-gray-400 mt-2">Reducing itchiness and fungal growth significantly.</p>
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/before-after.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Scalp Immunity</h4>
+                        <h4 class="text-xl font-bold text-darkSlate">Clear Scalp</h4>
                         <p class="text-xs text-gray-400 mt-2">Strengthening the scalp barrier with clinical therapies.</p>
                     </div>
                 </div></div>

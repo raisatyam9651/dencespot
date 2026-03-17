@@ -10,7 +10,51 @@
     <title>Botox Treatment in Gurgaon | Best Anti-Wrinkle Injections</title>
     <meta name="description" content="Get the best Botox treatment in Gurgaon at Dencespot Clinic. FDA-approved anti-wrinkle injections for forehead lines, crow's feet & jawline slimming. Expert dermatologists, natural results.">
     <meta name="keywords" content="Botox Treatment in Gurgaon, Best Botox Clinic Gurgaon, Botox Cost in Gurgaon, Anti-Wrinkle Injections Gurgaon, Jawline Botox Gurgaon, Forehead Botox Gurgaon">
+    <link rel="canonical" href="https://www.dencespot.in/botox-treatment-in-gurgaon" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
+
     <?php include "includes/head_links.php"; ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Botox Treatment in Gurgaon",
+      "description": "FDA-approved Botox injections in Gurgaon for forehead lines, crow's feet, and jawline slimming.",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How long does Botox last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The clinical effects typically last between 3 to 6 months depending on metabolism and muscle strength."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Will my face look frozen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Our expert dermatologists use micro-dosing to soften wrinkles while preserving natural expressions."
+        }
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -50,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Botox Treatment Result Gurgaon" class="w-full">
+                        <img src="images/botox.jpg" alt="Botox Treatment Result Gurgaon" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="What is Botox Treatment" class="rounded-[3rem] shadow-2xl">
+                    <img src="images/botox-india.webp" alt="What is Botox Treatment" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -240,7 +284,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/skin-success-1.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Anti-Aging Synergy</h4>
