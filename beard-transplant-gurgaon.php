@@ -135,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/beard_success_1.png" alt="What is Beard Transplant" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/beard_patchy_real.png" alt="What is Beard Transplant" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -255,27 +255,27 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/beard_success_1.png" alt="Dencespot Result" class="w-full">
-                    <div class="p-6 bg-white">
-                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Beard Reconstruction</h4>
-                        <p class="text-xs text-gray-400 mt-2">Restoring a full, dense masculine beard profile.</p>
-                    </div>
-                </div>
-                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/indian-beard-result-2.svg" alt="Indian Beard Transplant Before After Result" class="w-full">
+                    <img src="assets/images/beard_patchy_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Patchy Beard Correction</h4>
-                        <p class="text-xs text-gray-400 mt-2">Full dense beard achieved from sparse patchy growth — 1800 grafts, FUE.</p>
+                        <p class="text-xs text-gray-400 mt-2">Natural restoration of patchy areas with high-density grafting.</p>
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/indian-beard-result-3.svg" alt="Indian Beard Transplant Full Beard Result" class="w-full">
+                    <img src="assets/images/beard_full_real.png" alt="Indian Beard Transplant Before After Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Full Beard &amp; Sideburn Restoration</h4>
-                        <p class="text-xs text-gray-400 mt-2">Stylish full beard with sideburn coverage — 2200 grafts, FUE technique.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Full Beard Restoration</h4>
+                        <p class="text-xs text-gray-400 mt-2">Stylized full beard design — 2200 grafts, FUE technique.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                    <img src="assets/images/ht_success_real.png" alt="Indian Beard Transplant Full Beard Result" class="w-full">
+                    <div class="p-6 bg-white">
+                        <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                        <h4 class="text-xl font-bold text-darkSlate">Artistic Hairline Result</h4>
+                        <p class="text-xs text-gray-400 mt-2">High density restoration for a natural and youthful appearance.</p>
                     </div>
                 </div></div>
         </div>

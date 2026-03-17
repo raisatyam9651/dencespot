@@ -49,7 +49,7 @@
                 <!-- Hair Transplant 1 -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
                     <div class="overflow-hidden">
-                        <img src="assets/images/indian-ht-result-1.png" alt="Rajesh K. - Hair Transplant" class="w-full h-64 object-cover">
+                        <img src="assets/images/ht_crown_real.png" alt="Rajesh K. - Hair Transplant" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
                         <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Hair Restoration - Rajesh K.</span>
@@ -61,7 +61,7 @@
                 <!-- Hairline HT -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
                     <div class="overflow-hidden">
-                        <img src="assets/images/indian-ht-result-2.png" alt="Amit S. - Hairline HT" class="w-full h-64 object-cover">
+                        <img src="assets/images/ht_hairline_real.png" alt="Amit S. - Hairline HT" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
                         <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Hair Restoration - Amit S.</span>
@@ -69,11 +69,23 @@
                         <p class="text-gray-400 text-sm">Natural, age-appropriate hairline recreation for a youthful look.</p>
                     </div>
                 </div>
+
+                <!-- High Density HT -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/ht_success_real.png" alt="Naveen R. - HT Result" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">High Density - Naveen R.</span>
+                        <h3 class="text-xl font-bold mb-2">Maximum Coverage FUE</h3>
+                        <p class="text-gray-400 text-sm">Achieving massive density improvement across the entire scalp area.</p>
+                    </div>
+                </div>
                 
                 <!-- Hair Microneedling -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
                     <div class="overflow-hidden">
-                        <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Vikram M. - Microneedling" class="w-full h-64 object-cover">
+                        <img src="assets/images/hair_micro_hero_real.png" alt="Vikram M. - Microneedling" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
                         <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Hair Regrowth - Vikram M.</span>
@@ -85,7 +97,7 @@
                 <!-- LED Therapy -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
                     <div class="overflow-hidden">
-                        <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Rahul D. - LED Scalp" class="w-full h-64 object-cover">
+                        <img src="assets/images/hair_led_real.png" alt="Rahul D. - LED Scalp" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
                         <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Scalp Therapy - Rahul D.</span>
@@ -97,12 +109,84 @@
                 <!-- Dandruff -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="hair">
                     <div class="overflow-hidden">
-                        <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Suresh J. - Dandruff Clearing" class="w-full h-64 object-cover">
+                        <img src="assets/images/dandruff_clear_real.png" alt="Suresh J. - Dandruff Clearing" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
                         <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Scalp Health - Suresh J.</span>
                         <h3 class="text-xl font-bold mb-2">Severe Dandruff Treatment</h3>
                         <p class="text-gray-400 text-sm">Flake control and barrier stabilization with clinical protocols.</p>
+                    </div>
+                </div>
+
+                <!-- Patchy Beard Correction (Real) -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="beard">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/beard_patchy_real.png" alt="Beard Result - Patchy Growth" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Beard Restoration - Verified</span>
+                        <h3 class="text-xl font-bold mb-2">Patchy Growth Correction</h3>
+                        <p class="text-gray-400 text-sm">Restoring cheek density and a full beard line using clinical FUE.</p>
+                    </div>
+                </div>
+
+                <!-- Full Beard Restoration (Real) -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="beard">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/beard_full_real.png" alt="Beard Result - Full Density" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Beard Sculpting - Verified</span>
+                        <h3 class="text-xl font-bold mb-2">Full Beard & Sideburns</h3>
+                        <p class="text-gray-400 text-sm">Artistic beard design with restored sideburns for a defined masculine look.</p>
+                    </div>
+                </div>
+
+                <!-- Beard Success 3 -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="beard">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/beard_success_1.png" alt="Beard Result - Chin & Mustache" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Beard Result - Dencespot</span>
+                        <h3 class="text-xl font-bold mb-2">Chin & Mustache Density</h3>
+                        <p class="text-gray-400 text-sm">Enhancing the central beard area for a more mature and fuller appearance.</p>
+                    </div>
+                </div>
+
+                <!-- Face PRP -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/face_prp_real.png" alt="Aditya K. - Vampire Facial PRP" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Rejuvenation - Aditya K.</span>
+                        <h3 class="text-xl font-bold mb-2">Face PRP (Vampire Facial)</h3>
+                        <p class="text-gray-400 text-sm">Injecting growth factors for immense collagen and natural plumpness.</p>
+                    </div>
+                </div>
+
+                <!-- Carbon Facial -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/carbon_real.png" alt="Neeraj V. - Skin Carbon Laser" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Clinical Dermatology - Neeraj V.</span>
+                        <h3 class="text-xl font-bold mb-2">Carbon Laser Toning</h3>
+                        <p class="text-gray-400 text-sm">Refining skin texture instantly reducing oily shine and pore size.</p>
+                    </div>
+                </div>
+
+                <!-- HydraFacial -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                    <div class="overflow-hidden">
+                        <img src="assets/images/hydra_real.png" alt="Pawan S. - HydraFacial" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-8">
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Advanced Skin Care - Pawan S.</span>
+                        <h3 class="text-xl font-bold mb-2">HydraFacial Glow</h3>
+                        <p class="text-gray-400 text-sm">Pore-level extractions combined with immediate brightening serums.</p>
                     </div>
                 </div>
 
@@ -118,42 +202,42 @@
                     </div>
                 </div>
 
-                <!-- Face PRP -->
-                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                <!-- Laser Hair Relief -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
                     <div class="overflow-hidden">
-                        <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Aditya K. - Vampre Facial PRP" class="w-full h-64 object-cover">
+                        <img src="assets/images/laser_back_real.png" alt="Vishal R. - Laser Hair" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
-                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Rejuvenation - Aditya K.</span>
-                        <h3 class="text-xl font-bold mb-2">Face PRP (Vampire Facial)</h3>
-                        <p class="text-gray-400 text-sm">Injecting growth factors for immense collagen and natural plumpness.</p>
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Laser Treatments - Vishal R.</span>
+                        <h3 class="text-xl font-bold mb-2">Painless Hair Reduction</h3>
+                        <p class="text-gray-400 text-sm">Permanent reduction of unwanted thick hair using advanced diode lasers.</p>
                     </div>
                 </div>
 
-                <!-- HydraFacial -->
-                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+                <!-- Leg Laser -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
                     <div class="overflow-hidden">
-                        <img src="assets/images/hydrafacial_indian_ba_1773725133193.png" alt="Pawan S. - HydraFacial" class="w-full h-64 object-cover">
+                        <img src="assets/images/laser_leg_real.png" alt="Priyanka S. - Laser Leg" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
-                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Advanced Skin Care - Pawan S.</span>
-                        <h3 class="text-xl font-bold mb-2">HydraFacial Glow</h3>
-                        <p class="text-gray-400 text-sm">Pore-level extractions combined with immediate brightening serums.</p>
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Full Body Laser - Priyanka S.</span>
+                        <h3 class="text-xl font-bold mb-2">Smooth Leg Result</h3>
+                        <p class="text-gray-400 text-sm">Achieving silky smooth skin after a course of 6 clinical laser sessions.</p>
                     </div>
                 </div>
-                
-                <!-- Carbon Facial / Skin Treatment -->
-                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
+
+                <!-- Tattoo Erase -->
+                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
                     <div class="overflow-hidden">
-                        <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Neeraj V. - Skin Carbon Laser" class="w-full h-64 object-cover">
+                        <img src="assets/images/tattoo_removal_indian_diff_clothes_ba_1773724299134.png" alt="Manish L. - Tattoo Erase" class="w-full h-64 object-cover">
                     </div>
                     <div class="p-8">
-                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Clinical Dermatology - Neeraj V.</span>
-                        <h3 class="text-xl font-bold mb-2">Carbon Laser Toning</h3>
-                        <p class="text-gray-400 text-sm">Refining skin texture instantly reducing oily shine and pore size.</p>
+                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Laser Extraction - Manish L.</span>
+                        <h3 class="text-xl font-bold mb-2">Tattoo Fading Session</h3>
+                        <p class="text-gray-400 text-sm">Smashing deep ink particles without damaging surrounding dermal tissue.</p>
                     </div>
                 </div>
-                
+
                 <!-- Mole Removal -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
                     <div class="overflow-hidden">
@@ -166,31 +250,7 @@
                     </div>
                 </div>
 
-                <!-- Laser Hair Removal -->
-                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
-                    <div class="overflow-hidden">
-                        <img src="assets/images/laser_hair_indian_ba_1773724218927.png" alt="Vishal R. - Laser Hair" class="w-full h-64 object-cover">
-                    </div>
-                    <div class="p-8">
-                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Laser Treatments - Vishal R.</span>
-                        <h3 class="text-xl font-bold mb-2">Painless Hair Reduction</h3>
-                        <p class="text-gray-400 text-sm">Permanent reduction of unwanted thick hair using advanced diode lasers.</p>
-                    </div>
-                </div>
-                
-                <!-- Tattoo Removal -->
-                <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="laser">
-                    <div class="overflow-hidden">
-                        <img src="assets/images/tattoo_removal_indian_diff_clothes_ba_1773724299134.png" alt="Manish L. - Tattoo Erase" class="w-full h-64 object-cover">
-                    </div>
-                    <div class="p-8">
-                        <span class="text-medicalTeal text-[10px] font-bold uppercase tracking-widest mb-3 block">Laser Extraction - Manish L.</span>
-                        <h3 class="text-xl font-bold mb-2">Tattoo Fading Session</h3>
-                        <p class="text-gray-400 text-sm">Smashing deep ink particles without damaging surrounding dermal tissue.</p>
-                    </div>
-                </div>
-                
-                <!-- Lip Blush -->
+                <!-- Lip Blush Restoration -->
                 <div class="gallery-card bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 transition-all duration-300" data-category="skincare">
                     <div class="overflow-hidden">
                         <img src="assets/images/lip_blush_indian_ba_1773724236411.png" alt="Karan S. - Lip Color Correction" class="w-full h-64 object-cover">

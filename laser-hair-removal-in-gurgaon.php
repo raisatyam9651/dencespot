@@ -94,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="images/laser-hair-india.png" alt="Laser Hair Removal in Gurgaon Result" class="w-full" loading="lazy">
+                        <img src="assets/images/laser_leg_real.png" alt="Laser Hair Removal in Gurgaon Result" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -135,7 +135,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="images/laser-hair-removel-gurgaon.jpg" alt="Best Laser Hair Removal in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/laser_back_real.png" alt="Best Laser Hair Removal in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -270,7 +270,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/laser_hair_removal_ba_1773724084144.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/laser_leg_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Full Body Smoothness</h4>
@@ -278,7 +278,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/laser_hair_indian_ba_1773724218927.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/laser_back_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Precision Laser Care</h4>

@@ -268,7 +268,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hydra_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/hydra_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Medical HydraFacial</h4>
@@ -284,7 +284,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/chemical_peel_ba_1773724133778.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Glow Effect</h4>

@@ -412,7 +412,7 @@
                     <!-- HT Result 1 -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/man_success_1.png" alt="Dencespot Hair Restoration Result" class="w-full" loading="lazy">
+                            <img src="assets/images/ht_crown_real.png" alt="Dencespot Hair Restoration Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Crown Area Restoration</h4>
@@ -423,18 +423,18 @@
                     <!-- Beard Transplant -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/beard_success_1.png" alt="Dencespot Beard Transplant Result" class="w-full" loading="lazy">
+                            <img src="assets/images/beard_patchy_real.png" alt="Dencespot Beard Transplant Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                                <h4 class="text-xl font-bold text-darkSlate">Beard Reconstruction</h4>
-                                <p class="text-xs text-gray-400 mt-2">Restoring facial hair density with natural grafting.</p>
+                                <h4 class="text-xl font-bold text-darkSlate">Patchy Beard Correction</h4>
+                                <p class="text-xs text-gray-400 mt-2">Full dense beard achieved from sparse patchy growth — 1800 grafts, FUE.</p>
                             </div>
                         </div>
                     </div>
                     <!-- Hair PRP -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/prp_success_1.png" alt="Dencespot PRP Hair Result" class="w-full" loading="lazy">
+                            <img src="assets/images/prp_success_real.png" alt="Dencespot PRP Hair Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
@@ -445,7 +445,7 @@
                     <!-- HT Result 2 -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/man_success_2.png" alt="Dencespot Hairline Result" class="w-full">
+                            <img src="assets/images/ht_hairline_real.png" alt="Dencespot Hairline Result" class="w-full" loading="lazy">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Hairline Reconstruction</h4>
@@ -453,10 +453,21 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Full Beard -->
+                    <div class="swiper-slide px-4">
+                        <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
+                            <img src="assets/images/beard_full_real.png" alt="Dencespot Beard Result" class="w-full" loading="lazy">
+                            <div class="p-6 bg-white">
+                                <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
+                                <h4 class="text-xl font-bold text-darkSlate">Full Beard & Sideburn Restoration</h4>
+                                <p class="text-xs text-gray-400 mt-2">Stylish full beard with sideburn coverage — 2200 grafts, FUE technique.</p>
+                            </div>
+                        </div>
+                    </div>
                     <!-- HydraFacial -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/hydra_success_1.png" alt="Dencespot HydraFacial Result" class="w-full">
+                            <img src="assets/images/hydra_real.png" alt="Dencespot HydraFacial Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Medical HydraFacial</h4>
@@ -464,25 +475,14 @@
                             </div>
                         </div>
                     </div>
-                    <!-- SMP -->
+                    <!-- Laser Hair Removal -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/smp_success_1.png" alt="Dencespot SMP Result" class="w-full">
+                            <img src="assets/images/laser_back_real.png" alt="Dencespot Laser Hair Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                                <h4 class="text-xl font-bold text-darkSlate">Scalp Micropigmentation</h4>
-                                <p class="text-xs text-gray-400 mt-2">Non-surgical hair follicle simulation for maximum density.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Skin Result -->
-                    <div class="swiper-slide px-4">
-                        <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/man_success_3.png" alt="Dencespot Skin Result" class="w-full">
-                            <div class="p-6 bg-white">
-                                <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                                <h4 class="text-xl font-bold text-darkSlate">Acne Scar Clearance</h4>
-                                <p class="text-xs text-gray-400 mt-2">Visible reduction in deep scarring after clinical laser sessions.</p>
+                                <h4 class="text-xl font-bold text-darkSlate">Laser Hair Reduction</h4>
+                                <p class="text-xs text-gray-400 mt-2">Permanent reduction of unwanted thick hair using clinical lasers.</p>
                             </div>
                         </div>
                     </div>
@@ -500,7 +500,7 @@
                     <!-- Face PRP -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/face_prp_indian_ba_1773724702450.png" alt="Dencespot Face PRP Result" class="w-full">
+                            <img src="assets/images/face_prp_real.png" alt="Dencespot Face PRP Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Face PRP Rejuvenation</h4>
@@ -522,7 +522,7 @@
                     <!-- Dandruff Treatment -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/dandruff_indian_ba_1773724686736.png" alt="Dencespot Dandruff Treatment Result" class="w-full">
+                            <img src="assets/images/dandruff_clear_real.png" alt="Dencespot Dandruff Treatment Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Dandruff Clearance</h4>
@@ -533,7 +533,7 @@
                     <!-- Skin Treatment / Carbon Facial -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Dencespot Skin Treatment Result" class="w-full">
+                            <img src="assets/images/carbon_real.png" alt="Dencespot Skin Treatment Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Carbon Laser Facial</h4>
@@ -544,7 +544,7 @@
                     <!-- Microneedling Hair -->
                     <div class="swiper-slide px-4">
                         <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                            <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Dencespot Hair Microneedling Result" class="w-full">
+                            <img src="assets/images/hair_micro_hero_real.png" alt="Dencespot Hair Microneedling Result" class="w-full">
                             <div class="p-6 bg-white">
                                 <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                                 <h4 class="text-xl font-bold text-darkSlate">Hair Fall Control</h4>

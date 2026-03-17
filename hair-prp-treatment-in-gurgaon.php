@@ -94,7 +94,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/indian-prp-hero-result.svg" alt="Hair PRP Treatment Before After Result India" class="w-full" loading="lazy">
+                        <img src="assets/images/prp_hero_real.png" alt="Hair PRP Treatment Before After Result India" class="w-full" loading="lazy">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Clinical Result
                         </div>
@@ -230,7 +230,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/prp_success_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>

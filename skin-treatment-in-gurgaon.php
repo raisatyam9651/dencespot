@@ -50,7 +50,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Skin Treatment in Gurgaon Result" class="w-full">
+                        <img src="assets/images/hydra_real.png" alt="Skin Treatment in Gurgaon Result" class="w-full">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -91,7 +91,7 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
-                    <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Best Skin Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
+                    <img src="assets/images/carbon_real.png" alt="Best Skin Treatment in Gurgaon" class="rounded-[3rem] shadow-2xl">
                     <div class="absolute inset-0 bg-medicalTeal/10 rounded-[3rem]"></div>
                 </div>
                 <div>
@@ -224,7 +224,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/prp_success_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/hair_micro_hero_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Follicle Stimulation</h4>
@@ -240,7 +240,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_led_indian_ba_1773724717444.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/prp_hero_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Scalp Rejuvenation</h4>

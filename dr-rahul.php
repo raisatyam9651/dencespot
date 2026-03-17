@@ -27,7 +27,7 @@
         "@type": "MedicalClinic",
         "name": "Dencespot Clinic"
       },
-      "image": "https://www.dencespot.in/assets/images/hero_doctor_indian_man_1773672521000_1773672325798.png",
+      "image": "https://www.dencespot.in/images/doctor-rahul.png",
       "description": "Dr. Rahul is a Hair Restoration Specialist at Dencespot Clinic, specializing in FUE and DHT hair transplant techniques."
     }
     </script>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/hero_doctor_indian_man_1773672521000_1773672325798.png" alt="Dr. Rahul | Hair Restoration Expert | Dencespot" class="w-full h-[400px] object-cover">
+                        <img src="images/doctor-rahul.png" alt="Dr. Rahul | Hair Restoration Expert | Dencespot" class="w-full h-[400px] object-cover">
                     </div>
                 </div>
             </div>
