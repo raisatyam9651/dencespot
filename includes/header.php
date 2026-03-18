@@ -41,8 +41,6 @@
                     </div>
                 </div>
 
-                <a href="<?php echo $basePath; ?>about-us.php" class="nav-link">About Us</a>
-                <a href="<?php echo $basePath; ?>gallery.php" class="nav-link">Gallery</a>
                 <a href="<?php echo $basePath; ?>blog/" class="nav-link">Blog</a>
                 <a href="<?php echo $basePath; ?>contact.php" class="nav-link">Contact</a>
             </div>
@@ -62,8 +60,6 @@
             <a href="<?php echo $basePath; ?>index.php" class="text-2xl font-bold">Home</a>
             <a href="<?php echo $basePath; ?>hair-transplant-in-gurgaon.php" class="text-2xl font-bold">Hair Treatments</a>
             <a href="<?php echo $basePath; ?>skin-treatment-in-gurgaon.php" class="text-2xl font-bold">Skin Treatments</a>
-            <a href="<?php echo $basePath; ?>about-us.php" class="text-2xl font-bold">About Us</a>
-            <a href="<?php echo $basePath; ?>gallery.php" class="text-2xl font-bold">Gallery</a>
             <a href="<?php echo $basePath; ?>contact.php" class="text-2xl font-bold bg-medicalTeal px-8 py-3 rounded-full">Book Now</a>
         </div>
 

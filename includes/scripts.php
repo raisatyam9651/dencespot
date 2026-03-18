@@ -89,22 +89,7 @@
             });
         }
         
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const closeMenuBtn = document.getElementById('closeMenuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-
-        if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.remove('-translate-y-full');
-            });
-        }
-
-        if (closeMenuBtn && mobileMenu) {
-            closeMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.add('-translate-y-full');
-            });
-        }
+        // Mobile Menu Toggle - handled via onclick in header.php
     </script>
 
 </body>
