@@ -723,33 +723,34 @@
                 <p class="text-gray-500">Expert advice on skin health and hair restoration.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
+                <?php
+                include 'includes/blog-posts.php';
+                $latest = array_slice($blogPosts, 0, 3);
+                foreach ($latest as $post):
+                ?>
                 <article class="group">
-                    <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/man_success_1.png" alt="Blog 1" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
-                        <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Hair Loss</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">Understanding FUE vs DHT Techniques</h3>
-                    <p class="text-gray-500 text-sm mb-4">A complete guide to choosing the right hair restoration method for your patterns...</p>
-                    <a href="#" class="font-bold text-xs uppercase tracking-widest text-medicalTeal">Read Guide</a>
+                    <a href="<?php echo htmlspecialchars($post['url']); ?>" class="block">
+                        <div class="rounded-3xl overflow-hidden mb-6 relative">
+                            <img src="<?php echo htmlspecialchars($post['image']); ?>"
+                                 alt="<?php echo htmlspecialchars($post['title']); ?>"
+                                 class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
+                            <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">
+                                <?php echo htmlspecialchars($post['category']); ?>
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">
+                            <?php echo htmlspecialchars($post['title']); ?>
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4"><?php echo htmlspecialchars($post['desc']); ?></p>
+                        <span class="font-bold text-xs uppercase tracking-widest text-medicalTeal">Read Guide →</span>
+                    </a>
                 </article>
-                <article class="group">
-                    <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/hydra_success_1.png" alt="Blog 2" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700 opacity-80">
-                        <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Skin Care</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">The Benefits of medical HydraFacial</h3>
-                    <p class="text-gray-500 text-sm mb-4">Why clinical facials are far superior to spa-grade services for long term skin health...</p>
-                    <a href="#" class="font-bold text-xs uppercase tracking-widest text-medicalTeal">Read Guide</a>
-                </article>
-                <article class="group">
-                    <div class="rounded-3xl overflow-hidden mb-6 relative">
-                        <img src="assets/images/man_success_3.png" alt="Blog 3" class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
-                        <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">Lifestyle</span>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all">Maintaining Results After Transplant</h3>
-                    <p class="text-gray-500 text-sm mb-4">How diet and specialized medical shampoos impact the density of your new hair...</p>
-                    <a href="#" class="font-bold text-xs uppercase tracking-widest text-medicalTeal">Read Guide</a>
-                </article>
+                <?php endforeach; ?>
+            </div>
+            <div class="text-center mt-10">
+                <a href="blog/" class="inline-flex items-center gap-2 border border-medicalTeal text-medicalTeal px-6 py-3 rounded-full font-semibold text-sm hover:bg-medicalTeal hover:text-white transition-all">
+                    View All Articles <i class="fas fa-arrow-right text-xs"></i>
+                </a>
             </div>
         </div>
     </section>
