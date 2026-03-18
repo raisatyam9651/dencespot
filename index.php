@@ -709,33 +709,34 @@
                 <h2 class="text-4xl font-display font-bold">Latest <span class="text-medicalTeal">Blog</span></h2>
                 <p class="text-gray-500">Expert advice on skin health and hair restoration.</p>
             </div>
-            <div class="flex flex-col gap-5 md:grid md:grid-cols-3 md:gap-8">
-                <?php
-                include 'includes/blog-posts.php';
-                $latest = array_slice($blogPosts, 0, 3);
-                foreach ($latest as $post):
-                ?>
-                <article class="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm md:rounded-3xl md:shadow-none md:border-0 md:bg-transparent">
-                    <a href="<?php echo htmlspecialchars($post['url']); ?>" class="block">
-                        <!-- Image: full width, fixed height -->
-                        <div class="relative overflow-hidden rounded-t-2xl md:rounded-3xl md:mb-6">
+
+            <?php
+            include 'includes/blog-posts.php';
+            $latest = array_slice($blogPosts, 0, 3);
+            ?>
+
+            <!-- ── MOBILE: vertical cards (hidden on md+) ── -->
+            <div class="flex flex-col gap-4 md:hidden">
+                <?php foreach ($latest as $post): ?>
+                <article class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm" style="-webkit-tap-highlight-color:transparent;">
+                    <a href="<?php echo htmlspecialchars($post['url']); ?>" class="block active:scale-[0.99] transition-transform">
+                        <div class="relative overflow-hidden">
                             <img src="<?php echo htmlspecialchars($post['image']); ?>"
                                  alt="<?php echo htmlspecialchars($post['title']); ?>"
-                                 class="w-full object-cover group-hover:scale-110 transition-all duration-700"
-                                 style="height: 200px;">
+                                 class="w-full object-cover"
+                                 style="height: 185px;">
                             <span class="absolute top-3 left-3 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase shadow-sm">
                                 <?php echo htmlspecialchars($post['category']); ?>
                             </span>
                         </div>
-                        <!-- Content -->
-                        <div class="p-4 md:p-0">
-                            <h3 class="font-bold mb-2 group-hover:text-medicalTeal transition-all leading-snug" style="font-size: clamp(15px, 4vw, 20px); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                        <div class="p-4">
+                            <h3 class="font-bold text-darkSlate leading-snug mb-2" style="font-size:15px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
                                 <?php echo htmlspecialchars($post['title']); ?>
                             </h3>
-                            <p class="text-gray-500 text-sm mb-4 leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                            <p class="text-gray-500 text-sm leading-relaxed mb-4" style="display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
                                 <?php echo htmlspecialchars($post['desc']); ?>
                             </p>
-                            <span class="inline-flex items-center gap-2 bg-medicalTeal text-white text-xs font-bold px-4 py-2.5 rounded-xl md:bg-transparent md:text-medicalTeal md:px-0 md:py-0 md:uppercase md:tracking-widest">
+                            <span class="inline-flex items-center gap-2 bg-medicalTeal text-white text-xs font-bold px-4 py-2.5 rounded-xl">
                                 Read More <i class="fas fa-arrow-right text-[10px]"></i>
                             </span>
                         </div>
@@ -743,6 +744,34 @@
                 </article>
                 <?php endforeach; ?>
             </div>
+
+            <!-- ── DESKTOP: 3-col image+text grid (hidden below md) ── -->
+            <div class="hidden md:grid md:grid-cols-3 gap-8">
+                <?php foreach ($latest as $post): ?>
+                <article class="group">
+                    <a href="<?php echo htmlspecialchars($post['url']); ?>" class="block">
+                        <div class="rounded-3xl overflow-hidden mb-6 relative">
+                            <img src="<?php echo htmlspecialchars($post['image']); ?>"
+                                 alt="<?php echo htmlspecialchars($post['title']); ?>"
+                                 class="w-full h-64 object-cover group-hover:scale-110 transition-all duration-700">
+                            <span class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase">
+                                <?php echo htmlspecialchars($post['category']); ?>
+                            </span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-medicalTeal transition-all leading-snug">
+                            <?php echo htmlspecialchars($post['title']); ?>
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4 leading-relaxed" style="display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
+                            <?php echo htmlspecialchars($post['desc']); ?>
+                        </p>
+                        <span class="font-bold text-xs uppercase tracking-widest text-medicalTeal inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                            Read Guide <i class="fas fa-arrow-right text-[10px]"></i>
+                        </span>
+                    </a>
+                </article>
+                <?php endforeach; ?>
+            </div>
+
             <div class="text-center mt-8">
                 <a href="blog/" class="inline-flex items-center gap-2 border border-medicalTeal text-medicalTeal px-6 py-3 rounded-full font-semibold text-sm hover:bg-medicalTeal hover:text-white transition-all">
                     View All Articles <i class="fas fa-arrow-right text-xs"></i>
