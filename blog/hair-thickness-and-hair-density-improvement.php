@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to increase hair thickness and improve hair density natur
 $pageKeywords = 'hair thickness improvement, increase hair density, thick hair tips, thin hair solutions, improve hair volume, hair thickening treatments';
 $pageCanonical = 'https://dencespot.com/blog/hair-thickness-and-hair-density-improvement.php';
 $currentPage = 'blog';
-include '../includes/head_links.php';
+include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -12,7 +12,7 @@ include '../includes/head_links.php';
     <?php include "../includes/header.php"; ?>
 
     <!-- Blog Post Header -->
-    <section class="relative pt-40 pb-24 bg-darkSlate text-white overflow-hidden">
+    <section class="post-hero">
         <div class="absolute inset-0 opacity-10">
             <div class="absolute inset-0 skin-pattern"></div>
         </div>
@@ -30,25 +30,16 @@ include '../includes/head_links.php';
     </section>
 
     <!-- Blog Content Content -->
-    <article class="relative -mt-16 pb-24 z-20">
-        <div class="container mx-auto px-6 max-w-4xl">
+    <article class="post-article relative z-20">
+        <div class="container mx-auto">
             
             <!-- Featured Image -->
-            <div class="relative mb-16 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+            <div class="post-featured-image">
                 <img src="../images/blog/hair-thickness-density-featured.png" alt="Hair Thickness" class="w-full">
             </div>
 
             <!-- Content -->
-            <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-xl border border-gray-100 prose prose-lg prose-teal max-w-none">
-                <style>
-                    .prose h2 { font-family: 'Poppins', sans-serif; font-weight: 700; color: #1E293B; margin-top: 2em; margin-bottom: 1em; }
-                    .prose h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: #1E293B; }
-                    .prose p { line-height: 1.8; color: #475569; margin-bottom: 1.5em; }
-                    .prose strong { color: #1E293B; }
-                    .prose a { color: #0EA5A4; text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; transition: all 0.3s; }
-                    .prose a:hover { border-bottom-color: #0EA5A4; }
-                </style>
-                
+            <div class="post-prose">
                 <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">
                     For many, hair is more than just a physical feature—it's a symbol of vitality and confidence. Understanding the difference between thickness and density is the key to achieving a voluminous look.
                 </p>
@@ -83,8 +74,8 @@ include '../includes/head_links.php';
                 <p>Modern cosmetic science has given us "thickening" serums. For a more intensive external treatment, consider <a href="hair-treatments-spa-botox.php">professional hair Botox</a>, which deep-conditions the hair.</p>
 
                 <!-- CTA Box -->
-                <div class="my-16 bg-bgLight rounded-[2rem] p-10 border border-medicalTeal/10 relative overflow-hidden group">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700"></div>
+                <div class="post-cta">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700 deco-hide"></div>
                     <h3 class="text-2xl font-display font-bold mb-4 relative z-10 text-darkSlate">Discover the Volume You Deserve</h3>
                     <p class="text-gray-500 mb-8 relative z-10 leading-relaxed">Don't settle for thin, lifeless hair. At DenceSpot, we are committed to helping you achieve the density and thickness you've always wanted.</p>
                     <a href="../contact.php" class="inline-block bg-medicalTeal text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-teal-200 hover:bg-darkSlate transition-all relative z-10">Book Your Density Analysis</a>
@@ -94,14 +85,14 @@ include '../includes/head_links.php';
                 <p>Ensuring you have adequate iron and Vitamin D levels is crucial. If you are experiencing other scalp issues, such as <a href="dandruff-scalp-problems-treatment.php">chronic dandruff</a>, it is vital to treat them.</p>
 
                 <!-- FAQ Section -->
-                <div class="mt-20 border-t border-gray-100 pt-16">
+                <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
                     <div class="space-y-8">
-                        <div class="p-8 bg-bgLight rounded-3xl">
+                        <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Can I actually increase the number of follicles?</h4>
                             <p class="text-gray-600 leading-relaxed">You are born with all the follicles you will ever have, but many are dormant. Treatments like PRP can reactivate them.</p>
                         </div>
-                        <div class="p-8 bg-bgLight rounded-3xl">
+                        <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">How long does it take to see improvement?</h4>
                             <p class="text-gray-600 leading-relaxed">For biological thickness, you will need at least 3 to 6 months to see a visible change as new hair grows in.</p>
                         </div>

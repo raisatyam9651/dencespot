@@ -4,7 +4,7 @@ $pageDesc = 'Explore the best oils for hair growth and learn how to use them eff
 $pageKeywords = 'best oils for hair growth, oils to grow hair, natural hair oils, how to use hair oil for growth, rosemary oil for hair, coconut oil benefits';
 $pageCanonical = 'https://dencespot.com/blog/best-hair-oils-for-growth-benefits.php';
 $currentPage = 'blog';
-include '../includes/head_links.php';
+include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
@@ -12,7 +12,7 @@ include '../includes/head_links.php';
     <?php include "../includes/header.php"; ?>
 
     <!-- Blog Post Header -->
-    <section class="relative pt-40 pb-24 bg-darkSlate text-white overflow-hidden">
+    <section class="post-hero">
         <div class="absolute inset-0 opacity-10">
             <div class="absolute inset-0 skin-pattern"></div>
         </div>
@@ -30,25 +30,16 @@ include '../includes/head_links.php';
     </section>
 
     <!-- Blog Content Content -->
-    <article class="relative -mt-16 pb-24 z-20">
-        <div class="container mx-auto px-6 max-w-4xl">
+    <article class="post-article relative z-20">
+        <div class="container mx-auto">
             
             <!-- Featured Image -->
-            <div class="relative mb-16 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+            <div class="post-featured-image">
                 <img src="../images/blog/best-hair-oils-featured.png" alt="Best Hair Oils" class="w-full">
             </div>
 
             <!-- Content -->
-            <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-xl border border-gray-100 prose prose-lg prose-teal max-w-none">
-                <style>
-                    .prose h2 { font-family: 'Poppins', sans-serif; font-weight: 700; color: #1E293B; margin-top: 2em; margin-bottom: 1em; }
-                    .prose h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: #1E293B; }
-                    .prose p { line-height: 1.8; color: #475569; margin-bottom: 1.5em; }
-                    .prose strong { color: #1E293B; }
-                    .prose a { color: #0EA5A4; text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; transition: all 0.3s; }
-                    .prose a:hover { border-bottom-color: #0EA5A4; }
-                </style>
-                
+            <div class="post-prose">
                 <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">
                     Among the most revered natural remedies are botanical oils. If you are on a journey to improve your hair's health, finding the best oils for hair growth can be a complete game-changer.
                 </p>
@@ -89,22 +80,22 @@ include '../includes/head_links.php';
                 <p>At DenceSpot, we offer <a href="../hair-prp-treatment-in-gurgaon.php">PRP (Platelet-Rich Plasma) therapy</a>. For advanced loss, a <a href="../hair-transplant-in-gurgaon.php">permanent hair transplant</a> is the most effective solution.</p>
 
                 <!-- CTA Box -->
-                <div class="my-16 bg-bgLight rounded-[2rem] p-10 border border-medicalTeal/10 relative overflow-hidden group">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700"></div>
+                <div class="post-cta">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-medicalTeal/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-all duration-700 deco-hide"></div>
                     <h3 class="text-2xl font-display font-bold mb-4 relative z-10 text-darkSlate">Unlock Your Hair's Natural Potential</h3>
                     <p class="text-gray-500 mb-8 relative z-10 leading-relaxed">Confused about which oil is right for your hair type? Our experts offer personalized hair and scalp analyses to help you create the perfect routine.</p>
                     <a href="../contact.php" class="inline-block bg-medicalTeal text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-teal-200 hover:bg-darkSlate transition-all relative z-10">Book Your Hair Analysis</a>
                 </div>
 
                 <!-- FAQ Section -->
-                <div class="mt-20 border-t border-gray-100 pt-16">
+                <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
                     <div class="space-y-8">
-                        <div class="p-8 bg-bgLight rounded-3xl">
+                        <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">How often should I oil my hair for growth?</h4>
                             <p class="text-gray-600 leading-relaxed">Oiling 1-2 times per week is generally sufficient for most hair types. Over-oiling can lead to scalp buildup.</p>
                         </div>
-                        <div class="p-8 bg-bgLight rounded-3xl">
+                        <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Can I leave hair oil in overnight?</h4>
                             <p class="text-gray-600 leading-relaxed">Yes, for deep penetration. However, if you have an oily scalp, limit it to 1-2 hours.</p>
                         </div>

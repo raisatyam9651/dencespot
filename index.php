@@ -714,11 +714,11 @@
                 </div>
                 <!-- Prev / Next -->
                 <div class="flex items-center gap-2 shrink-0">
-                    <button class="blog-prev w-10 h-10 rounded-full border-2 border-medicalTeal text-medicalTeal flex items-center justify-center hover:bg-medicalTeal hover:text-white transition-all" aria-label="Previous">
-                        <i class="fas fa-chevron-left text-xs"></i>
+                    <button class="blog-prev blog-nav-btn" aria-label="Previous">
+                        <i class="fas fa-chevron-left" style="font-size:11px;"></i>
                     </button>
-                    <button class="blog-next w-10 h-10 rounded-full border-2 border-medicalTeal text-medicalTeal flex items-center justify-center hover:bg-medicalTeal hover:text-white transition-all" aria-label="Next">
-                        <i class="fas fa-chevron-right text-xs"></i>
+                    <button class="blog-next blog-nav-btn" aria-label="Next">
+                        <i class="fas fa-chevron-right" style="font-size:11px;"></i>
                     </button>
                 </div>
             </div>
@@ -731,28 +731,18 @@
                     foreach ($blogPosts as $post):
                     ?>
                     <div class="swiper-slide h-auto">
-                        <article class="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm h-full flex flex-col">
+                        <article class="blog-card">
                             <a href="<?php echo htmlspecialchars($post['url']); ?>" class="flex flex-col flex-1">
-                                <div class="relative overflow-hidden shrink-0">
+                                <div class="blog-card__image">
                                     <img src="<?php echo htmlspecialchars($post['image']); ?>"
                                          alt="<?php echo htmlspecialchars($post['title']); ?>"
-                                         class="w-full object-cover group-hover:scale-110 transition-all duration-700"
-                                         style="height: 200px;"
                                          loading="lazy">
-                                    <span class="absolute top-3 left-3 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase shadow-sm">
-                                        <?php echo htmlspecialchars($post['category']); ?>
-                                    </span>
+                                    <span class="blog-card__badge"><?php echo htmlspecialchars($post['category']); ?></span>
                                 </div>
-                                <div class="p-4 flex flex-col flex-1">
-                                    <h3 class="font-bold text-darkSlate leading-snug mb-2 group-hover:text-medicalTeal transition-colors" style="font-size:15px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
-                                        <?php echo htmlspecialchars($post['title']); ?>
-                                    </h3>
-                                    <p class="text-gray-500 text-sm leading-relaxed mb-4 flex-1" style="display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
-                                        <?php echo htmlspecialchars($post['desc']); ?>
-                                    </p>
-                                    <span class="inline-flex items-center gap-2 bg-medicalTeal text-white text-xs font-bold px-4 py-2.5 rounded-xl self-start">
-                                        Read More <i class="fas fa-arrow-right text-[10px]"></i>
-                                    </span>
+                                <div class="blog-card__body">
+                                    <h3 class="blog-card__title"><?php echo htmlspecialchars($post['title']); ?></h3>
+                                    <p class="blog-card__desc"><?php echo htmlspecialchars($post['desc']); ?></p>
+                                    <span class="blog-card__btn">Read More <i class="fas fa-arrow-right" style="font-size:10px;"></i></span>
                                 </div>
                             </a>
                         </article>
