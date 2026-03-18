@@ -1,4 +1,4 @@
-<a href="contact.php" class="fixed bottom-8 right-8 z-[100] group flex items-center gap-4">
+<a href="contact.php" class="fixed bottom-8 right-8 z-[100] group hidden md:flex items-center gap-4">
         <div class="bg-darkSlate text-white text-[10px] px-4 py-2 rounded-full opacity-0 group-hover:opacity-100 transition-all font-bold shadow-xl border border-gray-800">Book Appointment</div>
         <div class="w-16 h-16 bg-medicalTeal rounded-full flex items-center justify-center text-3xl text-white shadow-3xl hover:scale-110 transition-all"><i class="fas fa-calendar-check"></i></div>
     </a>
@@ -9,12 +9,14 @@
         // Header Scroll Effect
         window.addEventListener('scroll', () => {
             const header = document.getElementById('mainHeader');
-            if (window.scrollY > 20) {
-                header.classList.add('shadow-xl', 'py-2');
-                header.classList.remove('py-4');
-            } else {
-                header.classList.remove('shadow-xl', 'py-2');
-                header.classList.add('py-4');
+            if (header) {
+                if (window.scrollY > 20) {
+                    header.classList.add('shadow-xl', 'py-2');
+                    header.classList.remove('py-4');
+                } else {
+                    header.classList.remove('shadow-xl', 'py-2');
+                    header.classList.add('py-4');
+                }
             }
         });
 
@@ -68,35 +70,41 @@
         const viewAllBtn = document.getElementById('viewAllBtn');
         const hiddenTreatments = document.querySelectorAll('.hidden-treatment');
 
-        viewAllBtn.addEventListener('click', () => {
-            hiddenTreatments.forEach(el => {
-                if (el.classList.contains('hidden')) {
-                    el.classList.remove('hidden');
-                    el.classList.add('animate__animated', 'animate__fadeInUp');
+        if (viewAllBtn && hiddenTreatments.length > 0) {
+            viewAllBtn.addEventListener('click', () => {
+                hiddenTreatments.forEach(el => {
+                    if (el.classList.contains('hidden')) {
+                        el.classList.remove('hidden');
+                        el.classList.add('animate__animated', 'animate__fadeInUp');
+                    } else {
+                        el.classList.add('hidden');
+                    }
+                });
+
+                if (viewAllBtn.innerText.includes('View All')) {
+                    viewAllBtn.innerHTML = `Show Less <i class="fas fa-chevron-up transition-transform"></i>`;
                 } else {
-                    el.classList.add('hidden');
+                    viewAllBtn.innerHTML = `View All Treatments <i class="fas fa-chevron-down transition-transform"></i>`;
                 }
             });
-
-            if (viewAllBtn.innerText.includes('View All')) {
-                viewAllBtn.innerHTML = `Show Less <i class="fas fa-chevron-up transition-transform"></i>`;
-            } else {
-                viewAllBtn.innerHTML = `View All Treatments <i class="fas fa-chevron-down transition-transform"></i>`;
-            }
-        });
+        }
         
         // Mobile Menu Toggle
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const closeMenuBtn = document.getElementById('closeMenuBtn');
         const mobileMenu = document.getElementById('mobileMenu');
 
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.remove('-translate-y-full');
-        });
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('-translate-y-full');
+            });
+        }
 
-        closeMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.add('-translate-y-full');
-        });
+        if (closeMenuBtn && mobileMenu) {
+            closeMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.add('-translate-y-full');
+            });
+        }
     </script>
 
 </body>

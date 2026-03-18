@@ -271,11 +271,11 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/ht_success_real.png" alt="Indian Beard Transplant Full Beard Result" class="w-full">
+                    <img src="assets/images/beard_transplant_indian_real_ba_1773767170581.png" alt="Indian Beard Transplant Full Beard Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
-                        <h4 class="text-xl font-bold text-darkSlate">Artistic Hairline Result</h4>
-                        <p class="text-xs text-gray-400 mt-2">High density restoration for a natural and youthful appearance.</p>
+                        <h4 class="text-xl font-bold text-darkSlate">Sideburn Restoration</h4>
+                        <p class="text-xs text-gray-400 mt-2">Precision grafting to create a sharp, masculine jawline.</p>
                     </div>
                 </div></div>
         </div>

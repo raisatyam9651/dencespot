@@ -224,7 +224,7 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_success_real.png" alt="Dencespot Result" class="w-full">
+                        <img src="assets/images/face_prp_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">PRP Hair Growth</h4>
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hair_micro_hero_real.png" alt="Dencespot Result" class="w-full">
+                        <img src="assets/images/carbon_real.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Follicle Stimulation</h4>
@@ -240,7 +240,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/prp_hero_real.png" alt="Dencespot Result" class="w-full">
+                        <img src="assets/images/chemical_peel_indian_diff_clothes_ba_1773724284640.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Scalp Rejuvenation</h4>

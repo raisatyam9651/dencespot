@@ -50,7 +50,7 @@
                 </div>
                 <div class="relative animate__animated animate__fadeInRight">
                     <div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
-                        <img src="assets/images/skin-success-1.png" alt="Mole and Wart Removal in Gurgaon Result" class="w-full">
+                        <img src="assets/images/mole_removal_indian_ba_1773724754871.png" alt="Mole and Wart Removal in Gurgaon Result" class="w-full">
                         <div class="absolute bottom-6 right-6 bg-medicalTeal text-white px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest shadow-lg">
                             Dencespot Patient
                         </div>
@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/skin_treatment_indian_ba_1773724789009.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/mole_removal_indian_ba_1773724754871.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Wart Clearance</h4>
@@ -240,7 +240,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/hydra_success_1.png" alt="Dencespot Result" class="w-full">
+                    <img src="assets/images/mole_removal_indian_ba_1773724754871.png" alt="Dencespot Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Skin Smoothing</h4>

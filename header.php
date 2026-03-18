@@ -1,3 +1,4 @@
+<?php $basePath = (isset($currentPage) && $currentPage == 'blog') ? '../' : ''; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +30,7 @@
                     <div class="dropdown-content">
                         <!-- Hair Services -->
                         <a href="hair-transplant-in-gurgaon">Hair Transplant</a>
-                        <a href="beard-transplant-in-gurgaon">Beard Transplant</a>
+                        <a href="beard-transplant-gurgaon">Beard Transplant</a>
                         <a href="hair-prp-treatment-in-gurgaon">Hair PRP Treatment</a>
                         <a href="hair-microneedling-in-gurgaon">Microneedling</a>
                         <a href="hair-led-therapy-in-gurgaon">LED Therapy</a>
@@ -434,68 +435,94 @@
                     margin-bottom: 0;
                 }
             }
-        </style>
+            @media (max-width: 991px) {
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .nav-links.active {
+            display: flex;
+        }
+        .nav-links .btn {
+            margin-left: 0 !important;
+            margin-top: 15px;
+            width: 100%;
+            justify-content: center;
+        }
+        .hamburger {
+            display: block !important;
+            cursor: pointer;
+            font-size: 24px;
+        }
+    }
+    @media (min-width: 992px) {
+        .hamburger { display: none; }
+    }
+</style>
 
         <script>
             // Auto open popup after 10 seconds
             setTimeout(function () {
                 openWhatsAppPopup();
-            }, 40000);
+            }, 4);
+            const basePath = '<?php echo $basePath; ?>';
+
+            function toggleMenu() {
+                const nav = document.getElementById('navLinks');
+                nav.classList.toggle('active');
+            }
 
             // Open popup function
             function openWhatsAppPopup() {
                 document.getElementById('whatsappModal').classList.add('show');
                 document.getElementById('whatsappOverlay').classList.add('show');
-                document.body.style.overflow = 'hidden'; // Prevent background scroll
+                document.body.style.overflow = 'hidden';
             }
 
             // Close popup function
             function closeWhatsAppPopup() {
                 document.getElementById('whatsappModal').classList.remove('show');
                 document.getElementById('whatsappOverlay').classList.remove('show');
-                document.body.style.overflow = 'auto'; // Restore background scroll
+                document.body.style.overflow = 'auto';
             }
 
-            // Phone number validation
-            document.getElementById('userPhone').addEventListener('input', function (e) {
-                let value = e.target.value.replace(/\D/g, '');
-                if (value.length > 10) {
-                    value = value.substring(0, 10);
-                }
-                e.target.value = value;
-            });
+            // Lead form submission
+            if(document.getElementById('userPhone')) {
+                document.getElementById('userPhone').addEventListener('input', function (e) {
+                    let value = e.target.value.replace(/\D/g, '');
+                    if (value.length > 10) value = value.substring(0, 10);
+                    e.target.value = value;
+                });
+            }
 
-            // Handle form submission
             function submitWhatsAppLead(event) {
                 event.preventDefault();
-
                 const name = document.getElementById('userName').value.trim();
                 const phone = document.getElementById('userPhone').value.trim();
                 const submitBtn = document.getElementById('submitButton');
 
-                // Validation
-                if (!name || !phone) {
-                    alert('Please fill in all required fields');
+                if (!name || !phone || !/^[0-9]{10}$/.test(phone)) {
+                    alert('Please enter a valid name and 10-digit phone number');
                     return;
                 }
 
-                if (!/^[0-9]{10}$/.test(phone)) {
-                    alert('Please enter a valid 10-digit phone number');
-                    return;
-                }
-
-                // Show loading state
                 submitBtn.disabled = true;
                 submitBtn.innerHTML = '<div class="spinner"></div>Sending...';
 
-                // Create form data
                 const formData = new FormData();
                 formData.append('name', name);
                 formData.append('phone', phone);
                 formData.append('action', 'whatsapp_lead');
 
-                // Send data to PHP handler
-                fetch('whatsapp_handler', {
+                fetch(basePath + 'whatsapp_handler.php', {
                     method: 'POST',
                     body: formData
                 })

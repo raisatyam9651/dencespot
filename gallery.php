@@ -29,7 +29,7 @@
     </section>
 
     <!-- Gallery Filter -->
-    <div class="bg-white py-8 border-b border-gray-100 sticky top-[73px] z-40 shadow-sm">
+    <div class="bg-white py-8 border-b border-gray-100 md:sticky top-[73px] z-40 shadow-sm">
         <div class="container mx-auto px-6">
             <div class="flex flex-wrap justify-center gap-4" id="filterContainer">
                 <button class="filter-btn active px-6 py-2 rounded-full border border-gray-200 text-sm font-bold transition-all hover:bg-bgLight" data-filter="all">All Results</button>

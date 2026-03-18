@@ -10,11 +10,13 @@ RewriteEngine On
 
 
 # Remove .php extension
+RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # Force remove .php if user accesses directly
+RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L,NE]
 
@@ -27,3 +29,4 @@ Redirect 301 '/contact-us/' 'https://www.dencespot.in/contact'
 Redirect 301 '/face-and-skin-treatment/' 'https://www.dencespot.in/skin-treatment-in-gurgaon'
 Redirect 301 '/about-us/' 'https://www.dencespot.in/about-us'
 Redirect 301 '/privacy-policy/' 'https://www.dencespot.in/'
+Redirect 301 '/beard-transplant-in-gurgaon/' 'https://www.dencespot.in/beard-transplant-gurgaon
