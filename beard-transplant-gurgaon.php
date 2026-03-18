@@ -6,11 +6,7 @@
     <title>Beard Transplant in Gurgaon | Natural Beard Hair Restoration | Dencespot</title>
     <meta name="description" content="Best beard transplant in Gurgaon at Dencespot Clinic. Advanced FUE beard hair restoration for patchy beards. Affordable cost, natural results by expert doctors.">
     <meta name="keywords" content="Beard Transplant in Gurgaon, Beard Hair Transplant Gurgaon, Beard Transplant Cost in Gurgaon, FUE Beard Transplant Gurgaon, Beard Hair Restoration Gurgaon, Patchy Beard Treatment Gurgaon">
-    
-    <title>Beard Transplant in Gurgaon | Natural Beard Hair Restoration | Dencespot</title>
-    <meta name="description" content="Best beard transplant in Gurgaon at Dencespot Clinic. Advanced FUE beard hair restoration for patchy beards. Affordable cost, natural results by expert doctors.">
-    <meta name="keywords" content="Beard Transplant in Gurgaon, Beard Hair Transplant Gurgaon, Beard Transplant Cost in Gurgaon, FUE Beard Transplant Gurgaon, Beard Hair Restoration Gurgaon, Patchy Beard Treatment Gurgaon">
-    <link rel="canonical" href="https://www.dencespot.in/beard-transplant-gurgaon" />
+    <link rel="canonical" href="https://www.dencespot.com/beard-transplant-gurgaon" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
