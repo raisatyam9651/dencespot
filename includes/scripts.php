@@ -6,25 +6,21 @@
     <!-- Swiper.js & Logic -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        // Header Scroll Effect
-        window.addEventListener('scroll', () => {
-            const header = document.getElementById('mainHeader');
-            if (header) {
-                if (window.scrollY > 20) {
-                    header.classList.add('shadow-xl', 'py-2');
-                    header.classList.remove('py-4');
-                } else {
-                    header.classList.remove('shadow-xl', 'py-2');
-                    header.classList.add('py-4');
-                }
-            }
-        });
+        // Header Scroll Effect — single consolidated listener (header.php defers to this)
+        const _mainHeader = document.getElementById('mainHeader');
+        if (_mainHeader) {
+            window.addEventListener('scroll', function() {
+                const scrolled = window.scrollY > 20;
+                _mainHeader.classList.toggle('shadow-lg', scrolled);
+            }, { passive: true });
+        }
 
-        // Result Swiper
-        const resultSwiper = new Swiper('.resultSwiper', {
-            slidesPerView: 1,
-            spaceBetween: 20,
+        // Result Swiper — 1.2 cards on mobile for "peek" swipeable effect
+        const resultSwiper = document.querySelector('.resultSwiper') && new Swiper('.resultSwiper', {
+            slidesPerView: 1.15,
+            spaceBetween: 16,
             loop: true,
+            centeredSlides: false,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -34,17 +30,14 @@
                 prevEl: '.result-prev',
             },
             breakpoints: {
-                768: {
-                    slidesPerView: 2,
-                },
-                1024: {
-                    slidesPerView: 3,
-                }
+                640: { slidesPerView: 1.5, spaceBetween: 20 },
+                768: { slidesPerView: 2,   spaceBetween: 20 },
+                1024: { slidesPerView: 3,  spaceBetween: 24 }
             }
         });
 
         // Testimonial Swiper
-        const testimonialSwiper = new Swiper('.testimonialSwiper', {
+        const testimonialSwiper = document.querySelector('.testimonialSwiper') && new Swiper('.testimonialSwiper', {
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
@@ -90,6 +83,23 @@
         }
         
         // Mobile Menu Toggle - handled via onclick in header.php
+
+        // ===== ANTIGRAVITY: Float-in on scroll =====
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            const floatObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('ag-visible');
+                        floatObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            document.querySelectorAll('.ag-float').forEach(el => floatObserver.observe(el));
+        } else {
+            // Reduced motion: show immediately
+            document.querySelectorAll('.ag-float').forEach(el => el.classList.add('ag-visible'));
+        }
+
     </script>
 
 </body>

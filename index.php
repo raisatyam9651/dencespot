@@ -82,119 +82,211 @@
     <!-- Header -->
         <?php include "includes/header.php"; ?>
 
-    <!-- Hero Section -->
-    <section class="relative min-h-[90vh] flex items-center pt-24 pb-[20px] overflow-hidden bg-bgLight">
-        <div class="absolute inset-0 skin-pattern opacity-40"></div>
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-medicalTeal/5 -skew-x-12 transform translate-x-20 hidden lg:block"></div>
-        
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-20 items-center">
-                
-                <div class="animate__animated animate__fadeInLeft">
-                    <div class="inline-flex items-center gap-3 bg-white px-5 py-2 rounded-full shadow-sm mb-8 border border-gray-100">
-                        <div class="flex text-softGold text-xs">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-darkSlate">Elite Dermatology & Hair Restoration</span>
+    <!-- Hero Section — Antigravity Mobile-First -->
+    <section class="relative bg-gradient-to-br from-darkSlate via-[#0d2233] to-[#083a38] text-white overflow-hidden" style="padding-top: 60px;">
+        <div class="absolute inset-0 skin-pattern" style="opacity:0.04;"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 rounded-full blur-3xl" style="background:rgba(14,165,164,0.12); transform:translate(40%,-30%);"></div>
+        <div class="absolute bottom-0 left-0 w-48 h-48 rounded-full blur-3xl" style="background:rgba(245,158,11,0.07); transform:translate(-30%,30%);"></div>
+
+        <div class="container mx-auto px-4 relative z-10 pt-6 pb-8 lg:py-24">
+
+            <!-- Mobile: side-by-side flex | Desktop: 2-col grid -->
+            <div class="flex items-center justify-between gap-4 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center">
+
+                <!-- Content -->
+                <div class="flex-1 min-w-0">
+                    <!-- Rating pill -->
+                    <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full mb-4 text-xs font-semibold">
+                        <span class="flex gap-0.5 text-yellow-400 text-[11px]">★★★★★</span>
+                        <span class="text-white/80">4.8 · Elite Dermatology</span>
                     </div>
-                    
-                    <h1 class="text-5xl lg:text-7xl font-display font-bold leading-[1.1] mb-8 text-darkSlate">
-                        Best Hair Transplant <br> 
-                        <span class="text-medicalTeal italic font-light">& Skin Specialist</span> <br>
-                        <span class="text-xl font-medium tracking-[0.2em] uppercase text-gray-300 block mt-4">Gurgaon's Premier Center</span>
+
+                    <h1 class="font-display font-extrabold leading-[1.18] mb-3 text-white"
+                        style="font-size: clamp(26px, 7vw, 68px);">
+                        Best Hair Transplant<br>
+                        <span class="text-medicalTeal italic font-light">&amp; Skin Clinic</span><br>
+                        <span class="font-medium tracking-[0.15em] uppercase block mt-1 lg:mt-3"
+                              style="font-size: clamp(11px, 2.5vw, 20px); color: rgba(255,255,255,0.3);">
+                            Gurgaon's Premier Center
+                        </span>
                     </h1>
-                    
-                    <p class="text-xl text-gray-500 mb-[30px] max-w-lg leading-relaxed font-light">
-                        Experience medical artistry with precision restoration techniques and advanced clinical skin care protocols.
+
+                    <p class="text-white/60 leading-relaxed font-light mb-5 hidden sm:block"
+                       style="font-size: clamp(13px, 2.2vw, 18px); max-width: 480px;">
+                        Precision FUE/DHT hair restoration &amp; advanced clinical skincare by Dr. Nyra — trained in Germany.
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-5 mb-[30px]">
-                        <a href="contact.php" class="bg-darkSlate text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-medicalTeal transition-all shadow-2xl hover:-translate-y-1 text-center flex items-center justify-center gap-3">
-                            Book Consultant <i class="fas fa-calendar-alt text-sm"></i>
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row gap-3 lg:gap-5">
+                        <a href="contact.php" class="ag-btn bg-medicalTeal text-white rounded-2xl font-bold text-center flex items-center justify-center gap-2 shadow-xl"
+                           style="padding: 15px 22px; font-size: clamp(13px, 3vw, 17px); box-shadow: 0 12px 32px rgba(14,165,164,0.35);">
+                            Book Free Consultation <i class="fas fa-calendar-alt text-xs"></i>
                         </a>
-                        <a href="gallery.php" class="bg-white text-darkSlate border border-gray-200 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-bgLight transition-all shadow-lg text-center">
-                            View Transformations
+                        <a href="gallery.php" class="ag-btn border border-white/30 text-white rounded-2xl font-bold text-center hidden sm:flex items-center justify-center gap-2 hover:bg-white/10 transition-colors"
+                           style="padding: 15px 22px; font-size: clamp(13px, 3vw, 17px);">
+                            See Results <i class="fas fa-arrow-right text-xs"></i>
                         </a>
-                    </div>
-
-                    <div class="flex items-center gap-8 border-t border-gray-100 pt-10">
-                        <div>
-                            <span class="block text-2xl font-bold text-medicalTeal">5k+</span>
-                            <span class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Success Stories</span>
-                        </div>
-                        <div class="w-px h-10 bg-gray-100"></div>
-                        <div>
-                            <span class="block text-2xl font-bold text-medicalTeal">10+</span>
-                            <span class="text-[10px] uppercase font-bold text-gray-400 tracking-widest">Year Excellence</span>
-                        </div>
-                        <div class="w-px h-10 bg-gray-100"></div>
-                        <div class="flex -space-x-3">
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-ht-result-1.png" alt="Hair Transplant Result Avatar" class="w-full h-full object-cover" loading="lazy"></div>
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden"><img src="assets/images/indian-beard-result-1.png" alt="Beard Transplant Result Avatar" class="w-full h-full object-cover" loading="lazy"></div>
-                            <div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden flex items-center justify-center bg-medicalTeal text-white text-[10px] font-bold">+</div>
-                        </div>
                     </div>
                 </div>
 
-                <div class="relative animate__animated animate__fadeInRight lg:pl-10">
-                    <div class="relative z-20">
-                        <div class="absolute -top-10 -left-10 w-40 h-40 bg-softGold/10 rounded-full blur-3xl"></div>
-                        <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-medicalTeal/10 rounded-full blur-3xl"></div>
-                        
-                        <div class="relative rounded-[3rem] overflow-hidden border-[12px] border-white shadow-[0_50px_100px_-15px_rgba(0,0,0,0.1)]">
-                            <img src="assets/images/Dr-nayra.jpg" alt="Dr. Nayra - Expert Specialist" class="w-full transform hover:scale-105 transition-transform duration-[2s]" loading="lazy">
+                <!-- Doctor Image -->
+                <div class="relative shrink-0" style="width: clamp(130px, 43%, 220px);">
+                    <div class="relative overflow-hidden border-4 border-white/20 shadow-2xl"
+                         style="border-radius: clamp(20px, 5vw, 48px);">
+                        <img src="assets/images/Dr-nayra.jpg"
+                             alt="Dr. Nyra — Owner &amp; Chief Consultant, DenceSpot Clinic"
+                             class="w-full object-cover object-top hover:scale-105 transition-transform duration-[2s]"
+                             loading="eager" width="400" height="520">
+                        <div class="absolute inset-0 bg-gradient-to-t from-darkSlate/50 to-transparent"></div>
+                    </div>
+                    <!-- 98% Success floating badge -->
+                    <div class="absolute bg-white text-darkSlate flex items-center shadow-2xl"
+                         style="bottom: -10px; left: -12px; padding: clamp(8px,2vw,20px) clamp(10px,2.5vw,24px); border-radius: clamp(12px,3vw,24px); gap: clamp(6px,1.5vw,14px);">
+                        <div class="bg-medicalTeal text-white rounded-full flex items-center justify-center shadow-lg"
+                             style="width:clamp(28px,6vw,52px); height:clamp(28px,6vw,52px); font-size:clamp(12px,2.5vw,20px);">
+                            <i class="fas fa-award"></i>
                         </div>
-                        
-                        <!-- Floating Achievement -->
-                        <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-[2rem] shadow-2xl border border-gray-50 flex items-center gap-4 animate__animated animate__pulse animate__infinite">
-                            <div class="w-14 h-14 bg-medicalTeal text-white rounded-full flex items-center justify-center text-xl shadow-lg shadow-teal-200">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <div>
-                                <p class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Verified Result</p>
-                                <p class="text-sm font-bold text-darkSlate italic">98% Success Rate</p>
-                            </div>
+                        <div>
+                            <p class="font-bold uppercase tracking-widest text-gray-400" style="font-size: clamp(8px,1.5vw,10px);">Verified</p>
+                            <p class="font-extrabold text-darkSlate" style="font-size: clamp(11px,2.2vw,15px);">98% Success</p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Trust stat badges row -->
+            <div class="flex items-center gap-4 mt-7 overflow-x-auto scrollbar-hide pb-1 border-t border-white/10 pt-5">
+                <div class="trust-stat-badge shrink-0">
+                    <span class="font-bold text-medicalTeal" style="font-size:clamp(14px,3.5vw,26px);">5k+</span>
+                    <span class="text-white/40 font-bold uppercase tracking-wider" style="font-size:10px;">Patients</span>
+                </div>
+                <div class="w-px h-8 bg-white/10 shrink-0"></div>
+                <div class="trust-stat-badge shrink-0">
+                    <span class="font-bold text-medicalTeal" style="font-size:clamp(14px,3.5vw,26px);">10+ Yrs</span>
+                    <span class="text-white/40 font-bold uppercase tracking-wider" style="font-size:10px;">Experience</span>
+                </div>
+                <div class="w-px h-8 bg-white/10 shrink-0"></div>
+                <div class="trust-stat-badge shrink-0">
+                    <span class="font-bold text-medicalTeal" style="font-size:clamp(14px,3.5vw,26px);">4.8 ⭐</span>
+                    <span class="text-white/40 font-bold uppercase tracking-wider" style="font-size:10px;">Google Rating</span>
+                </div>
+                <div class="w-px h-8 bg-white/10 shrink-0"></div>
+                <div class="trust-stat-badge shrink-0">
+                    <span class="font-bold text-medicalTeal" style="font-size:clamp(14px,3.5vw,26px);">FUE/DHT</span>
+                    <span class="text-white/40 font-bold uppercase tracking-wider" style="font-size:10px;">Technology</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trust Bar -->
-    <div class="bg-darkSlate py-10 relative z-20 -mt-2 shadow-2xl">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                <div class="border-r border-gray-800 last:border-0">
-                    <span class="block text-3xl font-display font-bold text-medicalTeal mb-[10px]">10+ Years</span>
-                    <span class="text-gray-500 text-xs uppercase tracking-widest">Experience</span>
-                </div>
-                <div class="border-r border-gray-800 last:border-0 text-center">
-                    <span class="block text-3xl font-display font-bold text-medicalTeal mb-[10px]">5000+</span>
-                    <span class="text-gray-500 text-xs uppercase tracking-widest">Happy Patients</span>
-                </div>
-                <div class="border-r border-gray-800 last:border-0 text-center">
-                    <span class="block text-3xl font-display font-bold text-medicalTeal mb-[10px]">4.8 ⭐</span>
-                    <span class="text-gray-500 text-xs uppercase tracking-widest">Google Rating</span>
-                </div>
-                <div class="text-center">
-                    <span class="block text-3xl font-display font-bold text-medicalTeal mb-[10px]">FUE/DHT</span>
-                    <span class="text-gray-500 text-xs uppercase tracking-widest">Advanced Tech</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Treatments Section -->
     <section id="treatments" class="py-[35px] bg-white">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-[30px]">
-                <h2 class="text-4xl font-display font-bold mb-4">Clinical <span class="text-medicalTeal">Specializations</span></h2>
-                <div class="w-20 h-1 bg-softGold mx-auto rounded-full mb-6"></div>
-                <p class="text-gray-500 max-w-2xl mx-auto">Globally recognized protocols for skin rejuvenation and hair restoration.</p>
+        <div class="container mx-auto px-4 lg:px-6">
+
+            <!-- Section Header -->
+            <div class="flex items-end justify-between mb-6 lg:mb-[30px]">
+                <div>
+                    <h2 class="text-2xl lg:text-4xl font-display font-bold">Clinical <span class="text-medicalTeal">Specializations</span></h2>
+                    <div class="w-16 h-1 bg-softGold rounded-full mt-3 hidden lg:block"></div>
+                </div>
+                <p class="text-gray-400 text-sm hidden lg:block max-w-xs text-right">Globally recognized protocols for skin &amp; hair.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- MOBILE: Two horizontal carousels -->
+            <div class="lg:hidden space-y-7 ag-float">
+
+                <!-- Hair Carousel -->
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-[15px] font-bold text-darkSlate flex items-center gap-2">
+                            <i class="fas fa-spa text-medicalTeal text-sm"></i> Hair Treatments
+                        </h3>
+                        <a href="hair-transplant-in-gurgaon.php" class="text-medicalTeal text-xs font-bold">View All →</a>
+                    </div>
+                    <div class="treatment-carousel">
+                        <a href="hair-transplant-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                            <span class="tc-name">Hair Transplant</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="beard-transplant-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <span class="tc-name">Beard Transplant</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="hair-prp-treatment-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-syringe"></i></div>
+                            <span class="tc-name">Hair PRP</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="hair-microneedling-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-table-cells"></i></div>
+                            <span class="tc-name">Microneedling</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="hair-led-therapy-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <span class="tc-name">LED Therapy</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="dandruff-treatment-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                            <span class="tc-name">Dandruff Treatment</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Skin Carousel -->
+                <div>
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-[15px] font-bold text-darkSlate flex items-center gap-2">
+                            <i class="fas fa-sun text-medicalTeal text-sm"></i> Skin Treatments
+                        </h3>
+                        <a href="skin-treatment-in-gurgaon.php" class="text-medicalTeal text-xs font-bold">View All →</a>
+                    </div>
+                    <div class="treatment-carousel">
+                        <a href="hydrafacial-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-spa"></i></div>
+                            <span class="tc-name">HydraFacial</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="carbon-facial-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fas fa-face-mask"></i></div>
+                            <span class="tc-name">Carbon Facial</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="botox-treatment-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fas fa-face-smile"></i></div>
+                            <span class="tc-name">Botox Treatment</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="laser-hair-removal-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                            <span class="tc-name">Laser Hair Removal</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="chemical-peel-treatment-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fas fa-flask-vial"></i></div>
+                            <span class="tc-name">Chemical Peel</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="face-prp-treatment-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fas fa-heart-pulse"></i></div>
+                            <span class="tc-name">Face PRP</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                        <a href="tattoo-removal-in-gurgaon.php" class="tc-card">
+                            <div class="tc-icon"><i class="fas fa-eraser"></i></div>
+                            <span class="tc-name">Tattoo Removal</span>
+                            <span class="tc-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DESKTOP: original card grid -->
+            <div class="hidden lg:grid lg:grid-cols-4 gap-8">
                 <!-- Hair Transplant -->
                 <div class="treatment-card p-10 rounded-3xl bg-bgLight border border-gray-100 transition-all duration-500 flex flex-col items-center text-center">
                     <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-3xl shadow-sm mb-6">
@@ -349,10 +441,12 @@
                     <a href="#" class="text-medicalTeal font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all">Learn More <i class="fas fa-arrow-right text-xs"></i></a>
                 </div>
             </div>
+            <!-- /DESKTOP grid -->
 
-            <div class="mt-16 text-center">
+            <!-- Desktop: View All button -->
+            <div class="mt-16 text-center hidden lg:block">
                 <button id="viewAllBtn" class="bg-softGold text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl flex items-center gap-2 mx-auto group">
-                    View All Treatments 
+                    View All Treatments
                     <i class="fas fa-chevron-down group-hover:translate-y-1 transition-transform"></i>
                 </button>
             </div>
@@ -361,8 +455,25 @@
 
     <!-- Skin & Hair Concerns -->
     <section class="py-[35px] bg-darkSlate text-white">
-        <div class="container mx-auto px-6">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div class="container mx-auto px-4 lg:px-6">
+
+            <!-- MOBILE: Horizontal chip row -->
+            <div class="lg:hidden">
+                <h2 class="text-xl font-display font-bold mb-1">Common <span class="text-medicalTeal">Concerns</span></h2>
+                <p class="text-gray-400 text-sm mb-4">Tap to find your treatment</p>
+                <div class="concern-chips">
+                    <a href="hair-transplant-in-gurgaon.php" class="concern-chip"><i class="fas fa-head-side-blank"></i> Hair Loss</a>
+                    <a href="skin-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-face-frown"></i> Acne Scarring</a>
+                    <a href="chemical-peel-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-sun"></i> Pigmentation</a>
+                    <a href="botox-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-user-clock"></i> Fine Lines</a>
+                    <a href="mole-wart-removal-in-gurgaon.php" class="concern-chip"><i class="fas fa-circle-xmark"></i> Mole Removal</a>
+                    <a href="tattoo-removal-in-gurgaon.php" class="concern-chip"><i class="fas fa-eraser"></i> Tattoo Removal</a>
+                    <a href="dandruff-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-hand-sparkles"></i> Dandruff</a>
+                </div>
+            </div>
+
+            <!-- DESKTOP: Original 2-column grid layout -->
+            <div class="hidden lg:grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class="text-4xl font-display font-bold mb-6">Common <span class="text-medicalTeal">Concerns</span></h2>
                     <p class="text-gray-400 mb-[30px]">We treat a wide range of dermatological conditions with proven medical science.</p>
@@ -386,7 +497,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="assets/images/patient.png" alt="Treatment Care" class="rounded-[3rem] shadow-2xl opacity-80">
+                    <img src="assets/images/patient.png" alt="Treatment Care" class="rounded-[3rem] shadow-2xl opacity-80" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-darkSlate via-transparent to-transparent rounded-[3rem]"></div>
                 </div>
             </div>
@@ -696,8 +807,47 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-[35px] bg-darkSlate text-white">
-        <div class="container mx-auto px-6">
-            <div class="grid lg:grid-cols-2 gap-20">
+        <div class="container mx-auto px-4 lg:px-6">
+
+            <!-- MOBILE: Quick-action contact hub -->
+            <div class="lg:hidden mb-8">
+                <h2 class="text-2xl font-display font-bold mb-1">Book Your <span class="text-medicalTeal">Consultation</span></h2>
+                <p class="text-gray-400 text-sm mb-5">Choose how you'd like to reach us</p>
+                <div class="space-y-3">
+                    <a href="#contact-form" class="quick-contact-card bg-medicalTeal text-white">
+                        <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <p class="font-bold">Book Appointment</p>
+                            <p class="text-sm opacity-75">Fill the quick form below</p>
+                        </div>
+                        <i class="fas fa-chevron-right ml-auto opacity-70 shrink-0"></i>
+                    </a>
+                    <a href="tel:+918178330800" class="quick-contact-card text-white" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center text-xl shrink-0 text-medicalTeal" style="background: rgba(14,165,164,0.15);">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <p class="font-bold">Call Now</p>
+                            <p class="text-sm opacity-60">+91 8178330800</p>
+                        </div>
+                        <i class="fas fa-chevron-right ml-auto opacity-50 shrink-0"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B918178330800&text=Hi+I+want+to+book+a+consultation" target="_blank" rel="noopener" class="quick-contact-card bg-[#25D366] text-white">
+                        <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center text-xl shrink-0">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <p class="font-bold">Chat on WhatsApp</p>
+                            <p class="text-sm opacity-80">Quick response guaranteed</p>
+                        </div>
+                        <i class="fas fa-chevron-right ml-auto opacity-70 shrink-0"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="contact-form" class="grid lg:grid-cols-2 gap-20">
                 <div class="animate__animated animate__fadeInUp">
                     <h2 class="text-5xl font-display font-bold mb-8 leading-tight">Start Your <br> <span class="text-medicalTeal">Success Story</span> Today</h2>
                     <p class="text-gray-400 mb-[30px] text-lg">Visit our premium Gurgaon clinic for a private consultation with our board-certified experts.</p>
@@ -722,15 +872,22 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-12 rounded-[4rem] text-darkSlate shadow-3xl animate__animated animate__fadeInUp animate__delay-1s">
-                    <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
-                    <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
-                    
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
-                        <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
+                <div class="bg-white p-8 lg:p-12 rounded-[2.5rem] lg:rounded-[4rem] text-darkSlate shadow-2xl">
+                    <h3 class="text-2xl lg:text-3xl font-display font-bold mb-2">Book Appointment</h3>
+                    <p class="text-gray-400 mb-6 text-sm">Professional advice tailored to your needs.</p>
+
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Full Name" required
+                               class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
+                               style="padding: 16px 20px; font-size: 16px; min-height: 56px;">
+                        <input type="tel" placeholder="Contact Number" required
+                               class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
+                               style="padding: 16px 20px; font-size: 16px; min-height: 56px;">
+                        <textarea placeholder="Tell us about your requirements..." rows="3" required
+                                  class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
+                                  style="padding: 16px 20px; font-size: 16px; min-height: 120px; resize: none;"></textarea>
+                        <button class="ag-btn w-full bg-medicalTeal text-white rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl flex items-center justify-center gap-3 group"
+                                style="padding: 18px; min-height: 56px;">
                             Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                         </button>
                     </form>
