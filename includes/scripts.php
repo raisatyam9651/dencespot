@@ -85,6 +85,20 @@
         
         // Mobile Menu Toggle - handled via onclick in header.php
 
+        // Blog Swiper
+        const blogSwiper = document.querySelector('.blogSwiper') && new Swiper('.blogSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 16,
+            loop: true,
+            navigation: {
+                nextEl: '.blog-next',
+                prevEl: '.blog-prev',
+            },
+            breakpoints: {
+                768: { slidesPerView: 3, spaceBetween: 24 }
+            }
+        });
+
         // ===== ANTIGRAVITY: Float-in on scroll =====
         if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
             const floatObserver = new IntersectionObserver((entries) => {
