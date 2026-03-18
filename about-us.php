@@ -6,25 +6,29 @@
     <title>About Dencespot Clinic | Dencespot Clinic Gurgaon</title>
     <meta name="description" content="Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.">
     <meta name="keywords" content="About Dencespot, Best Hair Clinic Gurgaon, Dencespot Clinic Story">
-    
-    <title>About Dencespot Clinic | Dencespot Clinic Gurgaon</title>
-    <meta name="description" content="Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.">
-    <meta name="keywords" content="About Dencespot, Best Hair Clinic Gurgaon, Dencespot Clinic Story">
-    <link rel="canonical" href="https://www.dencespot.in/about-us" />
+    <link rel="canonical" href="https://dencespot.com/about-us" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
     <meta name="ICBM" content="28.439832, 77.043748" />
 
     <?php include "includes/head_links.php"; ?>
+
+    <!-- AboutPage Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "AboutPage",
+      "name": "About Dencespot Clinic",
+      "description": "Learn about Gurgaon's leading hair restoration and skin care center. Our mission, technology, and expert team.",
+      "url": "https://dencespot.com/about-us",
       "mainEntity": {
-        "@type": "MedicalClinic",
+        "@type": "MedicalOrganization",
         "name": "Dencespot Clinic",
-        "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+        "url": "https://dencespot.com",
+        "image": "https://dencespot.com/assets/images/Dr-nayra-second.jpg",
+        "telephone": "+91-8178330800",
+        "medicalSpecialty": ["Dermatology", "Hair Restoration"],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "C Block, Sector 39",
@@ -32,8 +36,31 @@
           "addressRegion": "Haryana",
           "postalCode": "122003",
           "addressCountry": "IN"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Dr. Nyra"
         }
       }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us",
+        "item": "https://dencespot.com/about-us"
+      }]
     }
     </script>
 

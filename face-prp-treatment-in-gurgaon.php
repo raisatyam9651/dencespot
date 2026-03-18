@@ -6,11 +6,98 @@
     <title>Face PRP Treatment in Gurgaon | Vampire Facial Clinic | Dencespot</title>
     <meta name="description" content="Best Face PRP in Gurgaon (Vampire Facial). Harness your body's natural growth factors to heal acne scars, smooth wrinkles, and achieve a radiant glow.">
     <meta name="keywords" content="Face PRP Gurgaon, Vampire Facial Cost, PRP Skin Rejuvenation, Acne Scar Treatment Gurgaon, Anti-Aging PRP">
-    
-    <title>Face PRP Treatment in Gurgaon | Vampire Facial Clinic | Dencespot</title>
-    <meta name="description" content="Best Face PRP in Gurgaon (Vampire Facial). Harness your body's natural growth factors to heal acne scars, smooth wrinkles, and achieve a radiant glow.">
-    <meta name="keywords" content="Face PRP Gurgaon, Vampire Facial Cost, PRP Skin Rejuvenation, Acne Scar Treatment Gurgaon, Anti-Aging PRP">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Face PRP Treatment in Gurgaon",
+      "description": "Best Face PRP in Gurgaon (Vampire Facial). Harness your body's natural growth factors to heal acne scars, smooth wrinkles, and achieve a radiant glow.",
+      "image": "https://dencespot.com/assets/images/face_prp_indian_ba_1773724702450.png",
+      "url": "https://dencespot.com/face-prp-treatment-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Face PRP Treatment in Gurgaon",
+        "item": "https://dencespot.com/face-prp-treatment-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does the Vampire Facial hurt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We apply a highly effective prescription-strength numbing cream 45 minutes prior to the procedure. Most patients rate the discomfort as minimal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my face look bloody afterward?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Despite its nickname, your face will not be covered in blood. You will appear as though you have a moderate sunburn. The redness typically subsides within 24 to 48 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many sessions do I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For general skin glowing and anti-aging, 3 sessions spaced 4 weeks apart are recommended. For treating deep acne scars, you may need 4 to 6 sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see the results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You will notice an initial glow within 3-4 days. True collagen production takes time. The most dramatic improvements become visible after 2 to 3 months."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

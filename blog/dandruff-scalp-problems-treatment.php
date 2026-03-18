@@ -4,6 +4,12 @@ $pageDesc = 'Struggling with flakes or an itchy scalp? Learn about the causes of
 $pageKeywords = 'dandruff treatment, scalp problems solutions, itchy scalp relief, causes of dandruff, seborrheic dermatitis treatment, scalp health guide';
 $pageCanonical = 'https://dencespot.com/blog/dandruff-scalp-problems-treatment.php';
 $currentPage = 'blog';
+$pageImage = 'images/blog/dandruff-scalp-problems-featured.png';
+$pageDate = '2026-03-11';
+$pageFAQs = [
+    ['q' => 'Is dandruff caused by a dry scalp?', 'a' => 'Not necessarily. True dandruff is often caused by fungus feeding on excess oil. People with oily scalps are more prone.'],
+    ['q' => 'How often should I use dandruff shampoo?', 'a' => 'Initially 2-3 times per week. Once under control, reduce to once a week for maintenance.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

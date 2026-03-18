@@ -4,6 +4,15 @@ $pageDesc = 'Learn what makes the ideal hair transplant candidate — donor dens
 $pageKeywords = 'ideal hair transplant candidate, hair transplant age requirement, donor area density, Norwood scale, hair transplant health criteria, hair restoration Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/ideal-candidate-hair-transplant-age-hair-loss-health.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/indian-ht-result-1.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'What is the ideal age range for a hair transplant?', 'a' => 'Most surgeons consider the 25-60 age range optimal. Below 25, hair loss is often still progressing. Above 60, surgery remains viable provided general health is good.'],
+    ['q' => 'How is donor area density measured and what is a good level?', 'a' => 'Donor density is measured using a trichoscope during consultation, counting follicular units per square centimetre. A density of 70-90 FU/cm squared is considered good.'],
+    ['q' => 'Does my Norwood stage determine whether I can have a transplant?', 'a' => 'Norwood stage is a significant factor but not the sole determinant. Patients at Norwood III-V tend to achieve the most balanced results, but VI and VII patients can still benefit from targeted restoration.'],
+    ['q' => 'Which blood tests are required before a hair transplant?', 'a' => 'A standard pre-operative panel includes CBC, blood glucose, HbA1c, clotting profile, thyroid function, serum ferritin, vitamin D, and infection screening.'],
+    ['q' => 'Can I improve my candidacy before surgery?', 'a' => 'Absolutely. Many patients undergo a 3-6 month preparatory phase including PRP therapy, scalp treatment, correction of nutritional deficiencies, and smoking cessation.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

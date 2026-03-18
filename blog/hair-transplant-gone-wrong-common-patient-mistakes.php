@@ -4,6 +4,15 @@ $pageDesc = 'Avoid the most damaging hair transplant mistakes — from choosing 
 $pageKeywords = 'hair transplant mistakes, hair transplant gone wrong, bad hair transplant, post op hair care, choosing hair transplant clinic, hair restoration errors gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-gone-wrong-common-patient-mistakes.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht_success_real_1.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'Can a bad hair transplant be corrected?', 'a' => 'In many cases, yes — but corrective work is significantly more difficult than a well-planned primary procedure. If grafts were placed at incorrect angles, the surgeon must re-implant or surgically remove them.'],
+    ['q' => 'How soon after surgery can I exercise?', 'a' => 'Light walking is acceptable from day three or four. Moderate exercise should be avoided for at least two weeks. High-intensity training should be avoided for a minimum of four weeks.'],
+    ['q' => 'Does alcohol really affect hair transplant results?', 'a' => 'Yes, significantly. Alcohol thins the blood, increases bleeding, can dislodge grafts, and suppresses immune function during the critical healing period.'],
+    ['q' => 'What questions should I ask at a hair transplant consultation?', 'a' => 'Key questions include: What technique do you recommend? Who specifically will perform the procedure? What is a realistic graft count? Can I see before-and-after photos of similar cases? What does your post-operative care include?'],
+    ['q' => 'How long should I wait to see the final result after a hair transplant?', 'a' => 'Transplanted grafts typically shed between weeks two and five. New growth begins around months three to four. Density continues improving until twelve to eighteen months post-surgery.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

@@ -6,11 +6,98 @@
     <title>Hair Microneedling in Gurgaon | Dermaroller Scalp Therapy</title>
     <meta name="description" content="Best Hair Microneedling and Dermapen therapy in Gurgaon. Clinically proven to stimulate hair follicles, boost blood flow, and enhance Minoxidil absorption.">
     <meta name="keywords" content="Hair Microneedling Gurgaon, Scalp Dermaroller, Dermapen Hair Loss, Micro-needling for hair regrowth, Scalp Microneedling">
-    
-    <title>Hair Microneedling in Gurgaon | Dermaroller Scalp Therapy</title>
-    <meta name="description" content="Best Hair Microneedling and Dermapen therapy in Gurgaon. Clinically proven to stimulate hair follicles, boost blood flow, and enhance Minoxidil absorption.">
-    <meta name="keywords" content="Hair Microneedling Gurgaon, Scalp Dermaroller, Dermapen Hair Loss, Micro-needling for hair regrowth, Scalp Microneedling">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Hair Microneedling in Gurgaon",
+      "description": "Best Hair Microneedling and Dermapen therapy in Gurgaon. Clinically proven to stimulate hair follicles, boost blood flow, and enhance Minoxidil absorption.",
+      "image": "https://dencespot.com/assets/images/hair_micro_hero_real.png",
+      "url": "https://dencespot.com/hair-microneedling-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Hair Microneedling in Gurgaon",
+        "item": "https://dencespot.com/hair-microneedling-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is scalp microneedling painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We use clinical numbing agents and fast motorized dermapens, making the sensation manageable and relatively painless."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is using an at-home derma roller the same thing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Rolling cheap needles at an angle tears the skin. Clinical motorized pens stamp vertically, ensuring clean micro-wounds with zero scarring and high sterility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I get microneedling done?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For hair regrowth, clinical microneedling should only be done once every 2 to 4 weeks to allow enough time for the stem cells to complete the healing cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I wash my hair right after?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should wait at least 24 hours before washing your hair to allow the micro-channels to close."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

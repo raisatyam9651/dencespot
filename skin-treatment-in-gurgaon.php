@@ -6,11 +6,98 @@
     <title>Best Skin Clinic in Gurgaon | Top Dermatologist | Dencespot</title>
     <meta name="description" content="Looking for the best skin treatment in Gurgaon? Dencespot Clinic offers advanced dermatology, anti-aging, acne scar solutions, and clinical facials by expert doctors.">
     <meta name="keywords" content="Best Skin Clinic Gurgaon, Top Dermatologist Gurgaon, Skin Treatment Near Me, Acne Treatment Gurgaon, Anti-Aging Clinic">
-    
-    <title>Best Skin Clinic in Gurgaon | Top Dermatologist | Dencespot</title>
-    <meta name="description" content="Looking for the best skin treatment in Gurgaon? Dencespot Clinic offers advanced dermatology, anti-aging, acne scar solutions, and clinical facials by expert doctors.">
-    <meta name="keywords" content="Best Skin Clinic Gurgaon, Top Dermatologist Gurgaon, Skin Treatment Near Me, Acne Treatment Gurgaon, Anti-Aging Clinic">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Skin Treatment in Gurgaon",
+      "description": "Looking for the best skin treatment in Gurgaon? Dencespot Clinic offers advanced dermatology, anti-aging, acne scar solutions, and clinical facials by expert doctors.",
+      "image": "https://dencespot.com/assets/images/hydra_real.png",
+      "url": "https://dencespot.com/skin-treatment-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Skin Treatment in Gurgaon",
+        "item": "https://dencespot.com/skin-treatment-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between a salon facial and a clinical skin treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Salon facials rely on manual massage and topical creams that only affect the dead outer layer temporarily. Clinical treatments use medical devices and prescription-grade acids to physically alter cell turnover and stimulate deeper collagen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I see a dermatologist for acne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If over-the-counter face washes haven't worked after 4 weeks, or if you have deep painful cystic bumps, you need clinical intervention immediately to prevent permanent scarring."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are laser treatments safe for the face?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. When performed by trained medical professionals using FDA-approved technology calibrated for your specific skin type, dermatological lasers are incredibly safe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer treatments for aging skin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we are experts in anti-aging aesthetics. We offer Botox and fillers, collagen-inducing therapies like Face PRP and Laser Resurfacing."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

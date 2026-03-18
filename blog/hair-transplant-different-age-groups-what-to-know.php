@@ -4,6 +4,15 @@ $pageDesc = 'Learn how age affects hair transplant eligibility, donor area quali
 $pageKeywords = 'hair transplant age groups, hair transplant under 25, hair transplant 30s 40s, best age for hair transplant, hair transplant 50 plus, FUE age eligibility Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-different-age-groups-what-to-know.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht_gallery_extra_1.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'What is the minimum age for a hair transplant in India?', 'a' => 'There is no strict legal minimum, but most reputable clinics strongly advise against surgery before age 25 because the loss pattern is typically still progressing and unpredictable.'],
+    ['q' => 'Can a 55-year-old get a hair transplant with good results?', 'a' => 'Yes. Patients in their fifties often make ideal candidates because their loss pattern is fully established and predictable. As long as the donor zone has adequate density and health is reasonable, outcomes can be excellent.'],
+    ['q' => 'Does hair transplant success depend more on age or on donor quality?', 'a' => 'Both matter, but donor quality is arguably more critical. A 40-year-old with poor donor density may not be a good candidate, while a healthy 50-year-old with dense donor zone can achieve excellent results.'],
+    ['q' => 'Will I need multiple sessions as I age?', 'a' => 'Possibly. Even after a successful first session, continued native hair loss may require a second session to maintain overall density. This is why donor graft conservation in younger patients is so important.'],
+    ['q' => 'What should a young patient do instead of getting a transplant right away?', 'a' => 'Young patients are advised to stabilise their loss through medical management — typically minoxidil, finasteride, PRP therapy, and scalp health treatments like microneedling.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

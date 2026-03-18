@@ -4,6 +4,15 @@ $pageDesc = 'Expert guide on hair transplant safety for patients with diabetes o
 $pageKeywords = 'hair transplant diabetes, hair transplant high blood pressure, FUE surgery diabetic patient, HbA1c hair transplant, BP patients hair surgery, hair restoration medical conditions Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-diabetes-blood-pressure-patients.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht_hairline_real.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'What HbA1c level is safe for hair transplant surgery?', 'a' => 'At DenceSpot, we generally proceed when HbA1c is 7.5% or below. Levels between 7.5% and 8.5% are reviewed case-by-case. Levels above 8.5% are considered a deferral criterion.'],
+    ['q' => 'Do I need to stop my blood pressure medication before a hair transplant?', 'a' => 'In most cases, no — continue taking your antihypertensive medication as prescribed. Stopping BP medication can cause a rebound hypertensive spike that would be more problematic.'],
+    ['q' => 'Will my transplant results be worse because I have diabetes?', 'a' => 'With well-controlled diabetes, graft survival rates and results can be very close to those in non-diabetic patients. There may be a slightly longer healing timeline.'],
+    ['q' => 'Can I take aspirin regularly and still have a hair transplant?', 'a' => 'It depends on why you take aspirin. If for primary prevention, it may be paused 5-7 days before surgery. If for secondary cardiovascular prevention, it is typically continued with adjusted surgical technique.'],
+    ['q' => 'What non-surgical options are available while I work toward surgical clearance?', 'a' => 'PRP therapy, scalp microneedling, and LED hair therapy can improve scalp health and increase follicle density without the healing demands of surgery.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

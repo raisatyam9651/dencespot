@@ -4,6 +4,15 @@ $pageDesc = 'A complete step-by-step guide to what happens during hair transplan
 $pageKeywords = 'hair transplant procedure steps, what happens during hair transplant, FUE surgery experience, hair transplant day of, hair transplant gurgaon, DenceSpot';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-surgery-step-by-step-patient-experience.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/tech-procedure.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'Is hair transplant surgery painful?', 'a' => 'The procedure itself is not painful once local anaesthesia is in effect. The most uncomfortable moment is the anaesthesia injection phase, which lasts 1-2 minutes per zone.'],
+    ['q' => 'How long does a hair transplant procedure take from start to finish?', 'a' => 'Total procedure time varies based on the number of grafts. A session of 1,500 grafts typically takes 5-7 hours; a larger session of 2,500-3,500 grafts can take 8-10 hours.'],
+    ['q' => 'Can I eat and drink during the procedure?', 'a' => 'Yes. You will have scheduled breaks during the procedure. The clinic will provide or recommend food, and you can sip water throughout.'],
+    ['q' => 'When can I return to work after hair transplant surgery?', 'a' => 'Most patients with desk-based work can return within 3-5 days. If your work involves physical labour, a minimum of 2 weeks is recommended.'],
+    ['q' => 'What should I avoid in the days immediately after surgery?', 'a' => 'In the first 72 hours: avoid touching the transplanted area, sleeping face-down, strenuous activity, alcohol, smoking, direct sun exposure, and swimming. In the first two weeks: avoid gym workouts, saunas, and tight hats.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

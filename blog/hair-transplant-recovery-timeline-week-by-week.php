@@ -4,6 +4,15 @@ $pageDesc = 'A complete week-by-week hair transplant recovery guide. Learn what 
 $pageKeywords = 'hair transplant recovery, hair transplant healing timeline, post hair transplant care, shock loss after hair transplant, hair transplant week by week, hair regrowth timeline gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-recovery-timeline-week-by-week.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht-success-1.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'Is shock loss after a hair transplant permanent?', 'a' => 'No. Shock loss is a temporary shedding of the transplanted hair shafts. The follicles remain alive beneath the scalp. New hair regrows from the same follicles within three to five months.'],
+    ['q' => 'When can I return to the gym after a hair transplant?', 'a' => 'Light walking is generally safe from day five. Moderate exercise can resume at two weeks. High-intensity workouts and contact sports should wait until at least four weeks post-procedure.'],
+    ['q' => 'How should I sleep after a hair transplant?', 'a' => 'Sleep on your back with your head elevated at roughly 45 degrees for the first ten days. Use a travel pillow to prevent pressure on the recipient area. Avoid sleeping face-down for the first two weeks.'],
+    ['q' => 'When will I see the final result of my hair transplant?', 'a' => 'The full result is best assessed at twelve months. Significant visible growth typically begins between months five and seven, and continues to thicken through the rest of the year.'],
+    ['q' => 'Can I colour or style my hair during recovery?', 'a' => 'Chemical treatments including hair dye, bleach, and straightening should be avoided for at least four weeks post-procedure. Gentle heat styling can typically resume after three to four weeks.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

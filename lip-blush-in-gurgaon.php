@@ -6,11 +6,98 @@
     <title>Lip Blush Treatment in Gurgaon | Semi-Permanent Lip Tinting | Dencespot</title>
     <meta name="description" content="Enhance your lips naturally with Lip Blush treatment in Gurgaon at Dencespot. Semi-permanent lip tinting for dark, pigmented, or pale lips. Safe and painless.">
     <meta name="keywords" content="Lip Blush in Gurgaon, Permanent Makeup Lip Tint, Dark Lips Treatment, Semi-Permanent Lip Color, Lip Neutralization">
-    
-    <title>Lip Blush Treatment in Gurgaon | Semi-Permanent Lip Tinting | Dencespot</title>
-    <meta name="description" content="Enhance your lips naturally with Lip Blush treatment in Gurgaon at Dencespot. Semi-permanent lip tinting for dark, pigmented, or pale lips. Safe and painless.">
-    <meta name="keywords" content="Lip Blush in Gurgaon, Permanent Makeup Lip Tint, Dark Lips Treatment, Semi-Permanent Lip Color, Lip Neutralization">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Lip Blush Treatment in Gurgaon",
+      "description": "Enhance your lips naturally with Lip Blush treatment in Gurgaon at Dencespot. Semi-permanent lip tinting for dark, pigmented, or pale lips.",
+      "image": "https://dencespot.com/assets/images/lip_blush_ba_1773724099422.png",
+      "url": "https://dencespot.com/lip-blush-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Lip Blush Treatment in Gurgaon",
+        "item": "https://dencespot.com/lip-blush-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does the Lip Blush procedure hurt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We apply a strong primary numbing cream before we start, and a secondary numbing gel continuously throughout. Most patients rate the discomfort as a minimal 2 out of 10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my lips swell up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, moderate swelling is completely normal immediately after the procedure. Using a clean ice pack will significantly reduce the swelling by the next morning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the healing process look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Days 1-2: Lips are swollen and color looks darker. Days 3-5: Lips become dry and start peeling. Days 6-10: Color looks like it vanished. Days 14-30: The soft final watercolor tint blooms back."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I have very dark lips. Can I get a light pink blush?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not immediately. For highly melanin-rich dark lips, we must first do Neutralization using warm orange/yellow pigments. Once healed, we can add the target pink/peach tint in a second or third session."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

@@ -6,11 +6,98 @@
     <title>Mole & Wart Removal in Gurgaon | Safe, Scarless Laser Procedure</title>
     <meta name="description" content="Safe, painless, and scarless laser Mole and Wart removal in Gurgaon at Dencespot Clinic. Expert dermatologists using RF and CO2 laser technology. Affordable cost.">
     <meta name="keywords" content="Mole Removal Gurgaon, Wart Removal Doctor, Laser Skin Tag Removal, RF Cautery Gurgaon, Scarless Mole Removal">
-    
-    <title>Mole & Wart Removal in Gurgaon | Safe, Scarless Laser Procedure</title>
-    <meta name="description" content="Safe, painless, and scarless laser Mole and Wart removal in Gurgaon at Dencespot Clinic. Expert dermatologists using RF and CO2 laser technology. Affordable cost.">
-    <meta name="keywords" content="Mole Removal Gurgaon, Wart Removal Doctor, Laser Skin Tag Removal, RF Cautery Gurgaon, Scarless Mole Removal">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Mole & Wart Removal in Gurgaon",
+      "description": "Safe, painless, and scarless laser Mole and Wart removal in Gurgaon at Dencespot Clinic. Expert dermatologists using RF and CO2 laser technology.",
+      "image": "https://dencespot.com/assets/images/mole_removal_indian_ba_1773724754871.png",
+      "url": "https://dencespot.com/mole-wart-removal-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mole & Wart Removal in Gurgaon",
+        "item": "https://dencespot.com/mole-wart-removal-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will removing a mole leave a scar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With RF and CO2 laser ablation performed by an expert, scarring is incredibly minimal compared to surgical cutting. A small mark may remain initially but heals over a few months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the procedure painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The only discomfort is the initial tiny pinch of the numbing injection. Once numb, you will feel absolutely no pain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to heal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A small dark scab will form over the treated area. It usually dries and falls off naturally within 7 to 10 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did my wart come back?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Warts are caused by the HPV virus. If even a microscopic viral cell remains, the wart can recur. In severe cases, a follow-up touch-up session may be required."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

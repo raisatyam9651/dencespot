@@ -4,6 +4,12 @@ $pageDesc = 'Discover the most effective hair fall prevention strategies. Learn 
 $pageKeywords = 'hair fall prevention, stop hair loss, causes of hair fall, hair loss treatments gurgaon, hair thickness improvement, hair regrowth tips';
 $pageCanonical = 'https://dencespot.com/blog/hair-fall-and-hair-loss-prevention.php';
 $currentPage = 'blog';
+$pageImage = 'images/blog/hair-fall-prevention-featured.png';
+$pageDate = '2026-03-11';
+$pageFAQs = [
+    ['q' => 'Is it normal to lose hair every day?', 'a' => 'Yes, losing 50 to 100 strands per day is normal. However, significant thinning or bald patches require specialist consultation.'],
+    ['q' => 'Can stress actually cause hair loss?', 'a' => 'Absolutely. Physical or emotional stress can push follicles into a resting phase, leading to increased shedding months later.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

@@ -3,32 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Nyra | Chief Consultant | Dencespot | Dencespot Clinic Gurgaon</title>
+    <title>Dr. Nyra | Chief Consultant Dermatologist | Dencespot Clinic Gurgaon</title>
     <meta name="description" content="Meet Dr. Nyra, the driving force behind Dencespot Clinic. Expert in dermatology and hair restoration with international experience.">
     <meta name="keywords" content="Dr. Nyra Gurgaon, Best Dermatologist Gurgaon, Dencespot Owner">
-    
-    <title>Dr. Nyra | Chief Consultant | Dencespot | Dencespot Clinic Gurgaon</title>
-    <meta name="description" content="Meet Dr. Nyra, the driving force behind Dencespot Clinic. Expert in dermatology and hair restoration with international experience.">
-    <meta name="keywords" content="Dr. Nyra Gurgaon, Best Dermatologist Gurgaon, Dencespot Owner">
-    <link rel="canonical" href="https://www.dencespot.in/dr-nyra" />
+    <link rel="canonical" href="https://dencespot.com/dr-nyra" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
     <meta name="ICBM" content="28.439832, 77.043748" />
 
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Physician Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
+      "@type": "Physician",
       "name": "Dr. Nyra",
       "jobTitle": "Chief Consultant Dermatologist",
+      "description": "Dr. Nyra is the Chief Consultant at Dencespot Clinic, specializing in dermatology and advanced hair restoration with international experience.",
+      "image": "https://dencespot.com/assets/images/Dr-nayra.jpg",
+      "url": "https://dencespot.com/dr-nyra",
+      "medicalSpecialty": ["Dermatology", "Hair Restoration"],
       "worksFor": {
         "@type": "MedicalClinic",
-        "name": "Dencespot Clinic"
-      },
-      "image": "https://www.dencespot.in/assets/images/Dr-nayra.jpg",
-      "description": "Dr. Nyra is the Chief Consultant at Dencespot Clinic, specializing in dermatology and advanced hair restoration with international experience."
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dr. Nyra",
+        "item": "https://dencespot.com/dr-nyra"
+      }]
     }
     </script>
 

@@ -4,6 +4,15 @@ $pageDesc = 'Learn why hair transplant results can disappoint—poor clinic choi
 $pageKeywords = 'hair transplant results, poor hair transplant outcome, graft survival, shock loss after transplant, hair transplant failure, best hair transplant gurgaon, DenceSpot';
 $pageCanonical = 'https://dencespot.com/blog/why-patients-dont-get-desired-results-hair-transplant.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/indian-ht-result-2.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'Why does my transplanted hair look thin even after a year?', 'a' => 'Possible causes include a lower-than-average graft survival rate due to handling errors, insufficient grafts placed per square centimetre, or ongoing native hair loss in surrounding areas. A trichoscopic review can identify the cause.'],
+    ['q' => 'Is shock loss after hair transplant permanent?', 'a' => 'No. Shock loss is almost always temporary. The follicles enter a resting phase due to surgical trauma but retain their ability to regrow. Shock-lost hairs return by months 4-6.'],
+    ['q' => 'Can PRP therapy really improve hair transplant results?', 'a' => 'Yes. Multiple randomised controlled trials have demonstrated that adjunct PRP therapy improves graft survival rates, accelerates new growth onset, and increases final hair shaft thickness.'],
+    ['q' => 'What foods should I eat after a hair transplant to improve results?', 'a' => 'Focus on high-protein foods, iron-rich sources, biotin, zinc, and Omega-3 fatty acids. Avoid crash dieting, excessive alcohol, and high-sugar processed foods for at least the first six months.'],
+    ['q' => 'How do I know if my clinic is giving me a realistic density expectation?', 'a' => 'A trustworthy clinic will measure your donor density with a trichoscope, calculate safe graft supply, map the recipient area, and give you a specific density estimate in FU/cm squared.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

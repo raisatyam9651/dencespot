@@ -4,6 +4,15 @@ $pageDesc = 'Understand how hair transplant cost is calculated, what cheap clini
 $pageKeywords = 'hair transplant cost gurgaon, hair transplant price per graft, affordable hair transplant india, hair transplant results expectation, hair restoration cost, FUE cost gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-cost-vs-results-patient-expectations.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht-success-2.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'How many grafts do I need and how does that affect the total cost?', 'a' => 'Graft requirements depend on the size of the area being treated and the desired density. A hairline restoration typically requires 1,500 to 2,500 grafts. Full crown coverage can require 3,000 to 4,500 grafts. Your surgeon will provide an exact estimate during consultation.'],
+    ['q' => 'Why are some clinics dramatically cheaper than others?', 'a' => 'Significantly lower prices almost always reflect compromises: unqualified technicians, reused instruments, inadequate graft preservation, reduced procedure time, or a high-volume assembly-line model where patient outcomes are secondary to throughput.'],
+    ['q' => 'Is the result of a hair transplant really permanent?', 'a' => 'Yes. Donor follicles taken from the back and sides of the scalp are genetically resistant to DHT, the hormone responsible for pattern baldness. When transplanted, they retain this resistance and continue growing for life.'],
+    ['q' => 'Will my transplanted hairline look natural?', 'a' => 'A well-executed transplant by a skilled surgeon produces results indistinguishable from natural hair. The key factors are appropriate hairline design, correct graft angles, varied density zoning, and using finer single-hair grafts at the hairline edge.'],
+    ['q' => 'Does hair transplant cost include follow-up care at DenceSpot?', 'a' => 'Yes. At DenceSpot Clinic, the procedure cost includes pre-operative consultation, all in-clinic procedure fees, the post-operative care kit, and scheduled follow-up appointments.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

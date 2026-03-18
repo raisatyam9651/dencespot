@@ -4,6 +4,12 @@ $pageDesc = 'Learn how to increase hair thickness and improve hair density natur
 $pageKeywords = 'hair thickness improvement, increase hair density, thick hair tips, thin hair solutions, improve hair volume, hair thickening treatments';
 $pageCanonical = 'https://dencespot.com/blog/hair-thickness-and-hair-density-improvement.php';
 $currentPage = 'blog';
+$pageImage = 'images/blog/hair-thickness-density-featured.png';
+$pageDate = '2026-03-11';
+$pageFAQs = [
+    ['q' => 'Can I actually increase the number of follicles?', 'a' => 'You are born with all the follicles you will ever have, but many are dormant. Treatments like PRP can reactivate them.'],
+    ['q' => 'How long does it take to see improvement?', 'a' => 'For biological thickness, you will need at least 3 to 6 months to see a visible change as new hair grows in.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

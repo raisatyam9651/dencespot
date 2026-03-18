@@ -4,6 +4,15 @@ $pageDesc = 'Limited donor hair? Discover realistic options including BHT, scalp
 $pageKeywords = 'limited donor hair transplant, body hair transplant BHT, scalp micropigmentation, donor area density, hair transplant options, graft calculation gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/not-enough-donor-hair-transplant-options.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht_crown_real.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'What is considered a low donor density for a hair transplant?', 'a' => 'A density below 50 follicular units per cm squared in the safe donor zone is generally considered limited. Patients in this range require careful planning and often a combination of surgical and non-surgical techniques.'],
+    ['q' => 'Can body hair really grow on the scalp after a BHT procedure?', 'a' => 'Yes. Body hair follicles are biologically compatible with the scalp and will grow after transplantation. However, body hair has a shorter growth cycle, so individual shafts tend to be shorter.'],
+    ['q' => 'Will scalp micropigmentation look natural alongside transplanted hair?', 'a' => 'When performed correctly, SMP is nearly indistinguishable from real follicles at typical viewing distances. It fills areas where grafts cannot reach sufficient density.'],
+    ['q' => 'How many PRP sessions are needed to improve donor density before surgery?', 'a' => 'Most patients see meaningful improvement after three to four monthly PRP sessions. Your surgeon may recommend beginning PRP four to six months before your planned surgery date.'],
+    ['q' => 'Is it worth travelling abroad for a hair transplant when I have limited donor hair?', 'a' => 'Limited donor cases require particularly experienced surgical hands. High-volume low-cost clinics are often not the right environment for complex cases.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

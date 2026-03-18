@@ -5,11 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Results Gallery | Dencespot Clinic Gurgaon</title>
     <meta name="description" content="View real transformations from Dencespot Clinic. Before and after results for Hair Transplant, Skin treatments, Beard restoration, and more.">
-    
-    <title>Patient Results Gallery | Dencespot Clinic Gurgaon</title>
-    <meta name="description" content="View real transformations from Dencespot Clinic. Before and after results for Hair Transplant, Skin treatments, Beard restoration, and more.">
-    
+    <link rel="canonical" href="https://dencespot.com/gallery" />
+
     <?php include "includes/head_links.php"; ?>
+
+    <!-- WebPage + ImageGallery Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Patient Results Gallery | Dencespot Clinic Gurgaon",
+      "description": "View real transformations from Dencespot Clinic. Before and after results for Hair Transplant, Skin treatments, Beard restoration, and more.",
+      "url": "https://dencespot.com/gallery",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Patient Results Gallery",
+        "item": "https://dencespot.com/gallery"
+      }]
+    }
+    </script>
+
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

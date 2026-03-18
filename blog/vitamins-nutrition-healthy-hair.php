@@ -4,6 +4,12 @@ $pageDesc = 'Learn which vitamins and nutrients are essential for healthy hair. 
 $pageKeywords = 'vitamins for hair growth, nutrition for healthy hair, best supplements for hair, hair growth diet, biotin for hair, iron deficiency hair loss';
 $pageCanonical = 'https://dencespot.com/blog/vitamins-nutrition-healthy-hair.php';
 $currentPage = 'blog';
+$pageImage = 'images/blog/vitamins-for-hair-featured.png';
+$pageDate = '2026-03-11';
+$pageFAQs = [
+    ['q' => 'How long for diet changes to show?', 'a' => 'Typically takes 3 to 6 months of consistent dietary improvement to notice a change in quality.'],
+    ['q' => 'Which deficiency causes most hair loss in women?', 'a' => 'Iron deficiency (low ferritin) is the most common nutritional cause of hair loss in women.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

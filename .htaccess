@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.dencespot\.com [NC]
+RewriteRule ^(.*)$ https://dencespot.com/$1 [R=301,L]
+
 # SEO: X-Robots-Tag
 <IfModule mod_headers.c>
     Header set X-Robots-Tag "index, follow"
@@ -22,13 +26,14 @@ RewriteRule ^ /%1 [R=301,L,NE]
 
 
 Redirect 301 '/index' 'https://dencespot.com/'
-Redirect 301 '/hair-transplant/' 'https://www.dencespot.com/hair-transplant-in-gurgaon'
-Redirect 301 '/best-hair-transplant/' 'https://www.dencespot.com/hair-transplant-in-gurgaon'
-Redirect 301 '/hair-transplant-2/' 'https://www.dencespot.com/hair-transplant-in-gurgaon'
-Redirect 301 '/beard-transplant/' 'https://www.dencespot.com/beard-transplant-in-gurgaon'
-Redirect 301 '/laser-hair-removal/' 'https://www.dencespot.com/laser-hair-removal-in-gurgaon'
-Redirect 301 '/contact-us/' 'https://www.dencespot.com/contact'
-Redirect 301 '/face-and-skin-treatment/' 'https://www.dencespot.com/skin-treatment-in-gurgaon'
-Redirect 301 '/about-us/' 'https://www.dencespot.com/about-us'
-Redirect 301 '/privacy-policy/' 'https://www.dencespot.com/'
-Redirect 301 '/beard-transplant-in-gurgaon' 'https://www.dencespot.com/beard-transplant-gurgaon'
+Redirect 301 '/hair-transplant/' 'https://dencespot.com/hair-transplant-in-gurgaon'
+Redirect 301 '/best-hair-transplant/' 'https://dencespot.com/hair-transplant-in-gurgaon'
+Redirect 301 '/hair-transplant-2/' 'https://dencespot.com/hair-transplant-in-gurgaon'
+Redirect 301 '/beard-transplant/' 'https://dencespot.com/beard-transplant-in-gurgaon'
+Redirect 301 '/laser-hair-removal/' 'https://dencespot.com/laser-hair-removal-in-gurgaon'
+Redirect 301 '/contact-us/' 'https://dencespot.com/contact'
+Redirect 301 '/face-and-skin-treatment/' 'https://dencespot.com/skin-treatment-in-gurgaon'
+Redirect 301 '/about-us/' 'https://dencespot.com/about-us'
+Redirect 301 '/privacy-policy/' 'https://dencespot.com/'
+Redirect 301 '/beard-transplant-in-gurgaon' 'https://dencespot.com/beard-transplant-gurgaon'
+,

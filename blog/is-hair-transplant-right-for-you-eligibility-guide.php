@@ -4,6 +4,15 @@ $pageDesc = 'Discover if you qualify for a hair transplant. Learn the medical cr
 $pageKeywords = 'hair transplant eligibility, who qualifies for hair transplant, Norwood scale hair loss, hair transplant criteria, hair transplant age, hair loss treatment Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-transplant-right-for-you-eligibility-guide.php';
 $currentPage = 'blog';
+$pageImage = 'assets/images/ht_success_real.png';
+$pageDate = '2026-03-18';
+$pageFAQs = [
+    ['q' => 'At what age can I get a hair transplant in India?', 'a' => 'Most surgeons recommend waiting until at least 25 years of age, when hair loss patterns are more predictable. Younger patients are typically guided through medical management first.'],
+    ['q' => 'Can women get a hair transplant?', 'a' => 'Yes, women can be excellent candidates, though the assessment criteria differ. Female pattern hair loss typically presents as diffuse thinning. Hormonal profiling is a standard part of female eligibility assessment.'],
+    ['q' => 'What medical conditions can disqualify me from a hair transplant?', 'a' => 'Active alopecia areata, uncontrolled diabetes, significant clotting disorders, active scalp infections, and certain autoimmune conditions can temporarily or permanently contraindicate surgery.'],
+    ['q' => 'How do I know if my donor area is strong enough?', 'a' => 'Donor adequacy is assessed using a dermatoscope during consultation. The specialist measures follicular density per square centimetre, evaluates hair shaft calibre, and estimates total grafts safely available.'],
+    ['q' => 'What are my options if I am not eligible for a transplant right now?', 'a' => 'Effective non-surgical alternatives include PRP therapy, hair microneedling, LED light therapy, and medically supervised topical or oral treatments.'],
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

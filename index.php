@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Hair Transplant & Skin Clinic in Gurgaon | Expert Dermatology</title>
     <meta name="description" content="Leading hair transplant and skin clinic in Gurgaon. Advanced FUE, PRP, HydraFacial and dermatology treatments by board-certified doctors.">
-    
-    <title>Best Hair Transplant & Skin Clinic in Gurgaon | Expert Dermatology</title>
-    <meta name="description" content="Leading hair transplant and skin clinic in Gurgaon. Advanced FUE, PRP, HydraFacial and dermatology treatments by board-certified doctors.">
-    
-    <link rel="canonical" href="https://www.dencespot.in/" />
+    <link rel="canonical" href="https://dencespot.com/" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
     <meta name="ICBM" content="28.439832, 77.043748" />
 
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Organization + MedicalClinic + LocalBusiness Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "Dencespot Clinic - Best Dermatologist & Hair Transplant in Gurgaon",
-      "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+      "@type": ["MedicalClinic", "MedicalOrganization", "LocalBusiness"],
+      "name": "Dencespot Clinic",
+      "alternateName": "DenceSpot - Best Dermatologist & Hair Transplant Clinic in Gurgaon",
+      "image": "https://dencespot.com/assets/images/Dr-nayra-second.jpg",
+      "logo": "https://dencespot.com/images/dencespot-logo.png",
+      "url": "https://dencespot.com",
+      "telephone": "+91-8178330800",
+      "priceRange": "₹₹",
+      "description": "Leading hair transplant and skin clinic in Gurgaon offering advanced FUE, PRP, HydraFacial and dermatology treatments by board-certified doctors.",
+      "medicalSpecialty": ["Dermatology", "Hair Restoration", "Cosmetic Dermatology"],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "C Block, Sector 39",
@@ -30,10 +35,11 @@
         "postalCode": "122003",
         "addressCountry": "IN"
       },
-      "url": "https://www.dencespot.in",
-      "telephone": "+91-8178330800",
-      "priceRange": "₹₹",
-      "medicalSpecialty": ["Dermatology", "Hair Restoration"],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.439832",
+        "longitude": "77.043748"
+      },
       "openingHoursSpecification": [{
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
@@ -43,10 +49,74 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
+        "bestRating": "5",
+        "worstRating": "1",
         "reviewCount": "500"
+      },
+      "hasMap": "https://maps.google.com/?q=Dencespot+Clinic+Gurgaon",
+      "sameAs": [
+        "https://www.instagram.com/dencespot",
+        "https://www.facebook.com/dencespot"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Nyra"
+      },
+      "availableService": [
+        {"@type": "MedicalProcedure", "name": "Hair Transplant (FUE)"},
+        {"@type": "MedicalProcedure", "name": "PRP Hair Treatment"},
+        {"@type": "MedicalProcedure", "name": "Beard Transplant"},
+        {"@type": "MedicalProcedure", "name": "HydraFacial"},
+        {"@type": "MedicalProcedure", "name": "Laser Hair Removal"},
+        {"@type": "MedicalProcedure", "name": "Botox & Fillers"},
+        {"@type": "MedicalProcedure", "name": "Chemical Peel"},
+        {"@type": "MedicalProcedure", "name": "Carbon Facial"},
+        {"@type": "MedicalProcedure", "name": "Tattoo Removal"},
+        {"@type": "MedicalProcedure", "name": "Lip Blush"},
+        {"@type": "MedicalProcedure", "name": "Mole & Wart Removal"},
+        {"@type": "MedicalProcedure", "name": "LED Hair Therapy"},
+        {"@type": "MedicalProcedure", "name": "Hair Microneedling"},
+        {"@type": "MedicalProcedure", "name": "Dandruff Treatment"},
+        {"@type": "MedicalProcedure", "name": "Face PRP"}
+      ]
+    }
+    </script>
+
+    <!-- WebPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Best Hair Transplant & Skin Clinic in Gurgaon | Expert Dermatology",
+      "description": "Leading hair transplant and skin clinic in Gurgaon. Advanced FUE, PRP, HydraFacial and dermatology treatments by board-certified doctors.",
+      "url": "https://dencespot.com/",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".text-lg"]
       }
     }
     </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -71,10 +141,10 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes. Unlike spa facials, our Medical HydraFacial uses patented vortex technology for deep extraction and nutrient infusion, providing instant, lasting medical-grade results."
-        }]
+        }
+      }]
     }
     </script>
-
 
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

@@ -6,11 +6,98 @@
     <title>Dandruff Treatment in Gurgaon | Flake-Free Healthy Scalp</title>
     <meta name="description" content="Get rid of stubborn dandruff and itchy scalp with advanced clinical dandruff treatments in Gurgaon at Dencespot. Safe, effective solutions for all hair types.">
     <meta name="keywords" content="Dandruff Treatment in Gurgaon, Itchy Scalp Treatment, Scalp Peels, Best Trichologist Gurgaon">
-    
-    <title>Dandruff Treatment in Gurgaon | Flake-Free Healthy Scalp</title>
-    <meta name="description" content="Get rid of stubborn dandruff and itchy scalp with advanced clinical dandruff treatments in Gurgaon at Dencespot. Safe, effective solutions for all hair types.">
-    <meta name="keywords" content="Dandruff Treatment in Gurgaon, Itchy Scalp Treatment, Scalp Peels, Best Trichologist Gurgaon">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Dandruff Treatment in Gurgaon",
+      "description": "Get rid of stubborn dandruff and itchy scalp with advanced clinical dandruff treatments in Gurgaon at Dencespot.",
+      "image": "https://dencespot.com/assets/images/dandruff_indian_ba_1773724686736.png",
+      "url": "https://dencespot.com/dandruff-treatment-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dandruff Treatment in Gurgaon",
+        "item": "https://dencespot.com/dandruff-treatment-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can dandruff cause hair fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. Severe dandruff causes intense itching. Scratching damages the hair follicles, and the fungal inflammation weakens the hair roots, leading to significant secondary hair fall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are scalp peels safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when performed by a certified dermatologist. The concentrations of acids used are strictly medical-grade and calibrated to safely exfoliate without burning the scalp or damaging the hair shaft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many sessions will I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients see a 70% reduction in flaking after just one session. A complete cure usually takes 3 to 5 clinical sessions combined with a prescribed home-care medical shampoo routine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the dandruff come back?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dandruff is a chronic condition related to your body's oil production and climate. While clinical treatments provide long-term clearance, you must maintain the results using the specific shampoos prescribed by our doctors."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

@@ -4,6 +4,12 @@ $pageDesc = 'Discover the complete truth about hair transplant procedures. We bu
 $pageKeywords = 'hair transplant myths, hair restoration facts, FUE transplant gurgaon, DHI technique, hair transplant results, hair loss surgery';
 $pageCanonical = 'https://dencespot.com/blog/understanding-hair-transplant-myths-vs-facts.php';
 $currentPage = 'blog';
+$pageImage = 'images/hair-transplant-original.jpg';
+$pageDate = '2026-02-25';
+$pageFAQs = [
+    ['q' => 'How long does the procedure take?', 'a' => 'On average 6 to 8 hours depending on grafts required. Completed in a single day.'],
+    ['q' => 'Are results truly permanent?', 'a' => 'Yes. Harvested from DHT-resistant donor areas, they are immune to pattern baldness.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

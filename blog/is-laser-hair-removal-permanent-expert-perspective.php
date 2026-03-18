@@ -4,6 +4,12 @@ $pageDesc = 'Discover the truth about laser hair removal longevity. Our experts 
 $pageKeywords = 'laser hair removal permanence, permanent hair reduction, laser results longevity, hair removal technology, smooth skin gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/is-laser-hair-removal-permanent-expert-perspective.php';
 $currentPage = 'blog';
+$pageImage = 'images/laser-hair-removel-gurgaon.jpg';
+$pageDate = '2026-02-05';
+$pageFAQs = [
+    ['q' => 'Does it hurt?', 'a' => 'Most describe it as a light rubber band snap. Modern lasers have cooling tips to instantly numb the area for comfort.'],
+    ['q' => 'Is it safe for dark skin?', 'a' => 'Yes. We use specialized Nd:YAG lasers designed specifically to be safe for darker skin tones.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

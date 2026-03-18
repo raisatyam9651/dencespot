@@ -6,11 +6,98 @@
     <title>Laser Tattoo Removal in Gurgaon | Safe Ink Removal | Dencespot</title>
     <meta name="description" content="Best laser tattoo removal in Gurgaon at Dencespot Clinic. Advanced Q-Switched laser technology for safe, effective, and scar-free removal of black and colored tattoos.">
     <meta name="keywords" content="Tattoo Removal in Gurgaon, Laser Tattoo Removal Cost, Best Tattoo Removal Clinic, Scarless Tattoo Removal Gurgaon">
-    
-    <title>Laser Tattoo Removal in Gurgaon | Safe Ink Removal | Dencespot</title>
-    <meta name="description" content="Best laser tattoo removal in Gurgaon at Dencespot Clinic. Advanced Q-Switched laser technology for safe, effective, and scar-free removal of black and colored tattoos.">
-    <meta name="keywords" content="Tattoo Removal in Gurgaon, Laser Tattoo Removal Cost, Best Tattoo Removal Clinic, Scarless Tattoo Removal Gurgaon">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Laser Tattoo Removal in Gurgaon",
+      "description": "Best laser tattoo removal in Gurgaon at Dencespot Clinic. Advanced Q-Switched laser technology for safe, effective, and scar-free removal of tattoos.",
+      "image": "https://dencespot.com/assets/images/tattoo_removal_ba_1773724116709.png",
+      "url": "https://dencespot.com/tattoo-removal-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Laser Tattoo Removal in Gurgaon",
+        "item": "https://dencespot.com/tattoo-removal-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many sessions will it take to remove my tattoo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most professional tattoos require between 6 to 12 sessions for complete removal. Amateur tattoos may only take 3 to 5 sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is laser tattoo removal painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It feels similar to a rubber band snapping against the skin. We use strong topical numbing creams and a cooling machine to make it highly tolerable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my skin have a scar after removal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When performed by a qualified dermatologist using advanced Q-Switched lasers, the risk of scarring is less than 2%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far apart are the sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sessions are typically scheduled 6 to 8 weeks apart. This interval is necessary because the laser shatters the ink, and your immune system needs time to carry the particles away."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 

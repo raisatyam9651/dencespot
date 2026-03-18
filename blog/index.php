@@ -4,6 +4,7 @@ $pageDesc = 'Explore expert insights, clinical tips, and the latest updates on h
 $pageKeywords = 'hair care blog, skin care articles, hair transplant tips, dermatology blog, gurgaon hair clinic blog';
 $pageCanonical = 'https://dencespot.com/blog/';
 $currentPage = 'blog';
+$isBlogListing = true;
 include '../includes/page_head.php';
 include '../includes/blog-posts.php';
 ?>

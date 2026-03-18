@@ -4,6 +4,12 @@ $pageDesc = 'Discover the complete guide to chemical peels. Learn about differen
 $pageKeywords = 'chemical peels guide, superficial peel, medium depth peel, deep chemical peel, skin resurfacing gurgaon, acid peel types';
 $pageCanonical = 'https://dencespot.com/blog/chemical-peels-finding-the-right-depth-for-your-skin-type.php';
 $currentPage = 'blog';
+$pageImage = 'images/service-skin.png';
+$pageDate = '2026-01-08';
+$pageFAQs = [
+    ['q' => 'Will my skin really peel in sheets?', 'a' => 'Light peels only cause mild flaking. Medium-depth peels will peel significantly over 5-7 days.'],
+    ['q' => 'Can chemical peels help with active acne?', 'a' => 'Yes, especially Salicylic peels. They clear sebum and act as an anti-inflammatory.']
+];
 include '../includes/page_head.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">

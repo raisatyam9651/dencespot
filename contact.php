@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Dencespot Clinic Gurgaon - Book Consultation</title>
     <meta name="description" content="Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.">
-    
-    <title>Contact Us | Dencespot Clinic Gurgaon - Book Consultation</title>
-    <meta name="description" content="Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.">
-    
-    <link rel="canonical" href="https://www.dencespot.in/contact" />
+    <link rel="canonical" href="https://dencespot.com/contact" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
     <meta name="ICBM" content="28.439832, 77.043748" />
 
     <?php include "includes/head_links.php"; ?>
+
+    <!-- ContactPage Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ContactPage",
+      "name": "Contact Dencespot Clinic Gurgaon",
+      "description": "Reach out to Dencespot Clinic in Gurgaon for expert hair transplant and skin treatments. Book your free consultation today.",
+      "url": "https://dencespot.com/contact",
       "mainEntity": {
         "@type": "MedicalClinic",
         "name": "Dencespot Clinic",
-        "image": "https://www.dencespot.in/assets/images/Dr-nayra-second.jpg",
+        "url": "https://dencespot.com",
+        "image": "https://dencespot.com/assets/images/Dr-nayra-second.jpg",
         "telephone": "+91-8178330800",
+        "email": "info@dencespot.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "C Block, Sector 39",
@@ -32,8 +35,38 @@
           "addressRegion": "Haryana",
           "postalCode": "122003",
           "addressCountry": "IN"
-        }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.439832",
+          "longitude": "77.043748"
+        },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        }]
       }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://dencespot.com/contact"
+      }]
     }
     </script>
 

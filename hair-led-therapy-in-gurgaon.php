@@ -6,11 +6,98 @@
     <title>Hair LED Therapy in Gurgaon | Low Level Laser for Hair Fall</title>
     <meta name="description" content="Best Low Level Laser Therapy (LLLT) and Hair LED Therapy in Gurgaon at Dencespot Clinic. Non-invasive, FDA-approved treatment to stop hair fall and boost density.">
     <meta name="keywords" content="Hair LED Therapy Gurgaon, LLLT for Hair Loss, Low Level Laser Therapy Gurgaon, Non-surgical Hair Regrowth, Laser Helmet">
-    
-    <title>Hair LED Therapy in Gurgaon | Low Level Laser for Hair Fall</title>
-    <meta name="description" content="Best Low Level Laser Therapy (LLLT) and Hair LED Therapy in Gurgaon at Dencespot Clinic. Non-invasive, FDA-approved treatment to stop hair fall and boost density.">
-    <meta name="keywords" content="Hair LED Therapy Gurgaon, LLLT for Hair Loss, Low Level Laser Therapy Gurgaon, Non-surgical Hair Regrowth, Laser Helmet">
     <?php include "includes/head_links.php"; ?>
+
+    <!-- Service + MedicalProcedure Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Service", "MedicalProcedure"],
+      "name": "Hair LED Therapy in Gurgaon",
+      "description": "Best Low Level Laser Therapy (LLLT) and Hair LED Therapy in Gurgaon at Dencespot Clinic. Non-invasive, FDA-approved treatment to stop hair fall and boost density.",
+      "image": "https://dencespot.com/assets/images/hair_led_real.png",
+      "url": "https://dencespot.com/hair-led-therapy-in-gurgaon",
+      "provider": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "url": "https://dencespot.com",
+        "telephone": "+91-8178330800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurgaon",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurgaon"
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dencespot.com/"
+      }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Hair LED Therapy in Gurgaon",
+        "item": "https://dencespot.com/hair-led-therapy-in-gurgaon"
+      }]
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does the laser treatment hurt or burn the scalp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not at all. LLLT utilizes cold lasers that do not emit any thermal heat. You will feel absolutely nothing during the 20-minute session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How frequently do I need to undergo LLLT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For optimal initial results, 2 to 3 sessions per week for the first 3 to 4 months are recommended. Once improved, you can taper down to once a week."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can LLLT grow hair on a completely bald head?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Low-Level Laser Therapy requires the presence of living hair follicles to work. It is best for early to mid-stage thinning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to use with Minoxidil and Finasteride?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is highly synergistic! LLLT increases blood flow to the scalp, which improves the absorption and efficacy of topical treatments."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
