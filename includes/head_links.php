@@ -161,6 +161,19 @@
             border-radius: 50% !important;
         }
 
+        /* ===== RESULT SWIPER PAGINATION DOTS ===== */
+        .resultSwiper .swiper-pagination-bullet {
+            width: 10px !important; height: 10px !important;
+            background: #CBD5E1 !important;
+            opacity: 1 !important;
+            transform: none !important;
+            transition: background 0.3s, transform 0.3s !important;
+        }
+        .resultSwiper .swiper-pagination-bullet-active {
+            background: #0EA5A4 !important;
+            transform: scale(1.4) !important;
+        }
+
         /* ===== SCROLLBAR HIDE ===== */
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
