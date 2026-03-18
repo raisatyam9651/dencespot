@@ -31,7 +31,7 @@ include '../includes/page_head.php';
         <div class="container mx-auto">
 
             <div class="post-featured-image">
-                <img src="../images/hair-transplant-original.jpg" alt="Hair Transplant for Diabetes and Blood Pressure Patients" class="w-full">
+                <img src="../assets/images/ht_hairline_real.png" alt="Hair Transplant for Diabetes and Blood Pressure Patients" class="w-full">
             </div>
 
             <div class="post-prose">

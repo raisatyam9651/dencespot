@@ -28,7 +28,7 @@ include '../includes/page_head.php';
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             <div class="post-featured-image">
-                <img src="../images/hair-transplant-original.jpg" alt="Hair transplant cost versus results patient expectations" class="w-full">
+                <img src="../assets/images/ht-success-2.png" alt="Hair transplant cost versus results patient expectations" class="w-full">
             </div>
             <div class="post-prose">
                 <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">When patients begin researching a <a href="../hair-transplant-in-gurgaon.php">hair transplant in Gurgaon</a>, the first question is almost always about cost. The second — once the quote arrives — is whether the price reflects the result they are actually going to get. This guide answers both questions honestly and in full.</p>

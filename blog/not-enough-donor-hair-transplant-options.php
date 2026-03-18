@@ -35,7 +35,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="Limited donor hair transplant options" class="w-full">
+                <img src="../assets/images/ht_crown_real.png" alt="Limited donor hair transplant options" class="w-full">
             </div>
 
             <!-- Content -->

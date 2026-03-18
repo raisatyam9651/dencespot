@@ -28,7 +28,7 @@ include '../includes/page_head.php';
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             <div class="post-featured-image">
-                <img src="../images/hair-transplant-original.jpg" alt="Patient disappointed with hair transplant results" class="w-full">
+                <img src="../assets/images/indian-ht-result-2.png" alt="Patient disappointed with hair transplant results" class="w-full">
             </div>
             <div class="post-prose">
 

@@ -35,7 +35,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/hair-transplant-original.jpg" alt="Ideal hair transplant candidate profile — age, health, and donor density assessment at DenceSpot Gurgaon" class="w-full">
+                <img src="../assets/images/indian-ht-result-1.png" alt="Ideal hair transplant candidate profile — age, health, and donor density assessment at DenceSpot Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

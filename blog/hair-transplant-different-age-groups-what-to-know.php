@@ -31,7 +31,7 @@ include '../includes/page_head.php';
         <div class="container mx-auto">
 
             <div class="post-featured-image">
-                <img src="../images/hair-transplant-original.jpg" alt="Hair Transplant for Different Age Groups" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_1.png" alt="Hair Transplant for Different Age Groups" class="w-full">
             </div>
 
             <div class="post-prose">
