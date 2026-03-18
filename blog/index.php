@@ -5,247 +5,101 @@ $pageKeywords = 'hair care blog, skin care articles, hair transplant tips, derma
 $pageCanonical = 'https://dencespot.com/blog/';
 $currentPage = 'blog';
 include '../includes/head_links.php';
+include '../includes/blog-posts.php';
 ?>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
-    <!-- Header -->
     <?php include "../includes/header.php"; ?>
 
-    <!-- Blog Hero Section -->
-    <section class="relative pt-32 pb-20 bg-darkSlate text-white overflow-hidden">
-        <div class="absolute inset-0 opacity-10">
-            <div class="absolute inset-0 skin-pattern"></div>
-        </div>
-        <div class="container mx-auto px-6 relative z-10 text-center">
-            <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Medical Insights</span>
-            <h1 class="text-5xl lg:text-7xl font-display font-bold mb-8">Clinical <span class="text-medicalTeal uppercase italic">Knowledge</span></h1>
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed">
-                Stay updated with the latest advancements in hair restoration techniques and clinical skincare protocols.
+    <!-- ===== HERO ===== -->
+    <section class="relative bg-darkSlate text-white overflow-hidden" style="padding-top: 80px; padding-bottom: 48px;">
+        <div class="absolute inset-0 skin-pattern" style="opacity:0.04;"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 rounded-full blur-3xl pointer-events-none" style="background:rgba(14,165,164,0.12); transform:translate(40%,-30%);"></div>
+        <div class="container mx-auto px-5 relative z-10 text-center">
+            <span class="inline-block bg-medicalTeal/20 text-medicalTeal border border-medicalTeal/30 px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-4">Medical Insights</span>
+            <h1 class="font-display font-bold text-white mb-3" style="font-size: clamp(28px, 8vw, 64px); line-height: 1.15;">
+                Clinical <span class="text-medicalTeal italic">Knowledge</span>
+            </h1>
+            <p class="text-gray-400 font-light max-w-xl mx-auto" style="font-size: clamp(13px, 3.5vw, 17px); line-height: 1.7;">
+                The latest advancements in hair restoration &amp; clinical skincare — explained by our experts.
             </p>
         </div>
     </section>
 
-    <!-- Blog Grid -->
-    <section class="py-12 md:py-20 bg-bgLight">
-        <div class="container mx-auto px-4 md:px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
-                
-                <!-- Blog Card: PRP -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="prp-hair-treatment-natural-way-to-regrow-hair.php">PRP Treatment: Natural Hair Regrowth</a>
-                        </h2>
-                        <a href="prp-hair-treatment-natural-way-to-regrow-hair.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
+    <!-- ===== BLOG GRID ===== -->
+    <section class="bg-bgLight" style="padding: 32px 0 80px;">
+        <div class="container mx-auto px-4">
 
-                <!-- Blog Card: Hydrafacial -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/hydrafacial.jpg" alt="Hydrafacial" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Skin Care</span>
-                        </div>
+            <!-- ── MOBILE: compact list cards (hidden on lg+) ── -->
+            <div class="flex flex-col gap-4 lg:hidden">
+                <?php foreach ($blogPosts as $post):
+                    $img = '../' . $post['image'];
+                    $url = basename($post['url']);
+                    $dateFormatted = date('M j, Y', strtotime($post['date']));
+                ?>
+                <a href="<?php echo htmlspecialchars($url); ?>"
+                   class="flex gap-4 bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 active:scale-[0.98] transition-transform"
+                   style="-webkit-tap-highlight-color: transparent; min-height: 100px;">
+                    <!-- Thumbnail -->
+                    <div class="shrink-0 w-[110px] overflow-hidden" style="border-radius: 0;">
+                        <img src="<?php echo htmlspecialchars($img); ?>"
+                             alt="<?php echo htmlspecialchars($post['title']); ?>"
+                             class="w-full h-full object-cover"
+                             style="min-height: 100px;"
+                             loading="lazy">
                     </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php">Benefits of Hydrafacial: Transform Your Skin</a>
-                        </h2>
-                        <a href="benefits-of-hydrafacial-how-it-transforms-your-skin.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
+                    <!-- Content -->
+                    <div class="flex flex-col justify-center py-3 pr-4 min-w-0 gap-1">
+                        <span class="text-medicalTeal font-bold uppercase tracking-wider" style="font-size: 9px;">
+                            <?php echo htmlspecialchars($post['category']); ?>
+                        </span>
+                        <p class="font-bold text-darkSlate leading-snug" style="font-size: 13.5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                            <?php echo htmlspecialchars($post['title']); ?>
+                        </p>
+                        <span class="text-gray-400" style="font-size: 11px;"><?php echo $dateFormatted; ?></span>
+                        <span class="text-medicalTeal font-bold" style="font-size: 11px;">Read →</span>
                     </div>
-                </article>
-
-                <!-- Blog Card: Botox -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/botox.jpg" alt="Botox" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Anti-Ageing</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="everything-you-need-to-know-about-botox-and-fillers.php">Injectables Guide: Botox & Fillers</a>
-                        </h2>
-                        <a href="everything-you-need-to-know-about-botox-and-fillers.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Blog Card: Laser -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/laser-hair-removel-gurgaon.jpg" alt="Laser hair removal" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Laser</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="is-laser-hair-removal-permanent-expert-perspective.php">Is Laser Permanent? Expert Perspective</a>
-                        </h2>
-                        <a href="is-laser-hair-removal-permanent-expert-perspective.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Blog Card: Chemical Peels -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/service-skin.png" alt="Chemical peels" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Skin Care</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="chemical-peels-finding-the-right-depth-for-your-skin-type.php">Chemical Peels: The Depth Guide</a>
-                        </h2>
-                        <a href="chemical-peels-finding-the-right-depth-for-your-skin-type.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Blog Card: Transplant Myths -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/hair-transplant-original.jpg" alt="Hair transplant myths" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Hair Care</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="understanding-hair-transplant-myths-vs-facts.php">Transplant Myths: Separating Facts</a>
-                        </h2>
-                        <a href="understanding-hair-transplant-myths-vs-facts.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Existing Blog Cards -->
-                <!-- Hair Fall -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/hair-fall-prevention-featured.png" alt="Hair Fall Prevention" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Hair Care</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="hair-fall-and-hair-loss-prevention.php">Hair Fall & Hair Loss Prevention</a>
-                        </h2>
-                        <a href="hair-fall-and-hair-loss-prevention.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Hair Growth -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/hair-growth-tips-featured.png" alt="Hair Growth Tips" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Growth</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="hair-growth-tips-and-methods.php">Methods to Grow Hair Faster</a>
-                        </h2>
-                        <a href="hair-growth-tips-and-methods.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Hair Thickness -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/hair-thickness-density-featured.png" alt="Hair Thickness" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Volume</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="hair-thickness-and-hair-density-improvement.php">Density Improvement Guide</a>
-                        </h2>
-                        <a href="hair-thickness-and-hair-density-improvement.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Hair Oils -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/best-hair-oils-featured.png" alt="Best Hair Oils" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Nourishment</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="best-hair-oils-for-growth-benefits.php">Best Oils for Hair Growth</a>
-                        </h2>
-                        <a href="best-hair-oils-for-growth-benefits.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Vitamins -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/vitamins-for-hair-featured.png" alt="Vitamins for Hair" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Nutrition</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="vitamins-nutrition-healthy-hair.php">Vitamins for Healthy Hair</a>
-                        </h2>
-                        <a href="vitamins-nutrition-healthy-hair.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Dandruff -->
-                <article class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 hover:-translate-y-2 transition-all duration-500">
-                    <div class="relative h-48 md:h-64 overflow-hidden">
-                        <img src="../images/blog/dandruff-scalp-problems-featured.png" alt="Dandruff Treatment" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
-                        <div class="absolute top-4 left-4 md:top-6 md:left-6">
-                            <span class="bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">Scalp Care</span>
-                        </div>
-                    </div>
-                    <div class="p-6 md:p-10">
-                        <h2 class="text-xl md:text-2xl font-display font-bold mb-4 group-hover:text-medicalTeal transition-all leading-tight">
-                            <a href="dandruff-scalp-problems-treatment.php">Dandruff & Scalp Treatments</a>
-                        </h2>
-                        <a href="dandruff-scalp-problems-treatment.php" class="inline-flex items-center gap-3 text-medicalTeal font-bold text-sm group-hover:gap-5 transition-all">
-                            READ FULL ARTICLE <i class="fas fa-arrow-right text-xs"></i>
-                        </a>
-                    </div>
-                </article>
-
+                </a>
+                <?php endforeach; ?>
             </div>
+
+            <!-- ── DESKTOP: 3-col card grid (hidden below lg) ── -->
+            <div class="hidden lg:grid lg:grid-cols-3 gap-8">
+                <?php foreach ($blogPosts as $post):
+                    $img = '../' . $post['image'];
+                    $url = basename($post['url']);
+                    $dateFormatted = date('M j, Y', strtotime($post['date']));
+                ?>
+                <article class="group bg-white rounded-[2rem] overflow-hidden shadow-md border border-gray-100 hover:-translate-y-2 transition-all duration-500 flex flex-col">
+                    <div class="relative h-52 overflow-hidden shrink-0">
+                        <img src="<?php echo htmlspecialchars($img); ?>"
+                             alt="<?php echo htmlspecialchars($post['title']); ?>"
+                             class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
+                             loading="lazy">
+                        <span class="absolute top-4 left-4 bg-white/90 backdrop-blur-md text-medicalTeal px-3 py-1 rounded-full text-[10px] font-bold uppercase">
+                            <?php echo htmlspecialchars($post['category']); ?>
+                        </span>
+                    </div>
+                    <div class="p-7 flex flex-col flex-1">
+                        <span class="text-gray-400 text-xs mb-2"><?php echo $dateFormatted; ?></span>
+                        <h2 class="font-display font-bold text-lg leading-snug mb-3 group-hover:text-medicalTeal transition-colors flex-1">
+                            <a href="<?php echo htmlspecialchars($url); ?>"><?php echo htmlspecialchars($post['title']); ?></a>
+                        </h2>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-5" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                            <?php echo htmlspecialchars($post['desc']); ?>
+                        </p>
+                        <a href="<?php echo htmlspecialchars($url); ?>"
+                           class="inline-flex items-center gap-2 text-medicalTeal font-bold text-xs uppercase tracking-widest group-hover:gap-4 transition-all mt-auto">
+                            Read Full Article <i class="fas fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </article>
+                <?php endforeach; ?>
+            </div>
+
         </div>
     </section>
 
-    <!-- Footer -->
     <?php include '../includes/footer.php'; ?>
     <?php include '../includes/scripts.php'; ?>
 </body>

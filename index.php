@@ -195,7 +195,7 @@
             <!-- MOBILE: Two horizontal carousels -->
             <div class="lg:hidden space-y-7 ag-float">
 
-                <!-- Hair Carousel -->
+                <!-- Hair Grid -->
                 <div>
                     <div class="flex items-center justify-between mb-3">
                         <h3 class="text-[15px] font-bold text-darkSlate flex items-center gap-2">
@@ -203,41 +203,35 @@
                         </h3>
                         <a href="hair-transplant-in-gurgaon.php" class="text-medicalTeal text-xs font-bold">View All →</a>
                     </div>
-                    <div class="treatment-carousel">
-                        <a href="hair-transplant-in-gurgaon.php" class="tc-card">
+                    <div class="grid grid-cols-3 gap-2">
+                        <a href="hair-transplant-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-user-doctor"></i></div>
                             <span class="tc-name">Hair Transplant</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="beard-transplant-gurgaon.php" class="tc-card">
+                        <a href="beard-transplant-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-user-tie"></i></div>
                             <span class="tc-name">Beard Transplant</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="hair-prp-treatment-in-gurgaon.php" class="tc-card">
+                        <a href="hair-prp-treatment-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-syringe"></i></div>
                             <span class="tc-name">Hair PRP</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="hair-microneedling-in-gurgaon.php" class="tc-card">
+                        <a href="hair-microneedling-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-table-cells"></i></div>
                             <span class="tc-name">Microneedling</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="hair-led-therapy-in-gurgaon.php" class="tc-card">
+                        <a href="hair-led-therapy-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
                             <span class="tc-name">LED Therapy</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="dandruff-treatment-in-gurgaon.php" class="tc-card">
+                        <a href="dandruff-treatment-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
-                            <span class="tc-name">Dandruff Treatment</span>
-                            <span class="tc-arrow">→</span>
+                            <span class="tc-name">Dandruff</span>
                         </a>
                     </div>
                 </div>
 
-                <!-- Skin Carousel -->
+                <!-- Skin Grid -->
                 <div>
                     <div class="flex items-center justify-between mb-3">
                         <h3 class="text-[15px] font-bold text-darkSlate flex items-center gap-2">
@@ -245,41 +239,34 @@
                         </h3>
                         <a href="skin-treatment-in-gurgaon.php" class="text-medicalTeal text-xs font-bold">View All →</a>
                     </div>
-                    <div class="treatment-carousel">
-                        <a href="hydrafacial-in-gurgaon.php" class="tc-card">
+                    <div class="grid grid-cols-3 gap-2">
+                        <a href="hydrafacial-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-spa"></i></div>
                             <span class="tc-name">HydraFacial</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="carbon-facial-in-gurgaon.php" class="tc-card">
-                            <div class="tc-icon"><i class="fas fa-face-mask"></i></div>
+                        <a href="carbon-facial-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
+                            <div class="tc-icon"><i class="fas fa-head-side-mask"></i></div>
                             <span class="tc-name">Carbon Facial</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="botox-treatment-in-gurgaon.php" class="tc-card">
+                        <a href="botox-treatment-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fas fa-face-smile"></i></div>
-                            <span class="tc-name">Botox Treatment</span>
-                            <span class="tc-arrow">→</span>
+                            <span class="tc-name">Botox</span>
                         </a>
-                        <a href="laser-hair-removal-in-gurgaon.php" class="tc-card">
+                        <a href="laser-hair-removal-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
-                            <span class="tc-name">Laser Hair Removal</span>
-                            <span class="tc-arrow">→</span>
+                            <span class="tc-name">Laser Removal</span>
                         </a>
-                        <a href="chemical-peel-treatment-in-gurgaon.php" class="tc-card">
+                        <a href="chemical-peel-treatment-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fas fa-flask-vial"></i></div>
                             <span class="tc-name">Chemical Peel</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="face-prp-treatment-in-gurgaon.php" class="tc-card">
+                        <a href="face-prp-treatment-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fas fa-heart-pulse"></i></div>
                             <span class="tc-name">Face PRP</span>
-                            <span class="tc-arrow">→</span>
                         </a>
-                        <a href="tattoo-removal-in-gurgaon.php" class="tc-card">
+                        <a href="tattoo-removal-in-gurgaon.php" class="tc-card" style="width:100%;flex-shrink:unset;">
                             <div class="tc-icon"><i class="fas fa-eraser"></i></div>
                             <span class="tc-name">Tattoo Removal</span>
-                            <span class="tc-arrow">→</span>
                         </a>
                     </div>
                 </div>
@@ -362,7 +349,7 @@
                 <!-- Carbon Facial (Hidden initially) -->
                 <div class="treatment-card hidden-treatment hidden p-10 rounded-3xl bg-bgLight border border-gray-100 transition-all duration-500 flex flex-col items-center text-center">
                     <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-medicalTeal text-3xl shadow-sm mb-6">
-                        <i class="fas fa-face-mask"></i>
+                        <i class="fas fa-head-side-mask"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Carbon Facial</h3>
                     <p class="text-sm text-gray-500 mb-6 font-light">"Hollywood Peel" for deep pore cleansing and skin brightening.</p>
