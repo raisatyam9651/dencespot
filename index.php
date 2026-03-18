@@ -130,7 +130,7 @@
                 </div>
 
                 <!-- Doctor Image -->
-                <div class="relative shrink-0" style="width: clamp(130px, 43%, 220px);">
+                <div class="relative shrink-0 w-[43%] min-w-[130px] max-w-[220px] lg:flex-1 lg:w-auto lg:max-w-none lg:min-w-0">
                     <div class="relative overflow-hidden border-4 border-white/20 shadow-2xl"
                          style="border-radius: clamp(20px, 5vw, 48px);">
                         <img src="assets/images/Dr-nayra.jpg"
