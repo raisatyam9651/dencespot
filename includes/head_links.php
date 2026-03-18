@@ -87,6 +87,25 @@
             font-weight: 500;
         }
         .dropdown-item:hover { background: #F8FAFC; color: #0EA5A4; padding-left: 1.25rem; }
+
+        /* Mobile Fixes for Redundant Buttons */
+        @media (max-width: 1023px) {
+            /* Hide specific desktop header elements on mobile/tablet */
+            .nav-link, .dropdown, #mainHeader .bg-medicalTeal {
+                display: none !important;
+            }
+            
+            /* Hide redundant floating WhatsApp buttons from Various CSS files */
+            .whatsapp-float, .whatsapp-btn, .tech-whatsapp {
+                display: none !important;
+            }
+            
+            /* Ensure only the modern WhatsApp widget shows if any */
+            .whatsapp-chat-button {
+                bottom: 20px !important;
+                left: 20px !important;
+            }
+        }
     </style>
 
     <!-- Robots Tag -->

@@ -51,14 +51,14 @@
                 Book Consultation
             </a>
 
-            <button class="lg:hidden text-2xl text-darkSlate" id="mobileMenuBtn">
+            <button class="lg:hidden text-2xl text-darkSlate" id="mobileMenuBtn" onclick="toggleMobileMenu()">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
 
         <!-- Mobile Menu Overlay -->
-        <div id="mobileMenu" class="fixed inset-0 bg-darkSlate text-white z-[60] flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-500 lg:hidden">
-            <button id="closeMenuBtn" class="absolute top-8 right-8 text-3xl"><i class="fas fa-times"></i></button>
+        <div id="mobileMenu" class="fixed inset-0 bg-darkSlate text-white z-[100] flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-500 lg:hidden">
+            <button id="closeMenuBtn" onclick="toggleMobileMenu()" class="absolute top-8 right-8 text-3xl"><i class="fas fa-times"></i></button>
             <a href="<?php echo $basePath; ?>index.php" class="text-2xl font-bold">Home</a>
             <a href="<?php echo $basePath; ?>hair-transplant-in-gurgaon.php" class="text-2xl font-bold">Hair Treatments</a>
             <a href="<?php echo $basePath; ?>skin-treatment-in-gurgaon.php" class="text-2xl font-bold">Skin Treatments</a>
@@ -66,4 +66,13 @@
             <a href="<?php echo $basePath; ?>gallery.php" class="text-2xl font-bold">Gallery</a>
             <a href="<?php echo $basePath; ?>contact.php" class="text-2xl font-bold bg-medicalTeal px-8 py-3 rounded-full">Book Now</a>
         </div>
+
+        <script>
+            function toggleMobileMenu() {
+                const mobileMenu = document.getElementById('mobileMenu');
+                if (mobileMenu) {
+                    mobileMenu.classList.toggle('-translate-y-full');
+                }
+            }
+        </script>
     </header>

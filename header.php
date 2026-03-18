@@ -53,7 +53,7 @@
                 <a href="blog/" class="<?php echo ($currentPage == 'blog') ? 'active' : ''; ?>">Blog</a>
                 <a href="./#doctors">Our Doctors</a>
                 <a href="contact.php"
-                    class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?> btn btn-secondary"
+                    class="<?php echo ($currentPage == 'contact') ? 'active' : ''; ?> btn btn-secondary hidden lg:flex"
                     style="margin-left: 20px;">Contact Us</a>
             </nav>
         </div>
@@ -464,7 +464,7 @@
         }
     }
     @media (min-width: 992px) {
-        .hamburger { display: none; }
+        .hamburger { display: none !important; }
     }
 </style>
 
