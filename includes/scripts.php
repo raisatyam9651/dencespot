@@ -1,4 +1,5 @@
-<a href="contact.php" class="fixed bottom-8 right-8 z-[100] group hidden md:flex items-center gap-4">
+<?php $basePath = (isset($currentPage) && $currentPage == 'blog') ? '../' : ''; ?>
+<a href="<?php echo $basePath; ?>contact.php" class="fixed bottom-8 right-8 z-[100] group hidden md:flex items-center gap-4">
         <div class="bg-darkSlate text-white text-[10px] px-4 py-2 rounded-full opacity-0 group-hover:opacity-100 transition-all font-bold shadow-xl border border-gray-800">Book Appointment</div>
         <div class="w-16 h-16 bg-medicalTeal rounded-full flex items-center justify-center text-3xl text-white shadow-3xl hover:scale-110 transition-all"><i class="fas fa-calendar-check"></i></div>
     </a>

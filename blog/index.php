@@ -30,36 +30,41 @@ include '../includes/blog-posts.php';
     <section class="bg-bgLight" style="padding: 32px 0 80px;">
         <div class="container mx-auto px-4">
 
-            <!-- ── MOBILE: compact list cards (hidden on lg+) ── -->
-            <div class="flex flex-col gap-4 lg:hidden">
+            <!-- ── MOBILE: full-width cards (hidden on lg+) ── -->
+            <div class="flex flex-col gap-5 lg:hidden">
                 <?php foreach ($blogPosts as $post):
                     $img = '../' . $post['image'];
                     $url = basename($post['url']);
                     $dateFormatted = date('M j, Y', strtotime($post['date']));
                 ?>
-                <a href="<?php echo htmlspecialchars($url); ?>"
-                   class="flex gap-4 bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 active:scale-[0.98] transition-transform"
-                   style="-webkit-tap-highlight-color: transparent; min-height: 100px;">
-                    <!-- Thumbnail -->
-                    <div class="shrink-0 w-[110px] overflow-hidden" style="border-radius: 0;">
-                        <img src="<?php echo htmlspecialchars($img); ?>"
-                             alt="<?php echo htmlspecialchars($post['title']); ?>"
-                             class="w-full h-full object-cover"
-                             style="min-height: 100px;"
-                             loading="lazy">
-                    </div>
-                    <!-- Content -->
-                    <div class="flex flex-col justify-center py-3 pr-4 min-w-0 gap-1">
-                        <span class="text-medicalTeal font-bold uppercase tracking-wider" style="font-size: 9px;">
-                            <?php echo htmlspecialchars($post['category']); ?>
-                        </span>
-                        <p class="font-bold text-darkSlate leading-snug" style="font-size: 13.5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-                            <?php echo htmlspecialchars($post['title']); ?>
-                        </p>
-                        <span class="text-gray-400" style="font-size: 11px;"><?php echo $dateFormatted; ?></span>
-                        <span class="text-medicalTeal font-bold" style="font-size: 11px;">Read →</span>
-                    </div>
-                </a>
+                <article class="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm active:scale-[0.99] transition-transform" style="-webkit-tap-highlight-color: transparent;">
+                    <a href="<?php echo htmlspecialchars($url); ?>" class="block">
+                        <!-- Full-width image -->
+                        <div class="relative overflow-hidden">
+                            <img src="<?php echo htmlspecialchars($img); ?>"
+                                 alt="<?php echo htmlspecialchars($post['title']); ?>"
+                                 class="w-full object-cover"
+                                 style="height: 190px;"
+                                 loading="lazy">
+                            <span class="absolute top-3 left-3 bg-white px-3 py-1 rounded-full text-[10px] font-bold text-medicalTeal uppercase shadow-sm">
+                                <?php echo htmlspecialchars($post['category']); ?>
+                            </span>
+                        </div>
+                        <!-- Content -->
+                        <div class="p-4">
+                            <span class="text-gray-400 text-[11px]"><?php echo $dateFormatted; ?></span>
+                            <h2 class="font-bold text-darkSlate leading-snug mt-1 mb-2" style="font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                <?php echo htmlspecialchars($post['title']); ?>
+                            </h2>
+                            <p class="text-gray-500 text-sm mb-4 leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                <?php echo htmlspecialchars($post['desc']); ?>
+                            </p>
+                            <span class="inline-flex items-center gap-2 bg-medicalTeal text-white text-xs font-bold px-4 py-2.5 rounded-xl">
+                                Read More <i class="fas fa-arrow-right text-[10px]"></i>
+                            </span>
+                        </div>
+                    </a>
+                </article>
                 <?php endforeach; ?>
             </div>
 

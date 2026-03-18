@@ -3,7 +3,7 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-12 mb-20 border-b border-gray-100 pb-20">
                 <div class="col-span-1">
-                    <a href="index.php" class="text-2xl font-display font-bold flex items-center gap-2 mb-8">
+                    <a href="<?php echo $basePath; ?>index.php" class="text-2xl font-display font-bold flex items-center gap-2 mb-8">
                         <span class="text-gray-400">DENCE</span><span class="text-red-600">SPOT</span> <span class="text-darkSlate text-lg font-light">Clinic</span>
                     </a>
                     <p class="text-gray-400 text-sm mb-8 leading-relaxed">Gurgaon's leading center for hair restoration and clinical skin care. Combining medical expertise with cutting-edge technology.</p>
