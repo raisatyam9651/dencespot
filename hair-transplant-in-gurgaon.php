@@ -340,12 +340,11 @@
           <p class="text-gray-500 mt-2">See what a hair transplant in Gurgaon at Dencespot looks like</p>
           <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <!-- Replace YOUTUBE_VIDEO_ID_1 and YOUTUBE_VIDEO_ID_2 with real video IDs -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
             <iframe
               width="100%" height="100%"
-              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"
+              src="https://www.youtube.com/embed/09THeoP-m0Q"
               title="Hair Transplant Result - Dencespot Clinic Gurgaon"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -356,8 +355,19 @@
           <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
             <iframe
               width="100%" height="100%"
-              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+              src="https://www.youtube.com/embed/nsHwKCbBTgg"
               title="Patient Testimonial - Hair Transplant Gurgaon - Dencespot"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <iframe
+              width="100%" height="100%"
+              src="https://www.youtube.com/embed/odIyvH9UETk"
+              title="Hair Transplant Journey - Dencespot Clinic Gurgaon"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
