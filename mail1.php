@@ -37,7 +37,8 @@ try {
     $mail->IsHTML(true);
 
     $mail->send();
-    echo "<script> window.location.href = 'thank-you.html'; </script>";
+    header("Location: thank-you.php");
+    exit();
 }
 catch (Exception $e) {
     echo "<script>
