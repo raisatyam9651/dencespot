@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beard Transplant in Gurgaon | Natural Beard Hair Restoration | Dencespot</title>
-    <meta name="description" content="Best beard transplant in Gurgaon at Dencespot Clinic. Advanced FUE beard hair restoration for patchy beards. Affordable cost, natural results by expert doctors.">
-    <meta name="keywords" content="Beard Transplant in Gurgaon, Beard Hair Transplant Gurgaon, Beard Transplant Cost in Gurgaon, FUE Beard Transplant Gurgaon, Beard Hair Restoration Gurgaon, Patchy Beard Treatment Gurgaon">
+    <title>Best Beard Transplant in Gurgaon & Gurugram | FUE Results | Dencespot</title>
+    <meta name="description" content="Best beard transplant in Gurgaon & Gurugram at Dencespot Clinic. FUE beard restoration from ₹40,000. Patchy beard, moustache & sideburn treatment by Dr. Nyra. Book free consultation!">
+    <meta name="keywords" content="beard transplant in gurgaon, beard transplant gurugram, beard hair transplant gurgaon, beard transplant cost gurgaon, patchy beard treatment gurgaon, moustache transplant gurgaon, sideburn transplant gurgaon, facial hair transplant gurgaon, beard transplant delhi ncr, fue beard transplant gurgaon">
     <link rel="canonical" href="https://dencespot.com/beard-transplant-gurgaon" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
@@ -13,73 +13,213 @@
     <meta name="ICBM" content="28.439832, 77.043748" />
 
     <?php include "includes/head_links.php"; ?>
+    <!-- SCHEMA 1: MedicalClinic (LocalBusiness) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Service",
-      "name": "Beard Transplant in Gurgaon",
-      "description": "Premium FUE beard hair restoration in Gurgaon for a fuller, natural-looking beard.",
-      "provider": {
-        "@type": "MedicalClinic",
-        "name": "Dencespot Clinic"
+      "@type": "MedicalClinic",
+      "name": "Dencespot Clinic",
+      "url": "https://dencespot.com/beard-transplant-gurgaon",
+      "logo": "https://dencespot.com/assets/images/logo.png",
+      "description": "Dencespot Clinic offers the best beard transplant in Gurgaon and Gurugram using advanced FUE technique. Expert surgeon Dr. Nyra, 5000+ success stories, affordable cost from ₹40,000.",
+      "telephone": "+91-8178330800",
+      "email": "dencespot@gmail.com",
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, Credit Card, UPI",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C Block, Sector 39",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122003",
+        "addressCountry": "IN"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurgaon"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.4595",
+        "longitude": "77.0266"
       },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "10:00",
+          "closes": "17:00"
+        }
+      ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "850",
-        "bestRating": "5"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "Is beard transplant permanent?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. We use DHT-resistant scalp hair which continues to grow for a lifetime once transplanted to the beard area."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How long does recovery take?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most patients return to work within 3 days. Redness and crusting typically clear up within 4-7 days."
-        }
-      }]
+        "reviewCount": "109",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasMap": "https://maps.google.com/?q=Dencespot+Clinic+Sector+39+Gurgaon",
+      "medicalSpecialty": "Dermatology",
+      "sameAs": [
+        "https://www.facebook.com/DenceSpot/",
+        "https://www.instagram.com/dencespot/"
+      ]
     }
     </script>
 
+    <!-- SCHEMA 2: Physician (Doctor) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Nyra",
+      "jobTitle": "Chief Consultant Dermatologist & Hair Restoration Specialist",
+      "description": "Dr. Nyra is a board-certified beard transplant surgeon in Gurgaon with 10+ years of experience in FUE facial hair restoration procedures.",
+      "medicalSpecialty": "Dermatology",
+      "worksFor": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurugram",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://dencespot.com/beard-transplant-gurgaon"
+    }
+    </script>
+
+    <!-- SCHEMA 3: MedicalProcedure -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
-      "name": "Beard Hair Transplant",
+      "name": "Beard Transplant in Gurgaon",
       "procedureType": "https://schema.org/SurgicalProcedure",
-      "description": "Advanced FUE beard hair transplant to restore facial hair in patchy or thin beard areas using donor hair from the scalp.",
-      "howPerformed": "Individual hair follicles are extracted from the scalp using the FUE technique and implanted into the beard area following the natural growth direction.",
-      "preparation": "Consultation with our dermatologist to assess suitability and create a personalised treatment plan.",
-      "followup": "Post-procedure care instructions provided. Follow-up appointment scheduled to monitor results.",
+      "description": "FUE beard transplant procedure in Gurgaon where DHT-resistant follicles are harvested from the scalp and implanted into the beard, moustache, or sideburn area for permanent facial hair restoration.",
+      "howPerformed": "Individual follicles are extracted using micro-punch FUE technique from the scalp donor area and implanted into the face following natural hair direction and angle.",
+      "preparation": "Stop smoking 2 weeks before, avoid alcohol 3 days prior, wash face on the morning of procedure.",
+      "followup": "Clinical washes, PRP therapy, and growth monitoring for 12 months post-procedure.",
       "status": "https://schema.org/ActiveActionStatus",
-      "bodyLocation": "Face",
-      "medicalSpecialty": "https://schema.org/Dermatology"
+      "bodyLocation": "Face, Beard Area, Moustache, Sideburns",
+      "medicalSpecialty": "Dermatology"
     }
     </script>
+
+    <!-- SCHEMA 4: BreadcrumbList -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dencespot.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Hair Treatments", "item": "https://dencespot.com/hair-transplant-in-gurgaon"},
-        {"@type": "ListItem", "position": 3, "name": "Beard Transplant in Gurgaon", "item": "https://dencespot.com/beard-transplant-gurgaon"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dencespot.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Beard Transplant in Gurgaon",
+          "item": "https://dencespot.com/beard-transplant-gurgaon"
+        }
+      ]
+    }
+    </script>
+
+    <!-- SCHEMA 5: FAQPage — ALL 10 QUESTIONS -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is beard transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A beard transplant is a permanent surgical procedure that uses the FUE (Follicular Unit Extraction) technique to move DHT-resistant hair follicles from the back of the scalp to the beard, moustache, or sideburn area. The transplanted hair grows naturally for life and requires regular grooming just like a natural beard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is beard transplant permanent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Beard transplant at Dencespot Clinic in Gurgaon uses DHT-resistant follicles from the donor area. These follicles are genetically programmed to grow permanently, regardless of hormonal changes. The transplanted beard hair behaves exactly like your natural facial hair and will need regular trimming."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does beard transplant recovery take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recovery from a beard transplant in Gurgaon is quick. Initial redness and small crusts fade within 4–5 days. Most patients return to work within 3 days. By 2–3 weeks, the shedding phase begins (normal). New growth starts from Month 3–4, and full density is achieved by Month 9."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of beard transplant in Gurgaon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of beard transplant in Gurgaon at Dencespot Clinic starts from ₹40,000 for patchy beard correction (500–800 grafts) and goes up to ₹1,50,000 for a full beard and moustache restoration (2,500–3,500 grafts). The exact cost depends on graft count, area coverage, and technique used. Book a free consultation for a personalised estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is beard transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The beard transplant procedure is performed under local anaesthesia. You will feel no pain during surgery — most patients relax, listen to music, or watch movies during the 4–6 hour session. Mild soreness may be felt for 1–2 days post-procedure which is managed with prescribed medications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many grafts are needed for a full beard transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The number of grafts depends on the coverage area. Patchy beard correction requires 500–1,000 grafts. A partial beard needs 1,200–1,800 grafts. A full beard with moustache and sideburns typically requires 2,500–3,500 grafts. Our surgeon Dr. Nyra provides a precise graft estimate during free consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between FUE and DHT beard transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FUE (Follicular Unit Extraction) involves harvesting follicles and storing them briefly before implanting. DHT (Direct Hair Transplant) implants follicles immediately after extraction, reducing out-of-body time and improving graft survival rates. DHT is the more advanced technique and is recommended for facial hair due to the delicate nature of facial skin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is a good candidate for beard transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Good candidates include men with patchy beard growth, sparse or thin facial hair, beard gaps due to acne scarring, medical conditions like alopecia barbae, or those who genetically cannot grow a full beard. Men in good general health, aged 22 and above, with sufficient scalp donor hair are ideal candidates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get moustache and sideburn transplant at Dencespot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Dencespot Clinic in Gurugram offers complete facial hair restoration including beard transplant, moustache transplant, sideburn restoration, and jawline hair transplant. All procedures use precision FUE technique to match the natural direction and density of your existing facial hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas in Gurgaon and Gurugram does Dencespot serve for beard transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dencespot Clinic is located at C Block, Sector 39, Gurugram and serves patients from DLF Phase 1–5, Sohna Road, Golf Course Road, MG Road, Cyber City, Sectors 14, 39, 49, South Delhi, Faridabad, Manesar, and across Delhi-NCR."
+          }
+        }
       ]
     }
     </script>
@@ -104,7 +244,7 @@
                         <span class="text-medicalTeal">in Gurgaon</span>
                     </h1>
                     <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
-                        Get a fuller, natural-looking beard with advanced FUE beard transplant technology performed by experienced hair restoration specialists at Dencespot.
+                        Get a fuller, natural-looking beard with advanced FUE beard transplant in Gurgaon performed by Dr. Nyra at Dencespot Clinic, Gurugram. Serving Gurgaon, Gurugram & all of Delhi-NCR.
                     </p>
                     <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
                         <div class="flex items-center gap-3"><i class="fas fa-certificate text-medicalTeal"></i> 10+ Years Experience</div>
@@ -112,6 +252,9 @@
                         <div class="flex items-center gap-3"><i class="fas fa-microscope text-medicalTeal"></i> Advanced FUE Tech</div>
                         <div class="flex items-center gap-3"><i class="fas fa-user-md text-medicalTeal"></i> Certified Specialists</div>
                     </div>
+                    <span class="flex items-center gap-2 text-sm text-white/80">
+                        <span class="text-teal-400">📍</span> C Block Sector 39, Gurugram
+                    </span>
                     <div class="flex flex-col sm:flex-row gap-4 mb-[30px]">
                         <a href="contact.php" class="bg-softGold text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-softGoldHover transition-all shadow-xl hover:-translate-y-1 text-center">
                             Book Free Consultation
@@ -153,7 +296,7 @@
                 <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
                     <p>In the modern world, a well-defined beard is more than just facial hair—it's a statement of style, confidence, and personality. However, many men struggle with patchy growth, scars, or an inability to grow facial hair due to genetics or medical conditions. This is where a <strong>beard transplant in Gurgaon</strong> comes as a permanent solution to help you achieve the look you’ve always desired.</p>
                     <p>At Dencespot Clinic, we specialize in high-precision facial hair restoration. A beard transplant involves delicate medical engineering where hair follicles are redistributed to create a denser, more masculine facial profile. Whether you are aiming for a rugged stubble, a sharp goatee, or a full royal beard, our clinical approach ensures that the grafts blend seamlessly with your natural facial hair direction and density.</p>
-                    <p>Choosing a beard hair transplant in Gurgaon at our center means opting for world-class medical standards. We understand the unique challenges of facial skin, which is more sensitive than the scalp. Our specialists use microscopic extraction and implantation techniques to minimize downtime and maximize natural aesthetics, ensuring your transformation remains undetectable behind a mask of healthy, growing hair.</p>
+                    <p>Choosing a beard hair transplant in Gurgaon at our center means opting for world-class medical standards. We understand the unique challenges of facial skin, which is more sensitive than the scalp. Our specialists use microscopic extraction and implantation techniques to minimize downtime and maximize natural aesthetics, ensuring your transformation remains undetectable behind a mask of healthy, growing hair. Conveniently located in Sector 39, Gurugram, Dencespot is the trusted choice for beard transplant across Gurgaon, Gurugram, Delhi-NCR, and beyond.</p>
                 </div>
             </div>
         </div>
@@ -175,6 +318,83 @@
                         <p>This procedure is not just about density; it's about <em>Medical Artistry</em>. Our experts customize the angle and depth of each graft to replicate the natural swirl and direction of your facial hair, ensuring that your new beard looks completely authentic even from close range.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO IS A CANDIDATE SECTION -->
+    <section class="py-[50px] bg-white ag-float">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+                    Who Is a Good <span class="text-teal-500">Candidate?</span>
+                </h2>
+                <p class="text-gray-500 mt-2">Find out if beard transplant in Gurgaon is right for you</p>
+                <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-darkSlate mb-4">✅ Ideal Candidates</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Men with <strong class="text-darkSlate">patchy beard</strong> or uneven facial hair growth</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Men who <strong class="text-darkSlate">cannot grow a beard</strong> due to genetics</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Beard gaps from <strong class="text-darkSlate">acne scars or injuries</strong></span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Men with <strong class="text-darkSlate">Alopecia Barbae</strong> (patchy beard hair loss)</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Anyone wanting a <strong class="text-darkSlate">defined jawline, goatee, or full beard</strong></span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-teal-500 mt-1 flex-shrink-0">✓</span>
+                            <span>Age 22 and above with good scalp donor hair</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-darkSlate mb-4">❌ Not Recommended If</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-red-400 mt-1 flex-shrink-0">✗</span>
+                            <span>Insufficient donor hair density on scalp</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-red-400 mt-1 flex-shrink-0">✗</span>
+                            <span>Active skin infections or dermatological conditions</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-red-400 mt-1 flex-shrink-0">✗</span>
+                            <span>Uncontrolled diabetes or blood clotting disorders</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <span class="text-red-400 mt-1 flex-shrink-0">✗</span>
+                            <span>Under age 22 (still in beard development phase)</span>
+                        </li>
+                    </ul>
+                    <div class="bg-teal-50 border border-teal-200 rounded-xl p-4 mt-5">
+                        <p class="text-teal-700 text-sm font-medium">
+                            💡 Not sure if you're a candidate? Our surgeon Dr. Nyra offers a
+                            <strong>free assessment</strong> to evaluate your donor area and
+                            facial structure before recommending any procedure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="contact.php" class="ag-btn inline-block bg-[#F0A500] text-white font-bold py-4 px-10 rounded-full shadow-lg">
+                    Check My Candidacy — Free
+                </a>
             </div>
         </div>
     </section>
@@ -230,6 +450,50 @@
                     <p class="text-gray-500 text-sm italic">Performed in a sterile, state-of-the-art medical environment by board-certified specialists.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- MOUSTACHE & SIDEBURN SUB-SERVICES SECTION -->
+    <section class="py-[50px] bg-bgLight ag-float">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+                    Beard, Moustache & <span class="text-teal-500">Sideburn Transplant</span> in Gurgaon
+                </h2>
+                <p class="text-gray-500 mt-2">Complete facial hair restoration — every area, every style</p>
+                <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- Beard -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-all text-center">
+                    <div class="text-4xl mb-3">🧔</div>
+                    <h3 class="text-lg font-bold text-darkSlate mb-2">Beard Transplant</h3>
+                    <p class="text-gray-500 text-sm mb-3">Full beard, goatee, or stubble — designed to match your jawline and facial symmetry.</p>
+                    <span class="text-teal-500 text-xs font-semibold">800 – 2,500 grafts</span>
+                </div>
+                <!-- Moustache -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-all text-center">
+                    <div class="text-4xl mb-3">👨</div>
+                    <h3 class="text-lg font-bold text-darkSlate mb-2">Moustache Transplant</h3>
+                    <p class="text-gray-500 text-sm mb-3">Restore or create a defined moustache with precision graft placement above the lip.</p>
+                    <span class="text-teal-500 text-xs font-semibold">300 – 700 grafts</span>
+                </div>
+                <!-- Sideburns -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-all text-center">
+                    <div class="text-4xl mb-3">✂️</div>
+                    <h3 class="text-lg font-bold text-darkSlate mb-2">Sideburn Restoration</h3>
+                    <p class="text-gray-500 text-sm mb-3">Sharp, masculine sideburns that connect seamlessly with your beard and hairline.</p>
+                    <span class="text-teal-500 text-xs font-semibold">200 – 500 grafts</span>
+                </div>
+                <!-- Jawline -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-all text-center">
+                    <div class="text-4xl mb-3">💈</div>
+                    <h3 class="text-lg font-bold text-darkSlate mb-2">Jawline Shaping</h3>
+                    <p class="text-gray-500 text-sm mb-3">Define your jawline with strategic graft placement for a sculpted, angular look.</p>
+                    <span class="text-teal-500 text-xs font-semibold">400 – 900 grafts</span>
+                </div>
+            </div>
+            <p class="text-center text-gray-400 text-sm mt-6">All procedures performed by Dr. Nyra using advanced FUE technique at Dencespot Clinic, Gurugram</p>
         </div>
     </section>
 
@@ -314,25 +578,84 @@
 
 
     <!-- COST SECTION -->
-    <section class="py-[35px] bg-bgLight">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <div class="text-center mb-[30px]">
-                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Beard Transplant Cost</span> in Gurgaon</h2>
-                <p class="text-gray-600 text-lg leading-relaxed">Understanding the investment in your permanent facial hair restoration. The cost is highly personalized and typically influenced by several clinical factors.</p>
+    <section class="py-[50px] bg-bgLight ag-float">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+                    Beard Transplant <span class="text-teal-500">Cost in Gurgaon</span>
+                </h2>
+                <p class="text-gray-500 mt-2">Transparent, honest pricing — no hidden charges</p>
+                <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
             </div>
-            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
-                <div class="space-y-6">
-                    <h4 class="text-xl font-bold text-darkSlate">What Determines Cost?</h4>
-                    <ul class="space-y-4 text-gray-500">
-                        <li class="flex items-start gap-3"><i class="fas fa-dot-circle text-medicalTeal mt-1"></i> <span><strong>Number of Grafts:</strong> Total area to be covered (patchy spots vs full beard).</span></li>
-                        <li class="flex items-start gap-3"><i class="fas fa-dot-circle text-medicalTeal mt-1"></i> <span><strong>Clinic Expertise:</strong> Years of experience and success rate of surgeons.</span></li>
-                        <li class="flex items-start gap-3"><i class="fas fa-dot-circle text-medicalTeal mt-1"></i> <span><strong>Technology Used:</strong> Choice between FUE or advanced DHT techniques.</span></li>
-                    </ul>
+
+            <!-- Cost Table -->
+            <div class="overflow-x-auto rounded-2xl shadow-sm border border-gray-100 mb-8">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-darkSlate text-white">
+                        <tr>
+                            <th class="px-5 py-4 font-semibold">Treatment Type</th>
+                            <th class="px-5 py-4 font-semibold">Grafts Required</th>
+                            <th class="px-5 py-4 font-semibold">Approx. Cost (INR)</th>
+                            <th class="px-5 py-4 font-semibold">Technique</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        <tr class="bg-white hover:bg-teal-50 transition-colors">
+                            <td class="px-5 py-4 font-medium text-darkSlate">Patchy Beard Correction</td>
+                            <td class="px-5 py-4 text-gray-600">500 – 1,000</td>
+                            <td class="px-5 py-4 text-teal-600 font-semibold">₹40,000 – ₹60,000</td>
+                            <td class="px-5 py-4 text-gray-500">FUE</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-teal-50 transition-colors">
+                            <td class="px-5 py-4 font-medium text-darkSlate">Partial Beard + Moustache</td>
+                            <td class="px-5 py-4 text-gray-600">1,200 – 1,800</td>
+                            <td class="px-5 py-4 text-teal-600 font-semibold">₹65,000 – ₹95,000</td>
+                            <td class="px-5 py-4 text-gray-500">FUE / DHT</td>
+                        </tr>
+                        <tr class="bg-white hover:bg-teal-50 transition-colors">
+                            <td class="px-5 py-4 font-medium text-darkSlate">Full Beard Restoration</td>
+                            <td class="px-5 py-4 text-gray-600">2,000 – 2,500</td>
+                            <td class="px-5 py-4 text-teal-600 font-semibold">₹1,00,000 – ₹1,30,000</td>
+                            <td class="px-5 py-4 text-gray-500">DHT</td>
+                        </tr>
+                        <tr class="bg-gray-50 hover:bg-teal-50 transition-colors">
+                            <td class="px-5 py-4 font-medium text-darkSlate">Full Beard + Moustache + Sideburns</td>
+                            <td class="px-5 py-4 text-gray-600">2,500 – 3,500</td>
+                            <td class="px-5 py-4 text-teal-600 font-semibold">₹1,35,000 – ₹1,80,000</td>
+                            <td class="px-5 py-4 text-gray-500">DHT</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="text-center text-gray-400 text-sm mb-8">
+                * All prices are estimates. Final cost is determined by graft count,
+                donor quality & technique after a clinical evaluation by Dr. Nyra.
+            </p>
+
+            <!-- Cost Factors -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+                <div class="bg-white rounded-xl p-5 border border-gray-100">
+                    <div class="text-teal-500 text-2xl mb-2">🧮</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Graft Count</h3>
+                    <p class="text-gray-500 text-sm">The total area needing coverage is the #1 cost factor. Patchy areas cost far less than a full beard.</p>
                 </div>
-                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
-                    <p class="text-gray-400 mb-6 italic">"We offer premium services at absolute competitive pricing without compromising on graft survival rates or clinic sterility."</p>
-                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Request Personalized Quote</a>
+                <div class="bg-white rounded-xl p-5 border border-gray-100">
+                    <div class="text-teal-500 text-2xl mb-2">🔬</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Technique Used</h3>
+                    <p class="text-gray-500 text-sm">DHT (Direct Hair Transplant) gives superior graft survival on facial skin and is priced slightly above FUE.</p>
                 </div>
+                <div class="bg-white rounded-xl p-5 border border-gray-100">
+                    <div class="text-teal-500 text-2xl mb-2">👨‍⚕️</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Surgeon Expertise</h3>
+                    <p class="text-gray-500 text-sm">Every procedure at Dencespot is performed by Dr. Nyra personally — not delegated to junior staff.</p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="contact.php" class="ag-btn inline-block bg-[#F0A500] text-white font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all">
+                    Get My Free Cost Estimate
+                </a>
             </div>
         </div>
     </section>
@@ -381,6 +704,49 @@
         </div>
     </section>
 
+    <!-- DOCTOR BIO SECTION -->
+    <section class="py-[50px] bg-bgLight ag-float">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+                    Meet Your <span class="text-teal-500">Beard Transplant Surgeon</span>
+                </h2>
+                <p class="text-gray-500 mt-2">Every graft placed personally by Gurgaon's top facial hair restoration expert</p>
+                <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-10 bg-white rounded-2xl shadow-md p-8">
+                <img
+                    src="assets/images/doctor-photo.jpg"
+                    alt="Dr. Nyra - Beard Transplant Surgeon Gurgaon Dencespot Clinic"
+                    class="w-48 h-48 rounded-full object-cover border-4 border-teal-100 flex-shrink-0"
+                    loading="lazy"
+                    width="192" height="192"
+                />
+                <div>
+                    <h3 class="text-2xl font-bold text-darkSlate">Dr. Nyra</h3>
+                    <p class="text-teal-500 font-medium mb-1">Chief Consultant Dermatologist & Facial Hair Restoration Specialist</p>
+                    <p class="text-gray-400 text-sm mb-4">10+ Years Experience &nbsp;|&nbsp; 5,000+ Procedures &nbsp;|&nbsp; Gurgaon, Delhi-NCR</p>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Dr. Nyra is a board-certified hair restoration surgeon specialising in
+                        <strong>FUE and DHT beard transplant in Gurgaon</strong>. With over 10 years of
+                        focused expertise in facial hair restoration, she is one of the leading beard
+                        transplant doctors in Gurugram. Every extraction, hairline design, and graft
+                        placement at Dencespot is personally performed by Dr. Nyra — ensuring the
+                        highest graft survival rate and the most natural-looking beard results in
+                        Delhi-NCR.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">FUE Beard Specialist</span>
+                        <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">DHT Technique</span>
+                        <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">Moustache Restoration</span>
+                        <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">Sideburn Design</span>
+                        <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">Facial Symmetry Expert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- RECOVERY AND RESULTS -->
     <section class="py-[35px] bg-bgLight">
         <div class="container mx-auto px-6 max-w-4xl text-center">
@@ -408,7 +774,51 @@
         </div>
     </section>
 
-    
+    <!-- PRE-SURGERY PREPARATION SECTION -->
+    <section class="py-[50px] bg-white ag-float">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+                    How to <span class="text-teal-500">Prepare</span> for Beard Transplant
+                </h2>
+                <p class="text-gray-500 mt-2">Simple steps to maximise your graft survival and results</p>
+                <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">🚭</div>
+                    <h3 class="font-bold text-darkSlate mb-1">2 Weeks Before</h3>
+                    <p class="text-gray-500 text-sm">Stop smoking. Nicotine restricts blood flow to follicles and can reduce graft survival by up to 30%.</p>
+                </div>
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">🍺</div>
+                    <h3 class="font-bold text-darkSlate mb-1">3 Days Before</h3>
+                    <p class="text-gray-500 text-sm">Avoid alcohol. It thins the blood and can increase bleeding during the procedure.</p>
+                </div>
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">💊</div>
+                    <h3 class="font-bold text-darkSlate mb-1">1 Week Before</h3>
+                    <p class="text-gray-500 text-sm">Stop blood thinners and aspirin (with doctor approval). Inform Dr. Nyra of all medications you take.</p>
+                </div>
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">🧴</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Morning Of</h3>
+                    <p class="text-gray-500 text-sm">Wash your face thoroughly. Arrive with clean skin, no creams or lotions on the beard area.</p>
+                </div>
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">👕</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Wear Comfortable Clothing</h3>
+                    <p class="text-gray-500 text-sm">Choose a button-down shirt to avoid pulling clothes over your face after the procedure.</p>
+                </div>
+                <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+                    <div class="text-2xl mb-2">🍽️</div>
+                    <h3 class="font-bold text-darkSlate mb-1">Eat a Light Meal</h3>
+                    <p class="text-gray-500 text-sm">Have a light, healthy breakfast before arriving. The procedure takes 4–6 hours under local anaesthesia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- What Our Customers Say -->
     <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
         <div class="container mx-auto px-6 text-center mb-[30px]">
@@ -456,7 +866,35 @@
                         Is beard transplant painful?
                         <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
                     </summary>
-                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">The procedure is performed under local anesthesia. You won't feel pain during the surgery; patients typically relax, listen to music, or watch movies during the 4-6 hour session.</p>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">No. The procedure is performed under local anaesthesia. You will feel no pain during surgery — most patients relax, listen to music, or watch movies during the 4–6 hour session. Mild soreness may be felt for 1–2 days post-procedure which is managed with prescribed medications.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        How many grafts are needed for a full beard transplant?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">The number of grafts depends on the coverage area. Patchy beard correction requires 500–1,000 grafts. A partial beard needs 1,200–1,800 grafts. A full beard with moustache and sideburns typically requires 2,500–3,500 grafts. Our surgeon Dr. Nyra provides a precise graft estimate during free consultation.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        What is the difference between FUE and DHT beard transplant?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">FUE (Follicular Unit Extraction) involves harvesting follicles and storing them briefly before implanting. DHT (Direct Hair Transplant) implants follicles immediately after extraction, reducing out-of-body time and improving graft survival rates. DHT is the more advanced technique and is recommended for facial hair due to the delicate nature of facial skin.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Who is a good candidate for beard transplant?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Good candidates include men with patchy beard growth, sparse or thin facial hair, beard gaps due to acne scarring, medical conditions like alopecia barbae, or those who genetically cannot grow a full beard. Men in good general health, aged 22 and above, with sufficient scalp donor hair are ideal candidates.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Can I get moustache and sideburn transplant at Dencespot?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes. Dencespot Clinic in Gurugram offers complete facial hair restoration including beard transplant, moustache transplant, sideburn restoration, and jawline hair transplant. All procedures use precision FUE technique to match the natural direction and density of your existing facial hair.</p>
                 </details>
             </div>
         </div>

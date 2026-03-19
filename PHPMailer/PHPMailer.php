@@ -22,6 +22,14 @@
 namespace PHPMailer\PHPMailer;
 
 /**
+ * Stub for missing Psr\Log\LoggerInterface
+ */
+if (!interface_exists('Psr\Log\LoggerInterface')) {
+    eval('namespace Psr\Log { interface LoggerInterface { public function debug($message, array $context = []); } }');
+}
+
+
+/**
  * PHPMailer - PHP email creation and transport class.
  *
  * @author Marcus Bointon (Synchro/coolbru) <phpmailer@synchromedia.co.uk>
@@ -4733,13 +4741,13 @@ class PHPMailer
             $privKey = openssl_pkey_get_private($privKeyStr);
         }
         if (openssl_sign($signHeader, $signature, $privKey, 'sha256WithRSAEncryption')) {
-            if (\PHP_MAJOR_VERSION < 8) {
+            if (\PHP_MAJOR_VERSION < 8 && is_resource($privKey)) {
                 openssl_pkey_free($privKey);
             }
 
             return base64_encode($signature);
         }
-        if (\PHP_MAJOR_VERSION < 8) {
+        if (\PHP_MAJOR_VERSION < 8 && is_resource($privKey)) {
             openssl_pkey_free($privKey);
         }
 
