@@ -326,12 +326,12 @@
                     <h2 class="text-4xl font-display font-bold mb-4 italic text-darkSlate">Get Your <span class="text-medicalTeal">Free Assessment</span></h2>
                     <p class="text-gray-400">Ready for your transformation? Share your details and we'll reach out.</p>
                 </div>
-                <form class="space-y-6">
+                <form action="mail1.php" method="POST" class="space-y-6">
                     <div class="grid md:grid-cols-2 gap-6">
-                        <input type="text" placeholder="Your Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required>
-                        <input type="tel" placeholder="Phone Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required>
+                        <input type="text" name="name" placeholder="Your Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required>
                     </div>
-                    <textarea placeholder="Tell us about your requirements..." rows="4" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required></textarea>
+                    <textarea name="message" placeholder="Tell us about your requirements..." rows="4" class="w-full bg-bgLight p-5 rounded-2xl outline-none focus:ring-2 ring-medicalTeal/20 transition-all border border-transparent focus:border-medicalTeal" required></textarea>
                     <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-xl hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
                         Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                     </button>

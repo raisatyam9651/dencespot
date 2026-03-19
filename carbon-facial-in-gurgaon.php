@@ -10,7 +10,7 @@
     <title>Carbon Laser Facial in Gurgaon | Hollywood Peel Treatment</title>
     <meta name="description" content="Experience the famous Carbon Laser Facial (Hollywood Peel) in Gurgaon. Instantly reduce oily skin, shrink pores, and achieve a matte flawless glow. Book now.">
     <meta name="keywords" content="Carbon Facial Gurgaon, Hollywood Peel Treatment, Best Laser Facial, Oily Skin Treatment, Shrink Pores Laser">
-    <link rel="canonical" href="https://www.dencespot.in/carbon-facial-in-gurgaon" />
+    <link rel="canonical" href="https://dencespot.com/carbon-facial-in-gurgaon" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
@@ -30,6 +30,12 @@
       "areaServed": {
         "@type": "City",
         "name": "Gurgaon"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "850",
+        "bestRating": "5"
       }
     }
     </script>
@@ -52,6 +58,33 @@
           "text": "It's designed for oily skin and large pores. For dry skin, the HydraFacial is a better choice."
         }
       }]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Carbon Laser Facial",
+      "procedureType": "https://schema.org/NoninvasiveProcedure",
+      "description": "Q-Switched carbon laser facial (Hollywood Peel) for oily skin control, pore minimisation, and instant radiant glow.",
+      "howPerformed": "A liquid carbon layer is applied to the face and then targeted with a Q-Switched Nd:YAG laser to exfoliate, deep cleanse pores, and stimulate collagen.",
+      "preparation": "Consultation with our dermatologist to assess suitability and create a personalised treatment plan.",
+      "followup": "Post-procedure care instructions provided. Follow-up appointment scheduled to monitor results.",
+      "status": "https://schema.org/ActiveActionStatus",
+      "bodyLocation": "Face",
+      "medicalSpecialty": "https://schema.org/Dermatology"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dencespot.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Skin Treatments", "item": "https://dencespot.com/skin-treatment-in-gurgaon"},
+        {"@type": "ListItem", "position": 3, "name": "Carbon Laser Facial in Gurgaon", "item": "https://dencespot.com/carbon-facial-in-gurgaon"}
+      ]
     }
     </script>
 
@@ -364,10 +397,10 @@
                     <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
                     <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
                     
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                    <form action="mail1.php" method="POST" class="space-y-6">
+                        <input type="text" name="name" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" name="phone" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea name="message" placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
                         <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
                             Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                         </button>

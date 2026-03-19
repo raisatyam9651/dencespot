@@ -6,11 +6,7 @@
     <title>Best Hair PRP Treatment in Gurgaon | Platelet Rich Plasma Therapy | Dencespot</title>
     <meta name="description" content="Restore hair density with the best PRP treatment in Gurgaon at Dencespot Clinic. Clinical-grade Platelet Rich Plasma therapy for hair growth and scalp health. Expert doctors, painless procedure.">
     <meta name="keywords" content="Hair PRP Treatment in Gurgaon, Best PRP Clinic Gurgaon, PRP Cost in Gurgaon, Platelet Rich Plasma Therapy Gurgaon, Hair Loss Treatment Gurgaon, Non-surgical Hair Restoration">
-    
-    <title>Best Hair PRP Treatment in Gurgaon | Platelet Rich Plasma Therapy | Dencespot</title>
-    <meta name="description" content="Restore hair density with the best PRP treatment in Gurgaon at Dencespot Clinic. Clinical-grade Platelet Rich Plasma therapy for hair growth and scalp health. Expert doctors, painless procedure.">
-    <meta name="keywords" content="Hair PRP Treatment in Gurgaon, Best PRP Clinic Gurgaon, PRP Cost in Gurgaon, Platelet Rich Plasma Therapy Gurgaon, Hair Loss Treatment Gurgaon, Non-surgical Hair Restoration">
-    <link rel="canonical" href="https://www.dencespot.in/hair-prp-treatment-in-gurgaon" />
+    <link rel="canonical" href="https://dencespot.com/hair-prp-treatment-in-gurgaon" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
@@ -30,6 +26,12 @@
       "areaServed": {
         "@type": "City",
         "name": "Gurgaon"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "850",
+        "bestRating": "5"
       }
     }
     </script>
@@ -52,6 +54,33 @@
           "text": "We use ultra-fine needles and cooling sprays, so most patients only feel a slight pricking sensation."
         }
       }]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Hair PRP Treatment",
+      "procedureType": "https://schema.org/NoninvasiveProcedure",
+      "description": "Clinical-grade Platelet Rich Plasma therapy to stimulate hair follicles, promote natural hair regrowth, and improve scalp health.",
+      "howPerformed": "Blood is drawn, processed in a centrifuge to isolate platelet-rich plasma, and then injected into the scalp at targeted thinning areas to stimulate hair growth.",
+      "preparation": "Consultation with our dermatologist to assess suitability and create a personalised treatment plan.",
+      "followup": "Post-procedure care instructions provided. Follow-up appointment scheduled to monitor results.",
+      "status": "https://schema.org/ActiveActionStatus",
+      "bodyLocation": "Scalp",
+      "medicalSpecialty": "https://schema.org/Dermatology"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dencespot.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Hair Treatments", "item": "https://dencespot.com/hair-transplant-in-gurgaon"},
+        {"@type": "ListItem", "position": 3, "name": "Hair PRP Treatment in Gurgaon", "item": "https://dencespot.com/hair-prp-treatment-in-gurgaon"}
+      ]
     }
     </script>
 
@@ -330,10 +359,10 @@
                     <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
                     <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
                     
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                    <form action="mail1.php" method="POST" class="space-y-6">
+                        <input type="text" name="name" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" name="phone" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea name="message" placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
                         <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
                             Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                         </button>

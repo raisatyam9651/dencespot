@@ -951,14 +951,14 @@
                     <h3 class="text-2xl lg:text-3xl font-display font-bold mb-2">Book Appointment</h3>
                     <p class="text-gray-400 mb-6 text-sm">Professional advice tailored to your needs.</p>
 
-                    <form class="space-y-4">
-                        <input type="text" placeholder="Full Name" required
+                    <form action="mail1.php" method="POST" class="space-y-4">
+                        <input type="text" name="name" placeholder="Full Name" required
                                class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
                                style="padding: 16px 20px; font-size: 16px; min-height: 56px;">
-                        <input type="tel" placeholder="Contact Number" required
+                        <input type="tel" name="phone" placeholder="Contact Number" required
                                class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
                                style="padding: 16px 20px; font-size: 16px; min-height: 56px;">
-                        <textarea placeholder="Tell us about your requirements..." rows="3" required
+                        <textarea name="message" placeholder="Tell us about your requirements..." rows="3" required
                                   class="w-full bg-bgLight rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium"
                                   style="padding: 16px 20px; font-size: 16px; min-height: 120px; resize: none;"></textarea>
                         <button class="ag-btn w-full bg-medicalTeal text-white rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl flex items-center justify-center gap-3 group"

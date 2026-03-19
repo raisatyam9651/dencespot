@@ -10,7 +10,7 @@
     <title>Best Hair Fall Treatment in Udyog Vihar, Gurgaon | Stop Hair Loss</title>
     <meta name="description" content="Looking for the best hair fall treatment near Udyog Vihar, Gurgaon? Dencespot Clinic offers advanced PRP, GFC, and medical therapies to stop hair loss and regrow your hair. Book your free consultation today.">
     <meta name="keywords" content="Hair Fall Treatment in Udyog Vihar, Hair Loss Doctor near Udyog Vihar, PRP Hair Treatment Udyog Vihar, Best Trichologist Udyog Vihar, Stop Hair Fall Gurgaon">
-    <link rel="canonical" href="https://www.dencespot.in/hair-fall-treatment-in-udyog-vihar" />
+    <link rel="canonical" href="https://dencespot.com/hair-fall-treatment-in-udyog-vihar" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
     <meta name="geo.position" content="28.439832;77.043748" />
@@ -26,7 +26,7 @@
       "provider": {
         "@type": "MedicalClinic",
         "name": "Dencespot Clinic",
-        "url": "https://www.dencespot.in"
+        "url": "https://dencespot.com"
       },
       "areaServed": {
         "@type": "City",
@@ -371,10 +371,10 @@
                     <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
                     <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
                     
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                    <form action="mail1.php" method="POST" class="space-y-6">
+                        <input type="text" name="name" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" name="phone" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea name="message" placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
                         <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
                             Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                         </button>

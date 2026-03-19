@@ -34,6 +34,12 @@
       "areaServed": {
         "@type": "City",
         "name": "Gurgaon"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "850",
+        "bestRating": "5"
       }
     }
     </script>
@@ -43,17 +49,27 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://dencespot.com/"
-      }, {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Mole & Wart Removal in Gurgaon",
-        "item": "https://dencespot.com/mole-wart-removal-in-gurgaon"
-      }]
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dencespot.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Skin Treatments", "item": "https://dencespot.com/skin-treatment-in-gurgaon"},
+        {"@type": "ListItem", "position": 3, "name": "Mole & Wart Removal in Gurgaon", "item": "https://dencespot.com/mole-wart-removal-in-gurgaon"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Mole & Wart Removal",
+      "procedureType": "https://schema.org/NoninvasiveProcedure",
+      "description": "Safe, painless, and scarless laser mole and wart removal using advanced RF cautery and CO2 laser technology.",
+      "howPerformed": "Moles, warts, and skin tags are precisely ablated using radiofrequency cautery or CO2 laser under local anaesthesia for minimal scarring.",
+      "preparation": "Consultation with our dermatologist to assess suitability and create a personalised treatment plan.",
+      "followup": "Post-procedure care instructions provided. Follow-up appointment scheduled to monitor results.",
+      "status": "https://schema.org/ActiveActionStatus",
+      "bodyLocation": "Body",
+      "medicalSpecialty": "https://schema.org/Dermatology"
     }
     </script>
 
@@ -407,10 +423,10 @@
                     <h3 class="text-3xl font-display font-bold mb-2">Book Appointment</h3>
                     <p class="text-gray-400 mb-[30px] text-sm">Professional advice tailored to your needs.</p>
                     
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <input type="tel" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
-                        <textarea placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
+                    <form action="mail1.php" method="POST" class="space-y-6">
+                        <input type="text" name="name" placeholder="Full Name" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <input type="tel" name="phone" placeholder="Contact Number" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required>
+                        <textarea name="message" placeholder="Tell us about your requirements..." rows="3" class="w-full bg-bgLight p-5 rounded-2xl outline-none border-b-2 border-transparent focus:border-medicalTeal transition-all font-medium" required></textarea>
                         <button class="w-full bg-medicalTeal text-white p-6 rounded-3xl font-bold text-lg hover:bg-teal-700 transition-all shadow-xl shadow-teal-50 flex items-center justify-center gap-4 group">
                             Confirm Appointment <i class="fas fa-calendar-check group-hover:rotate-12 transition-transform"></i>
                         </button>
