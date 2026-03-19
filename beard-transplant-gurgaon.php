@@ -564,7 +564,7 @@
                     </div>
                 </div>
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-gray-100 relative group">
-                    <img src="assets/images/beard_transplant_indian_real_ba_1773767170581.png" alt="Indian Beard Transplant Full Beard Result" class="w-full">
+                    <img src="assets/images/indian-beard-result-3.svg" alt="Indian Beard Transplant Full Beard Result" class="w-full">
                     <div class="p-6 bg-white">
                         <span class="bg-teal-50 text-medicalTeal text-[10px] font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wider">Dencespot Verified</span>
                         <h4 class="text-xl font-bold text-darkSlate">Sideburn Restoration</h4>
@@ -716,7 +716,7 @@
             </div>
             <div class="flex flex-col md:flex-row items-center gap-10 bg-white rounded-2xl shadow-md p-8">
                 <img
-                    src="assets/images/doctor-photo.jpg"
+                    src="assets/images/Dr-nayra.jpg"
                     alt="Dr. Nyra - Beard Transplant Surgeon Gurgaon Dencespot Clinic"
                     class="w-48 h-48 rounded-full object-cover border-4 border-teal-100 flex-shrink-0"
                     loading="lazy"
