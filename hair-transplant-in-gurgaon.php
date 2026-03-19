@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Transplant in Gurgaon | Best FUE Hair Restoration | Dencespot</title>
-    <meta name="description" content="Get the best hair transplant in Gurgaon at Dencespot Clinic. Advanced FUE hair restoration for natural density and permanent results. Expert doctors, affordable cost.">
-    <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon">
-    
-    <title>Hair Transplant in Gurgaon | Best FUE Hair Restoration | Dencespot</title>
-    <meta name="description" content="Get the best hair transplant in Gurgaon at Dencespot Clinic. Advanced FUE hair restoration for natural density and permanent results. Expert doctors, affordable cost.">
-    <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon">
+    <meta name="description" content="Best hair transplant in Gurgaon & Gurugram at Dencespot Clinic. 5000+ restorations, 4.9★ rated, board-certified surgeon. FUE & DHT from ₹40,000. Free consultation!">
+    <meta name="keywords" content="Hair Transplant in Gurgaon, Best Hair Transplant Clinic Gurgaon, Hair Transplant Cost in Gurgaon, FUE Hair Transplant Gurgaon, Hair Restoration Gurgaon, Baldness Treatment Gurgaon, Hair Transplant Gurugram">
     <link rel="canonical" href="https://dencespot.com/hair-transplant-in-gurgaon" />
     <meta name="geo.region" content="IN-HR" />
     <meta name="geo.placename" content="Gurgaon" />
@@ -42,16 +38,181 @@
         "name": "How many grafts will I need?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Graft requirements vary from 1,500 to 4,500+ depending on the baldness stage. We provide a precise estimate after clinical evaluation."
+          "text": "Graft requirements vary from 1,500 (hairline fix) to 4,500+ (major baldness). Our specialists provide a precise estimate after studying your donor area density and balding stage."
         }
       }, {
         "@type": "Question",
-        "name": "Is hair transplant permanent?",
+        "name": "Do I have to shave my head?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we use DHT-resistant follicles from the back of the scalp which are genetically programmed to grow for a lifetime."
+          "text": "While shaving provides the best clinical results, we do offer Non-Shaven or Partial Shaven FUE for patients who need more discretion. Consult us for suitability."
+        }
+      }, {
+        "@type": "Question",
+        "name": "When will I see the full result?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hair growth is a steady process. Growth starts by Month 4, substantial looks appear by Month 7, and final density/texture is achieved around Month 10-12."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can transplanted hair ever fall out?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. We harvest hair from the DHT-resistant donor zone. These follicles are genetically programmed to grow for a lifetime, regardless of hormonal changes."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is hair transplant safe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. FUE and DHT hair transplants at Dencespot are minimally invasive, performed under local anaesthesia, and carry very low risk when done by a qualified surgeon. Our clinic follows strict sterilisation and surgical protocols for every procedure."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the difference between FUE and DHT hair transplant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FUE (Follicular Unit Extraction) involves extracting follicles and storing them briefly before implanting. DHT (Direct Hair Transplant) implants follicles immediately after extraction, reducing out-of-body time and improving graft survival rates. DHT is the more advanced technique and is recommended for optimal density."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How long does the procedure take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A typical hair transplant session at our Gurgaon clinic takes 6-8 hours depending on the graft count. The procedure is done in a single day and you can return home the same evening."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can women get a hair transplant in Gurgaon?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Female hair transplant is highly effective for women experiencing traction alopecia, hairline recession, or diffuse thinning. Our surgeons assess female pattern hair loss individually and recommend the most suitable technique."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How do I prepare for hair transplant surgery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Stop smoking 2 weeks before surgery, avoid alcohol 3 days prior, stop blood-thinning medications (with doctor guidance), wash your hair the morning of the procedure, and arrange transportation as you should not drive post-surgery. Our team provides a full pre-op checklist during consultation."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Which areas in Gurgaon / Gurugram does Dencespot serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dencespot Clinic is located in Sector 39, Gurugram and serves patients from DLF Phase 1-5, Sohna Road, Golf Course Road, MG Road, Cyber City, South Delhi, Faridabad, Manesar, and all areas across Delhi-NCR."
         }
       }]
+    }
+    </script>
+
+    <!-- MedicalClinic + LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Dencespot Clinic",
+      "url": "https://dencespot.com/hair-transplant-in-gurgaon",
+      "logo": "https://dencespot.com/assets/images/logo.png",
+      "image": "https://dencespot.com/assets/images/ht_success_real.png",
+      "description": "Dencespot Clinic offers the best hair transplant in Gurgaon using advanced FUE and DHT techniques. Expert doctors, 5000+ restorations, affordable cost.",
+      "telephone": "+91-8178330800",
+      "email": "dencespot@gmail.com",
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, Credit Card, UPI",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C Block, Sector 39",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122003",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.4595",
+        "longitude": "77.0266"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "10:00",
+          "closes": "17:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "109",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasMap": "https://maps.google.com/?q=Dencespot+Clinic+Sector+39+Gurgaon",
+      "medicalSpecialty": "Dermatology",
+      "availableService": {
+        "@type": "MedicalProcedure",
+        "name": "FUE Hair Transplant in Gurgaon"
+      },
+      "sameAs": [
+        "https://www.facebook.com/DenceSpot/",
+        "https://www.instagram.com/dencespot/"
+      ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dencespot.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hair Transplant in Gurgaon",
+          "item": "https://dencespot.com/hair-transplant-in-gurgaon"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Physician Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Nyra",
+      "medicalSpecialty": "Dermatology",
+      "description": "Leading hair transplant surgeon in Gurgaon with 10+ years of experience in FUE and DHT hair restoration.",
+      "image": "https://dencespot.com/assets/images/Dr-nayra.jpg",
+      "worksFor": {
+        "@type": "MedicalClinic",
+        "name": "Dencespot Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C Block, Sector 39",
+          "addressLocality": "Gurugram",
+          "addressRegion": "Haryana",
+          "postalCode": "122003",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://dencespot.com/hair-transplant-in-gurgaon"
     }
     </script>
 
@@ -60,6 +221,25 @@
 
     <!-- Header -->
         <?php include "includes/header.php"; ?>
+
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb" class="bg-white border-b border-gray-100 py-2 px-4 text-sm text-gray-500 pt-20">
+      <ol class="flex items-center gap-2 max-w-6xl mx-auto" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="https://dencespot.com/" class="hover:text-teal-600 transition-colors">
+            <span itemprop="name">Home</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li class="text-gray-400">/</li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="https://dencespot.com/hair-transplant-in-gurgaon" class="text-teal-600 font-medium">
+            <span itemprop="name">Hair Transplant in Gurgaon</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav>
 
     <!-- HERO SECTION -->
     <section class="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-bgLight">
@@ -75,7 +255,7 @@
                         <span class="text-medicalTeal">in Gurgaon</span>
                     </h1>
                     <p class="text-lg text-gray-500 mb-8 max-w-lg leading-relaxed">
-                        Restore your hairline and confidence with Gurgaon's most advanced FUE hair restoration technology. Natural density, permanent growth, and expert care.
+                        Restore your hairline and confidence with Gurgaon's most advanced FUE hair restoration technology. Natural density, permanent growth, and expert care. Serving all of Gurugram and Delhi-NCR.
                     </p>
                     <div class="grid md:grid-cols-2 gap-4 mb-[30px] text-sm font-medium">
                         <div class="flex items-center gap-3"><i class="fas fa-certificate text-medicalTeal"></i> 10+ Years Excellence</div>
@@ -122,7 +302,7 @@
                 <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Expert Solutions for Baldness: <span class="text-medicalTeal">Hair Transplant in Gurgaon</span></h2>
                 <div class="w-24 h-1 bg-softGold mx-auto rounded-full mb-[30px]"></div>
                 <div class="text-gray-600 space-y-6 text-lg leading-relaxed text-left">
-                    <p>Hair loss can affect more than just your appearance; it impacts your self-esteem and professional image. If you're searching for a permanent, medical-grade solution, our <strong>hair transplant in Gurgaon</strong> provides the gold standard in hair restoration. We don't just 'fill gaps'; we strategically redesign your hairline to match your age, facial features, and future aging pattern. As pioneers of <strong>Hair Transplant in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care.</p>
+                    <p>Hair loss can affect more than just your appearance; it impacts your self-esteem and professional image. If you're searching for a permanent, medical-grade solution, our <strong>hair transplant in Gurgaon</strong> provides the gold standard in hair restoration. We don't just 'fill gaps'; we strategically redesign your hairline to match your age, facial features, and future aging pattern. As pioneers of <strong>Hair Transplant in Gurgaon</strong>, we pride ourselves on using state-of-the-art diagnostic tools to ensure every patient receives the highest level of care. Conveniently located in Sector 39, Gurugram, we are the preferred choice for patients across Gurgaon, Gurugram, Manesar, and South Delhi.</p>
                     <p>At Dencespot Clinic, we utilize the most refined FUE (Follicular Unit Extraction) techniques. This means individual follicles are extracted one by one from the donor area and implanted with microscopic precision. Our procedure is designed to be minimally invasive, ensuring zero linear scarring and a much faster recovery period compared to traditional methods.</p>
                     <p>What sets our hair restoration apart is our commitment to <em>Follicular Survival Rates</em>. Every graft is handled with extreme care and kept in specialized solutions to ensure maximum growth once implanted. Whether you are dealing with a receding hairline, crown thinning, or total vertex baldness, our clinical experts in Gurgaon are here to guide you toward a lifetime of natural hair.</p>
                 </div>
@@ -148,6 +328,44 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- YOUTUBE VIDEO SECTION -->
+    <section class="py-[50px] bg-white ag-float">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+            Watch Real <span class="text-teal-500">Patient Results</span>
+          </h2>
+          <p class="text-gray-500 mt-2">See what a hair transplant in Gurgaon at Dencespot looks like</p>
+          <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Replace YOUTUBE_VIDEO_ID_1 and YOUTUBE_VIDEO_ID_2 with real video IDs -->
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <iframe
+              width="100%" height="100%"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"
+              title="Hair Transplant Result - Dencespot Clinic Gurgaon"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md aspect-video">
+            <iframe
+              width="100%" height="100%"
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+              title="Patient Testimonial - Hair Transplant Gurgaon - Dencespot"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- BENEFITS SECTION -->
@@ -202,6 +420,49 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- DOCTOR BIO SECTION -->
+    <section class="py-[50px] bg-bgLight ag-float">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+            Meet Our <span class="text-teal-500">Expert Surgeon</span>
+          </h2>
+          <p class="text-gray-500 mt-2">Board-certified specialist leading every Hair Transplant in Gurgaon</p>
+          <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
+        </div>
+        <div class="flex flex-col md:flex-row items-center gap-10 bg-white rounded-2xl shadow-md p-8">
+          <img
+            src="assets/images/Dr-nayra.jpg"
+            alt="Dr. Nyra - Hair Transplant Surgeon at Dencespot Clinic Gurgaon"
+            class="w-48 h-48 rounded-full object-cover border-4 border-teal-100 flex-shrink-0"
+            loading="lazy"
+            width="192" height="192"
+          />
+          <div>
+            <h3 class="text-2xl font-bold text-darkSlate">Dr. Nyra</h3>
+            <p class="text-teal-500 font-medium mb-1">Chief Consultant Dermatologist &amp; Hair Restoration Specialist</p>
+            <p class="text-gray-400 text-sm mb-4">
+              10+ Years Experience &nbsp;|&nbsp; Delhi-NCR's Leading Hair Restoration Expert
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+              Dr. Nyra is a board-certified hair restoration surgeon with over 10 years of
+              specialised experience in FUE and DHT hair transplant procedures in Gurugram.
+              Having performed 5,000+ successful scalp restorations, Dr. Nyra is recognized
+              as one of the leading hair transplant doctors in Gurgaon. Every surgical step at
+              Dencespot — from follicle extraction to hairline design — is personally performed
+              by Dr. Nyra to ensure maximum graft survival and natural results.
+            </p>
+            <div class="flex flex-wrap gap-3 mt-5">
+              <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">FUE Specialist</span>
+              <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">DHT Technique</span>
+              <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">Hairline Design Expert</span>
+              <span class="bg-teal-50 text-teal-700 text-sm px-3 py-1 rounded-full border border-teal-200">PRP Therapy</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- PROCEDURE SECTION -->
@@ -283,27 +544,86 @@
 
 
     <!-- COST SECTION -->
-    <section class="py-[35px] bg-bgLight">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <div class="text-center mb-[30px]">
-                <h2 class="text-4xl font-display font-bold mb-6 italic"><span class="text-medicalTeal">Hair Transplant Cost</span> in Gurgaon</h2>
-                <p class="text-gray-600 text-lg leading-relaxed">Honest pricing for world-class hair restoration. We believe in providing the best medical value without hidden charges or overheads.</p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-12 text-left bg-white p-12 rounded-[3rem] shadow-xl border border-gray-50">
-                <div class="space-y-6">
-                    <h4 class="text-xl font-bold text-darkSlate">Price Influencers</h4>
-                    <ul class="space-y-4 text-gray-500">
-                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Graft Count:</strong> More coverage requires more follicles and clinical time.</span></li>
-                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Donor Quality:</strong> Higher complexity cases (body hair) may affect pricing.</span></li>
-                        <li class="flex items-start gap-3"><i class="fas fa-check text-medicalTeal mt-1"></i> <span><strong>Technology:</strong> Choice between advanced FUE or ultra-precise DHT.</span></li>
-                    </ul>
-                </div>
-                <div class="bg-bgLight p-8 rounded-3xl flex flex-col justify-center border border-gray-100">
-                    <p class="text-gray-400 mb-6 italic text-sm">"Get a transparent cost breakdown based on an AI-assisted scalp evaluation during your consult."</p>
-                    <a href="contact.php" class="bg-medicalTeal text-white text-center py-4 rounded-2xl font-bold hover:bg-teal-700 transition-all shadow-lg">Get My Cost Estimate</a>
-                </div>
-            </div>
+    <section class="py-[50px] bg-white ag-float">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold text-darkSlate">
+            Hair Transplant <span class="text-teal-500">Cost in Gurgaon</span>
+          </h2>
+          <p class="text-gray-500 mt-2">Transparent pricing — no hidden charges</p>
+          <div class="w-16 h-1 bg-[#F0A500] mx-auto mt-3 rounded"></div>
         </div>
+
+        <!-- Price Table -->
+        <div class="overflow-x-auto rounded-2xl shadow-sm border border-gray-100 mb-8">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-darkSlate text-white">
+              <tr>
+                <th class="px-5 py-4 font-semibold">Baldness Stage</th>
+                <th class="px-5 py-4 font-semibold">Grafts Required</th>
+                <th class="px-5 py-4 font-semibold">Approx. Cost (INR)</th>
+                <th class="px-5 py-4 font-semibold">Technique</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr class="bg-white hover:bg-teal-50 transition-colors">
+                <td class="px-5 py-4 font-medium text-darkSlate">Hairline Correction (NW I–II)</td>
+                <td class="px-5 py-4 text-gray-600">1,000 – 1,500</td>
+                <td class="px-5 py-4 text-teal-600 font-semibold">₹40,000 – ₹70,000</td>
+                <td class="px-5 py-4 text-gray-500">FUE</td>
+              </tr>
+              <tr class="bg-gray-50 hover:bg-teal-50 transition-colors">
+                <td class="px-5 py-4 font-medium text-darkSlate">Moderate Hair Loss (NW III–IV)</td>
+                <td class="px-5 py-4 text-gray-600">2,000 – 2,500</td>
+                <td class="px-5 py-4 text-teal-600 font-semibold">₹75,000 – ₹1,25,000</td>
+                <td class="px-5 py-4 text-gray-500">FUE / DHT</td>
+              </tr>
+              <tr class="bg-white hover:bg-teal-50 transition-colors">
+                <td class="px-5 py-4 font-medium text-darkSlate">Advanced Hair Loss (NW V)</td>
+                <td class="px-5 py-4 text-gray-600">3,000 – 3,500</td>
+                <td class="px-5 py-4 text-teal-600 font-semibold">₹1,30,000 – ₹1,80,000</td>
+                <td class="px-5 py-4 text-gray-500">DHT</td>
+              </tr>
+              <tr class="bg-gray-50 hover:bg-teal-50 transition-colors">
+                <td class="px-5 py-4 font-medium text-darkSlate">Severe Baldness (NW VI–VII)</td>
+                <td class="px-5 py-4 text-gray-600">4,000 – 5,000+</td>
+                <td class="px-5 py-4 text-teal-600 font-semibold">₹1,85,000 – ₹2,50,000</td>
+                <td class="px-5 py-4 text-gray-500">DHT + BHT</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="text-center text-gray-400 text-sm mb-6">
+          * All prices are estimates. Final cost depends on graft count, donor quality &amp; technique.
+          Get a <strong class="text-darkSlate">free personalised cost estimate</strong> during consultation.
+        </p>
+
+        <!-- Cost Factors -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-8">
+          <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+            <div class="text-teal-500 text-2xl mb-2"><i class="fas fa-syringe"></i></div>
+            <h3 class="font-bold text-darkSlate mb-1">Graft Count</h3>
+            <p class="text-gray-500 text-sm">More grafts = more clinical time and precision work. The #1 cost driver.</p>
+          </div>
+          <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+            <div class="text-teal-500 text-2xl mb-2"><i class="fas fa-microscope"></i></div>
+            <h3 class="font-bold text-darkSlate mb-1">Technique Used</h3>
+            <p class="text-gray-500 text-sm">DHT (Direct Hair Transplant) offers higher precision and is priced slightly above standard FUE.</p>
+          </div>
+          <div class="bg-bgLight rounded-xl p-5 border border-gray-100">
+            <div class="text-teal-500 text-2xl mb-2"><i class="fas fa-user-md"></i></div>
+            <h3 class="font-bold text-darkSlate mb-1">Donor Quality</h3>
+            <p class="text-gray-500 text-sm">Thin or sparse donor area may require body hair (BHT), which adds complexity.</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="contact.php" class="ag-btn inline-block bg-[#F0A500] text-white font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all">
+            Get My Free Cost Estimate
+          </a>
+        </div>
+      </div>
     </section>
 
     
@@ -316,6 +636,32 @@
         <script src="https://elfsightcdn.com/platform.js" async></script>
         <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
     </section>
+    <!-- INTERNAL BLOG LINKS SECTION -->
+    <section class="py-[40px] bg-bgLight ag-float">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-darkSlate text-center mb-8">
+          Learn More About <span class="text-teal-500">Hair Transplant</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <a href="blog/hair-transplant-cost-vs-results-patient-expectations" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+            <span class="text-teal-500 text-sm font-semibold uppercase tracking-wide">Pricing</span>
+            <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-teal-600 transition-colors">Hair Transplant Cost vs Results — What Every Patient Should Expect</h3>
+            <p class="text-gray-500 text-sm">Understand how pricing works, what cheap clinics cut corners on, and what realistic results look like.</p>
+          </a>
+          <a href="blog/hair-transplant-recovery-timeline-week-by-week" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+            <span class="text-teal-500 text-sm font-semibold uppercase tracking-wide">Recovery</span>
+            <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-teal-600 transition-colors">Hair Transplant Recovery Timeline: Week-by-Week Guide</h3>
+            <p class="text-gray-500 text-sm">What to expect after your procedure — from day 1 through month 12 of full hair growth.</p>
+          </a>
+          <a href="blog/hair-transplant-gone-wrong-common-patient-mistakes" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+            <span class="text-teal-500 text-sm font-semibold uppercase tracking-wide">Guide</span>
+            <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-teal-600 transition-colors">Hair Transplant Gone Wrong? Common Patient Mistakes to Avoid</h3>
+            <p class="text-gray-500 text-sm">Discover the most common mistakes patients make before and after surgery — and how to protect your results.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ SECTION -->
     <section class="py-[35px] bg-white">
         <div class="container mx-auto px-6 max-w-4xl">
@@ -349,8 +695,79 @@
                     </summary>
                     <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">No. We harvest hair from the DHT-resistant donor zone. These follicles are genetically programmed to grow for a lifetime, regardless of hormonal changes.</p>
                 </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Is hair transplant safe?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes. FUE and DHT hair transplants at Dencespot are minimally invasive, performed under local anaesthesia, and carry very low risk when done by a qualified surgeon. Our clinic follows strict sterilisation and surgical protocols for every procedure.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        What is the difference between FUE and DHT hair transplant?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">FUE (Follicular Unit Extraction) involves extracting follicles and storing them briefly before implanting. DHT (Direct Hair Transplant) implants follicles immediately after extraction, reducing out-of-body time and improving graft survival rates. DHT is the more advanced technique and is recommended for optimal density.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        How long does the procedure take?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">A typical hair transplant session at our Gurgaon clinic takes 6–8 hours depending on the graft count. The procedure is done in a single day and you can return home the same evening.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Can women get a hair transplant in Gurgaon?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Yes. Female hair transplant is highly effective for women experiencing traction alopecia, hairline recession, or diffuse thinning. Our surgeons assess female pattern hair loss individually and recommend the most suitable technique.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        How do I prepare for hair transplant surgery?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Stop smoking 2 weeks before surgery, avoid alcohol 3 days prior, stop blood-thinning medications (with doctor guidance), wash your hair the morning of the procedure, and arrange transportation as you should not drive post-surgery. Our team provides a full pre-op checklist during consultation.</p>
+                </details>
+                <details class="group bg-bgLight rounded-3xl p-8 cursor-pointer shadow-sm">
+                    <summary class="flex justify-between items-center font-bold text-lg list-none">
+                        Which areas in Gurgaon / Gurugram does Dencespot serve?
+                        <span class="group-open:rotate-180 transition-transform text-medicalTeal"><i class="fas fa-chevron-down"></i></span>
+                    </summary>
+                    <p class="mt-6 text-gray-500 text-sm leading-relaxed border-t border-gray-100 pt-6">Dencespot Clinic is located in Sector 39, Gurugram and serves patients from DLF Phase 1–5, Sohna Road, Golf Course Road, MG Road, Cyber City, South Delhi, Faridabad, Manesar, and all areas across Delhi-NCR.</p>
+                </details>
             </div>
         </div>
+    </section>
+
+    <!-- AREAS WE SERVE -->
+    <section class="py-[40px] bg-white ag-float">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-darkSlate mb-3">
+          Hair Transplant in <span class="text-teal-500">Gurugram</span> — Areas We Serve
+        </h2>
+        <p class="text-gray-500 max-w-2xl mx-auto mb-6">
+          Our clinic at C Block, Sector 39, Gurugram serves patients from across
+          Gurgaon and Delhi-NCR. Whether you're from DLF Phase 1–5, Sohna Road,
+          Golf Course Road, MG Road, Cyber City, Sector 14, 39, 49, 57, South Delhi,
+          Faridabad, or Manesar — we are your nearest expert for hair restoration.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">DLF Phase 1–5</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Sohna Road</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Golf Course Road</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">MG Road</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Cyber City</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Sector 14</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Sector 39</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Sector 49</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Manesar</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Faridabad</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">South Delhi</span>
+          <span class="bg-teal-50 text-teal-700 border border-teal-200 rounded-full px-4 py-1.5 text-sm font-medium">Delhi-NCR</span>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
