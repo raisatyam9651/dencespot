@@ -20,7 +20,9 @@ include '../includes/page_head.php';
     <?php include "../includes/header.php"; ?>
 
     <section class="post-hero">
-        <div class="absolute inset-0 opacity-10"><div class="absolute inset-0 skin-pattern"></div></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
         <div class="container mx-auto px-6 relative z-10 text-center">
             <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Hair Transplant</span>
             <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">What a Patient Experiences During <span class="text-medicalTeal italic">Hair Transplant Surgery: Step-by-Step</span></h1>
@@ -126,7 +128,7 @@ include '../includes/page_head.php';
 
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Is hair transplant surgery painful?</h4>
                             <p class="text-gray-600 leading-relaxed">The procedure itself is not painful once local anaesthesia is in effect. The most uncomfortable moment is the anaesthesia injection phase, which lasts 1–2 minutes per zone. Most patients rate the overall procedure experience as far more comfortable than they anticipated. Post-operative discomfort in the donor area is mild and typically managed with standard over-the-counter pain relief for 2–3 days.</p>

@@ -20,7 +20,9 @@ include '../includes/page_head.php';
     <?php include "../includes/header.php"; ?>
 
     <section class="post-hero">
-        <div class="absolute inset-0 opacity-10"><div class="absolute inset-0 skin-pattern"></div></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
         <div class="container mx-auto px-6 relative z-10 text-center">
             <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Hair Transplant</span>
             <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">Why Some Patients Don't Get <span class="text-medicalTeal italic">Desired Results After Hair Transplant</span></h1>
@@ -123,7 +125,7 @@ include '../includes/page_head.php';
 
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Why does my transplanted hair look thin even after a year?</h4>
                             <p class="text-gray-600 leading-relaxed">If density appears lower than expected at 12 months, possible causes include a lower-than-average graft survival rate due to handling errors, insufficient grafts placed per square centimetre, or ongoing native hair loss in surrounding areas. A trichoscopic review with your surgeon can identify the cause and determine whether a top-up session or supplementary PRP therapy would help.</p>

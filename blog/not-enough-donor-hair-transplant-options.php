@@ -124,7 +124,7 @@ include '../includes/page_head.php';
                 <!-- FAQ Section -->
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">What is considered a low donor density for a hair transplant?</h4>
                             <p class="text-gray-600 leading-relaxed">A density below 50 follicular units per cm² in the safe donor zone is generally considered limited. Patients in this range are still candidates for surgery but require careful planning, strategic graft placement, and often a combination of surgical and non-surgical techniques to achieve a satisfying result.</p>

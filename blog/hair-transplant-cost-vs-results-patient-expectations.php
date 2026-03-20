@@ -20,11 +20,13 @@ include '../includes/page_head.php';
     <?php include "../includes/header.php"; ?>
 
     <section class="post-hero">
-        <div class="absolute inset-0 opacity-10"><div class="absolute inset-0 skin-pattern"></div></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
         <div class="container mx-auto px-6 relative z-10 text-center">
             <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Hair Transplant</span>
             <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">Hair Transplant Cost vs Results: <span class="text-medicalTeal italic">What Every Patient Should Realistically Expect</span></h1>
-            <div class="post-meta">
+            <div class="flex items-center justify-center gap-6 text-sm text-gray-400 font-medium tracking-wide">
                 <span>By Admin</span>
                 <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
                 <span>March 18, 2026</span>
@@ -90,7 +92,7 @@ include '../includes/page_head.php';
 
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">How many grafts do I need and how does that affect the total cost?</h4>
                             <p class="text-gray-600 leading-relaxed">Graft requirements depend on the size of the area being treated and the desired density. A hairline restoration typically requires 1,500 to 2,500 grafts. Full crown coverage can require 3,000 to 4,500 grafts. Your surgeon will provide an exact estimate during your consultation after assessing your scalp, donor density, and hair characteristics.</p>

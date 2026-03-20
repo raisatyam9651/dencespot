@@ -138,7 +138,7 @@ include '../includes/page_head.php';
 
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
 
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">What is the minimum age for a hair transplant in India?</h4>

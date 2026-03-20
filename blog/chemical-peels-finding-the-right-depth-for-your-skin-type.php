@@ -35,7 +35,7 @@ include '../includes/page_head.php';
         </div>
     </section>
 
-    <!-- Blog Content Content -->
+    <!-- Blog Content -->
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             

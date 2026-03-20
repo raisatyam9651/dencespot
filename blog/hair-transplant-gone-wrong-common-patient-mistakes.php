@@ -108,7 +108,7 @@ include '../includes/page_head.php';
                 <!-- FAQ Section -->
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Can a bad hair transplant be corrected?</h4>
                             <p class="text-gray-600 leading-relaxed">In many cases, yes — but corrective work is significantly more difficult than a well-planned primary procedure. If grafts were placed at incorrect angles, the surgeon must either re-implant or surgically remove them. If the donor area was over-harvested, the remaining supply may be insufficient for proper coverage. Early correction by an experienced specialist gives the best chance of a satisfactory outcome, but results are rarely as good as if the first procedure had been performed correctly.</p>

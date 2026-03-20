@@ -20,11 +20,13 @@ include '../includes/page_head.php';
     <?php include "../includes/header.php"; ?>
 
     <section class="post-hero">
-        <div class="absolute inset-0 opacity-10"><div class="absolute inset-0 skin-pattern"></div></div>
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 skin-pattern"></div>
+        </div>
         <div class="container mx-auto px-6 relative z-10 text-center">
             <span class="inline-block bg-medicalTeal/20 text-medicalTeal px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-medicalTeal/30">Hair Transplant</span>
             <h1 class="text-4xl lg:text-6xl font-display font-bold mb-8 leading-tight max-w-4xl mx-auto">Hair Transplant Recovery Timeline: <span class="text-medicalTeal italic">What Patients Feel Week by Week</span></h1>
-            <div class="post-meta">
+            <div class="flex items-center justify-center gap-6 text-sm text-gray-400 font-medium tracking-wide">
                 <span>By Admin</span>
                 <span class="w-1.5 h-1.5 bg-medicalTeal rounded-full opacity-50"></span>
                 <span>March 18, 2026</span>
@@ -92,7 +94,7 @@ include '../includes/page_head.php';
 
                 <div class="post-faq">
                     <h2 class="text-3xl font-display font-bold mb-10">Frequently Asked Questions</h2>
-                    <div class="space-y-4">
+                    <div class="space-y-8">
                         <div class="post-faq-card">
                             <h4 class="font-bold text-lg mb-4">Is shock loss after a hair transplant permanent?</h4>
                             <p class="text-gray-600 leading-relaxed">No. Shock loss is a temporary shedding of the transplanted hair shafts — the follicles remain alive beneath the scalp. New hair regrows from the same follicles within three to five months. Native hair that sheds around the transplanted zone also returns fully.</p>
