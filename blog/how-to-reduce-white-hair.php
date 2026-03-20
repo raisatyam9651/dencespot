@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to reduce white hair naturally with proven home remedies,
 $pageKeywords = 'how to reduce white hair, reduce white hair naturally, white hair treatment, premature greying solution, reduce grey hair, white hair home remedies, white hair treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-reduce-white-hair';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_1.png';
+$pageImage = 'images/blog/stop-white-hair-treatment.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Kya white hair ko naturally reduce kiya ja sakta hai?', 'a' => 'Haan, agar premature greying hai toh natural remedies, proper diet, aur lifestyle changes se white hair ko significantly reduce kiya ja sakta hai. Amla, curry leaves, aur bhringraj jaise ingredients melanin production boost karte hain. Lekin agar greying genetic hai toh clinical treatments jaise PRP zyada effective hote hain.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_1.png" alt="How to reduce white hair naturally - DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/stop-white-hair-treatment.png" alt="How to reduce white hair naturally - DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->
@@ -86,6 +86,11 @@ include '../includes/page_head.php';
 
                 <p><strong>Kaise use karein:</strong> Bhringraj oil se hafte mein 2 baar scalp massage karein. Bhringraj powder ko amla powder aur pani ke saath mila ke paste banayein aur hair mask ki tarah lagayein. 30 minutes baad dho lein.</p>
 
+                <div class="my-12">
+                    <img src="../images/blog/scalp-massage-oil-treatment.png" alt="Scalp massage for white hair reduction" class="w-full rounded-2xl shadow-xl">
+                    <p class="text-center text-sm text-gray-500 mt-4 italic">Regular scalp massage helps stimulate melanin production.</p>
+                </div>
+
                 <h3>4. Coconut Oil + Curry Leaves Ka Combo</h3>
 
                 <p>Coconut oil naturally hair shaft mein deep penetrate karta hai — yeh kisi bhi aur oil se better hai protein loss prevent karne mein. Jab isme curry leaves ka extract mila dein toh yeh ek powerful anti-greying oil ban jaata hai. Is combination ke baare mein aur <a href="best-hair-oils-for-growth-benefits.php">best hair oils aur unke benefits</a> ke baare mein detail se padhein.</p>
@@ -108,6 +113,11 @@ include '../includes/page_head.php';
 
                 <p>Aapke baalon ka colour seedha aapki diet se connected hai. <a href="vitamins-nutrition-healthy-hair.php">Vitamins aur nutrition jo healthy hair ke liye zaroori hain</a> — agar inki kami ho toh melanin production suffer karti hai aur baal white hone lagte hain.</p>
 
+                <div class="my-12">
+                    <img src="../images/blog/diet-for-healthy-hair.png" alt="Healthy diet for black hair" class="w-full rounded-2xl shadow-xl">
+                    <p class="text-center text-sm text-gray-500 mt-4 italic">Superfoods like walnuts, flax seeds, and greens are essential for hair pigment.</p>
+                </div>
+
                 <h3>Yeh Nutrients Hain White Hair Ke Against Aapke Weapons:</h3>
 
                 <p><strong>Vitamin B12:</strong> Yeh sabse critical vitamin hai hair colour ke liye. B12 deficiency premature greying ka #1 nutritional reason hai. Eggs, dairy products, fish, aur fortified cereals mein abundant hota hai. Agar aap vegetarian hain toh supplement zaroor lein doctor ki advice se.</p>
@@ -127,6 +137,11 @@ include '../includes/page_head.php';
                 <p>2020 ki Harvard study ne prove kiya ki chronic stress literally melanocyte stem cells ko permanently damage karta hai. Matlab ek baar stress se jo cells khatam hui, woh wapas nahi aati. Isliye stress management sirf mental health ke liye nahi, baalon ke liye bhi zaroori hai.</p>
 
                 <p><strong>Kya karein:</strong> Daily 15-20 minutes meditation ya deep breathing karein. Regular exercise karein — yeh cortisol (stress hormone) ko reduce karta hai. Weekend par nature walk ya hobby pursue karein. Overthinking ko consciously control karein.</p>
+
+                <div class="my-12">
+                    <img src="../images/blog/stress-free-lifestyle-yoga.png" alt="Yoga for stress reduction and healthy hair" class="w-full rounded-2xl shadow-xl">
+                    <p class="text-center text-sm text-gray-500 mt-4 italic">Stress management through yoga and meditation can slow down greying.</p>
+                </div>
 
                 <h3>Neend Poori Lein — 7-8 Ghante Minimum</h3>
 
