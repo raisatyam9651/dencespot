@@ -161,18 +161,14 @@
             border-radius: 50% !important;
         }
 
-        /* ===== RESULT SWIPER PAGINATION DOTS ===== */
-        .resultSwiper .swiper-pagination-bullet {
-            width: 10px !important; height: 10px !important;
-            background: #CBD5E1 !important;
-            opacity: 1 !important;
-            transform: none !important;
-            transition: background 0.3s, transform 0.3s !important;
-        }
-        .resultSwiper .swiper-pagination-bullet-active {
-            background: #0EA5A4 !important;
-            transform: scale(1.4) !important;
-        }
+
+
+        /* ===== RESULT SWIPER EQUAL HEIGHT ===== */
+        .resultSwiper .swiper-wrapper { align-items: stretch; }
+        .resultSwiper .swiper-slide { height: auto; display: flex; }
+        .resultSwiper .swiper-slide > div { display: flex; flex-direction: column; width: 100%; }
+        .resultSwiper .swiper-slide img { height: 260px; object-fit: cover; }
+        .resultSwiper .swiper-slide .p-6 { flex: 1; }
 
         /* ===== SCROLLBAR HIDE ===== */
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
@@ -203,18 +199,6 @@
         .tc-name { font-size: 13px; font-weight: 700; color: #1E293B; line-height: 1.3; }
         .tc-arrow { font-size: 11px; color: #0EA5A4; font-weight: 700; align-self: flex-end; }
 
-        /* ===== CONCERN CHIPS ===== */
-        .concern-chips { display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 8px; -webkit-overflow-scrolling: touch; }
-        .concern-chips::-webkit-scrollbar { display: none; }
-        .concern-chip {
-            flex-shrink: 0; display: flex; align-items: center; gap: 6px;
-            background: rgba(14,165,164,0.1); color: #0EA5A4;
-            border: 1px solid rgba(14,165,164,0.25); border-radius: 50px;
-            padding: 10px 16px; font-size: 13px; font-weight: 600; white-space: nowrap;
-            cursor: pointer; transition: background 0.2s, transform 0.15s; min-height: 44px;
-            -webkit-tap-highlight-color: transparent;
-        }
-        .concern-chip:hover, .concern-chip.active { background: #0EA5A4; color: white; border-color: #0EA5A4; transform: translateY(-1px); }
 
         /* ===== QUICK CONTACT CARDS ===== */
         .quick-contact-card {

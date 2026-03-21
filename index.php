@@ -514,22 +514,7 @@
     <section class="py-[35px] bg-darkSlate text-white">
         <div class="container mx-auto px-4 lg:px-6">
 
-            <!-- MOBILE: Horizontal chip row -->
-            <div class="lg:hidden">
-                <h2 class="text-xl font-display font-bold mb-1">Common <span class="text-medicalTeal">Concerns</span></h2>
-                <p class="text-gray-400 text-sm mb-4">Tap to find your treatment</p>
-                <div class="concern-chips">
-                    <a href="hair-transplant-in-gurgaon.php" class="concern-chip"><i class="fas fa-head-side-blank"></i> Hair Loss</a>
-                    <a href="skin-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-face-frown"></i> Acne Scarring</a>
-                    <a href="chemical-peel-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-sun"></i> Pigmentation</a>
-                    <a href="botox-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-user-clock"></i> Fine Lines</a>
-                    <a href="mole-wart-removal-in-gurgaon.php" class="concern-chip"><i class="fas fa-circle-xmark"></i> Mole Removal</a>
-                    <a href="tattoo-removal-in-gurgaon.php" class="concern-chip"><i class="fas fa-eraser"></i> Tattoo Removal</a>
-                    <a href="dandruff-treatment-in-gurgaon.php" class="concern-chip"><i class="fas fa-hand-sparkles"></i> Dandruff</a>
-                </div>
-            </div>
-
-            <!-- DESKTOP: Original 2-column grid layout -->
+            <!-- 2-column grid layout -->
             <div class="hidden lg:grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class="text-4xl font-display font-bold mb-6">Common <span class="text-medicalTeal">Concerns</span></h2>
@@ -721,8 +706,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Pagination -->
-                <div class="swiper-pagination !static mt-10"></div>
                 <!-- Navigation -->
                 <div class="flex flex-col items-center gap-8 mt-12">
                     <div class="flex justify-center gap-4">
