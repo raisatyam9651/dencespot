@@ -86,7 +86,7 @@ include '../includes/page_head.php';
                 <p>Get your split ends trimmed every eight to ten weeks. This may seem counterintuitive, but regular trims keep hair healthy and prevent breakage. If split ends are left untreated, your hair will begin to look rough and unhealthy beyond a certain length.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/hair-oil-massage.png" alt="Hair oil massage for men" class="w-full">
+                    <img src="../images/blog/new/keratin_hair_treatment_1774106603876.png" alt="Hair oil massage for men" class="w-full">
                 </div>
 
                 <h2>Step 3: Diet — The Fuel for Your Hair</h2>

@@ -4,7 +4,7 @@ $pageDesc = 'Can smoking cause hair loss? Discover the scientific evidence, key 
 $pageKeywords = 'does smoking cause hair loss, smoking and hair fall, cigarette hair loss, kya smoking se baal jharte hain, smoking baldness, hair loss causes';
 $pageCanonical = 'https://dencespot.com/blog/does-smoking-cause-hair-loss-science-explained.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_4.png';
+$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
 $pageDate = '2026-03-27';
 $pageFAQs = [
     ['q' => 'How many cigarettes per day can lead to hair loss?', 'a' => 'According to research, smoking more than 10 cigarettes per day significantly increases the risk of hair loss. However, even a single cigarette causes damage — the effect is cumulative. The more you smoke, the greater the damage.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_4.png" alt="Does Smoking Cause Hair Loss - Science Explained by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="Does Smoking Cause Hair Loss - Science Explained by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

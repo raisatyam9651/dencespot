@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to get thicker hair with natural remedies and clinical tr
 $pageKeywords = 'how to get thicker hair, thicker hair remedies, thick hair treatment, get thick hair, natural thick hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-get-thicker-hair-naturally-and-clinically.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-vitamins-supplements.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Is it possible to achieve thicker hair naturally?', 'a' => 'Yes, natural remedies such as oils, a proper diet, and scalp massage can improve hair thickness. However, for severe thinning, clinical treatments tend to be more effective.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-vitamins-supplements.png" alt="How to get thicker hair naturally and clinically" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="How to get thicker hair naturally and clinically" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use rosemary water for hair growth with 3 preparation 
 $pageKeywords = 'rosemary water for hair growth, how to use rosemary water, rosemary water hair rinse, rosemary water benefits, rosemary water vs rosemary oil, rosemary water for dandruff';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-rosemary-water-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How long does it take for rosemary water to grow hair?', 'a' => 'Most people begin to notice reduced hair fall within 4 to 6 weeks of consistent use. Visible new hair growth typically becomes apparent after 3 to 6 months of regular application, similar to the timeline seen with minoxidil.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Use Rosemary Water for Hair Growth - Complete Guide by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="How to Use Rosemary Water for Hair Growth - Complete Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->
@@ -82,7 +82,7 @@ include '../includes/page_head.php';
                 <p>This concentrated version is the most potent and is ideal for use as a weekly deep treatment rinse. Because of its strength, it should be diluted with an equal part of water for daily use. It stores well in the refrigerator for up to 2 weeks. For additional natural approaches to hair care, read our guide on <a href="how-to-reduce-hair-fall-naturally-home-remedies.php">reducing hair fall with natural home remedies</a>.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg border border-gray-100">
-                    <img src="../images/blog/hair-oil-massage.png" alt="Making rosemary water for hair growth" class="w-full">
+                    <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="Making rosemary water for hair growth" class="w-full">
                 </div>
 
                 <h2>Application Methods: How to Use Rosemary Water on Your Hair</h2>

@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use amla for hair growth — fresh amla, amla powder, 
 $pageKeywords = 'amla for hair growth, how to use amla for hair, amla hair mask, amla oil for hair, amla powder for hair growth, indian gooseberry hair benefits, amla for grey hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-amla-for-hair-growth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/amla_hair_treatment_1774106516750.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Can I apply amla juice directly to my scalp?', 'a' => 'Yes, fresh amla juice can be applied directly to the scalp. Mix it with equal parts water if you have a sensitive scalp. Leave it on for 30 minutes and then wash with a mild shampoo.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Use Amla for Hair Growth - DenceSpot Expert Guide" class="w-full">
+                <img src="../images/blog/new/amla_hair_treatment_1774106516750.png" alt="How to Use Amla for Hair Growth - DenceSpot Expert Guide" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Treat hair fall at home with proven natural remedies — oils, onio
 $pageKeywords = 'how to reduce hair fall naturally, natural hair fall treatment, home remedies for hair fall, ghar par baal jharne ka ilaaj, reduce hair fall, natural hair care';
 $pageCanonical = 'https://dencespot.com/blog/how-to-reduce-hair-fall-naturally-home-remedies.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Which is the best natural remedy for hair fall?', 'a' => 'Onion juice is the most effective natural remedy for hair fall — it has been proven in clinical studies. Following that, scalp massage with coconut oil, aloe vera gel, and a protein-rich diet are highly beneficial. With consistent use, visible results typically appear within 2-3 months.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Reduce Hair Fall Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="How to Reduce Hair Fall Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

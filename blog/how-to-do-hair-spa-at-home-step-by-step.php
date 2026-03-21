@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to do a professional-quality hair spa at home with simple
 $pageKeywords = 'how to do hair spa at home, DIY hair spa, hair spa at home steps, home hair spa treatment, natural hair spa, hair spa routine';
 $pageCanonical = 'https://dencespot.com/blog/how-to-do-hair-spa-at-home-step-by-step.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-hair.png';
+$pageImage = 'images/blog/new/luxury_hair_spa_1774106621562.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How often can I do hair spa at home?', 'a' => 'You can do an at-home hair spa once every 1-2 weeks. However, avoid overdoing it as too much protein treatment can make hair stiff and brittle.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="How to Do Hair Spa at Home" class="w-full">
+                <img src="../images/blog/new/luxury_hair_spa_1774106621562.png" alt="How to Do Hair Spa at Home" class="w-full">
             </div>
 
             <!-- Content -->

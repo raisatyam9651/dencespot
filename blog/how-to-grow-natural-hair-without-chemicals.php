@@ -4,7 +4,7 @@ $pageDesc = 'How to grow hair without chemicals? Discover natural hair growth ti
 $pageKeywords = 'how to grow natural hair, natural hair growth, chemical free hair care, organic hair growth, bina chemical ke baal badhaye, natural hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-natural-hair-without-chemicals.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can I grow my hair naturally without any products?', 'a' => 'Yes, with a proper diet, regular scalp massage, adequate sleep, and stress management, hair can grow naturally. Products are helpful but not mandatory.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Grow Natural Hair Without Chemicals - DenceSpot Guide" class="w-full">
+                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="How to Grow Natural Hair Without Chemicals - DenceSpot Guide" class="w-full">
             </div>
 
             <!-- Content -->
@@ -97,7 +97,7 @@ include '../includes/page_head.php';
                 <p>Indian gooseberry (amla) is rich in Vitamin C, which promotes collagen production. It also helps prevent premature greying. Apply fresh amla juice directly to the scalp or use amla oil regularly.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/hair-growth-tips-featured.png" alt="Natural hair growth methods" class="w-full">
+                    <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="Natural hair growth methods" class="w-full">
                 </div>
 
                 <h2>DIY Natural Hair Masks That Actually Work</h2>

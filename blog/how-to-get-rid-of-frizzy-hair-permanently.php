@@ -4,7 +4,7 @@ $pageDesc = 'Expert guide on how to get rid of frizzy hair permanently. Discover
 $pageKeywords = 'how to get rid of frizzy hair, frizzy hair treatment, frizzy hair permanently, anti frizz hair tips, frizz free hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-get-rid-of-frizzy-hair-permanently.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-vitamins-supplements.png';
+$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can frizzy hair be permanently cured?', 'a' => 'While genetics-based frizz cannot be permanently eliminated, treatments like keratin smoothing and hair botox can keep hair frizz-free for 3 to 6 months. Combining clinical treatments with proper at-home care — sulfate-free shampoo, deep conditioning, and anti-frizz serums — gives the longest-lasting results.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-vitamins-supplements.png" alt="How to Get Rid of Frizzy Hair Permanently - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Get Rid of Frizzy Hair Permanently - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

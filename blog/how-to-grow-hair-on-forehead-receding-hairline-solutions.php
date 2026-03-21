@@ -85,7 +85,7 @@ include '../includes/page_head.php';
                 <p>Natural DHT-blocking foods include: <strong>green tea, pumpkin seeds, soybean, mushrooms, turmeric, and tomatoes (lycopene)</strong>. These foods help moderate DHT levels naturally. Be sure to check out the complete <a href="vitamins-nutrition-healthy-hair.php">nutrition guide for hair health</a>.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/hair-growth-tips-featured.png" alt="Hair growth treatment for receding hairline" class="w-full">
+                    <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="Hair growth treatment for receding hairline" class="w-full">
                 </div>
 
                 <h2>Stage 2: Medical Treatments — Under a Doctor's Supervision</h2>

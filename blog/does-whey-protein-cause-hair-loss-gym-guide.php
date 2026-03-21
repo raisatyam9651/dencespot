@@ -4,7 +4,7 @@ $pageDesc = 'Does whey protein cause hair loss? A complete guide for gym-goers c
 $pageKeywords = 'does whey protein cause hair loss, protein powder hair fall, gym supplements hair loss, whey protein se baal girte hain kya, creatine hair loss, gym diet hair';
 $pageCanonical = 'https://dencespot.com/blog/does-whey-protein-cause-hair-loss-gym-guide.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_7.png';
+$pageImage = 'images/blog/new/curd_hair_mask_1774106415110.png';
 $pageDate = '2026-03-30';
 $pageFAQs = [
     ['q' => 'Is regular whey protein safe for hair?', 'a' => 'Yes, standard whey protein concentrate or isolate is safe for your hair. It is a pure protein source that actually supports hair keratin production. Problems arise only when whey is combined with testosterone boosters or excessive BCAA intake.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_7.png" alt="Does Whey Protein Cause Hair Loss - Gym Guide by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="Does Whey Protein Cause Hair Loss - Gym Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

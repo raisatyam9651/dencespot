@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use rice water for hair growth, strength, and shine. D
 $pageKeywords = 'rice water for hair, how to use rice water for hair growth, rice water hair rinse, fermented rice water, rice water benefits for hair, rice water hair treatment';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-rice-water-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How often should I use rice water on my hair?', 'a' => 'For most hair types, using rice water once or twice a week is ideal. Overuse can lead to protein overload, making hair stiff and brittle. Start with once a week and adjust based on how your hair responds.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Use Rice Water for Hair - Complete Guide by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to Use Rice Water for Hair - Complete Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->
@@ -94,7 +94,7 @@ include '../includes/page_head.php';
                 <p>For those looking to <a href="how-to-grow-hair-faster-tips-that-actually-work.php">grow hair faster with proven tips</a>, combining rice water rinses with regular scalp massages can amplify results significantly.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg border border-gray-100">
-                    <img src="../images/blog/hair-oil-massage.png" alt="Rice water hair treatment application" class="w-full">
+                    <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="Rice water hair treatment application" class="w-full">
                 </div>
 
                 <h2>Benefits of Rice Water for Hair</h2>

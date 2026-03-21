@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove facial hair naturally with turmeric, gram flour
 $pageKeywords = 'how to remove facial hair naturally, natural facial hair removal, turmeric for facial hair, gram flour face pack, chehre ke baal hatane ke gharelu nuskhe, facial hair removal home remedies, remove upper lip hair naturally';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-facial-hair-naturally.php';
 $currentPage = 'blog';
-$pageImage = 'images/laser-hair-removel-gurgaon.jpg';
+$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can turmeric permanently remove facial hair?', 'a' => 'Turmeric does not permanently remove facial hair. However, regular use of turmeric and gram flour paste weakens the hair follicles over time, making facial hair finer, lighter, and slower to grow back. For permanent removal, clinical treatments like laser hair removal are required.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/laser-hair-removel-gurgaon.jpg" alt="How to Remove Facial Hair Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="How to Remove Facial Hair Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

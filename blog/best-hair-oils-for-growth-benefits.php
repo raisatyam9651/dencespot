@@ -73,7 +73,7 @@ include '../includes/page_head.php';
                 <h2>How to Use Hair Oil for Growth Effectively</h2>
                 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg border border-gray-100">
-                    <img src="../images/blog/hair-oil-massage.png" alt="Hair Oil Massage" class="w-full">
+                    <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="Hair Oil Massage" class="w-full">
                 </div>
 
                 <h3>1. The Scalp Massage Technique</h3>

@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to make hair silky and smooth naturally at home. Expert t
 $pageKeywords = 'how to make hair silky, how to get silky hair, smooth and silky hair at home, make hair silky permanently, silky hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-make-hair-silky-smooth-naturally.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-vitamins-supplements.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How can I make my hair silky at home naturally?', 'a' => 'You can make your hair silky at home by using natural masks like coconut oil, aloe vera, egg, and banana. Combine these with a proper washing technique, cold water rinse, and a balanced diet rich in protein and omega-3 fatty acids for best results.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-vitamins-supplements.png" alt="How to make hair silky and smooth naturally at home" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="How to make hair silky and smooth naturally at home" class="w-full">
             </div>
 
             <!-- Content -->

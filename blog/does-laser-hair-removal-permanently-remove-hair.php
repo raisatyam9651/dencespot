@@ -4,7 +4,7 @@ $pageDesc = 'Does laser hair removal permanently remove hair? Learn the FDA clas
 $pageKeywords = 'does laser hair removal permanently remove hair, laser hair removal permanent, permanent hair reduction, laser hair removal results, laser hair removal Gurgaon, FDA laser hair removal, laser vs electrolysis, laser hair removal Indian skin';
 $pageCanonical = 'https://dencespot.com/blog/does-laser-hair-removal-permanently-remove-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/laser-hair-removel-gurgaon.jpg';
+$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is laser hair removal 100% permanent?', 'a' => 'No. The FDA classifies laser hair removal as "permanent hair reduction," not permanent removal. Most patients achieve 80-95% reduction after completing their sessions. Some fine hair may regrow over time, but it is typically lighter and thinner than the original hair.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/laser-hair-removel-gurgaon.jpg" alt="Does Laser Hair Removal Permanently Remove Hair - Science Explained by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="Does Laser Hair Removal Permanently Remove Hair - Science Explained by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

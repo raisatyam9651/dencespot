@@ -4,7 +4,7 @@ $pageDesc = 'Can hair really grow in one week? Discover the reality behind the m
 $pageKeywords = 'how to grow hair in 1 week, fast hair growth home remedies, grow hair overnight, quick hair growth, 1 hafte mein baal kaise badhaye';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-hair-in-1-week-reality-check.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/scalp-massage.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can hair really grow in 1 week?', 'a' => 'Hair growth is not noticeably visible within one week, as the average growth rate is approximately 0.5 inches per month. However, you can improve your scalp health in one week, which will help boost long-term hair growth.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/scalp-massage.png" alt="How to Grow Hair in 1 Week - Reality Check by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Grow Hair in 1 Week - Reality Check by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->
@@ -81,7 +81,7 @@ include '../includes/page_head.php';
                 <p>An alternative mask combines curd, honey, and banana. This is especially effective for dry and damaged hair. Taking the <a href="vitamins-nutrition-healthy-hair.php">right vitamins and nutrition</a> internally is equally important for hair health.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/hair-oil-massage.png" alt="Oil massage for hair growth" class="w-full">
+                    <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="Oil massage for hair growth" class="w-full">
                 </div>
 
                 <h3>Day 4-5: Scalp Exfoliation — Remove Dead Skin Buildup</h3>

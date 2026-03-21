@@ -59,7 +59,7 @@ include '../includes/page_head.php';
                 <h2>Essential Vitamins for Hair Growth</h2>
                 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/hair-vitamins-supplements.png" alt="Hair supplements" class="w-full">
+                    <img src="../images/blog/new/aloe_vera_gel_hair_1774106396792.png" alt="Hair supplements" class="w-full">
                 </div>
 
                 <h3>1. Biotin (Vitamin B7)</h3>

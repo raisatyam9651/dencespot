@@ -4,7 +4,7 @@ $pageDesc = 'Complete guide on how to remove underarm hair safely. Compare shavi
 $pageKeywords = 'how to remove underarm hair, underarm hair removal, laser hair removal underarms, underarm waxing, dark underarms treatment, ingrown hair underarms, smooth underarms, underarm hair removal gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-underarm-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/laser-hair-removel-gurgaon.jpg';
+$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the best method to remove underarm hair permanently?', 'a' => 'Laser hair removal is the most effective method for permanent underarm hair reduction. It targets the hair follicle directly, providing 80 to 95 percent reduction after 6 to 8 sessions. At DenceSpot Clinic, we use FDA-approved lasers safe for all Indian skin tones.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/laser-hair-removel-gurgaon.jpg" alt="How to Remove Underarm Hair - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="How to Remove Underarm Hair - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

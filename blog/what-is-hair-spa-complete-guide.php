@@ -4,7 +4,7 @@ $pageDesc = 'Discover what a hair spa is, how it works, its benefits for hair he
 $pageKeywords = 'what is hair spa, hair spa treatment, hair spa benefits, hair spa process, hair spa for dry hair, hair spa for damaged hair, hair spa Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/what-is-hair-spa-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-hair.png';
+$pageImage = 'images/blog/new/luxury_hair_spa_1774106621562.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How often should I get a hair spa?', 'a' => 'For best results, a hair spa should be done once every 2-4 weeks depending on your hair type and condition. Dry or damaged hair may benefit from more frequent sessions.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="What Is Hair Spa Treatment" class="w-full">
+                <img src="../images/blog/new/luxury_hair_spa_1774106621562.png" alt="What Is Hair Spa Treatment" class="w-full">
             </div>
 
             <!-- Content -->

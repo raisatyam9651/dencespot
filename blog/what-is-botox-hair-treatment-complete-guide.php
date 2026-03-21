@@ -4,7 +4,7 @@ $pageDesc = 'Learn everything about botox hair treatment - how it works, its ben
 $pageKeywords = 'what is botox hair treatment, hair botox, botox for hair, hair botox treatment, hair botox benefits, hair botox procedure, hair botox Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/what-is-botox-hair-treatment-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-hair.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is hair botox the same as regular Botox?', 'a' => 'No, hair botox does not contain botulinum toxin. It is called botox because it fills in and repairs damaged hair fibers, similar to how cosmetic Botox fills wrinkles. It is a deep conditioning treatment.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="Botox Hair Treatment" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="Botox Hair Treatment" class="w-full">
             </div>
 
             <!-- Content -->

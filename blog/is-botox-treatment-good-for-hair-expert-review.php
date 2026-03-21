@@ -4,7 +4,7 @@ $pageDesc = 'Is botox treatment actually good for your hair? Read our expert ana
 $pageKeywords = 'is botox treatment good for hair, hair botox results, hair botox pros cons, hair botox review, hair botox worth it, botox hair treatment benefits';
 $pageCanonical = 'https://dencespot.com/blog/is-botox-treatment-good-for-hair-expert-review.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-hair.png';
+$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Will hair botox make my hair straight?', 'a' => 'Hair botox does not straighten hair like a keratin treatment. It reduces frizz and makes hair more manageable while maintaining your natural curl pattern or wave. Your hair will look smoother but not pin-straight.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="Is Botox Treatment Good for Hair" class="w-full">
+                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="Is Botox Treatment Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

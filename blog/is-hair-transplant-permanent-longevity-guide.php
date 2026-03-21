@@ -4,7 +4,7 @@ $pageDesc = 'Is hair transplant really permanent? Learn how long hair transplant
 $pageKeywords = 'is hair transplant permanent, hair transplant results, hair transplant longevity, how long does hair transplant last, permanent hair restoration, hair transplant lifetime';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-transplant-permanent-longevity-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-hair.png';
+$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Will transplanted hair fall out with age?', 'a' => 'Transplanted hair is taken from the donor area at the back of the head, which is genetically resistant to balding. This hair retains its DHT-resistant properties even after transplantation, meaning it will not fall out due to pattern baldness.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-hair.png" alt="Is Hair Transplant Permanent" class="w-full">
+                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="Is Hair Transplant Permanent" class="w-full">
             </div>
 
             <!-- Content -->

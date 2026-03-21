@@ -4,7 +4,7 @@ $pageDesc = 'How can you prevent hair loss before it begins? Learn about early w
 $pageKeywords = 'how to prevent hair loss, hair loss prevention, stop hair loss early, baal jharne se kaise bachein, prevent baldness, hair loss prevention tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-prevent-hair-loss-before-it-starts.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-vitamins-supplements.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-22';
 $pageFAQs = [
     ['q' => 'Can hair loss be prevented completely?', 'a' => 'Genetic hair loss cannot be completely prevented, but it can be significantly slowed down. Lifestyle-related hair loss is almost 100% preventable if you take early action through a proper diet, scalp care, and preventive treatments.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-vitamins-supplements.png" alt="How to Prevent Hair Loss - Prevention Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="How to Prevent Hair Loss - Prevention Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

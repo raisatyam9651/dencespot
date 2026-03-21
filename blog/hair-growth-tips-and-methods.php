@@ -4,7 +4,7 @@ $pageDesc = 'Discover the best hair growth tips and methods to accelerate hair g
 $pageKeywords = 'hair growth tips, grow hair faster, hair growth methods, natural hair growth, scalp massage for hair growth, hair growth secrets';
 $pageCanonical = 'https://dencespot.com/blog/hair-growth-tips-and-methods.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-growth-tips-featured.png';
+$pageImage = 'images/blog/new/aloe_vera_gel_hair_1774106396792.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'How can I grow my hair 1 inch in a week?', 'a' => 'Biologically, it is impossible for hair to grow an inch in one week. Maximum rate is usually 0.5 inches per month.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-growth-tips-featured.png" alt="Hair Growth Tips" class="w-full">
+                <img src="../images/blog/new/aloe_vera_gel_hair_1774106396792.png" alt="Hair Growth Tips" class="w-full">
             </div>
 
             <!-- Content -->
@@ -61,7 +61,7 @@ include '../includes/page_head.php';
                 <p>Think of your scalp as the soil and your hair as the plants. You cannot grow a beautiful garden in poor soil. Therefore, maintaining peak scalp health is one of the most effective <strong>hair growth tips</strong> available today.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/scalp-massage.png" alt="Scalp massage" class="w-full">
+                    <img src="../images/blog/new/aloe_vera_gel_hair_1774106396792.png" alt="Scalp massage" class="w-full">
                 </div>
 
                 <h3>1. The Power of Scalp Massage</h3>

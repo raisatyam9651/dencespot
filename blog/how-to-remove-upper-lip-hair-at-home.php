@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove upper lip hair at home using wax strips, turmer
 $pageKeywords = 'how to remove upper lip hair at home, upper lip hair removal, DIY upper lip hair removal, sugar wax upper lip, turmeric for upper lip hair, threading upper lip at home, facial razor upper lip, at home IPL upper lip';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-upper-lip-hair-at-home.php';
 $currentPage = 'blog';
-$pageImage = 'images/laser-hair-removel-gurgaon.jpg';
+$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the safest way to remove upper lip hair at home?', 'a' => 'Threading and sugar waxing are the safest methods for removing upper lip hair at home. Both are gentle on sensitive skin, do not involve harsh chemicals, and cause minimal irritation when done correctly. Always do a patch test before trying any new method.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/laser-hair-removel-gurgaon.jpg" alt="How to Remove Upper Lip Hair at Home - DIY Methods by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="How to Remove Upper Lip Hair at Home - DIY Methods by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

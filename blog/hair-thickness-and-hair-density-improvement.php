@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to increase hair thickness and improve hair density natur
 $pageKeywords = 'hair thickness improvement, increase hair density, thick hair tips, thin hair solutions, improve hair volume, hair thickening treatments';
 $pageCanonical = 'https://dencespot.com/blog/hair-thickness-and-hair-density-improvement.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-thickness-density-featured.png';
+$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'Can I actually increase the number of follicles?', 'a' => 'You are born with all the follicles you will ever have, but many are dormant. Treatments like PRP can reactivate them.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-thickness-density-featured.png" alt="Hair Thickness" class="w-full">
+                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="Hair Thickness" class="w-full">
             </div>
 
             <!-- Content -->

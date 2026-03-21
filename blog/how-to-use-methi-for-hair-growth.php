@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use methi (fenugreek) for hair growth — methi paste,
 $pageKeywords = 'methi for hair growth, fenugreek for hair, methi hair mask, methi paste for hair, fenugreek seeds for hair fall, methi dana for hair, methi oil for hair growth';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-methi-for-hair-growth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-oil-massage.png';
+$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How long should I soak methi seeds before using them on hair?', 'a' => 'Soak methi seeds in water for at least 8 hours or overnight. This softens the seeds, activates the mucilage, and makes grinding easier. The soaking water itself becomes beneficial and can be used as a hair rinse.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-oil-massage.png" alt="How to Use Methi Fenugreek for Hair Growth - DenceSpot Expert Guide" class="w-full">
+                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="How to Use Methi Fenugreek for Hair Growth - DenceSpot Expert Guide" class="w-full">
             </div>
 
             <!-- Content -->

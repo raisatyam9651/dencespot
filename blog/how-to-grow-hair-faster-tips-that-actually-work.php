@@ -4,7 +4,7 @@ $pageDesc = 'How can you grow your hair faster? Explore expert-backed tips for f
 $pageKeywords = 'how to grow hair faster, fast hair growth tips, hair growth speed, grow hair quickly, baal tez kaise badhaye, hair growth tips in hindi';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-hair-faster-tips-that-actually-work.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-growth-tips-featured.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'How to grow hair faster naturally at home?', 'a' => 'To grow hair faster at home, consume a protein-rich diet, perform regular scalp massages, use nourishing hair oils, and avoid harsh chemical treatments. Biotin and iron supplements can also be highly beneficial.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-growth-tips-featured.png" alt="How to Grow Hair Faster - Expert Tips by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Grow Hair Faster - Expert Tips by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->
@@ -79,7 +79,7 @@ include '../includes/page_head.php';
                 <p>Many people dismiss dandruff as a minor concern, but dandruff and scalp inflammation can seriously impede hair growth. If you are experiencing itching, flaking, or redness, it is essential to address these issues first. Our <a href="../dandruff-treatment-in-gurgaon">advanced dandruff treatment in Gurgaon</a> targets scalp conditions at the root level.</p>
 
                 <div class="my-12 rounded-3xl overflow-hidden shadow-lg">
-                    <img src="../images/blog/scalp-massage.png" alt="Scalp massage for faster hair growth" class="w-full">
+                    <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="Scalp massage for faster hair growth" class="w-full">
                 </div>
 
                 <h2>Common Myths About Growing Hair Faster</h2>
