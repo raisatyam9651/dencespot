@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove facial hair at home safely using threading, wax
 $pageKeywords = 'how to remove facial hair at home, facial hair removal at home, remove face hair naturally, DIY facial hair removal, threading at home, waxing kit for face, turmeric for facial hair, sugaring at home, dermaplaning at home, face hair hatane ke tarike';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-facial-hair-at-home.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
+$pageImage = 'images/unwanted-hair.jpg';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the safest way to remove facial hair at home?', 'a' => 'Threading and sugaring are considered the safest at-home methods for facial hair removal. They are gentle on the skin, do not involve harsh chemicals, and carry a low risk of irritation or burns when done correctly.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Remove Facial Hair at Home - Safe DIY Methods by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/unwanted-hair.jpg" alt="How to Remove Facial Hair at Home - Safe DIY Methods by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

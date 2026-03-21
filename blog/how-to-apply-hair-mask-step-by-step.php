@@ -4,7 +4,7 @@ $pageDesc = 'Master the correct technique for applying hair mask with our detail
 $pageKeywords = 'how to apply hair mask, hair mask application, apply hair mask correctly, hair mask technique, hair mask step by step, deep conditioning application';
 $pageCanonical = 'https://dencespot.com/blog/how-to-apply-hair-mask-step-by-step.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Should I apply hair mask on wet or dry hair?', 'a' => 'Apply hair mask on damp, freshly shampooed hair. Squeeze out excess water first so the hair is damp but not dripping. This allows the mask to absorb properly without being diluted by excess water.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Apply Hair Mask" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Apply Hair Mask" class="w-full">
             </div>
 
             <!-- Content -->

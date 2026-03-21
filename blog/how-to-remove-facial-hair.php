@@ -4,7 +4,7 @@ $pageDesc = 'Comprehensive guide on how to remove facial hair using threading, w
 $pageKeywords = 'how to remove facial hair, facial hair removal methods, remove facial hair permanently, facial hair removal for women, laser facial hair removal gurgaon, threading vs waxing, facial hair treatment';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-facial-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
+$pageImage = 'assets/images/ht_gallery_extra_1.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the best method to remove facial hair permanently?', 'a' => 'Laser hair removal is the most effective method for permanent facial hair reduction. It targets the hair follicle with concentrated light, disabling future growth. At DenceSpot Clinic, we use advanced medical-grade lasers that are safe for all Indian skin tones and deliver up to 90% permanent reduction over 6 to 8 sessions.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="How to Remove Facial Hair - Complete Methods Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_1.png" alt="How to Remove Facial Hair - Complete Methods Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

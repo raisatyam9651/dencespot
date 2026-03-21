@@ -4,7 +4,7 @@ $pageDesc = 'Discover expert-backed tips on how to keep hair healthy. Learn abou
 $pageKeywords = 'how to keep hair healthy, healthy hair tips, strong hair, shiny hair naturally, hair health routine, maintain healthy hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-keep-hair-healthy-expert-tips.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/ht_gallery_extra_5.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What makes hair unhealthy?', 'a' => 'Poor nutrition, excessive heat styling, harsh chemical treatments, overwashing, and environmental damage are the most common factors that make hair unhealthy.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Keep Hair Healthy" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_5.png" alt="How to Keep Hair Healthy" class="w-full">
             </div>
 
             <!-- Content -->

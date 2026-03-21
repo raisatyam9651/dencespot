@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use rosemary water for hair growth with 3 preparation 
 $pageKeywords = 'rosemary water for hair growth, how to use rosemary water, rosemary water hair rinse, rosemary water benefits, rosemary water vs rosemary oil, rosemary water for dandruff';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-rosemary-water-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/ht_gallery_extra_4.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How long does it take for rosemary water to grow hair?', 'a' => 'Most people begin to notice reduced hair fall within 4 to 6 weeks of consistent use. Visible new hair growth typically becomes apparent after 3 to 6 months of regular application, similar to the timeline seen with minoxidil.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Use Rosemary Water for Hair Growth - Complete Guide by DenceSpot Clinic" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_4.png" alt="How to Use Rosemary Water for Hair Growth - Complete Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use rice water for hair growth, strength, and shine. D
 $pageKeywords = 'rice water for hair, how to use rice water for hair growth, rice water hair rinse, fermented rice water, rice water benefits for hair, rice water hair treatment';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-rice-water-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
+$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How often should I use rice water on my hair?', 'a' => 'For most hair types, using rice water once or twice a week is ideal. Overuse can lead to protein overload, making hair stiff and brittle. Start with once a week and adjust based on how your hair responds.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Use Rice Water for Hair - Complete Guide by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to Use Rice Water for Hair - Complete Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->
