@@ -4,7 +4,7 @@ $pageDesc = 'How can you increase hair density? Discover proven medical treatmen
 $pageKeywords = 'how to increase hair density, hair density improvement, thick hair tips, more hair per sq cm, baal ghane kaise karein, hair density treatment Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-increase-hair-density-proven-methods.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/ht_gallery_extra_3.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can hair density actually be increased?', 'a' => 'Yes, absolutely. Miniaturized and dormant follicles can be reactivated through PRP therapy, microneedling, and proper nutrition. Hair transplant allows new follicles to be permanently added to thinning areas.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Increase Hair Density - Proven Methods by DenceSpot Clinic" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_3.png" alt="How to Increase Hair Density - Proven Methods by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

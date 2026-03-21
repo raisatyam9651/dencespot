@@ -4,7 +4,7 @@ $pageDesc = 'How to grow hair without chemicals? Discover natural hair growth ti
 $pageKeywords = 'how to grow natural hair, natural hair growth, chemical free hair care, organic hair growth, bina chemical ke baal badhaye, natural hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-natural-hair-without-chemicals.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can I grow my hair naturally without any products?', 'a' => 'Yes, with a proper diet, regular scalp massage, adequate sleep, and stress management, hair can grow naturally. Products are helpful but not mandatory.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="How to Grow Natural Hair Without Chemicals - DenceSpot Guide" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Grow Natural Hair Without Chemicals - DenceSpot Guide" class="w-full">
             </div>
 
             <!-- Content -->

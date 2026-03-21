@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to make hair thicker and stronger with nutrition, product
 $pageKeywords = 'how to make hair thicker, make thin hair thick, strengthen hair, thicker stronger hair, hair strengthening tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-make-hair-thicker-and-stronger.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/hair_microneedling_indian_ba_1773724737453.png';
+$pageImage = 'assets/images/ht_gallery_extra_6.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can thin hair be made permanently thick and strong?', 'a' => 'Yes, with proper nutrition, lifestyle changes, and clinical treatments, hair can become permanently thicker and stronger. The key lies in consistent effort and treating the underlying cause.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="How to make hair thicker and stronger" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_6.png" alt="How to make hair thicker and stronger" class="w-full">
             </div>
 
             <!-- Content -->

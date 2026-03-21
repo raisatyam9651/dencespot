@@ -4,7 +4,7 @@ $pageDesc = 'How to stop hair fall immediately? Discover emergency hair fall tip
 $pageKeywords = 'how to stop hair fall immediately, stop hair fall fast, immediate hair fall solution, baal girna band kaise karein, emergency hair fall tips, hair fall treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-stop-hair-fall-immediately-emergency-tips.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/service-laser.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can hair fall be stopped immediately?', 'a' => 'Complete hair fall cannot be stopped in a single day, but certain immediate steps can help reduce damage — such as stopping heat styling, handling hair gently, and practising scalp massage. Clinical treatments like PRP typically show a noticeable reduction within 2-4 weeks.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Stop Hair Fall Immediately - Emergency Tips by DenceSpot Clinic" class="w-full">
+                <img src="../images/service-laser.png" alt="How to Stop Hair Fall Immediately - Emergency Tips by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

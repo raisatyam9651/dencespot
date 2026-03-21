@@ -4,7 +4,7 @@ $pageDesc = 'Is keratin treatment worth it? Discover the pros and cons of kerati
 $pageKeywords = 'is keratin treatment good for hair, keratin treatment pros cons, keratin treatment benefits, keratin treatment review, keratin smoothing treatment, keratin for frizzy hair';
 $pageCanonical = 'https://dencespot.com/blog/is-keratin-treatment-good-for-hair-pros-cons.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How long does keratin treatment last?', 'a' => 'A keratin treatment typically lasts 3-6 months depending on your hair type, washing frequency, and the specific product used. Using sulfate-free shampoo can help extend the results.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Is Keratin Treatment Good for Hair" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="Is Keratin Treatment Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'How to stop hair fall after Covid? Post-covid hair loss recovery pl
 $pageKeywords = 'how to stop hair fall after covid, post covid hair loss, telogen effluvium covid, covid ke baad baal girna, post covid hair fall treatment, hair loss after covid';
 $pageCanonical = 'https://dencespot.com/blog/how-to-stop-hair-fall-after-covid-recovery-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-24';
 $pageFAQs = [
     ['q' => 'Why does hair fall after covid?', 'a' => 'After Covid, a condition called Telogen Effluvium occurs due to the body\'s extreme stress response, which causes hair to prematurely enter the resting phase. High fever, inflammation, medications, and emotional stress all contribute to this condition. Shedding typically begins 2-3 months after recovery.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Stop Hair Fall After Covid - Recovery Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Stop Hair Fall After Covid - Recovery Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

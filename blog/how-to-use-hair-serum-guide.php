@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use hair serum correctly for smooth, shiny, and frizz-
 $pageKeywords = 'how to use hair serum, hair serum application, hair serum guide, hair serum for frizz, how to apply hair serum, serum for hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-hair-serum-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/dandruff_indian_ba_1773724686736.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can I use hair serum every day?', 'a' => 'Yes, you can use a lightweight hair serum daily. However, avoid applying too much as it can cause buildup. Use one to two drops for short hair and three to four drops for long hair.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Use Hair Serum" class="w-full">
+                <img src="../assets/images/dandruff_indian_ba_1773724686736.png" alt="How to Use Hair Serum" class="w-full">
             </div>
 
             <!-- Content -->

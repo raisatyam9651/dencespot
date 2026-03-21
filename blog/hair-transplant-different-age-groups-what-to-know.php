@@ -4,7 +4,7 @@ $pageDesc = 'Learn how age affects hair transplant eligibility, donor area quali
 $pageKeywords = 'hair transplant age groups, hair transplant under 25, hair transplant 30s 40s, best age for hair transplant, hair transplant 50 plus, FUE age eligibility Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-different-age-groups-what-to-know.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_1.png';
+$pageImage = 'images/blog/new/aloe_vera_gel_hair_1774106396792.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'What is the minimum age for a hair transplant in India?', 'a' => 'There is no strict legal minimum, but most reputable clinics strongly advise against surgery before age 25 because the loss pattern is typically still progressing and unpredictable.'],
@@ -40,7 +40,7 @@ include '../includes/page_head.php';
         <div class="container mx-auto">
 
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_1.png" alt="Hair Transplant for Different Age Groups" class="w-full">
+                <img src="../images/blog/new/aloe_vera_gel_hair_1774106396792.png" alt="Hair Transplant for Different Age Groups" class="w-full">
             </div>
 
             <div class="post-prose">

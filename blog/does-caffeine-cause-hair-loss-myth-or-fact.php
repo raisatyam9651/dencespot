@@ -4,7 +4,7 @@ $pageDesc = 'Does tea or coffee cause hair loss? The surprising truth is that ca
 $pageKeywords = 'does caffeine cause hair loss, coffee and hair loss, caffeine hair fall, chai coffee se baal girte hain kya, caffeine shampoo, caffeine hair growth';
 $pageCanonical = 'https://dencespot.com/blog/does-caffeine-cause-hair-loss-myth-or-fact.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/ht_gallery_extra_9.png';
 $pageDate = '2026-03-28';
 $pageFAQs = [
     ['q' => 'How many cups of tea or coffee per day are safe for hair health?', 'a' => 'Up to 3-4 cups (300-400mg of caffeine) per day is considered safe. Exceeding this amount may lead to dehydration, which can indirectly affect scalp health. In moderate amounts, caffeine consumption is actually beneficial for hair.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Does Caffeine Cause Hair Loss - Myth or Fact Explained by DenceSpot Clinic" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_9.png" alt="Does Caffeine Cause Hair Loss - Myth or Fact Explained by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

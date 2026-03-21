@@ -4,7 +4,7 @@ $pageDesc = 'Expert dermatologist guide on how to increase hair thickness. Learn
 $pageKeywords = 'how to increase hair thickness, thicker hair tips, hair thickening treatment, improve hair thickness, thick hair dermatologist tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-increase-hair-thickness-dermatologist-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
+$pageImage = 'assets/images/ht_gallery_extra_8.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can thin hair become permanently thick?', 'a' => 'Yes, with the right treatment and diet, thin hair can become thicker. Clinical treatments such as PRP and microneedling can strengthen the follicles and improve the thickness of the hair shaft.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to increase hair thickness - dermatologist guide" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_8.png" alt="How to increase hair thickness - dermatologist guide" class="w-full">
             </div>
 
             <!-- Content -->

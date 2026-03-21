@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to repair damaged hair with expert restoration tips. L
 $pageKeywords = 'how to repair damaged hair, fix damaged hair, hair restoration tips, broken hair repair, damaged hair treatment, hair repair at home';
 $pageCanonical = 'https://dencespot.com/blog/how-to-repair-damaged-hair-restoration-tips.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/blog/new/curd_hair_mask_1774106415110.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can damaged hair be fully repaired?', 'a' => 'Once hair is severely damaged, it cannot be fully restored to its original state since hair is dead tissue. However, you can significantly improve its appearance and prevent further damage. Trimming damaged ends and nurturing new growth is the most effective long-term strategy.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Repair Damaged Hair" class="w-full">
+                <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="How to Repair Damaged Hair" class="w-full">
             </div>
 
             <!-- Content -->

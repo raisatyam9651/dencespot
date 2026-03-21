@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to know your hair type with our complete guide covering s
 $pageKeywords = 'how to know your hair type, hair type chart, hair texture types, straight wavy curly coily hair, hair type classification, identify hair type';
 $pageCanonical = 'https://dencespot.com/blog/how-to-know-your-hair-type-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How many hair types are there?', 'a' => 'There are four main hair types: Type 1 (straight), Type 2 (wavy), Type 3 (curly), and Type 4 (coily). Each type is further divided into subtypes A, B, and C based on the tightness of the pattern.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Know Your Hair Type" class="w-full">
+                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="How to Know Your Hair Type" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Want to regrow your hair naturally? Stop hair loss and regrow hair 
 $pageKeywords = 'how to stop hair loss and regrow hair naturally, regrow hair naturally, natural hair regrowth, baal wapas ugana, stop hair loss, hair regrowth tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-stop-hair-loss-and-regrow-hair-naturally.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-growth-lifestyle.png';
+$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
 $pageDate = '2026-03-23';
 $pageFAQs = [
     ['q' => 'Can lost hair really grow back naturally?', 'a' => 'Yes, if the follicles are still active (merely dormant or miniaturized), hair regrowth through natural methods is entirely possible. However, if the follicles are permanently dead (smooth, shiny bald areas), natural regrowth will not occur — a hair transplant would be required in such cases.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-growth-lifestyle.png" alt="How to Stop Hair Loss and Regrow Hair Naturally - Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="How to Stop Hair Loss and Regrow Hair Naturally - Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

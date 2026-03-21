@@ -4,7 +4,7 @@ $pageDesc = 'A complete step-by-step guide to what happens during hair transplan
 $pageKeywords = 'hair transplant procedure steps, what happens during hair transplant, FUE surgery experience, hair transplant day of, hair transplant gurgaon, DenceSpot';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-surgery-step-by-step-patient-experience.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/tech-procedure.png';
+$pageImage = 'assets/images/hair_microneedling_indian_ba_1773724737453.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Is hair transplant surgery painful?', 'a' => 'The procedure itself is not painful once local anaesthesia is in effect. The most uncomfortable moment is the anaesthesia injection phase, which lasts 1-2 minutes per zone.'],
@@ -39,7 +39,7 @@ include '../includes/page_head.php';
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             <div class="post-featured-image">
-                <img src="../assets/images/tech-procedure.png" alt="Patient undergoing hair transplant surgery step by step" class="w-full">
+                <img src="../assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Patient undergoing hair transplant surgery step by step" class="w-full">
             </div>
             <div class="post-prose">
 

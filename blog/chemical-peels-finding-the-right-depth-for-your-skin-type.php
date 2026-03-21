@@ -4,7 +4,7 @@ $pageDesc = 'Discover the complete guide to chemical peels. Learn about differen
 $pageKeywords = 'chemical peels guide, superficial peel, medium depth peel, deep chemical peel, skin resurfacing gurgaon, acid peel types';
 $pageCanonical = 'https://dencespot.com/blog/chemical-peels-finding-the-right-depth-for-your-skin-type.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-skin.png';
+$pageImage = 'images/hair-transplant.jpg';
 $pageDate = '2026-01-08';
 $pageFAQs = [
     ['q' => 'Will my skin really peel in sheets?', 'a' => 'Light peels only cause mild flaking. Medium-depth peels will peel significantly over 5-7 days.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-skin.png" alt="Chemical Peels" class="w-full">
+                <img src="../images/hair-transplant.jpg" alt="Chemical Peels" class="w-full">
             </div>
 
             <!-- Content -->

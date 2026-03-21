@@ -4,7 +4,7 @@ $pageDesc = 'Explore the complete benefits of a Hydrafacial treatment. Learn how
 $pageKeywords = 'hydrafacial benefits, skin rejuvenation gurgaon, facial treatments, deep pore cleansing, hydradermabrasion, glowing skin';
 $pageCanonical = 'https://dencespot.com/blog/benefits-of-hydrafacial-how-it-transforms-your-skin.php';
 $currentPage = 'blog';
-$pageImage = 'images/hydrafacial.jpg';
+$pageImage = 'assets/images/ht_gallery_extra_1.png';
 $pageDate = '2026-02-18';
 $pageFAQs = [
     ['q' => 'How often should I get a Hydrafacial?', 'a' => 'Most dermatologists recommend every 4 to 6 weeks for optimal skin health.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/hydrafacial.jpg" alt="Hydrafacial Treatment" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_1.png" alt="Hydrafacial Treatment" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to increase hair volume with expert tips, styling tric
 $pageKeywords = 'how to increase hair volume, hair volume tips, voluminous hair, fuller hair, hair volume treatment Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-increase-hair-volume-tips-treatments.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/hair-serum-application.png';
+$pageImage = 'images/blog/new/onion_juice_hair_1774106455069.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'What is the difference between hair volume and hair density?', 'a' => 'Hair volume refers to the overall fullness you see and feel in your hair. Hair density refers to the number of hair strands per square centimeter. Volume is a combination of density, thickness, and styling techniques.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/hair-serum-application.png" alt="How to increase hair volume - tips and treatments" class="w-full">
+                <img src="../images/blog/new/onion_juice_hair_1774106455069.png" alt="How to increase hair volume - tips and treatments" class="w-full">
             </div>
 
             <!-- Content -->

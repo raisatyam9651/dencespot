@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to thicken hair naturally with proven home remedies. R
 $pageKeywords = 'how to thicken hair naturally, natural hair thickening, home remedies thick hair, thicken thin hair, natural thick hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-thicken-hair-naturally-home-remedies.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/rosemary-oil-preparation.png';
+$pageImage = 'assets/images/ht_gallery_extra_7.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can hair be thickened naturally at home?', 'a' => 'Yes, natural remedies such as rosemary oil, castor oil, egg masks, and onion juice can effectively improve hair thickness. Consistency is essential — with regular use over a period of at least 2 to 3 months, visible results can be expected.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/rosemary-oil-preparation.png" alt="How to thicken hair naturally with home remedies" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_7.png" alt="How to thicken hair naturally with home remedies" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'How to stop white hair from growing? A complete guide covering natu
 $pageKeywords = 'how to stop white hair, stop white hair growth, white hair solution, premature white hair treatment, stop grey hair, safed baal kaise roke, white hair treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-stop-white-hair';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_2.png';
+$pageImage = 'assets/images/skin_treatment_indian_ba_1773724789009.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair be permanently stopped?', 'a' => 'If white hair is caused by genetics or natural ageing, permanently stopping it is difficult. However, if premature greying is due to stress, nutritional deficiency, or lifestyle factors, it can be slowed down or partially reversed with proper treatment and dietary changes.'],

@@ -4,7 +4,7 @@ $pageDesc = 'How to stop grey hair naturally? Expert guide with home remedies, d
 $pageKeywords = 'how to stop grey hair, stop grey hair naturally, grey hair treatment, premature grey hair solution, grey hair home remedies, grey baal kaise roke, grey hair treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-stop-grey-hair';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_3.png';
+$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can grey hair be permanently stopped?', 'a' => 'If the cause of greying is nutritional deficiency, stress, or poor lifestyle habits, then yes — grey hair can be reversed or slowed down. However, if the cause is purely genetic, permanently stopping it is difficult. At DenceSpot Clinic, we offer advanced treatments such as PRP and melanocyte-stimulating therapies that can significantly slow down grey hair progression.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_3.png" alt="How to Stop Grey Hair Naturally - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to Stop Grey Hair Naturally - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

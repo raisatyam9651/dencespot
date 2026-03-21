@@ -4,7 +4,7 @@ $pageDesc = 'Expert guide on hair transplant safety for patients with diabetes o
 $pageKeywords = 'hair transplant diabetes, hair transplant high blood pressure, FUE surgery diabetic patient, HbA1c hair transplant, BP patients hair surgery, hair restoration medical conditions Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-diabetes-blood-pressure-patients.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_hairline_real.png';
+$pageImage = 'images/blog/new/keratin_hair_treatment_1774106603876.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'What HbA1c level is safe for hair transplant surgery?', 'a' => 'At DenceSpot, we generally proceed when HbA1c is 7.5% or below. Levels between 7.5% and 8.5% are reviewed case-by-case. Levels above 8.5% are considered a deferral criterion.'],
@@ -40,7 +40,7 @@ include '../includes/page_head.php';
         <div class="container mx-auto">
 
             <div class="post-featured-image">
-                <img src="../assets/images/ht_hairline_real.png" alt="Hair Transplant for Diabetes and Blood Pressure Patients" class="w-full">
+                <img src="../images/blog/new/keratin_hair_treatment_1774106603876.png" alt="Hair Transplant for Diabetes and Blood Pressure Patients" class="w-full">
             </div>
 
             <div class="post-prose">

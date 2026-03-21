@@ -4,7 +4,7 @@ $pageDesc = 'Can white hair turn black again naturally? Discover the scientific 
 $pageKeywords = 'can white hair turn black again, reverse grey hair, white hair reversal, safed baal wapas kale ho sakte hain, grey hair reversal treatment, reverse premature greying, white hair cure gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/can-white-hair-turn-black-again';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/hair_microneedling_indian_ba_1773724737453.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair turn black again naturally?', 'a' => 'In some cases, yes. If greying is caused by stress, nutritional deficiencies (B12, iron, Vitamin D), or thyroid imbalance, treating the underlying cause can restore hair colour. However, genetic or age-related greying is permanent and does not reverse naturally.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Can White Hair Turn Black Again - Truth Revealed by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../assets/images/hair_microneedling_indian_ba_1773724737453.png" alt="Can White Hair Turn Black Again - Truth Revealed by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

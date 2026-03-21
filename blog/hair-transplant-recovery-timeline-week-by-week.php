@@ -4,7 +4,7 @@ $pageDesc = 'A complete week-by-week hair transplant recovery guide. Learn what 
 $pageKeywords = 'hair transplant recovery, hair transplant healing timeline, post hair transplant care, shock loss after hair transplant, hair transplant week by week, hair regrowth timeline gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-recovery-timeline-week-by-week.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht-success-1.png';
+$pageImage = 'assets/images/ht_gallery_extra_4.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Is shock loss after a hair transplant permanent?', 'a' => 'No. Shock loss is a temporary shedding of the transplanted hair shafts. The follicles remain alive beneath the scalp. New hair regrows from the same follicles within three to five months.'],
@@ -39,7 +39,7 @@ include '../includes/page_head.php';
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             <div class="post-featured-image">
-                <img src="../assets/images/ht-success-1.png" alt="Hair transplant recovery timeline week by week" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_4.png" alt="Hair transplant recovery timeline week by week" class="w-full">
             </div>
             <div class="post-prose">
                 <p class="text-xl leading-relaxed text-gray-600 mb-10 italic border-l-4 border-medicalTeal pl-6">One of the most common anxieties patients have after undergoing a <a href="../hair-transplant-in-gurgaon.php">hair transplant in Gurgaon</a> is not knowing what "normal" looks like during recovery. This comprehensive guide walks you through every phase — from the first hours after surgery all the way to your final result at month twelve.</p>

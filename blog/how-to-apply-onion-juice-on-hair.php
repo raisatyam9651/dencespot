@@ -4,7 +4,7 @@ $pageDesc = 'Learn exactly how to apply onion juice on hair for maximum hair gro
 $pageKeywords = 'how to apply onion juice on hair, onion juice for hair growth, onion juice application method, onion juice hair treatment, onion hair mask, reduce hair fall with onion juice';
 $pageCanonical = 'https://dencespot.com/blog/how-to-apply-onion-juice-on-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/onion_juice_hair_1774106455069.png';
+$pageImage = 'assets/images/ht_gallery_extra_9.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How long should I leave onion juice on my hair?', 'a' => 'Leave onion juice on your scalp for 30 to 45 minutes for best results. If you have a sensitive scalp, start with 15-20 minutes and gradually increase the duration. Never leave it on overnight as it can cause irritation and dryness.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/onion_juice_hair_1774106455069.png" alt="How to Apply Onion Juice on Hair - Step-by-Step Guide by DenceSpot Clinic" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_9.png" alt="How to Apply Onion Juice on Hair - Step-by-Step Guide by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

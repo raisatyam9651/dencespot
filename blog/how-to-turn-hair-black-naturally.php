@@ -4,7 +4,7 @@ $pageDesc = 'How to turn white hair black naturally without dye? Discover proven
 $pageKeywords = 'how to turn hair black naturally, white hair to black naturally, safed baal kale karne ke upay, natural hair blackening, turn grey hair black, black hair home remedies, hair blackening treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-turn-hair-black-naturally';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
+$pageImage = 'images/blog/new/keratin_hair_treatment_1774106603876.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair really be turned black naturally?', 'a' => 'Yes, if the cause of white hair is nutritional deficiency, stress, or a poor lifestyle, natural remedies and dietary changes can help boost melanin production again. However, if the cause is genetic, complete reversal is difficult — in such cases, clinical treatments tend to be more effective.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to Turn White Hair Black Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/keratin_hair_treatment_1774106603876.png" alt="How to Turn White Hair Black Naturally - Home Remedies by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Learn why hair transplant results can disappoint—poor clinic choi
 $pageKeywords = 'hair transplant results, poor hair transplant outcome, graft survival, shock loss after transplant, hair transplant failure, best hair transplant gurgaon, DenceSpot';
 $pageCanonical = 'https://dencespot.com/blog/why-patients-dont-get-desired-results-hair-transplant.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/indian-ht-result-2.png';
+$pageImage = 'assets/images/ht_gallery_extra_10.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Why does my transplanted hair look thin even after a year?', 'a' => 'Possible causes include a lower-than-average graft survival rate due to handling errors, insufficient grafts placed per square centimetre, or ongoing native hair loss in surrounding areas. A trichoscopic review can identify the cause.'],
@@ -39,7 +39,7 @@ include '../includes/page_head.php';
     <article class="post-article relative z-20">
         <div class="container mx-auto">
             <div class="post-featured-image">
-                <img src="../assets/images/indian-ht-result-2.png" alt="Patient disappointed with hair transplant results" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_10.png" alt="Patient disappointed with hair transplant results" class="w-full">
             </div>
             <div class="post-prose">
 

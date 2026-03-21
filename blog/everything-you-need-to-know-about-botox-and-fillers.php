@@ -4,7 +4,7 @@ $pageDesc = 'Discover the complete guide to anti-ageing injectables. We break do
 $pageKeywords = 'botox vs fillers, anti-ageing treatments, lip fillers gurgaon, botox for wrinkles, dermal fillers guide, aesthetic injectables';
 $pageCanonical = 'https://dencespot.com/blog/everything-you-need-to-know-about-botox-and-fillers.php';
 $currentPage = 'blog';
-$pageImage = 'images/botox.jpg';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-02-12';
 $pageFAQs = [
     ['q' => 'Will my face look frozen?', 'a' => 'No. When administered by professionals, Botox relaxes only specific muscles, maintaining natural expression.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/botox.jpg" alt="Botox and Fillers" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="Botox and Fillers" class="w-full">
             </div>
 
             <!-- Content -->

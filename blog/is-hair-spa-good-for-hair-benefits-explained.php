@@ -4,7 +4,7 @@ $pageDesc = 'Find out if hair spa is actually good for your hair. Learn about th
 $pageKeywords = 'is hair spa good for hair, hair spa benefits, hair spa side effects, hair spa treatment results, hair spa advantages, hair spa for hair growth';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-spa-good-for-hair-benefits-explained.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/keratin_hair_treatment_1774106603876.png';
+$pageImage = 'images/blog/new/luxury_hair_spa_1774106621562.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can hair spa cause hair fall?', 'a' => 'No, a properly done hair spa does not cause hair fall. In fact, it strengthens hair roots and reduces breakage. However, using harsh products or excessive pulling during the massage can cause temporary shedding.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/keratin_hair_treatment_1774106603876.png" alt="Is Hair Spa Good for Hair" class="w-full">
+                <img src="../images/blog/new/luxury_hair_spa_1774106621562.png" alt="Is Hair Spa Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

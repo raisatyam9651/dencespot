@@ -4,7 +4,7 @@ $pageDesc = 'Explore the best oils for hair growth and learn how to use them eff
 $pageKeywords = 'best oils for hair growth, oils to grow hair, natural hair oils, how to use hair oil for growth, rosemary oil for hair, coconut oil benefits';
 $pageCanonical = 'https://dencespot.com/blog/best-hair-oils-for-growth-benefits.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/best-hair-oils-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'How often should I oil my hair for growth?', 'a' => 'Oiling 1-2 times per week is generally sufficient for most hair types. Over-oiling can lead to scalp buildup.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/best-hair-oils-featured.png" alt="Best Hair Oils" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Best Hair Oils" class="w-full">
             </div>
 
             <!-- Content -->

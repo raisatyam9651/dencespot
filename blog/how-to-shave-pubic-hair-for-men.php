@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to shave pubic hair for men safely. Expert step-by-step g
 $pageKeywords = 'how to shave pubic hair for men, male pubic hair shaving, pubic hair grooming men, razor bumps pubic area, ingrown hair prevention, pubic hair removal men, male grooming gurgaon, laser hair removal intimate area';
 $pageCanonical = 'https://dencespot.com/blog/how-to-shave-pubic-hair-for-men.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
+$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is it safe to shave pubic hair for men?', 'a' => 'Yes, it is safe to shave pubic hair as long as you follow the correct technique. Always trim the hair short first, use a sharp single-blade or safety razor, shave in the direction of hair growth, and apply a soothing aftercare product to prevent irritation.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="How to Shave Pubic Hair for Men - Safe Grooming Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="How to Shave Pubic Hair for Men - Safe Grooming Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

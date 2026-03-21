@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to reduce white hair naturally with proven home remedies,
 $pageKeywords = 'how to reduce white hair, reduce white hair naturally, white hair treatment, premature greying solution, reduce grey hair, white hair home remedies, white hair treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-reduce-white-hair';
 $currentPage = 'blog';
-$pageImage = 'images/blog/stop-white-hair-treatment.png';
+$pageImage = 'assets/images/dandruff_indian_ba_1773724686736.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair be reduced naturally?', 'a' => 'Yes, if you are experiencing premature greying, natural remedies, a proper diet, and lifestyle changes can significantly reduce white hair. Ingredients such as amla, curry leaves, and bhringraj help boost melanin production. However, if the greying is genetic, clinical treatments like PRP tend to be more effective.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/stop-white-hair-treatment.png" alt="How to reduce white hair naturally - DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../assets/images/dandruff_indian_ba_1773724686736.png" alt="How to reduce white hair naturally - DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

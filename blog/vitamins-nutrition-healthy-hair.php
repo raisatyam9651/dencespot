@@ -4,7 +4,7 @@ $pageDesc = 'Learn which vitamins and nutrients are essential for healthy hair. 
 $pageKeywords = 'vitamins for hair growth, nutrition for healthy hair, best supplements for hair, hair growth diet, biotin for hair, iron deficiency hair loss';
 $pageCanonical = 'https://dencespot.com/blog/vitamins-nutrition-healthy-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/vitamins-for-hair-featured.png';
+$pageImage = 'assets/images/ht_gallery_extra_9.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'How long for diet changes to show?', 'a' => 'Typically takes 3 to 6 months of consistent dietary improvement to notice a change in quality.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/vitamins-for-hair-featured.png" alt="Hair Vitamins" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_9.png" alt="Hair Vitamins" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Discover if you qualify for a hair transplant. Learn the medical cr
 $pageKeywords = 'hair transplant eligibility, who qualifies for hair transplant, Norwood scale hair loss, hair transplant criteria, hair transplant age, hair loss treatment Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-transplant-right-for-you-eligibility-guide.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_success_real.png';
+$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'At what age can I get a hair transplant in India?', 'a' => 'Most surgeons recommend waiting until at least 25 years of age, when hair loss patterns are more predictable. Younger patients are typically guided through medical management first.'],
@@ -44,7 +44,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_success_real.png" alt="Patient consultation for hair transplant eligibility assessment at DenceSpot Gurgaon" class="w-full">
+                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="Patient consultation for hair transplant eligibility assessment at DenceSpot Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

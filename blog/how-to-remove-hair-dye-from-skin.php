@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove hair dye from skin safely using home remedies a
 $pageKeywords = 'how to remove hair dye from skin, remove hair color stains, dye stain removal skin, hair dye on forehead, hair dye removal tips, hair color skin stains';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-hair-dye-from-skin.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How long does hair dye stay on skin?', 'a' => 'Hair dye stains on skin typically fade on their own within one to three days as your skin naturally exfoliates. However, using removal methods can eliminate stains within minutes.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Remove Hair Dye from Skin" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Remove Hair Dye from Skin" class="w-full">
             </div>
 
             <!-- Content -->

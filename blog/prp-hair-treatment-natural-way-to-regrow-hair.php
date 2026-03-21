@@ -4,7 +4,7 @@ $pageDesc = 'Learn everything about Platelet-Rich Plasma (PRP) for hair loss. Di
 $pageKeywords = 'PRP hair treatment, platelet rich plasma, natural hair regrowth, hair thinning solution, PRP for hair loss, growth factors hair';
 $pageCanonical = 'https://dencespot.com/blog/prp-hair-treatment-natural-way-to-regrow-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
+$pageImage = 'images/laser-hair-india.png';
 $pageDate = '2026-01-21';
 $pageFAQs = [
     ['q' => 'How many sessions are needed?', 'a' => 'Typically 3-4 initial sessions, followed by maintenance every 6-12 months to keep follicles active.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="PRP Hair Treatment" class="w-full">
+                <img src="../images/laser-hair-india.png" alt="PRP Hair Treatment" class="w-full">
             </div>
 
             <!-- Content -->

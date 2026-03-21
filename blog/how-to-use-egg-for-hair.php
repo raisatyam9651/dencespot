@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to use egg for hair growth, thickness, and repair. Exp
 $pageKeywords = 'how to use egg for hair, egg for hair growth, egg hair mask, egg benefits for hair, egg and olive oil hair mask, egg for hair fall';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-egg-for-hair';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
+$pageImage = 'images/acne.jpg';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How many eggs should I use for one hair mask?', 'a' => 'For short hair, 1 egg is sufficient. For medium-length hair, use 2 eggs. For long or very thick hair, use 2-3 eggs. Adjust the quantity based on how well the mixture covers all your hair.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="How to use egg for hair benefits masks and expert tips" class="w-full">
+                <img src="../images/acne.jpg" alt="How to use egg for hair benefits masks and expert tips" class="w-full">
             </div>
 
             <!-- Content -->

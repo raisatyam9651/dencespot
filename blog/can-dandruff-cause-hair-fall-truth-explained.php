@@ -4,7 +4,7 @@ $pageDesc = 'Can dandruff really cause hair fall? Learn the real connection betw
 $pageKeywords = 'can dandruff cause hair fall, dandruff and hair loss, dandruff se baal jharte hain kya, dandruff hair fall connection, dandruff treatment, scalp health';
 $pageCanonical = 'https://dencespot.com/blog/can-dandruff-cause-hair-fall-truth-explained.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/acne.jpg';
 $pageDate = '2026-03-26';
 $pageFAQs = [
     ['q' => 'Can dandruff cause permanent hair loss?', 'a' => 'Normal dandruff does not cause permanent hair loss. However, if severe seborrheic dermatitis is left untreated for a prolonged period, follicle damage may occur. With timely treatment, this condition is completely reversible.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Can Dandruff Cause Hair Fall - Truth Explained by DenceSpot Clinic" class="w-full">
+                <img src="../images/acne.jpg" alt="Can Dandruff Cause Hair Fall - Truth Explained by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

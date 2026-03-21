@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to control hair fall effectively. Expert guide covering c
 $pageKeywords = 'how to control hair fall, hair fall control tips, stop hair fall, reduce hair fall, baal jharne ka ilaaj, hair fall treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-control-hair-fall-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
+$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'How can I control hair fall at home?', 'a' => 'To control hair fall at home, follow a protein-rich diet, use a gentle shampoo, perform a weekly oil massage, manage your stress levels, and avoid harsh chemical treatments. Biotin and iron supplements can also be helpful if you have a deficiency.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Control Hair Fall - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Control Hair Fall - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Avoid the most damaging hair transplant mistakes — from choosing 
 $pageKeywords = 'hair transplant mistakes, hair transplant gone wrong, bad hair transplant, post op hair care, choosing hair transplant clinic, hair restoration errors gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/hair-transplant-gone-wrong-common-patient-mistakes.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_success_real_1.png';
+$pageImage = 'images/blog/new/curd_hair_mask_1774106415110.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can a bad hair transplant be corrected?', 'a' => 'In many cases, yes — but corrective work is significantly more difficult than a well-planned primary procedure. If grafts were placed at incorrect angles, the surgeon must re-implant or surgically remove them.'],
@@ -44,7 +44,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_success_real_1.png" alt="Hair transplant mistakes to avoid" class="w-full">
+                <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="Hair transplant mistakes to avoid" class="w-full">
             </div>
 
             <!-- Content -->

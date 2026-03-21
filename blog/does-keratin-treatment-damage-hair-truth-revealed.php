@@ -4,7 +4,7 @@ $pageDesc = 'Does keratin treatment damage hair? Learn the truth about keratin s
 $pageKeywords = 'does keratin treatment damage hair, keratin treatment side effects, keratin treatment risks, keratin hair damage, keratin formaldehyde, keratin treatment long term effects';
 $pageCanonical = 'https://dencespot.com/blog/does-keratin-treatment-damage-hair-truth-revealed.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
+$pageImage = 'images/hair-transplant.jpg';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can keratin treatment cause hair loss?', 'a' => 'Keratin treatment itself does not directly cause hair loss. However, the high heat used during the sealing process and the chemicals in some formulas can weaken hair over time, potentially leading to increased breakage and thinning with repeated treatments.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Does Keratin Treatment Damage Hair" class="w-full">
+                <img src="../images/hair-transplant.jpg" alt="Does Keratin Treatment Damage Hair" class="w-full">
             </div>
 
             <!-- Content -->

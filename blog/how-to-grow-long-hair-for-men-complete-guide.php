@@ -4,7 +4,7 @@ $pageDesc = 'How can men grow long hair? A complete guide covering grooming, die
 $pageKeywords = 'how to grow long hair men, men long hair tips, male hair growth, grow hair for men, ladko ke baal kaise badhaye, men hair growth guide';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-long-hair-for-men-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_2.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'How long does it take for men to grow long hair?', 'a' => 'The average male hair growth rate is 0.5 inches per month. It typically takes approximately 18 to 24 months to achieve shoulder-length hair, depending on your starting length and overall hair health.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_2.png" alt="How to Grow Long Hair for Men - DenceSpot Clinic Guide" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Grow Long Hair for Men - DenceSpot Clinic Guide" class="w-full">
             </div>
 
             <!-- Content -->

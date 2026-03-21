@@ -4,7 +4,7 @@ $pageDesc = 'Which vitamin deficiency causes white hair? B12, D3, iron, copper, 
 $pageKeywords = 'which vitamin deficiency causes white hair, vitamin deficiency white hair, b12 deficiency grey hair, vitamin d white hair, iron deficiency grey hair, safed baal vitamin ki kami, white hair vitamin treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/which-vitamin-deficiency-causes-white-hair';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_9.png';
+$pageImage = 'assets/images/ht_gallery_extra_10.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can vitamin B12 deficiency cause white hair?', 'a' => 'Yes, vitamin B12 deficiency is the most common cause of premature greying. B12 is essential for melanin production, and without it, hair follicles stop producing pigment.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_9.png" alt="Which Vitamin Deficiency Causes White Hair" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_10.png" alt="Which Vitamin Deficiency Causes White Hair" class="w-full">
             </div>
 
             <!-- Content -->

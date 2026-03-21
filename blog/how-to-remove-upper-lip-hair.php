@@ -4,7 +4,7 @@ $pageDesc = 'Discover the best methods to remove upper lip hair safely and effec
 $pageKeywords = 'how to remove upper lip hair, upper lip hair removal, upper lip waxing, upper lip threading, laser upper lip hair removal, upper lip bleaching, upper lip hair removal gurgaon, facial hair removal women';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-upper-lip-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
+$pageImage = 'assets/images/ht_gallery_extra_10.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the best method to remove upper lip hair?', 'a' => 'The best method depends on your skin type and goals. For temporary removal, threading and waxing are popular and affordable. For long-term results, laser hair removal is the most effective option, offering up to 90 percent reduction in hair growth after a full course of sessions.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Remove Upper Lip Hair - Best Methods Compared by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_10.png" alt="How to Remove Upper Lip Hair - Best Methods Compared by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

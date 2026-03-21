@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to use onion juice for hair growth, dandruff control, 
 $pageKeywords = 'onion juice for hair growth, onion juice for dandruff, onion juice for hair thickness, onion juice hair recipes, onion juice benefits for hair, how to use onion juice for hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-onion-juice-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
+$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'How long does it take for onion juice to show results on hair?', 'a' => 'Most people begin to notice a reduction in hair fall within 3-4 weeks of consistent use. Visible new hair growth typically appears between 6-8 weeks. For significant improvements in thickness and density, you should continue the treatment for at least 3 months.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="How to Use Onion Juice for Hair Growth, Dandruff, and Thickness - DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Use Onion Juice for Hair Growth, Dandruff, and Thickness - DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

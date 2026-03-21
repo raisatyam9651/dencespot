@@ -4,7 +4,7 @@ $pageDesc = 'Does hair dryer damage hair? Discover the science behind heat damag
 $pageKeywords = 'does hair dryer damage hair, blow dryer damage, heat damage hair, hair dryer effects, blow drying hair damage, protect hair from heat';
 $pageCanonical = 'https://dencespot.com/blog/does-hair-dryer-damage-hair-truth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Does using a hair dryer every day damage hair?', 'a' => 'Daily use of a hair dryer on high heat without protection can cause cumulative damage including dryness, split ends, and breakage. However, using low heat with a heat protectant and proper technique minimizes the risk significantly.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Does Hair Dryer Damage Hair" class="w-full">
+                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="Does Hair Dryer Damage Hair" class="w-full">
             </div>
 
             <!-- Content -->

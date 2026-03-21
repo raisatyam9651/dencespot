@@ -4,7 +4,7 @@ $pageDesc = 'Why does hair become white at a young age? Complete scientific expl
 $pageKeywords = 'why hair become white, why does hair turn white, causes of white hair, premature greying causes, baal safed kyun hote hain, white hair reason, hair greying science, white hair causes gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/why-hair-become-white';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_8.png';
+$pageImage = 'images/blog/new/curd_hair_mask_1774106415110.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair turn black again?', 'a' => 'If greying is caused by nutritional deficiency, stress, or thyroid imbalance, then yes — some white hairs can regain pigmentation after the root cause is treated. However, if greying is purely genetic or age-related, natural reversal is nearly impossible. Starting treatment at an early stage is crucial for achieving positive results.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_8.png" alt="Why Does Hair Become White - Causes of Premature Greying Explained by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="Why Does Hair Become White - Causes of Premature Greying Explained by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

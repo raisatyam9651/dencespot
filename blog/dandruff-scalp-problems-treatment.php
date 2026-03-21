@@ -4,7 +4,7 @@ $pageDesc = 'Struggling with flakes or an itchy scalp? Learn about the causes of
 $pageKeywords = 'dandruff treatment, scalp problems solutions, itchy scalp relief, causes of dandruff, seborrheic dermatitis treatment, scalp health guide';
 $pageCanonical = 'https://dencespot.com/blog/dandruff-scalp-problems-treatment.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/dandruff-scalp-problems-featured.png';
+$pageImage = 'images/blog/new/luxury_hair_spa_1774106621562.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'Is dandruff caused by a dry scalp?', 'a' => 'Not necessarily. True dandruff is often caused by fungus feeding on excess oil. People with oily scalps are more prone.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/dandruff-scalp-problems-featured.png" alt="Dandruff Treatment" class="w-full">
+                <img src="../images/blog/new/luxury_hair_spa_1774106621562.png" alt="Dandruff Treatment" class="w-full">
             </div>
 
             <!-- Content -->

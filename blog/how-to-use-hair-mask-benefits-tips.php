@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use a hair mask correctly for deep conditioning and re
 $pageKeywords = 'how to use hair mask, hair mask benefits, hair mask guide, deep conditioning mask, hair mask tips, how to apply hair mask';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-hair-mask-benefits-tips.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/luxury_hair_spa_1774106621562.png';
+$pageImage = 'assets/images/skin_treatment_indian_ba_1773724789009.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How often should I use a hair mask?', 'a' => 'For most hair types, once a week is ideal. If your hair is severely damaged or chemically treated, you can use a hair mask twice a week. Over-masking can lead to protein overload or product buildup.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/luxury_hair_spa_1774106621562.png" alt="How to Use Hair Mask" class="w-full">
+                <img src="../assets/images/skin_treatment_indian_ba_1773724789009.png" alt="How to Use Hair Mask" class="w-full">
             </div>
 
             <!-- Content -->

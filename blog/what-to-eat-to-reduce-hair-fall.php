@@ -4,7 +4,7 @@ $pageDesc = 'Find out what to eat to reduce hair fall naturally. This expert gui
 $pageKeywords = 'what to eat to reduce hair fall, foods to reduce hair fall, diet to reduce hair fall, hair fall reduction diet, food for less hair fall, reduce shedding with diet';
 $pageCanonical = 'https://dencespot.com/blog/what-to-eat-to-reduce-hair-fall.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
+$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which food reduces hair fall the fastest?', 'a' => 'Iron-rich foods like spinach and lentils, combined with vitamin C sources for better absorption, are among the quickest dietary changes to reduce hair fall caused by nutritional deficiency.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Foods to Reduce Hair Fall" class="w-full">
+                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="Foods to Reduce Hair Fall" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Discover how many hairs are on a human head. Learn about average ha
 $pageKeywords = 'how many hairs on a human head, average hair count, hair strands on head, hair density facts, hair follicle count, how many hairs do we have';
 $pageCanonical = 'https://dencespot.com/blog/how-many-hairs-on-human-head.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
+$pageImage = 'images/blog/new/amla_hair_treatment_1774106516750.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How many hairs does the average person have on their head?', 'a' => 'The average person has approximately 100,000 to 150,000 hair strands on their head. The exact number varies based on natural hair color, genetics, ethnicity, and overall scalp health.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How Many Hairs on a Human Head" class="w-full">
+                <img src="../images/blog/new/amla_hair_treatment_1774106516750.png" alt="How Many Hairs on a Human Head" class="w-full">
             </div>
 
             <!-- Content -->

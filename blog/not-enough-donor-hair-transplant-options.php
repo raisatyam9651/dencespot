@@ -4,7 +4,7 @@ $pageDesc = 'Limited donor hair? Discover realistic options including BHT, scalp
 $pageKeywords = 'limited donor hair transplant, body hair transplant BHT, scalp micropigmentation, donor area density, hair transplant options, graft calculation gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/not-enough-donor-hair-transplant-options.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_crown_real.png';
+$pageImage = 'images/blog/new/egg_hair_mask_1774106434727.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'What is considered a low donor density for a hair transplant?', 'a' => 'A density below 50 follicular units per cm squared in the safe donor zone is generally considered limited. Patients in this range require careful planning and often a combination of surgical and non-surgical techniques.'],
@@ -44,7 +44,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_crown_real.png" alt="Limited donor hair transplant options" class="w-full">
+                <img src="../images/blog/new/egg_hair_mask_1774106434727.png" alt="Limited donor hair transplant options" class="w-full">
             </div>
 
             <!-- Content -->

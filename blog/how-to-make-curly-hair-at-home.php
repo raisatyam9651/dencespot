@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to make curly hair at home naturally without heat tools. 
 $pageKeywords = 'how to make curly hair at home, curly hair without heat, natural curly hair, curly hair tips, make hair curly naturally';
 $pageCanonical = 'https://dencespot.com/blog/how-to-make-curly-hair-at-home.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_2.png';
+$pageImage = 'images/blog/new/onion_juice_hair_1774106455069.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How can I make my hair curly naturally without heat?', 'a' => 'You can achieve natural curls without heat by using methods such as braiding damp hair overnight, twist and pin curls, sock curls, headband curls, paper towel curls, or bantu knots. The key is to start with slightly damp hair, apply a curl-enhancing product like flaxseed gel, and allow the hair to dry completely before unraveling for best results.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_2.png" alt="How to make curly hair at home" class="w-full">
+                <img src="../images/blog/new/onion_juice_hair_1774106455069.png" alt="How to make curly hair at home" class="w-full">
             </div>
 
             <!-- Content -->

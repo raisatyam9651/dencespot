@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove facial hair permanently with laser hair removal
 $pageKeywords = 'remove facial hair permanently, permanent facial hair removal, laser facial hair removal, electrolysis face, IPL facial hair, facial hair removal gurgaon, unwanted facial hair treatment, laser hair removal face';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-facial-hair-permanently.php';
 $currentPage = 'blog';
-$pageImage = 'images/service-laser.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is laser hair removal on the face permanent?', 'a' => 'Laser hair removal provides permanent hair reduction on the face. Most patients experience 80 to 95 percent reduction after completing their sessions. Minor maintenance sessions once or twice a year can address any fine regrowth caused by hormonal changes.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/service-laser.png" alt="How to Remove Facial Hair Permanently - Laser and Clinical Options by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Remove Facial Hair Permanently - Laser and Clinical Options by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

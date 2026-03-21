@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to apply egg on hair the right way. Step-by-step guide co
 $pageKeywords = 'how to apply egg on hair, egg hair mask, egg for hair growth, egg yolk for hair, egg white for hair, egg hair treatment';
 $pageCanonical = 'https://dencespot.com/blog/how-to-apply-egg-on-hair';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
+$pageImage = 'assets/images/ht_gallery_extra_2.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Can I apply egg directly on my hair without mixing anything?', 'a' => 'Yes, you can apply a beaten raw egg directly on your hair and scalp. However, mixing it with olive oil, honey, or yogurt enhances the benefits and makes the application smoother. A plain egg works well for a quick protein boost.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to apply egg on hair step by step guide" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_2.png" alt="How to apply egg on hair step by step guide" class="w-full">
             </div>
 
             <!-- Content -->

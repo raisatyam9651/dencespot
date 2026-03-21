@@ -4,7 +4,7 @@ $pageDesc = 'How to grow hair on your forehead? Discover permanent solutions for
 $pageKeywords = 'how to grow hair on forehead, receding hairline treatment, forehead hair growth, hairline restoration, mathe pe baal kaise ugaye, receding hairline solution';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-hair-on-forehead-receding-hairline-solutions.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/ht_gallery_extra_3.png';
+$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can hair grow back on a receding hairline?', 'a' => 'Yes, in the early stages, hair regrowth is possible with PRP therapy, microneedling, and minoxidil. In advanced stages, a hair transplant can permanently restore a natural-looking hairline.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/ht_gallery_extra_3.png" alt="How to Grow Hair on Forehead - Receding Hairline Solutions at DenceSpot" class="w-full">
+                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="How to Grow Hair on Forehead - Receding Hairline Solutions at DenceSpot" class="w-full">
             </div>
 
             <!-- Content -->

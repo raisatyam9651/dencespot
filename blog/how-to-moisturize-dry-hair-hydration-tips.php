@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to moisturize dry hair with proven hydration techniques. 
 $pageKeywords = 'how to moisturize dry hair, dry hair treatment, hair hydration tips, moisturize hair naturally, dry hair remedies, hydrate damaged hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-moisturize-dry-hair-hydration-tips.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
+$pageImage = 'assets/images/ht_gallery_extra_3.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Why is my hair so dry even though I condition it?', 'a' => 'Your conditioner may not be providing enough moisture, or you may be using products with drying ingredients like sulfates and alcohol. Environmental factors, hard water, and heat styling can also override the benefits of conditioning.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Moisturize Dry Hair" class="w-full">
+                <img src="../assets/images/ht_gallery_extra_3.png" alt="How to Moisturize Dry Hair" class="w-full">
             </div>
 
             <!-- Content -->

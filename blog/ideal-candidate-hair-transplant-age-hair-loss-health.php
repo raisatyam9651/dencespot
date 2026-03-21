@@ -4,7 +4,7 @@ $pageDesc = 'Learn what makes the ideal hair transplant candidate — donor dens
 $pageKeywords = 'ideal hair transplant candidate, hair transplant age requirement, donor area density, Norwood scale, hair transplant health criteria, hair restoration Gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/ideal-candidate-hair-transplant-age-hair-loss-health.php';
 $currentPage = 'blog';
-$pageImage = 'assets/images/indian-ht-result-1.png';
+$pageImage = 'images/botox.jpg';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'What is the ideal age range for a hair transplant?', 'a' => 'Most surgeons consider the 25-60 age range optimal. Below 25, hair loss is often still progressing. Above 60, surgery remains viable provided general health is good.'],
@@ -44,7 +44,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../assets/images/indian-ht-result-1.png" alt="Ideal hair transplant candidate profile — age, health, and donor density assessment at DenceSpot Gurgaon" class="w-full">
+                <img src="../images/botox.jpg" alt="Ideal hair transplant candidate profile — age, health, and donor density assessment at DenceSpot Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Can you apply aloe vera gel on hair? Yes! Learn the benefits, how t
 $pageKeywords = 'can we apply aloe vera gel on hair, aloe vera for hair, aloe vera gel hair benefits, aloe vera hair mask, aloe vera for hair growth, aloe vera for dandruff, natural hair care';
 $pageCanonical = 'https://dencespot.com/blog/can-we-apply-aloe-vera-gel-on-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
+$pageImage = 'assets/images/dandruff_indian_ba_1773724686736.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Can I apply aloe vera gel on my hair every day?', 'a' => 'While aloe vera is gentle enough for daily use as a leave-in conditioner in small amounts, applying it as a full hair mask every day is not necessary. Two to three times per week is the optimal frequency for most people. Daily use of thick applications can lead to product buildup on the scalp.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Can We Apply Aloe Vera Gel on Hair - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../assets/images/dandruff_indian_ba_1773724686736.png" alt="Can We Apply Aloe Vera Gel on Hair - Complete Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

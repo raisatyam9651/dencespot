@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to straighten hair naturally at home without chemicals. E
 $pageKeywords = 'how to straighten hair naturally, straighten hair at home, get straight hair naturally, natural hair straightening, straight hair tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-straighten-hair-naturally-at-home.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/aloe_vera_gel_hair_1774106396792.png';
+$pageImage = 'images/blog/new/keratin_hair_treatment_1774106603876.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can I straighten my hair naturally without heat?', 'a' => 'Yes, several natural methods can help straighten hair without heat. Milk spray, coconut milk with lemon juice, banana and honey masks, and aloe vera gel all work as natural straighteners. While results are temporary and milder than chemical treatments, consistent use over weeks can noticeably reduce curl and frizz.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/aloe_vera_gel_hair_1774106396792.png" alt="How to straighten hair naturally at home" class="w-full">
+                <img src="../images/blog/new/keratin_hair_treatment_1774106603876.png" alt="How to straighten hair naturally at home" class="w-full">
             </div>
 
             <!-- Content -->
