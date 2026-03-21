@@ -28,9 +28,9 @@ if (empty($name) || empty($phone)) {
     exit;
 }
 
-// Sanitize input
-$name = filter_var($name, FILTER_SANITIZE_STRING);
-$phone = filter_var($phone, FILTER_SANITIZE_STRING);
+// Sanitize input (FILTER_SANITIZE_STRING deprecated in PHP 8.1+)
+$name = htmlspecialchars(strip_tags($name), ENT_QUOTES, 'UTF-8');
+$phone = htmlspecialchars(strip_tags($phone), ENT_QUOTES, 'UTF-8');
 
 // Validate phone number (basic validation)
 if (!preg_match('/^[0-9]{10}$/', $phone)) {
@@ -117,9 +117,10 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 // Send email
 $email_sent = mail($to_email, $subject, $email_message, $headers);
 
-// Log the lead (optional - you can save to database or file)
-$log_entry = date('Y-m-d H:i:s') . " - Name: {$name}, Phone: {$phone}, IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
-file_put_contents('whatsapp_leads.log', $log_entry, FILE_APPEND | LOCK_EX);
+// Log the lead to an absolute path so it always writes correctly
+$log_file = __DIR__ . '/whatsapp_leads.log';
+$log_entry = date('Y-m-d H:i:s T') . " | Name: {$name} | Phone: {$phone} | IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
+file_put_contents($log_file, $log_entry, FILE_APPEND | LOCK_EX);
 
 // Prepare response
 if ($email_sent) {
