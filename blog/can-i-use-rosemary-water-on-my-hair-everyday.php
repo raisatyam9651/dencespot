@@ -4,7 +4,7 @@ $pageDesc = 'Can you use rosemary water on your hair every day? Learn the safe f
 $pageKeywords = 'rosemary water for hair daily, can I use rosemary water everyday, rosemary water hair benefits, rosemary water side effects, how often to use rosemary water, rosemary water vs rosemary oil';
 $pageCanonical = 'https://dencespot.com/blog/can-i-use-rosemary-water-on-my-hair-everyday.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Is it safe to spray rosemary water on my hair every day?', 'a' => 'Yes, using a diluted rosemary water spray daily is generally safe for most people. However, if you notice scalp dryness, irritation, or hair becoming brittle, reduce usage to 3 to 4 times per week.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="Can I Use Rosemary Water on My Hair Everyday - Expert Guide by DenceSpot" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Can I Use Rosemary Water on My Hair Everyday - Expert Guide by DenceSpot" class="w-full">
             </div>
 
             <!-- Content -->

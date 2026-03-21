@@ -4,7 +4,7 @@ $pageDesc = 'Is hair dryer good for hair or does it cause damage? Learn the trut
 $pageKeywords = 'is hair dryer good for hair, does hair dryer damage hair, blow drying hair effects, hair dryer tips, heat damage hair, safe blow drying techniques';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-dryer-good-for-hair-facts.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/is-hair-dryer-good-for-hair.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is it better to air dry or blow dry your hair?', 'a' => 'Both methods have pros and cons. Air drying avoids heat damage but can cause hygral fatigue from prolonged water exposure. Blow drying on a low heat setting with a heat protectant can actually be less damaging than extended air drying for some hair types.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/is-hair-dryer-good-for-hair.png" alt="Is Hair Dryer Good for Hair" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Is Hair Dryer Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

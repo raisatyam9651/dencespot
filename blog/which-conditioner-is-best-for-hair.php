@@ -4,7 +4,7 @@ $pageDesc = 'Find out which conditioner is best for your hair type. Expert recom
 $pageKeywords = 'which conditioner is best for hair, best conditioner for hair, conditioner for dry hair, conditioner for oily hair, best hair conditioner, conditioner recommendation';
 $pageCanonical = 'https://dencespot.com/blog/which-conditioner-is-best-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/which-conditioner-is-best-for-hair.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which conditioner is best for dry and frizzy hair?', 'a' => 'For dry and frizzy hair, choose a deep moisturizing conditioner with ingredients like argan oil, shea butter, or hyaluronic acid. These ingredients penetrate the hair shaft and provide lasting hydration.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/which-conditioner-is-best-for-hair.png" alt="Which Conditioner Is Best for Hair" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Which Conditioner Is Best for Hair" class="w-full">
             </div>
 
             <!-- Content -->

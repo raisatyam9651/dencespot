@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to apply curd on hair for dandruff, dryness, frizz, and h
 $pageKeywords = 'how to apply curd on hair, curd for hair, dahi for hair, curd hair mask, yogurt hair treatment, curd benefits for hair, natural hair care, home remedies for hair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-apply-curd-on-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/curd_hair_mask_1774106415110.png';
+$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
 $pageDate = '2026-03-21';
 $pageFAQs = [
     ['q' => 'Can I apply curd directly on my hair?', 'a' => 'Yes, you can apply plain curd directly to your hair and scalp. For best results, use fresh, unflavoured, full-fat curd at room temperature. Apply it from the roots to the tips, leave it on for 30-45 minutes, and then wash it off with a mild sulfate-free shampoo.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/curd_hair_mask_1774106415110.png" alt="How to Apply Curd on Hair - Benefits and Methods by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="How to Apply Curd on Hair - Benefits and Methods by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

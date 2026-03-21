@@ -4,7 +4,7 @@ $pageDesc = 'Expert answers to how can I make my hair thicker. Dermatologist deb
 $pageKeywords = 'how can i make my hair thicker, thin hair solutions, expert tips thick hair, hair thickening guide, make hair thicker expert';
 $pageCanonical = 'https://dencespot.com/blog/how-can-i-make-my-hair-thicker-expert-answers.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/onion_juice_hair_1774106455069.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'Can genetically thin hair become thicker?', 'a' => 'Yes, genetics determines the baseline of hair thickness, but it can be improved with treatments. PRP, microneedling, and proper nutrition can make even genetically thin hair noticeably thicker.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/onion_juice_hair_1774106455069.png" alt="How can I make my hair thicker - expert answers" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How can I make my hair thicker - expert answers" class="w-full">
             </div>
 
             <!-- Content -->

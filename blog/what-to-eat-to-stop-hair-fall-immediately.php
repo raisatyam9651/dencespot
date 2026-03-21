@@ -4,7 +4,7 @@ $pageDesc = 'Looking for foods that can stop hair fall quickly? Discover the bes
 $pageKeywords = 'what to eat to stop hair fall immediately, foods to stop hair fall fast, emergency diet for hair fall, quick hair fall remedy food, stop hair shedding diet, immediate hair fall control';
 $pageCanonical = 'https://dencespot.com/blog/what-to-eat-to-stop-hair-fall-immediately.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/stop-hair-fall-immediately-food-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can any food stop hair fall overnight?', 'a' => 'No single food can stop hair fall overnight. However, correcting severe nutritional deficiencies with nutrient-dense foods can show noticeable improvement within 4 to 6 weeks.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/stop-hair-fall-immediately-food-featured.png" alt="Foods to Stop Hair Fall Immediately" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Foods to Stop Hair Fall Immediately" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Does masturbation cause hair loss? Discover the truth backed by sci
 $pageKeywords = 'does masturbation cause hair loss, masturbation and hair fall, protein loss hair, hastmaithun se baal jharte hain kya, hair loss myths, male hair loss';
 $pageCanonical = 'https://dencespot.com/blog/does-masturbation-cause-hair-loss-medical-facts.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-29';
 $pageFAQs = [
     ['q' => 'Does masturbation actually cause protein loss that affects hair?', 'a' => 'Semen does contain protein, but the quantity is extremely minimal (approximately 5mg per ejaculation). Your daily protein requirement is 50-60 grams. This amount is far too negligible to have any impact on hair health.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="Does Masturbation Cause Hair Loss - Medical Facts by DenceSpot Clinic" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Does Masturbation Cause Hair Loss - Medical Facts by DenceSpot Clinic" class="w-full">
             </div>
 
             <!-- Content -->

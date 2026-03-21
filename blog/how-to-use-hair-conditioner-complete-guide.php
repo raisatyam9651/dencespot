@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to use hair conditioner correctly for soft, shiny, and he
 $pageKeywords = 'how to use hair conditioner, conditioner application tips, how to apply conditioner, hair conditioner guide, conditioner for hair, proper conditioner use';
 $pageCanonical = 'https://dencespot.com/blog/how-to-use-hair-conditioner-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-to-use-hair-conditioner.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Should I use conditioner every time I wash my hair?', 'a' => 'Yes, you should use conditioner every time you shampoo. Shampoo opens the hair cuticle to remove dirt, and conditioner seals it back, restoring moisture and smoothness.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-to-use-hair-conditioner.png" alt="How to Use Hair Conditioner" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Use Hair Conditioner" class="w-full">
             </div>
 
             <!-- Content -->

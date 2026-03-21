@@ -4,7 +4,7 @@ $pageDesc = 'Find out which vitamins are essential for hair growth. From biotin 
 $pageKeywords = 'which vitamin is essential for hair growth, vitamins for hair growth, best vitamin for hair, biotin for hair, vitamin D hair growth, vitamin E hair benefits';
 $pageCanonical = 'https://dencespot.com/blog/which-vitamin-is-essential-for-hair-growth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/essential-vitamins-hair-growth-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which single vitamin is most important for hair growth?', 'a' => 'While all vitamins work together, biotin (vitamin B7) is considered the most directly essential for hair growth as it supports keratin production, the main structural protein of hair.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/essential-vitamins-hair-growth-featured.png" alt="Essential Vitamins for Hair Growth" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Essential Vitamins for Hair Growth" class="w-full">
             </div>
 
             <!-- Content -->

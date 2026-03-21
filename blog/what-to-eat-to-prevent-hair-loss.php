@@ -4,7 +4,7 @@ $pageDesc = 'Learn what to eat to prevent hair loss naturally. Discover the best
 $pageKeywords = 'what to eat to prevent hair loss, anti hair loss diet, food to prevent hair loss, diet plan for hair loss prevention, nutrients for hair loss, prevent hair fall with food';
 $pageCanonical = 'https://dencespot.com/blog/what-to-eat-to-prevent-hair-loss.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/prevent-hair-loss-diet-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can diet alone prevent hair loss?', 'a' => 'Diet plays a major role in hair health, but hair loss can also be caused by genetics, hormones, and medical conditions. A nutrient-rich diet helps prevent nutritional hair loss and supports overall scalp health.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/prevent-hair-loss-diet-featured.png" alt="Diet to Prevent Hair Loss" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Diet to Prevent Hair Loss" class="w-full">
             </div>
 
             <!-- Content -->

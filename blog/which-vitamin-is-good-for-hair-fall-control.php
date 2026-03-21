@@ -4,7 +4,7 @@ $pageDesc = 'Learn which vitamins help control hair fall effectively. Discover t
 $pageKeywords = 'which vitamin is good for hair fall control, vitamins to stop hair fall, best vitamin for hair fall, vitamin for hair shedding, hair fall control vitamins, stop hair loss vitamins';
 $pageCanonical = 'https://dencespot.com/blog/which-vitamin-is-good-for-hair-fall-control.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/vitamins-hair-fall-control-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which vitamin deficiency causes the most hair fall?', 'a' => 'Vitamin D and iron deficiency are the most common nutritional causes of excessive hair fall. A simple blood test can confirm your levels and guide treatment.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/vitamins-hair-fall-control-featured.png" alt="Vitamins for Hair Fall Control" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Vitamins for Hair Fall Control" class="w-full">
             </div>
 
             <!-- Content -->

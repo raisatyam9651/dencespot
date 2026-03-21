@@ -4,7 +4,7 @@ $pageDesc = 'Is hair transplant surgery safe? Learn about the safety of modern h
 $pageKeywords = 'is hair transplant safe, hair transplant risks, hair transplant safety, hair transplant side effects, hair transplant complications, safe hair transplant';
 $pageCanonical = 'https://dencespot.com/blog/is-hair-transplant-safe-risks-and-facts.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the success rate of hair transplant?', 'a' => 'Modern hair transplant procedures have a success rate of 95-98% when performed by experienced surgeons. The transplanted hair follicles typically survive and grow permanently in their new location.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="Is Hair Transplant Safe" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Is Hair Transplant Safe" class="w-full">
             </div>
 
             <!-- Content -->

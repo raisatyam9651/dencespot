@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to check hair porosity with simple at-home tests. Underst
 $pageKeywords = 'how to check hair porosity, hair porosity test, low porosity hair, high porosity hair, medium porosity hair, hair porosity care tips';
 $pageCanonical = 'https://dencespot.com/blog/how-to-check-hair-porosity-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-to-check-hair-porosity.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the easiest way to test hair porosity at home?', 'a' => 'The float test is the simplest method. Drop a clean strand of hair into a glass of water and wait two to four minutes. If it floats, you have low porosity. If it sinks slowly, medium porosity. If it sinks quickly, high porosity.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-to-check-hair-porosity.png" alt="How to Check Hair Porosity" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Check Hair Porosity" class="w-full">
             </div>
 
             <!-- Content -->

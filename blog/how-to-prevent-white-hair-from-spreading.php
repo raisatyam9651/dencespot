@@ -4,7 +4,7 @@ $pageDesc = 'How to prevent white hair from spreading further? Expert guide to s
 $pageKeywords = 'how to prevent white hair from spreading, stop white hair spreading, prevent premature greying, white hair prevention, safed baal failne se kaise roke, greying prevention gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-prevent-white-hair-from-spreading';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/natural_hair_products_1774106474272.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair be permanently stopped from spreading?', 'a' => 'Permanently stopping greying is difficult because it is partly genetic. However, proper nutrition, stress management, and clinical treatments can significantly slow the spread. Taking action at an early stage yields the best results.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/natural_hair_products_1774106474272.png" alt="How to Prevent White Hair from Spreading - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Prevent White Hair from Spreading - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to take care of hair properly with expert tips on daily r
 $pageKeywords = 'how to take care of hair, hair care tips, hair care routine, daily hair care, healthy hair tips, hair maintenance guide';
 $pageCanonical = 'https://dencespot.com/blog/how-to-take-care-of-hair-complete-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-to-take-care-of-hair.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the most important step in hair care?', 'a' => 'Keeping your scalp clean and healthy is the foundation of good hair care. A clean, well-nourished scalp promotes stronger, healthier hair growth.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-to-take-care-of-hair.png" alt="How to Take Care of Hair" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Take Care of Hair" class="w-full">
             </div>
 
             <!-- Content -->

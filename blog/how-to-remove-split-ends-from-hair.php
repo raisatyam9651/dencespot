@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove split ends from hair and prevent them from comi
 $pageKeywords = 'how to remove split ends, split ends treatment, fix split ends, prevent split ends, hair trimming tips, split end repair';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-split-ends-from-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-to-remove-split-ends.png';
+$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Can split ends be repaired without cutting?', 'a' => 'While some products can temporarily seal split ends and improve their appearance, the only permanent solution is to trim them off. Leaving split ends untreated allows the split to travel up the hair shaft, causing more damage.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-to-remove-split-ends.png" alt="How to Remove Split Ends" class="w-full">
+                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="How to Remove Split Ends" class="w-full">
             </div>
 
             <!-- Content -->

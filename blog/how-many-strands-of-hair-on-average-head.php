@@ -4,7 +4,7 @@ $pageDesc = 'Find out how many strands of hair the average head contains. Learn 
 $pageKeywords = 'how many strands of hair on head, average hair strand count, hair strands per head, total hair count, hair shedding normal, hair growth rate';
 $pageCanonical = 'https://dencespot.com/blog/how-many-strands-of-hair-on-average-head.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-many-strands-of-hair.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How many strands of hair does the average head have?', 'a' => 'The average human head has between 80,000 to 120,000 hair strands. People with fine, light-colored hair tend to have more strands, while those with coarser, darker hair may have fewer but thicker strands.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-many-strands-of-hair.png" alt="How Many Strands of Hair on Average Head" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How Many Strands of Hair on Average Head" class="w-full">
             </div>
 
             <!-- Content -->

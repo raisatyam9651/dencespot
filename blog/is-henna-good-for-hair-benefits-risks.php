@@ -4,7 +4,7 @@ $pageDesc = 'Is henna good for hair? Discover the benefits and risks of using he
 $pageKeywords = 'is henna good for hair, henna for hair benefits, henna hair risks, natural henna hair, mehndi for hair, henna hair treatment, henna hair dye';
 $pageCanonical = 'https://dencespot.com/blog/is-henna-good-for-hair-benefits-risks.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/is-henna-good-for-hair.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is henna safe for all hair types?', 'a' => 'Pure, natural henna is generally safe for most hair types. However, it can be drying for already dry or damaged hair. People with very fine hair should use it cautiously as it can weigh hair down. Always do a strand test first.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/is-henna-good-for-hair.png" alt="Is Henna Good for Hair" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Is Henna Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

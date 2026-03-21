@@ -4,7 +4,7 @@ $pageDesc = 'Discover the best foods to eat for hair growth. From protein-rich e
 $pageKeywords = 'what to eat for hair growth, foods for hair growth, diet for hair growth, best food for hair, hair growth diet plan, foods that promote hair growth';
 $pageCanonical = 'https://dencespot.com/blog/what-to-eat-for-hair-growth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/what-to-eat-hair-growth-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which food is best for hair growth?', 'a' => 'Eggs are one of the best foods for hair growth as they are rich in both protein and biotin, two nutrients essential for hair follicle health.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/what-to-eat-hair-growth-featured.png" alt="Foods for Hair Growth" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Foods for Hair Growth" class="w-full">
             </div>
 
             <!-- Content -->

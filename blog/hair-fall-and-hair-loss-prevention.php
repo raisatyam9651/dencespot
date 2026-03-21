@@ -4,7 +4,7 @@ $pageDesc = 'Discover the most effective hair fall prevention strategies. Learn 
 $pageKeywords = 'hair fall prevention, stop hair loss, causes of hair fall, hair loss treatments gurgaon, hair thickness improvement, hair regrowth tips';
 $pageCanonical = 'https://dencespot.com/blog/hair-fall-and-hair-loss-prevention.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/amla_hair_treatment_1774106516750.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-11';
 $pageFAQs = [
     ['q' => 'Is it normal to lose hair every day?', 'a' => 'Yes, losing 50 to 100 strands per day is normal. However, significant thinning or bald patches require specialist consultation.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
             
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/amla_hair_treatment_1774106516750.png" alt="Hair Fall Prevention" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Hair Fall Prevention" class="w-full">
             </div>
 
             <!-- Content -->

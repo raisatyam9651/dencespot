@@ -4,7 +4,7 @@ $pageDesc = 'Learn how to remove hair from private parts safely with expert-appr
 $pageKeywords = 'how to remove hair from private parts, intimate area hair removal, bikini area hair removal, pubic hair removal methods, laser hair removal bikini, Brazilian wax, safe pubic hair removal, private part hair removal cream';
 $pageCanonical = 'https://dencespot.com/blog/how-to-remove-hair-from-private-parts.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/methi_seeds_hair_1774106533552.png';
+$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the safest method to remove hair from private parts?', 'a' => 'Trimming with a clean, dedicated electric trimmer is the safest method as it does not irritate the skin or cause ingrown hairs. For longer-lasting results, laser hair removal performed by a certified dermatologist is both safe and effective for the bikini and intimate areas.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/methi_seeds_hair_1774106533552.png" alt="How to Remove Hair from Private Parts Safely" class="w-full">
+                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Remove Hair from Private Parts Safely" class="w-full">
             </div>
 
             <!-- Content -->

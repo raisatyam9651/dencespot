@@ -4,7 +4,7 @@ $pageDesc = 'Learn the correct way to wash your hair with our step-by-step guide
 $pageKeywords = 'how to wash hair properly, correct hair washing technique, shampoo technique, hair washing tips, how often to wash hair, scalp cleansing';
 $pageCanonical = 'https://dencespot.com/blog/how-to-wash-hair-properly-step-by-step.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/how-to-wash-hair-properly.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How often should I wash my hair?', 'a' => 'For most hair types, washing two to three times a week is ideal. Oily hair may need more frequent washing, while dry or curly hair can go longer between washes.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/how-to-wash-hair-properly.png" alt="How to Wash Hair Properly" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Wash Hair Properly" class="w-full">
             </div>
 
             <!-- Content -->

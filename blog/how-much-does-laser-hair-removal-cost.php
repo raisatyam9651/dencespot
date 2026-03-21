@@ -4,7 +4,7 @@ $pageDesc = 'Complete laser hair removal cost guide for India in 2026. See per-s
 $pageKeywords = 'laser hair removal cost india, laser hair removal price, laser hair removal cost per session, full body laser hair removal cost, laser treatment price gurgaon, laser hair removal rates 2026';
 $pageCanonical = 'https://dencespot.com/blog/how-much-does-laser-hair-removal-cost.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
+$pageImage = 'images/blog/new/facial_hair_removal_1774106639113.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'How much does full body laser hair removal cost in India?', 'a' => 'Full body laser hair removal in India typically costs between Rs 15,000 to Rs 30,000 per session. Most patients need 6-8 sessions, so the total investment ranges from Rs 90,000 to Rs 2,40,000 depending on the clinic, technology used, and your individual hair growth pattern.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="Laser Hair Removal Cost in India" class="w-full">
+                <img src="../images/blog/new/facial_hair_removal_1774106639113.png" alt="Laser Hair Removal Cost in India" class="w-full">
             </div>
 
             <!-- Content -->

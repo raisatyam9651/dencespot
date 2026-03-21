@@ -4,7 +4,7 @@ $pageDesc = 'How to get rid of white hair permanently? Discover natural remedies
 $pageKeywords = 'how to get rid of white hair, remove white hair permanently, white hair removal, safed baal hatane ke upay, white hair cure, get rid of grey hair, white hair treatment gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-get-rid-of-white-hair';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can white hair be removed permanently?', 'a' => 'Honestly, once melanin production stops in a particular hair follicle, reversing that specific hair back to black is quite difficult. However, it is possible to prevent new white hairs from appearing through proper diet, supplements, PRP therapy, and natural remedies. Taking action at an early stage yields significantly better results.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="How to Get Rid of White Hair Permanently - Expert Solutions by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Get Rid of White Hair Permanently - Expert Solutions by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

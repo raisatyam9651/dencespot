@@ -4,7 +4,7 @@ $pageDesc = 'How can women control hair fall? A complete expert guide on hair lo
 $pageKeywords = 'how to control hair fall for women, women hair fall solution, female hair loss treatment, mahilaon mein baal jharna, hair fall for women, PCOS hair loss, thyroid hair fall';
 $pageCanonical = 'https://dencespot.com/blog/how-to-control-hair-fall-for-women-expert-guide.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/laser_hair_removal_1774106573894.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-25';
 $pageFAQs = [
     ['q' => 'Can PCOS cause permanent hair loss?', 'a' => 'No, hair loss caused by PCOS is reversible with the right treatment. Restoring hormonal balance can help hair regrow. At DenceSpot, we offer specialized treatment for PCOS-related hair loss.'],
@@ -43,7 +43,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/laser_hair_removal_1774106573894.png" alt="How to Control Hair Fall for Women - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to Control Hair Fall for Women - Expert Guide by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

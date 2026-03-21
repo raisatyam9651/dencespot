@@ -4,7 +4,7 @@ $pageDesc = 'Discover how to style short hair with easy tips, trendy ideas, and 
 $pageKeywords = 'how to style short hair, short hair styling tips, short hairstyle ideas, easy short hair looks, short hair for men and women';
 $pageCanonical = 'https://dencespot.com/blog/how-to-style-short-hair-tips-ideas.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'What is the easiest way to style short hair?', 'a' => 'The easiest way is to apply a small amount of texturising product on damp hair, tousle with your fingers, and let it air dry. This creates a natural, effortless look in under 5 minutes.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to style short hair tips and ideas" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="How to style short hair tips and ideas" class="w-full">
             </div>
 
             <!-- Content -->

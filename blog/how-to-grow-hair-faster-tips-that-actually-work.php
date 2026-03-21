@@ -4,7 +4,7 @@ $pageDesc = 'How can you grow your hair faster? Explore expert-backed tips for f
 $pageKeywords = 'how to grow hair faster, fast hair growth tips, hair growth speed, grow hair quickly, baal tez kaise badhaye, hair growth tips in hindi';
 $pageCanonical = 'https://dencespot.com/blog/how-to-grow-hair-faster-tips-that-actually-work.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/scalp_massage_1774106675614.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-18';
 $pageFAQs = [
     ['q' => 'How to grow hair faster naturally at home?', 'a' => 'To grow hair faster at home, consume a protein-rich diet, perform regular scalp massages, use nourishing hair oils, and avoid harsh chemical treatments. Biotin and iron supplements can also be highly beneficial.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/scalp_massage_1774106675614.png" alt="How to Grow Hair Faster - Expert Tips by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="How to Grow Hair Faster - Expert Tips by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

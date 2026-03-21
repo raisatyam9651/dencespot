@@ -4,7 +4,7 @@ $pageDesc = 'How to make hair black naturally at home? Discover Ayurvedic oils, 
 $pageKeywords = 'how to make hair black naturally, make hair black at home, baal kale karne ke gharelu nuskhe, natural black hair tips, hair blackening remedies, make grey hair black naturally, hair blackening gurgaon';
 $pageCanonical = 'https://dencespot.com/blog/how-to-make-hair-black-naturally';
 $currentPage = 'blog';
-$pageImage = 'images/blog/new/rice_water_hair_1774106552762.png';
+$pageImage = 'images/blog/new/rosemary_water_hair_1774106499741.png';
 $pageDate = '2026-03-19';
 $pageFAQs = [
     ['q' => 'Can grey hair really turn black again naturally?', 'a' => 'Yes, if greying is caused by nutritional deficiency, stress, or poor lifestyle habits, natural remedies and dietary changes can help improve melanin production again. However, if the greying is genetic, natural methods can only slow down the progression — reversal remains limited.'],
@@ -45,7 +45,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/new/rice_water_hair_1774106552762.png" alt="How to Make Hair Black Naturally at Home - Gharelu Nuskhe by DenceSpot Clinic Gurgaon" class="w-full">
+                <img src="../images/blog/new/rosemary_water_hair_1774106499741.png" alt="How to Make Hair Black Naturally at Home - Gharelu Nuskhe by DenceSpot Clinic Gurgaon" class="w-full">
             </div>
 
             <!-- Content -->

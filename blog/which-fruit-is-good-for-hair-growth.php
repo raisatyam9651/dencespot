@@ -4,7 +4,7 @@ $pageDesc = 'Discover which fruits are best for hair growth. From vitamin C-rich
 $pageKeywords = 'which fruit is good for hair growth, best fruits for hair, fruits for hair growth, fruits for healthy hair, fruits to prevent hair fall, vitamin C fruits for hair';
 $pageCanonical = 'https://dencespot.com/blog/which-fruit-is-good-for-hair-growth.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/fruits-for-hair-growth-featured.png';
+$pageImage = 'images/blog/new/hair_vitamins_1774106657222.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Which fruit is the best for hair growth?', 'a' => 'Indian gooseberry (amla) is widely considered the best fruit for hair growth due to its exceptionally high vitamin C content, antioxidant properties, and ability to strengthen hair follicles.'],
@@ -41,7 +41,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/fruits-for-hair-growth-featured.png" alt="Best Fruits for Hair Growth" class="w-full">
+                <img src="../images/blog/new/hair_vitamins_1774106657222.png" alt="Best Fruits for Hair Growth" class="w-full">
             </div>
 
             <!-- Content -->

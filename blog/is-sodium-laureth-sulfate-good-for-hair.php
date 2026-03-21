@@ -4,7 +4,7 @@ $pageDesc = 'Is Sodium Laureth Sulfate (SLES) good or bad for your hair? Learn w
 $pageKeywords = 'is sodium laureth sulfate good for hair, SLES in shampoo, sulfate free shampoo, sodium laureth sulfate hair effects, SLES hair damage, sulfate shampoo';
 $pageCanonical = 'https://dencespot.com/blog/is-sodium-laureth-sulfate-good-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/is-sodium-laureth-sulfate-good-for-hair.png';
+$pageImage = 'images/blog/new/healthy_hair_1774107730362.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Is Sodium Laureth Sulfate the same as Sodium Lauryl Sulfate?', 'a' => 'No. Sodium Laureth Sulfate (SLES) is a milder, modified version of Sodium Lauryl Sulfate (SLS). SLES undergoes ethoxylation which makes it gentler on skin and hair while still providing effective cleansing.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/is-sodium-laureth-sulfate-good-for-hair.png" alt="Is Sodium Laureth Sulfate Good for Hair" class="w-full">
+                <img src="../images/blog/new/healthy_hair_1774107730362.png" alt="Is Sodium Laureth Sulfate Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->

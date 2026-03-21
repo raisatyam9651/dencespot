@@ -4,7 +4,7 @@ $pageDesc = 'Is conditioner good for hair or does it cause damage? Learn the tru
 $pageKeywords = 'is conditioner good for hair, conditioner benefits, hair conditioner myths, should I use conditioner, conditioner for hair health, conditioner pros and cons';
 $pageCanonical = 'https://dencespot.com/blog/is-conditioner-good-for-hair.php';
 $currentPage = 'blog';
-$pageImage = 'images/blog/is-conditioner-good-for-hair.png';
+$pageImage = 'images/blog/new/apply_hair_mask_1774107710693.png';
 $pageDate = '2026-03-20';
 $pageFAQs = [
     ['q' => 'Does conditioner cause hair fall?', 'a' => 'No, conditioner does not cause hair fall when used correctly. Apply it to mid-lengths and ends only. Hair that falls out during conditioning was already in the shedding phase and would have fallen out regardless.'],
@@ -42,7 +42,7 @@ include '../includes/page_head.php';
 
             <!-- Featured Image -->
             <div class="post-featured-image">
-                <img src="../images/blog/is-conditioner-good-for-hair.png" alt="Is Conditioner Good for Hair" class="w-full">
+                <img src="../images/blog/new/apply_hair_mask_1774107710693.png" alt="Is Conditioner Good for Hair" class="w-full">
             </div>
 
             <!-- Content -->
