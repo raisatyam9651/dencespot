@@ -9,6 +9,46 @@
  */
 $blogPosts = [
     [
+        'title'    => 'Is Microneedling Safe? Clinical Risks & Facts',
+        'desc'     => 'Is microneedling safe for all skin types? We expose the true medical risks of dermarolling, infection protocols, and when it becomes dangerous.',
+        'category' => 'Patient Safety',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/is-microneedling-safe.php',
+        'date'     => '2026-03-22',
+    ],
+    [
+        'title'    => 'Is Microneedling Painful? Reality Check',
+        'desc'     => 'Is microneedling painful? Learn the absolute truth about the sensation, advanced numbing protocols used in clinics, and what to expect.',
+        'category' => 'Patient Comfort',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/is-microneedling-painful.php',
+        'date'     => '2026-03-22',
+    ],
+    [
+        'title'    => 'What Does Microneedling Do? Exact Results',
+        'desc'     => 'Discover exactly what microneedling does to your skin anatomy. Learn the undeniable facts about collagen production and scar elimination.',
+        'category' => 'Treatment Mechanics',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/what-does-microneedling-do.php',
+        'date'     => '2026-03-22',
+    ],
+    [
+        'title'    => 'What is Microneedling for Face? Benefits',
+        'desc'     => 'Learn what is microneedling for face, why dermatologists use it to combat deep acne scars, and the exact benefits before treatment.',
+        'category' => 'Facial Rejuvenation',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/what-is-microneedling-for-face.php',
+        'date'     => '2026-03-22',
+    ],
+    [
+        'title'    => 'What is Microneedling? The Ultimate Guide',
+        'desc'     => 'Discover exactly what is microneedling, how it works, what it treats, and why dermatologists highly recommend this collagen induction therapy.',
+        'category' => 'Skin Rejuvenation',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/what-is-microneedling.php',
+        'date'     => '2026-03-22',
+    ],
+    [
         'title'    => 'Does Testosterone Increase Beard Growth? Truth',
         'desc'     => 'Discover exactly if dropping testosterone increases beard growth. A deep dive into DHT, 5-alpha-reductase, genetics, working out, and natural ways to fix heavy patchiness.',
         'category' => 'Endocrine Systems',
