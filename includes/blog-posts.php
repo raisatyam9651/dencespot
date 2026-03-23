@@ -9,6 +9,46 @@
  */
 $blogPosts = [
     [
+        'title'    => 'Does Microneedling Help with Acne Scars? The Truth',
+        'desc'     => 'Does microneedling help with acne scars? We break down exactly how microneedling fills atrophic boxcar and rolling scars by stimulating massive natural collagen production.',
+        'category' => 'Acne Scar Deep-Dive',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/does-microneedling-help-with-acne-scars.php',
+        'date'     => '2026-03-23',
+    ],
+    [
+        'title'    => 'Is Microneedling At Home Safe? Medical Reality',
+        'desc'     => 'Is microneedling at home safe? Discover the stark dermatological warnings about severe facial scarring, bacterial infections, and dull roller blades from cheap at-home devices.',
+        'category' => 'Patient Safety Alert',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/is-microneedling-at-home-safe.php',
+        'date'     => '2026-03-23',
+    ],
+    [
+        'title'    => 'How to Do Microneedling at Home? Why You Should NEVER Do It',
+        'desc'     => 'Searching for how to do microneedling at home? Our dermatologists expose the massive severe risks, dull needles, and intense bacterial infections associated with cheap DIY dermarollers.',
+        'category' => 'Patient Safety Alert',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/how-to-do-microneedling-at-home.php',
+        'date'     => '2026-03-23',
+    ],
+    [
+        'title'    => 'What To Do After Microneedling? Day-by-Day Recovery',
+        'desc'     => 'Discover exactly what to do after microneedling. We detail the strict 24-hour water ban, how to wash your face safely, and managing the initial peeling phase.',
+        'category' => 'Post-Care Guide',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/what-to-do-after-microneedling.php',
+        'date'     => '2026-03-23',
+    ],
+    [
+        'title'    => 'How Many Sessions for Microneedling? Exact Timeline',
+        'desc'     => 'Discover exactly how many sessions for microneedling are required to safely eliminate severe acne scars, hyperpigmentation, and aging fine lines entirely.',
+        'category' => 'Treatment Planning',
+        'image'    => 'assets/images/how_use_derma_roller.png',
+        'url'      => 'blog/how-many-sessions-for-microneedling.php',
+        'date'     => '2026-03-23',
+    ],
+    [
         'title'    => 'How Long Do Microneedling Results Last? Exposing the Truth',
         'desc'     => 'Discover exactly how long do microneedling results last. We expose the truth behind the permanence of acne scar repair versus the ongoing fight against natural facial aging.',
         'category' => 'Clinical Longevity',
