@@ -7,9 +7,14 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anti-Gravity Hair Fall Treatment in Gurgaon | DenceSpot</title>
-    <meta name="description" content="Stop hair fall with DenceSpot's Anti-Gravity Hair Treatment in Gurgaon. Expert Dr. Nyra, PRP, Microneedling, LED & FUE. Book your free consultation today!">
+    <title><?php echo htmlspecialchars($page_title); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
+    <meta name="keywords" content="hair fall treatment in Gurgaon, hair fall treatment Gurgaon, hair loss treatment Gurgaon, PRP hair treatment Gurgaon, anti gravity hair treatment, hair regrowth treatment Gurgaon, best hair clinic Gurgaon">
     <link rel="canonical" href="https://dencespot.com/hair-fall-treatment-in-gurgaon.php" />
+    <meta name="geo.region" content="IN-HR" />
+    <meta name="geo.placename" content="Gurgaon" />
+    <meta name="geo.position" content="28.439832;77.043748" />
+    <meta name="ICBM" content="28.439832, 77.043748" />
     
     <?php include "includes/head_links.php"; ?>
 
@@ -168,6 +173,7 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
 </head>
 <body class="bg-bgLight font-sans text-darkSlate overflow-x-hidden">
 
+
     <!-- Header / Nav -->
     <?php include "includes/header.php"; ?>
 
@@ -188,6 +194,7 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
         <span class="hidden group-hover:inline font-bold">Chat with Us</span>
     </a>
 
+    <main id="main-content">
     <!-- Section 2: Hero Banner -->
     <section class="relative min-h-[85vh] flex items-center pt-24 pb-12 overflow-hidden bg-darkSlate text-white">
         <div class="absolute inset-0 bg-gradient-to-r from-darkSlate to-[#0b1a26] opacity-90"></div>
@@ -200,9 +207,9 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
                     <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight mb-4">
                         Anti-Gravity Hair Fall Treatment in Gurgaon
                     </h1>
-                    <h2 class="text-2xl font-display italic text-[#00B4A6] mb-6">
+                    <p class="text-2xl font-display italic text-[#00B4A6] mb-6">
                         — Stop the Fall. Restore the Growth.
-                    </h2>
+                    </p>
                     <p class="text-lg text-gray-300 mb-8 max-w-lg leading-relaxed">
                         Experience DenceSpot's exclusive Anti-Gravity Hair Treatment — a multi-modal, science-backed approach by German-trained Dr. Nyra specifically designed to reverse hair fall. Utilizing PRP therapy, Microneedling, LED Treatment, and FUE protocols, we provide a 98% verified success rate directly at our Sector 39 Gurgaon clinic having treated over 5,000 satisfied patients.
                     </p>
@@ -553,7 +560,7 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
             </div>
             
             <div class="text-center mt-12 bg-white/5 p-8 rounded-3xl border border-white/10">
-                <p class="text-lg text-gray-300 mb-6 italic">Not sure which precisely exact complicated stage you're technically traversing? Exceptional Dr. Nyra graciously offers a perfectly welcoming totally free highly detailed physical in-clinic personalized diagnostic assessment logically calculating properly to definitively ascertain essentially the absolutely flawlessly right strategic battle plan meticulously tailored meant uniquely specifically exclusively for your exact circumstance.</p>
+                <p class="text-lg text-gray-300 mb-6 italic">Not sure which stage you're at? Dr. Nyra offers a completely free in-clinic diagnostic assessment to identify your exact hair loss stage and design the right treatment plan for you.</p>
                 <a href="https://dencespot.com/contact.php" class="inline-block bg-[#00B4A6] text-white px-10 py-4 rounded-full font-bold shadow-xl hover:-translate-y-1 transition-transform border border-white/20">Book Free Hair Assessment</a>
             </div>
         </div>
@@ -562,19 +569,23 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
     <!-- SECTION 9: GENDER SPECIFIC -->
     <section class="py-20 bg-white border-b border-gray-100">
         <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-display font-bold mb-4">Hair Fall Treatment for <span class="text-[#00B4A6]">Men & Women</span> in Gurgaon</h2>
+                <div class="w-16 h-1 bg-[#00B4A6] mx-auto rounded"></div>
+            </div>
             <div class="grid md:grid-cols-2 gap-12">
-                <!-- Left -->
+                <!-- Left: Men -->
                 <div class="bg-bgLight p-10 rounded-3xl shadow-sm hover:shadow-lg transition-all border border-gray-100">
-                    <h2 class="text-3xl font-display font-bold mb-6">Hair Fall Treatment for Men in Gurgaon</h2>
+                    <h3 class="text-3xl font-display font-bold mb-6">Hair Fall Treatment for Men in Gurgaon</h3>
                     <div class="w-12 h-1 bg-[#00B4A6] mb-6 rounded"></div>
                     <p class="text-gray-600 mb-6 text-sm leading-relaxed">DHT-driven androgenetic alopecia is the primary cause of hair loss in men, advancing through Norwood Scale stages 1–7. Gurgaon's fast-paced corporate stress culture accelerates this male pattern baldness significantly. DenceSpot's male-specific protocol effectively controls this using Finasteride, Minoxidil, targeted PRP therapies, and advanced FUE Transplant for advanced stages. Dr. Nyra's protocol focuses on critical DHT-blocking and dedicated long-term follicle preservation.</p>
                     <a href="https://dencespot.com/contact.php" class="text-[#00B4A6] font-bold hover:underline flex items-center gap-2">Book Male Hair Assessment <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <!-- Right -->
+                <!-- Right: Women -->
                 <div class="bg-bgLight p-10 rounded-3xl shadow-sm hover:shadow-lg transition-all border border-gray-100">
-                    <h2 class="text-3xl font-display font-bold mb-6">Hair Fall Treatment for Women in Gurgaon</h2>
+                    <h3 class="text-3xl font-display font-bold mb-6">Hair Fall Treatment for Women in Gurgaon</h3>
                     <div class="w-12 h-1 bg-[#00B4A6] mb-6 rounded"></div>
-                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">For women in Gurgaon, PCOS, thyroid dysfunction, post-partum hormonal changes, and iron deficiency are top triggers. Presenting as Ludwig Scale stages I–III diffuse thinning, women often miss early diagnosis. DenceSpot’s female-specific protocol begins with a comprehensive hormonal blood panel, paired intimately with PRP, Microneedling, and key nutritional therapy. Dr. Nyra brings her specialized German clinical understanding explicitly catering to intricate female hormonal hair loss dynamics.</p>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">For women in Gurgaon, PCOS, thyroid dysfunction, post-partum hormonal changes, and iron deficiency are top triggers. Presenting as Ludwig Scale stages I–III diffuse thinning, women often miss early diagnosis. DenceSpot's female-specific protocol begins with a comprehensive hormonal blood panel, paired intimately with PRP, Microneedling, and key nutritional therapy. Dr. Nyra brings her specialized German clinical understanding explicitly catering to intricate female hormonal hair loss dynamics.</p>
                     <a href="https://dencespot.com/contact.php" class="text-[#00B4A6] font-bold hover:underline flex items-center gap-2">Book Female Hair Assessment <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -727,21 +738,21 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- 1 -->
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-[#00B4A6] transition-all">
-                    <i class="fas fa-user-md text-3xl text-[#00B4A6] mb-4"></i>
-                    <h3 class="text-xl font-bold mb-3">Dr. Nyra — German-Trained Expert</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">Dr. Nyra combines MBBS training from Dr. D. Y. Patil Medical College with 3 years of international clinical experience at leading medical institutions in Germany — bringing absolutely world-class hair restoration standards directly to local Gurgaon patients.</p>
+                    <i class="fas fa-star text-3xl text-[#00B4A6] mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Free Consultation — No Pressure Ever</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Every journey at DenceSpot starts with a free, no-obligation consultation with Dr. Nyra. You get a complete diagnosis, treatment roadmap, and transparent cost estimate — with zero pressure to book any procedure on the same day.</p>
                 </div>
                 <!-- 2 -->
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-[#00B4A6] transition-all">
                     <i class="fas fa-chart-line text-3xl text-[#00B4A6] mb-4"></i>
-                    <h3 class="text-xl font-bold mb-3">5,000+ Patients, 98% Verified Success Rate</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">DenceSpot has proudly treated well over 5,000 respective hair and localized skin patients delivering a verifiable 98% success rate. Our flawless Google rating of 4.9/5 distinctly spanning across 109+ pristine reviews definitively reflects purely consistent, absolute real-world miraculous results — certainly not mere marketing claims.</p>
+                    <h3 class="text-xl font-bold mb-3">5,000+ Patients, 98% Success Rate</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Over 5,000 patients treated, a 4.9/5 Google rating across 109+ reviews, and a verified 98% success rate. Our results speak louder than any claim — you can read real patient stories on our Google profile.</p>
                 </div>
                 <!-- 3 -->
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-[#00B4A6] transition-all">
                     <i class="fas fa-clipboard-check text-3xl text-[#00B4A6] mb-4"></i>
-                    <h3 class="text-xl font-bold mb-3">Personalized Anti-Gravity Treatment Plans</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">Absolutely no two dynamic patients reliably receive the strictly identical exact protocol. Dr. Nyra precisely assesses critical root cause, underlying hair loss stage, specific hormonal profile, and broader lifestyle before perfectly designing a unique multi-modal complex treatment plan actively targeting your exceedingly specific physiological triggers.</p>
+                    <h3 class="text-xl font-bold mb-3">Personalized Anti-Gravity Protocols</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">No two patients receive the same protocol. Dr. Nyra assesses root cause, hair loss stage, hormonal profile, and lifestyle before crafting a targeted multi-modal plan — ensuring the right treatment combination for your specific triggers.</p>
                 </div>
                 <!-- 4 -->
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-[#00B4A6] transition-all">
@@ -759,7 +770,7 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 hover:border-[#00B4A6] transition-all">
                     <i class="fas fa-map-marker-alt text-3xl text-[#00B4A6] mb-4"></i>
                     <h3 class="text-xl font-bold mb-3">Conveniently Located in Sector 39, Gurugram</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">Renowned DenceSpot Clinic is securely situated gracefully at C Block, Sector 39, Gurugram — rendering it exceptionally easily physically accessible smoothly from highly trafficked Sohna Road, prestigious Golf Course Road, and essentially major central Gurgaon sectors systematically. Operating dependably Mon–Sat solidly 10 AM–8 PM. Open calmly Sunday solely by fixed appointment.</p>
+                    <p class="text-gray-400 text-sm leading-relaxed">DenceSpot Clinic is at C Block, Sector 39, Gurugram — easily accessible from Sohna Road, Golf Course Road, and all major Gurgaon sectors. Open Mon–Sat 10 AM–8 PM, Sunday by appointment.</p>
                 </div>
             </div>
         </div>
@@ -777,8 +788,8 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
                         <span class="text-sm font-bold text-[#00B4A6]">World-Class Infrastructure</span>
                     </div>
                     <h2 class="text-4xl font-display font-bold mb-6">Step Into the Future of Clinical Dermatology</h2>
-                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">The DenceSpot Hair Treatment Center in Gurgaon merges elite clinical sterility strictly enforced utilizing comprehensive European standards coupled gracefully with deeply serene luxury. Our dedicated PRP and Microneedling therapeutic suites consistently boast ultra-advanced localized HEPA air filtration protecting fragile vulnerable follicles heavily against any airborne contaminants.</p>
-                    <p class="text-gray-600 mb-8 text-sm leading-relaxed">Relax comfortably inside purely private, deeply highly sanitized discreet treatment rooms utilizing exceptionally modern ergonomically engineered clinical seating ensuring totally maximized physical comfort explicitly across practically lengthy extensive procedural durations.</p>
+                    <p class="text-gray-600 mb-6 text-sm leading-relaxed">The DenceSpot Hair Treatment Center merges clinical sterility with comfort, following European hygiene standards throughout. Our PRP and Microneedling suites feature HEPA air filtration systems to protect scalp health during procedures.</p>
+                    <p class="text-gray-600 mb-8 text-sm leading-relaxed">All treatments are conducted in private, fully sanitized rooms with ergonomic seating — ensuring you are comfortable even during longer sessions like FUE transplant procedures.</p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="https://dencespot.com/gallery.php" class="bg-[#00B4A6] text-white px-8 py-4 rounded-full font-bold shadow-xl hover:-translate-y-1 transition-transform text-center">View Clinic Gallery</a>
                     </div>
@@ -966,6 +977,42 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
         </div>
     </section>
 
+
+    <!-- Google Reviews Section -->
+    <section class="py-[60px] bg-bgLight w-full border-t border-gray-100">
+        <div class="container mx-auto px-6 text-center mb-[30px]">
+            <h2 class="text-4xl font-display font-bold">What Our <span class="text-[#00B4A6]">Patients Say</span></h2>
+        </div>
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+    </section>
+
+    <!-- Internal Blog Links Section -->
+    <section class="py-[40px] bg-bgLight">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-darkSlate text-center mb-8">
+                Learn More About <span class="text-[#00B4A6]">Hair Fall</span>
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <a href="blog/how-to-control-hair-fall-complete-guide" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+                    <span class="text-[#00B4A6] text-sm font-semibold uppercase tracking-wide">Guide</span>
+                    <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-[#00B4A6] transition-colors">How to Control Hair Fall — Complete Expert Guide</h3>
+                    <p class="text-gray-500 text-sm">A thorough guide on the most effective strategies to stop hair fall and stimulate regrowth.</p>
+                </a>
+                <a href="blog/how-to-stop-hair-fall-after-covid-recovery-guide" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+                    <span class="text-[#00B4A6] text-sm font-semibold uppercase tracking-wide">Post-COVID</span>
+                    <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-[#00B4A6] transition-colors">How to Stop Hair Fall After COVID — Recovery Guide</h3>
+                    <p class="text-gray-500 text-sm">Learn why post-COVID hair loss happens and what treatments bring results fastest.</p>
+                </a>
+                <a href="blog/how-to-control-hair-fall-for-women-expert-guide" class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md transition-all group">
+                    <span class="text-[#00B4A6] text-sm font-semibold uppercase tracking-wide">Women</span>
+                    <h3 class="text-darkSlate font-bold mt-2 mb-2 group-hover:text-[#00B4A6] transition-colors">How to Control Hair Fall for Women — Expert Guide</h3>
+                    <p class="text-gray-500 text-sm">PCOS, thyroid, post-partum — the definitive guide to female hair fall treatment.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- SECTION 16: FINAL CTA -->
     <section class="py-24 bg-darkSlate text-white relative overflow-hidden">
         <!-- Decorative elements -->
@@ -994,7 +1041,7 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
                 <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
                     <i class="fas fa-map-marker-alt text-[#00B4A6] text-2xl mb-4"></i>
                     <h4 class="font-bold mb-1">Location</h4>
-                    <p class="text-gray-400 text-sm">Sector 39, Gurugram</p>
+                    <p class="text-gray-400 text-sm">C Block, Sector 39, Gurugram</p>
                 </div>
             </div>
             
@@ -1005,6 +1052,9 @@ $meta_description = 'Stop hair fall with DenceSpot\'s Anti-Gravity Hair Treatmen
             </div>
         </div>
     </section>
+
+    </main><!-- /#main-content -->
+
     <!-- Scripts -->
     <?php include "includes/footer.php"; ?>
     <?php include "includes/scripts.php"; ?>

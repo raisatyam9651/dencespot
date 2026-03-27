@@ -40,8 +40,8 @@ if (!preg_match('/^[0-9]{10}$/', $phone)) {
 }
 
 // Email configuration
-$to_email = 'satyamrai374@gmail.com';
-$subject = 'New WhatsApp Lead from Website (dencepot hair transplnat)';
+$to_email = 'raisatyam9651@gmail.com';
+$subject = 'dencepot website lead';
 $from_email = 'noreply@' . $_SERVER['HTTP_HOST'];
 
 function getAsianDateTime($timezone_identifier = 'Asia/Kolkata')
