@@ -1,0 +1,7 @@
+# Captured leads — real patient names, phone numbers and IPs.
+# Never belongs in the repo, least of all a public one.
+storage/
+
+# OS cruft
+.DS_Store
+Thumbs.db

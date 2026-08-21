@@ -2,10 +2,9 @@
 /**
  * /hair-prp-treatment-in-gurgaon — page #29, PRP hub.
  *
- * Ported from the design build. One correction applied: the design file
- * credited "Dr. Nyra, MBBS, MD (Dermatology)" while the hair transplant page
- * credited MBBS only. The shared doctor_block() now renders whatever
- * config.php holds, so that inconsistency cannot recur.
+ * Ported from the design build. The two design exports disagreed on the
+ * doctor's qualifications; that was resolved with the clinic and the answer
+ * now lives in config.php alone. No page restates a credential.
  */
 
 declare(strict_types=1);
@@ -110,8 +109,8 @@ require __DIR__ . '/includes/header.php';
         <?= slot('PRP centrifuge and prepared syringe, or a scalp injection in progress', 'ratio-4-5', 'media--shadow') ?>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
-          <p class="h4 mt-1">Dr. Nyra</p>
-          <p class="meta">MBBS · Owner &amp; Chief Consultant, DenceSpot Clinic</p>
+          <p class="h4 mt-1"><?= doctor_name() ?></p>
+          <p class="meta"><?= doctor_credit() ?></p>
         </div>
       </div>
     </div>

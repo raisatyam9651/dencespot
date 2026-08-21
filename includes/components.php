@@ -56,6 +56,36 @@ function icon(string $name, int $size = 24, string $color = 'currentColor', floa
 }
 
 /* -------------------------------------------------------------------------
+ * Doctor credit line
+ *
+ * Used by every hero badge. Exists so a credential is never retyped into a
+ * template — when config changes, every page changes with it. Retyping is
+ * exactly how the two design exports ended up claiming different
+ * qualifications for the same doctor.
+ * ---------------------------------------------------------------------- */
+
+function doctor_credit(string $key = 'dr-nyra'): string
+{
+    $doc = DOCTORS[$key] ?? null;
+    if ($doc === null) {
+        return '';
+    }
+    return e($doc['quals']) . ' · ' . e($doc['role']);
+}
+
+function doctor_name(string $key = 'dr-nyra'): string
+{
+    return e(DOCTORS[$key]['name'] ?? '');
+}
+
+/** "Dr. Nyra, MBBS, MD (Dermatology)" */
+function doctor_full(string $key = 'dr-nyra'): string
+{
+    $doc = DOCTORS[$key] ?? null;
+    return $doc === null ? '' : e($doc['name']) . ', ' . e($doc['quals']);
+}
+
+/* -------------------------------------------------------------------------
  * Image placeholder
  *
  * Stands in until real clinic photography arrives. Deliberately obvious —
@@ -232,9 +262,9 @@ function doctor_block(string $whyItMatters, string $portraitAlt = 'Dr. Nyra — 
       <?= slot($portraitAlt, 'ratio-4-5', 'media--shadow') ?>
       <div>
         <p class="eyebrow">Who performs and reviews this treatment</p>
-        <h2 class="h2 mt-2"><?= e($doc['name']) ?>, <?= e($doc['quals']) ?></h2>
+        <h2 class="h2 mt-2"><?= doctor_full() ?></h2>
         <p class="body-l mt-1" style="font-weight:600"><?= e($doc['role']) ?></p>
-        <p class="body mt-3 measure">MBBS from <?= e($doc['alumni']) ?>, followed by three years of clinical work in Germany — two at Bio Hair Clinic and one at St. Georg Klinikum Eisenach — before establishing DenceSpot in Gurugram.</p>
+        <p class="body mt-3 measure">Qualified MBBS from <?= e($doc['alumni']) ?>, and holds an MD in Dermatology. Three years of clinical work in Germany followed — two at Bio Hair Clinic and one at St. Georg Klinikum Eisenach — before establishing DenceSpot in Gurugram.</p>
         <p class="body mt-3 measure"><?= e($whyItMatters) ?></p>
 
         <div class="grid grid--2 mt-4" style="max-width:640px">

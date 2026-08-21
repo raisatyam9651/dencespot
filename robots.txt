@@ -1,0 +1,38 @@
+# DenceSpot Clinic — https://dencespot.com
+#
+# NOTE: while includes/config.php has SITE_STAGING = true, every page also
+# emits <meta name="robots" content="noindex">. Flip that constant to false
+# on the live deploy or nothing here will be indexed.
+
+User-agent: *
+Allow: /
+
+# Conversion and handler endpoints — no search value, and indexing the
+# thank-you page corrupts conversion measurement.
+Disallow: /thank-you
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+
+# Query-string variants of real pages (tracking, form errors).
+Disallow: /*?error=
+Disallow: /*?utm_
+
+# AI answer engines are a real referral channel for local health queries and
+# convert far better than classic organic. Explicitly welcome.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://dencespot.com/sitemap.xml

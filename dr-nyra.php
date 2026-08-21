@@ -26,8 +26,8 @@ $crumbs = [
 ];
 
 $page = [
-    'title'       => 'Dr. Nyra, MBBS — Hair Restoration Doctor, Gurugram | DenceSpot Clinic',
-    'description' => 'Dr. Nyra, MBBS, is the owner and chief consultant at DenceSpot Clinic, Gurugram. Trained in Germany, she assesses, plans and performs every hair restoration case personally.',
+    'title'       => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ' — Hair Restoration Doctor, Gurugram | DenceSpot Clinic',
+    'description' => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ', is owner and chief consultant at DenceSpot Clinic, Gurugram. Trained in India and Germany, she assesses, plans and performs every hair restoration case personally.',
     'url'         => '/dr-nyra',
     'nav_active'  => '/about-us',
     'crumbs'      => $crumbs,
@@ -52,7 +52,7 @@ require __DIR__ . '/includes/header.php';
       <?= slot('Dr. Nyra — professional portrait, natural light, clinical setting', 'ratio-4-5', 'media--shadow') ?>
       <div>
         <span class="pill pill--dot">Owner &amp; Chief Consultant</span>
-        <h1 class="h1 mt-3"><?= e($doc['name']) ?>, <?= e($doc['quals']) ?></h1>
+        <h1 class="h1 mt-3"><?= doctor_full() ?></h1>
         <p class="lead mt-3 measure">Dr. Nyra founded DenceSpot Clinic in Gurugram after training in India and three years of clinical work in Germany. She assesses, plans and performs every hair restoration case at the clinic personally — the doctor who examines you is the doctor who operates on you.</p>
 
         <div class="btn-row mt-5">
@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
         <h2 class="h2 mt-2">Training and Practice</h2>
       </div>
       <div class="stack measure">
-        <p class="body-l">Dr. Nyra qualified MBBS from <?= e($doc['alumni']) ?>. She then spent three years working clinically in Germany — two at Bio Hair Clinic, where hair restoration surgery was her daily work, and one at St. Georg Klinikum Eisenach.</p>
+        <p class="body-l"><?= doctor_name() ?> qualified MBBS from <?= e($doc['alumni']) ?> and went on to take an MD in Dermatology. She then spent three years working clinically in Germany — two at Bio Hair Clinic, where hair restoration surgery was her daily work, and one at St. Georg Klinikum Eisenach.</p>
         <p class="body-l">She returned to India and established DenceSpot in Gurugram, structuring it around a principle that sounds obvious and is surprisingly rare: the doctor who assesses a case designs it and performs it. Patients are not consulted by one person, sold to by another and operated on by a technician they meet on the day.</p>
         <p class="body-l">Her clinical interest is in the part of hair restoration that does not photograph well — donor management, staging over a patient's lifetime, and recognising the cases where surgery is the wrong answer. A hairline that looks excellent at thirty and cannot be maintained at forty-five is a planning failure, not a surgical one.</p>
       </div>

@@ -93,9 +93,9 @@ require __DIR__ . '/includes/header.php';
       <?= slot('Dr. Nyra — professional portrait', 'ratio-4-5', 'media--shadow') ?>
       <div>
         <p class="eyebrow">Who treats you</p>
-        <h2 class="h2 mt-2">Dr. Nyra, MBBS</h2>
+        <h2 class="h2 mt-2"><?= doctor_full() ?></h2>
         <p class="body-l mt-2" style="font-weight:600">Owner &amp; Chief Consultant</p>
-        <p class="body mt-3 measure">MBBS from Dr. D. Y. Patil Medical College, followed by three years of clinical work in Germany — two at Bio Hair Clinic and one at St. Georg Klinikum Eisenach — before establishing DenceSpot in Gurugram.</p>
+        <p class="body mt-3 measure">Qualified MBBS from Dr. D. Y. Patil Medical College, and holds an MD in Dermatology. Three years of clinical work in Germany followed — two at Bio Hair Clinic and one at St. Georg Klinikum Eisenach — before establishing DenceSpot in Gurugram.</p>
         <p class="body mt-3 measure">Her clinical interest is in the unglamorous half of hair restoration: donor management, staging treatment across a patient's lifetime, and recognising the cases where surgery is the wrong answer.</p>
         <a class="btn btn--ink mt-4" href="/dr-nyra">Full profile and credentials</a>
       </div>

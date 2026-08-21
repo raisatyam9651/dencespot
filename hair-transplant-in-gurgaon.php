@@ -99,8 +99,8 @@ require __DIR__ . '/includes/header.php';
         <?= slot('Hair transplant procedure or doctor-patient consultation at the clinic', 'ratio-4-5', 'media--shadow') ?>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
-          <p class="h4 mt-1">Dr. Nyra</p>
-          <p class="meta">MBBS · Owner &amp; Chief Consultant, DenceSpot Clinic</p>
+          <p class="h4 mt-1"><?= doctor_name() ?></p>
+          <p class="meta"><?= doctor_credit() ?></p>
         </div>
       </div>
     </div>

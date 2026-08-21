@@ -85,16 +85,23 @@ const AREA_SERVED = ['Gurugram', 'New Delhi', 'Delhi NCR'];
  * ---------------------------------------------------------------------- */
 
 /**
- * ⚠ CREDENTIAL CONFLICT. The live site claims MD (Dermatology), a
- * fellowship, ISHRS membership and 5,000+ procedures. The design build
- * states MBBS plus three years in Germany. Only what can be evidenced is
- * published here. Resolve before launch — on a YMYL medical page,
- * unevidenced credentials are the expensive kind of mistake.
+ * CREDENTIAL — resolved with the clinic (Aug 2026): Dr. Nyra holds MBBS and
+ * MD (Dermatology), and she both consults on and performs every case. That is
+ * what is published sitewide.
+ *
+ * Still unevidenced and therefore still withheld: the fellowship, the ISHRS
+ * membership, the "5,000+ procedures" figure and the "98% success rate" claim
+ * that appear on the old live site. Do not reinstate any of them without
+ * documentation — on a YMYL medical page those are the expensive kind of
+ * mistake. "Board-certified" is dropped deliberately: India has no equivalent
+ * board, so the verifiable substitute is the council registration number below.
+ *
+ * ⚠ STILL REQUIRED: reg_number, the MD institution and year, and same_as URLs.
  */
 const DOCTORS = [
     'dr-nyra' => [
         'name'        => 'Dr. Nyra',
-        'quals'       => 'MBBS',
+        'quals'       => 'MBBS, MD (Dermatology)',
         'role'        => 'Owner & Chief Consultant, DenceSpot Clinic',
         'alumni'      => 'Dr. D. Y. Patil Medical College',
         'url'         => '/dr-nyra',
@@ -151,6 +158,36 @@ const NAV_FOOTER = [
  * ---------------------------------------------------------------------- */
 
 const MEDICAL_DISCLAIMER = 'The information on this page is general patient education and is not a substitute for a consultation. Results vary between patients; individual treatment plans differ, and suitability for any procedure is determined only after clinical assessment by a qualified doctor. No outcome, density or timeline is guaranteed.';
+
+/* -------------------------------------------------------------------------
+ * mbstring fallback
+ *
+ * The enquiry handler measures user input with mb_strlen()/mb_substr(). On a
+ * host without the mbstring extension those calls are a fatal error, which
+ * means every submitted lead dies with a 500 and is never stored. That is the
+ * single most expensive failure this site can have, so it is polyfilled here
+ * rather than left to hosting configuration.
+ * ---------------------------------------------------------------------- */
+
+if (!function_exists('mb_strlen')) {
+    function mb_strlen(string $string, ?string $encoding = null): int
+    {
+        // Count UTF-8 characters, not bytes.
+        return strlen(preg_replace('/[-¿]/', '', $string) ?? $string);
+    }
+}
+
+if (!function_exists('mb_substr')) {
+    function mb_substr(string $string, int $start, ?int $length = null, ?string $encoding = null): string
+    {
+        preg_match_all('/./us', $string, $m);
+        $chars = $m[0] ?? [];
+        $slice = $length === null
+            ? array_slice($chars, $start)
+            : array_slice($chars, $start, $length);
+        return implode('', $slice);
+    }
+}
 
 /* -------------------------------------------------------------------------
  * Helpers

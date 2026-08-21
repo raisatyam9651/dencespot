@@ -120,8 +120,8 @@ require __DIR__ . '/includes/header.php';
         <?= slot('Scalp examination under magnification during a hair-loss consultation', 'ratio-4-5', 'media--shadow') ?>
         <div class="hero__badge-card">
           <p class="eyebrow">Assessed &amp; reviewed by</p>
-          <p class="h4 mt-1">Dr. Nyra</p>
-          <p class="meta">MBBS · Owner &amp; Chief Consultant, DenceSpot Clinic</p>
+          <p class="h4 mt-1"><?= doctor_name() ?></p>
+          <p class="meta"><?= doctor_credit() ?></p>
         </div>
       </div>
     </div>

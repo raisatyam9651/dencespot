@@ -1,0 +1,132 @@
+# DenceSpot — clean URLs and canonical redirects
+# Apache / LiteSpeed (Hostinger). Every internal link in includes/config.php is
+# already extensionless (/hair-transplant-in-gurgaon, /blog/, /contact), so
+# without this file the whole PHP build 404s.
+#
+# Order matters below: all 301s run first so the browser lands on the canonical
+# URL, then one internal rewrite maps it to the .php file. Nothing here rewrites
+# a URL that is already canonical, so there are no redirect loops.
+
+Options -MultiViews -Indexes
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# RewriteBase /        # uncomment only if the site is served from a subdirectory
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. Canonical host + HTTPS
+#    Commented out until the production hostname is confirmed. Enable ONE of
+#    these (Hostinger may already force HTTPS at the server level — check first,
+#    two competing redirects will loop).
+# ─────────────────────────────────────────────────────────────────────────────
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#
+# RewriteCond %{HTTP_HOST} !^www\.dencespot\.com$ [NC]
+# RewriteRule ^ https://www.dencespot.com%{REQUEST_URI} [R=301,L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 2. sitemap.php is served as /sitemap.xml
+#    robots.txt advertises https://dencespot.com/sitemap.xml and sitemap.php
+#    expects that mapping. Both /sitemap.php and /sitemap fold into the .xml URL
+#    so the sitemap has exactly one address.
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{THE_REQUEST} \s/+sitemap(\.php)?[\s?] [NC]
+RewriteRule ^ /sitemap.xml [R=301,L]
+
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3. index.php → directory root
+#    /index.php → /   and   /blog/index.php → /blog/
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3. Strip the .php extension  →  /about-us.php redirects to /about-us
+#
+#    enquire.php is deliberately excluded. It is the lead-form POST target
+#    (includes/components.php: action="/enquire.php"). A 301 on a POST is not
+#    safely re-issued by every browser — some downgrade it to GET and drop the
+#    body — which would silently break every enquiry. It stays served directly.
+#    If the form action is ever changed to /enquire, delete the exclusion line.
+#
+#    THE_REQUEST is used rather than REQUEST_URI so this only fires on a real
+#    client request, never on the internal rewrite in section 6 (which would
+#    loop).
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{REQUEST_URI} !^/enquire\.php$ [NC]
+RewriteCond %{THE_REQUEST} \s/+([^?\s]*?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4. Legacy .html design exports → the PHP page that replaced them
+#    Only fires where a matching .php exists, so exports whose PHP page is not
+#    built yet (FUE/DHI/FUT at time of writing) keep serving as-is.
+#    Remove this block once the exports move into _design/.
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{THE_REQUEST} \s/+([^?\s]+?)\.html[\s?] [NC]
+RewriteCond %{DOCUMENT_ROOT}/%1.php -f
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 5. Drop the trailing slash on pages (real directories keep theirs, so /blog/
+#    is untouched). Canonical form is no trailing slash, matching config.php.
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{THE_REQUEST} \s/+([^?\s]+?)/+[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 6. The actual rewrite: /about-us → about-us.php, /blog/slug → blog/slug.php
+#    Runs only when the extensionless path is not itself a real file/directory
+#    and the .php counterpart exists. Query strings carry over automatically.
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. Keep internals off the web
+# ─────────────────────────────────────────────────────────────────────────────
+RewriteRule ^(includes|_design|_ds|\.claude|\.git)(/|$) - [F,L]
+</IfModule>
+
+
+# Working documents and build tooling are served as plain text by default —
+# BUILD-PROGRESS.md and the strategy files contain internal notes, unconfirmed
+# pricing and launch blockers. Never publicly readable.
+<FilesMatch "\.(md|mjs|lock|log|bak|sql|sh|ini|dist|json)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+<FilesMatch "^\.">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+
+# Custom 404. Enable once /404 exists — the tracker still lists it as not built,
+# and pointing ErrorDocument at a missing page produces a confusing double error.
+# ErrorDocument 404 /404
