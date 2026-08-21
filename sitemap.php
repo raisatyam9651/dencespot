@@ -22,7 +22,14 @@ header('Content-Type: application/xml; charset=utf-8');
  * - enquire    : POST handler, not a page
  * - book-consultation stays in: it is a real landing page people search for
  */
-const SITEMAP_EXCLUDE = ['thank-you', 'enquire', 'sitemap', '404'];
+/**
+ * fut-hair-transplant-in-gurgaon is excluded because that page currently ships
+ * `'noindex' => true` pending written confirmation that the clinic performs
+ * strip surgery. Listing a noindex URL in the sitemap sends Google two
+ * contradictory signals. Remove BOTH the noindex flag and this entry together
+ * once FUT is confirmed — see BUILD-PROGRESS.md.
+ */
+const SITEMAP_EXCLUDE = ['thank-you', 'enquire', 'sitemap', '404', 'fut-hair-transplant-in-gurgaon'];
 
 /** Priority and change frequency by page role. Money pages rank highest. */
 function sitemap_weight(string $slug): array
