@@ -33,7 +33,7 @@ $crumbs = [
 ];
 
 $page = [
-    'title'       => $post['title'] . ' | DenceSpot Clinic',
+    'title'       => ($post['seo_title'] ?? $post['title']) . ' | DenceSpot Clinic',
     'description' => $postDescription ?? $post['excerpt'],
     'url'         => $url,
     'nav_active'  => null,

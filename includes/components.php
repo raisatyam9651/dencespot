@@ -259,7 +259,7 @@ function doctor_block(string $whyItMatters, string $portraitAlt = 'Dr. Nyra — 
 <section class="section section--canvas" id="doctor">
   <div class="wrap">
     <div class="split split--wide-right">
-      <?= slot($portraitAlt, 'ratio-4-5', 'media--shadow') ?>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="<?= e($portraitAlt) ?>" width="800" height="1000" loading="lazy" decoding="async"></div>
       <div>
         <p class="eyebrow">Who performs and reviews this treatment</p>
         <h2 class="h2 mt-2"><?= doctor_full() ?></h2>

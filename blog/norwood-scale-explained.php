@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 $postSlug = 'norwood-scale-explained';
-$postDescription = 'The seven Norwood stages of male pattern hair loss explained plainly — what each stage looks like, roughly what it means for grafts, and why the stage matters less than whether your loss has stabilised.';
+$postDescription = 'The seven Norwood stages of male pattern hair loss explained plainly, and why your stage matters less than whether the loss has stabilised.';
 
 require __DIR__ . '/../includes/blog-header.php';
 ?>

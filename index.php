@@ -70,7 +70,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('Dr. Nyra with a patient during a hair loss consultation at DenceSpot Clinic, Sector 39 Gurugram', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra with a patient during a hair loss consultation at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="lazy" decoding="async"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Your consulting doctor</p>
           <p class="h4 mt-1"><?= e(DOCTORS['dr-nyra']['name']) ?></p>
@@ -236,23 +236,31 @@ require __DIR__ . '/includes/header.php';
     <div class="grid grid--4 mt-6">
       <div class="step">
         <span class="step-num">01</span>
-        <h3 class="h4 mt-2">Get in touch</h3>
-        <p class="meta mt-1">Send photographs on WhatsApp or leave a name and number. The clinic calls you back to agree a time.</p>
+        <div>
+          <h3 class="h4 mt-2">Get in touch</h3>
+          <p class="meta mt-1">Send photographs on WhatsApp or leave a name and number. The clinic calls you back to agree a time.</p>
+        </div>
       </div>
       <div class="step">
         <span class="step-num">02</span>
-        <h3 class="h4 mt-2">Doctor-led assessment</h3>
-        <p class="meta mt-1">Scalp examined under magnification, donor density measured, pattern staged, photographs taken for your record.</p>
+        <div>
+          <h3 class="h4 mt-2">Doctor-led assessment</h3>
+          <p class="meta mt-1">Scalp examined under magnification, donor density measured, pattern staged, photographs taken for your record.</p>
+        </div>
       </div>
       <div class="step">
         <span class="step-num">03</span>
-        <h3 class="h4 mt-2">A plan and a figure</h3>
-        <p class="meta mt-1">Technique, approximate graft number, timeline and an itemised estimate. You decide in your own time.</p>
+        <div>
+          <h3 class="h4 mt-2">A plan and a figure</h3>
+          <p class="meta mt-1">Technique, approximate graft number, timeline and an itemised estimate. You decide in your own time.</p>
+        </div>
       </div>
       <div class="step">
         <span class="step-num">04</span>
-        <h3 class="h4 mt-2">Treatment and follow-up</h3>
-        <p class="meta mt-1">The procedure or the medical course, then scheduled reviews with progress photographed against your baseline.</p>
+        <div>
+          <h3 class="h4 mt-2">Treatment and follow-up</h3>
+          <p class="meta mt-1">The procedure or the medical course, then scheduled reviews with progress photographed against your baseline.</p>
+        </div>
       </div>
     </div>
 
@@ -285,6 +293,13 @@ require __DIR__ . '/includes/header.php';
     'Visit the Clinic in ' . NAP_LOCALITY,
     'One clinic, one team, one address. Consultations and procedures both happen here, and patients travel to us from across ' . NAP_LOCALITY . ' and South Delhi.'
 ) ?>
+
+<!-- Testimonials (Live Google Feed Full Width) -->
+<section class="pt-[20px] pb-4 bg-white overflow-hidden w-full">
+<!-- Elfsight Google Reviews Widget -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-d4976df7-93b9-45ec-899d-7d3934036fc5" data-elfsight-app-lazy></div>
+</section>
 
 <?= cta_band(
     'Book Your Hair Assessment',

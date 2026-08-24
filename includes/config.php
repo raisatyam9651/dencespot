@@ -118,11 +118,14 @@ const REVIEWED_DATE = 'August 2026';
  * ---------------------------------------------------------------------- */
 
 const NAV_PRIMARY = [
-    ['label' => 'Hair Transplant', 'url' => '/hair-transplant-in-gurgaon'],
-    ['label' => 'Beard Transplant','url' => '/beard-transplant-gurgaon'],
-    ['label' => 'Hair PRP',        'url' => '/hair-prp-treatment-in-gurgaon'],
-    ['label' => 'Hair Fall',       'url' => '/hair-fall-treatment-in-gurgaon'],
-    ['label' => 'Results',         'url' => '/hair-transplant-results-gurgaon'],
+    ['label' => 'Treatments', 'url' => '#', 'children' => [
+        ['label' => 'Hair Transplant', 'url' => '/hair-transplant-in-gurgaon'],
+        ['label' => 'Beard Transplant','url' => '/beard-transplant-gurgaon'],
+        ['label' => 'Hair PRP',        'url' => '/hair-prp-treatment-in-gurgaon'],
+        ['label' => 'Hair Fall',       'url' => '/hair-fall-treatment-in-gurgaon'],
+        ['label' => 'Results',         'url' => '/hair-transplant-results-gurgaon'],
+    ]],
+    ['label' => 'Blog',            'url' => '/blog/'],
     ['label' => 'About',           'url' => '/about-us'],
     ['label' => 'Contact',         'url' => '/contact'],
 ];

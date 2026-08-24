@@ -26,8 +26,8 @@ $crumbs = [
 ];
 
 $page = [
-    'title'       => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ' — Hair Restoration Doctor, Gurugram | DenceSpot Clinic',
-    'description' => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ', is owner and chief consultant at DenceSpot Clinic, Gurugram. Trained in India and Germany, she assesses, plans and performs every hair restoration case personally.',
+    'title'       => 'Dr. Nyra, MBBS, MD (Dermatology) | DenceSpot Clinic',
+    'description' => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ', Chief Consultant at DenceSpot Clinic, Gurugram. She assesses, plans and performs every hair restoration case herself.',
     'url'         => '/dr-nyra',
     'nav_active'  => '/about-us',
     'crumbs'      => $crumbs,
@@ -49,7 +49,7 @@ require __DIR__ . '/includes/header.php';
 <section class="section section--canvas">
   <div class="wrap">
     <div class="split split--wide-right">
-      <?= slot('Dr. Nyra — professional portrait, natural light, clinical setting', 'ratio-4-5', 'media--shadow') ?>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra — professional portrait" width="800" height="1000" loading="eager" decoding="async"></div>
       <div>
         <span class="pill pill--dot">Owner &amp; Chief Consultant</span>
         <h1 class="h1 mt-3"><?= doctor_full() ?></h1>

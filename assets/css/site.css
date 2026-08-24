@@ -529,3 +529,12 @@ table.data tr:last-child td { border-bottom: 0; }
   .site-header, .mobile-nav, .sticky-cta, .site-footer, .btn { display: none !important; }
   body { padding-bottom: 0; }
 }
+
+/* Nav Dropdown */
+.nav-dropdown { position: relative; display: inline-block; }
+.nav-dropdown-toggle { cursor: pointer; padding-bottom: 20px; }
+.nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; padding: 10px 0; min-width: 220px; z-index: 100; }
+.nav-dropdown:hover .nav-dropdown-menu { display: block; }
+.nav-dropdown-menu a { display: block; padding: 8px 20px; color: var(--ink); text-decoration: none; }
+.nav-dropdown-menu a:hover { background: #f5f4f7; }
+

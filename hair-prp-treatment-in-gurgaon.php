@@ -61,7 +61,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair PRP Treatment in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-performed hair PRP in Gurgaon for early thinning and increased shedding. Diagnosis first, one consistent protocol, the whole course quoted in writing. Book a consultation.',
+    'description' => 'Hair PRP treatment in Gurgaon by Dr. Nyra. A planned course of sessions for early thinning, or alongside a transplant. Sector 39, Gurugram.',
     'url'         => '/hair-prp-treatment-in-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [

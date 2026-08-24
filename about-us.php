@@ -15,7 +15,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'About DenceSpot Clinic | Hair Restoration in Gurugram',
-    'description' => 'DenceSpot is a doctor-led hair restoration clinic in Sector 39, Gurugram. One clinic, one doctor, written plans and scheduled follow-up. Meet the team and see the facility.',
+    'description' => 'Doctor-led hair restoration in Sector 39, Gurugram. One clinic, one address, and the doctor who assesses you is the doctor who performs your procedure.',
     'url'         => '/about-us',
     'crumbs'      => $crumbs,
     'schema'      => [
@@ -90,7 +90,7 @@ require __DIR__ . '/includes/header.php';
 <section class="section section--white">
   <div class="wrap">
     <div class="split split--wide-right">
-      <?= slot('Dr. Nyra — professional portrait', 'ratio-4-5', 'media--shadow') ?>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra — professional portrait" width="800" height="1000" loading="lazy" decoding="async"></div>
       <div>
         <p class="eyebrow">Who treats you</p>
         <h2 class="h2 mt-2"><?= doctor_full() ?></h2>

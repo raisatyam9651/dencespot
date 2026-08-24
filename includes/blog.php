@@ -28,6 +28,8 @@ const BLOG_POSTS = [
     [
         'slug'     => 'norwood-scale-explained',
         'title'    => 'The Norwood Scale Explained: Which Stage Are You, and What It Means',
+        // Shorter form for the <title> tag only; the H1 keeps the full headline.
+        'seo_title'=> 'The Norwood Scale Explained: All 7 Stages',
         'excerpt'  => 'The seven stages of male pattern hair loss, what each one actually looks like, and why the stage matters far less than whether your loss has stabilised.',
         'hub'      => 'hair-transplant',
         'published'=> '2026-08-21',

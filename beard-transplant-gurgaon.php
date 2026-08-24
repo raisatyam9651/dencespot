@@ -60,7 +60,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Beard Transplant in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-led beard transplant in Gurgaon. FUE and DHI for patchy cheeks, jawline, moustache and sideburns, designed on your own face with a written estimate. Book a consultation.',
+    'description' => 'Beard transplant in Gurgaon by Dr. Nyra. Scalp grafts placed at the natural facial angle to fill patchy zones, thin sideburns and scarred areas.',
     'url'         => '/beard-transplant-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [

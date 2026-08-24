@@ -71,7 +71,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair Fall Treatment in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-led hair fall treatment in Gurgaon. The cause is investigated before treatment starts — thyroid, iron, scalp and pattern assessed, then a plan that fits the diagnosis.',
+    'description' => 'Hair fall treatment in Gurgaon. The cause is found first, thyroid, iron, stress or pattern loss, then treated. Doctor-led, Sector 39 Gurugram.',
     'url'         => '/hair-fall-treatment-in-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [

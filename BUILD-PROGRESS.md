@@ -48,11 +48,11 @@ Legend: ✅ built · 🔨 in progress · ⬜ not started · ⏭ keep live, schem
 ### Tier 0 — conversion infrastructure
 | # | URL | Status |
 |---|---|---|
-| 1 | `/` | ⬜ |
+| 1 | `/` | ✅ |
 | 2 | `/book-consultation` | ✅ |
 | 3 | `/hair-transplant-cost-in-gurgaon` | ✅ |
-| 4 | `/hair-transplant-results-gurgaon` | ⬜ |
-| 5 | `/patient-reviews` | ⬜ |
+| 4 | `/hair-transplant-results-gurgaon` | ✅ |
+| 5 | `/patient-reviews` | ✅ |
 | 6 | `/patient-stories/*` ×5 | ⬜ |
 | 7 | `/hair-loss-assessment` | ⬜ |
 | 8 | `/hair-transplant-graft-calculator` | ⬜ |
@@ -131,3 +131,46 @@ Legend: ✅ built · 🔨 in progress · ⬜ not started · ⏭ keep live, schem
   - Per user instruction, nothing is published to claude.ai — everything stays in this repo.
 - **Iter 3** — blog system (`includes/blog.php` registry, `blog-header.php` / `blog-footer.php` layout, `/blog/` index with topic filter) + first post `norwood-scale-explained` (1,464 words, Article + reviewedBy schema) + page 14 `/faqs` (20 clinic-level Q&As; deliberately no overlap with treatment-page FAQs). 12 of 47 built.
   - Artifact watch ended — the claude.ai canvas was deleted. No action taken; all work stays local.
+
+- **Iter 4** — pages 4 (results gallery), 5 (patient reviews), favicon asset. 17 pages render clean.
+  - **Credential drift fixed.** `config.php` resolved Dr. Nyra to *MBBS, MD (Dermatology)*. Five hero badges had the qualification hardcoded and instantly contradicted it. Added `doctor_credit()`, `doctor_name()`, `doctor_full()` in `components.php`; verified across all 14 pages — MD present, zero stale strings. **No page restates a credential now; config is the only source.**
+  - **No fabricated proof.** `patient-reviews.php` emits no `AggregateRating` and `hair-transplant-results-gurgaon.php` emits no `ImageObject` while their arrays are empty. Both activate automatically once real reviews / consented photos are added. Do not hand-write either.
+
+---
+
+## ⏹ Handover — this loop stopped by user decision (Aug 2026)
+
+A second agent was found building the same plan in this repo concurrently (it added `.htaccess`, `robots.txt`, `sitemap.php`, `LOCAL-SEO-STRATEGY-dencespot.md`, `_design/technique-pages/`, and overwrote `index.php`). To avoid clobbering, this loop stood down. **That session owns the remaining build.**
+
+### Broken internal links to resolve (24)
+
+These are linked from pages already built and currently 404. Building each clears its link:
+
+`/fue-hair-transplant-in-gurgaon` · `/dhi-hair-transplant-in-gurgaon` · `/fut-hair-transplant-in-gurgaon` ·
+`/hairline-transplant-in-gurgaon` · `/crown-hair-transplant-in-gurgaon` · `/hair-transplant-repair-in-gurgaon` ·
+`/hair-transplant-for-women-in-gurgaon` · `/eyebrow-transplant-in-gurgaon` · `/hair-transplant-aftercare` ·
+`/beard-transplant-cost-gurgaon` · `/prp-hair-treatment-cost-in-gurgaon` · `/gfc-treatment-in-gurgaon` ·
+`/womens-hair-loss-treatment-in-gurgaon` · `/alopecia-areata-treatment-in-gurgaon` ·
+`/scalp-micropigmentation-in-gurgaon` · `/cost-and-emi-options` ·
+`/fue-vs-dhi-hair-transplant` · `/fue-vs-fut-hair-transplant` · `/prp-vs-gfc-treatment` ·
+`/hair-transplant-risks-and-side-effects` · `/privacy-policy` · `/terms` · `/medical-disclaimer` · `/dr-rahul`
+
+(`/sitemap.xml` is not broken — `.htaccess` rewrites it to `sitemap.php`.)
+
+### Conventions any new page must follow
+
+1. `require includes/header.php` … `require includes/footer.php`. Never re-declare `<head>`.
+2. Never retype a credential, address, phone or hours — use `config.php` / `doctor_credit()`.
+3. Pass the **same** `$faqs` array to `faq_list()` and `schema_faq()`. Schema count must equal visible `<details>` count.
+4. No `AggregateRating`, `Review`, `ImageObject` or price markup for anything not visibly on the page.
+5. Placeholders stay visibly marked (`[CONFIRM]`, `card--dashed`, "to be confirmed"). Never invent a price, statistic, review or result.
+6. Zero locality pages — strategy §5.3 gate.
+
+### Verify before publishing any page
+
+```
+php -l <file>                       # must be silent
+php -S 127.0.0.1:8899 -t .          # then curl the page
+# check: HTTP 200, no "Fatal error"/"Warning:", exactly one <h1>,
+# JSON-LD parses, FAQ schema count == visible <details> count
+```

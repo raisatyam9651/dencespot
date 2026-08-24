@@ -43,7 +43,7 @@ declare(strict_types=1);
       </div>
     </div>
 
-    <p class="disclaimer"><b>Medical disclaimer.</b> <?= e(MEDICAL_DISCLAIMER) ?></p>
+    <p class="disclaimer"><b>Medical disclaimer.</b> <?= e(MEDICAL_DISCLAIMER) ?> <b>Medically reviewed by Dr. Nyra.</b></p>
 
     <div class="colophon">
       <p>&copy; <?= date('Y') ?> <?= e(SITE_NAME) ?>. All rights reserved.</p>

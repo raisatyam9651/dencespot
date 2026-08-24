@@ -100,7 +100,18 @@ $schemaHtml = schema_render($page['schema']);
 
     <nav class="nav" aria-label="Primary">
       <?php foreach (NAV_PRIMARY as $item): ?>
-        <a href="<?= e($item['url']) ?>"<?= $item['url'] === $navActive ? ' aria-current="page"' : '' ?>><?= e($item['label']) ?></a>
+        <?php if (isset($item['children'])): ?>
+          <div class="nav-dropdown">
+            <span class="nav-dropdown-toggle"><?= e($item['label']) ?> &#9662;</span>
+            <div class="nav-dropdown-menu">
+              <?php foreach ($item['children'] as $child): ?>
+                <a href="<?= e($child['url']) ?>"<?= $child['url'] === $navActive ? ' aria-current="page"' : '' ?>><?= e($child['label']) ?></a>
+              <?php endforeach; ?>
+            </div>
+          </div>
+        <?php else: ?>
+          <a href="<?= e($item['url']) ?>"<?= $item['url'] === $navActive ? ' aria-current="page"' : '' ?>><?= e($item['label']) ?></a>
+        <?php endif; ?>
       <?php endforeach; ?>
     </nav>
 
@@ -122,7 +133,14 @@ $schemaHtml = schema_render($page['schema']);
   <div class="mobile-nav" id="mobile-nav" data-open="false">
     <ul>
       <?php foreach (NAV_PRIMARY as $item): ?>
-        <li><a href="<?= e($item['url']) ?>"<?= $item['url'] === $navActive ? ' aria-current="page"' : '' ?>><?= e($item['label']) ?></a></li>
+        <?php if (isset($item['children'])): ?>
+          <li class="mobile-nav-heading" style="padding: 10px 0; font-weight: 700; color: var(--ink);"><?= e($item['label']) ?></li>
+          <?php foreach ($item['children'] as $child): ?>
+            <li><a href="<?= e($child['url']) ?>"<?= $child['url'] === $navActive ? ' aria-current="page"' : '' ?> style="padding-left: 16px;"><?= e($child['label']) ?></a></li>
+          <?php endforeach; ?>
+        <?php else: ?>
+          <li><a href="<?= e($item['url']) ?>"<?= $item['url'] === $navActive ? ' aria-current="page"' : '' ?>><?= e($item['label']) ?></a></li>
+        <?php endif; ?>
       <?php endforeach; ?>
       <li><a href="/book-consultation">Book a consultation</a></li>
     </ul>
