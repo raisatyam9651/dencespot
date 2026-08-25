@@ -108,19 +108,18 @@ if (defined('OPENWA_API_URL') && OPENWA_API_URL !== '') {
                       . "Message:\n{$message}\n"
         ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 
-        $ch = curl_init($wa_url);
-        if ($ch) {
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $wa_payload);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5-second timeout to avoid blocking page transition
-            curl_setopt($ch, CURLOPT_HTTPHEADER, [
-                'Content-Type: application/json',
-                'X-API-Key: ' . OPENWA_API_KEY
-            ]);
-            @curl_exec($ch);
-            curl_close($ch);
-        }
+        $options = [
+            'http' => [
+                'method'  => 'POST',
+                'header'  => "Content-Type: application/json\r\n" .
+                             "X-API-Key: " . OPENWA_API_KEY . "\r\n",
+                'content' => $wa_payload,
+                'timeout' => 5, // 5-second timeout to avoid blocking page transition
+                'ignore_errors' => true
+            ]
+        ];
+        $context = stream_context_create($options);
+        @file_get_contents($wa_url, false, $context);
     }
 }
 
