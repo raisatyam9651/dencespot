@@ -1,8 +1,8 @@
 # DenceSpot Clinic — https://dencespot.com
 #
-# NOTE: while includes/config.php has SITE_STAGING = true, every page also
-# emits <meta name="robots" content="noindex">. Flip that constant to false
-# on the live deploy or nothing here will be indexed.
+# NOTE: includes/config.php has SITE_STAGING = false, so pages emit
+# <meta name="robots" content="index, follow">. Setting that constant back to
+# true re-applies a site-wide noindex and nothing here will be indexed.
 
 User-agent: *
 Allow: /

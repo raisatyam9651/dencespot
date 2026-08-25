@@ -39,7 +39,7 @@ Every page sets `$page[...]` then `require includes/header.php` … `require inc
 3. **Geo coordinates** — `GEO_LAT`/`GEO_LNG` are null; schema omits geo rather than guess.
 4. **Dr. Nyra credentials** — live site claims MD (Dermatology) + fellowship + ISHRS + 5,000 procedures; build states MBBS + 3 years Germany. Only evidenced claims published.
 5. **Per-graft rates** — `hair-transplant-cost-in-gurgaon.php` `$rates` holds `[CONFIRM]` placeholders.
-6. **`SITE_STAGING`** — `true`, so every page emits `noindex`. Flip to `false` at launch.
+6. ~~**`SITE_STAGING`**~~ — resolved 2026-08-25: set to `false`, pages now emit `index, follow`. The 404, thank-you and FUT pages keep their per-page `noindex`.
 
 ## Page status
 
@@ -174,3 +174,72 @@ php -S 127.0.0.1:8899 -t .          # then curl the page
 # check: HTTP 200, no "Fatal error"/"Warning:", exactly one <h1>,
 # JSON-LD parses, FAQ schema count == visible <details> count
 ```
+
+---
+
+## ▶ Resumed — SEO Phase 1 (Aug 2026)
+
+Driven by `COMPETITOR-STRATEGY-hair-transplant-gurgaon.md`, written after analysing the
+six competitor pages ranking for *hair transplant in Gurgaon*.
+
+### ⛔ Launch blocker found on the live site
+
+The deployed build still has `SITE_STAGING = true`. Every page on dencespot.com is
+serving `<meta name="robots" content="noindex, nofollow">`:
+
+```
+$ curl -sL https://dencespot.com/hair-transplant-in-gurgaon | grep '<meta name="robots"'
+<meta name="robots" content="noindex, nofollow">
+```
+
+`includes/config.php` in this working tree already has it set to `false` — **the fix
+exists and has never been deployed.** `nofollow` additionally means no internal link
+equity moves anywhere and any earned backlinks are discarded. Nothing else in the
+roadmap produces a single visit until this ships.
+
+### Built this iteration (2 pages)
+
+| Page | Words | FAQs | Why first |
+|---|---|---|---|
+| `/hair-transplant-aftercare` | 3,313 | 14 | Linked from `NAV_FOOTER` → was 404 on all 29 pages. Recovery/washing/shedding queries are uncontested across all six competitors. |
+| `/cost-and-emi-options` | 2,081 | 9 | Linked from `NAV_FOOTER` → was 404 on all 29 pages. Counter-positions the "50% off / pay ₹1000" promotions competitors lead with. |
+
+Both verified per the convention above: `php -l` silent · HTTP 200 · zero PHP
+notices · exactly one `<h1>` · JSON-LD parses · **FAQ schema count == visible
+`<details>` count** (14/14 and 9/9) · `MedicalClinic · Physician · BreadcrumbList ·
+FAQPage` emitted. Both picked up by `sitemap.php` automatically (it globs root `*.php`).
+
+No fabricated proof: the clinic's first-wash protocol, accepted payment methods,
+deposit policy, finance providers and cancellation terms are all `[CONFIRM]`
+placeholders in `card--dashed` blocks. **`/cost-and-emi-options` must not be published
+until the finance terms are signed off** — a wrong finance term is a
+consumer-protection problem, not an SEO one.
+
+### Broken internal links: 17 → 15
+
+Both site-wide ones are cleared. Nothing now links into a dead end from `includes/`.
+Remaining 15, all contextual, and each one is also a page on the strategy roadmap:
+
+`/womens-hair-loss-treatment-in-gurgaon` (5 sources) · `/crown-hair-transplant-in-gurgaon` ·
+`/hairline-transplant-in-gurgaon` · `/hair-transplant-repair-in-gurgaon` ·
+`/hair-transplant-risks-and-side-effects` · `/gfc-treatment-in-gurgaon` ·
+`/prp-hair-treatment-cost-in-gurgaon` · `/hair-transplant-for-women-in-gurgaon` ·
+`/eyebrow-transplant-in-gurgaon` · `/fue-vs-dhi-hair-transplant` ·
+`/fue-vs-fut-hair-transplant` · `/prp-vs-gfc-treatment` · `/beard-transplant-cost-gurgaon` ·
+`/alopecia-areata-treatment-in-gurgaon` · `/scalp-micropigmentation-in-gurgaon`
+
+> **Do not verify broken links with a local crawl.** PHP's built-in server falls back to
+> `index.php` for any unmatched path and returns **200**, so every missing page looks
+> healthy. Check hrefs against files on disk instead, or crawl the real Apache host.
+
+### Next — Phase 2 (the competitive gap)
+
+None of the six competitors have genuine comparison content, and three of these are
+already linked from `/hair-transplant-in-gurgaon`:
+
+1. `/fue-vs-dhi-hair-transplant` · `/fue-vs-fut-hair-transplant` · `/prp-vs-gfc-treatment`
+2. `/hair-transplant-risks-and-side-effects` — competitors avoid it as "negative"; publishing
+   it honestly against rivals claiming "100% survival rate" is the sharpest differentiator
+   available, and balanced sources are preferentially cited in AI Overviews.
+3. Real per-graft rates into `hair-transplant-cost-in-gurgaon.php` — only one of the six
+   publishes a cost table at all.

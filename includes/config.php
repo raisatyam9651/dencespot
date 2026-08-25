@@ -22,7 +22,7 @@ const SITE_ORIGIN = 'https://dencespot.com';
  * <meta name="robots" content="noindex"> so a staging deploy can never be
  * indexed by accident.
  */
-const SITE_STAGING = true;
+const SITE_STAGING = false;
 
 /* -------------------------------------------------------------------------
  * NAP — Name, Address, Phone
@@ -59,12 +59,18 @@ const HOURS_DISPLAY = 'Mon–Sat · 10:00 – 20:00';
 const HOURS_NOTE    = 'Sunday · by appointment only';
 
 /**
- * ⚠ REQUIRED before launch. Pull the exact pin from the Google Business
- * Profile — LocalBusiness geo wants 5+ decimal places. Leave null and the
- * schema simply omits geo rather than shipping a wrong coordinate.
+ * Clinic pin, taken from the Google Business Profile place embed rendered on
+ * this site (FTID 0x390ce5e4f6f45491:0x9dc43165216a74e6, CID below). An embed
+ * centre is the place pin to within a few metres — not a survey, but far
+ * better than omitting geo entirely.
+ *
+ * Cross-checked before publishing: 360 m from Medanta — The Medicity, which
+ * matches NAP_LANDMARK, and 712 m from the Sector 39 centroid, which puts it
+ * inside Sector 39. This refutes the magicpin listing's Sector 67A by ~9 km.
+ * Worth reconfirming from the GBP dashboard next time someone has it open.
  */
-const GEO_LAT = null;
-const GEO_LNG = null;
+const GEO_LAT = 28.4396807;
+const GEO_LNG = 77.0438613;
 
 /* -------------------------------------------------------------------------
  * Contact
@@ -75,7 +81,13 @@ const PHONE_DISPLAY = '+91 81783 30800';
 const PHONE_SCHEMA  = '+91-81783-30800';
 const EMAIL         = 'dencespot@gmail.com';
 const WHATSAPP_URL  = 'https://api.whatsapp.com/send/?phone=%2B918178330800';
-const MAPS_URL      = 'https://www.google.com/maps?q=Dencespot+Clinic+Sector+39+Gurgaon';
+/**
+ * Canonical listing, addressed by CID. The previous value was a text search,
+ * which re-runs a query on every click and can resolve to one of the duplicate
+ * directory records or to a competitor. A CID always lands on this listing.
+ */
+const GBP_CID  = '11368265669812057318';
+const MAPS_URL = 'https://maps.google.com/?cid=' . GBP_CID;
 
 /** Areas the clinic draws patients from — used in schema areaServed. */
 const AREA_SERVED = ['Gurugram', 'New Delhi', 'Delhi NCR'];
@@ -118,6 +130,7 @@ const REVIEWED_DATE = 'August 2026';
  * ---------------------------------------------------------------------- */
 
 const NAV_PRIMARY = [
+    ['label' => 'About',           'url' => '/about-us'],
     ['label' => 'Treatments', 'url' => '#', 'children' => [
         ['label' => 'Hair Transplant', 'url' => '/hair-transplant-in-gurgaon'],
         ['label' => 'Beard Transplant','url' => '/beard-transplant-gurgaon'],
@@ -126,8 +139,6 @@ const NAV_PRIMARY = [
         ['label' => 'Results',         'url' => '/hair-transplant-results-gurgaon'],
     ]],
     ['label' => 'Blog',            'url' => '/blog/'],
-    ['label' => 'About',           'url' => '/about-us'],
-    ['label' => 'Contact',         'url' => '/contact'],
 ];
 
 const NAV_FOOTER = [

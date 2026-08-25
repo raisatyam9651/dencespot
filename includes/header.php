@@ -54,6 +54,8 @@ $schemaHtml = schema_render($page['schema']);
 <meta name="robots" content="noindex, nofollow">
 <?php elseif ($page['noindex']): ?>
 <meta name="robots" content="noindex, follow">
+<?php else: ?>
+<meta name="robots" content="index, follow">
 <?php endif; ?>
 
 <meta property="og:type" content="website">
