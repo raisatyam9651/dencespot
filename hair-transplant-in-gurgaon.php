@@ -31,11 +31,11 @@ $faqs = [
     ['q' => 'How many grafts might I need?',
      'a' => 'It depends on the area to be covered, the density being aimed for and what the donor area can safely give — mapped zone by zone at the assessment. Any figure offered before an examination is a guess, not a plan. See our <a href="/hair-transplant-cost-in-gurgaon">graft and cost guidance</a>.'],
     ['q' => 'What is the difference between FUE and DHI?',
-     'a' => 'Extraction is essentially the same. The difference is placement: in DHI each graft is set with a fine implanter in a single action, giving close control of depth and angle — useful in hairlines and detail zones. FUE placement into pre-made sites is efficient over larger areas. Neither is universally better. Compare them side by side in our <a href="/fue-vs-dhi-hair-transplant">FUE vs DHI guide</a>.'],
+     'a' => 'Extraction is essentially the same. The difference is placement: in DHI each graft is set with a fine implanter in a single action, giving close control of depth and angle — useful in hairlines and detail zones. FUE placement into pre-made sites is efficient over larger areas. Neither is universally better. Compare them side by side in our FUE vs DHI guide.'],
     ['q' => 'How much does a hair transplant cost in Gurgaon?',
      'a' => 'Cost depends on graft numbers, technique, complexity and any supporting treatment, so we quote after the assessment rather than publishing a headline price. You receive an itemised written estimate before booking a date. Full breakdown on our <a href="/hair-transplant-cost-in-gurgaon">cost page</a>.'],
     ['q' => 'Can women undergo hair transplantation?',
-     'a' => 'Sometimes. Female hair loss is more often diffuse, and hormonal, thyroid, iron or post-partum causes need investigating and treating first. Many women do better with medical treatment; surgery is considered selectively, for suitable patterns such as a receding frontal line. See <a href="/hair-transplant-for-women-in-gurgaon">hair transplant for women</a>.'],
+     'a' => 'Sometimes. Female hair loss is more often diffuse, and hormonal, thyroid, iron or post-partum causes need investigating and treating first. Many women do better with medical treatment; surgery is considered selectively, for suitable patterns such as a receding frontal line. See <a href="/hair-fall-treatment-in-gurgaon">hair transplant for women</a>.'],
     ['q' => 'Can beard hair be transplanted?',
      'a' => 'Beard areas can be restored using scalp grafts placed at the correct angle and density for the face — see <a href="/beard-transplant-gurgaon">beard transplant in Gurgaon</a>. The reverse, using beard hair as a donor source for the scalp, is considered only in selected cases and is assessed individually.'],
     ['q' => 'What happens during the consultation?',
@@ -50,7 +50,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair Transplant in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-led hair transplant in Gurgaon. FUE and DHI planned around your donor area and hairline, with written estimates and scheduled follow-up. Book a consultation.',
+    'description' => 'Doctor-led hair transplant in Gurgaon. FUE and DHI planned around your donor area and hairline, with written estimates and scheduled follow-up.',
     'url'         => '/hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [
@@ -157,12 +157,12 @@ require __DIR__ . '/includes/header.php';
         <a class="btn btn--ink mt-4" href="/book-consultation">Book an assessment</a>
       </div>
       <div class="grid grid--2">
-        <div class="card"><?= icon('hairline', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Receding hairline</h3><p class="body-s mt-2">A temple recession that has settled into a defined shape, where rebuilding the frontal line restores the frame of the face. Covered in depth on our <a href="/hairline-transplant-in-gurgaon">hairline restoration page</a>.</p></div>
+        <div class="card"><?= icon('hairline', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Receding hairline</h3><p class="body-s mt-2">A temple recession that has settled into a defined shape, where rebuilding the frontal line restores the frame of the face. Covered in depth on our hairline restoration page.</p></div>
         <div class="card"><?= icon('user', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Pattern hair loss</h3><p class="body-s mt-2">Male or female pattern loss that has stabilised, with donor density adequate for the area to be covered.</p></div>
-        <div class="card"><?= icon('settings', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Crown thinning</h3><p class="body-s mt-2">Vertex thinning, where planning matters most — the crown consumes grafts quickly and can keep expanding with age. See <a href="/crown-hair-transplant-in-gurgaon">crown restoration</a>.</p></div>
+        <div class="card"><?= icon('settings', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Crown thinning</h3><p class="body-s mt-2">Vertex thinning, where planning matters most — the crown consumes grafts quickly and can keep expanding with age. See crown restoration.</p></div>
         <div class="card"><?= icon('list', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Reduced hair density</h3><p class="body-s mt-2">Diffuse thinning where the pattern is stable and adding density between existing hairs is achievable without damaging them.</p></div>
-        <div class="card"><?= icon('pencil', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Repair and revision</h3><p class="body-s mt-2">Correcting a previous procedure — a hairline placed too low or too straight, visible plugs, or a depleted donor area. See <a href="/hair-transplant-repair-in-gurgaon">repair work</a>.</p></div>
-        <div class="card"><?= icon('beard', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Beard and eyebrow restoration</h3><p class="body-s mt-2">Facial restoration using scalp grafts placed at the flatter angle facial hair grows at. See <a href="/beard-transplant-gurgaon">beard transplant</a> and <a href="/eyebrow-transplant-in-gurgaon">eyebrow transplant</a>.</p></div>
+        <div class="card"><?= icon('pencil', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Repair and revision</h3><p class="body-s mt-2">Correcting a previous procedure — a hairline placed too low or too straight, visible plugs, or a depleted donor area. See repair work.</p></div>
+        <div class="card"><?= icon('beard', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Beard and eyebrow restoration</h3><p class="body-s mt-2">Facial restoration using scalp grafts placed at the flatter angle facial hair grows at. See <a href="/beard-transplant-gurgaon">beard transplant</a> and eyebrow transplant.</p></div>
       </div>
     </div>
   </div>
@@ -204,7 +204,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 
     <div class="note mt-5">
-      <p class="body-s"><b>Neither FUE nor DHI is universally better.</b> A clinic that sells one technique as the answer for every scalp is selling equipment, not a plan. The reasoning behind your recommendation is explained at the consultation and written into the estimate — compare them yourself in our <a href="/fue-vs-dhi-hair-transplant">FUE vs DHI</a> and <a href="/fue-vs-fut-hair-transplant">FUE vs FUT</a> guides.</p>
+      <p class="body-s"><b>Neither FUE nor DHI is universally better.</b> A clinic that sells one technique as the answer for every scalp is selling equipment, not a plan. The reasoning behind your recommendation is explained at the consultation and written into the estimate — compare them yourself in our FUE vs DHI and FUE vs FUT guides.</p>
     </div>
   </div>
 </section>
@@ -338,7 +338,7 @@ require __DIR__ . '/includes/header.php';
     </div>
     <div class="note mt-4" style="display:flex;gap:16px;align-items:flex-start">
       <?= icon('info', 20, 'var(--accent-deep)', 1.8) ?>
-      <p class="body-s">Individual recovery and hair-growth outcomes vary. Your doctor will provide personalized guidance based on your treatment, and timelines here are general patient education rather than a promise of results. Risks and side effects are set out on our <a href="/hair-transplant-risks-and-side-effects">risks page</a>.</p>
+      <p class="body-s">Individual recovery and hair-growth outcomes vary. Your doctor will provide personalized guidance based on your treatment, and timelines here are general patient education rather than a promise of results. Risks and side effects are set out on our risks page.</p>
     </div>
   </div>
 </section>

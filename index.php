@@ -25,7 +25,7 @@ $faqs = [
     ['q' => 'Who performs the procedure at DenceSpot Clinic?',
      'a' => 'Dr. Nyra assesses your scalp and donor area, designs the hairline, plans the graft numbers and performs the procedure herself, supported by the clinic\'s trained team. Your follow-up reviews are with her as well. This is worth asking every clinic you shortlist, because in many the doctor consults while technicians operate.'],
     ['q' => 'Where is the clinic and what are the timings?',
-     'a' => 'DenceSpot Clinic is at ' . nap_address_line() . ', ' . NAP_LANDMARK . '. Opening hours are ' . HOURS_DISPLAY . ', with ' . strtolower(HOURS_NOTE) . '. Consultations and procedures both happen at this one address — there is no separate surgical centre you get sent to.'],
+     'a' => 'DenceSpot Clinic is at ' . nap_address_line() . ', ' . NAP_LANDMARK . '. Opening hours are ' . HOURS_DISPLAY . ', and Sunday is by appointment only. Consultations and procedures both happen at this one address — there is no separate surgical centre you get sent to.'],
     ['q' => 'How much does treatment cost?',
      'a' => 'Cost follows the plan, and the plan follows the assessment, so no single figure fits every case. What drives it is graft count, hair-loss stage, donor density, technique and whether supporting medical therapy is part of the plan. The cost pages set out the arithmetic, and you receive an itemised written estimate before you commit to anything.'],
     ['q' => 'Do I have to travel to the clinic for a first opinion?',
@@ -36,6 +36,7 @@ $page = [
     'title'       => 'Hair Transplant Clinic in Gurgaon | DenceSpot — Dr. Nyra',
     'description' => 'Doctor-led hair transplant, PRP and hair-fall treatment in Sector 39, Gurugram. Dr. Nyra assesses, plans and performs every case herself. Book a consultation.',
     'url'         => '/',
+    'preload_image' => '/assets/img/dr-nayra.webp',
     'crumbs'      => [],
     'schema'      => [
         schema_website(),
@@ -70,7 +71,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra with a patient during a hair loss consultation at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="lazy" decoding="async"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra with a patient during a hair loss consultation at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Your consulting doctor</p>
           <p class="h4 mt-1"><?= e(DOCTORS['dr-nyra']['name']) ?></p>
@@ -91,12 +92,12 @@ require __DIR__ . '/includes/header.php';
     </div>
 
     <div class="grid grid--4 mt-6">
-      <a class="card" href="/hairline-transplant-in-gurgaon" style="text-decoration:none;color:inherit">
+      <a class="card" href="/hair-transplant-in-gurgaon" style="text-decoration:none;color:inherit">
         <?= icon('hairline', 22, 'var(--accent-deep)') ?>
         <h3 class="h4 mt-2">Receding hairline</h3>
         <p class="meta mt-1">Temples going back, hairline losing its shape. Usually FUE or DHI, designed to age well.</p>
       </a>
-      <a class="card" href="/crown-hair-transplant-in-gurgaon" style="text-decoration:none;color:inherit">
+      <a class="card" href="/hair-transplant-in-gurgaon" style="text-decoration:none;color:inherit">
         <?= icon('search', 22, 'var(--accent-deep)') ?>
         <h3 class="h4 mt-2">Crown thinning</h3>
         <p class="meta mt-1">The area that consumes grafts fastest. Graft planning plus medical therapy to hold what is there.</p>
@@ -116,12 +117,12 @@ require __DIR__ . '/includes/header.php';
         <h3 class="h4 mt-2">Patchy beard</h3>
         <p class="meta mt-1">Gaps, thin sideburns or scarred areas filled with scalp grafts at the correct facial angle.</p>
       </a>
-      <a class="card" href="/womens-hair-loss-treatment-in-gurgaon" style="text-decoration:none;color:inherit">
+      <a class="card" href="/hair-fall-treatment-in-gurgaon" style="text-decoration:none;color:inherit">
         <?= icon('user', 22, 'var(--accent-deep)') ?>
         <h3 class="h4 mt-2">Hair loss in women</h3>
         <p class="meta mt-1">Diffuse thinning and parting-line loss, worked up for hormonal and nutritional causes first.</p>
       </a>
-      <a class="card" href="/hair-transplant-repair-in-gurgaon" style="text-decoration:none;color:inherit">
+      <a class="card" href="/hair-transplant-in-gurgaon" style="text-decoration:none;color:inherit">
         <?= icon('shield', 22, 'var(--accent-deep)') ?>
         <h3 class="h4 mt-2">A previous transplant</h3>
         <p class="meta mt-1">Unnatural hairlines, pluggy grafts or a depleted donor area, assessed for what can be corrected.</p>

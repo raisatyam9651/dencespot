@@ -58,7 +58,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'DHI Hair Transplant in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-performed DHI hair transplant in Gurgaon. Each graft placed with an implanter for close control of angle and depth — suited to hairlines and detail zones.',
+    'description' => 'Doctor-performed DHI hair transplant in Gurgaon. Each graft placed with an implanter for close control of angle and depth, for hairlines and detail zones.',
     'url'         => '/dhi-hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [

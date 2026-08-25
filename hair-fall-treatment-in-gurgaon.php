@@ -58,7 +58,7 @@ $faqs = [
     ['q' => 'Do I have to take treatment forever?',
      'a' => 'For pattern hair loss, largely yes — treatment holds ground rather than curing the condition, and stopping generally means resuming the loss from where it had reached. For a reversible cause such as iron deficiency or telogen effluvium, treatment is finite. Which situation you are in is exactly what the assessment establishes.'],
     ['q' => 'Is hair fall treatment different for women?',
-     'a' => 'The investigation is broader. Female shedding more often has a treatable contributor — thyroid, iron, post-partum change, polycystic ovary syndrome — so those are checked and corrected before anything long-term is started. See <a href="/womens-hair-loss-treatment-in-gurgaon">women’s hair loss treatment</a>.'],
+     'a' => 'The investigation is broader. Female shedding more often has a treatable contributor — thyroid, iron, post-partum change, polycystic ovary syndrome — so those are checked and corrected before anything long-term is started. See women’s hair loss treatment.'],
     ['q' => 'How soon will I see results?',
      'a' => 'Hair grows slowly, and every treatment for hair loss is judged in months rather than weeks. Reduced shedding is usually the first change, commonly within two to three months. Visible density change is assessed against baseline photographs from around six months. Anyone promising faster is describing marketing, not biology.'],
 ];
@@ -229,7 +229,7 @@ require __DIR__ . '/includes/header.php';
             <span class="pill">Step 3</span>
             <h3 class="h3 mt-2">In-clinic therapy</h3>
           </div>
-          <p class="body-s"><a href="/hair-prp-treatment-in-gurgaon">PRP</a> or <a href="/gfc-treatment-in-gurgaon">GFC</a> to support follicles that are thinning but still present, generally alongside medical therapy rather than instead of it. Useful in the right case; useless where the follicles have already gone.</p>
+          <p class="body-s"><a href="/hair-prp-treatment-in-gurgaon">PRP</a> or <a href="/hair-prp-treatment-in-gurgaon">GFC</a> to support follicles that are thinning but still present, generally alongside medical therapy rather than instead of it. Useful in the right case; useless where the follicles have already gone.</p>
         </div>
       </div>
       <div class="card card--pad-lg">

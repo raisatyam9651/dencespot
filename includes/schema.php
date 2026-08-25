@@ -48,8 +48,17 @@ function schema_clinic(): array
         ];
     }
 
+    $node['hasMap'] = MAPS_URL;
+    $node['image']  = abs_url(CLINIC_IMAGE);
+
+    if (CLINIC_SAME_AS !== []) {
+        $node['sameAs'] = CLINIC_SAME_AS;
+    }
+
     foreach (AREA_SERVED as $area) {
-        $node['areaServed'][] = ['@type' => 'City', 'name' => $area];
+        // "Delhi NCR" is a metropolitan region, not a city.
+        $type = str_contains($area, 'NCR') ? 'AdministrativeArea' : 'City';
+        $node['areaServed'][] = ['@type' => $type, 'name' => $area];
     }
 
     return $node;
@@ -72,8 +81,22 @@ function schema_physician(string $key = 'dr-nyra'): ?array
         'worksFor' => ['@id' => SITE_ORIGIN . '/#clinic'],
     ];
 
+    $node['medicalSpecialty'] = 'Dermatology';
+    $node['image']            = abs_url('/assets/img/dr-nayra.webp');
+
     if (!empty($doc['alumni']))  { $node['alumniOf'] = $doc['alumni']; }
     if (!empty($doc['same_as'])) { $node['sameAs']   = $doc['same_as']; }
+
+    // The verifiable credential for an Indian clinician — India has no board
+    // certification, so the council registration is what substitutes for it.
+    // Omitted entirely while unknown; never published as "to be confirmed".
+    if (!empty($doc['reg_number'])) {
+        $node['identifier'] = [
+            '@type' => 'PropertyValue',
+            'name'  => 'Medical Council Registration',
+            'value' => $doc['reg_number'],
+        ];
+    }
 
     return $node;
 }

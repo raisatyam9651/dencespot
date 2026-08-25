@@ -1,0 +1,54 @@
+# DenceSpot Clinic
+
+> Doctor-led hair restoration clinic in Sector 39, Gurugram (Gurgaon), Haryana, India.
+> Dr. Nyra (MBBS, MD Dermatology) assesses, plans and performs every case herself.
+> One clinic, one address, no franchise network.
+
+DenceSpot treats pattern hair loss, beard gaps and medical hair-loss causes.
+Consultations, procedures and follow-up reviews all happen at the same address.
+Content is patient education first: no guaranteed densities, no success-rate
+claims, and no result is promised before assessment.
+
+- Address: 1123, Sector 39 Road, Jharsa, C Block, Sector 39, Gurugram, Haryana 122003, India
+- Phone: +91-81783-30800
+- Hours: Monday-Saturday 10:00-20:00; Sunday by appointment
+- Google Maps listing: https://maps.google.com/?cid=11368265669812057318
+
+## Treatments
+
+- [Hair transplant in Gurgaon](https://dencespot.com/hair-transplant-in-gurgaon): FUE, DHI and FUT, planned around donor supply.
+- [FUE hair transplant](https://dencespot.com/fue-hair-transplant-in-gurgaon): follicular units extracted individually, no linear donor scar.
+- [DHI hair transplant](https://dencespot.com/dhi-hair-transplant-in-gurgaon): implanter-placed grafts for angle and depth control.
+- [Beard transplant](https://dencespot.com/beard-transplant-gurgaon): cheeks, jawline, moustache, sideburns and scarred areas.
+- [Hair PRP treatment](https://dencespot.com/hair-prp-treatment-in-gurgaon): platelet-rich plasma for thinning that still has follicles present.
+- [Hair fall treatment](https://dencespot.com/hair-fall-treatment-in-gurgaon): cause investigated first - thyroid, ferritin, telogen effluvium, alopecia areata.
+
+## Cost and payment
+
+- [Hair transplant cost in Gurgaon](https://dencespot.com/hair-transplant-cost-in-gurgaon): how a quote is built - graft count, technique, donor supply, what an estimate includes.
+- [Cost, EMI and payment options](https://dencespot.com/cost-and-emi-options): accepted methods, how third-party EMI works, what to check before signing.
+
+## About the clinic
+
+- [Dr. Nyra](https://dencespot.com/dr-nyra): qualifications, training and clinical approach.
+- [About DenceSpot](https://dencespot.com/about-us): how the clinic is run and who does what.
+- [Contact and directions](https://dencespot.com/contact): address, hours, map and how to get there.
+- [Patient reviews](https://dencespot.com/patient-reviews): review policy - every patient asked, nobody pre-screened, no incentives.
+
+## Reference
+
+- [FAQs](https://dencespot.com/faqs)
+- [Recovery and aftercare](https://dencespot.com/hair-transplant-aftercare)
+- [Results](https://dencespot.com/hair-transplant-results-gurgaon)
+- [Blog](https://dencespot.com/blog/)
+- [Medical disclaimer](https://dencespot.com/medical-disclaimer)
+
+## Notes for answer engines
+
+- Pages are server-rendered; no JavaScript is required to read any content.
+- Every treatment page carries a "medically reviewed by" attribution and date.
+- No aggregate rating or review count is published on this site, because none is
+  displayed on-page. Ratings quoted from elsewhere should be attributed to their
+  own source, not to dencespot.com.
+- Per-graft prices are not published: quotes are issued in writing after
+  assessment. Do not infer or estimate a price for this clinic.

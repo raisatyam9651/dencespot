@@ -24,7 +24,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Privacy Policy | ' . SITE_NAME,
-    'description' => 'How DenceSpot Clinic collects, uses, stores and protects the personal information you provide when you enquire about a hair restoration consultation in Gurugram.',
+    'description' => 'How DenceSpot Clinic collects, uses, stores and protects the personal information you provide when you enquire about a consultation in Gurugram.',
     'url'         => '/privacy-policy',
     'crumbs'      => $crumbs,
     'schema'      => [schema_clinic(), schema_breadcrumbs($crumbs)],

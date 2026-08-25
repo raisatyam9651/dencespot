@@ -80,24 +80,28 @@ require __DIR__ . '/includes/header.php';
       <h2 class="h2 mt-2">Finding the Clinic</h2>
       <p class="body mt-3">We are in Sector 39, <?= e(NAP_LANDMARK) ?>.</p>
     </div>
+    <?php
+    // Each card renders only when DIRECTIONS holds a real answer. An unknown
+    // one disappears rather than telling a patient we cannot find ourselves.
+    $directionCards = [
+        'road'    => ['icon' => 'pin',      'heading' => 'By road'],
+        'metro'   => ['icon' => 'arrow',    'heading' => 'Nearest metro'],
+        'parking' => ['icon' => 'settings', 'heading' => 'Parking'],
+    ];
+    $known = array_filter($directionCards, fn($k) => DIRECTIONS[$k] !== null, ARRAY_FILTER_USE_KEY);
+    ?>
+    <?php if ($known !== []): ?>
     <div class="grid grid--3 mt-6">
-      <div class="card card--dashed">
-        <?= icon('pin', 22, 'var(--ink-muted)') ?>
-        <h3 class="h4 mt-2">By road</h3>
-        <p class="body-s mt-2" style="color:var(--placeholder)">Route description and landmark — to confirm with the clinic.</p>
+      <?php foreach ($known as $key => $card): ?>
+      <div class="card">
+        <?= icon($card['icon'], 22, 'var(--accent-deep)') ?>
+        <h3 class="h4 mt-2"><?= e($card['heading']) ?></h3>
+        <p class="body-s mt-2"><?= e(DIRECTIONS[$key]) ?></p>
       </div>
-      <div class="card card--dashed">
-        <?= icon('arrow', 22, 'var(--ink-muted)') ?>
-        <h3 class="h4 mt-2">Nearest metro</h3>
-        <p class="body-s mt-2" style="color:var(--placeholder)">Station name and walking time — to confirm with the clinic.</p>
-      </div>
-      <div class="card card--dashed">
-        <?= icon('settings', 22, 'var(--ink-muted)') ?>
-        <h3 class="h4 mt-2">Parking</h3>
-        <p class="body-s mt-2" style="color:var(--placeholder)">Parking guidance — to confirm with the clinic.</p>
-      </div>
+      <?php endforeach; ?>
     </div>
-    <p class="fine mt-4">These three cards are deliberately unfilled rather than guessed. Directions that send a patient to the wrong gate are worse than no directions.</p>
+    <?php endif; ?>
+    <p class="fine mt-4">If anything here is unclear on the day, call or send a WhatsApp message and someone will guide you in.</p>
   </div>
 </section>
 

@@ -30,7 +30,7 @@ $groups = [
     ],
     'Cost and payment' => [
         ['q' => 'Why is there no price list on the site?',
-         'a' => 'Because a headline figure is almost never what anyone pays. Cost is graft count multiplied by a per-graft rate, and graft count comes from the mapped plan. We publish the factors and the arithmetic instead — see <a href="/hair-transplant-cost-in-gurgaon">hair transplant cost</a> and <a href="/prp-hair-treatment-cost-in-gurgaon">PRP cost</a>.'],
+         'a' => 'Because a headline figure is almost never what anyone pays. Cost is graft count multiplied by a per-graft rate, and graft count comes from the mapped plan. We publish the factors and the arithmetic instead — see <a href="/hair-transplant-cost-in-gurgaon">how treatment is priced</a>.'],
         ['q' => 'What is included in the estimate?',
          'a' => 'The procedure, local anaesthesia, prescribed post-procedure medication, written aftercare instructions and your scheduled follow-up reviews. Anything not included is named in the estimate rather than discovered afterwards.'],
         ['q' => 'Can I pay in instalments?',
@@ -44,7 +44,7 @@ $groups = [
         ['q' => 'Do you guarantee results?',
          'a' => 'No, and no clinic honestly can. Outcomes vary between patients, not every graft survives, and hair that was not transplanted can continue to thin. We give realistic expectations before you book and document progress photographically so the result can be judged against a baseline rather than a memory.'],
         ['q' => 'What are the risks?',
-         'a' => 'For surgery: swelling, tenderness, temporary numbness, folliculitis, donor-area marks, shock loss and uneven density. For injections: tenderness, redness, pinpoint marks and bruising. Full detail is on the <a href="/hair-transplant-risks-and-side-effects">risks and side effects page</a>, and everything relevant to your case is discussed again on consent.'],
+         'a' => 'For surgery: swelling, tenderness, temporary numbness, folliculitis, donor-area marks, shock loss and uneven density. For injections: tenderness, redness, pinpoint marks and bruising. Full detail is on the risks and side effects page, and everything relevant to your case is discussed again on consent.'],
         ['q' => 'Why are there no before-and-after photos on some pages?',
          'a' => 'Because only consented, unedited photographs of our own patients, shot at the same angle and lighting, will go there. Borrowed or stock results are both a Google policy problem and a medical-advertising problem — and patients recognise them anyway. The galleries fill as consented cases reach their review points.'],
         ['q' => 'Are the reviews on this site real?',

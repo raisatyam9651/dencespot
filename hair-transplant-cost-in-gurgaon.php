@@ -6,9 +6,10 @@
  * the highest-intent non-brand query in this market, currently existing only
  * as an <h2> inside another page.
  *
- * ⚠ RATE TABLE AWAITING SIGN-OFF. Every figure marked [CONFIRM] is a
- * placeholder. Nothing here is invented — the clinic's real per-graft rates
- * must be dropped into $rates below before this page goes live.
+ * ⚠ RATES STILL AWAITING SIGN-OFF. $rates below holds null in every 'rate'
+ * slot, so the Rate column is not rendered at all and the page explains how
+ * quoting works instead. Fill in the real figures and the column returns by
+ * itself. Nothing here is invented, and no placeholder reaches a patient.
  */
 
 declare(strict_types=1);
@@ -16,13 +17,23 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/schema.php';
 
-/** ⚠ Replace the [CONFIRM] strings with the clinic's actual rates. */
+/**
+ * Per-graft rates. Set 'rate' to the clinic's real figure (e.g. '₹35–45 per
+ * graft') and the Rate column appears automatically, on the page and nowhere
+ * else. Leave them null and the table renders technique and suitability only.
+ *
+ * Same rule as the AggregateRating gate on /patient-reviews: publish a number
+ * or publish nothing — never publish a placeholder where a number belongs.
+ */
 $rates = [
-    ['technique' => 'FUE',        'rate' => '[CONFIRM] ₹__–__ per graft', 'best_for' => 'Larger areas — crown, mid-scalp, broad coverage'],
-    ['technique' => 'DHI',        'rate' => '[CONFIRM] ₹__–__ per graft', 'best_for' => 'Hairline and detail zones needing precise angle control'],
-    ['technique' => 'FUT',        'rate' => '[CONFIRM] ₹__–__ per graft', 'best_for' => 'High graft numbers in a single session, where suitable'],
-    ['technique' => 'Combination','rate' => '[CONFIRM] quoted per plan',  'best_for' => 'Different techniques across different zones'],
+    ['technique' => 'FUE',        'rate' => null, 'best_for' => 'Larger areas — crown, mid-scalp, broad coverage'],
+    ['technique' => 'DHI',        'rate' => null, 'best_for' => 'Hairline and detail zones needing precise angle control'],
+    ['technique' => 'FUT',        'rate' => null, 'best_for' => 'High graft numbers in a single session, where suitable'],
+    ['technique' => 'Combination','rate' => null, 'best_for' => 'Different techniques across different zones'],
 ];
+
+/** True once any real rate is filled in above. */
+$hasRates = array_filter(array_column($rates, 'rate')) !== [];
 
 /**
  * General clinical guidance on graft bands by Norwood stage. These are widely
@@ -84,7 +95,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair Transplant Cost in Gurgaon | DenceSpot Clinic',
-    'description' => 'What a hair transplant costs in Gurgaon and why: graft count, technique, donor supply and what an estimate should include. Written, itemised quotes after assessment.',
+    'description' => 'What a hair transplant costs in Gurgaon and why: graft count, technique, donor supply, and what an estimate should include. Written quotes after assessment.',
     'url'         => '/hair-transplant-cost-in-gurgaon',
     'nav_active'  => '/hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
@@ -180,13 +191,13 @@ require __DIR__ . '/includes/header.php';
         <table class="data">
           <caption class="sr-only">Per-graft rates by hair transplant technique at DenceSpot Clinic, Gurgaon</caption>
           <thead>
-            <tr><th scope="col">Technique</th><th scope="col">Rate</th><th scope="col">Typically suited to</th></tr>
+            <tr><th scope="col">Technique</th><?php if ($hasRates): ?><th scope="col">Rate</th><?php endif; ?><th scope="col">Typically suited to</th></tr>
           </thead>
           <tbody>
             <?php foreach ($rates as $row): ?>
             <tr>
               <th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0"><?= e($row['technique']) ?></th>
-              <td style="font-weight:600;color:var(--ink)"><?= e($row['rate']) ?></td>
+              <?php if ($hasRates): ?><td style="font-weight:600;color:var(--ink)"><?= e($row['rate'] ?? 'Quoted per plan') ?></td><?php endif; ?>
               <td><?= e($row['best_for']) ?></td>
             </tr>
             <?php endforeach; ?>
@@ -195,10 +206,16 @@ require __DIR__ . '/includes/header.php';
       </div>
     </div>
 
-    <div class="card card--dashed mt-4">
-      <p class="h4">⚠ Placeholder — clinic sign-off required</p>
-      <p class="body-s mt-2">The rate column is not yet filled in. Publish this page only once the clinic's real per-graft rates are in place, and keep them current — a stale price is worse than no price, and a rate that contradicts the quote a patient is given at the clinic is worse still.</p>
+    <?php if (!$hasRates): ?>
+    <div class="card mt-4">
+      <p class="h4">Why there is no price list here</p>
+      <p class="body-s mt-2">A per-graft rate on its own tells you very little: a low rate applied to an inflated graft count costs more than an honest quote on a lower one. Your figure comes from the mapped plan — graft count, technique and zones — and is given to you in writing after the assessment, before any date is booked. Nothing is added afterwards.</p>
+      <div class="btn-row mt-4">
+        <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 17) ?> Ask for an estimate</a>
+        <a class="btn btn--outline" href="/book-consultation">Book an assessment</a>
+      </div>
     </div>
+    <?php endif; ?>
   </div>
 </section>
 

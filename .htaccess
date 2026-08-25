@@ -17,15 +17,20 @@ RewriteEngine On
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 1. Canonical host + HTTPS
-#    Commented out until the production hostname is confirmed. Enable ONE of
-#    these (Hostinger may already force HTTPS at the server level — check first,
-#    two competing redirects will loop).
+#    Resolved: HTTPS is forced by the host, and non-www is canonical.
 # ─────────────────────────────────────────────────────────────────────────────
+# HTTPS is already forced by Hostinger at the server level (http:// returns a
+# clean 301), so the redirect below stays off — enabling it would add a second
+# competing redirect. Uncomment only if that ever stops being true.
 # RewriteCond %{HTTPS} !=on
 # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-#
-# RewriteCond %{HTTP_HOST} !^www\.dencespot\.com$ [NC]
-# RewriteRule ^ https://www.dencespot.com%{REQUEST_URI} [R=301,L]
+
+# www -> non-www. Non-www is the canonical form: it is what SITE_ORIGIN,
+# every <link rel=canonical> and every sitemap <loc> already use. Before this
+# rule the full site answered on both hostnames with HTTP 200, which splits
+# link equity and leaves a canonical tag (a hint) doing a 301's job.
+RewriteCond %{HTTP_HOST} ^www\.dencespot\.com$ [NC]
+RewriteRule ^ https://dencespot.com%{REQUEST_URI} [R=301,L]
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -133,3 +138,25 @@ RewriteRule ^(includes|storage|_design|_ds|\.claude|\.git)(/|$) - [F,L]
 
 # Recover 404s instead of dead-ending them.
 ErrorDocument 404 /404.php
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 9. Security headers
+#    A medical site collecting patient enquiry details should not be shipping
+#    a bare header set. None of these are ranking factors; all of them are
+#    table stakes for a form that takes a name, a phone number and a symptom.
+# ─────────────────────────────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+  # One year, subdomains included. Only safe because HTTPS is already forced.
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+
+  # frame-ancestors rather than X-Frame-Options: the pages embed a Google Map
+  # and the Elfsight reviews widget, so framing must be restricted, not banned.
+  Header always set Content-Security-Policy "upgrade-insecure-requests; frame-ancestors 'self'"
+
+  # Stop advertising the exact PHP build. expose_php=Off in php.ini is the
+  # better fix where the host allows it; this covers the case where it does not.
+  Header always unset X-Powered-By
+</IfModule>

@@ -28,10 +28,11 @@ $page = array_merge([
     'url'         => '/',
     'crumbs'      => [],
     'schema'      => [],
-    'og_image'    => '',
+    'og_image'    => OG_IMAGE,   // per-page override allowed; never empty
     'nav_active'  => null,
     'body_class'  => '',
     'noindex'     => false,
+    'preload_image' => '',   // above-the-fold LCP image, if the page has one
 ], $page ?? []);
 
 $canonical  = abs_url($page['url']);
@@ -68,7 +69,9 @@ $schemaHtml = schema_render($page['schema']);
 <meta property="og:image" content="<?= e($ogImage) ?>">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="<?= e(SITE_NAME) ?> — <?= e(SITE_TAGLINE) ?>">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="<?= e($ogImage) ?>">
 <?php else: ?>
 <meta name="twitter:card" content="summary">
 <?php endif; ?>
@@ -82,6 +85,9 @@ $schemaHtml = schema_render($page['schema']);
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
 <link rel="stylesheet" href="/assets/css/site.css">
+<?php if ($page['preload_image'] !== ''): ?>
+<link rel="preload" as="image" href="<?= e($page['preload_image']) ?>" fetchpriority="high">
+<?php endif; ?>
 
 <?= $schemaHtml ?>
 </head>
@@ -117,14 +123,17 @@ $schemaHtml = schema_render($page['schema']);
       <?php endforeach; ?>
     </nav>
 
-    <div class="header-actions">
-      <a class="icon-btn" href="tel:<?= e(PHONE_E164) ?>" aria-label="Call the clinic on <?= e(PHONE_DISPLAY) ?>" data-track="call">
-        <?= icon('phone', 16) ?>
-      </a>
+    <div class="header-ctas">
       <a class="btn btn--accent btn--wa" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp">
         <?= icon('whatsapp', 15) ?> WhatsApp
       </a>
       <a class="btn btn--ink btn--book" href="/book-consultation">Book Consultation</a>
+    </div>
+
+    <div class="header-actions">
+      <a class="icon-btn" href="tel:<?= e(PHONE_E164) ?>" aria-label="Call the clinic on <?= e(PHONE_DISPLAY) ?>" data-track="call">
+        <?= icon('phone', 16) ?>
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
         <?= icon('menu', 20) ?>
       </button>

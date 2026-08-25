@@ -270,8 +270,10 @@ function doctor_block(string $whyItMatters, string $portraitAlt = 'Dr. Nyra — 
         <div class="grid grid--2 mt-4" style="max-width:640px">
           <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Qualification</p><p class="h4 mt-1"><?= e($doc['quals']) ?></p></div>
           <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Training</p><p class="h4 mt-1">3 years, Germany</p></div>
-          <div class="card card--dashed"><p class="eyebrow" style="color:var(--ink-muted)">Specialization</p><p class="h4 mt-1" style="color:var(--placeholder)">To be confirmed</p></div>
-          <div class="card card--dashed"><p class="eyebrow" style="color:var(--ink-muted)">Registration</p><p class="h4 mt-1" style="color:var(--placeholder)">To be confirmed</p></div>
+          <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Specialization</p><p class="h4 mt-1">Dermatology</p></div>
+          <?php if (!empty($doc['reg_number'])): ?>
+          <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Registration</p><p class="h4 mt-1"><?= e($doc['reg_number']) ?></p></div>
+          <?php endif; ?>
         </div>
 
         <div class="btn-row mt-4" style="align-items:center">
@@ -315,9 +317,11 @@ function local_block(string $heading, string $intro): string
           <div class="card">
             <p class="eyebrow" style="color:var(--ink-muted)">Getting here</p>
             <ul class="stack-sm mt-2">
-              <li class="meta"><?= e(NAP_LANDMARK) ?> — confirm wording with the clinic</li>
-              <li class="meta">Nearest metro and walking time — to confirm</li>
-              <li class="meta">Parking guidance — to confirm</li>
+              <?php foreach (DIRECTIONS as $line): ?>
+                <?php if ($line !== null): ?>
+              <li class="meta"><?= e($line) ?></li>
+                <?php endif; ?>
+              <?php endforeach; ?>
             </ul>
           </div>
         </div>

@@ -81,7 +81,7 @@ require __DIR__ . '/../includes/blog-header.php';
       <tr><th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0">3 vertex</th><td>Hairline at 2–3, crown thinning separately</td><td>Medical therapy, because two areas are progressing. Surgery planned around a donor budget.</td></tr>
       <tr><th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0">4</th><td>Deeper frontal loss plus a distinct crown area</td><td>Surgery is commonly appropriate. Frontal third usually prioritised over the crown.</td></tr>
       <tr><th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0">5</th><td>Both areas larger; the band between them thinning</td><td>Surgery, often staged. Realistic coverage becomes the main conversation.</td></tr>
-      <tr><th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0">6–7</th><td>Areas merged, or only a horseshoe remains</td><td>Depends entirely on donor supply. Partial coverage, or <a href="/scalp-micropigmentation-in-gurgaon">scalp micropigmentation</a>, may be the honest answer.</td></tr>
+      <tr><th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0">6–7</th><td>Areas merged, or only a horseshoe remains</td><td>Depends entirely on donor supply. Partial coverage, or scalp micropigmentation, may be the honest answer.</td></tr>
     </tbody>
   </table>
 </div>
@@ -98,7 +98,7 @@ require __DIR__ . '/../includes/blog-header.php';
 
 <h2>What about women?</h2>
 
-<p>The Norwood scale does not apply. Female pattern loss is usually diffuse rather than patterned — a widening parting and general thinning rather than a receding line — and it is classified on the Ludwig scale (grades I to III). Female hair loss also has a treatable cause behind it far more often, which is why the investigation runs wider before anything is recommended. See <a href="/womens-hair-loss-treatment-in-gurgaon">women's hair loss treatment</a>.</p>
+<p>The Norwood scale does not apply. Female pattern loss is usually diffuse rather than patterned — a widening parting and general thinning rather than a receding line — and it is classified on the Ludwig scale (grades I to III). Female hair loss also has a treatable cause behind it far more often, which is why the investigation runs wider before anything is recommended. See <a href="/hair-fall-treatment-in-gurgaon">women's hair loss treatment</a>.</p>
 
 <h2>Staging yourself from a photograph</h2>
 

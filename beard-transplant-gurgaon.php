@@ -39,11 +39,11 @@ $faqs = [
     ['q' => 'Will it look natural?',
      'a' => 'That is decided by three things: the angle each graft is set at, single-hair grafts along every visible border, and a density target that matches a real beard rather than a scalp. Get those right and the result reads as your own beard. Get the angle wrong and it bristles — which is why the design is agreed before surgery rather than improvised during it.'],
     ['q' => 'How much does a beard transplant cost in Gurgaon?',
-     'a' => 'Cost depends on the zones treated, graft numbers, technique, complexity and any supporting treatment, so we quote after the assessment rather than publishing a headline price. You receive an itemised written estimate before booking a date. Our <a href="/beard-transplant-cost-gurgaon">beard transplant cost guide</a> explains what moves the number.'],
+     'a' => 'Cost depends on the zones treated, graft numbers, technique, complexity and any supporting treatment, so we quote after the assessment rather than publishing a headline price. You receive an itemised written estimate before booking a date. Our <a href="/hair-transplant-cost-in-gurgaon">guide to how treatment is priced</a> explains what moves the number.'],
     ['q' => 'Can a beard transplant cover acne scars or a surgical scar?',
      'a' => 'Grafting into stable scar tissue is possible and is done for surgical, accidental, burn and cleft-lip scars. Scar tissue has a poorer blood supply than normal skin, so graft survival can be lower and a second session is more often needed. The scar must be mature, and expectations are set explicitly before booking.'],
     ['q' => 'Does it work for alopecia areata patches in the beard?',
-     'a' => 'Not while the condition is active — patches can regrow on their own with medical treatment, and grafts placed into an active patch can be lost. Alopecia areata is treated and observed first, and surgery is only considered where the condition has been stable for a sustained period. See <a href="/alopecia-areata-treatment-in-gurgaon">alopecia areata treatment</a>.'],
+     'a' => 'Not while the condition is active — patches can regrow on their own with medical treatment, and grafts placed into an active patch can be lost. Alopecia areata is treated and observed first, and surgery is only considered where the condition has been stable for a sustained period. See <a href="/hair-fall-treatment-in-gurgaon">alopecia areata treatment</a>.'],
     ['q' => 'Can beard hair be used for a scalp transplant instead?',
      'a' => 'In selected cases, yes — beard hair is coarser than scalp hair and is generally used as a supplementary donor source for density in the crown or in repair work, not for a hairline. It is assessed individually, and it means accepting extraction marks in the beard area.'],
     ['q' => 'Can I have a beard transplant and a hair transplant together?',
@@ -290,7 +290,7 @@ require __DIR__ . '/includes/header.php';
           <div class="card"><p class="h4">Supporting treatment</p><p class="meta mt-1">Any medical therapy planned alongside</p></div>
         </div>
         <p class="meta mt-4 measure">A word of caution about “per graft, starting from” pricing: a low rate applied to an inflated graft count costs more than an honest quote. Ask how the graft number was arrived at, and what is included — anaesthesia, medication, follow-up reviews.</p>
-        <a class="btn btn--ink mt-4" href="/beard-transplant-cost-gurgaon"><?= icon('rupee', 18) ?> Full beard cost breakdown</a>
+        <a class="btn btn--ink mt-4" href="/hair-transplant-cost-in-gurgaon"><?= icon('rupee', 18) ?> How our pricing works</a>
       </div>
       <div class="cta-band" style="display:block">
         <h3 class="h3" style="color:#fff">Get a Personalized Treatment Estimate</h3>

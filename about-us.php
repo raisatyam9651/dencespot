@@ -115,8 +115,8 @@ require __DIR__ . '/includes/header.php';
       <a class="card card--ink" href="/beard-transplant-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">Beard transplant</h3><p class="meta mt-2">Patchy cheeks, jawline, moustache, sideburns and scars.</p></a>
       <a class="card card--ink" href="/hair-prp-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">Hair PRP</h3><p class="meta mt-2">Support for follicles that are thinning but still present.</p></a>
       <a class="card card--ink" href="/hair-fall-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">Hair fall treatment</h3><p class="meta mt-2">Cause investigated before any treatment is started.</p></a>
-      <a class="card card--ink" href="/womens-hair-loss-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">Women's hair loss</h3><p class="meta mt-2">Broader investigation, because the cause more often is treatable.</p></a>
-      <a class="card card--ink" href="/gfc-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">GFC therapy</h3><p class="meta mt-2">Growth factor concentrate, where it is the right choice.</p></a>
+      <a class="card card--ink" href="/hair-fall-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">Women's hair loss</h3><p class="meta mt-2">Broader investigation, because the cause more often is treatable.</p></a>
+      <a class="card card--ink" href="/hair-prp-treatment-in-gurgaon" style="text-decoration:none"><h3 class="h4" style="color:#fff">GFC therapy</h3><p class="meta mt-2">Growth factor concentrate, where it is the right choice.</p></a>
     </div>
   </div>
 </section>

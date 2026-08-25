@@ -29,6 +29,7 @@ $page = [
     'title'       => 'Dr. Nyra, MBBS, MD (Dermatology) | DenceSpot Clinic',
     'description' => DOCTORS['dr-nyra']['name'] . ', ' . DOCTORS['dr-nyra']['quals'] . ', Chief Consultant at DenceSpot Clinic, Gurugram. She assesses, plans and performs every hair restoration case herself.',
     'url'         => '/dr-nyra',
+    'preload_image' => '/assets/img/dr-nayra.webp',
     'nav_active'  => '/about-us',
     'crumbs'      => $crumbs,
     'schema'      => [
@@ -49,7 +50,7 @@ require __DIR__ . '/includes/header.php';
 <section class="section section--canvas">
   <div class="wrap">
     <div class="split split--wide-right">
-      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra — professional portrait" width="800" height="1000" loading="eager" decoding="async"></div>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra — professional portrait" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
       <div>
         <span class="pill pill--dot">Owner &amp; Chief Consultant</span>
         <h1 class="h1 mt-3"><?= doctor_full() ?></h1>
@@ -63,8 +64,10 @@ require __DIR__ . '/includes/header.php';
         <div class="grid grid--2 mt-5" style="max-width:640px">
           <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Qualification</p><p class="h4 mt-1"><?= e($doc['quals']) ?></p><p class="meta mt-1"><?= e($doc['alumni']) ?></p></div>
           <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">International training</p><p class="h4 mt-1">3 years, Germany</p><p class="meta mt-1">Bio Hair Clinic · St. Georg Klinikum Eisenach</p></div>
-          <div class="card card--dashed"><p class="eyebrow" style="color:var(--ink-muted)">Medical registration</p><p class="h4 mt-1" style="color:var(--placeholder)">To be confirmed</p><p class="meta mt-1">Required before launch</p></div>
-          <div class="card card--dashed"><p class="eyebrow" style="color:var(--ink-muted)">Memberships</p><p class="h4 mt-1" style="color:var(--placeholder)">To be confirmed</p><p class="meta mt-1">Genuine bodies only</p></div>
+          <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Specialization</p><p class="h4 mt-1">Dermatology</p><p class="meta mt-1">Consults on and performs every case</p></div>
+          <?php if (!empty($doc['reg_number'])): ?>
+          <div class="card"><p class="eyebrow" style="color:var(--ink-muted)">Medical registration</p><p class="h4 mt-1"><?= e($doc['reg_number']) ?></p><p class="meta mt-1">State Medical Council</p></div>
+          <?php endif; ?>
         </div>
       </div>
     </div>

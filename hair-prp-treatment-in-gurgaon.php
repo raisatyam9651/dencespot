@@ -36,7 +36,7 @@ $faqs = [
     ['q' => 'Is PRP permanent, or do I need to keep going?',
      'a' => 'It is not permanent. PRP does not stop the underlying process causing pattern hair loss, so a result is held with maintenance sessions and, in most cases, ongoing medical treatment. If you stop everything, thinning resumes from where it had reached.'],
     ['q' => 'What is the difference between PRP and GFC?',
-     'a' => 'Both start from your own blood. PRP injects the platelet-rich plasma itself. GFC breaks the platelets down first so the growth factors are released, then removes the cells, leaving an acellular concentrate. GFC is marketed as a refinement of PRP; its published evidence base is smaller and newer. Neither is automatically the better choice for a given scalp. See our <a href="/prp-vs-gfc-treatment">PRP vs GFC comparison</a>.'],
+     'a' => 'Both start from your own blood. PRP injects the platelet-rich plasma itself. GFC breaks the platelets down first so the growth factors are released, then removes the cells, leaving an acellular concentrate. GFC is marketed as a refinement of PRP; its published evidence base is smaller and newer. Neither is automatically the better choice for a given scalp. See our PRP vs GFC comparison.'],
     ['q' => 'Can PRP regrow hair on a completely bald area?',
      'a' => 'No. PRP acts on follicles that still exist. Where the scalp is fully bald and smooth, or scarred, the follicles are gone and there is nothing for the treatment to support. Those areas are a <a href="/hair-transplant-in-gurgaon">hair transplant</a> question, not a PRP question.'],
     ['q' => 'Is PRP safe? What are the side effects?',
@@ -46,11 +46,11 @@ $faqs = [
     ['q' => 'Can PRP be done after a hair transplant?',
      'a' => 'It is commonly used to support the native hair around a transplanted area, which keeps thinning on its own timetable after surgery. Timing relative to the procedure is decided by the treating doctor, since the scalp needs to have healed first.'],
     ['q' => 'Can women have PRP for hair loss?',
-     'a' => 'Yes, and female pattern thinning is one of the more common reasons patients come for it. The order matters, though: thyroid function, iron stores, vitamin D and hormonal causes are checked and treated first, because a proportion of female shedding improves once those are corrected without any injections at all. See <a href="/womens-hair-loss-treatment-in-gurgaon">women’s hair loss treatment</a>.'],
+     'a' => 'Yes, and female pattern thinning is one of the more common reasons patients come for it. The order matters, though: thyroid function, iron stores, vitamin D and hormonal causes are checked and treated first, because a proportion of female shedding improves once those are corrected without any injections at all. See <a href="/hair-fall-treatment-in-gurgaon">women’s hair loss treatment</a>.'],
     ['q' => 'Do I need to stop my hair-loss medication during PRP?',
      'a' => 'Usually not — prescribed medical therapy generally continues alongside a PRP course, because the two do different jobs. What does need reviewing before a session is anything affecting clotting, including blood thinners and regular anti-inflammatory painkillers. Bring your full medication list.'],
     ['q' => 'How much does hair PRP treatment cost in Gurgaon?',
-     'a' => 'Advertised prices in Gurgaon range widely, because a session is not a standard unit — the volume drawn, the preparation method, the area treated and the number of sessions included all differ. Compare on the course, not the session, and ask what happens if you do not respond. Our pricing is confirmed in writing after the assessment, and our <a href="/prp-hair-treatment-cost-in-gurgaon">PRP cost guide</a> explains what moves the number.'],
+     'a' => 'Advertised prices in Gurgaon range widely, because a session is not a standard unit — the volume drawn, the preparation method, the area treated and the number of sessions included all differ. Compare on the course, not the session, and ask what happens if you do not respond. Our pricing is confirmed in writing after the assessment, and our <a href="/hair-transplant-cost-in-gurgaon">guide to how treatment is priced</a> explains what moves the number.'],
 ];
 
 $crumbs = [
@@ -301,7 +301,7 @@ require __DIR__ . '/includes/header.php';
           <div class="card"><p class="h4">Preparation method</p><p class="meta mt-1">Spin protocol and resulting concentration</p></div>
           <div class="card"><p class="h4">Supporting therapy</p><p class="meta mt-1">Medical treatment planned alongside</p></div>
         </div>
-        <a class="btn btn--ink mt-4" href="/prp-hair-treatment-cost-in-gurgaon"><?= icon('rupee', 18) ?> Full PRP cost breakdown</a>
+        <a class="btn btn--ink mt-4" href="/hair-transplant-cost-in-gurgaon"><?= icon('rupee', 18) ?> How our pricing works</a>
       </div>
       <div class="cta-band" style="display:block">
         <h3 class="h3" style="color:#fff">Get a Personalized Treatment Estimate</h3>

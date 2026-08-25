@@ -89,6 +89,53 @@ const WHATSAPP_URL  = 'https://api.whatsapp.com/send/?phone=%2B918178330800';
 const GBP_CID  = '11368265669812057318';
 const MAPS_URL = 'https://maps.google.com/?cid=' . GBP_CID;
 
+/* -------------------------------------------------------------------------
+ * WhatsApp Lead API (OpenWA Gateway)
+ * ---------------------------------------------------------------------- */
+
+const OPENWA_API_URL    = 'http://localhost:2785';
+const OPENWA_API_KEY    = 'owa_k1_a09d98413834898f25da914fdf015b1888fa48288238633d8f2e65331f6e0a9c';
+const OPENWA_SESSION_ID = '0f212d15-4f85-444b-b475-b38667680d04';
+const OPENWA_NOTIFY_NUM = PHONE_E164;
+
+
+/**
+ * Clinic photography used as an entity image and as the default social
+ * preview. og-default.jpg is a 1200x630 centre-crop of the same photograph —
+ * Open Graph's expected ratio, and JPEG rather than WebP because WhatsApp and
+ * several link unfurlers still handle WebP previews inconsistently.
+ */
+const CLINIC_IMAGE = '/assets/img/clinic-front.webp';
+const OG_IMAGE     = '/assets/img/og-default.jpg';
+
+/**
+ * Listings that are unambiguously this clinic, for schema sameAs. This is how
+ * Google and the AI answer engines reconcile the conflicting directory records
+ * documented in LOCAL-SEO-STRATEGY-dencespot.md §3.
+ *
+ * ⚠ Practo and Justdial are deliberately withheld until their records are
+ * corrected — Practo lists Sector 38 and Justdial lists the business as
+ * "D S Dencespot". Claiming a listing that contradicts the canonical NAP
+ * corroborates the contradiction. Uncomment each one as it is fixed.
+ */
+const CLINIC_SAME_AS = [
+    MAPS_URL,
+    // 'https://www.practo.com/gurgaon/clinic/…',   ← after the Sector 38 fix
+    // 'https://www.justdial.com/Gurgaon/…',        ← after the name fix
+    // 'https://www.facebook.com/…',
+];
+
+/**
+ * Directions. Each entry renders only when it is non-null, so an unanswered
+ * one disappears from the page instead of publishing "to confirm" to patients.
+ * Fill these in as the clinic supplies them — same pattern as GEO_LAT above.
+ */
+const DIRECTIONS = [
+    'road'    => 'Sector 39 Road in Jharsa, ' . NAP_LANDMARK . '. The clinic is on the main road, so any driver or ride-hail app can be given the Medanta gate as the landmark.',
+    'metro'   => null,   // ⚠ nearest station + walking time
+    'parking' => null,   // ⚠ parking guidance
+];
+
 /** Areas the clinic draws patients from — used in schema areaServed. */
 const AREA_SERVED = ['Gurugram', 'New Delhi', 'Delhi NCR'];
 

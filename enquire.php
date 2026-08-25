@@ -78,7 +78,7 @@ if (!is_dir(dirname(ENQUIRY_LOG))) {
     FILE_APPEND | LOCK_EX
 );
 
-// 2. Notify the clinic.
+// 2. Notify the clinic via email.
 $body = "New consultation enquiry\n\n"
       . "Name:      {$name}\n"
       . "Phone:     {$phone}\n"
@@ -92,6 +92,37 @@ $body = "New consultation enquiry\n\n"
     $body,
     "From: website@dencespot.com\r\nReply-To: " . ENQUIRY_INBOX . "\r\nContent-Type: text/plain; charset=UTF-8"
 );
+
+// 2b. Notify the clinic via WhatsApp using OpenWA Gateway.
+if (defined('OPENWA_API_URL') && OPENWA_API_URL !== '') {
+    $wa_recipient = preg_replace('/\D+/', '', OPENWA_NOTIFY_NUM); // strip everything except digits
+    if ($wa_recipient !== '') {
+        $wa_url = rtrim(OPENWA_API_URL, '/') . '/api/sessions/' . OPENWA_SESSION_ID . '/messages/send-text';
+        $wa_payload = json_encode([
+            'chatId' => $wa_recipient . '@c.us',
+            'text'   => "New consultation enquiry 🚀\n\n"
+                      . "Name:      {$name}\n"
+                      . "Phone:     {$phone}\n"
+                      . "Treatment: {$treatment}\n"
+                      . "Page:      {$source}\n\n"
+                      . "Message:\n{$message}\n"
+        ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+
+        $ch = curl_init($wa_url);
+        if ($ch) {
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $wa_payload);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5-second timeout to avoid blocking page transition
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+                'X-API-Key: ' . OPENWA_API_KEY
+            ]);
+            @curl_exec($ch);
+            curl_close($ch);
+        }
+    }
+}
 
 // 3. Redirect so the conversion is measurable and a refresh cannot resubmit.
 header('Location: /thank-you?ref=' . urlencode($source), true, 303);

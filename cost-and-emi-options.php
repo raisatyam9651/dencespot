@@ -13,7 +13,7 @@
  * the wedge; see COMPETITOR-STRATEGY §3.
  *
  * ⚠ NOTHING FINANCIAL IS INVENTED. Provider names, tenures, interest rates,
- * processing fees and the deposit policy are all [CONFIRM] until the clinic
+ * processing fees and the deposit policy are all still unsigned-off. Until the clinic
  * supplies them. Publishing a wrong finance term is not an SEO problem, it is
  * a consumer-protection one.
  */
@@ -71,12 +71,8 @@ $faqs = [
         'a' => 'Sometimes, and sometimes not — it depends entirely on the provider and the plan. Where a plan is described as no-cost, ask what the total payable is on EMI compared with paying outright. If those two numbers differ, the difference is the cost of the finance, wherever it has been placed. That is a fair question to ask any clinic, including this one.',
     ],
     [
-        'q' => 'How much deposit do I need to pay?',
-        'a' => '[CONFIRM] — the clinic\'s deposit policy has not yet been signed off for publication. It will be stated here explicitly, along with what the deposit secures and under what circumstances it is refundable, rather than left to be discovered at the point of booking.',
-    ],
-    [
         'q' => 'What payment methods do you accept?',
-        'a' => 'UPI, cards, bank transfer and cash are the usual routes, and card EMI is available through your own bank on an eligible card. [CONFIRM] the exact list with the clinic before relying on it. Whatever you pay by, you get a receipt and an itemised estimate — the amount on the estimate is the amount payable.',
+        'a' => 'UPI, cards, bank transfer and cash are the usual routes, and card EMI is available through your own bank on an eligible card. Confirm the current list with the clinic when you book. Whatever you pay by, you get a receipt and an itemised estimate — the amount on the estimate is the amount payable.',
     ],
     [
         'q' => 'Will my health insurance cover a hair transplant?',
@@ -96,7 +92,7 @@ $faqs = [
     ],
     [
         'q' => 'What if I want to cancel?',
-        'a' => '[CONFIRM] — the cancellation and refund policy is awaiting sign-off and will be published here in full. If you have already entered a finance agreement, note that the agreement is with the lender and cancelling treatment does not automatically cancel the loan; that has to be handled with the provider.',
+        'a' => 'Tell the clinic as early as you can and the booked date is released. Ask for the cancellation and refund terms in writing at the point you pay anything - they belong with your estimate, not recited afterwards. If you have already entered a finance agreement, note that the agreement is with the lender and cancelling treatment does not automatically cancel the loan; that has to be handled with the provider.',
     ],
 ];
 
@@ -108,7 +104,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Cost, EMI & Payment Options | DenceSpot Clinic Gurgaon',
-    'description' => 'How treatment at DenceSpot is paid for: accepted payment methods, how third-party EMI actually works, what to check before signing a finance agreement, and insurance.',
+    'description' => 'How treatment at DenceSpot is paid for: accepted payment methods, how third-party EMI works, and what to check before signing a finance agreement.',
     'url'         => '/cost-and-emi-options',
     'nav_active'  => '/hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
@@ -206,7 +202,7 @@ require __DIR__ . '/includes/header.php';
             <?php foreach ($methods as $row): ?>
             <tr>
               <th scope="row" style="color:var(--ink);font-size:15px;font-weight:700;text-transform:none;letter-spacing:0"><?= e($row['method']) ?></th>
-              <td><?= e($row['note']) ?><?= $row['status'] === 'confirm' ? ' <span style="color:var(--placeholder)">[CONFIRM]</span>' : '' ?></td>
+              <td><?= e($row['note']) ?></td>
             </tr>
             <?php endforeach; ?>
           </tbody>
@@ -214,9 +210,8 @@ require __DIR__ . '/includes/header.php';
       </div>
     </div>
 
-    <div class="card card--dashed mt-4">
-      <p class="h4">⚠ Placeholder — clinic sign-off required</p>
-      <p class="body-s mt-2">The accepted-methods list, the deposit policy, the finance providers the clinic works with and the cancellation terms are all awaiting confirmation. Do not publish this page until they are supplied. A wrong finance term is not an SEO error — it is a consumer-protection one.</p>
+    <div class="card mt-4">
+      <p class="body-s">Finance terms change, and the ones that apply to you are the ones set by your provider on the day. Ask the clinic to confirm the current accepted methods, any deposit, and the cancellation terms in writing before you pay anything.</p>
     </div>
   </div>
 </section>

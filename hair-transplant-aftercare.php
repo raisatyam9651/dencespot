@@ -11,7 +11,8 @@
  *
  * Clinical content is deliberately conservative: standard post-operative
  * patient education, no clinic-specific claim that has not been signed off.
- * Anything requiring the clinic's own protocol is marked [CONFIRM].
+ * Anything set by the clinic's own protocol is deferred to the written
+ * discharge instructions rather than asserted here.
  */
 
 declare(strict_types=1);
@@ -167,7 +168,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair Transplant Aftercare & Recovery Timeline | DenceSpot Clinic',
-    'description' => 'Day-by-day hair transplant recovery: first wash, sleeping position, shedding phase, what to avoid and for how long, warning signs, and when results actually appear.',
+    'description' => 'Day-by-day hair transplant recovery: first wash, sleeping position, the shedding phase, what to avoid and for how long, and when results appear.',
     'url'         => '/hair-transplant-aftercare',
     'nav_active'  => '/hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
@@ -316,9 +317,9 @@ require __DIR__ . '/includes/header.php';
           <p class="body-s mt-3">This is also why the first wash is demonstrated rather than described. Reading it and doing it are different things, and the cost of getting it wrong is measured in grafts.</p>
         </div>
 
-        <div class="card card--dashed mt-4">
-          <p class="h4">⚠ Clinic protocol — sign-off required</p>
-          <p class="body-s mt-2">Exact first-wash day, the shampoo specified, and the saline spray schedule are set by the clinic's own post-operative protocol. [CONFIRM] with Dr. Nyra and replace the general guidance above with the DenceSpot protocol before publishing.</p>
+        <div class="card mt-4">
+          <p class="h4">Your own instructions come first</p>
+          <p class="body-s mt-2">The page above is general patient education. Your first-wash day, the shampoo specified for you and your spray schedule are set by the clinic's post-operative protocol and given to you in writing at discharge. Where the two differ, follow the written instructions you were given, and call the clinic if anything is unclear.</p>
         </div>
       </div>
     </div>

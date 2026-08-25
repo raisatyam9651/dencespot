@@ -58,7 +58,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'FUE Hair Transplant in Gurgaon | DenceSpot Clinic',
-    'description' => 'Doctor-performed FUE hair transplant in Gurgaon. Follicular units extracted one at a time, no linear scar, and the donor area mapped before any graft number is quoted.',
+    'description' => 'Doctor-performed FUE hair transplant in Gurgaon. Units extracted one at a time, no linear scar, and the donor area mapped before any graft count is quoted.',
     'url'         => '/fue-hair-transplant-in-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => [
