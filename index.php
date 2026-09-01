@@ -186,6 +186,9 @@ require __DIR__ . '/includes/header.php';
   </div>
 </section>
 
+<!-- ============ BEFORE & AFTER SLIDER ============ -->
+<?= before_after_slider_section() ?>
+
 <!-- ============ THE DIFFERENTIATOR ============ -->
 <section class="section section--ink">
   <div class="wrap">
@@ -294,6 +297,10 @@ require __DIR__ . '/includes/header.php';
     'Visit the Clinic in ' . NAP_LOCALITY,
     'One clinic, one team, one address. Consultations and procedures both happen here, and patients travel to us from across ' . NAP_LOCALITY . ' and South Delhi.'
 ) ?>
+
+<!-- ============ CERTIFICATES & AWARDS ============ -->
+<?= awards_certificates_section() ?>
+
 
 <!-- Testimonials (Live Google Feed Full Width) -->
 <section class="pt-[20px] pb-4 bg-white overflow-hidden w-full">

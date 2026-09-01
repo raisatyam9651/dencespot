@@ -106,7 +106,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('PRP centrifuge and prepared syringe, or a scalp injection in progress', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="PRP centrifuge and medical equipment at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -143,7 +143,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="stack">
-        <?= slot('Centrifuge with separated blood layers, plasma fraction visible', 'ratio-4-3') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="PRP treatment consultation with Dr. Nyra" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">In one line</p>
           <p class="body mt-2">PRP supports follicles that are thinning but still alive. It does not create follicles where they no longer exist — which is the line between a PRP case and a transplant case.</p>
@@ -245,7 +245,7 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Aftercare and next date</h3><p class="body-s mt-2">Washing and activity instructions, and your next session booked before you leave.</p></div></div>
       </div>
       <div class="stack">
-        <?= slot('Treatment room set up for a PRP session', 'ratio-4-3') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="PRP treatment room at DenceSpot Clinic" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">Commonly reported afterwards</p>
           <p class="body-s mt-2">Scalp tenderness for a day or so, redness, pinpoint marks, mild swelling, occasional headache, and bruising where the blood was drawn. Infection at an injection site is uncommon but possible — which is why the aftercare instructions matter.</p>
@@ -328,6 +328,10 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
 </section>
+
+<?= before_after_slider_section() ?>
+
+<?= awards_certificates_section() ?>
 
 <?= local_block(
     'Hair PRP Clinic Serving Gurgaon',

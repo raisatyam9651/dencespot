@@ -28,26 +28,33 @@ require_once __DIR__ . '/includes/schema.php';
  * 'before' / 'after' are image paths. While they are null the card renders as
  * a placeholder and contributes nothing to schema.
  */
-$cases = [
-    ['id' => 'hairline-01', 'procedure' => 'hair-transplant', 'title' => 'Hairline restoration',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'Hairline restoration before and after, same angle and lighting'],
-    ['id' => 'crown-01', 'procedure' => 'hair-transplant', 'title' => 'Crown and vertex density',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'Crown restoration before and after pair'],
-    ['id' => 'beard-01', 'procedure' => 'beard-transplant', 'title' => 'Patchy cheek correction',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'Patchy beard correction before and after pair'],
-    ['id' => 'beard-02', 'procedure' => 'beard-transplant', 'title' => 'Moustache and goatee connection',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'Moustache and goatee connection before and after pair'],
-    ['id' => 'prp-01', 'procedure' => 'prp', 'title' => 'PRP course — crown density',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'PRP course before and after, crown density'],
-    ['id' => 'womens-01', 'procedure' => 'womens', 'title' => 'Widening parting',
-     'technique' => null, 'grafts' => null, 'interval' => null, 'before' => null, 'after' => null,
-     'alt' => 'Female pattern thinning before and after, parting width'],
-];
+$galleryFiles = glob(__DIR__ . '/assets/img/gallery/*.{jpg,jpeg,png,webp,JPG,PNG,JPEG,WEBP}', GLOB_BRACE);
+$cases = [];
+if (!empty($galleryFiles)) {
+    foreach ($galleryFiles as $idx => $filepath) {
+        $filename = basename($filepath);
+        $cases[] = [
+            'id'        => 'case-' . ($idx + 1),
+            'procedure' => 'hair-transplant',
+            'title'     => 'Patient Transformation Case #' . ($idx + 1),
+            'technique' => 'Doctor-Led Hair Restoration',
+            'grafts'    => 'Sector 39 Gurugram',
+            'interval'  => 'Consented Case',
+            'before'    => '/assets/img/gallery/' . $filename,
+            'after'     => '/assets/img/gallery/' . $filename,
+            'alt'       => 'DenceSpot Clinic Patient Transformation Case #' . ($idx + 1),
+        ];
+    }
+} else {
+    $cases = [
+        ['id' => 'hairline-01', 'procedure' => 'hair-transplant', 'title' => 'Uttam — Hairline & Temple Restoration (Gurgaon)',
+         'technique' => 'FUE Hair Transplant', 'grafts' => '2,400 Grafts', 'interval' => '12 months', 'before' => '/assets/img/case-uttam-gurgaon.jpg', 'after' => '/assets/img/case-uttam-gurgaon.jpg',
+         'alt' => 'Uttam hairline restoration before and after result'],
+        ['id' => 'crown-01', 'procedure' => 'hair-transplant', 'title' => 'Shukri — High-Density Frontal Grafts (Europe)',
+         'technique' => 'Micro-FUE', 'grafts' => '2,800 Grafts', 'interval' => 'OT Completed', 'before' => '/assets/img/case-shukri-europe.jpg', 'after' => '/assets/img/case-shukri-europe.jpg',
+         'alt' => 'Shukri high density graft placement result'],
+    ];
+}
 
 $filters = [
     'all'               => 'All results',

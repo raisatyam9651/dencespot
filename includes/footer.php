@@ -89,6 +89,94 @@ declare(strict_types=1);
       page_path: window.location.pathname
     });
   });
+
+  // Before & After Interactive Slider Logic
+  document.querySelectorAll('.ba-slider').forEach(function (slider) {
+    var range = slider.querySelector('.ba-slider__range');
+    var after = slider.querySelector('.ba-slider__after');
+    var handle = slider.querySelector('.ba-slider__handle');
+
+    if (!range || !after || !handle) return;
+
+    var updateSlider = function (val) {
+      after.style.width = val + '%';
+      handle.style.left = val + '%';
+    };
+
+    range.addEventListener('input', function (e) {
+      updateSlider(e.target.value);
+    });
+
+    range.addEventListener('change', function (e) {
+      updateSlider(e.target.value);
+    });
+  });
+
+  // Before & After Case Tabs Switching
+  document.querySelectorAll('.ba-tab-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var targetId = btn.getAttribute('data-target');
+
+      document.querySelectorAll('.ba-tab-btn').forEach(function (b) { b.classList.remove('active'); });
+      document.querySelectorAll('.ba-case-info').forEach(function (info) { info.classList.remove('active'); });
+      document.querySelectorAll('.ba-slider-card').forEach(function (card) { card.classList.remove('active'); });
+
+      btn.classList.add('active');
+      var targetInfo = document.getElementById('info-' + targetId);
+      var targetCard = document.getElementById('card-' + targetId);
+
+      if (targetInfo) targetInfo.classList.add('active');
+      if (targetCard) targetCard.classList.add('active');
+    });
+  });
+
+  // Certificate Lightbox Modal Logic
+  window.openCertModal = function (imgUrl, title) {
+    var modal = document.getElementById('cert-modal');
+    var modalImg = document.getElementById('cert-modal-img');
+    var modalTitle = document.getElementById('cert-modal-title');
+    if (!modal || !modalImg) return;
+    modalImg.src = imgUrl;
+    if (modalTitle) modalTitle.textContent = title || 'NABH Accreditation Certificate';
+    modal.style.display = 'flex';
+  };
+
+  window.closeCertModal = function (e) {
+    if (e.target.id === 'cert-modal') {
+      document.getElementById('cert-modal').style.display = 'none';
+    }
+  };
+
+  window.closeCertModalForce = function () {
+    var modal = document.getElementById('cert-modal');
+    if (modal) modal.style.display = 'none';
+  };
+
+  // Video Lightbox Modal Logic
+  window.openVideoModal = function (videoUrl, title) {
+    var modal = document.getElementById('video-modal');
+    var iframe = document.getElementById('video-modal-iframe');
+    var modalTitle = document.getElementById('video-modal-title');
+    if (!modal || !iframe) return;
+    iframe.src = videoUrl || 'https://www.youtube.com/embed/dQw4w9WgXcQ';
+    if (modalTitle) modalTitle.textContent = title || 'Patient Video Testimonial';
+    modal.style.display = 'flex';
+  };
+
+  window.closeVideoModal = function (e) {
+    if (e.target.id === 'video-modal') {
+      var iframe = document.getElementById('video-modal-iframe');
+      if (iframe) iframe.src = '';
+      document.getElementById('video-modal').style.display = 'none';
+    }
+  };
+
+  window.closeVideoModalForce = function () {
+    var modal = document.getElementById('video-modal');
+    var iframe = document.getElementById('video-modal-iframe');
+    if (iframe) iframe.src = '';
+    if (modal) modal.style.display = 'none';
+  };
 }());
 </script>
 

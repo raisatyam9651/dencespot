@@ -313,7 +313,7 @@ function local_block(string $heading, string $intro): string
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.3229126883884!2d77.0438613!3d28.439680699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic!5e0!3m2!1sen!2sus!4v1787587082143!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
         <div class="grid grid--2 mt-3">
-          <?= slot('Clinic exterior with signage', 'ratio-4-3', 'media--sm') ?>
+          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="DenceSpot Clinic Entrance and Signage, Sector 39 Gurgaon" width="800" height="600" loading="lazy"></div>
           <div class="card">
             <p class="eyebrow" style="color:var(--ink-muted)">Getting here</p>
             <ul class="stack-sm mt-2">
@@ -332,3 +332,228 @@ function local_block(string $heading, string $intro): string
 <?php
     return (string) ob_get_clean();
 }
+
+/* -------------------------------------------------------------------------
+ * Before & After Interactive Slider block
+ * ---------------------------------------------------------------------- */
+
+function before_after_slider_section(): string
+{
+    $results = [
+        [
+            'id' => 'uttam-gurgaon',
+            'title' => 'Uttam — Hairline & Temple Restoration',
+            'category' => 'FUE Hair Transplant (Gurugram)',
+            'img' => '/assets/img/case-uttam-gurgaon.jpg',
+            'badge' => 'BEFORE & AFTER RESULT',
+            'type' => 'image',
+            'desc' => 'Receding hairline & frontal scalp completely restored with age-appropriate hairline design and dense graft placement.',
+            'meta' => 'Procedure: FUE · Location: Gurgaon · Reviewed at 12 Months'
+        ],
+        [
+            'id' => 'shukri-europe',
+            'title' => 'Shukri — High-Density Frontal Grafts',
+            'category' => 'Advanced Micro-FUE (International)',
+            'img' => '/assets/img/case-shukri-europe.jpg',
+            'badge' => 'BEFORE & AFTER RESULT',
+            'type' => 'image',
+            'desc' => 'High graft count frontal area design & immediate post-op high density graft implantation.',
+            'meta' => 'Procedure: Micro-FUE · Patient: Europe · OT Completed'
+        ],
+    ];
+
+    ob_start(); ?>
+<section class="section section--white" id="results-gallery">
+  <div class="wrap">
+    <div class="measure" style="text-align: center; margin-inline: auto;">
+      <span class="pill pill--dot">Real Patient Results &amp; Testimonials</span>
+      <h2 class="h2 mt-2">Before &amp; After Cases &amp; Video Testimonials</h2>
+      <p class="body mt-3">Consented, unedited before and after transformation photographs and video reviews from patients treated personally by <strong>Dr. Nyra</strong> at DenceSpot Clinic, Sector 39 Gurugram.</p>
+    </div>
+
+    <!-- Results Cards Grid (Matching Awards Section Style) -->
+    <div class="grid grid--2 mt-6" style="gap:24px">
+      <?php foreach ($results as $r): ?>
+        <div class="card card--pad-lg cert-card" style="display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div class="media ratio-16-10 media--shadow" style="border:1px solid var(--line); position:relative; overflow:hidden; border-radius:var(--r-md); background:#1e183a; cursor:pointer;" onclick="<?= $r['type'] === 'video' ? "openVideoModal('" . e($r['video_url']) . "', '" . e($r['title']) . "')" : "openCertModal('" . e($r['img']) . "', '" . e($r['title']) . "')" ?>">
+              <img src="<?= e($r['img']) ?>" alt="<?= e($r['title']) ?>" width="800" height="500" loading="lazy" style="width:100%; height:100%; object-fit:cover; transition:transform 0.3s ease;">
+              
+              <?php if ($r['type'] === 'video'): ?>
+                <div style="position:absolute; inset:0; background:rgba(26,17,71,0.4); display:flex; align-items:center; justify-content:center;">
+                  <div style="width:64px; height:64px; border-radius:50%; background:var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 24px rgba(16,185,129,0.5); transition:transform 0.2s ease;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  </div>
+                </div>
+              <?php endif; ?>
+            </div>
+
+            <div style="margin-top:16px;">
+              <span class="pill pill--dot" style="font-size:10px"><?= e($r['badge']) ?></span>
+              <h3 class="h3 mt-2"><?= e($r['title']) ?></h3>
+              <p class="body-s mt-2"><?= e($r['desc']) ?></p>
+            </div>
+          </div>
+
+          <div style="margin-top:16px; padding-top:14px; border-top:1px solid var(--line); display:flex; align-items:center; justify-space-between; flex-wrap:wrap; gap:10px;">
+            <span class="meta"><?= e($r['meta']) ?></span>
+            <button type="button" class="btn btn--sm btn--outline" onclick="<?= $r['type'] === 'video' ? "openVideoModal('" . e($r['video_url']) . "', '" . e($r['title']) . "')" : "openCertModal('" . e($r['img']) . "', '" . e($r['title']) . "')" ?>" style="margin-left:auto;">
+              <?= $r['type'] === 'video' ? '▶ Watch Video' : '🔍 Enlarge View' ?>
+            </button>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+    <div class="btn-row mt-6" style="justify-content:center">
+      <a class="btn btn--ink" href="/hair-transplant-results-gurgaon">View Full Results Gallery</a>
+      <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask Cases Like Yours</a>
+    </div>
+  </div>
+
+  <!-- Smooth Infinite Sliding Marquee Track for Patient Cases -->
+  <div class="marquee mt-6">
+    <div class="marquee-track">
+      <?php
+      $galleryFiles = glob(__DIR__ . '/../assets/img/gallery/*.{jpg,jpeg,png,webp,JPG,PNG,JPEG,WEBP}', GLOB_BRACE);
+      $galleryImages = [];
+      if (!empty($galleryFiles)) {
+          foreach ($galleryFiles as $filepath) {
+              $filename = basename($filepath);
+              $galleryImages[] = '/assets/img/gallery/' . $filename;
+          }
+      }
+      if (empty($galleryImages)) {
+          $galleryImages = [
+              '/assets/img/case-uttam-gurgaon.jpg',
+              '/assets/img/case-shukri-europe.jpg',
+              '/assets/img/clinic-facade.jpg',
+              '/assets/img/clinic-front-board.jpg',
+              '/assets/img/clinic-equipment.jpg',
+              '/assets/img/dr-nayra.webp',
+          ];
+      }
+      // Duplicate array to build 2 identical sets for 100% infinite endless loop without gaps
+      $marqueeLoop = array_merge($galleryImages, $galleryImages);
+      ?>
+      <?php foreach ($marqueeLoop as $imgUrl): ?>
+        <img src="<?= e($imgUrl) ?>" alt="DenceSpot Patient Result Transformation" loading="lazy" onclick="openCertModal('<?= e($imgUrl) ?>', 'DenceSpot Clinic — Patient Case &amp; Results')" style="cursor:pointer;">
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- Video Player Lightbox Modal -->
+<div id="video-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.88); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:20px;" onclick="closeVideoModal(event)">
+  <div style="position:relative; max-width:900px; width:100%; background:#100d28; border-radius:16px; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.7); border:1px solid rgba(255,255,255,0.15);">
+    <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid rgba(255,255,255,0.1); color:#fff;">
+      <h3 id="video-modal-title" class="h4" style="margin:0; color:#fff;">Patient Video Testimonial</h3>
+      <button type="button" onclick="closeVideoModalForce()" style="background:none; border:none; font-size:24px; cursor:pointer; color:#fff;">&times;</button>
+    </div>
+    <div style="position:relative; padding-bottom:56.25%; height:0; background:#000;">
+      <iframe id="video-modal-iframe" src="" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<?php
+    return (string) ob_get_clean();
+}
+
+/* -------------------------------------------------------------------------
+ * Awards & Accreditations block (NABH Certifications)
+ * ---------------------------------------------------------------------- */
+
+function awards_certificates_section(): string
+{
+    $certs = [
+        [
+            'id' => 'cert-1',
+            'title' => 'Excellence in Clinical Services',
+            'category' => 'Dermatology & Cosmetology',
+            'issuer' => 'National Accreditation Board for Hospitals & Healthcare Providers (NABH)',
+            'img' => '/assets/img/cert-nabh-excellence.jpg',
+            'cert_no' => '646744646-2026-001',
+            'validity' => '01 Sep 2026 – 31 Aug 2029',
+            'badge' => 'NABH Clinical Excellence',
+            'alt' => 'NABH Certificate - Excellence in Clinical Services Dermatology & Cosmetology - DenceSpot Clinic'
+        ],
+        [
+            'id' => 'cert-2',
+            'title' => 'NABH Accreditation — Dermatology Clinic',
+            'category' => 'Dermatology Clinic Standards (Edition 1, 2021)',
+            'issuer' => 'National Accreditation Board for Hospitals & Healthcare Providers (NABH)',
+            'img' => '/assets/img/cert-nabh-dermatology.jpg',
+            'cert_no' => '646744646-2026-001',
+            'validity' => '01 Sep 2026 – 31 Aug 2029',
+            'badge' => 'NABH Accredited',
+            'alt' => 'NABH Accreditation Certificate - Dermatology Clinic - DenceSpot Clinic'
+        ],
+        [
+            'id' => 'cert-3',
+            'title' => 'NABH Accreditation — Allopathic Clinic',
+            'category' => 'Allopathic Clinic Standards (Edition 1, 2021)',
+            'issuer' => 'National Accreditation Board for Hospitals & Healthcare Providers (NABH)',
+            'img' => '/assets/img/cert-nabh-allopathic.jpg',
+            'cert_no' => '646744646-2026-001',
+            'validity' => '01 Sep 2026 – 31 Aug 2029',
+            'badge' => 'NABH Accredited',
+            'alt' => 'NABH Accreditation Certificate - Allopathic Clinic - DenceSpot Clinic'
+        ],
+    ];
+
+    ob_start(); ?>
+<section class="section section--white" id="awards">
+  <div class="wrap">
+    <div class="measure" style="text-align: center; margin-inline: auto;">
+      <span class="pill pill--dot">Official Accreditations</span>
+      <h2 class="h2 mt-2">Awards &amp; NABH Certifications</h2>
+      <p class="body mt-3">DenceSpot Clinic is officially accredited by the <strong>National Accreditation Board for Hospitals &amp; Healthcare Providers (NABH)</strong> for clinical excellence, patient safety, and high-standard care in Dermatology, Cosmetology &amp; Allopathic Medicine.</p>
+    </div>
+
+    <!-- Official Certificates Cards Grid -->
+    <div class="grid grid--3 mt-6">
+      <?php foreach ($certs as $c): ?>
+        <div class="card card--pad-lg text-center cert-card" style="text-align:center">
+          <div class="media ratio-4-5 media--shadow cert-img-wrap" style="border:1px solid var(--line); overflow:hidden; border-radius:var(--r-md); background:#fafafa; cursor:pointer;" onclick="openCertModal('<?= e($c['img']) ?>', '<?= e($c['title']) ?>')">
+            <img src="<?= e($c['img']) ?>" alt="<?= e($c['alt']) ?>" width="800" height="1100" loading="lazy" style="width:100%; height:auto; object-fit:contain; transition:transform 0.3s ease;">
+          </div>
+          <span class="pill pill--dot mt-3" style="font-size:10px"><?= e($c['badge']) ?></span>
+          <h3 class="h4 mt-2"><?= e($c['title']) ?></h3>
+          <p class="meta mt-1"><?= e($c['category']) ?></p>
+          <p class="fine mt-2" style="color:var(--ink-muted)">Cert No: <strong><?= e($c['cert_no']) ?></strong><br>Valid: <?= e($c['validity']) ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+
+  <!-- Smooth Infinite Marquee Carousel -->
+  <div class="marquee mt-6">
+    <div class="marquee-track">
+      <?php
+      $certSet = array_merge($certs, $certs, $certs);
+      $certDouble = array_merge($certSet, $certSet);
+      ?>
+      <?php foreach ($certDouble as $c): ?>
+        <img src="<?= e($c['img']) ?>" alt="<?= e($c['alt']) ?>" loading="lazy" onclick="openCertModal('<?= e($c['img']) ?>', '<?= e($c['title']) ?>')" style="cursor:pointer;">
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Modal for Certificate Zoom -->
+<div id="cert-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:20px;" onclick="closeCertModal(event)">
+  <div style="position:relative; max-width:900px; max-height:90vh; width:100%; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.5); display:flex; flex-direction:column;">
+    <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid var(--line); background:#fff;">
+      <h3 id="cert-modal-title" class="h4" style="margin:0;">NABH Certificate</h3>
+      <button type="button" onclick="closeCertModalForce()" style="background:none; border:none; font-size:24px; cursor:pointer; color:var(--ink);">&times;</button>
+    </div>
+    <div style="padding:20px; text-align:center; overflow-y:auto; flex:1; background:#f9f9fb;">
+      <img id="cert-modal-img" src="" alt="NABH Certificate Full View" style="max-width:100%; max-height:75vh; height:auto; object-fit:contain; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,0.15);">
+    </div>
+  </div>
+</div>
+<?php
+    return (string) ob_get_clean();
+}
+
+

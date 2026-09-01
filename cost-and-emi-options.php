@@ -144,7 +144,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('Written, itemised treatment estimate being explained at the consultation', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Written treatment estimate explanation with Dr. Nyra at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Quoted &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>

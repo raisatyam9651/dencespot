@@ -117,7 +117,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('Scalp examination under magnification during a hair-loss consultation', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Scalp examination and consultation at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Assessed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -287,6 +287,10 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
 </section>
+
+<?= before_after_slider_section() ?>
+
+<?= awards_certificates_section() ?>
 
 <?= cta_band(
     'Find Out What Is Actually Causing It',

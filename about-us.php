@@ -45,7 +45,7 @@ require __DIR__ . '/includes/header.php';
           <a class="btn btn--lg btn--outline" href="/dr-nyra">Meet Dr. Nyra</a>
         </div>
       </div>
-      <?= slot('Clinic interior — consultation room in natural light', 'ratio-4-5', 'media--shadow') ?>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic Storefront Sector 39 Gurgaon" width="800" height="1000" loading="eager"></div>
     </div>
   </div>
 </section>
@@ -78,10 +78,10 @@ require __DIR__ . '/includes/header.php';
         <a class="btn btn--outline mt-4" href="/contact"><?= icon('pin', 17) ?> Directions and hours</a>
       </div>
       <div class="grid grid--2">
-        <?= slot('Clinic exterior with signage', 'ratio-4-3', 'media--sm') ?>
-        <?= slot('Reception area', 'ratio-4-3', 'media--sm') ?>
-        <?= slot('Consultation room', 'ratio-4-3', 'media--sm') ?>
-        <?= slot('Procedure room, prepared', 'ratio-4-3', 'media--sm') ?>
+        <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="Clinic exterior and signage" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot reception and entrance" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Doctor consultation room" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Micro-FUE procedure room and equipment" width="800" height="600" loading="lazy"></div>
       </div>
     </div>
   </div>

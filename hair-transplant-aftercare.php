@@ -208,7 +208,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('Recipient area at the day-five review, crusting clearing', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Hair transplant recipient area recovery and post-op density review at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Medically reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>

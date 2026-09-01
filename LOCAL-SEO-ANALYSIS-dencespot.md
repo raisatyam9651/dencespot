@@ -1,53 +1,89 @@
 # Local SEO Analysis — dencespot.com
 
-**Run:** 25 Aug 2026 · **Market:** Gurugram (Gurgaon), Haryana, India
-**Analysed:** the PHP build in this repo *and* the live deploy at `https://dencespot.com` (HTTP 200, responding)
-**Companion to:** `LOCAL-SEO-STRATEGY-dencespot.md` (competitor evidence, 21 Aug) and `BUILD-PROGRESS.md`
+**Run:** 1 Sep 2026 · **Market:** Gurugram (Gurgaon), Haryana, India
+**Analysed:** the PHP build in this repo, rendered locally via `php -S 127.0.0.1:8901 router.php` (25 routes, all HTTP 200)
+**Supersedes:** the 25 Aug 2026 run (commit `d8d3248`). Git holds the previous version.
+**Companion to:** `LOCAL-SEO-STRATEGY-dencespot.md`, `BUILD-PROGRESS.md`
+
+> **Scope note.** This run analysed the working tree only, which contains substantial
+> uncommitted work (14 modified files, plus `gallery.php`, `router.php` and 59 new images).
+> The live deploy was **not** fetched this time, so nothing below confirms current live
+> indexation. Scores are this skill's heuristics, not Google-internal signals.
 
 ---
 
-## 0. Read this first — the live site is set to `noindex`
+## 0. Read this first — stop before deploying the gallery
 
-Every page on the live deploy emits:
+The 25 Aug run opened with a deploy incident (site-wide `noindex`). That flag is now
+`SITE_STAGING = false` and committed. It is replaced by a more serious problem.
 
-```html
-<meta name="robots" content="noindex, nofollow">
+**`hair-transplant-results-gurgaon.php` scans `assets/img/gallery/` and emits `ImageObject`
+schema for all 49 files, captioning every one of them as a consented patient result.**
+
+Verified in the rendered JSON-LD:
+
+| Case # | `contentUrl` | What the file actually is |
+|---|---|---|
+| #25 | `EXCELLENCE IN CLINICAL SERVICES – DERMATOLOGY & COSMETOLOGY (1).jpg` | an award certificate |
+| #26 | `Excellence in Clinical Services – Dermatology & Cosmetology.jpg` | the same certificate again |
+| #30 | `National Accreditation Board for Hospitals & Healthcare Providers (NABH).jpg` | an accreditation certificate |
+| #34–36 | `DSC_1752.JPG.jpeg`, `DSC_1754.JPG (1).jpeg`, `DSC_1754.JPG.jpeg` | clinic interior photos, one duplicated |
+| #37–49 | UUID `.png` files, `img.png`, `unnamed*.jpg` | unidentified |
+
+Every one carries the caption:
+
+```
+"Patient Transformation Case #N — Sector 39 Gurugram Doctor-Led Hair Restoration,
+ reviewed at Consented Case"
 ```
 
-Verified on `/`, `/hair-transplant-in-gurgaon`, `/contact`, `/patient-reviews`,
-`/hair-transplant-cost-in-gurgaon` and `/dr-nyra`. The live `robots.txt` still carries the
-old comment block that says `SITE_STAGING = true`.
+Three separate failures compound here:
 
-The repo has `SITE_STAGING = false` in `includes/config.php`, but **that change is
-uncommitted and undeployed** (`git status` shows `config.php`, `robots.txt` and `header.php`
-as modified, not committed). The deploy is otherwise current — the Elfsight widget and the
-`MD (Dermatology)` credentials from the 24–25 Aug commits are both live.
+1. **Certificates and clinic photos are marked up as patient before/after photographs.**
+   On a YMYL medical page this is a misrepresentation in structured data, not a cosmetic
+   bug. Google's structured-data policy prohibits markup that does not represent the page
+   content; the exposure is a manual action against the whole domain.
+2. **Duplicates are marked up as distinct patients.** `2020-07-26.jpg` and
+   `2020-07-26 (1).jpg` are cases #1 and #2. `1d791e85-…png` and `…(1).png` are #39 and
+   #40. `b3b12e85-…png` and `…(1).png` are #44 and #45. Same image, two "patients".
+3. **The fallback cases use one image for both before and after.**
+   `hair-transplant-results-gurgaon.php:51` and `:54` both set
+   `'before' => …/case-uttam-gurgaon.jpg` and `'after' => …/case-uttam-gurgaon.jpg`.
+   Case 2 is additionally labelled `'interval' => 'OT Completed'` — an immediately
+   post-operative photograph — while the card badge reads `BEFORE & AFTER RESULT`.
 
-So the site is finished, styled, schema-complete, and **completely invisible to Google.**
+`gallery.php:31-42` is the root cause: the classifier defaults `$category = 'results'` and
+`$badge = 'BEFORE & AFTER RESULT'` for **any** filename not containing `cert`, `excellence`,
+`national`, `clinic`, `dsc` or `unnamed`. **39 of 49 files fall through to that default.**
 
-Nothing else in this document changes anything until that flag ships. Local pack position,
-citations, reviews, schema — all of it is downstream of a page Google is being told not to
-index. Treat this as a deploy incident, not an SEO task.
+This also contradicts the site's own published policy, which is still in the repo two files
+away — *"Nothing here is stock imagery, a licensed photo library, or a result from another
+clinic"* — and the header comment at `hair-transplant-results-gurgaon.php:9` that says no
+`ImageObject` is emitted while slots are placeholders. That guard no longer holds.
+
+**Do not deploy until each image is individually classified and consented.** Filename-based
+inference is not a consent record. Everything else in this document is a smaller problem
+than this one.
 
 ---
 
 ## 1. Local SEO Score
 
-**Build quality: 51 / 100** · **Live effective visibility: 0** (gated by the noindex above)
+**52 / 100** — but read §0 first. Two dimensions moved up since 25 Aug on genuine schema
+work; dimension 5 moved *down* because misuse now outweighs the additions.
 
-| # | Dimension | Weight | Score | Verdict |
-|---|---|---|---|---|
-| 1 | GBP signals | 25 | **13** | Map embed and hours present; category unconfirmed, hours contradict GBP, no `sameAs` to the listing |
-| 2 | Reviews & reputation | 20 | **8** | ~109 reviews vs competitors at 3,000+; nothing server-rendered; homepage and reviews page contradict each other |
-| 3 | Local on-page SEO | 20 | **16** | Strongest dimension — city+service titles/H1s, NAP everywhere, real service pages, no doorway pattern |
-| 4 | NAP consistency & citations | 15 | **6** | Internally flawless, externally fragmented across three sectors and three business names |
-| 5 | Local schema markup | 10 | **7** | Correct `MedicalClinic` subtype and clean graph; missing `geo`, `image`, `sameAs`, `hasMap`, `priceRange` |
-| 6 | Local link & authority | 10 | **1** | No chamber, press, best-of, sponsorship or partnership signal anywhere on the site |
+| # | Dimension | Weight | 25 Aug | 1 Sep | Verdict |
+|---|---|---|---|---|---|
+| 1 | GBP signals | 25 | 13 | **15** | `hasMap`, `sameAs` to CID and 7-dp `geo` now shipping; hours still contradict the listing |
+| 2 | Reviews & reputation | 20 | 8 | **6** | Elfsight widget is client-side only; still nothing crawlable, still no `aggregateRating` |
+| 3 | Local on-page SEO | 20 | 16 | **17** | Strongest dimension. City+service titles/H1s, NAP everywhere, one page per service, no doorway pattern |
+| 4 | NAP consistency & citations | 15 | 6 | **7** | Page↔schema now byte-identical; external fragmentation unchanged |
+| 5 | Local schema markup | 10 | 7 | **4** | Correct `MedicalClinic` subtype and a clean graph, undone by the `ImageObject` misuse in §0 |
+| 6 | Local link & authority | 10 | 1 | **3** | NABH accreditation is the first real authority signal on the site — if it verifies |
 
-The shape of this score is worth naming: **the on-page work is genuinely good and the
-off-site position is genuinely weak.** That is the opposite of most clinic sites in this
-market, and it is the better problem to have — but it means the remaining gains are almost
-all owned by the clinic, not by this repo.
+The shape from August still holds: **on-page craft is well above this market, off-site
+position is well below it.** What changed is that the first attempt to close the evidence
+gap introduced a compliance risk larger than the gap it closed.
 
 ---
 
@@ -58,438 +94,299 @@ all owned by the clinic, not by this repo.
 | Signal | Found |
 |---|---|
 | Physical street address in page HTML | ✅ footer on every page, plus `nap_block()` |
-| Google Maps embed with a real pin | ✅ `contact.php` + `local_block()` — 10 pages, lazy-loaded |
-| "Visit the clinic" / directions language | ✅ `local_block()`, `/contact#directions` |
-| Structured address in schema | ✅ complete `PostalAddress` |
-| Service-area language | Partial — `areaServed` names Gurugram, New Delhi, Delhi NCR; copy says patients travel from South Delhi |
+| Google Maps embed with pin | ✅ `contact.php:64` and `components.php:313`, both `loading="lazy"` |
+| Structured address in `MedicalClinic` schema | ✅ full `PostalAddress` |
+| `areaServed` without street address (SAB marker) | ❌ — `areaServed` present *alongside* address, which is correct for a clinic drawing from Delhi NCR |
+| Multi-location / store locator | ❌ not applicable — one clinic, one address |
 
-Not a SAB and not a hybrid — the service-area language supports a single physical clinic
-rather than replacing one. Full NAP and embedded-map checks apply; SAB exemptions do not.
+No location-page quality gate applies: there are no location pages, and the sitemap comment
+at `sitemap.php:5-8` shows this was a deliberate rejection of the old site's ~172 locality
+doorway pages. That decision remains correct and is worth protecting.
 
 ---
 
 ## 3. Industry vertical
 
-**Healthcare — dermatology / hair restoration.** Detected from `MedicalClinic` +
-`medicalSpecialty: Dermatology`, `Physician` node, patient/consultation/appointment language,
-a sitewide medical disclaimer and a `Medically reviewed by` byline.
+**Healthcare** — unambiguous. Signals: `Dr.`, patients, appointments/consultations,
+medical disclaimer, `medicalSpecialty: Dermatology`, procedure pages, HIPAA-equivalent
+confidentiality language in the review policy.
 
-### Industry-specific findings
+Vertical-specific findings:
 
-**Correct, and rarer than it should be:**
-- `MedicalClinic`, not generic `LocalBusiness` or `MedicalBusiness` — the right subtype.
-- `Physician` node linked to the clinic by `worksFor` + `@id`, and used as `author` /
-  `reviewedBy` on blog articles. That is the correct YMYL authorship pattern.
-- Unevidenced claims (98% success rate, 5,000+ procedures, ISHRS membership) deliberately
-  withheld. On a YMYL medical page under NMC advertising norms, that is the right call and
-  the reason not to reverse it is legal as much as editorial.
-- The review policy on `/patient-reviews` explicitly rejects review gating and commits to
-  never confirming or denying that a reviewer is a patient. Both are correct — gating is a
-  Google fake-engagement violation and FTC-actionable, and confirming patient status in a
-  public reply is the standard medical-privacy trap.
-
-**Gaps specific to healthcare:**
-- `DOCTORS['dr-nyra']['reg_number']` is `null`. In India there is no board-certification
-  equivalent, so the **state medical council registration number is the verifiable trust
-  signal** — and it is the one thing that substitutes for the credentials being withheld.
-  It belongs on `/dr-nyra` in visible text and as `identifier` in the `Physician` node.
-- `same_as` is an empty array. No Practo profile, no LinkedIn, no council register link.
-  For a doctor-led clinic, the physician entity is the strongest thing to corroborate.
-- The `Physician` node carries no `medicalSpecialty`, so the doctor is not typed as a
-  dermatologist in the graph even though the clinic is.
+- ✅ **Correct schema subtype.** `MedicalClinic`, not generic `MedicalBusiness` or
+  `LocalBusiness`. `schema.php:9-11` enforces this as a non-negotiable rule.
+- ✅ **`Physician` node present** and linked `worksFor` → clinic `@id`, with
+  `MedicalProcedure` / `MedicalTherapy` / `MedicalCondition` on the right pages.
+- ⚠️ **No `sameAs` to a medical register.** India has no NPI equivalent; the substitute is
+  the state medical council registration number, still `null` in `config.php:170`.
+- ✅ **Review-response policy respects confidentiality** — the clinic will not confirm or
+  deny that a reviewer is a patient (`patient-reviews.php`). Correct for healthcare.
+- 🔴 **Advertising-compliance exposure** from §0. Indian medical advertising is governed by
+  the NMC code of ethics and the Drugs & Magic Remedies Act; presenting certificates and
+  unidentified images as patient results is the kind of claim those regimes police, over
+  and above Google's own policy.
 
 ---
 
 ## 4. GBP optimisation checklist
 
-| Check | Status | Detail |
+| Signal | Status | Evidence |
 |---|---|---|
-| GBP embed detectable on page | ✅ | Real place FID `0x390ce5e4f6f45491:0x9dc43165216a74e6`, on 10 pages, `loading="lazy"` |
-| Business hours visible on page | ⚠️ | Visible, but **contradict the GBP listing** — see below |
-| Reviews widget referencing GBP | ⚠️ | Elfsight on homepage only, client-side |
-| `sameAs` link to the GBP listing | ❌ | Absent from schema entirely |
-| Directions link uses canonical place URL | ❌ | `MAPS_URL` is a *search query*, not the place |
-| Primary category confirmed | ❓ | Cannot be read from the website — clinic must confirm |
-| Secondary categories (target: 4) | ❓ | Not observable |
-| GBP posts active | ❓ | Not observable |
-| Photos on the listing | ❓ | Not observable — but see the unused photo below |
-| Google Verified badge eligibility | ❓ | Not observable |
+| Maps embed on site | ✅ | `contact.php:64`, lazy-loaded, `strict-origin-when-cross-origin` |
+| Embed addressed by FTID/place, not text search | ✅ | `!1s0x390ce5e4f6f45491:0x9dc43165216a74e6` |
+| `hasMap` in schema, CID-addressed | ✅ | `https://maps.google.com/?cid=11368265669812057318` |
+| `sameAs` → GBP listing | ✅ | now present (was missing 25 Aug) |
+| `geo` precision ≥ 5 dp | ✅ | `28.4396807, 77.0438613` — 7 dp |
+| Business hours visible on page | ✅ | `Mon–Sat · 10:00 – 20:00`, plus `openingHoursSpecification` |
+| **Hours match the Google listing** | 🔴 | Site says Mon–Sat 10:00–20:00; GBP says Mon–Sun 09:00–21:00 (`config.php:56-60`) |
+| Primary category confirmed | ❓ | Not verifiable from the codebase. This is the **#1 local pack factor** and the #1 negative factor when wrong |
+| Secondary categories (optimal: 4) | ❓ | Not verifiable from the codebase |
+| GBP posts active | ❓ | No evidence on site |
+| Photos on the listing | ❓ | 59 new images exist locally; none confirmed uploaded to GBP |
+| Q&A seeded | ❓ | Not verifiable |
+| GBP website link target | ❓ | Per Sterling Sky's Diversity Update, do **not** point it at your strongest organic page — use `/contact` or the homepage, not `/hair-transplant-in-gurgaon` |
 
-### The hours conflict is a live ranking cost
-
-`config.php` publishes **Mon–Sat 10:00–20:00**; the Google listing says **Mon–Sun
-09:00–21:00**. "Open at the time of search" is a top-five local pack factor. Under the
-published version the clinic is invisible to every Sunday search, every search before 10am
-and every search after 8pm — roughly a third of the searchable week, including the evening
-window when working patients actually search.
-
-The build chose the conservative version deliberately, which was right while the answer was
-unknown. It is now the longest-standing unanswered question in the file and the cheapest one
-to close. **One question to the clinic: which is true?** Then make the site and GBP agree.
-
-### `MAPS_URL` points at a search, not at the listing
-
-```php
-const MAPS_URL = 'https://www.google.com/maps?q=Dencespot+Clinic+Sector+39+Gurgaon';
-```
-
-Every "Directions on Google Maps" and "Read reviews on Google" button on the site runs a
-*search* and hopes the right result comes first. The place ID is already in the map embed,
-so the canonical link is known:
-
-```php
-const MAPS_URL     = 'https://maps.google.com/?cid=11368265669812057318';
-const MAPS_REVIEWS = 'https://search.google.com/local/writereview?placeid=ChIJkVT09uTlDDkR5nRqIWUxxJ0';
-```
-
-The CID is `0x9dc43165216a74e6` converted to decimal. This matters twice: it removes the
-chance of landing a patient on a competitor, and `MAPS_REVIEWS` is the direct review link the
-P1.1 review engine needs for the WhatsApp follow-up and the reception QR code.
-
-> Verify both URLs resolve to the clinic before shipping — the CID is derived from the embed
-> in `components.php`, not read from GBP directly.
-
-### A clinic exterior photo exists and is not being used
-
-`assets/img/clinic-front.jpg` is in the working tree (untracked, 894 KB) and referenced by
-**nothing**. Meanwhile `contact.php` and `local_block()` still render
-`slot('Clinic exterior with signage', …)` placeholders. Listings with photos draw
-substantially more direction requests, and a storefront photo is what lets a patient
-recognise the building from the road. Compress it (it is ~10× the sensible size for a
-web JPEG), convert to WebP alongside the existing `dr-nayra.webp`, drop it into both
-placeholders with descriptive alt text, and upload the same shot to GBP.
+**"Open at time of search" is a top-5 local pack factor.** The hours mismatch is costing
+visibility every evening and all day Sunday, in whichever direction is wrong. It has been
+flagged in `config.php` since August and is blocked on one answer from the clinic, not on
+code.
 
 ---
 
 ## 5. Review health snapshot
 
-| Signal | Value | Confidence |
-|---|---|---|
-| Google rating | 4.8–4.9★ | Low — two sources disagree, neither re-verified today |
-| Review count | ~109 | Low — carried from the 21 Aug directory audit |
-| Nearest competitor volume | QHT 3,184+ · Skinfinity 3,200+ | From competitor pages |
-| Reviews rendered in page HTML | **None** | Verified |
-| `aggregateRating` in schema | **None** | Verified — correctly gated |
-| Owner response rate | Unknown | Policy stated on site; behaviour not observable |
-| Third-party platforms | Practo, Justdial, magicpin | Listings exist; review volume unverified |
+| Metric | Value |
+|---|---|
+| Reviews rendered server-side | **0** |
+| `aggregateRating` in schema | **absent** |
+| Rating visible to a crawler | none |
+| Review platform diversity | Google only (Practo/Justdial listings exist but are wrong — see §7) |
+| Owner-response evidence on site | none |
+| Recency indicators | none |
 
-Rating is competitive. **Volume and velocity are the whole problem** — 109 against 3,000+ is
-not a gap that content closes. The 18-day rule applies: rankings drop off if three weeks pass
-with no new review, so cadence matters more than any single push.
+**The Elfsight widget does not close this gap.** `index.php:307-309` loads
+`elfsightcdn.com/platform.js` with `data-elfsight-app-lazy`. Reviews injected client-side by
+a third-party script are not in the server-rendered HTML, so they contribute nothing to
+Google's local signals, nothing to schema, and nothing to the AI engines that read the raw
+document. It is a visitor-facing widget, not an SEO asset.
 
-### Two problems introduced by the Elfsight widget
+It also creates a new inconsistency worth watching: if the widget paints a star rating on
+the homepage, the site is now *displaying* a rating it does not mark up — the mirror image
+of the violation `patient-reviews.php` was carefully written to avoid.
 
-The homepage now loads a live Google Reviews feed:
-
-```html
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-d4976df7-…" data-elfsight-app-lazy></div>
-```
-
-**First, it contradicts `/patient-reviews`.** That page still renders "No reviews are shown
-here yet" and argues at length that showing a rating you cannot evidence is dishonest — while
-the homepage displays a live Google feed. A patient who visits both sees a clinic hiding its
-reviews on the reviews page. The page's own credibility argument is what breaks. Put the
-widget on `/patient-reviews` too, above the review-policy section; the policy content is
-excellent and deserves the traffic.
-
-**Second, none of it is server-rendered.** The reviews arrive from a third-party CDN into a
-client-side container, so the text is not in the HTML, is not reliably attributed to the page,
-and is not there for the AI answer engines `robots.txt` explicitly welcomes. It also loads a
-third-party script on the highest-value page on the site.
-
-**On activating `aggregateRating`:** the note in `patient-reviews.php` plans to switch it on
-once reviews are displayed. Worth correcting one assumption first — Google does not show
-review rich results for **self-serving** reviews, meaning an organisation's own rating marked
-up on its own site. Activating it will not produce stars in the SERP. It is still worth doing
-for AI and entity parsing, and the visibility rule still applies, so the gate the file already
-enforces stays correct. Just do not expect stars, and do not let anyone justify inflating the
-number to chase them.
+Against the benchmarks: the magic threshold is **10 reviews** (Sterling Sky), 31% of
+consumers filter to 4.5+, 74% only weigh reviews from the last three months, and rankings
+soften if no new review lands for about three weeks. The clinic's published policy — every
+patient asked at the ten-day follow-up, nobody pre-screened, nothing incentivised — is
+already correct and already FTC/Google-compliant. It simply is not being run yet.
 
 ---
 
 ## 6. NAP consistency audit
 
-### Internal — page vs schema: clean
+**Internally: exact match.** Compared visible page HTML against JSON-LD on `/contact`:
 
-| Source | Name | Address | Phone |
-|---|---|---|---|
-| Footer (every page) | DenceSpot Clinic | 1123, Sector 39 Road, Jharsa, C Block, Sector 39, Gurugram, Haryana 122003 | +91 81783 30800 |
-| `nap_block()` / `/contact` | DenceSpot Clinic | identical | identical |
-| JSON-LD `MedicalClinic` | DenceSpot Clinic | identical | `+91-81783-30800` |
+| Source | Value |
+|---|---|
+| Page HTML | `1123, Sector 39 Road, Jharsa, C Block, Sector 39, Gurugram, Haryana 122003` · `+91 81783 30800` |
+| `MedicalClinic` schema | `1123, Sector 39 Road, Jharsa, C Block, Sector 39` / `Gurugram` / `Haryana` / `122003` · `+91-81783-30800` |
+| Discrepancy | **none** |
 
-**Zero discrepancies.** Everything derives from constants in `config.php`, so drift is
-structurally impossible rather than merely absent. The phone formatting difference between
-display and schema is correct — schema wants the dashed international form.
+This is the payoff from routing every NAP string through `config.php` constants — there is
+no path by which a template can drift. Keep it that way.
 
-This is the one dimension where the build outperforms every competitor in the set.
+**Externally: still fragmented.** `config.php:118-127` documents it plainly — Practo lists
+Sector 38, Justdial lists the business as "D S Dencespot", and both are deliberately
+withheld from `sameAs` until corrected. Withholding is the right call (claiming a listing
+that contradicts your canonical NAP corroborates the contradiction), but it means `sameAs`
+currently carries exactly one URL.
 
-### External — carried forward from the 21 Aug audit, not re-verified today
-
-| Platform | Name | Address |
-|---|---|---|
-| Site + Google | DenceSpot Clinic | Sector 39 |
-| Google (long form) | Dencespot : Hair Transplant and Skin Care Clinic | Sector 39 Road, Jharsa |
-| **Practo** | Dencespot (Advanced & Best Hair Transplant Clinic, Skin Specialist, Dermatologist in Gurgaon India) | **Sector 38** |
-| **magicpin** | Dencespot Clinic - Best Dermatologist & Hair Transplant in Gurgaon | **Sector 67A** |
-| **Justdial** | **D S Dencespot** | Sector 39, Medanta |
-
-Three sectors and three business names across the platforms Google uses to corroborate a
-listing. Two of the names are keyword-stuffed, which is a GBP guidelines violation on its own
-and carries suspension risk independent of any ranking effect.
-
-Still the highest-severity *off-site* finding, still unfixed, still cheap to fix, and still
-not a code task. Re-verify each listing before editing — four months have passed.
+Note also: the address itself is marked ⚠ AWAITING SIGN-OFF at `config.php:30-40`. Every
+citation fix below is blocked on that one confirmation.
 
 ---
 
 ## 7. Citation presence
 
-| Tier 1 | Status | Note |
-|---|---|---|
-| Google Business Profile | ✅ exists | Long-form keyword-stuffed name needs correcting |
-| Practo | ⚠️ exists, wrong sector | Dominates "clinics near me" in India |
-| Justdial | ⚠️ exists, wrong name | Listed as "D S Dencespot" |
-| magicpin | ⚠️ exists, wrong sector | Sector 67A |
-| **Bing Places** | ❌ unclaimed | **Feeds ChatGPT, Copilot and Alexa** |
-| **Apple Business Connect** | ❌ unclaimed | Feeds Siri and Apple Maps |
-| Facebook business page | ❓ | No link from the site |
+Not verifiable from the codebase; this is a checklist to work, not a measurement.
 
-No `sameAs` array anywhere in the schema means the site does not claim any of these listings
-as its own. That is a missed corroboration signal for Google and a missed entity-resolution
-signal for AI answer engines — which matters here specifically, because `robots.txt` goes out
-of its way to welcome GPTBot, PerplexityBot, ClaudeBot and OAI-SearchBot, and ChatGPT does not
-read GBP at all. It reads Bing, Practo-type directories and Reddit. An unclaimed Bing Places
-listing is the single biggest AI-visibility gap on this site.
+| Tier | Platform | Status | Priority |
+|---|---|---|---|
+| 1 | Google Business Profile | ✅ claimed (CID known) | maintain |
+| 1 | **Bing Places** | ❓ | **High** — powers ChatGPT, Copilot and Alexa; ChatGPT does not read GBP |
+| 1 | **Apple Maps / Apple Business** | ❓ | **High** — claim and verify against Apple's own docs before asserting anything about platform renames |
+| 1 | Facebook business page | ❓ commented out of `sameAs` | Medium |
+| 2 | Practo | ⚠️ exists, **wrong sector** (38 vs 39) | **High** — correct, then add to `sameAs` |
+| 2 | Justdial | ⚠️ exists, **wrong name** ("D S Dencespot") | **High** — correct, then add to `sameAs` |
+| 2 | Lybrate, Sehat, Credihealth | ❓ | Medium — healthcare-vertical directories for India |
+| 3 | Data Axle, Foursquare, Neustar/TransUnion | ❓ | Medium — downstream distribution |
 
-India-specific directories worth claiming beyond the above: Lybrate, Sehat, Credihealth, and
-the IADVL member listing if Dr. Nyra is a member. For Justdial, correct the existing entry
-rather than adding a second one.
+Chamber of Commerce and BBB are US-centric and largely non-applicable here; the Indian
+equivalents worth pursuing are IMA membership, the local Gurugram trade bodies, and NABH's
+own public directory listing.
+
+Whitespark's 2026 finding that **3 of the top 5 AI-visibility factors are citation-related**
+is the reason this section outranks its 15% weight in practice. ChatGPT sources local
+recommendations from Bing, Yelp, TripAdvisor, BBB and Reddit — not from GBP.
 
 ---
 
 ## 8. Local schema status
 
-**Present and well-built.** `includes/schema.php` is a proper `@graph` with stable `@id`
-references — `MedicalClinic` at `/#clinic`, `Physician` at `/dr-nyra#physician`, procedures
-and therapies linked back by `performer` and `location`. Correct subtype, no placeholder
-content, valid JSON-LD confirmed on the live page.
+**Present and well-built**, with one disqualifying misuse.
 
-### Missing properties
+| Property | Status |
+|---|---|
+| `@type: MedicalClinic` | ✅ correct subtype |
+| `name`, `url`, `telephone`, `email` | ✅ |
+| `address` (full `PostalAddress`) | ✅ |
+| `geo` (7 dp) | ✅ |
+| `openingHoursSpecification` | ✅ |
+| `hasMap`, `image`, `sameAs` | ✅ new since 25 Aug |
+| `areaServed` (City / AdministrativeArea) | ✅ correctly typed |
+| `medicalSpecialty` | ✅ |
+| `Physician` node, `worksFor` → clinic `@id` | ✅ |
+| `priceRange` | ❌ missing |
+| `hasCredential` for NABH | ❌ missing — see below |
+| `aggregateRating` | ⬜ correctly absent (nothing visible to mark up) |
+| `ImageObject` on `/results` | 🔴 **misused — see §0** |
 
-| Property | Impact | Availability |
-|---|---|---|
-| `geo` | **High** — recommended for LocalBusiness | **Already known — see below** |
-| `sameAs` | High — citation + AI entity resolution | Needs the listing URLs |
-| `image` | Medium — entity thumbnail, AI surfaces | `clinic-front.jpg` exists, unused |
-| `hasMap` | Medium | Derivable from the CID |
-| `priceRange` | Medium — filters and comparison surfaces | Blocked on the same decision as the cost table |
-| `logo` | Low | Only `favicon.svg` exists |
-| `medicalSpecialty` on `Physician` | Medium | Known |
-| `identifier` (council registration) | **High for YMYL trust** | Clinic must supply |
-| `isAcceptingNewPatients` | Low | Known |
+**Missing: the accreditation is not in structured data at all.** `components.php:466-503`
+renders three NABH certificates with numbers and validity dates in HTML, but emits no
+schema. That is the single best authority signal the clinic has and machines cannot read it.
 
-### `GEO_LAT` / `GEO_LNG` are sitting in your own map embed
-
-`config.php` says the coordinates are "REQUIRED before launch" and leaves them `null` rather
-than guess — correct instinct. But the guess is unnecessary, because the Google Maps embed in
-`components.php` and `contact.php` carries the pin for this exact place:
-
-```
-!2d77.0438613!3d28.439680699999997   →   2d = longitude, 3d = latitude
-```
+Ready-to-use fix — add to the `MedicalClinic` node in `schema.php:schema_clinic()`:
 
 ```php
-const GEO_LAT = 28.4396807;   // 7 dp — exceeds the 5+ dp minimum
-const GEO_LNG = 77.0438613;
+$node['hasCredential'] = [[
+    '@type'                => 'EducationalOccupationalCredential',
+    'credentialCategory'   => 'Accreditation',
+    'name'                 => 'NABH Accreditation — Dermatology Clinic Standards (Edition 1, 2021)',
+    'recognizedBy'         => [
+        '@type' => 'Organization',
+        'name'  => 'National Accreditation Board for Hospitals & Healthcare Providers',
+        'url'   => 'https://nabh.co/',
+    ],
+    'identifier'           => '646744646-2026-001',
+    'validFrom'            => '2026-09-01',
+    'expires'              => '2029-08-31',
+]];
 ```
 
-`schema_clinic()` already has the conditional, so filling these two constants activates `geo`
-sitewide with no other change. Cross-check against the GBP pin before shipping — the embed
-centre should be the place location, but the listing is the authority.
+**Verify before shipping that block.** Three points need checking against the certificates
+themselves and NABH's public directory:
 
-### Ready-to-use patch
+1. All three cards carry the **same certificate number** `646744646-2026-001` and the same
+   validity window. Three distinct credentials sharing one number is internally
+   inconsistent — either it is one accreditation presented as three, or the numbers were
+   copied between cards.
+2. The validity window starts **01 Sep 2026 — today**. Confirm that is the real issue date.
+3. *"Excellence in Clinical Services"* reads as an **award**, not an accreditation, yet
+   `components.php:509` describes the clinic as *"officially accredited by NABH … for
+   clinical excellence"* and `gallery.php:37` labels that file `NABH ACCREDITATION`. If it
+   is an award, say award. Overstating an accreditation is the highest-risk sentence on the
+   site after §0.
 
-```php
-// includes/config.php
-const GEO_LAT = 28.4396807;
-const GEO_LNG = 77.0438613;
-
-const MAPS_URL     = 'https://maps.google.com/?cid=11368265669812057318';
-const MAPS_REVIEWS = 'https://search.google.com/local/writereview?placeid=ChIJkVT09uTlDDkR5nRqIWUxxJ0';
-
-/** Claimed listings. Every URL must resolve to THIS clinic — verify each. */
-const CLINIC_SAME_AS = [
-    'https://maps.google.com/?cid=11368265669812057318',
-    // 'https://www.practo.com/…',      ← after the Sector 38 correction
-    // 'https://www.justdial.com/…',    ← after the "D S Dencespot" correction
-    // 'https://www.facebook.com/…',
-];
-```
-
-```php
-// includes/schema.php — inside schema_clinic(), before the return
-$node['hasMap'] = MAPS_URL;
-$node['image']  = abs_url('/assets/img/clinic-front.jpg');
-
-if (CLINIC_SAME_AS !== []) {
-    $node['sameAs'] = CLINIC_SAME_AS;
-}
-```
-
-```php
-// includes/schema.php — inside schema_physician(), before the return
-$node['medicalSpecialty'] = 'Dermatology';
-
-if (!empty($doc['reg_number'])) {
-    $node['identifier'] = [
-        '@type' => 'PropertyValue',
-        'name'  => 'Medical Council Registration',
-        'value' => $doc['reg_number'],
-    ];
-}
-```
-
-One type correction: `AREA_SERVED` maps all three entries to `@type: City`, but "Delhi NCR"
-is a metropolitan region, not a city. Type it as `AdministrativeArea` — minor, but this graph
-is otherwise precise enough that the inconsistency stands out.
+**Also missing:** `priceRange`. The clinic deliberately publishes no per-graft price, which
+is defensible — but `priceRange` accepts a coarse band (`"₹₹"`) that satisfies the property
+without quoting a figure.
 
 ---
 
-## 9. Location page quality
+## 9. Local on-page SEO
 
-**Single location — no location-page architecture, and that is correct.**
+The strongest dimension, and largely unchanged from August.
 
-The doorway-page risk that dominated the 21 Aug strategy is resolved in this build. The live
-sitemap now returns **20 URLs**, down from the ~802 (with ~172 near-identical locality pages)
-on the old site. The swap test does not apply, because there are no swappable pages.
+| Check | Status |
+|---|---|
+| City + service in title tag | ✅ `Hair Transplant in Gurgaon \| DenceSpot Clinic` |
+| City + service in H1 | ✅ `Hair Transplant in Gurgaon for Natural-Looking Hair Restoration` |
+| NAP visible in HTML | ✅ footer, every page |
+| Dedicated page per core service | ✅ 6 treatment pages — **the #1 local organic factor and #2 AI-visibility factor** |
+| `tel:` click-to-call | ✅ footer + sticky mobile CTA |
+| Embedded map, lazy-loaded | ✅ |
+| Doorway-page pattern | ✅ none — deliberately rejected |
+| Every page within 3 clicks of home | ✅ |
+| Contextual internal links per 1,000 words | ✅ 2.9–19.0, inside the 2–5 guideline on most pages |
 
-What replaces them is the right pattern: locality names in prose on relevant pages. But it
-is applied on exactly one page.
+Two new issues from today's work:
 
-`hair-fall-treatment-in-gurgaon.php` names Sector 39, Sushant Lok, DLF Phases 1–5, Golf
-Course Road, Sohna Road, MG Road, Cyber City, Sector 56, South City and Palam Vihar. Across
-the whole rest of the site each of those appears **once or not at all**, while "Sector 39"
-appears 24 times.
+- 🟡 **`/gallery` H1 drops the city.** Title is `Photo & Results Gallery | DenceSpot Clinic
+  Gurgaon`; H1 is `DenceSpot Clinic Photo & Results Gallery`. Add *Gurgaon* or *Sector 39*
+  to the H1 — a 49-image local gallery is a strong geographic signal and the H1 is wasting it.
+- 🔴 **`/router` is in the sitemap.** `sitemap.php` generates from every `.php` on disk, so
+  the new dev helper `router.php` is now published as `https://dencespot.com/router`. Add
+  `'router'` to `SITEMAP_EXCLUDE` (`sitemap.php:32`) — the list already excludes
+  `thank-you`, `enquire`, `sitemap` and `404`.
 
-The money pages — `/hair-transplant-in-gurgaon`, `/fue-…`, `/dhi-…`, `/beard-transplant-gurgaon`,
-`/hair-prp-treatment-in-gurgaon`, `/hair-transplant-cost-in-gurgaon` — carry no locality prose
-at all. Proximity is the largest single component of local ranking variance, and these are the
-pages that need to surface for a patient searching from Golf Course Road. Extend the pattern
-already built on the hair-fall page to the other six, written as genuine "patients travel to
-us from" copy rather than a keyword list.
-
-### Other on-page notes
-
-- **Titles and H1s are strong.** Every commercial page carries city + service in both, without
-  reading like it was written for a crawler.
-- **Click-to-call is everywhere** — header icon button, footer, `nap_block()`, and a sticky
-  mobile CTA bar with Call and WhatsApp. Correct `tel:` scheme, conversion tracking on each.
-  This is well above the market.
-- **No OG images sitewide.** Not one page sets `og_image`, so every page falls back to
-  `twitter:card summary` with no image. Every WhatsApp share of this clinic — the dominant
-  sharing channel for Indian patients, and the site's own primary CTA — renders as a bare
-  text link.
-- **`/hair-transplant-cost-in-gurgaon` still ships `[CONFIRM] ₹__–__ per graft`** in all four
-  table rows. Cost queries dominate this vertical, every competitor publishes numbers, and the
-  page is otherwise built and waiting. Still the largest commercial gap, still one decision.
-- **`.htaccess` has HTTPS and www canonicalisation commented out** (lines 24–28). The site
-  currently forces neither. Worse, `SITE_ORIGIN` is `https://dencespot.com` (non-www) while
-  the commented rule redirects to `www.dencespot.com` — if someone uncomments it without
-  reading, every canonical on the site points at a redirecting host. Pick non-www to match
-  `SITE_ORIGIN`, uncomment the HTTPS rule, and make sure every citation uses the same form.
+Also still open from August: `fut-hair-transplant-in-gurgaon` ships `noindex` pending
+written confirmation that the clinic performs strip surgery, and is correctly excluded from
+the sitemap. Resolve both together or neither.
 
 ---
 
 ## 10. Top 10 prioritised actions
 
-### Critical
+**Critical**
 
-**1. Deploy `SITE_STAGING = false`.** *Owner: dev. Minutes.*
-The change is already made locally. Commit `config.php`, `robots.txt` and `header.php`, deploy,
-then re-check `curl -s https://dencespot.com/ | grep robots` and confirm `index, follow`.
-Everything below is inert until this ships.
+1. **Stop the gallery deploy.** Classify all 49 images individually — result / clinic /
+   certificate / marketing — with a written consent record per patient photograph. Replace
+   the filename heuristic in `gallery.php:31-42` with an explicit manifest.
+2. **Remove `ImageObject` markup from anything that is not a consented patient
+   photograph.** Restore the guard the file's own header comment describes.
+3. **Fix the before/after pairs.** `hair-transplant-results-gurgaon.php:51,54` use one image
+   for both states. Either supply the real pair or drop the case. Re-label
+   `'interval' => 'OT Completed'` — an immediately post-op photo is not a 12-month result.
+4. **Verify the NABH claims** against the certificates and NABH's public directory: one
+   number across three credentials, a validity window starting today, and "Excellence in
+   Clinical Services" described as an accreditation. Correct the copy at
+   `components.php:509` if it is an award.
 
-**2. Verify dencespot.com in Search Console and submit the sitemap.** *Owner: clinic + dev.*
-Immediately after #1. Nothing in this document can be validated without it, and you will want
-the indexation curve from day one rather than reconstructed later.
+**High**
 
-**3. Resolve the hours conflict.** *Owner: clinic. One question.*
-Mon–Sat 10–20 or Mon–Sun 09–21. Whichever is true, make `config.php` and GBP identical. The
-current mismatch removes the clinic from a third of the searchable week.
+5. **Resolve the hours conflict** and deploy one canonical answer to the site, GBP, Bing
+   Places, Apple Maps and the directories. Same sign-off covers the address at
+   `config.php:30-40`.
+6. **Claim Bing Places and Apple Maps.** Bing feeds ChatGPT, Copilot and Alexa, which
+   convert at ~15.9% against ~1.76% for Google organic. This is the highest-leverage
+   citation work available.
+7. **Correct Practo (Sector 38 → 39) and Justdial ("D S Dencespot" → DenceSpot Clinic)**,
+   then uncomment both in `CLINIC_SAME_AS`.
+8. **Start the review programme** the policy page already describes. Ten reviews is the
+   threshold; a new review roughly every 18 days is the cadence. Then populate `$reviews`,
+   `$rating` and `$reviewCount` — the `AggregateRating` branch activates itself.
 
-### High
+**Medium**
 
-**4. Collapse the NAP to one canonical version across all platforms.** *Owner: clinic.*
-`DenceSpot Clinic`, no keywords, one address. Correct Practo (Sector 38), magicpin (Sector 67A)
-and Justdial ("D S Dencespot") individually. Re-verify each listing first — the audit behind
-this is four months old.
-
-**5. Claim Bing Places and Apple Business Connect.** *Owner: clinic. Free, one-time.*
-Bing feeds ChatGPT and Copilot; Apple feeds Siri and Apple Maps. Given how deliberately this
-site courts AI crawlers, an unclaimed Bing listing is the largest inconsistency in the strategy.
-
-**6. Ship the schema patch in §8.** *Owner: dev. Under an hour.*
-`geo`, `hasMap`, `image`, `sameAs`, `medicalSpecialty` on the physician, and the
-`AdministrativeArea` type fix. The coordinates are already in your own map embed.
-
-**7. Start the review engine, and hold an 18-day cadence.** *Owner: clinic.*
-109 → 300+ over twelve months. Ask at the ten-day follow-up, WhatsApp the direct review link
-(`MAPS_REVIEWS` above), QR at reception. No pre-screening, no incentives, reply to everything
-without confirming patient status. Velocity beats volume — three weeks of silence costs
-rankings.
-
-### Medium
-
-**8. Publish real per-graft rates and add `priceRange`.** *Owner: clinic decision, dev ships.*
-Four `[CONFIRM]` placeholders are the only thing between this and the highest-commercial-intent
-page on the site.
-
-**9. Fix the review contradiction and the unused photo.** *Owner: dev.*
-Put the Elfsight widget on `/patient-reviews` as well as the homepage. Compress
-`clinic-front.jpg` (894 KB → target under 150 KB as WebP), use it in both exterior slots and
-as schema `image`, and upload it to GBP.
-
-**10. Extend locality prose to the six money pages, and add OG images.** *Owner: dev.*
-Copy the pattern from `hair-fall-treatment-in-gurgaon.php`. Separately, generate a 1200×630 OG
-image per commercial page — every WhatsApp share currently renders as bare text.
-
-### Lower priority, genuinely valuable
-
-- Add Dr. Nyra's council registration number to `/dr-nyra` and as schema `identifier` — the
-  verifiable substitute for the credentials being withheld.
-- Populate `same_as` for the doctor (Practo profile, LinkedIn, council register).
-- Uncomment the HTTPS redirect in `.htaccess` and settle non-www to match `SITE_ORIGIN`.
-- Pursue "best of Gurgaon" list placements — the strongest single AI-visibility citation
-  signal, and the dimension currently scoring 1/10.
+9. **Add `hasCredential` and `priceRange`** to `schema_clinic()` (§8), and add `'router'` to
+   `SITEMAP_EXCLUDE`. Put the city back in the `/gallery` H1.
+10. **Confirm the GBP primary category** with the clinic and add up to 4 secondary
+    categories. Primary category is the single largest local pack factor and the largest
+    negative factor when wrong — and it is currently unverified.
 
 ---
 
-## 11. Limitations — what this analysis could not assess
+## 11. Limitations
 
-| Not assessed | Why | What would fill the gap |
-|---|---|---|
-| Geo-grid local pack positions | No rank-tracking access; the search tooling here indexes US results | Local Falcon, BrightLocal, or `/seo maps` with DataForSEO |
-| GBP internals — categories, posts, photo count, Q&A, Insights | Not observable from outside the listing | Clinic logs into GBP directly |
-| Live local pack position for any query | Same as above | DataForSEO `serp_organic_live_advanced` |
-| Current Practo / Justdial / magicpin listing state | Carried from the 21 Aug audit, **not re-verified in this run** | Open each listing and check |
-| True review count and rating | Two conflicting directory figures, neither current | Read it off GBP |
-| Backlink profile, Domain Authority, competitor links | No backlink API connected | Moz, Ahrefs, or the `seo-backlinks` skill |
-| Search Console impressions, positions, indexation | No GSC property exists for this domain | Action #2 above |
-| Core Web Vitals field data, including the Elfsight cost | No CrUX data — the site is `noindex` and likely has insufficient traffic | Re-run after indexing; PageSpeed lab data is available now |
-| Competitor GBP internals | Same constraint as our own | Paid geo-grid tooling |
+This analysis read the local working tree. It could **not** assess:
 
-**One caveat on the whole document:** a `noindex` site has no local search performance to
-measure, so every scored dimension above is an assessment of *build quality and readiness*,
-not of observed ranking. Re-run this after the site has been indexed for 4–6 weeks with GSC
-connected — the scores will change, and for the first time they will mean something measured.
+- **Live-site state.** The deploy was not fetched. Whether `SITE_STAGING = false` is
+  actually live, and whether the August `noindex` incident is genuinely resolved, is
+  unconfirmed here. *Advanced GSC MCP is connected in this session — say the word and I can
+  pull real indexation and URL-inspection data.*
+- **GBP internals** — primary/secondary categories, posts, photo count, Q&A, Insights.
+  Requires dashboard access.
+- **Geo-grid rank tracking / SoLV** across the Gurugram grid. Requires `/seo maps` with
+  DataForSEO, which is not connected in this session.
+- **Real-time local pack position** for `hair transplant in gurgaon` and siblings.
+- **Citation presence** on any directory — §7 is a work list, not a measurement. Requires
+  DataForSEO `business_data_business_listings_search` or manual checks.
+- **Backlink profile and Domain Authority.** Run `/seo backlinks`.
+- **NABH accreditation validity.** Verify against NABH's public directory directly.
 
----
+Scores are heuristics from this skill's model. Google Search Console remains the only
+first-party source for how these pages actually perform.
 
-## Related
-
-- `LOCAL-SEO-STRATEGY-dencespot.md` — competitor set, market evidence, P0/P1/P2 plan (21 Aug)
-- `SEO-STRATEGY-dencespot.md` — 47-page architecture
-- `BUILD-PROGRESS.md` — build tracker and outstanding clinic sign-offs
-- For AI search visibility specifically, run `/seo geo https://dencespot.com` — but only after
-  action #1, since an AI crawler reading a `noindex, nofollow` page finds nothing either.
+For AI-search visibility specifically, run `/seo geo https://dencespot.com` — 45% of
+consumers now use AI assistants for local recommendations, up from 6%, and AI Overviews
+appear on up to 68% of local searches.

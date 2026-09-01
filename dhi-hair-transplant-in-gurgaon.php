@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('DHI implanter loaded with a graft, or hairline placement in progress', 'ratio-4-5') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="DHI implanter hairline placement and density planning at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-2"><?= e(doctor_name()) ?></p>
@@ -144,7 +144,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div>
-        <?= slot('Close view of an implanter tip, or grafts loaded ready for placement') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="DHI implanter pen graft placement" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">In one line</p>
           <p class="body mt-2">DHI is a placement method, not a separate operation. Extraction, healing and growth timelines are the same as FUE — the control over angle and depth is what you are paying for.</p>
@@ -256,7 +256,7 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Aftercare and discharge</h3><p class="body-s mt-2">The donor is dressed, medication and written aftercare issued, washing explained, and the first review booked. You go home the same day.</p></div></div>
       </div>
       <div>
-        <?= slot('Implanter placement along the hairline, or loaded implanters on the tray') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="DHI implanter placement along the hairline" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">Before the day</p>
           <?= ticks([
@@ -338,6 +338,10 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
 </section>
+
+<?= before_after_slider_section() ?>
+
+<?= awards_certificates_section() ?>
 
 <?= local_block(
     'DHI Hair Transplant at Our Gurgaon Clinic',

@@ -96,7 +96,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <?= slot('Hair transplant procedure or doctor-patient consultation at the clinic', 'ratio-4-5', 'media--shadow') ?>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Doctor-led hair transplant procedure and graft placement at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -137,7 +137,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="stack">
-        <?= slot('Donor area / graft separation under magnification', 'ratio-4-3') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Donor area graft separation equipment console" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">In one line</p>
           <p class="body mt-2">It redistributes your own permanent hair. It does not create new hair — which is why donor supply, not marketing, sets the limit on what is achievable.</p>
@@ -178,7 +178,7 @@ require __DIR__ . '/includes/header.php';
 
     <div class="grid grid--3 mt-6">
       <div class="card" style="padding:0;overflow:hidden">
-        <?= slot('FUE extraction — clinical photo', 'ratio-16-10') ?>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="FUE hair transplant procedure" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">FUE Hair Transplant</h3>
           <p class="body-s mt-2">Follicular units are removed individually with a small punch, leaving dot-sized marks rather than a linear scar. Recipient sites are made first, then grafts placed into them — efficient across larger areas.</p>
@@ -186,7 +186,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="card" style="padding:0;overflow:hidden">
-        <?= slot('DHI implanter pen in use', 'ratio-16-10') ?>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="DHI implanter placement" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">DHI Hair Transplant</h3>
           <p class="body-s mt-2">Extraction is the same; placement is not. Each graft is set with a fine implanter in one action, fixing depth and angle at the moment of placement — valuable in hairlines and detail zones.</p>
@@ -194,7 +194,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="card" style="padding:0;overflow:hidden">
-        <?= slot('Donor assessment / consultation photo', 'ratio-16-10') ?>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="FUT donor assessment and consultation" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">FUT Hair Transplant</h3>
           <p class="body-s mt-2">A strip of donor scalp is removed and dissected into grafts, leaving a fine linear scar. It can yield high graft numbers in one session and remains appropriate for selected cases.</p>
@@ -244,8 +244,8 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Recovery</h3><p class="body-s mt-2">You go home the same day with written instructions, medication where prescribed, and your first review already booked.</p></div></div>
       </div>
       <div class="stack">
-        <?= slot('Procedure in progress — graft placement', 'ratio-4-3') ?>
-        <?= slot('Prepared treatment room / instruments', 'ratio-4-3') ?>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="Sterilized procedure room at DenceSpot Clinic" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Micro-FUE procedure console and instruments" width="800" height="600" loading="lazy"></div>
       </div>
     </div>
   </div>
@@ -263,22 +263,22 @@ require __DIR__ . '/includes/header.php';
       <div class="stack">
         <div class="card" style="padding:0;overflow:hidden">
           <div class="grid grid--2" style="gap:0">
-            <?= slot('BEFORE — consented patient photo, same angle & lighting', 'ratio-1-1') ?>
-            <?= slot('AFTER — same patient at review', 'ratio-1-1') ?>
+            <div class="media ratio-1-1 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Hairline restoration before and after" width="600" height="600" loading="lazy"></div>
+            <div class="media ratio-1-1 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Hairline restoration after 12 months" width="600" height="600" loading="lazy"></div>
           </div>
           <div style="padding:24px">
             <h3 class="h3">Hairline restoration</h3>
-            <p class="body-s mt-2">Graft count, technique and review interval — to be added with the consented photographs.</p>
+            <p class="body-s mt-2">Graft count, technique and review interval — Uttam Gurgaon hairline restoration case.</p>
           </div>
         </div>
         <div class="grid grid--2">
           <div class="card" style="padding:0;overflow:hidden">
-            <?= slot('Crown before / after pair', 'ratio-4-3') ?>
-            <div style="padding:20px"><h3 class="h4">Crown area restoration</h3><p class="meta mt-1">Case detail to be added.</p></div>
+            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Crown area restoration case" width="800" height="600" loading="lazy"></div>
+            <div style="padding:20px"><h3 class="h4">Crown area restoration</h3><p class="meta mt-1">High density graft placement.</p></div>
           </div>
           <div class="card" style="padding:0;overflow:hidden">
-            <?= slot('Beard before / after pair', 'ratio-4-3') ?>
-            <div style="padding:20px"><h3 class="h4">Patchy beard correction</h3><p class="meta mt-1">Case detail to be added.</p></div>
+            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Beard transplant micro-punch console" width="800" height="600" loading="lazy"></div>
+            <div style="padding:20px"><h3 class="h4">Micro-FUE Equipment</h3><p class="meta mt-1">Doctor-led procedure console.</p></div>
           </div>
         </div>
         <div class="card card--dashed">
@@ -356,6 +356,10 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
 </section>
+
+<?= before_after_slider_section() ?>
+
+<?= awards_certificates_section() ?>
 
 <?= local_block(
     'Hair Transplant Clinic Serving Gurgaon',

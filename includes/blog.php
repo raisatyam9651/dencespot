@@ -85,7 +85,7 @@ function blog_card(array $post): string
     ob_start(); ?>
 <article class="card" style="padding:0;overflow:hidden;display:flex;flex-direction:column">
   <a href="<?= e(blog_url($post['slug'])) ?>" aria-label="<?= e($post['title']) ?>">
-    <?= slot($post['image_alt'], 'ratio-16-10') ?>
+    <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="<?= e($post['image_alt']) ?>" width="800" height="500" loading="lazy"></div>
   </a>
   <div style="padding:24px;display:flex;flex-direction:column;flex:1 1 auto">
     <?php if ($hub !== null): ?>

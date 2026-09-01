@@ -178,6 +178,7 @@ const REVIEWED_DATE = 'August 2026';
 
 const NAV_PRIMARY = [
     ['label' => 'About',           'url' => '/about-us'],
+    ['label' => 'Gallery',         'url' => '/gallery'],
     ['label' => 'Treatments', 'url' => '#', 'children' => [
         ['label' => 'Hair Transplant', 'url' => '/hair-transplant-in-gurgaon'],
         ['label' => 'Beard Transplant','url' => '/beard-transplant-gurgaon'],
@@ -193,6 +194,7 @@ const NAV_FOOTER = [
         ['label' => 'Home',            'url' => '/'],
         ['label' => 'About the clinic','url' => '/about-us'],
         ['label' => 'Dr. Nyra',        'url' => '/dr-nyra'],
+        ['label' => 'Photo Gallery',   'url' => '/gallery'],
         ['label' => 'Results',         'url' => '/hair-transplant-results-gurgaon'],
         ['label' => 'Patient reviews', 'url' => '/patient-reviews'],
         ['label' => 'Contact',         'url' => '/contact'],
