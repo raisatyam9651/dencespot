@@ -1,7 +1,7 @@
 <?php
 /**
  * Local Router for PHP Built-in Web Server (php -S)
- * Handles extensionless URLs like /gallery, /about-us, /contact
+ * Handles extensionless URLs like /gallery, /about-us, /contact, /blog/
  */
 
 $uri = rawurldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
@@ -12,12 +12,21 @@ if ($uri !== '/' && file_exists($file) && !is_dir($file)) {
     return false;
 }
 
-// 2. Extensionless PHP file exists? Require it.
+// 2. Directory with index.php exists? (e.g. /blog/)
+if (is_dir($file)) {
+    $dirIndex = rtrim($file, '/') . '/index.php';
+    if (file_exists($dirIndex)) {
+        require $dirIndex;
+        exit;
+    }
+}
+
+// 3. Extensionless PHP file exists? Require it.
 $phpFile = __DIR__ . $uri . '.php';
 if (file_exists($phpFile)) {
     require $phpFile;
     exit;
 }
 
-// 3. Fallback to index.php
+// 4. Fallback to index.php
 require __DIR__ . '/index.php';
