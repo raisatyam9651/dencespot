@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorized FUE Micro-Punch extraction equipment at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-2"><?= e(doctor_name()) ?></p>
@@ -144,7 +144,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div>
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="FUE donor area extraction equipment console" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">In one line</p>
           <p class="body mt-2">FUE moves your own permanent hair; it does not create new hair. Donor supply, not technique, sets the ceiling on what is achievable.</p>
@@ -263,7 +263,7 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Placement and discharge</h3><p class="body-s mt-2">Grafts are placed into the prepared sites, the donor is dressed, medication and written aftercare are issued, and you go home the same day.</p></div></div>
       </div>
       <div>
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="FUE recipient site creation and graft placement" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — hairline and temple restoration, 2,400 grafts by FUE" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">Before the day</p>
           <?= ticks([

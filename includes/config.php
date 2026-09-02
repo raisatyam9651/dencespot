@@ -56,7 +56,13 @@ const HOURS_DAYS    = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', '
 const HOURS_OPEN    = '10:00';
 const HOURS_CLOSE   = '20:00';
 const HOURS_DISPLAY = 'Mon–Sat · 10:00 – 20:00';
-const HOURS_NOTE    = 'Sunday · by appointment only';
+/**
+ * ⚠ Must not contradict openingHoursSpecification, which lists Monday-Saturday
+ * only. This previously read 'Sunday · by appointment only', which asserted
+ * Sunday availability the markup denied. Reinstate the Sunday wording only when
+ * Sunday is also added to HOURS_DAYS.
+ */
+const HOURS_NOTE    = 'Sunday · closed';
 
 /**
  * Clinic pin, taken from the Google Business Profile place embed rendered on
@@ -78,7 +84,8 @@ const GEO_LNG = 77.0438613;
 
 const PHONE_E164    = '+918178330800';
 const PHONE_DISPLAY = '+91 81783 30800';
-const PHONE_SCHEMA  = '+91-81783-30800';
+/** E.164, byte-identical to every tel: href on the site. */
+const PHONE_SCHEMA  = PHONE_E164;
 const EMAIL         = 'dencespot@gmail.com';
 const WHATSAPP_URL  = 'https://api.whatsapp.com/send/?phone=%2B918178330800';
 /**
@@ -171,6 +178,8 @@ const DOCTORS = [
 
 const REVIEWED_BY   = 'Dr. Nyra';
 const REVIEWED_DATE = 'August 2026';
+/** Same date, ISO 8601, for schema lastReviewed. Keep the two in step. */
+const REVIEWED_DATE_ISO = '2026-08-31';
 
 /* -------------------------------------------------------------------------
  * Navigation

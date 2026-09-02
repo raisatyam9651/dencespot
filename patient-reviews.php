@@ -55,7 +55,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Patient Reviews | DenceSpot Clinic, Gurugram',
-    'description' => 'Read what patients say about DenceSpot Clinic in Gurugram, and how we collect reviews — every patient asked, nobody pre-screened.',
+    'description' => 'What patients say about hair transplant and PRP at DenceSpot Clinic, Sector 39 Gurugram — and how we collect reviews: every patient asked, nobody pre-screened.',
     'url'         => '/patient-reviews',
     'crumbs'      => $crumbs,
     'schema'      => $graph,
@@ -68,7 +68,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:64ch">
       <span class="pill pill--dot">Patient reviews</span>
-      <h1 class="h1 mt-3">What Patients Say</h1>
+      <h1 class="h1 mt-3">What Patients Say About DenceSpot Clinic, Gurgaon</h1>
       <p class="lead mt-3">Reviews left by real patients on public platforms, shown as written. We do not edit them, we do not select which patients get asked, and we do not remove the unflattering ones.</p>
     </div>
 
@@ -95,7 +95,7 @@ require __DIR__ . '/includes/header.php';
     <?php else: ?>
       <div class="card card--dashed card--pad-lg mt-6">
         <?= icon('info', 24, 'var(--ink-muted)') ?>
-        <h2 class="h3 mt-3">No reviews are shown here yet</h2>
+        <h2 id="no-reviews-are-shown-here-yet" class="h3 mt-3">No reviews are shown here yet</h2>
         <p class="body mt-3 measure">This page is built and deliberately empty. Rather than write testimonials, paste anonymous quotes, or display a star rating we cannot evidence, it stays blank until genuine reviews are collected and can be shown in full with the reviewer's own words.</p>
         <p class="body mt-3 measure">There is a structured-data reason too: a star rating marked up for search results has to be visible on the page it is marked up on. Publishing a rating that is not really there risks a manual penalty across the whole site — and it is exactly the shortcut that makes clinic ratings worthless to patients in the first place.</p>
         <p class="body mt-3 measure">In the meantime, the honest place to look is the public listing, where reviews sit outside our control:</p>
@@ -113,7 +113,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">How we collect them</p>
-        <h2 class="h2 mt-2">Our Review Policy</h2>
+        <h2 id="our-review-policy" class="h2 mt-2">Our Review Policy</h2>
         <p class="body mt-3">Worth stating plainly, because the alternative is widespread in this sector and patients have no way of telling from the outside.</p>
       </div>
       <div class="grid grid--2">
@@ -130,7 +130,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Reading reviews well</p>
-      <h2 class="h2 mt-2">What Actually Tells You Something</h2>
+      <h2 id="what-actually-tells-you-something" class="h2 mt-2">What Actually Tells You Something</h2>
     </div>
     <div class="grid grid--3 mt-6">
       <div class="card card--pad-lg"><h3 class="h4">Recency beats volume</h3><p class="body-s mt-2">A clinic with 400 reviews, none in the last year, is telling you about a clinic that no longer exists in that form. Staff change, and so does the experience.</p></div>

@@ -118,6 +118,7 @@ require __DIR__ . '/includes/header.php';
         <h1 class="h1 mt-3">Hair Transplant Cost in Gurgaon</h1>
 
         <p class="lead mt-3 measure">A hair transplant is priced as <b>graft count × per-graft rate</b>, plus anaesthesia, medication and follow-up. Graft count is the variable that moves the bill, and it is set by the area being covered and what your donor area can safely give — which is why the same photograph produces very different plans for two different people.</p>
+        <?= medical_review_line() ?>
 
         <p class="body mt-3 measure">This page explains every factor that moves that number, what an estimate should include, and the pricing tactics worth recognising before you compare quotes. We quote after examining you, in writing, itemised.</p>
 
@@ -135,7 +136,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Doctor consultation and graft zone mapping at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Quoted &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -150,7 +151,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">The arithmetic</p>
-      <h2 class="h2 mt-2">How a Hair Transplant Is Priced</h2>
+      <h2 id="how-a-hair-transplant-is-priced" class="h2 mt-2">How a Hair Transplant Is Priced</h2>
       <p class="body mt-3">Nearly every clinic in Gurgaon prices the same way. Understanding the formula is what lets you compare two quotes that look nothing alike.</p>
     </div>
 
@@ -181,15 +182,19 @@ require __DIR__ . '/includes/header.php';
 <section class="section section--white">
   <div class="wrap">
     <div style="max-width:62ch">
+      <?php /* The heading followed $hasRates nowhere, so a page that shows no rates was
+               headed "Per-Graft Rates at DenceSpot" — a promise the table does not keep. */ ?>
       <p class="eyebrow">Rates by technique</p>
-      <h2 class="h2 mt-2">Per-Graft Rates at DenceSpot</h2>
-      <p class="body mt-3">Your rate is confirmed in writing after the assessment, once the technique and zones are decided.</p>
+      <h2 id="techniques-and-what-they-suit" class="h2 mt-2"><?= $hasRates ? 'Per-Graft Rates at DenceSpot' : 'Which Technique Suits Which Case' ?></h2>
+      <p class="body mt-3"><?= $hasRates
+          ? 'Your rate is confirmed in writing after the assessment, once the technique and zones are decided.'
+          : 'We do not publish a per-graft rate, because the rate on its own decides nothing — graft count moves the bill far more than the rate does. What this table gives you is which technique suits which case; your own rate is confirmed in writing after the assessment, once the technique and zones are decided.' ?></p>
     </div>
 
     <div class="card card--pad-lg mt-5" style="padding:0;overflow:hidden">
       <div class="table-scroll">
         <table class="data">
-          <caption class="sr-only">Per-graft rates by hair transplant technique at DenceSpot Clinic, Gurgaon</caption>
+          <caption class="sr-only"><?= $hasRates ? 'Per-graft rates by hair transplant technique at DenceSpot Clinic, Gurgaon' : 'Hair transplant techniques at DenceSpot Clinic, Gurgaon, and which cases each suits' ?></caption>
           <thead>
             <tr><th scope="col">Technique</th><?php if ($hasRates): ?><th scope="col">Rate</th><?php endif; ?><th scope="col">Typically suited to</th></tr>
           </thead>
@@ -223,8 +228,8 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Graft guidance</p>
-      <h2 class="h2 mt-2">How Many Grafts Might I Need?</h2>
-      <p class="body mt-3">Broad bands used in patient education, staged on the Norwood scale. They are a starting point for a conversation, not a quote — two people at the same Norwood stage can need very different numbers depending on donor density, hair calibre, and how much native hair is still in place.</p>
+      <h2 id="how-many-grafts-might-i-need" class="h2 mt-2">How Many Grafts Might I Need?</h2>
+      <p class="body mt-3">Broad bands used in patient education, staged on the <a href="/blog/norwood-scale-explained">Norwood scale</a>. They are a starting point for a conversation, not a quote — two people at the same Norwood stage can need very different numbers depending on donor density, hair calibre, and how much native hair is still in place.</p>
     </div>
 
     <div class="card card--pad-lg mt-5" style="padding:0;overflow:hidden">
@@ -258,7 +263,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <p class="eyebrow">What you pay for</p>
-        <h2 class="h2 mt-2">What the Estimate Includes</h2>
+        <h2 id="what-the-estimate-includes" class="h2 mt-2">What the Estimate Includes</h2>
         <p class="body mt-3 measure">Every DenceSpot estimate is itemised. Anything not covered is named in the document rather than discovered on the day.</p>
 
         <div class="grid grid--2 mt-5">
@@ -298,7 +303,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Comparing quotes</p>
-      <h2 class="h2 mt-2">Five Things to Check Before You Compare Prices</h2>
+      <h2 id="five-things-to-check-before-you-compare-prices" class="h2 mt-2">Five Things to Check Before You Compare Prices</h2>
       <p class="body-l mt-3">Two quotes for "2,000 grafts" can describe completely different procedures. These are the differences that do not appear on a price list.</p>
     </div>
     <div class="grid grid--5 mt-6">
@@ -316,7 +321,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">FAQs</p>
-        <h2 class="h2 mt-2">Cost Questions, Answered</h2>
+        <h2 id="cost-questions-answered" class="h2 mt-2">Cost Questions, Answered</h2>
         <p class="body-s mt-3">General patient education. Anything specific to your case is answered at the assessment.</p>
         <a class="btn btn--accent mt-4" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask on WhatsApp</a>
       </div>

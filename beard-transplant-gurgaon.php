@@ -54,7 +54,7 @@ $faqs = [
 
 $crumbs = [
     ['name' => 'Home', 'url' => '/'],
-    ['name' => 'Treatments', 'url' => '/#treatments'],
+    ['name' => 'Treatments', 'url' => '/hair-transplant-in-gurgaon'],
     ['name' => 'Beard transplant in Gurgaon'],
 ];
 
@@ -106,7 +106,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="Beard transplant consultation and hairline design at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -138,12 +138,12 @@ require __DIR__ . '/includes/header.php';
         <div class="stack mt-4 measure">
           <p class="body-l">A beard transplant takes follicles from the back and sides of your scalp and places them into the beard area — cheeks, jawline, chin, moustache, sideburns, or a scar that will not grow hair. It is the same extraction technique used for a scalp <a href="/hair-transplant-in-gurgaon">hair transplant in Gurgaon</a>. What changes completely is the design.</p>
           <p class="body-l">Scalp hair stands up from the skin. Facial hair lies almost flat against it, and the direction shifts across the face — sweeping down the cheek, fanning outward along the jaw, pointing inward under the chin, downward across the upper lip. Recipient sites have to be made to match that lie zone by zone. Grafts placed at a scalp angle stick out, and no amount of trimming hides it.</p>
-          <p class="body-l">Density is the second difference. A natural beard is far less dense than a scalp, and the borders — the cheek line, the moustache edge, the sideburn — are made of single hairs, not clusters. Over-packing a beard produces the tufted, doll-like look people recognise instantly, and it spends donor hair that cannot be replaced.</p>
+          <p class="body-l">Density is the second difference. A natural beard is far less dense than a scalp, and the borders — the cheek line, the moustache edge, the sideburn — are made of single hairs, not clusters. Over-packing a beard produces the tufted, doll-like look people recognise instantly, and it spends donor hair that cannot be replaced — the same finite supply a future <a href="/hair-transplant-in-gurgaon">scalp hair transplant</a> would need.</p>
           <p class="body-l">Once healed, the transplanted hairs behave like the scalp hair they came from. They keep growing, so they need trimming. They can be shaved, shaped and grown out normally.</p>
         </div>
       </div>
       <div class="stack">
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Beard graft placement at acute facial angle" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — hairline and temple restoration, 2,400 grafts by FUE" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">In one line</p>
           <p class="body mt-2">Scalp hair, relocated to your face and set to grow the way a beard grows. The extraction is routine; the angle and the density are where the result is won or lost.</p>
@@ -177,7 +177,7 @@ require __DIR__ . '/includes/header.php';
       <div>
         <p class="eyebrow">Suitability</p>
         <h2 class="h2 mt-2">Who May Consider a Beard Transplant?</h2>
-        <p class="body mt-3">Beard growth is largely genetic and settles with age, which is why this is usually a straightforward decision once two things check out: your facial growth has stopped changing, and your scalp donor area can afford the grafts.</p>
+        <p class="body mt-3">Beard growth is largely genetic and settles with age, which is why this is usually a straightforward decision once two things check out: your facial growth has stopped changing, and your scalp donor area can afford the grafts. What that costs, and how the graft count is arrived at, is set out on our <a href="/hair-transplant-cost-in-gurgaon">cost page</a>.</p>
         <p class="body mt-3">Suitability is decided after examination, not from a photograph.</p>
         <a class="btn btn--ink mt-4" href="/book-consultation">Book an assessment</a>
       </div>
@@ -187,7 +187,7 @@ require __DIR__ . '/includes/header.php';
         <div class="card"><?= icon('pencil', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Scars and gaps</h3><p class="body-s mt-2">A stable scar or a permanently bare area within the beard that you would rather cover with growing hair than with a shorter cut.</p></div>
         <div class="card"><?= icon('list', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Shaping and definition</h3><p class="body-s mt-2">A beard that grows well but sits badly — a cheek line too low, a weak jaw border, sideburns out of proportion after a previous procedure.</p></div>
         <div class="card"><?= icon('heart', 22, 'var(--accent-deep)') ?><h3 class="h3 mt-3">Gender-affirming facial hair</h3><p class="body-s mt-2">Facial hair as part of masculinising treatment, planned alongside your existing medical care and usually after hormone therapy has had time to show what grows on its own.</p></div>
-        <div class="card card--dashed"><?= icon('info', 22, 'var(--ink-muted)') ?><h3 class="h3 mt-3">When we say wait</h3><p class="body-s mt-2">Facial hair still filling in with age, active alopecia areata or an unsettled skin condition in the beard area, a scar that has not matured, keloid-prone skin, or a donor area that cannot spare the grafts. In those cases treatment or time comes first.</p></div>
+        <div class="card card--dashed"><?= icon('info', 22, 'var(--ink-muted)') ?><h3 class="h3 mt-3">When we say wait</h3><p class="body-s mt-2">Facial hair still filling in with age, active alopecia areata or an unsettled skin condition in the beard area, a scar that has not matured, keloid-prone skin, or a donor area that cannot spare the grafts. In those cases <a href="/hair-fall-treatment-in-gurgaon">medical treatment</a> or time comes first.</p></div>
       </div>
     </div>
   </div>
@@ -202,7 +202,7 @@ require __DIR__ . '/includes/header.php';
     </div>
     <div class="grid grid--2 mt-6">
       <div class="card card--tint" style="padding:0;overflow:hidden">
-        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="FUE occipital donor extraction equipment" width="800" height="500" loading="lazy"></div>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="500" loading="lazy"></div>
         <div style="padding:28px">
           <h3 class="h3" style="font-size:22px">FUE Beard Transplant</h3>
           <p class="body-s mt-3">Individual follicular units are removed one at a time from the back and sides of the scalp with a small punch, leaving dot-sized marks that settle into the surrounding hair. Recipient sites are then made across the beard at the correct angle and direction for each zone, and the grafts are placed into them.</p>
@@ -210,7 +210,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="card card--tint" style="padding:0;overflow:hidden">
-        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="DHI implanter pen placement along cheek border" width="800" height="500" loading="lazy"></div>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Micro-FUE hair transplant at DenceSpot Clinic, Gurugram — hairline design and 2,800 grafts photographed on the day of surgery" width="800" height="500" loading="lazy"></div>
         <div style="padding:28px">
           <h3 class="h3" style="font-size:22px">DHI Beard Transplant</h3>
           <p class="body-s mt-3">Extraction is the same. Placement is not: each graft is loaded into a fine implanter and set into untouched skin in one action, so the depth, angle and direction are fixed at the moment of placement rather than by a pre-made site.</p>
@@ -260,7 +260,7 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Discharge and aftercare</h3><p class="body-s mt-2">You go home the same day with written instructions, medication where prescribed, and your first review already booked. Someone should drive you.</p></div></div>
       </div>
       <div class="stack">
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="Beard design marked on patient at DenceSpot Clinic" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">Plan the week around it</p>
           <p class="body-s mt-2">A beard transplant is not concealable the way a scalp procedure is under a cap. Small crusts sit on the face for roughly the first week. Most patients book time when they are not client-facing.</p>

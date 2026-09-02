@@ -108,7 +108,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="FUT Microscopic graft dissection console" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-2"><?= e(doctor_name()) ?></p>
@@ -148,7 +148,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div>
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="Dissection area at DenceSpot Clinic" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">In one line</p>
           <p class="body mt-2">FUT trades a visible line for graft yield and donor preservation. Whether that trade is right for you depends on how you wear your hair and how much loss is still ahead.</p>
@@ -256,7 +256,7 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Aftercare and discharge</h3><p class="body-s mt-2">Donor dressed, medication and written aftercare issued, activity restrictions explained in detail, and the suture-removal appointment booked before you leave.</p></div></div>
       </div>
       <div>
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="FUT donor line review and graft placement" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — hairline and temple restoration, 2,400 grafts by FUE" width="800" height="600" loading="lazy"></div>
         <div class="card card--tint mt-4">
           <p class="eyebrow">Specific to a strip</p>
           <?= ticks([

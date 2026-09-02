@@ -2,11 +2,16 @@
 /**
  * Blog post layout — top half. Mirrors header.php/footer.php.
  *
- * A post file sets $postSlug and $postDescription, then:
+ * A post file sets $postSlug and $postDescription, optionally $postFaqs, then:
  *
  *   require __DIR__ . '/../includes/blog-header.php';
  *   ... article body ...
  *   require __DIR__ . '/../includes/blog-footer.php';
+ *
+ * $postFaqs is [['q' => …, 'a' => …], …]. It drives BOTH the FAQPage schema
+ * emitted here and the visible accordion the post renders with faq_list(),
+ * from the one array — the same rule schema.php enforces everywhere else:
+ * markup and visible text can never drift apart.
  */
 
 declare(strict_types=1);
@@ -36,6 +41,7 @@ $page = [
     'title'       => ($post['seo_title'] ?? $post['title']) . ' | DenceSpot Clinic',
     'description' => $postDescription ?? $post['excerpt'],
     'url'         => $url,
+    'og_type'     => 'article',
     'nav_active'  => null,
     'crumbs'      => $crumbs,
     'schema'      => [
@@ -51,10 +57,25 @@ $page = [
             // unattributed byline is the pattern raters distrust.
             'author'        => ['@id' => abs_url($doctor['url']) . '#physician'],
             'reviewedBy'    => ['@id' => abs_url($doctor['url']) . '#physician'],
-            'about'         => ['@id' => SITE_ORIGIN . '/#clinic'],
+            // The article is ABOUT hair loss, not about the clinic. Pointing
+            // `about` at the business entity told parsers every post was a page
+            // about DenceSpot, which is what `publisher` already says.
+            'about'         => $post['about'] ?? ['@type' => 'MedicalCondition', 'name' => 'Hair loss'],
         ]),
     ],
 ];
+
+/**
+ * FAQPage, from the same array the post renders visibly further down.
+ *
+ * Google restricted FAQ rich results to government and health-authority sites
+ * in 2023, so this earns no SERP snippet for a clinic. It stays because AI
+ * Overviews, ChatGPT and Perplexity parse it for answer extraction, and because
+ * a question-and-answer block is the most citable shape a passage can take.
+ */
+if (!empty($postFaqs)) {
+    $page['schema'][] = schema_faq($url, $postFaqs);
+}
 
 require __DIR__ . '/header.php';
 ?>

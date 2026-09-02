@@ -29,7 +29,12 @@ header('Content-Type: application/xml; charset=utf-8');
  * contradictory signals. Remove BOTH the noindex flag and this entry together
  * once FUT is confirmed — see BUILD-PROGRESS.md.
  */
-const SITEMAP_EXCLUDE = ['thank-you', 'enquire', 'sitemap', '404', 'fut-hair-transplant-in-gurgaon'];
+/**
+ * 'router' is the dispatcher for PHP's built-in dev server, not a page. It is a
+ * .php file in the site root, so the glob below picked it up and published
+ * https://dencespot.com/router as an indexable URL.
+ */
+const SITEMAP_EXCLUDE = ['thank-you', 'enquire', 'sitemap', '404', 'router', 'fut-hair-transplant-in-gurgaon'];
 
 /** Priority and change frequency by page role. Money pages rank highest. */
 function sitemap_weight(string $slug): array

@@ -49,11 +49,11 @@ $errors   = $hasError ? explode(',', (string) $_GET['error']) : [];
 
       <div>
         <span class="pill pill--dot">Consultation booking</span>
-        <h1 class="h1 mt-3">Book Your Consultation</h1>
+        <h1 class="h1 mt-3">Book a Hair Transplant Consultation in Gurgaon</h1>
         <p class="lead mt-3 measure">An examination with the doctor who would perform your procedure. You get an honest view of whether treatment is appropriate for you, and a written plan if it is — with no pressure to book a date on the day.</p>
 
         <div class="card card--pad-lg mt-5">
-          <h2 class="h3">What the consultation covers</h2>
+          <h2 id="what-the-consultation-covers" class="h3">What the consultation covers</h2>
           <ul class="stack-sm mt-3">
             <li class="tick"><?= icon('check', 18, 'var(--accent)', 2.2) ?><span class="body-s">Medical history and current medication reviewed</span></li>
             <li class="tick"><?= icon('check', 18, 'var(--accent)', 2.2) ?><span class="body-s">Scalp, hair and donor area examined under magnification</span></li>
@@ -85,7 +85,7 @@ $errors   = $hasError ? explode(',', (string) $_GET['error']) : [];
       <div>
         <div class="cta-band" style="display:block;position:sticky;top:100px">
           <p class="eyebrow" style="color:var(--accent)">Request an appointment</p>
-          <h2 class="h3 mt-2" style="color:#fff">Tell us how to reach you</h2>
+          <h2 id="tell-us-how-to-reach-you" class="h3 mt-2" style="color:#fff">Tell us how to reach you</h2>
 
           <?php if ($hasError): ?>
             <p class="form-error mt-2" role="alert">
@@ -126,7 +126,7 @@ $errors   = $hasError ? explode(',', (string) $_GET['error']) : [];
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Before you come in</p>
-      <h2 class="h2 mt-2">Questions worth asking any clinic</h2>
+      <h2 id="questions-worth-asking-any-clinic" class="h2 mt-2">Questions worth asking any clinic</h2>
       <p class="body mt-3">Bring these to us, and to anyone else you are considering. The answers tell you more than a price list does.</p>
     </div>
     <div class="grid grid--3 mt-6">

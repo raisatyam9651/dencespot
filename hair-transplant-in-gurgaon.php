@@ -12,6 +12,14 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/schema.php';
+require_once __DIR__ . '/includes/gallery-manifest.php';
+
+/**
+ * The second results slot is drawn from the manifest rather than hard-coded, so
+ * withholding a file there removes it from this page too. A literal path here
+ * was a fail-open hole in exactly the guarantee the manifest exists to make.
+ */
+$secondCase = gallery_images(CAT_RESULT)[1] ?? null;
 
 $faqs = [
     ['q' => 'What is a hair transplant?',
@@ -31,7 +39,7 @@ $faqs = [
     ['q' => 'How many grafts might I need?',
      'a' => 'It depends on the area to be covered, the density being aimed for and what the donor area can safely give — mapped zone by zone at the assessment. Any figure offered before an examination is a guess, not a plan. See our <a href="/hair-transplant-cost-in-gurgaon">graft and cost guidance</a>.'],
     ['q' => 'What is the difference between FUE and DHI?',
-     'a' => 'Extraction is essentially the same. The difference is placement: in DHI each graft is set with a fine implanter in a single action, giving close control of depth and angle — useful in hairlines and detail zones. FUE placement into pre-made sites is efficient over larger areas. Neither is universally better. Compare them side by side in our FUE vs DHI guide.'],
+     'a' => 'Extraction is essentially the same. The difference is placement: in DHI each graft is set with a fine implanter in a single action, giving close control of depth and angle — useful in hairlines and detail zones. FUE placement into pre-made sites is efficient over larger areas. Neither is universally better. Compare them in detail on the <a href="/fue-hair-transplant-in-gurgaon">FUE</a> and <a href="/dhi-hair-transplant-in-gurgaon">DHI</a> pages.'],
     ['q' => 'How much does a hair transplant cost in Gurgaon?',
      'a' => 'Cost depends on graft numbers, technique, complexity and any supporting treatment, so we quote after the assessment rather than publishing a headline price. You receive an itemised written estimate before booking a date. Full breakdown on our <a href="/hair-transplant-cost-in-gurgaon">cost page</a>.'],
     ['q' => 'Can women undergo hair transplantation?',
@@ -44,7 +52,6 @@ $faqs = [
 
 $crumbs = [
     ['name' => 'Home', 'url' => '/'],
-    ['name' => 'Treatments', 'url' => '/#treatments'],
     ['name' => 'Hair transplant in Gurgaon'],
 ];
 
@@ -96,7 +103,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Doctor-led hair transplant procedure and graft placement at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Micro-FUE hair transplant at DenceSpot Clinic, Gurugram — hairline design and 2,800 grafts photographed on the day of surgery" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Performed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -137,7 +144,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="stack">
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Donor area graft separation equipment console" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="600" loading="lazy"></div>
         <div class="card">
           <p class="eyebrow" style="color:var(--ink-muted)">In one line</p>
           <p class="body mt-2">It redistributes your own permanent hair. It does not create new hair — which is why donor supply, not marketing, sets the limit on what is achievable.</p>
@@ -178,7 +185,7 @@ require __DIR__ . '/includes/header.php';
 
     <div class="grid grid--3 mt-6">
       <div class="card" style="padding:0;overflow:hidden">
-        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="FUE hair transplant procedure" width="800" height="500" loading="lazy"></div>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — hairline and temple restoration, 2,400 grafts by FUE" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">FUE Hair Transplant</h3>
           <p class="body-s mt-2">Follicular units are removed individually with a small punch, leaving dot-sized marks rather than a linear scar. Recipient sites are made first, then grafts placed into them — efficient across larger areas.</p>
@@ -186,7 +193,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="card" style="padding:0;overflow:hidden">
-        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="DHI implanter placement" width="800" height="500" loading="lazy"></div>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Micro-FUE hair transplant at DenceSpot Clinic, Gurugram — hairline design and 2,800 grafts photographed on the day of surgery" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">DHI Hair Transplant</h3>
           <p class="body-s mt-2">Extraction is the same; placement is not. Each graft is set with a fine implanter in one action, fixing depth and angle at the moment of placement — valuable in hairlines and detail zones.</p>
@@ -194,7 +201,7 @@ require __DIR__ . '/includes/header.php';
         </div>
       </div>
       <div class="card" style="padding:0;overflow:hidden">
-        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="FUT donor assessment and consultation" width="800" height="500" loading="lazy"></div>
+        <div class="media ratio-16-10 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="500" loading="lazy"></div>
         <div style="padding:26px">
           <h3 class="h3">FUT Hair Transplant</h3>
           <p class="body-s mt-2">A strip of donor scalp is removed and dissected into grafts, leaving a fine linear scar. It can yield high graft numbers in one session and remains appropriate for selected cases.</p>
@@ -233,6 +240,7 @@ require __DIR__ . '/includes/header.php';
     <div style="max-width:62ch">
       <p class="eyebrow">On the day</p>
       <h2 class="h2 mt-2">How Does a Hair Transplant Work?</h2>
+      <p class="body mt-3">A hair transplant moves your own follicles from the permanent donor area at the back and sides of the scalp into the thinning or bald areas at the front and crown. It is a day-case procedure under local anaesthetic: the hairline is designed and agreed, the donor area is harvested follicular unit by follicular unit, recipient sites are made at the angle and direction the surrounding hair grows, and the grafts are placed into them. It redistributes the hair you already have rather than creating new hair, which is why donor supply sets the ceiling on what is possible.</p>
     </div>
     <div class="split split--wide-left mt-6" style="align-items:start">
       <div class="stack-sm">
@@ -244,8 +252,8 @@ require __DIR__ . '/includes/header.php';
         <div class="step"><span class="step-num">6</span><div><h3 class="h3">Recovery</h3><p class="body-s mt-2">You go home the same day with written instructions, medication where prescribed, and your first review already booked.</p></div></div>
       </div>
       <div class="stack">
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="Sterilized procedure room at DenceSpot Clinic" width="800" height="600" loading="lazy"></div>
-        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Micro-FUE procedure console and instruments" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
+        <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="600" loading="lazy"></div>
       </div>
     </div>
   </div>
@@ -257,27 +265,32 @@ require __DIR__ . '/includes/header.php';
       <div>
         <p class="eyebrow">Results</p>
         <h2 class="h2 mt-2">Hair Transplant Results</h2>
-        <p class="body mt-3">Photographs are taken at the same angle, distance and lighting at every review, unretouched and with written consent. Results vary between patients — these show what happened for these patients, not what will happen for you.</p>
+        <p class="body mt-3">Photographs are published with written consent, and the hair in them is never digitally altered. They are the clinic's own composites, so they carry our watermark, our BEFORE and AFTER labels and, on some cases, a bar across the eyes for the patient's privacy — that framing is added, the result is not. Where a pair was shot at a matched angle and lighting we say so; where it was taken in ordinary clinic conditions, you are looking at exactly that, because a claim about the photography is as easy to check as the result itself. Outcomes vary between patients — these show what happened for these patients, not what will happen for you.</p>
         <a class="btn btn--ink mt-4" href="/hair-transplant-results-gurgaon">See the full gallery</a>
       </div>
       <div class="stack">
         <div class="card" style="padding:0;overflow:hidden">
+          <?php /* Two different consented patients, one composite each. The same file used to
+                   fill both slots, captioned "before and after" and "after 12 months" — which
+                   was the identical picture printed twice. */ ?>
           <div class="grid grid--2" style="gap:0">
-            <div class="media ratio-1-1 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Hairline restoration before and after" width="600" height="600" loading="lazy"></div>
-            <div class="media ratio-1-1 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Hairline restoration after 12 months" width="600" height="600" loading="lazy"></div>
+            <div class="media ratio-1-1 media--shadow"><img src="/assets/img/case-uttam-gurgaon.jpg" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — hairline and temple restoration, 2,400 grafts by FUE" width="600" height="600" loading="lazy"></div>
+            <?php if ($secondCase !== null): ?><div class="media ratio-1-1 media--shadow"><img src="<?= e($secondCase['url']) ?>" alt="<?= e($secondCase['alt']) ?>" width="<?= (int) $secondCase['w'] ?>" height="<?= (int) $secondCase['h'] ?>" loading="lazy"></div><?php endif; ?>
           </div>
           <div style="padding:24px">
             <h3 class="h3">Hairline restoration</h3>
-            <p class="body-s mt-2">Graft count, technique and review interval — Uttam Gurgaon hairline restoration case.</p>
+            <p class="body-s mt-2">Two consented cases. Each photograph carries that patient's own before and after side by side.</p>
           </div>
         </div>
         <div class="grid grid--2">
           <div class="card" style="padding:0;overflow:hidden">
-            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Crown area restoration case" width="800" height="600" loading="lazy"></div>
-            <div style="padding:20px"><h3 class="h4">Crown area restoration</h3><p class="meta mt-1">High density graft placement.</p></div>
+            <?php /* Frontal zone, not crown, and photographed on the operating day rather than
+                     at a review — both were wrong in the previous caption. */ ?>
+            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Micro-FUE hair transplant at DenceSpot Clinic, Gurugram — hairline design and 2,800 grafts photographed on the day of surgery" width="800" height="600" loading="lazy"></div>
+            <div style="padding:20px"><h3 class="h4">Frontal zone, procedure day</h3><p class="meta mt-1">2,800 grafts, photographed before any growth.</p></div>
           </div>
           <div class="card" style="padding:0;overflow:hidden">
-            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Beard transplant micro-punch console" width="800" height="600" loading="lazy"></div>
+            <div class="media ratio-4-3 media--shadow"><img src="/assets/img/clinic-equipment.jpg" alt="Motorised follicular-unit extraction handpiece and trolley unit at DenceSpot Clinic, Gurugram" width="800" height="600" loading="lazy"></div>
             <div style="padding:20px"><h3 class="h4">Micro-FUE Equipment</h3><p class="meta mt-1">Doctor-led procedure console.</p></div>
           </div>
         </div>

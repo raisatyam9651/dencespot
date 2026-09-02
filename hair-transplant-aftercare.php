@@ -167,7 +167,7 @@ $crumbs = [
 ];
 
 $page = [
-    'title'       => 'Hair Transplant Aftercare & Recovery Timeline | DenceSpot Clinic',
+    'title'       => 'Hair Transplant Aftercare in Gurgaon | DenceSpot Clinic',
     'description' => 'Day-by-day hair transplant recovery: first wash, sleeping position, the shedding phase, what to avoid and for how long, and when results appear.',
     'url'         => '/hair-transplant-aftercare',
     'nav_active'  => '/hair-transplant-in-gurgaon',
@@ -188,7 +188,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split">
       <div>
         <span class="pill pill--dot">Recovery guidance</span>
-        <h1 class="h1 mt-3">Hair Transplant Aftercare &amp; Recovery Timeline</h1>
+        <h1 class="h1 mt-3">Hair Transplant Aftercare &amp; Recovery in Gurgaon</h1>
 
         <p class="lead mt-3 measure">Two timelines run at once after a hair transplant, and confusing them is what causes most of the worry. <b>Looking normal again</b> takes about ten to fourteen days. <b>Seeing the result</b> takes nine to fifteen months. Almost everything patients panic about happens in the gap between the two.</p>
 
@@ -208,7 +208,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Hair transplant recipient area recovery and post-op density review at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/case-shukri-europe.jpg" alt="Micro-FUE hair transplant at DenceSpot Clinic, Gurugram — hairline design and 2,800 grafts photographed on the day of surgery" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Medically reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -223,7 +223,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">The first 48 hours</p>
-      <h2 class="h2 mt-2">The Only Part That Is Genuinely Fragile</h2>
+      <h2 id="the-only-part-that-is-genuinely-fragile" class="h2 mt-2">The Only Part That Is Genuinely Fragile</h2>
       <p class="body mt-3">For the first two days, transplanted grafts are held in place by nothing more than early clot formation. They can be dislodged — by a pillow, a towel, a hat pulled off carelessly, or scratching in your sleep. After roughly ten days they are secure and effectively cannot be knocked out. Everything restrictive about early aftercare exists to cover that first window.</p>
     </div>
 
@@ -255,8 +255,8 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Week by week</p>
-      <h2 class="h2 mt-2">The Recovery Timeline</h2>
-      <p class="body mt-3">General patient education. Your own instructions take priority over anything on this page — protocols legitimately differ between clinics, and yours is written for your procedure.</p>
+      <h2 id="the-recovery-timeline" class="h2 mt-2">The Recovery Timeline</h2>
+      <p class="body mt-3">Hair transplant recovery runs over roughly twelve months. The grafts are fragile for the first two to five days; crusting settles across the first one to two weeks; most desk workers are back at work within three to five days; the transplanted hairs shed between weeks two and six, which is expected and not a failure; there is little visible change between months two and four; new growth becomes obvious from months four to six; and the result is judged at ten to twelve months. The detail for each phase is below.</p><p class="body mt-3">General patient education. Your own instructions take priority over anything on this page — protocols legitimately differ between clinics, and yours is written for your procedure.</p>
     </div>
 
     <div class="card card--pad-lg mt-5" style="padding:0;overflow:hidden">
@@ -286,7 +286,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 
     <div class="note note--tint mt-4">
-      <p class="body-s"><b>Month three is where people give up hope.</b> There is genuinely almost nothing to see between roughly month two and month four — the follicles are resting before they regrow. Nearly every patient who contacts us convinced the procedure has failed does so in this window, and in nearly every case the answer is that it is proceeding exactly as expected. Judge the result at twelve months, from photographs, not in a mirror at week fourteen.</p>
+      <p class="body-s"><b>Month three is where people give up hope.</b> There is genuinely almost nothing to see between roughly month two and month four — the follicles are resting before they regrow. Nearly every patient who contacts us convinced the procedure has failed does so in this window, and in nearly every case the answer is that it is proceeding exactly as expected. Judge the result at twelve months, from photographs, not in a mirror at week fourteen. That is the interval the <a href="/hair-transplant-results-gurgaon">published patient cases</a> should be read against too.</p>
     </div>
   </div>
 </section>
@@ -296,7 +296,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <p class="eyebrow">The first wash</p>
-        <h2 class="h2 mt-2">How to Wash Your Hair After a Hair Transplant</h2>
+        <h2 id="how-to-wash-your-hair-after-a-hair-transplant" class="h2 mt-2">How to Wash Your Hair After a Hair Transplant</h2>
         <p class="body mt-3 measure">The first wash is usually around day three to five, and at DenceSpot it is either done at the clinic or demonstrated to you before you attempt it yourself. It is the step most often got wrong at home, because the instinct is to treat it like a normal shower. It is not one.</p>
 
         <div class="grid grid--2 mt-5">
@@ -314,7 +314,7 @@ require __DIR__ . '/includes/header.php';
           <?= icon('info', 24, 'var(--accent-deep)') ?>
           <p class="h3 mt-2">Why technique matters here</p>
           <p class="body-s mt-3">Between day three and day ten the graft is anchored but not yet secure. Mechanical force — shower pressure, fingertip friction, a picked crust, a towel rubbed across the recipient area — is the realistic way a graft is lost at this stage. Infection is rare. Handling is the risk.</p>
-          <p class="body-s mt-3">This is also why the first wash is demonstrated rather than described. Reading it and doing it are different things, and the cost of getting it wrong is measured in grafts.</p>
+          <p class="body-s mt-3">This is also why the first wash is demonstrated rather than described. Reading it and doing it are different things, and the cost of getting it wrong is measured in grafts — grafts you have <a href="/hair-transplant-cost-in-gurgaon">already paid for</a>.</p>
         </div>
 
         <div class="card mt-4">
@@ -330,7 +330,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Restrictions</p>
-      <h2 class="h2 mt-2">What to Avoid, and For How Long</h2>
+      <h2 id="what-to-avoid-and-for-how-long" class="h2 mt-2">What to Avoid, and For How Long</h2>
       <p class="body mt-3">Realistic timings for the questions patients actually ask. These are general ranges — your own clearance comes at your follow-up reviews, and depends on how your healing has gone.</p>
     </div>
 
@@ -363,7 +363,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Shedding</p>
-      <h2 class="h2 mt-2">Why Your Transplanted Hair Falls Out</h2>
+      <h2 id="why-your-transplanted-hair-falls-out" class="h2 mt-2">Why Your Transplanted Hair Falls Out</h2>
       <p class="body-l mt-3">Somewhere between week two and week six, the hair that was transplanted sheds. Nearly every patient finds this alarming, and nearly every patient is fine.</p>
     </div>
 
@@ -385,7 +385,7 @@ require __DIR__ . '/includes/header.php';
       </div>
     </div>
 
-    <p class="body mt-6" style="color:rgba(255,255,255,.72);max-width:62ch">If you are in week three, looking at hair on your pillow and wondering whether you have wasted your money: this is the expected part. The useful thing to do is photograph it at the same angle each month and bring the photographs to your review.</p>
+    <p class="body mt-6" style="color:rgba(255,255,255,.72);max-width:62ch">If you are in week three, looking at hair on your pillow and wondering whether you have wasted your money: this is the expected part. The useful thing to do is photograph it at the same angle each month and bring the photographs to your review, which is the same comparison the <a href="/hair-transplant-results-gurgaon">published patient cases</a> are there to illustrate.</p>
   </div>
 </section>
 
@@ -394,7 +394,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <p class="eyebrow">Warning signs</p>
-        <h2 class="h2 mt-2">When to Call the Clinic</h2>
+        <h2 id="when-to-call-the-clinic" class="h2 mt-2">When to Call the Clinic</h2>
         <p class="body mt-3 measure">Complications after a hair transplant are uncommon. These are the specific signs that should not be waited out — if any of them appear, telephone the clinic rather than sending a message and waiting for a reply.</p>
 
         <ul class="stack-sm mt-5">
@@ -432,7 +432,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">FAQs</p>
-        <h2 class="h2 mt-2">Recovery Questions, Answered</h2>
+        <h2 id="recovery-questions-answered" class="h2 mt-2">Recovery Questions, Answered</h2>
         <p class="body-s mt-3">General patient education. Your own post-operative instructions take priority over anything here.</p>
         <a class="btn btn--accent mt-4" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask on WhatsApp</a>
       </div>

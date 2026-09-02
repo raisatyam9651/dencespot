@@ -50,7 +50,7 @@ require __DIR__ . '/includes/header.php';
 <section class="section section--canvas">
   <div class="wrap">
     <div class="split split--wide-right">
-      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra — professional portrait" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
+      <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
       <div>
         <span class="pill pill--dot">Owner &amp; Chief Consultant</span>
         <h1 class="h1 mt-3"><?= doctor_full() ?></h1>
@@ -79,7 +79,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">Background</p>
-        <h2 class="h2 mt-2">Training and Practice</h2>
+        <h2 id="training-and-practice" class="h2 mt-2">Training and Practice</h2>
       </div>
       <div class="stack measure">
         <p class="body-l"><?= doctor_name() ?> qualified MBBS from <?= e($doc['alumni']) ?> and went on to take an MD in Dermatology. She then spent three years working clinically in Germany — two at Bio Hair Clinic, where hair restoration surgery was her daily work, and one at St. Georg Klinikum Eisenach.</p>
@@ -94,7 +94,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">How she works</p>
-      <h2 class="h2 mt-2">What This Means for Your Case</h2>
+      <h2 id="what-this-means-for-your-case" class="h2 mt-2">What This Means for Your Case</h2>
     </div>
     <div class="grid grid--3 mt-6">
       <div class="card card--pad-lg">
@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">Clinical review</p>
-        <h2 class="h2 mt-2">Content on This Site</h2>
+        <h2 id="content-on-this-site" class="h2 mt-2">Content on This Site</h2>
       </div>
       <div class="stack measure">
         <p class="body">Every treatment page on this site is written as patient education and reviewed by Dr. Nyra before publication. Pages carry the review date so you can see how current they are.</p>

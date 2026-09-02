@@ -33,7 +33,7 @@ $faqs = [
 ];
 
 $page = [
-    'title'       => 'Hair Transplant Clinic in Gurgaon | DenceSpot — Dr. Nyra',
+    'title'       => 'Hair Transplant Clinic in Gurgaon | DenceSpot Clinic',
     'description' => 'Doctor-led hair transplant, PRP and hair-fall treatment in Sector 39, Gurugram. Dr. Nyra assesses, plans and performs every case herself. Book a consultation.',
     'url'         => '/',
     'preload_image' => '/assets/img/dr-nayra.webp',
@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra with a patient during a hair loss consultation at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager" fetchpriority="high" decoding="async"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Your consulting doctor</p>
           <p class="h4 mt-1"><?= e(DOCTORS['dr-nyra']['name']) ?></p>
@@ -281,7 +281,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">FAQs</p>
-        <h2 class="h2 mt-2">Questions People Ask First</h2>
+        <h2 class="h2 mt-2">Hair Transplant Questions Patients Ask First</h2>
         <p class="body mt-3 measure">Questions about a specific treatment are answered on that treatment's own page, where they belong.</p>
         <div class="btn-row mt-5">
           <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 17) ?> Ask on WhatsApp</a>

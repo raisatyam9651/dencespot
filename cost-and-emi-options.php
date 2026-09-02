@@ -124,9 +124,10 @@ require __DIR__ . '/includes/header.php';
     <div class="split">
       <div>
         <span class="pill pill--dot">Payment</span>
-        <h1 class="h1 mt-3">Cost, EMI &amp; Payment Options</h1>
+        <h1 class="h1 mt-3">Hair Transplant EMI &amp; Payment Options in Gurgaon</h1>
 
         <p class="lead mt-3 measure">Instalment options are available through third-party finance providers. The clinic does not lend money and does not set the terms — so the useful thing this page can do is explain how medical EMI actually works, including the parts that are normally left to the finance provider to disclose.</p>
+        <?= medical_review_line() ?>
 
         <p class="body mt-3 measure">What a procedure costs, and why, is covered separately on <a href="/hair-transplant-cost-in-gurgaon">hair transplant cost in Gurgaon</a>. This page is about how it is paid for.</p>
 
@@ -144,7 +145,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Written treatment estimate explanation with Dr. Nyra at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Quoted &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -159,7 +160,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Before anything is paid</p>
-      <h2 class="h2 mt-2">You Get the Figure in Writing First</h2>
+      <h2 id="you-get-the-figure-in-writing-first" class="h2 mt-2">You Get the Figure in Writing First</h2>
       <p class="body mt-3">No payment discussion happens before there is an estimate to discuss. The estimate is produced after clinical assessment, it is itemised, and it names anything that falls outside it. The number on that document is the number payable.</p>
     </div>
 
@@ -187,7 +188,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Accepted methods</p>
-      <h2 class="h2 mt-2">How You Can Pay</h2>
+      <h2 id="how-you-can-pay" class="h2 mt-2">How You Can Pay</h2>
       <p class="body mt-3">Every payment is receipted against your itemised estimate.</p>
     </div>
 
@@ -221,7 +222,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <p class="eyebrow">How medical EMI works</p>
-        <h2 class="h2 mt-2">The Agreement Is With the Lender, Not the Clinic</h2>
+        <h2 id="the-agreement-is-with-the-lender-not-the-clinic" class="h2 mt-2">The Agreement Is With the Lender, Not the Clinic</h2>
         <p class="body mt-3 measure">This is the part most often misunderstood. When you take an instalment plan for a medical procedure, the clinic is paid in full by a finance provider, and you then repay the provider. Your contract is with them.</p>
         <p class="body mt-3 measure">That matters in three practical ways. Interest, tenure and eligibility are set by the provider and cannot be waived by the clinic. Missed payments affect your credit record, not your treatment. And cancelling treatment does not automatically cancel the loan — that has to be resolved with the provider separately.</p>
         <p class="body mt-3 measure">None of this is a reason to avoid EMI. It is a reason to read whose name is on the document before signing it.</p>
@@ -254,7 +255,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Before you sign</p>
-      <h2 class="h2 mt-2">Six Questions Worth Asking Any Provider</h2>
+      <h2 id="six-questions-worth-asking-any-provider" class="h2 mt-2">Six Questions Worth Asking Any Provider</h2>
       <p class="body-l mt-3">Ask these of whichever clinic and whichever lender you end up using — including this one. A provider that answers all six plainly is one worth dealing with.</p>
     </div>
 
@@ -275,7 +276,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <p class="eyebrow">Insurance</p>
-        <h2 class="h2 mt-2">What Insurance Does and Does Not Cover</h2>
+        <h2 id="what-insurance-does-and-does-not-cover" class="h2 mt-2">What Insurance Does and Does Not Cover</h2>
         <p class="body mt-3 measure">Indian health insurers generally treat hair transplantation for pattern hair loss as a cosmetic procedure, which means it is normally paid for privately. That is the answer for the large majority of patients.</p>
         <p class="body mt-3 measure">Restoration following burns, trauma, surgical scarring or certain medical conditions is occasionally assessed differently. If your case falls into that category it is worth asking your insurer directly, in writing, before assuming either answer — and the clinic can provide clinical documentation to support an enquiry.</p>
       </div>
@@ -302,7 +303,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">FAQs</p>
-        <h2 class="h2 mt-2">Payment Questions, Answered</h2>
+        <h2 id="payment-questions-answered" class="h2 mt-2">Payment Questions, Answered</h2>
         <p class="body-s mt-3">Finance terms are set by the provider. Anything specific to your plan is confirmed in writing before you commit.</p>
         <a class="btn btn--accent mt-4" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask on WhatsApp</a>
       </div>

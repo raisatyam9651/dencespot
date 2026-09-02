@@ -51,6 +51,21 @@ function schema_clinic(): array
     $node['hasMap'] = MAPS_URL;
     $node['image']  = abs_url(CLINIC_IMAGE);
 
+    /**
+     * A coarse band, not a figure. The clinic publishes no per-graft price
+     * because quotes are issued in writing after assessment, and priceRange
+     * accepts exactly this kind of indication without committing to a number.
+     */
+    $node['priceRange'] = '₹₹';
+
+    /**
+     * ⚠ NO hasCredential node. The three NABH certificate images could not be
+     * evidenced — see the note above awards_certificates_section() in
+     * components.php. Schema must never assert what the page cannot show.
+     * Add it here only when genuine certificates are published and verifiable
+     * in NABH's public directory.
+     */
+
     if (CLINIC_SAME_AS !== []) {
         $node['sameAs'] = CLINIC_SAME_AS;
     }
@@ -84,7 +99,26 @@ function schema_physician(string $key = 'dr-nyra'): ?array
     $node['medicalSpecialty'] = 'Dermatology';
     $node['image']            = abs_url('/assets/img/dr-nayra.webp');
 
-    if (!empty($doc['alumni']))  { $node['alumniOf'] = $doc['alumni']; }
+    // Range is EducationalOrganization, not Text — a bare string is a range violation.
+    if (!empty($doc['alumni'])) {
+        $node['alumniOf'] = ['@type' => 'CollegeOrUniversity', 'name' => $doc['alumni']];
+    }
+
+    /**
+     * The qualifications are printed on every page of this site under the
+     * doctor byline, so they are evidenced on-page and may be marked up.
+     * Contrast the accreditation, which is not — see schema_clinic().
+     */
+    if (!empty($doc['quals'])) {
+        $node['hasCredential'] = array_map(
+            static fn (string $q): array => [
+                '@type'              => 'EducationalOccupationalCredential',
+                'credentialCategory' => 'degree',
+                'name'               => trim($q),
+            ],
+            explode(',', $doc['quals'])
+        );
+    }
     if (!empty($doc['same_as'])) { $node['sameAs']   = $doc['same_as']; }
 
     // The verifiable credential for an Indian clinician — India has no board
@@ -116,18 +150,40 @@ function schema_procedure(string $pageUrl, array $fields): array
         'location' => ['@id' => SITE_ORIGIN . '/#clinic'],
     ], $fields);
 
+    return schema_fix_prognosis($node);
+}
+
+/**
+ * `expectedPrognosis` is a property of MedicalCondition on schema.org, not of
+ * MedicalProcedure or MedicalTherapy — six pages were emitting it on the wrong
+ * type, which a parser is entitled to ignore. The prose is worth keeping, so it
+ * moves to `description`, which every MedicalEntity accepts.
+ */
+function schema_fix_prognosis(array $node): array
+{
+    if (!isset($node['expectedPrognosis'])) {
+        return $node;
+    }
+
+    $prognosis = $node['expectedPrognosis'];
+    unset($node['expectedPrognosis']);
+
+    $node['description'] = isset($node['description'])
+        ? $node['description'] . ' ' . $prognosis
+        : $prognosis;
+
     return $node;
 }
 
 /** Non-surgical therapy — PRP, GFC, mesotherapy, LLLT. */
 function schema_therapy(string $pageUrl, array $fields): array
 {
-    return array_merge([
+    return schema_fix_prognosis(array_merge([
         '@type'     => 'MedicalTherapy',
         '@id'       => abs_url($pageUrl) . '#therapy',
         'performer' => ['@id' => abs_url(DOCTORS['dr-nyra']['url']) . '#physician'],
         'location'  => ['@id' => SITE_ORIGIN . '/#clinic'],
-    ], $fields);
+    ], $fields));
 }
 
 /**
@@ -145,8 +201,21 @@ function schema_breadcrumbs(array $trail): array
             'position' => $i + 1,
             'name'     => $crumb['name'],
         ];
-        if ($i !== $last && !empty($crumb['url'])) {
-            $item['item'] = abs_url($crumb['url']);
+        /**
+         * Every non-final crumb MUST carry an item — Google's BreadcrumbList
+         * spec allows omitting it only on the last element. An earlier fix
+         * dropped item for fragment URLs like '/#treatments', which traded a
+         * bad target for an invalid list. Fragments are resolved to the page
+         * they belong to instead, so the crumb is always both valid and real.
+         */
+        if ($i !== $last) {
+            $target = $crumb['url'] ?? '';
+            if ($target === '' || str_starts_with($target, '#')) {
+                $target = '/';
+            } elseif (str_contains($target, '#')) {
+                $target = strtok($target, '#') ?: '/';
+            }
+            $item['item'] = abs_url($target);
         }
         $items[] = $item;
     }
@@ -198,8 +267,65 @@ function schema_article(string $pageUrl, array $fields): array
         '@id'              => abs_url($pageUrl) . '#article',
         'publisher'        => ['@id' => SITE_ORIGIN . '/#clinic'],
         'mainEntityOfPage' => abs_url($pageUrl),
+        'image'            => abs_url(OG_IMAGE),
     ], $fields);
 }
+
+/**
+ * MedicalWebPage — the page-level "who reviewed this, and when" node.
+ *
+ * Google documents `reviewedBy` and `lastReviewed` for health content, and for
+ * a YMYL clinic they are the structured-data form of the single most important
+ * question a rater asks. Emitted only for pages listed in MEDICAL_PAGES below,
+ * every one of which renders a visible, dated byline — the same rule as the
+ * rating gate: never mark up what the page does not show.
+ *
+ * @return array<string,mixed>|null
+ */
+function schema_medical_webpage(string $pageUrl, string $title): ?array
+{
+    if (!in_array(rtrim($pageUrl, '/'), MEDICAL_PAGES, true)) {
+        return null;
+    }
+
+    $node = [
+        '@type'        => 'MedicalWebPage',
+        '@id'          => abs_url($pageUrl) . '#webpage',
+        'name'         => $title,
+        'url'          => abs_url($pageUrl),
+        'about'        => ['@id' => SITE_ORIGIN . '/#clinic'],
+        'reviewedBy'   => ['@id' => abs_url(DOCTORS['dr-nyra']['url']) . '#physician'],
+        'lastReviewed' => REVIEWED_DATE_ISO,
+    ];
+
+    return $node;
+}
+
+/**
+ * Pages that render a visible, dated "medically reviewed by" byline and may
+ * therefore carry MedicalWebPage. Legal, utility and conversion pages are
+ * excluded: the footer attributes them, but they carry no dated byline.
+ */
+const MEDICAL_PAGES = [
+    '',
+    '/about-us',
+    // NOT '/dr-nyra': it renders no dated byline, and reviewedBy would name the
+    // Physician the page is about — the doctor marked up as the independent
+    // reviewer of her own profile. It carries ProfilePage instead.
+    '/hair-transplant-in-gurgaon',
+    '/fue-hair-transplant-in-gurgaon',
+    '/dhi-hair-transplant-in-gurgaon',
+    '/fut-hair-transplant-in-gurgaon',
+    '/beard-transplant-gurgaon',
+    '/hair-prp-treatment-in-gurgaon',
+    '/hair-fall-treatment-in-gurgaon',
+    '/hair-transplant-cost-in-gurgaon',
+    '/cost-and-emi-options',
+    '/hair-transplant-aftercare',
+    '/hair-transplant-results-gurgaon',
+    '/gallery',
+    '/faqs',
+];
 
 /** Site-level entity, homepage only. */
 function schema_website(): array

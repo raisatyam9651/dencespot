@@ -104,7 +104,10 @@ RewriteRule ^(.+?)/?$ $1.php [L]
 # ─────────────────────────────────────────────────────────────────────────────
 # 8. Keep internals off the web
 # ─────────────────────────────────────────────────────────────────────────────
-RewriteRule ^(includes|storage|_design|_ds|\.claude|\.git)(/|$) - [F,L]
+# dencespot.com-audit/ holds the internal SEO audit: crawl dumps, screenshots
+# and a full HTML report naming unconfirmed pricing and launch blockers. It is
+# git-tracked, so it deploys; without this rule it was publicly readable.
+RewriteRule ^(includes|storage|_design|_ds|dencespot\.com-audit|\.claude|\.git)(/|$) - [F,L]
 </IfModule>
 
 
@@ -159,4 +162,40 @@ ErrorDocument 404 /404.php
   # Stop advertising the exact PHP build. expose_php=Off in php.ini is the
   # better fix where the host allows it; this covers the case where it does not.
   Header always unset X-Powered-By
+</IfModule>
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 10. Compression
+#
+# Text assets only. Images and fonts are already compressed formats — running
+# them through DEFLATE costs CPU and saves nothing.
+# ─────────────────────────────────────────────────────────────────────────────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript
+  AddOutputFilterByType DEFLATE application/json application/ld+json
+  AddOutputFilterByType DEFLATE image/svg+xml application/xml
+</IfModule>
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 11. Browser caching
+#
+# The patient photographs are the heaviest thing on the site and never change
+# once published, so they get a year. HTML is never cached: prices, hours and
+# the review date have to be able to change the moment they are deployed.
+# ─────────────────────────────────────────────────────────────────────────────
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg              "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType image/webp              "access plus 1 year"
+  ExpiresByType image/avif              "access plus 1 year"
+  ExpiresByType image/svg+xml           "access plus 1 year"
+  ExpiresByType font/woff2              "access plus 1 year"
+  ExpiresByType text/css                "access plus 1 month"
+  ExpiresByType application/javascript  "access plus 1 month"
+  ExpiresByType text/html               "access plus 0 seconds"
+  ExpiresDefault                        "access plus 2 days"
 </IfModule>

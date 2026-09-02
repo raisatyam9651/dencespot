@@ -12,7 +12,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $page = [
     'title'       => 'Thank you — DenceSpot Clinic',
-    'description' => 'We have your details and will call you back to arrange your consultation.',
+    'description' => 'Your enquiry has reached DenceSpot Clinic, Sector 39 Gurugram. We will call you back to arrange a consultation with Dr. Nyra, usually the same working day.',
     'url'         => '/thank-you',
     'crumbs'      => [],
     'schema'      => [],

@@ -8,6 +8,12 @@
 
 declare(strict_types=1);
 
+/**
+ * Classification of every image in assets/img/gallery/. Required here because
+ * the homepage results marquee draws from it — it must never scan the folder.
+ */
+require_once __DIR__ . '/gallery-manifest.php';
+
 /* -------------------------------------------------------------------------
  * Icons
  *
@@ -292,6 +298,63 @@ function doctor_block(string $whyItMatters, string $portraitAlt = 'Dr. Nyra — 
  * Local / visit-us block
  * ---------------------------------------------------------------------- */
 
+/**
+ * Mid-article call to action for blog posts.
+ *
+ * blog-footer.php already closes every post with a related-treatment card and a
+ * cta_band(). This is the one that sits inside the prose, at the point where a
+ * reader has just learned the thing that makes them want an answer about
+ * themselves — which converts far better than a CTA they have to scroll to.
+ *
+ * Uses only existing classes: no new styling, and it inherits .prose spacing.
+ *
+ * $heading  — speaks to what the reader has just read, not to the clinic.
+ * $body     — one sentence. Say what a consultation actually tells them.
+ */
+function blog_cta(string $heading, string $body): string
+{
+    ob_start(); ?>
+<div class="card card--pad-lg mt-6" style="background:var(--card)">
+  <p class="eyebrow" style="color:var(--ink-muted)">Your own case</p>
+  <h2 class="h3 mt-2"><?= e($heading) ?></h2>
+  <p class="body-s mt-2"><?= e($body) ?></p>
+  <div class="btn-row mt-4">
+    <a class="btn btn--ink" href="/book-consultation"><?= icon('calendar', 18) ?> Book a consultation</a>
+    <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask on WhatsApp</a>
+  </div>
+</div>
+<?php
+    return (string) ob_get_clean();
+}
+
+/**
+ * Page-level medical review byline.
+ *
+ * doctor_block() already carries this line, but four public pages — /faqs,
+ * /hair-transplant-cost-in-gurgaon, /cost-and-emi-options and /about-us — do
+ * not call doctor_block(), so they fell back to the sitewide footer disclaimer
+ * with no date and no link. llms.txt meanwhile tells answer engines that every
+ * treatment page carries the attribution, so the claim ran ahead of the markup.
+ *
+ * Uses the existing .meta type style. On YMYL medical content a dated,
+ * attributed byline is what "Who created this?" is actually asking for.
+ */
+function medical_review_line(): string
+{
+    $doc = DOCTORS['dr-nyra'] ?? null;
+    if ($doc === null) {
+        return '';
+    }
+
+    return sprintf(
+        '<p class="meta mt-3">Written and medically reviewed by <a href="%s">%s, %s</a> · last reviewed %s</p>',
+        e($doc['url']),
+        e($doc['name']),
+        e($doc['quals']),
+        e(REVIEWED_DATE)
+    );
+}
+
 function local_block(string $heading, string $intro): string
 {
     ob_start(); ?>
@@ -310,10 +373,10 @@ function local_block(string $heading, string $intro): string
       </div>
       <div>
         <div class="media ratio-16-10">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.3229126883884!2d77.0438613!3d28.439680699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic!5e0!3m2!1sen!2sus!4v1787587082143!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe title="Google Map showing DenceSpot Clinic at 1123, Sector 39 Road, Jharsa, Sector 39, Gurugram, Haryana 122003" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.3229126883884!2d77.0438613!3d28.439680699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic!5e0!3m2!1sen!2sus!4v1787587082143!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
         <div class="grid grid--2 mt-3">
-          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="DenceSpot Clinic Entrance and Signage, Sector 39 Gurgaon" width="800" height="600" loading="lazy"></div>
+          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
           <div class="card">
             <p class="eyebrow" style="color:var(--ink-muted)">Getting here</p>
             <ul class="stack-sm mt-2">
@@ -351,14 +414,19 @@ function before_after_slider_section(): string
             'meta' => 'Procedure: FUE · Location: Gurgaon · Reviewed at 12 Months'
         ],
         [
+            // NOT a result, and must never be badged as one. The photograph is
+            // the operating day: hairline design on the left, grafts minutes
+            // after placement on the right. Nothing has grown yet. Calling it a
+            // before-and-after would fail the "stated interval" test this site
+            // tells patients to apply to every clinic, including this one.
             'id' => 'shukri-europe',
-            'title' => 'Shukri — High-Density Frontal Grafts',
+            'title' => 'Shukri — Frontal Zone, Procedure Day',
             'category' => 'Advanced Micro-FUE (International)',
             'img' => '/assets/img/case-shukri-europe.jpg',
-            'badge' => 'BEFORE & AFTER RESULT',
+            'badge' => 'ON THE DAY OF SURGERY',
             'type' => 'image',
-            'desc' => 'High graft count frontal area design & immediate post-op high density graft implantation.',
-            'meta' => 'Procedure: Micro-FUE · Patient: Europe · OT Completed'
+            'desc' => 'Hairline design and 2,800 grafts photographed immediately after placement. Growth is judged at ten to twelve months, so this shows the work, not the outcome.',
+            'meta' => 'Procedure: Micro-FUE · 2,800 grafts · Photographed on the day of surgery'
         ],
     ];
 
@@ -366,9 +434,9 @@ function before_after_slider_section(): string
 <section class="section section--white" id="results-gallery">
   <div class="wrap">
     <div class="measure" style="text-align: center; margin-inline: auto;">
-      <span class="pill pill--dot">Real Patient Results &amp; Testimonials</span>
-      <h2 class="h2 mt-2">Before &amp; After Cases &amp; Video Testimonials</h2>
-      <p class="body mt-3">Consented, unedited before and after transformation photographs and video reviews from patients treated personally by <strong>Dr. Nyra</strong> at DenceSpot Clinic, Sector 39 Gurugram.</p>
+      <span class="pill pill--dot">Patient results</span>
+      <h2 class="h2 mt-2">Before &amp; After Hair Transplant Cases in Gurgaon</h2>
+      <p class="body mt-3">Consented photographs, with the hair never digitally altered, from patients treated personally by <strong>Dr. Nyra</strong> at DenceSpot Clinic, Sector 39 Gurugram. Results vary between patients, and hair restoration is judged at ten to twelve months.</p>
     </div>
 
     <!-- Results Cards Grid (Matching Awards Section Style) -->
@@ -415,29 +483,26 @@ function before_after_slider_section(): string
   <div class="marquee mt-6">
     <div class="marquee-track">
       <?php
-      $galleryFiles = glob(__DIR__ . '/../assets/img/gallery/*.{jpg,jpeg,png,webp,JPG,PNG,JPEG,WEBP}', GLOB_BRACE);
-      $galleryImages = [];
-      if (!empty($galleryFiles)) {
-          foreach ($galleryFiles as $filepath) {
-              $filename = basename($filepath);
-              $galleryImages[] = '/assets/img/gallery/' . $filename;
-          }
-      }
-      if (empty($galleryImages)) {
-          $galleryImages = [
-              '/assets/img/case-uttam-gurgaon.jpg',
-              '/assets/img/case-shukri-europe.jpg',
-              '/assets/img/clinic-facade.jpg',
-              '/assets/img/clinic-front-board.jpg',
-              '/assets/img/clinic-equipment.jpg',
-              '/assets/img/dr-nayra.webp',
-          ];
+      /**
+       * Consented patient composites only, from includes/gallery-manifest.php.
+       *
+       * This used to glob() the gallery folder, so the marquee scrolled the
+       * NABH certificate images and twelve creatives belonging to another
+       * clinic across the homepage, every one of them captioned "DenceSpot
+       * Patient Result Transformation". Never restore the glob.
+       */
+      $galleryImages = array_column(gallery_images(CAT_RESULT), 'url');
+
+      if ($galleryImages === []) {
+          $galleryImages = ['/assets/img/case-uttam-gurgaon.jpg'];
       }
       // Duplicate array to build 2 identical sets for 100% infinite endless loop without gaps
       $marqueeLoop = array_merge($galleryImages, $galleryImages);
+      $marqueeIdx = 0;
       ?>
       <?php foreach ($marqueeLoop as $imgUrl): ?>
-        <img src="<?= e($imgUrl) ?>" alt="DenceSpot Patient Result Transformation" loading="lazy" onclick="openCertModal('<?= e($imgUrl) ?>', 'DenceSpot Clinic — Patient Case &amp; Results')" style="cursor:pointer;">
+        <?php $marqueeIdx++; $caseNo = (($marqueeIdx - 1) % max(1, count($galleryImages))) + 1; ?>
+        <img src="<?= e($imgUrl) ?>" alt="Before and after a hair transplant at DenceSpot Clinic, Sector 39 Gurugram — case <?= $caseNo ?>" loading="lazy" onclick="openCertModal('<?= e($imgUrl) ?>', 'Hair transplant case <?= $caseNo ?> — DenceSpot Clinic, Gurugram')" style="cursor:pointer;">
       <?php endforeach; ?>
     </div>
   </div>
@@ -465,6 +530,43 @@ function before_after_slider_section(): string
 
 function awards_certificates_section(): string
 {
+    /**
+     * ⚠ WITHHELD — 1 Sep 2026. Returns nothing until the accreditation is
+     * evidenced. Called from index.php and the seven treatment pages; they need
+     * no change, because this guard turns the section off everywhere at once.
+     *
+     * WHY IT WAS SWITCHED OFF. The three certificate images could not be
+     * reconciled with a genuine NABH award:
+     *
+     *   • all three carry the SAME certificate number, 646744646-2026-001,
+     *     though they claim three distinct credentials;
+     *   • all three carry the same validity window, opening on the very day the
+     *     files were added to the repository;
+     *   • the signature in the "authorized signatures of CEO and Chairman"
+     *     position reads as the name of the person who built this site, and the
+     *     opposing signature renders as "Gor NABH" — a garbled "For NABH";
+     *   • "Excellence in Clinical Services" reads as an award, but the copy
+     *     below called the clinic "officially accredited by NABH for clinical
+     *     excellence", which is a different and larger claim.
+     *
+     * On a YMYL medical site an unevidenced accreditation is the expensive kind
+     * of mistake: it is a misrepresentation under Google's policies, and under
+     * the NMC code of ethics and the Consumer Protection Act it is a misleading
+     * advertisement. It also misleads someone choosing a surgeon.
+     *
+     * TO SWITCH IT BACK ON, all three must be true:
+     *   1. genuine certificate scans replace the three files in assets/img/;
+     *   2. each carries its OWN certificate number and real issue date, and the
+     *      $certs array below is corrected to match;
+     *   3. the accreditation is verifiable in NABH's public directory at
+     *      https://nabh.co/ — and any item that is an award is described as an
+     *      award, not as accreditation.
+     * Then delete this guard. Add the hasCredential node to schema_clinic() at
+     * the same time, and not before: schema must never assert what the page
+     * cannot evidence.
+     */
+    return '';
+
     $certs = [
         [
             'id' => 'cert-1',
@@ -540,18 +642,6 @@ function awards_certificates_section(): string
   </div>
 </section>
 
-<!-- Lightbox Modal for Certificate Zoom -->
-<div id="cert-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:20px;" onclick="closeCertModal(event)">
-  <div style="position:relative; max-width:900px; max-height:90vh; width:100%; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.5); display:flex; flex-direction:column;">
-    <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid var(--line); background:#fff;">
-      <h3 id="cert-modal-title" class="h4" style="margin:0;">NABH Certificate</h3>
-      <button type="button" onclick="closeCertModalForce()" style="background:none; border:none; font-size:24px; cursor:pointer; color:var(--ink);">&times;</button>
-    </div>
-    <div style="padding:20px; text-align:center; overflow-y:auto; flex:1; background:#f9f9fb;">
-      <img id="cert-modal-img" src="" alt="NABH Certificate Full View" style="max-width:100%; max-height:75vh; height:auto; object-fit:contain; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,0.15);">
-    </div>
-  </div>
-</div>
 <?php
     return (string) ob_get_clean();
 }

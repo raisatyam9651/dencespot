@@ -3,56 +3,71 @@
  * /hair-transplant-results-gurgaon — page #4.
  *
  * Proof is the #1 objection in this vertical, so this page has to exist. It
- * also has to be honest: the gallery is built and empty rather than filled
- * with borrowed or stock imagery.
+ * also has to be honest.
  *
- * ⚠ NO ImageObject schema is emitted while the slots are placeholders, and
- * NO AggregateRating appears anywhere on this page. Marking up results or
- * ratings that are not really there is a structured-data violation and, for
- * a medical advertiser in India, a regulatory one.
+ * ⚠ ImageObject is emitted ONLY for images classified CAT_RESULT in
+ * includes/gallery-manifest.php, and NO AggregateRating appears anywhere on
+ * this page. Marking up results or ratings that are not really there is a
+ * structured-data violation and, for a medical advertiser in India, a
+ * regulatory one.
  *
- * To publish a case: add an entry to $cases with real, consented image paths
- * and the metadata filled in. The schema block picks it up automatically.
+ * To publish a case: add the file to the manifest under CAT_RESULT, or add a
+ * fully-described entry to NAMED_CASES. Never scan the directory.
  */
 
 declare(strict_types=1);
 
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/schema.php';
+require_once __DIR__ . '/includes/gallery-manifest.php';
 
 /**
- * Real cases go here. Each needs: written patient consent on file, before and
- * after shot at the same angle, distance and lighting, an accurate interval,
- * and a graft count that matches the operation note.
+ * Cases come from includes/gallery-manifest.php, never from a directory scan.
  *
- * 'before' / 'after' are image paths. While they are null the card renders as
- * a placeholder and contributes nothing to schema.
+ * The manifest exists because this page used to glob() the gallery folder and
+ * label whatever it found "Patient Transformation Case #N" — which published
+ * NABH certificates and another company's marketing creatives as consented
+ * patient results, ImageObject schema and all. Read the header of that file
+ * before changing anything here.
+ *
+ * Each case is ONE composite image containing both panels, with the clinic's
+ * own BEFORE / AFTER labels burnt in. 'technique', 'grafts' and 'interval' are
+ * nullable: an unknown field is omitted from the card and from the schema
+ * caption rather than padded with filler.
  */
-$galleryFiles = glob(__DIR__ . '/assets/img/gallery/*.{jpg,jpeg,png,webp,JPG,PNG,JPEG,WEBP}', GLOB_BRACE);
 $cases = [];
-if (!empty($galleryFiles)) {
-    foreach ($galleryFiles as $idx => $filepath) {
-        $filename = basename($filepath);
-        $cases[] = [
-            'id'        => 'case-' . ($idx + 1),
-            'procedure' => 'hair-transplant',
-            'title'     => 'Patient Transformation Case #' . ($idx + 1),
-            'technique' => 'Doctor-Led Hair Restoration',
-            'grafts'    => 'Sector 39 Gurugram',
-            'interval'  => 'Consented Case',
-            'before'    => '/assets/img/gallery/' . $filename,
-            'after'     => '/assets/img/gallery/' . $filename,
-            'alt'       => 'DenceSpot Clinic Patient Transformation Case #' . ($idx + 1),
-        ];
-    }
-} else {
-    $cases = [
-        ['id' => 'hairline-01', 'procedure' => 'hair-transplant', 'title' => 'Uttam — Hairline & Temple Restoration (Gurgaon)',
-         'technique' => 'FUE Hair Transplant', 'grafts' => '2,400 Grafts', 'interval' => '12 months', 'before' => '/assets/img/case-uttam-gurgaon.jpg', 'after' => '/assets/img/case-uttam-gurgaon.jpg',
-         'alt' => 'Uttam hairline restoration before and after result'],
-        ['id' => 'crown-01', 'procedure' => 'hair-transplant', 'title' => 'Shukri — High-Density Frontal Grafts (Europe)',
-         'technique' => 'Micro-FUE', 'grafts' => '2,800 Grafts', 'interval' => 'OT Completed', 'before' => '/assets/img/case-shukri-europe.jpg', 'after' => '/assets/img/case-shukri-europe.jpg',
-         'alt' => 'Shukri high density graft placement result'],
+
+foreach (NAMED_CASES as $c) {
+    // Real pixels off disk so width/height never contradict the file.
+    $named = @getimagesize(__DIR__ . $c['image']) ?: [1024, 1024];
+    $cases[] = [
+        'id'        => $c['id'],
+        'kind'      => $c['kind'],
+        'procedure' => $c['procedure'],
+        'title'     => $c['title'],
+        'technique' => $c['technique'],
+        'grafts'    => $c['grafts'],
+        'interval'  => $c['interval'],
+        'image'     => $c['image'],
+        'alt'       => $c['alt'],
+        'w'         => $named[0],
+        'h'         => $named[1],
+    ];
+}
+
+foreach (gallery_images(CAT_RESULT) as $i => $img) {
+    $cases[] = [
+        'id'        => 'case-' . ($i + 1),
+        'kind'      => 'result',
+        'procedure' => 'hair-transplant',
+        'title'     => 'Hair transplant case ' . ($i + 1),
+        'technique' => null,
+        'grafts'    => null,
+        'interval'  => null,
+        'image'     => $img['url'],
+        'alt'       => $img['alt'],
+        'w'         => $img['w'],
+        'h'         => $img['h'],
     ];
 }
 
@@ -69,16 +84,40 @@ $visible = $activeFilter === 'all'
     ? $cases
     : array_values(array_filter($cases, static fn (array $c): bool => $c['procedure'] === $activeFilter));
 
-/** Only published cases with real imagery earn schema. */
-$published = array_values(array_filter($cases, static fn (array $c): bool => $c['before'] !== null && $c['after'] !== null));
+/**
+ * Only consented patient photographs earn schema, and only the fields we
+ * actually know go into the caption.
+ *
+ * The procedure-day case is excluded deliberately: it shows grafts on the day
+ * they were placed, so marking it up as a result would assert an outcome the
+ * photograph does not show.
+ */
+$published = array_values(array_filter(
+    // $visible, not $cases: a ?type= view that displays no cases must not still
+    // assert 21 patient photographs in its structured data.
+    $visible,
+    static fn (array $c): bool => $c['image'] !== null && $c['kind'] === 'result'
+));
 
 $imageNodes = array_map(static function (array $c): array {
+    $facts = array_filter([$c['grafts'], $c['technique']]);
+    $caption = $c['title'] . ' — DenceSpot Clinic, Sector 39 Gurugram';
+
+    if ($facts !== []) {
+        $caption .= '. ' . implode(', ', $facts);
+        if ($c['interval'] !== null) {
+            $caption .= ', photographed at ' . $c['interval'];
+        }
+        $caption .= '.';
+    }
+
     return [
         '@type'      => 'ImageObject',
         '@id'        => abs_url('/hair-transplant-results-gurgaon') . '#' . $c['id'],
-        'contentUrl' => abs_url($c['after']),
-        'caption'    => trim($c['title'] . ' — ' . ($c['grafts'] ?? '') . ' ' . ($c['technique'] ?? '') . ', reviewed at ' . ($c['interval'] ?? '')),
+        'contentUrl' => abs_url($c['image']),
+        'caption'    => $caption,
         'creator'    => ['@id' => SITE_ORIGIN . '/#clinic'],
+        'copyrightNotice' => SITE_NAME,
     ];
 }, $published);
 
@@ -89,7 +128,7 @@ $crumbs = [
 
 $page = [
     'title'       => 'Hair Transplant Results in Gurgaon | DenceSpot Clinic',
-    'description' => 'Consented, unedited before and after photographs from DenceSpot Clinic, Gurugram — same angle, same lighting, dated intervals and real graft counts.',
+    'description' => 'Consented before and after photographs from hair transplant patients treated by Dr. Nyra at DenceSpot Clinic, Sector 39 Gurugram. The hair is never digitally altered.',
     'url'         => '/hair-transplant-results-gurgaon',
     'crumbs'      => $crumbs,
     'schema'      => array_merge([
@@ -106,9 +145,10 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:64ch">
       <span class="pill pill--dot">Results</span>
-      <h1 class="h1 mt-3">Hair and Beard Transplant Results</h1>
-      <p class="lead mt-3">Before and after photographs from patients treated at this clinic — shot at the same angle, distance and lighting, unretouched, published with written consent, and labelled with the technique, graft count and how long after the procedure the photograph was taken.</p>
+      <h1 class="h1 mt-3">Hair Transplant Results in Gurgaon</h1>
+      <p class="lead mt-3">Before and after photographs from patients treated at this clinic in Sector 39, Gurugram — published with written consent, with the hair never digitally altered. Where the operation note gives us the technique, graft count and interval, they are printed on the case; where it does not, the case is shown without them rather than with a number nobody can stand behind.</p>
       <p class="body mt-3 measure">Results vary between patients. What these show is what happened for these patients, with their donor supply and their pattern of loss. They are not a prediction of what will happen for you.</p>
+      <?= medical_review_line() ?>
     </div>
 
     <nav class="btn-row mt-6" aria-label="Filter results by procedure">
@@ -118,11 +158,11 @@ require __DIR__ . '/includes/header.php';
       <?php endforeach; ?>
     </nav>
 
-    <?php if ($published === []): ?>
+    <?php if ($visible === []): ?>
       <div class="card card--dashed card--pad-lg mt-6">
         <?= icon('info', 24, 'var(--ink-muted)') ?>
-        <h2 class="h3 mt-3">This gallery is deliberately empty</h2>
-        <p class="body mt-3 measure">Every card below is a placeholder waiting for a real, consented case. Nothing here is stock imagery, a licensed photo library, or a result from another clinic.</p>
+        <h2 class="h3 mt-3"><?= $activeFilter === 'all' ? 'No cases are published yet' : 'No ' . e(strtolower($filters[$activeFilter])) . ' cases are published yet' ?></h2>
+        <p class="body mt-3 measure">This space stays empty until a real, consented case fills it. Nothing here is stock imagery, a licensed photo library, or a result from another clinic.</p>
         <p class="body mt-3 measure">That is not modesty. Publishing borrowed before-and-afters breaches Google's policies on misleading content, breaches medical-advertising rules, and — the part that actually matters — misleads someone making a decision about surgery on their own body. Patients notice, too: the same handful of stock result photos circulate across dozens of clinic websites.</p>
         <p class="body mt-3 measure">Cases appear here as consented patients reach their review points, with the graft count and interval printed on each one so you can judge them properly.</p>
         <div class="btn-row mt-5">
@@ -136,21 +176,31 @@ require __DIR__ . '/includes/header.php';
     <div class="grid grid--3 mt-6">
       <?php foreach ($visible as $case): ?>
         <article class="card" style="padding:0;overflow:hidden">
-          <div class="grid grid--2" style="gap:0">
-            <?php if ($case['before'] !== null): ?>
-              <img src="<?= e($case['before']) ?>" alt="Before — <?= e($case['alt']) ?>" width="600" height="600" loading="lazy" decoding="async">
-              <img src="<?= e($case['after']) ?>" alt="After — <?= e($case['alt']) ?>" width="600" height="600" loading="lazy" decoding="async">
-            <?php else: ?>
-              <div class="media ratio-1-1"><div class="slot"><span>BEFORE — <?= e($case['alt']) ?></span></div></div>
-              <div class="media ratio-1-1"><div class="slot"><span>AFTER — same patient at review</span></div></div>
-            <?php endif; ?>
-          </div>
+          <?php if ($case['image'] !== null): ?>
+            <?php /* One composite per case: the clinic's own image already carries both panels
+                     and its BEFORE / AFTER labels, so splitting it would cut through them. */ ?>
+            <img src="<?= e($case['image']) ?>" alt="<?= e($case['alt']) ?>" width="<?= (int) $case['w'] ?>" height="<?= (int) $case['h'] ?>" loading="lazy" decoding="async">
+          <?php else: ?>
+            <div class="media ratio-1-1"><div class="slot"><span>BEFORE — <?= e($case['alt']) ?></span></div></div>
+          <?php endif; ?>
           <div style="padding:22px">
             <h2 class="h4"><?= e($case['title']) ?></h2>
-            <?php if ($case['grafts'] !== null): ?>
-              <p class="meta mt-2"><?= e($case['grafts']) ?> · <?= e($case['technique']) ?> · reviewed at <?= e($case['interval']) ?></p>
+            <?php
+              // Print only what is actually known. A missing interval used to
+              // render as "reviewed at Consented Case", which said nothing.
+              $facts = array_filter([$case['grafts'], $case['technique']]);
+              if ($case['interval'] !== null) {
+                  $facts[] = $case['kind'] === 'procedure'
+                      ? 'photographed at ' . $case['interval']
+                      : 'reviewed at ' . $case['interval'];
+              } elseif ($case['kind'] === 'procedure') {
+                  $facts[] = 'photographed on the day of surgery, before any growth';
+              }
+            ?>
+            <?php if ($facts !== []): ?>
+              <p class="meta mt-2"><?= e(implode(' · ', $facts)) ?></p>
             <?php else: ?>
-              <p class="meta mt-2" style="color:var(--placeholder)">Technique, graft count and review interval — added with the consented photographs.</p>
+              <p class="meta mt-2" style="color:var(--placeholder)">Graft count and review interval to be added from the operation note.</p>
             <?php endif; ?>
           </div>
         </article>
@@ -163,8 +213,8 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">How to read any clinic's gallery</p>
-      <h2 class="h2 mt-2">Six Checks Before You Believe a Result</h2>
-      <p class="body mt-3">Apply these to ours as readily as to anyone else's. Most published result photography fails at least two.</p>
+      <h2 id="six-checks-before-you-believe-a-result" class="h2 mt-2">Six Checks Before You Believe a Result</h2>
+      <p class="body mt-3">Apply these to ours as readily as to anyone else's. Most published result photography fails at least two. The <a href="/gallery">clinic photo gallery</a> carries the same consented cases alongside photographs of the premises, and what happens between surgery and the twelve-month photograph is set out in <a href="/hair-transplant-aftercare">recovery and aftercare</a>.</p>
     </div>
     <div class="grid grid--3 mt-6">
       <div class="card card--tint card--pad-lg"><span class="step-num">1</span><h3 class="h3 mt-3">Same angle and distance</h3><p class="body-s mt-2">A camera moved a few inches closer, or tilted down, changes apparent density dramatically. If the head is at a different angle in the two shots, the pair proves nothing.</p></div>
@@ -182,7 +232,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">How we photograph</p>
-        <h2 class="h2 mt-2">Our Documentation Protocol</h2>
+        <h2 id="our-documentation-protocol" class="h2 mt-2">Our Documentation Protocol</h2>
         <p class="body mt-3">Progress is measured, not remembered. Every patient is photographed the same way at every visit, which is what makes a change readable at all.</p>
       </div>
       <div class="grid grid--2">

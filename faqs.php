@@ -82,7 +82,7 @@ $crumbs = [
 ];
 
 $page = [
-    'title'       => 'Frequently Asked Questions | DenceSpot Clinic, Gurugram',
+    'title'       => 'Hair Transplant FAQs, Gurgaon | DenceSpot Clinic',
     'description' => 'Answers on booking, cost, safety, privacy and choosing a hair restoration clinic in Gurugram — and where to find the detail for each individual treatment.',
     'url'         => '/faqs',
     'crumbs'      => $crumbs,
@@ -101,8 +101,9 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <span class="pill pill--dot">FAQs</span>
-      <h1 class="h1 mt-3">Frequently Asked Questions</h1>
+      <h1 class="h1 mt-3">Hair Transplant FAQs — DenceSpot Clinic, Gurgaon</h1>
       <p class="lead mt-3">Questions about the clinic itself — booking, cost, safety, privacy and how to compare clinics. Questions about a specific treatment are answered on that treatment's own page, where they belong.</p>
+      <?= medical_review_line() ?>
       <div class="btn-row mt-5">
         <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 18) ?> Ask something else</a>
         <a class="btn btn--outline" href="/book-consultation">Book a consultation</a>
@@ -124,7 +125,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Treatment questions</p>
-      <h2 class="h2 mt-2">Looking for Detail on a Specific Treatment?</h2>
+      <h2 id="looking-for-detail-on-a-specific-treatment" class="h2 mt-2">Looking for Detail on a Specific Treatment?</h2>
       <p class="body mt-3">Each treatment page carries its own set of questions — recovery, shedding, graft counts, session numbers, what results to expect and when.</p>
     </div>
     <div class="grid grid--4 mt-6">

@@ -44,7 +44,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--top">
       <div>
         <span class="pill pill--dot">Visit the clinic</span>
-        <h1 class="h1 mt-3">Contact DenceSpot Clinic</h1>
+        <h1 class="h1 mt-3">Contact DenceSpot Clinic, Sector 39 Gurugram</h1>
         <p class="lead mt-3 measure">One clinic, in Sector 39, Gurugram. Consultations, procedures and every follow-up review happen here, with the same doctor and the same team.</p>
 
         <?= nap_block() ?>
@@ -61,11 +61,11 @@ require __DIR__ . '/includes/header.php';
 
       <div>
         <div class="media ratio-16-10">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.3229126883884!2d77.0438613!3d28.439680699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic!5e0!3m2!1sen!2sus!4v1787587082143!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe title="Google Map showing DenceSpot Clinic at 1123, Sector 39 Road, Jharsa, Sector 39, Gurugram, Haryana 122003" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.3229126883884!2d77.0438613!3d28.439680699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5e4f6f45491%3A0x9dc43165216a74e6!2sDencespot%20Clinic!5e0!3m2!1sen!2sus!4v1787587082143!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
         <div class="grid grid--2 mt-3">
-          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="DenceSpot Clinic exterior and signage" width="800" height="600" loading="lazy"></div>
-          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic storefront and entrance" width="800" height="600" loading="lazy"></div>
+          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-front-board.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
+          <div class="media ratio-4-3 media--sm media--shadow"><img src="/assets/img/clinic-facade.jpg" alt="DenceSpot Clinic shopfront on Sector 39 Road, Jharsa, Gurugram, showing the hair transplant and PRP treatment signage" width="800" height="600" loading="lazy"></div>
         </div>
         <a class="btn btn--outline btn--block mt-3" href="<?= e(MAPS_URL) ?>" rel="noopener"><?= icon('pin', 17) ?> Open in Google Maps</a>
       </div>
@@ -77,7 +77,7 @@ require __DIR__ . '/includes/header.php';
   <div class="wrap">
     <div style="max-width:62ch">
       <p class="eyebrow">Getting here</p>
-      <h2 class="h2 mt-2">Finding the Clinic</h2>
+      <h2 id="finding-the-clinic" class="h2 mt-2">Finding the Clinic</h2>
       <p class="body mt-3">We are in Sector 39, <?= e(NAP_LANDMARK) ?>.</p>
     </div>
     <?php
@@ -110,7 +110,7 @@ require __DIR__ . '/includes/header.php';
     <div class="split split--sidebar">
       <div>
         <p class="eyebrow">Before you travel</p>
-        <h2 class="h2 mt-2">Practical Notes</h2>
+        <h2 id="practical-notes" class="h2 mt-2">Practical Notes</h2>
       </div>
       <div class="grid grid--2">
         <div class="card"><?= icon('clock', 22, 'var(--accent-deep)') ?><h3 class="h4 mt-2">Opening hours</h3><p class="body-s mt-2"><?= e(HOURS_DISPLAY) ?>. <?= e(HOURS_NOTE) ?>. Enquiries sent overnight are answered the next working morning.</p></div>

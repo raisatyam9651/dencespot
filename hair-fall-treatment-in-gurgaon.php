@@ -28,7 +28,7 @@ $areas = [
 $causes = [
     ['title' => 'Male pattern hair loss', 'body' => 'Androgenetic loss following a recognisable pattern — temples, then crown. Genetic and progressive, which is why the plan matters more than any single treatment.', 'icon' => 'hairline'],
     ['title' => 'Female pattern hair loss', 'body' => 'Usually diffuse thinning and a widening parting rather than a receding line. Frequently has a treatable contributor sitting behind it.', 'icon' => 'user'],
-    ['title' => 'Telogen effluvium', 'body' => 'Sudden, heavy shedding two to three months after a trigger — illness, surgery, childbirth, crash dieting, severe stress. Usually self-limiting once the trigger is addressed.', 'icon' => 'chart'],
+    ['title' => 'Telogen effluvium', 'body' => 'Sudden, heavy shedding two to three months after a trigger — illness, surgery, childbirth, crash dieting, severe stress. Usually self-limiting once the trigger is addressed (<a href="https://dermnetnz.org/topics/telogen-effluvium" rel="noopener nofollow" target="_blank">DermNet: telogen effluvium</a>).', 'icon' => 'chart'],
     ['title' => 'Nutritional and thyroid causes', 'body' => 'Low iron or ferritin, vitamin D deficiency, and under- or over-active thyroid all show up as hair loss. All are correctable, and all are missed if nobody tests.', 'icon' => 'search'],
     ['title' => 'Alopecia areata', 'body' => 'Well-defined round patches of loss, on the scalp or in the beard. An autoimmune condition that is treated medically — not with surgery while it is active.', 'icon' => 'shield'],
     ['title' => 'Scalp conditions', 'body' => 'Seborrhoeic dermatitis, psoriasis and fungal infection cause shedding and inflammation. The scalp is treated first; hair generally follows.', 'icon' => 'settings'],
@@ -44,9 +44,9 @@ $faqs = [
     ['q' => 'What tests are done for hair fall?',
      'a' => 'Examination and scalp magnification first, then blood investigations where indicated — commonly thyroid function, iron studies including ferritin, vitamin D, and a full blood count. In some cases hormonal tests are added. The point is to identify anything reversible before committing you to long-term treatment.'],
     ['q' => 'Can hair fall be reversed?',
-     'a' => 'It depends entirely on the cause. Shedding from a nutritional deficiency, a thyroid problem or telogen effluvium commonly recovers once the cause is corrected. Pattern hair loss is progressive: treatment slows it and can thicken miniaturising hairs, but follicles that are already gone do not come back without surgery.'],
+     'a' => 'It depends entirely on the cause. Shedding from a nutritional deficiency, a thyroid problem or telogen effluvium commonly recovers once the cause is corrected. Pattern hair loss is progressive: treatment slows it and can thicken miniaturising hairs, but follicles that are already gone do not come back without surgery. Background on the condition from <a href="https://dermnetnz.org/topics/male-pattern-hair-loss" rel="noopener nofollow" target="_blank">DermNet</a> and the <a href="https://www.nhs.uk/symptoms/hair-loss/" rel="noopener nofollow" target="_blank">NHS</a>.'],
     ['q' => 'Does stress cause hair fall?',
-     'a' => 'Significant physical or emotional stress can trigger telogen effluvium, where a large proportion of follicles shift into the shedding phase at once. The shedding typically appears two to three months after the event and usually settles once the trigger has passed. Persistent stress can also worsen an existing pattern.'],
+     'a' => 'Significant physical or emotional stress can trigger telogen effluvium, where a large proportion of follicles shift into the shedding phase at once. The shedding typically appears two to three months after the event and usually settles once the trigger has passed — the pattern <a href="https://dermnetnz.org/topics/telogen-effluvium" rel="noopener nofollow" target="_blank">DermNet describes for telogen effluvium</a>. Persistent stress can also worsen an existing pattern.'],
     ['q' => 'What is the difference between hair fall and hair loss?',
      'a' => 'Hair fall usually describes visible shedding — hair on the pillow, in the shower, on the comb. Hair loss describes the net result: less hair than there was. You can shed heavily and keep your density if regrowth keeps pace, and you can lose density with barely any visible shedding. Both are assessed differently.'],
     ['q' => 'Do hair fall shampoos and supplements work?',
@@ -65,7 +65,7 @@ $faqs = [
 
 $crumbs = [
     ['name' => 'Home', 'url' => '/'],
-    ['name' => 'Treatments', 'url' => '/#treatments'],
+    ['name' => 'Treatments', 'url' => '/hair-transplant-in-gurgaon'],
     ['name' => 'Hair fall treatment in Gurgaon'],
 ];
 
@@ -117,7 +117,7 @@ require __DIR__ . '/includes/header.php';
       </div>
 
       <div class="hero__figure">
-        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Scalp examination and consultation at DenceSpot Clinic" width="800" height="1000" loading="eager"></div>
+        <div class="media ratio-4-5 media--shadow"><img src="/assets/img/dr-nayra.webp" alt="Dr. Nyra, MBBS, MD (Dermatology), hair restoration doctor at DenceSpot Clinic, Sector 39 Gurugram" width="800" height="1000" loading="eager"></div>
         <div class="hero__badge-card">
           <p class="eyebrow">Assessed &amp; reviewed by</p>
           <p class="h4 mt-1"><?= doctor_name() ?></p>
@@ -144,7 +144,7 @@ require __DIR__ . '/includes/header.php';
     <div style="max-width:62ch">
       <p class="eyebrow">Why hair falls</p>
       <h2 class="h2 mt-2">The Common Causes of Hair Fall</h2>
-      <p class="body mt-3">Several of these can run at once — pattern loss underneath, a thyroid problem on top of it, a scalp condition making both look worse. That is exactly why the examination comes before the prescription.</p>
+      <p class="body mt-3">The common causes of hair fall are androgenetic alopecia (male and female pattern loss), telogen effluvium after illness, surgery, childbirth or acute stress, thyroid disorder, iron deficiency measured as low ferritin, alopecia areata, and scalp conditions such as seborrhoeic dermatitis. Several can run at once — pattern loss underneath, a thyroid problem on top of it, a scalp condition making both look worse. That is exactly why the examination comes before the prescription.</p>
     </div>
     <div class="grid grid--4 mt-6">
       <?php foreach ($causes as $c): ?>

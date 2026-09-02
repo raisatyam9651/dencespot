@@ -3,36 +3,90 @@
 # NOTE: includes/config.php has SITE_STAGING = false, so pages emit
 # <meta name="robots" content="index, follow">. Setting that constant back to
 # true re-applies a site-wide noindex and nothing here will be indexed.
+#
+# ⚠ A crawler obeys exactly ONE group — the most specific one matching its
+# token — and does NOT inherit anything from "User-agent: *". The five AI
+# groups below previously carried only "Allow: /", which meant GPTBot,
+# PerplexityBot and the rest were permitted to crawl /storage/ (captured leads:
+# real patient names, phone numbers and IPs), /includes/ and the enquiry
+# handler. Every group therefore repeats the full restriction list. If you add
+# a Disallow anywhere, add it to every group.
 
 User-agent: *
 Allow: /
 
 # Conversion and handler endpoints — no search value, and indexing the
 # thank-you page corrupts conversion measurement.
-Disallow: /thank-you
 Disallow: /enquire.php
 Disallow: /storage/
 Disallow: /includes/
+Disallow: /dencespot.com-audit/
 
 # Query-string variants of real pages (tracking, form errors).
+#
+# NOT disallowed: ?type= on the results page and ?topic= on the blog. Both
+# self-canonicalise to their clean URL, and a URL Google cannot crawl is a URL
+# whose canonical Google cannot read — blocking them would strand the signal
+# that consolidates them.
 Disallow: /*?error=
 Disallow: /*?utm_
 
-# AI answer engines are a real referral channel for local health queries and
-# convert far better than classic organic. Explicitly welcome.
+# ─────────────────────────────────────────────────────────────────────────────
+# AI answer engines
+#
+# A real referral channel for local health queries, and they convert far better
+# than classic organic — so they are explicitly welcome on the public pages and
+# explicitly excluded from the same private paths as everyone else.
+# ─────────────────────────────────────────────────────────────────────────────
+
 User-agent: GPTBot
 Allow: /
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+Disallow: /dencespot.com-audit/
+Disallow: /*?error=
+Disallow: /*?utm_
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+Disallow: /dencespot.com-audit/
+Disallow: /*?error=
+Disallow: /*?utm_
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+Disallow: /dencespot.com-audit/
+Disallow: /*?error=
+Disallow: /*?utm_
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+Disallow: /dencespot.com-audit/
+Disallow: /*?error=
+Disallow: /*?utm_
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /enquire.php
+Disallow: /storage/
+Disallow: /includes/
+Disallow: /dencespot.com-audit/
+Disallow: /*?error=
+Disallow: /*?utm_
+
+# /thank-you is deliberately NOT disallowed: it already ships
+# <meta name="robots" content="noindex, follow">, and a disallowed URL is never
+# crawled, so the noindex would never be read. Disallow and noindex on the same
+# URL cancel each other out — pick one, and noindex is the right one here.
 
 Sitemap: https://dencespot.com/sitemap.xml

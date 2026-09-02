@@ -58,6 +58,27 @@ declare(strict_types=1);
   </div>
 </footer>
 
+<!--
+  Image lightbox.
+
+  This markup used to live inside awards_certificates_section() in
+  components.php. When that section was withheld it took the modal with it,
+  leaving 44 dead openCertModal() handlers on every page — and /gallery, which
+  never called that section, had never had a working lightbox at all. It lives
+  here now because the JS that drives it is in this file: the two cannot be
+  separated again by withholding a section.
+-->
+<div id="cert-modal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:20px;" onclick="closeCertModal(event)">
+  <div style="position:relative; max-width:900px; max-height:90vh; width:100%; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.5); display:flex; flex-direction:column;">
+    <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid var(--line); background:#fff;">
+      <h3 id="cert-modal-title" class="h4" style="margin:0;">DenceSpot Clinic, Gurugram</h3>
+      <button type="button" onclick="closeCertModalForce()" style="background:none; border:none; font-size:24px; cursor:pointer; color:var(--ink);" aria-label="Close image">&times;</button>
+    </div>
+    <div style="padding:20px; text-align:center; overflow-y:auto; flex:1; background:#f9f9fb;">
+      <img id="cert-modal-img" src="" alt="" style="max-width:100%; max-height:75vh; height:auto; object-fit:contain; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,0.15);">
+    </div>
+  </div>
+</div>
 <div class="sticky-cta">
   <a class="btn btn--outline" href="tel:<?= e(PHONE_E164) ?>" data-track="call"><?= icon('phone', 17) ?> Call</a>
   <a class="btn btn--accent" href="<?= e(WHATSAPP_URL) ?>" rel="noopener" data-track="whatsapp"><?= icon('whatsapp', 17) ?> WhatsApp</a>
@@ -137,7 +158,12 @@ declare(strict_types=1);
     var modalTitle = document.getElementById('cert-modal-title');
     if (!modal || !modalImg) return;
     modalImg.src = imgUrl;
-    if (modalTitle) modalTitle.textContent = title || 'NABH Accreditation Certificate';
+    // The enlarged image is the whole point of the dialog, so it must carry a
+    // description. The markup ships alt="" because the src is not known until
+    // this runs; leaving it empty would announce the enlarged patient
+    // photograph as decorative.
+    modalImg.alt = title || 'DenceSpot Clinic, Gurugram';
+    if (modalTitle) modalTitle.textContent = title || 'DenceSpot Clinic, Gurugram';
     modal.style.display = 'flex';
   };
 

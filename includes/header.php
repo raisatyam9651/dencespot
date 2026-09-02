@@ -28,6 +28,7 @@ $page = array_merge([
     'url'         => '/',
     'crumbs'      => [],
     'schema'      => [],
+    'og_type'     => 'website',
     'og_image'    => OG_IMAGE,   // per-page override allowed; never empty
     'nav_active'  => null,
     'body_class'  => '',
@@ -38,7 +39,9 @@ $page = array_merge([
 $canonical  = abs_url($page['url']);
 $navActive  = $page['nav_active'] ?? $page['url'];
 $ogImage    = $page['og_image'] !== '' ? abs_url($page['og_image']) : '';
-$schemaHtml = schema_render($page['schema']);
+// Append the page-level medical review node where the page earns one.
+$medicalNode = schema_medical_webpage($page['url'] ?? '', $page['title'] ?? SITE_NAME);
+$schemaHtml  = schema_render($medicalNode === null ? $page['schema'] : array_merge($page['schema'], [$medicalNode]));
 ?>
 <!DOCTYPE html>
 <html lang="en-IN">
@@ -56,10 +59,11 @@ $schemaHtml = schema_render($page['schema']);
 <?php elseif ($page['noindex']): ?>
 <meta name="robots" content="noindex, follow">
 <?php else: ?>
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <?php endif; ?>
 
-<meta property="og:type" content="website">
+<?php /* Articles must declare og:type=article, or the blog unfurls as a site homepage. */ ?>
+<meta property="og:type" content="<?= e($page['og_type'] ?? 'website') ?>">
 <meta property="og:site_name" content="<?= e(SITE_NAME) ?>">
 <meta property="og:title" content="<?= e($page['title']) ?>">
 <meta property="og:description" content="<?= e($page['description']) ?>">

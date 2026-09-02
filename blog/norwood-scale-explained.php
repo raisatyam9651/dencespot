@@ -8,6 +8,20 @@ declare(strict_types=1);
 $postSlug = 'norwood-scale-explained';
 $postDescription = 'The seven Norwood stages of male pattern hair loss explained plainly, and why your stage matters less than whether the loss has stabilised.';
 
+/**
+ * Drives both the FAQPage schema (emitted by blog-header.php) and the visible
+ * accordion at the foot of this article, from this one array.
+ */
+$postFaqs = [
+    ['q' => 'Which Norwood stage needs a hair transplant?',
+     'a' => 'No stage requires surgery by itself. The stage describes where you are today; candidacy is decided by whether the loss has stabilised, what the donor area can safely give, and whether a reversible cause has been excluded first. See <a href="/hair-transplant-in-gurgaon">hair transplant in Gurgaon</a>.'],
+    ['q' => 'Can you skip a Norwood stage?',
+     'a' => 'Progression is not obliged to move one stage at a time and does not run at a fixed speed. Some men sit at one stage for a decade; others move quickly through their twenties and then slow down. That is exactly why a stage on its own is a poor basis for planning surgery.'],
+    ['q' => 'Does the Norwood scale apply to women?',
+     'a' => 'No. Female pattern loss is usually diffuse rather than patterned and is graded on the Ludwig scale instead. It also has a treatable cause behind it far more often, which is why the investigation runs wider — see <a href="/hair-fall-treatment-in-gurgaon">hair fall treatment in Gurgaon</a>.'],
+    ['q' => 'How fast does hair loss progress between stages?',
+     'a' => 'There is no standard rate. Progression is driven by genetics and age, and the only reliable way to know your own is a fixed-angle photograph now and another in six to twelve months. That comparison, not a stage number, is what tells you whether loss has stabilised.'],
+];
 require __DIR__ . '/../includes/blog-header.php';
 ?>
 
@@ -15,11 +29,11 @@ require __DIR__ . '/../includes/blog-header.php';
 
 <p>It is useful. It is also routinely misused, mostly by clinics that treat it as a pricing table. Your stage is a description of where you are today. It is not a diagnosis, not a prognosis, and on its own it does not decide whether you are a candidate for surgery.</p>
 
-<h2>Where the scale comes from</h2>
+<h2 id="where-the-scale-comes-from">Where the scale comes from</h2>
 
-<p>It is properly the Norwood–Hamilton scale. James Hamilton first classified male pattern loss in the 1950s; O'Tar Norwood revised and extended it in 1975 into the version used today. Nothing about it is proprietary to any clinic, and any clinic showing you a "custom" scale has invented a marketing device.</p>
+<p>It is properly the Norwood–Hamilton scale. James Hamilton first classified male pattern loss in the 1950s; O'Tar Norwood revised and extended it in 1975 into the version used today (<a href="https://dermnetnz.org/topics/male-pattern-hair-loss" rel="noopener nofollow" target="_blank">DermNet: androgenetic alopecia</a>). Nothing about it is proprietary to any clinic, and any clinic showing you a "custom" scale has invented a marketing device.</p>
 
-<h2>The seven stages</h2>
+<h2 id="the-seven-stages">The seven stages</h2>
 
 <h3>Stage 1</h3>
 <p>No significant recession. This is the adolescent hairline — low, straight across, no temporal recession. Most adult men are not stage 1, and a stage 1 hairline in a man of thirty-five is uncommon rather than the norm.</p>
@@ -45,7 +59,7 @@ require __DIR__ . '/../includes/blog-header.php';
 <h3>Stage 7</h3>
 <p>The most advanced stage. Only a horseshoe band of hair remains around the sides and the back of the head, and that band is often thinner than it was.</p>
 
-<h2>What your stage does and does not tell you</h2>
+<h2 id="what-your-stage-does-and-does-not-tell-you">What your stage does and does not tell you</h2>
 
 <p><strong>It gives a rough sense of area, and therefore of graft numbers.</strong> Broadly, an early stage-3 hairline rebuild is in the region of 1,200–2,000 grafts, while stage 5 or beyond typically needs 2,500–3,500 and is often staged across sessions. Those are patient-education bands, not quotes — <a href="/hair-transplant-cost-in-gurgaon">how graft counts and cost actually work</a> is a longer conversation.</p>
 
@@ -59,13 +73,13 @@ require __DIR__ . '/../includes/blog-header.php';
 
 <blockquote>A high Norwood stage is not a barrier to treatment, and a low one is not a licence for it. What matters is whether the pattern has settled and whether your donor area can fund the plan over your lifetime — not over the next twelve months.</blockquote>
 
-<h2>Why the crown is expensive</h2>
+<h2 id="why-the-crown-is-expensive">Why the crown is expensive</h2>
 
 <p>Patients often assume the hairline is the demanding part. Surgically, the hairline is the delicate part — but the crown is the expensive one. It is a circular area with hair whorling outward from a central point, so it consumes grafts quickly, and it tends to keep expanding as pattern loss progresses.</p>
 
 <p>This is why an experienced surgeon may recommend prioritising the frontal third even when the crown bothers you more. A restored frontal hairline frames the face and is what people see when they look at you. A crown filled at thirty with the whole donor supply leaves nothing for the frontal line that recedes at forty-two.</p>
 
-<h2>What usually gets discussed at each stage</h2>
+<h2 id="what-usually-gets-discussed-at-each-stage">What usually gets discussed at each stage</h2>
 
 <p>A rough map of what tends to be on the table, and why. Every line here assumes the loss has stabilised and the donor area supports it — neither of which can be assumed from a stage alone.</p>
 
@@ -88,7 +102,7 @@ require __DIR__ . '/../includes/blog-header.php';
 
 <p>Notice what is missing from that table: a stage at which surgery is automatic. At every stage the first question is whether the loss is still moving, and at the advanced end the limiting factor stops being what you want and becomes what the donor area can supply.</p>
 
-<h2>Three ways the scale gets misused</h2>
+<h2 id="three-ways-the-scale-gets-misused">Three ways the scale gets misused</h2>
 
 <p><strong>As a price list.</strong> "You're a Norwood 5, that's 3,000 grafts, that's ₹X." Graft counts come from mapping the recipient area against measured donor density, not from a stage. A stage is a shape; two people sharing it can need numbers hundreds apart.</p>
 
@@ -96,20 +110,28 @@ require __DIR__ . '/../includes/blog-header.php';
 
 <p><strong>As a substitute for examination.</strong> A stage assigned from a photograph misses miniaturisation entirely, and miniaturisation is what tells you whether the process is active right now.</p>
 
-<h2>What about women?</h2>
+<h2 id="what-about-women">What about women?</h2>
 
-<p>The Norwood scale does not apply. Female pattern loss is usually diffuse rather than patterned — a widening parting and general thinning rather than a receding line — and it is classified on the Ludwig scale (grades I to III). Female hair loss also has a treatable cause behind it far more often, which is why the investigation runs wider before anything is recommended. See <a href="/hair-fall-treatment-in-gurgaon">women's hair loss treatment</a>.</p>
+<p>The Norwood scale does not apply. Female pattern loss is usually diffuse rather than patterned — a widening parting and general thinning rather than a receding line — and it is classified on the <a href="https://dermnetnz.org/topics/female-pattern-hair-loss" rel="noopener nofollow" target="_blank">Ludwig scale</a> (grades I to III). Female hair loss also has a treatable cause behind it far more often, which is why the investigation runs wider before anything is recommended. See <a href="/hair-fall-treatment-in-gurgaon">women's hair loss treatment</a>.</p>
 
-<h2>Staging yourself from a photograph</h2>
+<h2 id="staging-yourself-from-a-photograph">Staging yourself from a photograph</h2>
 
 <p>You can get roughly there with a mirror, and it is a reasonable starting point for a conversation. What you cannot do from a photograph is see miniaturisation — the progressive thinning of individual hairs that happens before any visible bald patch appears. Under magnification a scalp that looks like a stage 2 can show clear miniaturisation across the crown, which changes both the diagnosis and the plan.</p>
 
 <p>That is the main thing a scalp examination adds, and it is the reason no honest clinic quotes a graft number from a photograph you sent on WhatsApp.</p>
 
-<h2>What to do with this</h2>
+<?= blog_cta(
+    'Which stage are you — and does it actually change anything?',
+    'An examination settles the stage, whether the loss has stabilised, and what your donor area can support. That last part is the one the scale cannot tell you, and it is the part that decides what is possible.'
+) ?>
+<h2 id="what-to-do-with-this">What to do with this</h2>
 
 <p>If you have identified your stage: useful, but the next question is more important — has it changed in the last two years? Old photographs are genuinely diagnostic here. Bring them to a consultation.</p>
 
 <p>If your loss is still moving, the honest answer is usually medical treatment first and surgery later, once the pattern has settled. That is a less satisfying answer than a date in the diary, and it is the one that leaves you with more hair at fifty. The <a href="/hair-fall-treatment-in-gurgaon">hair fall assessment</a> covers what gets investigated and in what order.</p>
 
 <?php require __DIR__ . '/../includes/blog-footer.php'; ?>
+
+<h2 id="norwood-scale-faqs">Norwood scale FAQs</h2>
+
+<?= faq_list($postFaqs) ?>
